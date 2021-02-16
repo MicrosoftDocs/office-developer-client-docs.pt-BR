@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413462"
 ---
-# <a name="prompt-cell-actions-section"></a><span data-ttu-id="fb2c7-103">Célula Prompt (Seção Actions)</span><span class="sxs-lookup"><span data-stu-id="fb2c7-103">Prompt Cell (Actions Section)</span></span>
+# <a name="prompt-cell-actions-section"></a><span data-ttu-id="6bf9b-103">Célula Prompt (Seção Actions)</span><span class="sxs-lookup"><span data-stu-id="6bf9b-103">Prompt Cell (Actions Section)</span></span>
 
-<span data-ttu-id="fb2c7-104">No Visio 2002, esta célula não é mais utilizada.</span><span class="sxs-lookup"><span data-stu-id="fb2c7-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
+<span data-ttu-id="6bf9b-104">No Visio 2002, esta célula não é mais utilizada.</span><span class="sxs-lookup"><span data-stu-id="6bf9b-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fb2c7-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="fb2c7-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6bf9b-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="6bf9b-105">Remarks</span></span>
 
-<span data-ttu-id="fb2c7-106">Em versões anteriores do Visio, esta célula especificava um prompt descritivo, exibido na barra de status, quando o comando de atalho correspondente era selecionado.</span><span class="sxs-lookup"><span data-stu-id="fb2c7-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
+<span data-ttu-id="6bf9b-106">Em versões anteriores do Visio, esta célula especificava um prompt descritivo, exibido na barra de status, quando o comando de atalho correspondente era selecionado.</span><span class="sxs-lookup"><span data-stu-id="6bf9b-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
   
 

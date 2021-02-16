@@ -15,27 +15,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417438"
 ---
-# <a name="isocialprovidergetautoconfiguredsession"></a><span data-ttu-id="b747f-103">ISocialProvider::GetAutoConfiguredSession</span><span class="sxs-lookup"><span data-stu-id="b747f-103">ISocialProvider::GetAutoConfiguredSession</span></span>
+# <a name="isocialprovidergetautoconfiguredsession"></a><span data-ttu-id="d2812-103">ISocialProvider::GetAutoConfiguredSession</span><span class="sxs-lookup"><span data-stu-id="d2812-103">ISocialProvider::GetAutoConfiguredSession</span></span>
 
-<span data-ttu-id="b747f-104">Obtém uma interface [ISocialSession](isocialsessioniunknown.md) configurada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="b747f-104">Gets an automatically configured [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
+<span data-ttu-id="d2812-104">Obtém uma interface [ISocialSession](isocialsessioniunknown.md) configurada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="d2812-104">Gets an automatically configured [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetAutoConfiguredSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b747f-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b747f-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d2812-105">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="d2812-105">Parameters</span></span>
 
-<span data-ttu-id="b747f-106">_session_</span><span class="sxs-lookup"><span data-stu-id="b747f-106">_session_</span></span>
+<span data-ttu-id="d2812-106">_session_</span><span class="sxs-lookup"><span data-stu-id="d2812-106">_session_</span></span>
   
-> <span data-ttu-id="b747f-107">[out] Uma interface **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="b747f-107">[out] An **ISocialSession** interface.</span></span> 
+> <span data-ttu-id="d2812-107">[out] Uma interface **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="d2812-107">[out] An **ISocialSession** interface.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="b747f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="b747f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d2812-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="d2812-108">Remarks</span></span>
 
-<span data-ttu-id="b747f-109">A interface **ISocialSession** retornada é registrada automaticamente na rede, com base em um método que é específico para o provedor.</span><span class="sxs-lookup"><span data-stu-id="b747f-109">The returned **ISocialSession** interface is automatically logged on to the network, based on a method that is specific to the provider.</span></span> 
+<span data-ttu-id="d2812-109">A interface **ISocialSession** retornada é registrada automaticamente na rede, com base em um método que é específico para o provedor.</span><span class="sxs-lookup"><span data-stu-id="d2812-109">The returned **ISocialSession** interface is automatically logged on to the network, based on a method that is specific to the provider.</span></span> 
   
-<span data-ttu-id="b747f-110">O provedor deve retornar o erro OSC_E_NOT_IMPLEMENTED se a rede social não oferecer suporte à configuração automática.</span><span class="sxs-lookup"><span data-stu-id="b747f-110">The provider should return the OSC_E_NOT_IMPLEMENTED error if the social network does not support automatic configuration.</span></span> <span data-ttu-id="b747f-111">Confira informações sobre os códigos de erro em [Códigos de Erro do Provedor do Conector Social do Outlook](outlook-social-connector-provider-error-codes.md).</span><span class="sxs-lookup"><span data-stu-id="b747f-111">For information about error codes, see [Outlook Social Connector Provider Error Codes](outlook-social-connector-provider-error-codes.md).</span></span>
+<span data-ttu-id="d2812-110">O provedor deve retornar o erro OSC_E_NOT_IMPLEMENTED se a rede social não oferecer suporte à configuração automática.</span><span class="sxs-lookup"><span data-stu-id="d2812-110">The provider should return the OSC_E_NOT_IMPLEMENTED error if the social network does not support automatic configuration.</span></span> <span data-ttu-id="d2812-111">Confira informações sobre os códigos de erro em [Códigos de Erro do Provedor do Conector Social do Outlook](outlook-social-connector-provider-error-codes.md).</span><span class="sxs-lookup"><span data-stu-id="d2812-111">For information about error codes, see [Outlook Social Connector Provider Error Codes](outlook-social-connector-provider-error-codes.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b747f-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="b747f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2812-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="d2812-112">See also</span></span>
 
-- [<span data-ttu-id="b747f-113">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b747f-113">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="d2812-113">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d2812-113">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

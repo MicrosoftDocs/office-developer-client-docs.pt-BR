@@ -14,37 +14,37 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414106"
 ---
-# <a name="xlasyncreturn"></a><span data-ttu-id="68d6d-103">xlAsyncReturn</span><span class="sxs-lookup"><span data-stu-id="68d6d-103">xlAsyncReturn</span></span>
+# <a name="xlasyncreturn"></a><span data-ttu-id="73181-103">xlAsyncReturn</span><span class="sxs-lookup"><span data-stu-id="73181-103">xlAsyncReturn</span></span>
 
-<span data-ttu-id="68d6d-104">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="68d6d-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="73181-104">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="73181-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="68d6d-105">Usado para retornar o resultado de uma função assíncrona definida pelo usuário (UDF).</span><span class="sxs-lookup"><span data-stu-id="68d6d-105">Used to return the result of an asynchronous user-defined function (UDF).</span></span>
+<span data-ttu-id="73181-105">Usado para retornar o resultado de uma função assíncrona definida pelo usuário (UDF).</span><span class="sxs-lookup"><span data-stu-id="73181-105">Used to return the result of an asynchronous user-defined function (UDF).</span></span>
   
 ```cpp
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="68d6d-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="68d6d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="73181-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="73181-106">Parameters</span></span>
 
-<span data-ttu-id="68d6d-107">_pxAsyncHandle_ (**xltypeBigData**)</span><span class="sxs-lookup"><span data-stu-id="68d6d-107">_pxAsyncHandle_ (**xltypeBigData**)</span></span>
+<span data-ttu-id="73181-107">_pxAsyncHandle_ (**xltypeBigData**)</span><span class="sxs-lookup"><span data-stu-id="73181-107">_pxAsyncHandle_ (**xltypeBigData**)</span></span>
   
-<span data-ttu-id="68d6d-108">O identificador assíncrono do UDF para o qual o resultado é retornado.</span><span class="sxs-lookup"><span data-stu-id="68d6d-108">The asynchronous handle of the UDF to which the result is returned.</span></span>
+<span data-ttu-id="73181-108">O alça assíncrona da UDF para a qual o resultado é retornado.</span><span class="sxs-lookup"><span data-stu-id="73181-108">The asynchronous handle of the UDF to which the result is returned.</span></span>
   
-<span data-ttu-id="68d6d-109">_pxFunctionResult_</span><span class="sxs-lookup"><span data-stu-id="68d6d-109">_pxFunctionResult_</span></span>
+<span data-ttu-id="73181-109">_pxFunctionResult_</span><span class="sxs-lookup"><span data-stu-id="73181-109">_pxFunctionResult_</span></span>
   
-<span data-ttu-id="68d6d-110">O valor de retorno do UDF.</span><span class="sxs-lookup"><span data-stu-id="68d6d-110">The return value of the UDF.</span></span>
+<span data-ttu-id="73181-110">O valor de retorno da UDF.</span><span class="sxs-lookup"><span data-stu-id="73181-110">The return value of the UDF.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="68d6d-111">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="68d6d-111">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="73181-111">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="73181-111">Property value/Return value</span></span>
 
-<span data-ttu-id="68d6d-112">Se bem-sucedido, retorna **true** (**xltypeBool**).</span><span class="sxs-lookup"><span data-stu-id="68d6d-112">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="68d6d-113">Se não tiver êxito, retornará **false**.</span><span class="sxs-lookup"><span data-stu-id="68d6d-113">If unsuccessful, returns **FALSE**.</span></span>
+<span data-ttu-id="73181-112">Se bem-sucedido, **retorna VERDADEIRO** (**xltypeBool**).</span><span class="sxs-lookup"><span data-stu-id="73181-112">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="73181-113">Se não tiver êxito, **retornará FALSE**.</span><span class="sxs-lookup"><span data-stu-id="73181-113">If unsuccessful, returns **FALSE**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="68d6d-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="68d6d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="73181-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="73181-114">Remarks</span></span>
 
-<span data-ttu-id="68d6d-115">**xlAsyncReturn** é o único retorno de chamada que o Excel permite em threads não calculados durante o recálculo.</span><span class="sxs-lookup"><span data-stu-id="68d6d-115">**xlAsyncReturn** is the only callback Excel allows on non-calculation threads during recalculation.</span></span> <span data-ttu-id="68d6d-116">A parte assíncrona de um UDF assíncrono não deve realizar nenhum retorno de chamada diferente de **xlAsyncReturn**.</span><span class="sxs-lookup"><span data-stu-id="68d6d-116">The asynchronous portion of an asynchronous UDF must not perform any callbacks other than **xlAsyncReturn**.</span></span> <span data-ttu-id="68d6d-117">O XLL deve liberar memória alocada para armazenar o valor de retorno.</span><span class="sxs-lookup"><span data-stu-id="68d6d-117">The XLL must free memory allocated to hold the return value.</span></span>
+<span data-ttu-id="73181-115">**xlAsyncReturn** é o único retorno de chamada que o Excel permite em threads que não são de cálculo durante o recálculo.</span><span class="sxs-lookup"><span data-stu-id="73181-115">**xlAsyncReturn** is the only callback Excel allows on non-calculation threads during recalculation.</span></span> <span data-ttu-id="73181-116">A parte assíncrona de uma UDF assíncrona não deve executar nenhum retorno de chamada diferente de **xlAsyncReturn**.</span><span class="sxs-lookup"><span data-stu-id="73181-116">The asynchronous portion of an asynchronous UDF must not perform any callbacks other than **xlAsyncReturn**.</span></span> <span data-ttu-id="73181-117">O XLL deve liberar memória alocada para manter o valor de retorno.</span><span class="sxs-lookup"><span data-stu-id="73181-117">The XLL must free memory allocated to hold the return value.</span></span>
   
-<span data-ttu-id="68d6d-118">Os parâmetros _pxAsyncHandle_ e _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usados para retornar uma matriz de identificadores e valores correspondentes em um único retorno de chamada.</span><span class="sxs-lookup"><span data-stu-id="68d6d-118">The _pxAsyncHandle_ and  _pxFunctionResult_ parameters can also be of type **xltypeMulti** when used to return an array of handles and corresponding values in a single callback.</span></span> <span data-ttu-id="68d6d-119">Ao usar um único retorno de chamada, passe um LPXLOPER12 que aponta para estruturas XLOPER12 que contêm uma matriz dimensional que contém as alças assíncronas e valores de retorno.</span><span class="sxs-lookup"><span data-stu-id="68d6d-119">When using a single callback, pass an LPXLOPER12 that points to XLOPER12 structures that contain one dimensional arrays that contain the asynchronous handles and return values.</span></span> <span data-ttu-id="68d6d-120">Essas matrizes devem estar na mesma ordem para que o Excel coincida corretamente um identificador assíncrono com seu valor correspondente.</span><span class="sxs-lookup"><span data-stu-id="68d6d-120">These arrays must be in the same order for Excel to correctly match an asynchronous handle with its corresponding value.</span></span> 
+<span data-ttu-id="73181-118">Os _parâmetros pxAsyncHandle_ e  _pxFunctionResult_ também podem ser do tipo **xltypeMulti** quando usados para retornar uma matriz de identificadores e valores correspondentes em um único retorno de chamada.</span><span class="sxs-lookup"><span data-stu-id="73181-118">The _pxAsyncHandle_ and  _pxFunctionResult_ parameters can also be of type **xltypeMulti** when used to return an array of handles and corresponding values in a single callback.</span></span> <span data-ttu-id="73181-119">Ao usar um único retorno de chamada, passe um LPXLOPER12 que aponta para estruturas XLOPER12 que contenham uma matriz dimensional que contenha as alças assíncronas e valores de retorno.</span><span class="sxs-lookup"><span data-stu-id="73181-119">When using a single callback, pass an LPXLOPER12 that points to XLOPER12 structures that contain one dimensional arrays that contain the asynchronous handles and return values.</span></span> <span data-ttu-id="73181-120">Essas matrizes devem estar na mesma ordem para que o Excel corresponda corretamente a uma alça assíncrona com seu valor correspondente.</span><span class="sxs-lookup"><span data-stu-id="73181-120">These arrays must be in the same order for Excel to correctly match an asynchronous handle with its corresponding value.</span></span> 
   
-<span data-ttu-id="68d6d-121">O exemplo a seguir mostra como você pode fazer uma chamada em lote usando o **xlAsyncReturn**.</span><span class="sxs-lookup"><span data-stu-id="68d6d-121">The following example shows how you can make a batch call using **xlAsyncReturn**.</span></span>
+<span data-ttu-id="73181-121">O exemplo a seguir mostra como você pode fazer uma chamada em lote usando **xlAsyncReturn**.</span><span class="sxs-lookup"><span data-stu-id="73181-121">The following example shows how you can make a batch call using **xlAsyncReturn**.</span></span>
   
 ```cpp
 int batchSize = 10;
@@ -73,7 +73,7 @@ int batchSize = 10;
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="68d6d-122">Confira também</span><span class="sxs-lookup"><span data-stu-id="68d6d-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="73181-122">Confira também</span><span class="sxs-lookup"><span data-stu-id="73181-122">See also</span></span>
 
-- [<span data-ttu-id="68d6d-123">Funções assíncronas definidas pelo usuário</span><span class="sxs-lookup"><span data-stu-id="68d6d-123">Asynchronous User-Defined Functions</span></span>](asynchronous-user-defined-functions.md)
+- [<span data-ttu-id="73181-123">Funções assíncronas definidas pelo usuário</span><span class="sxs-lookup"><span data-stu-id="73181-123">Asynchronous User-Defined Functions</span></span>](asynchronous-user-defined-functions.md)
 

@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413602"
 ---
-# <a name="swstringarray"></a><span data-ttu-id="17e3b-103">SWStringArray</span><span class="sxs-lookup"><span data-stu-id="17e3b-103">SWStringArray</span></span>
+# <a name="swstringarray"></a><span data-ttu-id="d27b4-103">SWStringArray</span><span class="sxs-lookup"><span data-stu-id="d27b4-103">SWStringArray</span></span>
 
   
   
-<span data-ttu-id="17e3b-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="17e3b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d27b4-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d27b4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="17e3b-105">Contém uma matriz de cadeias de caracteres que são usadas para descrever uma propriedade do tipo PT_MV_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="17e3b-105">Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE.</span></span> 
+<span data-ttu-id="d27b4-105">Contém uma matriz de cadeias de caracteres que são usadas para descrever uma propriedade do tipo PT_MV_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="d27b4-105">Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="17e3b-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="17e3b-106">Header file:</span></span>  <br/> |<span data-ttu-id="17e3b-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="17e3b-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="d27b4-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="d27b4-106">Header file:</span></span>  <br/> |<span data-ttu-id="d27b4-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d27b4-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -40,26 +40,26 @@ typedef struct _SWStringArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="17e3b-108">Members</span><span class="sxs-lookup"><span data-stu-id="17e3b-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="d27b4-108">Members</span><span class="sxs-lookup"><span data-stu-id="d27b4-108">Members</span></span>
 
- <span data-ttu-id="17e3b-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="17e3b-109">**cValues**</span></span>
+ <span data-ttu-id="d27b4-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="d27b4-109">**cValues**</span></span>
   
-> <span data-ttu-id="17e3b-110">Contagem de cadeias de caracteres na matriz apontada pelo membro **lppszW** .</span><span class="sxs-lookup"><span data-stu-id="17e3b-110">Count of strings in the array pointed to by the **lppszW** member.</span></span> 
+> <span data-ttu-id="d27b4-110">Contagem de cadeias de caracteres na matriz apontada pelo **membro lppszW.**</span><span class="sxs-lookup"><span data-stu-id="d27b4-110">Count of strings in the array pointed to by the **lppszW** member.</span></span> 
     
- <span data-ttu-id="17e3b-111">**lppszW**</span><span class="sxs-lookup"><span data-stu-id="17e3b-111">**lppszW**</span></span>
+ <span data-ttu-id="d27b4-111">**lppszW**</span><span class="sxs-lookup"><span data-stu-id="d27b4-111">**lppszW**</span></span>
   
-> <span data-ttu-id="17e3b-112">Ponteiro para uma matriz de cadeias de caracteres Unicode de término nulo.</span><span class="sxs-lookup"><span data-stu-id="17e3b-112">Pointer to an array of null-ended Unicode character strings.</span></span>
+> <span data-ttu-id="d27b4-112">Ponteiro para uma matriz de cadeias de caracteres Unicode terminadas em nulo.</span><span class="sxs-lookup"><span data-stu-id="d27b4-112">Pointer to an array of null-ended Unicode character strings.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="17e3b-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="17e3b-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d27b4-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="d27b4-113">Remarks</span></span>
 
-<span data-ttu-id="17e3b-114">Para obter mais informações sobre o PT_MV_UNICODE, consulte [tipos de propriedade](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="17e3b-114">For more information about PT_MV_UNICODE, see [Property Types](property-types.md).</span></span>
+<span data-ttu-id="d27b4-114">Para obter mais informações sobre PT_MV_UNICODE, consulte [Tipos de Propriedade.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="d27b4-114">For more information about PT_MV_UNICODE, see [Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="17e3b-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="17e3b-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d27b4-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="d27b4-115">See also</span></span>
 
 
 
-[<span data-ttu-id="17e3b-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="17e3b-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="d27b4-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="d27b4-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="17e3b-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="17e3b-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="d27b4-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="d27b4-117">MAPI Structures</span></span>](mapi-structures.md)
 

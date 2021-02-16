@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414918"
 ---
-# <a name="uphier"></a><span data-ttu-id="da5db-103">UPHIER</span><span class="sxs-lookup"><span data-stu-id="da5db-103">UPHIER</span></span>
+# <a name="uphier"></a><span data-ttu-id="345bd-103">UPHIER</span><span class="sxs-lookup"><span data-stu-id="345bd-103">UPHIER</span></span>
  
-<span data-ttu-id="da5db-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="da5db-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="345bd-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="345bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="da5db-105">Informações para sincronizar uma hierarquia de pastas durante o [estado de hierarquia de upload](upload-hierarchy-state.md).</span><span class="sxs-lookup"><span data-stu-id="da5db-105">Information for synchronizing a folder hierarchy during the [upload hierarchy state](upload-hierarchy-state.md).</span></span>
+<span data-ttu-id="345bd-105">Informações para sincronizar uma hierarquia de pastas durante o estado [de hierarquia de carregamento.](upload-hierarchy-state.md)</span><span class="sxs-lookup"><span data-stu-id="345bd-105">Information for synchronizing a folder hierarchy during the [upload hierarchy state](upload-hierarchy-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="da5db-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="da5db-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="345bd-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="345bd-106">Quick info</span></span>
 
 ```cpp
 struct UPHIER 
@@ -33,33 +33,33 @@ struct UPHIER
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="da5db-107">Membros</span><span class="sxs-lookup"><span data-stu-id="da5db-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="345bd-107">Membros</span><span class="sxs-lookup"><span data-stu-id="345bd-107">Members</span></span>
 
-<span data-ttu-id="da5db-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="da5db-108">_ulFlags_</span></span>
+<span data-ttu-id="345bd-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="345bd-108">_ulFlags_</span></span>
   
-> <span data-ttu-id="da5db-109">no Sinalizadores para modificar o comportamento ao sincronizar a hierarquia de pastas.</span><span class="sxs-lookup"><span data-stu-id="da5db-109">[in] Flags to modify the behavior when synchronizing the folder hierarchy.</span></span>
+> <span data-ttu-id="345bd-109">[in] Sinalizadores para modificar o comportamento ao sincronizar a hierarquia de pastas.</span><span class="sxs-lookup"><span data-stu-id="345bd-109">[in] Flags to modify the behavior when synchronizing the folder hierarchy.</span></span>
     
-  - <span data-ttu-id="da5db-110">UPH_OK</span><span class="sxs-lookup"><span data-stu-id="da5db-110">UPH_OK</span></span>
+  - <span data-ttu-id="345bd-110">UPH_OK</span><span class="sxs-lookup"><span data-stu-id="345bd-110">UPH_OK</span></span>
     
-    - <span data-ttu-id="da5db-111">no O upload foi bem-sucedido.</span><span class="sxs-lookup"><span data-stu-id="da5db-111">[in] Upload was successful.</span></span> <span data-ttu-id="da5db-112">O cliente define isso após carregar as informações com êxito no servidor.</span><span class="sxs-lookup"><span data-stu-id="da5db-112">The client sets this after successfully uploading information to the server.</span></span> <span data-ttu-id="da5db-113">Ao ver esse sinalizador, o Outlook limpa todas as informações de escrituração interna que indicaram que a hierarquia de pastas precisava ser atualizada.</span><span class="sxs-lookup"><span data-stu-id="da5db-113">Upon seeing this flag, Outlook clears any internal bookkeeping information that indicated the folder hierarchy needed updating.</span></span> 
+    - <span data-ttu-id="345bd-111">[in] O carregamento foi bem-sucedido.</span><span class="sxs-lookup"><span data-stu-id="345bd-111">[in] Upload was successful.</span></span> <span data-ttu-id="345bd-112">O cliente define isso depois de carregar com êxito as informações para o servidor.</span><span class="sxs-lookup"><span data-stu-id="345bd-112">The client sets this after successfully uploading information to the server.</span></span> <span data-ttu-id="345bd-113">Ao ver esse sinalizador, o Outlook limpa todas as informações de manutenção contábil internas que indicavam que a hierarquia de pastas necessitava de atualização.</span><span class="sxs-lookup"><span data-stu-id="345bd-113">Upon seeing this flag, Outlook clears any internal bookkeeping information that indicated the folder hierarchy needed updating.</span></span> 
     
-    - <span data-ttu-id="da5db-114">O cliente passa o HRESULT se o upload não tiver sido bem-sucedido.</span><span class="sxs-lookup"><span data-stu-id="da5db-114">The client passes the HRESULT if the upload was not successful.</span></span>
+    - <span data-ttu-id="345bd-114">O cliente passa o HRESULT se o carregamento não foi bem-sucedido.</span><span class="sxs-lookup"><span data-stu-id="345bd-114">The client passes the HRESULT if the upload was not successful.</span></span>
     
-<span data-ttu-id="da5db-115">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="da5db-115">_pstmReserved_</span></span>
+<span data-ttu-id="345bd-115">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="345bd-115">_pstmReserved_</span></span>
   
-> <span data-ttu-id="da5db-116">bota Este membro é reservado para uso interno do Outlook e não tem suporte.</span><span class="sxs-lookup"><span data-stu-id="da5db-116">[out] This member is reserved for Outlook internal use and is not supported.</span></span>
+> <span data-ttu-id="345bd-116">[out] Este membro é reservado para uso interno do Outlook e não tem suporte.</span><span class="sxs-lookup"><span data-stu-id="345bd-116">[out] This member is reserved for Outlook internal use and is not supported.</span></span>
     
-<span data-ttu-id="da5db-117">_iEnt_</span><span class="sxs-lookup"><span data-stu-id="da5db-117">_iEnt_</span></span>
+<span data-ttu-id="345bd-117">_iEnt_</span><span class="sxs-lookup"><span data-stu-id="345bd-117">_iEnt_</span></span>
   
-> <span data-ttu-id="da5db-118">bota Índice para controlar a sincronização do número de pastas especificado por *cento* .</span><span class="sxs-lookup"><span data-stu-id="da5db-118">[out] Index to track synchronizing the number of folders specified by  *cEnt*  .</span></span> 
+> <span data-ttu-id="345bd-118">[out] Index to track synchronizing the number of folders specified by  *cEnt*  .</span><span class="sxs-lookup"><span data-stu-id="345bd-118">[out] Index to track synchronizing the number of folders specified by  *cEnt*  .</span></span> 
     
-<span data-ttu-id="da5db-119">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="da5db-119">_cEnt_</span></span>
+<span data-ttu-id="345bd-119">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="345bd-119">_cEnt_</span></span>
   
-> <span data-ttu-id="da5db-120">bota Número de pastas que estão fora de sincronia.</span><span class="sxs-lookup"><span data-stu-id="da5db-120">[out] Number of folders that are out of sync.</span></span>
+> <span data-ttu-id="345bd-120">[out] Número de pastas que estão fora de sincronia.</span><span class="sxs-lookup"><span data-stu-id="345bd-120">[out] Number of folders that are out of sync.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="da5db-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="da5db-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="345bd-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="345bd-121">See also</span></span>
 
-- [<span data-ttu-id="da5db-122">Sobre a API de replicação</span><span class="sxs-lookup"><span data-stu-id="da5db-122">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="da5db-123">Sobre a máquina de estado de replicação</span><span class="sxs-lookup"><span data-stu-id="da5db-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="da5db-124">Constantes de MAPI</span><span class="sxs-lookup"><span data-stu-id="da5db-124">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="345bd-122">Sobre a API de replicação</span><span class="sxs-lookup"><span data-stu-id="345bd-122">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="345bd-123">Sobre a máquina de estado de replicação</span><span class="sxs-lookup"><span data-stu-id="345bd-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="345bd-124">Constantes de MAPI</span><span class="sxs-lookup"><span data-stu-id="345bd-124">MAPI Constants</span></span>](mapi-constants.md)
 

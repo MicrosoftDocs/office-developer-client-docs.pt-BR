@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412699"
 ---
-# <a name="company-function"></a><span data-ttu-id="94e3c-103">Função EMPRESA</span><span class="sxs-lookup"><span data-stu-id="94e3c-103">COMPANY Function</span></span>
+# <a name="company-function"></a><span data-ttu-id="5fc4f-103">Função EMPRESA</span><span class="sxs-lookup"><span data-stu-id="5fc4f-103">COMPANY Function</span></span>
 
-<span data-ttu-id="94e3c-104">Retorna o texto do campo **Empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="94e3c-104">Returns the text from the **Company** field of a document's properties.</span></span> 
+<span data-ttu-id="5fc4f-104">Retorna o texto do campo **Empresa** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="5fc4f-104">Returns the text from the **Company** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="94e3c-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="94e3c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5fc4f-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5fc4f-105">Syntax</span></span>
 
-<span data-ttu-id="94e3c-106">EMPRESA ()</span><span class="sxs-lookup"><span data-stu-id="94e3c-106">COMPANY ()</span></span>
+<span data-ttu-id="5fc4f-106">EMPRESA ()</span><span class="sxs-lookup"><span data-stu-id="5fc4f-106">COMPANY ()</span></span>
   
 

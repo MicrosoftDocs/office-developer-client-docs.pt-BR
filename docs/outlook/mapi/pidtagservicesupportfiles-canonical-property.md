@@ -19,48 +19,48 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417039"
 ---
-# <a name="pidtagservicesupportfiles-canonical-property"></a><span data-ttu-id="17585-103">Propriedade canônica PidTagServiceSupportFiles</span><span class="sxs-lookup"><span data-stu-id="17585-103">PidTagServiceSupportFiles Canonical Property</span></span>
+# <a name="pidtagservicesupportfiles-canonical-property"></a><span data-ttu-id="7900e-103">Propriedade canônica PidTagServiceSupportFiles</span><span class="sxs-lookup"><span data-stu-id="7900e-103">PidTagServiceSupportFiles Canonical Property</span></span>
 
   
   
-<span data-ttu-id="17585-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="17585-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7900e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7900e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="17585-105">Contém uma lista dos arquivos que pertencem ao serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="17585-105">Contains a list of the files that belong to the message service.</span></span>
+<span data-ttu-id="7900e-105">Contém uma lista dos arquivos que pertencem ao serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="7900e-105">Contains a list of the files that belong to the message service.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="17585-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="17585-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="17585-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span><span class="sxs-lookup"><span data-stu-id="17585-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span></span>  <br/> |
-|<span data-ttu-id="17585-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="17585-108">Identifier:</span></span>  <br/> |<span data-ttu-id="17585-109">0x3D0F</span><span class="sxs-lookup"><span data-stu-id="17585-109">0x3D0F</span></span>  <br/> |
-|<span data-ttu-id="17585-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="17585-110">Data type:</span></span>  <br/> |<span data-ttu-id="17585-111">PT_MV_STRING8, PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="17585-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="17585-112">Área:</span><span class="sxs-lookup"><span data-stu-id="17585-112">Area:</span></span>  <br/> |<span data-ttu-id="17585-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="17585-113">MAPI profile</span></span>  <br/> |
+|<span data-ttu-id="7900e-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="7900e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7900e-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span><span class="sxs-lookup"><span data-stu-id="7900e-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span></span>  <br/> |
+|<span data-ttu-id="7900e-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="7900e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7900e-109">0x3D0F</span><span class="sxs-lookup"><span data-stu-id="7900e-109">0x3D0F</span></span>  <br/> |
+|<span data-ttu-id="7900e-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="7900e-110">Data type:</span></span>  <br/> |<span data-ttu-id="7900e-111">PT_MV_STRING8, PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7900e-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="7900e-112">Área:</span><span class="sxs-lookup"><span data-stu-id="7900e-112">Area:</span></span>  <br/> |<span data-ttu-id="7900e-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="7900e-113">MAPI profile</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="17585-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="17585-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7900e-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="7900e-114">Remarks</span></span>
 
-<span data-ttu-id="17585-115">Usando uma caixa de diálogo no miniaplicativo do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="17585-115">Using a dialog box in the control panel applet, a user can obtain the list of files that belong to the message service.</span></span> <span data-ttu-id="17585-116">Por exemplo, o usuário pode obter os nomes de todas as DLLs (bibliotecas de vínculo dinâmico) que pertencem ao serviço.</span><span class="sxs-lookup"><span data-stu-id="17585-116">For example, the user can obtain the names of all dynamic-link libraries (DLLs) that belong to the service.</span></span> <span data-ttu-id="17585-117">O usuário pode então buscar detalhes adicionais sobre os arquivos especificados, como os nomes e números de versão de todas as DLLs.</span><span class="sxs-lookup"><span data-stu-id="17585-117">The user can then seek additional details about the specified files, such as the names and version numbers of all the DLLs.</span></span> <span data-ttu-id="17585-118">O MAPI usa as propriedades a seguir para criar uma lista de arquivos de suporte em uma caixa de diálogo para a seleção de usuários de mensagens.</span><span class="sxs-lookup"><span data-stu-id="17585-118">MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.</span></span>
+<span data-ttu-id="7900e-115">Usando uma caixa de diálogo no applet do painel de controle, um usuário pode obter a lista de arquivos que pertencem ao serviço de mensagens.</span><span class="sxs-lookup"><span data-stu-id="7900e-115">Using a dialog box in the control panel applet, a user can obtain the list of files that belong to the message service.</span></span> <span data-ttu-id="7900e-116">Por exemplo, o usuário pode obter os nomes de todas as bibliotecas de vínculo dinâmico (DLLs) que pertencem ao serviço.</span><span class="sxs-lookup"><span data-stu-id="7900e-116">For example, the user can obtain the names of all dynamic-link libraries (DLLs) that belong to the service.</span></span> <span data-ttu-id="7900e-117">Em seguida, o usuário pode procurar detalhes adicionais sobre os arquivos especificados, como os nomes e os números de versão de todas as DLLs.</span><span class="sxs-lookup"><span data-stu-id="7900e-117">The user can then seek additional details about the specified files, such as the names and version numbers of all the DLLs.</span></span> <span data-ttu-id="7900e-118">MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.</span><span class="sxs-lookup"><span data-stu-id="7900e-118">MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.</span></span>
   
-<span data-ttu-id="17585-119">MAPI funciona somente com nomes de Filee outras cadeias de caracteres passadas para ele, no conjunto de caracteres de interfaces de serviço do Active Directory (ANSI).</span><span class="sxs-lookup"><span data-stu-id="17585-119">MAPI works only with filenames, and other strings passed to it, in the Active Directory Service Interfaces (ANSI) character set.</span></span> <span data-ttu-id="17585-120">Aplicativos clientes que usam nomes de FileNames em um conjunto de caracteres OEM (fabricante original de equipamento) devem convertê-los para ANSI antes de chamar MAPI.</span><span class="sxs-lookup"><span data-stu-id="17585-120">Client applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.</span></span>
+<span data-ttu-id="7900e-119">O MAPI funciona somente com nomes de arquivo e outras cadeias de caracteres passadas para ele, no conjunto de caracteres ANSI (Interfaces de Serviço do Active Directory).</span><span class="sxs-lookup"><span data-stu-id="7900e-119">MAPI works only with filenames, and other strings passed to it, in the Active Directory Service Interfaces (ANSI) character set.</span></span> <span data-ttu-id="7900e-120">Os aplicativos cliente que usam nomes de arquivo em um conjunto de caracteres OEM (fabricante de equipamento original) devem convertê-los em ANSI antes de chamar o MAPI.</span><span class="sxs-lookup"><span data-stu-id="7900e-120">Client applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="17585-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="17585-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7900e-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="7900e-121">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="17585-122">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="17585-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7900e-122">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="7900e-122">Header files</span></span>
 
-<span data-ttu-id="17585-123">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="17585-123">Mapidefs.h</span></span>
+<span data-ttu-id="7900e-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7900e-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="17585-124">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="17585-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="7900e-124">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="7900e-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="17585-125">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="17585-125">Mapitags.h</span></span>
+<span data-ttu-id="7900e-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7900e-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="17585-126">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="17585-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="7900e-126">Contém definições de propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="7900e-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="17585-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="17585-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7900e-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="7900e-127">See also</span></span>
 
 
 
-[<span data-ttu-id="17585-128">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="17585-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7900e-128">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="7900e-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="17585-129">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="17585-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7900e-129">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="7900e-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="17585-130">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="17585-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7900e-130">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="7900e-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="17585-131">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="17585-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7900e-131">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="7900e-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

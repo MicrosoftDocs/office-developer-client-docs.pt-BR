@@ -19,45 +19,45 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414162"
 ---
-# <a name="pidlidrecalltime-canonical-property"></a><span data-ttu-id="41975-103">Propriedade canônica PidLidRecallTime</span><span class="sxs-lookup"><span data-stu-id="41975-103">PidLidRecallTime Canonical Property</span></span>
+# <a name="pidlidrecalltime-canonical-property"></a><span data-ttu-id="90606-103">Propriedade canônica PidLidRecallTime</span><span class="sxs-lookup"><span data-stu-id="90606-103">PidLidRecallTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="41975-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="41975-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="90606-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="90606-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="41975-105">Indica a hora em que uma rechamada de mensagem foi iniciada.</span><span class="sxs-lookup"><span data-stu-id="41975-105">Denotes the time at which a message recall was initiated.</span></span>
+<span data-ttu-id="90606-105">Indica o momento em que um recall de mensagem foi iniciado.</span><span class="sxs-lookup"><span data-stu-id="90606-105">Denotes the time at which a message recall was initiated.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="41975-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="41975-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="41975-107">dispidRecallTime</span><span class="sxs-lookup"><span data-stu-id="41975-107">dispidRecallTime</span></span>  <br/> |
-|<span data-ttu-id="41975-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="41975-108">Property set:</span></span>  <br/> |<span data-ttu-id="41975-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="41975-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="41975-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="41975-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="41975-111">0x00008549</span><span class="sxs-lookup"><span data-stu-id="41975-111">0x00008549</span></span>  <br/> |
-|<span data-ttu-id="41975-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="41975-112">Data type:</span></span>  <br/> |<span data-ttu-id="41975-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="41975-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="41975-114">Área:</span><span class="sxs-lookup"><span data-stu-id="41975-114">Area:</span></span>  <br/> |<span data-ttu-id="41975-115">Envio de mensagens gerais</span><span class="sxs-lookup"><span data-stu-id="41975-115">General messaging</span></span>  <br/> |
+|<span data-ttu-id="90606-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="90606-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="90606-107">dispidRecallTime</span><span class="sxs-lookup"><span data-stu-id="90606-107">dispidRecallTime</span></span>  <br/> |
+|<span data-ttu-id="90606-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="90606-108">Property set:</span></span>  <br/> |<span data-ttu-id="90606-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="90606-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="90606-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="90606-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="90606-111">0x00008549</span><span class="sxs-lookup"><span data-stu-id="90606-111">0x00008549</span></span>  <br/> |
+|<span data-ttu-id="90606-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="90606-112">Data type:</span></span>  <br/> |<span data-ttu-id="90606-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="90606-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="90606-114">Área:</span><span class="sxs-lookup"><span data-stu-id="90606-114">Area:</span></span>  <br/> |<span data-ttu-id="90606-115">Envio de mensagens gerais</span><span class="sxs-lookup"><span data-stu-id="90606-115">General messaging</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="41975-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="41975-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="90606-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="90606-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="41975-117">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="41975-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="90606-117">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="90606-117">Protocol specifications</span></span>
 
-<span data-ttu-id="41975-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="41975-118">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="90606-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="90606-118">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="41975-119">Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="41975-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="90606-119">Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="90606-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="41975-120">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="41975-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="90606-120">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="90606-120">Header files</span></span>
 
-<span data-ttu-id="41975-121">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="41975-121">Mapidefs.h</span></span>
+<span data-ttu-id="90606-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="90606-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="41975-122">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="41975-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="90606-122">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="90606-122">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="41975-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="41975-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90606-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="90606-123">See also</span></span>
 
 
 
-[<span data-ttu-id="41975-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="41975-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="90606-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="90606-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="41975-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="41975-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="90606-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="90606-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="41975-126">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="41975-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="90606-126">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="90606-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="41975-127">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="41975-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="90606-127">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="90606-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

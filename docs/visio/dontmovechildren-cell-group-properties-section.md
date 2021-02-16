@@ -16,33 +16,33 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416591"
 ---
-# <a name="dontmovechildren-cell-group-properties-section"></a><span data-ttu-id="2141c-103">Célula DontMoveChildren (Seção Group Properties)</span><span class="sxs-lookup"><span data-stu-id="2141c-103">DontMoveChildren Cell (Group Properties Section)</span></span>
+# <a name="dontmovechildren-cell-group-properties-section"></a><span data-ttu-id="09b3f-103">Célula DontMoveChildren (Seção Group Properties)</span><span class="sxs-lookup"><span data-stu-id="09b3f-103">DontMoveChildren Cell (Group Properties Section)</span></span>
 
-<span data-ttu-id="2141c-104">Determina se é possível arrastar formas em um grupo usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="2141c-104">Determines whether you can drag shapes in a group using the mouse.</span></span>
+<span data-ttu-id="09b3f-104">Determina se é possível arrastar formas em um grupo usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="09b3f-104">Determines whether you can drag shapes in a group using the mouse.</span></span>
   
-|<span data-ttu-id="2141c-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="2141c-105">**Value**</span></span>|<span data-ttu-id="2141c-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="2141c-106">**Description**</span></span>|
+|<span data-ttu-id="09b3f-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="09b3f-105">**Value**</span></span>|<span data-ttu-id="09b3f-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="09b3f-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="2141c-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="2141c-107">TRUE</span></span>  <br/> | <span data-ttu-id="2141c-108">Não permite que as formas em um grupo sejam arrastadas usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="2141c-108">Don't allow shapes in a group to be dragged using the mouse.</span></span>  <br/> |
-| <span data-ttu-id="2141c-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="2141c-109">FALSE</span></span>  <br/> | <span data-ttu-id="2141c-110">Permite que as formas em um grupo sejam arrastadas usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="2141c-110">Allow shapes in a group to be dragged using the mouse.</span></span>  <br/> |
+| <span data-ttu-id="09b3f-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="09b3f-107">TRUE</span></span>  <br/> | <span data-ttu-id="09b3f-108">Não permite que as formas em um grupo sejam arrastadas usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="09b3f-108">Don't allow shapes in a group to be dragged using the mouse.</span></span>  <br/> |
+| <span data-ttu-id="09b3f-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="09b3f-109">FALSE</span></span>  <br/> | <span data-ttu-id="09b3f-110">Permite que as formas em um grupo sejam arrastadas usando o mouse.</span><span class="sxs-lookup"><span data-stu-id="09b3f-110">Allow shapes in a group to be dragged using the mouse.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="2141c-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="2141c-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="09b3f-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="09b3f-111">Remarks</span></span>
 
-<span data-ttu-id="2141c-112">Quando o valor desta célula é VERDADEIRO, é possível também inverter, girar, redimensionar ou reposicionar as formas em grupos usando outros métodos.</span><span class="sxs-lookup"><span data-stu-id="2141c-112">When the value of this cell is TRUE, you can still flip, rotate, resize, or reposition shapes in groups using other methods.</span></span>
+<span data-ttu-id="09b3f-112">Quando o valor desta célula é VERDADEIRO, é possível também inverter, girar, redimensionar ou reposicionar as formas em grupos usando outros métodos.</span><span class="sxs-lookup"><span data-stu-id="09b3f-112">When the value of this cell is TRUE, you can still flip, rotate, resize, or reposition shapes in groups using other methods.</span></span>
   
-<span data-ttu-id="2141c-113">O valor da célula é VERDADEIRO para grupos em mestres e em instâncias de mestres criados nas versões do Visio anteriores à versão de 2000.</span><span class="sxs-lookup"><span data-stu-id="2141c-113">The value of this cell is TRUE for groups in masters and groups in instances of masters that were created in versions of Visio earlier than version 2000.</span></span>
+<span data-ttu-id="09b3f-113">O valor da célula é VERDADEIRO para grupos em mestres e em instâncias de mestres criados nas versões do Visio anteriores à versão de 2000.</span><span class="sxs-lookup"><span data-stu-id="09b3f-113">The value of this cell is TRUE for groups in masters and groups in instances of masters that were created in versions of Visio earlier than version 2000.</span></span>
   
-<span data-ttu-id="2141c-114">Para fazer referência à célula DontMoveChildren pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="2141c-114">To get a reference to the DontMoveChildren cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="09b3f-114">Para fazer referência à célula DontMoveChildren pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="09b3f-114">To get a reference to the DontMoveChildren cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2141c-115">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="2141c-115">Cell name:</span></span>  <br/> | <span data-ttu-id="2141c-116">DontMoveChildren</span><span class="sxs-lookup"><span data-stu-id="2141c-116">DontMoveChildren</span></span>  <br/> |
+| <span data-ttu-id="09b3f-115">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="09b3f-115">Cell name:</span></span>  <br/> | <span data-ttu-id="09b3f-116">DontMoveChildren</span><span class="sxs-lookup"><span data-stu-id="09b3f-116">DontMoveChildren</span></span>  <br/> |
    
-<span data-ttu-id="2141c-117">Para fazer referência à célula DontMoveChildren pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="2141c-117">To get a reference to the DontMoveChildren cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="09b3f-117">Para fazer referência à célula DontMoveChildren pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="09b3f-117">To get a reference to the DontMoveChildren cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2141c-118">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="2141c-118">Section index:</span></span>  <br/> |<span data-ttu-id="2141c-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2141c-119">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="2141c-120">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="2141c-120">Row index:</span></span>  <br/> |<span data-ttu-id="2141c-121">**visRowGroup**</span><span class="sxs-lookup"><span data-stu-id="2141c-121">**visRowGroup**</span></span> <br/> |
-| <span data-ttu-id="2141c-122">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="2141c-122">Cell index:</span></span>  <br/> |<span data-ttu-id="2141c-123">**visGroupDontMoveChildren**</span><span class="sxs-lookup"><span data-stu-id="2141c-123">**visGroupDontMoveChildren**</span></span> <br/> |
+| <span data-ttu-id="09b3f-118">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="09b3f-118">Section index:</span></span>  <br/> |<span data-ttu-id="09b3f-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="09b3f-119">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="09b3f-120">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="09b3f-120">Row index:</span></span>  <br/> |<span data-ttu-id="09b3f-121">**visRowGroup**</span><span class="sxs-lookup"><span data-stu-id="09b3f-121">**visRowGroup**</span></span> <br/> |
+| <span data-ttu-id="09b3f-122">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="09b3f-122">Cell index:</span></span>  <br/> |<span data-ttu-id="09b3f-123">**visGroupDontMoveChildren**</span><span class="sxs-lookup"><span data-stu-id="09b3f-123">**visGroupDontMoveChildren**</span></span> <br/> |
    
 

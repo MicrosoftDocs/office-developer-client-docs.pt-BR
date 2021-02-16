@@ -19,19 +19,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416521"
 ---
-# <a name="mapstoragescode"></a><span data-ttu-id="6009f-103">MapStorageSCode</span><span class="sxs-lookup"><span data-stu-id="6009f-103">MapStorageSCode</span></span>
+# <a name="mapstoragescode"></a><span data-ttu-id="4e1ee-103">MapStorageSCode</span><span class="sxs-lookup"><span data-stu-id="4e1ee-103">MapStorageSCode</span></span>
 
   
   
-<span data-ttu-id="6009f-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6009f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4e1ee-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4e1ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6009f-105">Mapeia um valor de retorno SCODE de um objeto de armazenamento OLE para um tipo HRESULT.</span><span class="sxs-lookup"><span data-stu-id="6009f-105">Maps an SCODE return value from an OLE storage object to an HRESULT type.</span></span> 
+<span data-ttu-id="4e1ee-105">Mapeia um valor de retorno SCODE de um objeto de armazenamento OLE para um tipo HRESULT.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-105">Maps an SCODE return value from an OLE storage object to an HRESULT type.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6009f-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="6009f-106">Header file:</span></span>  <br/> |<span data-ttu-id="6009f-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="6009f-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="6009f-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="6009f-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="6009f-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="6009f-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="6009f-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="6009f-110">Called by:</span></span>  <br/> |<span data-ttu-id="6009f-111">Aplicativos cliente e provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="6009f-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="4e1ee-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="4e1ee-106">Header file:</span></span>  <br/> |<span data-ttu-id="4e1ee-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="4e1ee-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="4e1ee-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="4e1ee-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="4e1ee-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="4e1ee-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="4e1ee-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="4e1ee-110">Called by:</span></span>  <br/> |<span data-ttu-id="4e1ee-111">Aplicativos cliente e provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="4e1ee-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE MapStorageSCode(
@@ -39,26 +39,26 @@ SCODE MapStorageSCode(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6009f-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="6009f-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4e1ee-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="4e1ee-112">Parameters</span></span>
 
- <span data-ttu-id="6009f-113">_StgSCode_</span><span class="sxs-lookup"><span data-stu-id="6009f-113">_StgSCode_</span></span>
+ <span data-ttu-id="4e1ee-113">_StgSCode_</span><span class="sxs-lookup"><span data-stu-id="4e1ee-113">_StgSCode_</span></span>
   
-> <span data-ttu-id="6009f-114">no SCODE MAPI valor de retorno de um objeto de armazenamento OLE a ser mapeado para um valor HRESULT.</span><span class="sxs-lookup"><span data-stu-id="6009f-114">[in] MAPI SCODE return value from an OLE storage object to be mapped to a HRESULT value.</span></span>
+> <span data-ttu-id="4e1ee-114">[in] Valor de retorno de SCODE MAPI de um objeto de armazenamento OLE a ser mapeado para um valor HRESULT.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-114">[in] MAPI SCODE return value from an OLE storage object to be mapped to a HRESULT value.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6009f-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="6009f-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4e1ee-115">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="4e1ee-115">Return value</span></span>
 
-<span data-ttu-id="6009f-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="6009f-116">S_OK</span></span> 
+<span data-ttu-id="4e1ee-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="4e1ee-116">S_OK</span></span> 
   
-> <span data-ttu-id="6009f-117">A chamada teve êxito e retornou o valor esperado.</span><span class="sxs-lookup"><span data-stu-id="6009f-117">The call succeeded and returned the expected value.</span></span>
+> <span data-ttu-id="4e1ee-117">A chamada foi bem-sucedida e retornou o valor esperado.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-117">The call succeeded and returned the expected value.</span></span>
     
-<span data-ttu-id="6009f-118">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="6009f-118">MAPI_E_CALL_FAILED</span></span> 
+<span data-ttu-id="4e1ee-118">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="4e1ee-118">MAPI_E_CALL_FAILED</span></span> 
   
-> <span data-ttu-id="6009f-119">A função não pode localizar um valor correspondente.</span><span class="sxs-lookup"><span data-stu-id="6009f-119">The function cannot find a matching value.</span></span>
+> <span data-ttu-id="4e1ee-119">A função não pode encontrar um valor correspondente.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-119">The function cannot find a matching value.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="6009f-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="6009f-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e1ee-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="4e1ee-120">Remarks</span></span>
 
-<span data-ttu-id="6009f-121">MAPI fornece a função **MapStorageSCode** para o uso interno de componentes MAPI que baseiam suas implementações de mensagem na DLL de mensagens.</span><span class="sxs-lookup"><span data-stu-id="6009f-121">MAPI provides the **MapStorageSCode** function for the internal use of MAPI components that base their message implementations on the message DLL.</span></span> <span data-ttu-id="6009f-122">Como esses componentes abrem o armazenamento OLE, eles devem ser capazes de mapear valores de erro retornados para problemas com o armazenamento OLE para um valor HRESULT.</span><span class="sxs-lookup"><span data-stu-id="6009f-122">Because these components open OLE storage themselves, they must be able to map error values returned for problems with OLE storage to an HRESULT value.</span></span> 
+<span data-ttu-id="4e1ee-121">MAPI provides the **MapStorageSCode** function for the internal use of MAPI components that base their message implementations on the message DLL.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-121">MAPI provides the **MapStorageSCode** function for the internal use of MAPI components that base their message implementations on the message DLL.</span></span> <span data-ttu-id="4e1ee-122">Como esses componentes abrem o armazenamento OLE por conta própria, eles devem ser capazes de mapear os valores de erro retornados para problemas com o armazenamento OLE para um valor HRESULT.</span><span class="sxs-lookup"><span data-stu-id="4e1ee-122">Because these components open OLE storage themselves, they must be able to map error values returned for problems with OLE storage to an HRESULT value.</span></span> 
   
-<span data-ttu-id="6009f-123">Para obter mais informações, consulte [Structured Storage](structured-storage-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="6009f-123">For more information, see [Structured Storage](structured-storage-in-mapi.md).</span></span> 
+<span data-ttu-id="4e1ee-123">Para obter mais informações, consulte [Armazenamento Estruturado.](structured-storage-in-mapi.md)</span><span class="sxs-lookup"><span data-stu-id="4e1ee-123">For more information, see [Structured Storage](structured-storage-in-mapi.md).</span></span> 
   
 

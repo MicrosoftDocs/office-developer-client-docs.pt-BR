@@ -1,5 +1,5 @@
 ---
-title: Ação de macro SaveRecord (aplicativo Web personalizado do Access)
+title: Ação de macro SalvarRegiso (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415555"
 ---
-# <a name="saverecord-macro-action-access-custom-web-app"></a><span data-ttu-id="f3a8a-103">Ação de macro SaveRecord (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="f3a8a-103">SaveRecord Macro Action (Access custom web app)</span></span>
+# <a name="saverecord-macro-action-access-custom-web-app"></a><span data-ttu-id="51c67-103">Ação de macro SalvarRegiso (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="51c67-103">SaveRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="f3a8a-104">Salva o registro atual.</span><span class="sxs-lookup"><span data-stu-id="f3a8a-104">Saves the current record.</span></span>
+<span data-ttu-id="51c67-104">Salva o registro atual.</span><span class="sxs-lookup"><span data-stu-id="51c67-104">Saves the current record.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f3a8a-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="f3a8a-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="51c67-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="51c67-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f3a8a-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="f3a8a-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="51c67-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="51c67-107">Remarks</span></span>
 
-<span data-ttu-id="f3a8a-108">A ação **SaveRecord** equivale a usar o botão **salvar** na barra de ações para salvar o registro atual.</span><span class="sxs-lookup"><span data-stu-id="f3a8a-108">The **SaveRecord** action is equivalent to using the **Save** button in the action bar to save the current record.</span></span> 
+<span data-ttu-id="51c67-108">A **ação SalvarRegisto** é equivalente a usar o **botão** Salvar na barra de ações para salvar o registro atual.</span><span class="sxs-lookup"><span data-stu-id="51c67-108">The **SaveRecord** action is equivalent to using the **Save** button in the action bar to save the current record.</span></span> 
   
 

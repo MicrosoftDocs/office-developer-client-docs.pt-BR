@@ -16,30 +16,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413882"
 ---
-# <a name="outputformat-cell-document-properties-section"></a><span data-ttu-id="bd34d-104">Célula OutputFormat (Seção Document Properties)</span><span class="sxs-lookup"><span data-stu-id="bd34d-104">OutputFormat Cell (Document Properties Section)</span></span>
+# <a name="outputformat-cell-document-properties-section"></a><span data-ttu-id="d98fe-104">Célula OutputFormat (Seção Document Properties)</span><span class="sxs-lookup"><span data-stu-id="d98fe-104">OutputFormat Cell (Document Properties Section)</span></span>
 
-<span data-ttu-id="bd34d-105">Determina o formato de saída do desenho.</span><span class="sxs-lookup"><span data-stu-id="bd34d-105">Determines the output format for a drawing.</span></span> <span data-ttu-id="bd34d-106">Normalmente, as páginas de desenho são formatadas para impressão (padrão); no entanto, é possível escolher outros formatos de saída.</span><span class="sxs-lookup"><span data-stu-id="bd34d-106">Drawing pages are usually formatted for printing (default); however, you can choose other output formats.</span></span>
+<span data-ttu-id="d98fe-105">Determina o formato de saída do desenho.</span><span class="sxs-lookup"><span data-stu-id="d98fe-105">Determines the output format for a drawing.</span></span> <span data-ttu-id="d98fe-106">Normalmente, as páginas de desenho são formatadas para impressão (padrão); no entanto, é possível escolher outros formatos de saída.</span><span class="sxs-lookup"><span data-stu-id="d98fe-106">Drawing pages are usually formatted for printing (default); however, you can choose other output formats.</span></span>
   
-|<span data-ttu-id="bd34d-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="bd34d-107">**Value**</span></span>|<span data-ttu-id="bd34d-108">**Formato de saída**</span><span class="sxs-lookup"><span data-stu-id="bd34d-108">**Output format**</span></span>|
+|<span data-ttu-id="d98fe-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="d98fe-107">**Value**</span></span>|<span data-ttu-id="d98fe-108">**Formato de saída**</span><span class="sxs-lookup"><span data-stu-id="d98fe-108">**Output format**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="bd34d-109">,0</span><span class="sxs-lookup"><span data-stu-id="bd34d-109">0</span></span>  <br/> | <span data-ttu-id="bd34d-110">Impressão (padrão)</span><span class="sxs-lookup"><span data-stu-id="bd34d-110">Printing (default)</span></span>  <br/> |
-| <span data-ttu-id="bd34d-111">1</span><span class="sxs-lookup"><span data-stu-id="bd34d-111">1</span></span>  <br/> | <span data-ttu-id="bd34d-112">Apresentação de slides do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="bd34d-112">PowerPoint slide show</span></span>  <br/> |
-| <span data-ttu-id="bd34d-113">duas</span><span class="sxs-lookup"><span data-stu-id="bd34d-113">2</span></span>  <br/> | <span data-ttu-id="bd34d-114">Saída HTML ou GIF</span><span class="sxs-lookup"><span data-stu-id="bd34d-114">HTML or GIF output</span></span>  <br/> |
+| <span data-ttu-id="d98fe-109">0</span><span class="sxs-lookup"><span data-stu-id="d98fe-109">0</span></span>  <br/> | <span data-ttu-id="d98fe-110">Impressão (padrão)</span><span class="sxs-lookup"><span data-stu-id="d98fe-110">Printing (default)</span></span>  <br/> |
+| <span data-ttu-id="d98fe-111">1 </span><span class="sxs-lookup"><span data-stu-id="d98fe-111">1</span></span>  <br/> | <span data-ttu-id="d98fe-112">Apresentação de slides do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="d98fe-112">PowerPoint slide show</span></span>  <br/> |
+| <span data-ttu-id="d98fe-113">2 </span><span class="sxs-lookup"><span data-stu-id="d98fe-113">2</span></span>  <br/> | <span data-ttu-id="d98fe-114">Saída HTML ou GIF</span><span class="sxs-lookup"><span data-stu-id="d98fe-114">HTML or GIF output</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bd34d-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="bd34d-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d98fe-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="d98fe-115">Remarks</span></span>
 
-<span data-ttu-id="bd34d-116">Para fazer referência à célula OutputFormat pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="bd34d-116">To get a reference to the OutputFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d98fe-116">Para fazer referência à célula OutputFormat pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="d98fe-116">To get a reference to the OutputFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bd34d-117">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="bd34d-117">Cell name:</span></span>  <br/> | <span data-ttu-id="bd34d-118">OutputFormat</span><span class="sxs-lookup"><span data-stu-id="bd34d-118">OutputFormat</span></span>  <br/> |
+| <span data-ttu-id="d98fe-117">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="d98fe-117">Cell name:</span></span>  <br/> | <span data-ttu-id="d98fe-118">OutputFormat</span><span class="sxs-lookup"><span data-stu-id="d98fe-118">OutputFormat</span></span>  <br/> |
    
-<span data-ttu-id="bd34d-119">Para fazer referência à célula OutputFormat pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="bd34d-119">To get a reference to the OutputFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d98fe-119">Para fazer referência à célula OutputFormat pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="d98fe-119">To get a reference to the OutputFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bd34d-120">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="bd34d-120">Section index:</span></span>  <br/> |<span data-ttu-id="bd34d-121">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bd34d-121">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="bd34d-122">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="bd34d-122">Row index:</span></span>  <br/> |<span data-ttu-id="bd34d-123">**visRowDoc**</span><span class="sxs-lookup"><span data-stu-id="bd34d-123">**visRowDoc**</span></span> <br/> |
-| <span data-ttu-id="bd34d-124">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="bd34d-124">Cell index:</span></span>  <br/> |<span data-ttu-id="bd34d-125">**visDocOutputFormat**</span><span class="sxs-lookup"><span data-stu-id="bd34d-125">**visDocOutputFormat**</span></span> <br/> |
+| <span data-ttu-id="d98fe-120">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="d98fe-120">Section index:</span></span>  <br/> |<span data-ttu-id="d98fe-121">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d98fe-121">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="d98fe-122">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="d98fe-122">Row index:</span></span>  <br/> |<span data-ttu-id="d98fe-123">**visRowDoc**</span><span class="sxs-lookup"><span data-stu-id="d98fe-123">**visRowDoc**</span></span> <br/> |
+| <span data-ttu-id="d98fe-124">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="d98fe-124">Cell index:</span></span>  <br/> |<span data-ttu-id="d98fe-125">**visDocOutputFormat**</span><span class="sxs-lookup"><span data-stu-id="d98fe-125">**visDocOutputFormat**</span></span> <br/> |
    
 

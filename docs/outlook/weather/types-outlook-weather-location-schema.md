@@ -1,5 +1,5 @@
 ---
-title: Tipos (esquema de localização do clima do Outlook)
+title: Tipos (Esquema de localização do clima do Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +15,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413735"
 ---
-# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="a3ca7-103">Tipos (esquema de localização do clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="a3ca7-103">Types (Outlook Weather Location Schema)</span></span>
+# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="35f69-103">Tipos (Esquema de localização do clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="35f69-103">Types (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="a3ca7-104">Este tópico lista os tipos no esquema XML de localização do clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="a3ca7-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="35f69-104">Este tópico lista os tipos no esquema XML de localização do clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="35f69-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="a3ca7-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="a3ca7-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
+- [<span data-ttu-id="35f69-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="35f69-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
     
 

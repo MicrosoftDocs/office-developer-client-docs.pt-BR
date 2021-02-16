@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415191"
 ---
-# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="2e49a-104">Célula Width (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="2e49a-104">Width Cell (Shape Transform Section)</span></span>
+# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="d05fa-104">Célula Width (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="d05fa-104">Width Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="2e49a-105">Contém a largura da forma selecionada em unidades de desenho.</span><span class="sxs-lookup"><span data-stu-id="2e49a-105">Contains the width of the selected shape in drawing units.</span></span> <span data-ttu-id="2e49a-106">A fórmula padrão para determinar a largura de uma forma 1D é:</span><span class="sxs-lookup"><span data-stu-id="2e49a-106">The default formula for determining the width of a 1-D shape is:</span></span>
+<span data-ttu-id="d05fa-105">Contém a largura da forma selecionada em unidades de desenho.</span><span class="sxs-lookup"><span data-stu-id="d05fa-105">Contains the width of the selected shape in drawing units.</span></span> <span data-ttu-id="d05fa-106">A fórmula padrão para determinar a largura de uma forma 1D é:</span><span class="sxs-lookup"><span data-stu-id="d05fa-106">The default formula for determining the width of a 1-D shape is:</span></span>
   
-<span data-ttu-id="2e49a-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="2e49a-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
+<span data-ttu-id="d05fa-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="d05fa-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2e49a-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="2e49a-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d05fa-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="d05fa-108">Remarks</span></span>
 
-<span data-ttu-id="2e49a-109">Para fazer referência à célula Width pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="2e49a-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d05fa-109">Para fazer referência à célula Width pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="d05fa-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2e49a-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="2e49a-110">Cell name:</span></span>  <br/> | <span data-ttu-id="2e49a-111">Largura</span><span class="sxs-lookup"><span data-stu-id="2e49a-111">Width</span></span>  <br/> |
+| <span data-ttu-id="d05fa-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="d05fa-110">Cell name:</span></span>  <br/> | <span data-ttu-id="d05fa-111">Largura</span><span class="sxs-lookup"><span data-stu-id="d05fa-111">Width</span></span>  <br/> |
    
-<span data-ttu-id="2e49a-112">Para fazer referência à célula Width pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="2e49a-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d05fa-112">Para fazer referência à célula Width pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="d05fa-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2e49a-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="2e49a-113">Section index:</span></span>  <br/> |<span data-ttu-id="2e49a-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2e49a-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="2e49a-115">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="2e49a-115">Row index:</span></span>  <br/> |<span data-ttu-id="2e49a-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="2e49a-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="2e49a-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="2e49a-117">Cell index:</span></span>  <br/> |<span data-ttu-id="2e49a-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="2e49a-118">**visXFormWidth**</span></span> <br/> |
+| <span data-ttu-id="d05fa-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="d05fa-113">Section index:</span></span>  <br/> |<span data-ttu-id="d05fa-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d05fa-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="d05fa-115">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="d05fa-115">Row index:</span></span>  <br/> |<span data-ttu-id="d05fa-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="d05fa-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="d05fa-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="d05fa-117">Cell index:</span></span>  <br/> |<span data-ttu-id="d05fa-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="d05fa-118">**visXFormWidth**</span></span> <br/> |
    
 

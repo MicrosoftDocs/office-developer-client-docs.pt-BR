@@ -1,5 +1,5 @@
 ---
-title: Seções do serviço de mensagens MapiSvc. inf
+title: Seções do Serviço de Mensagens MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415366"
 ---
-# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="c244d-103">Seções do serviço de mensagens MapiSvc. inf</span><span class="sxs-lookup"><span data-stu-id="c244d-103">MapiSvc.inf Message Service Sections</span></span>
+# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="c8790-103">Seções do Serviço de Mensagens MapiSvc.inf</span><span class="sxs-lookup"><span data-stu-id="c8790-103">MapiSvc.inf Message Service Sections</span></span>
 
   
   
-<span data-ttu-id="c244d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c244d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8790-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8790-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c244d-105">MAPISVC. inf inclui uma seção de serviço de mensagem para cada uma das entradas listadas na seção **[serviços]** .</span><span class="sxs-lookup"><span data-stu-id="c244d-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="c244d-106">Há dois tipos de entradas nessas seções: uma para a configuração de determinadas propriedades e a outra para listar nomes de seções relacionadas ao serviço de mensagens que está sendo configurado.</span><span class="sxs-lookup"><span data-stu-id="c244d-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
+<span data-ttu-id="c8790-105">mapisvc.inf inclui uma seção de serviço de mensagens para cada uma das entradas listadas na **seção [Serviços].**</span><span class="sxs-lookup"><span data-stu-id="c8790-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="c8790-106">Há dois tipos de entradas nessas seções: uma para definir determinadas propriedades e a outra para listar nomes de seções relacionadas ao serviço de mensagens que está sendo configurado.</span><span class="sxs-lookup"><span data-stu-id="c8790-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
   
 

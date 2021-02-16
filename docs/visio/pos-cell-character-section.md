@@ -16,30 +16,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414015"
 ---
-# <a name="pos-cell-character-section"></a><span data-ttu-id="922d6-103">Célula Pos (Seção Character)</span><span class="sxs-lookup"><span data-stu-id="922d6-103">Pos Cell (Character Section)</span></span>
+# <a name="pos-cell-character-section"></a><span data-ttu-id="d863e-103">Célula Pos (Seção Character)</span><span class="sxs-lookup"><span data-stu-id="d863e-103">Pos Cell (Character Section)</span></span>
 
-<span data-ttu-id="922d6-104">Determina a posição do texto da forma em relação à linha de base.</span><span class="sxs-lookup"><span data-stu-id="922d6-104">Determines the position of the shape's text relative to the baseline.</span></span>
+<span data-ttu-id="d863e-104">Determina a posição do texto da forma em relação à linha de base.</span><span class="sxs-lookup"><span data-stu-id="d863e-104">Determines the position of the shape's text relative to the baseline.</span></span>
   
-|<span data-ttu-id="922d6-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="922d6-105">**Value**</span></span>|<span data-ttu-id="922d6-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="922d6-106">**Description**</span></span>|<span data-ttu-id="922d6-107">**Constante de automação**</span><span class="sxs-lookup"><span data-stu-id="922d6-107">**Automation constant**</span></span>|
+|<span data-ttu-id="d863e-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="d863e-105">**Value**</span></span>|<span data-ttu-id="d863e-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d863e-106">**Description**</span></span>|<span data-ttu-id="d863e-107">**Constante de automação**</span><span class="sxs-lookup"><span data-stu-id="d863e-107">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="922d6-108">,0</span><span class="sxs-lookup"><span data-stu-id="922d6-108">0</span></span>  <br/> | <span data-ttu-id="922d6-109">Posição normal</span><span class="sxs-lookup"><span data-stu-id="922d6-109">Normal position</span></span>  <br/> |<span data-ttu-id="922d6-110">**visPosNormal**</span><span class="sxs-lookup"><span data-stu-id="922d6-110">**visPosNormal**</span></span> <br/> |
-| <span data-ttu-id="922d6-111">1</span><span class="sxs-lookup"><span data-stu-id="922d6-111">1</span></span>  <br/> | <span data-ttu-id="922d6-112">Sobrescrito</span><span class="sxs-lookup"><span data-stu-id="922d6-112">Superscript</span></span>  <br/> |<span data-ttu-id="922d6-113">**visPosSuper**</span><span class="sxs-lookup"><span data-stu-id="922d6-113">**visPosSuper**</span></span> <br/> |
-| <span data-ttu-id="922d6-114">duas</span><span class="sxs-lookup"><span data-stu-id="922d6-114">2</span></span>  <br/> | <span data-ttu-id="922d6-115">Subscrito</span><span class="sxs-lookup"><span data-stu-id="922d6-115">Subscript</span></span>  <br/> |<span data-ttu-id="922d6-116">**visPosSub**</span><span class="sxs-lookup"><span data-stu-id="922d6-116">**visPosSub**</span></span> <br/> |
+| <span data-ttu-id="d863e-108">0</span><span class="sxs-lookup"><span data-stu-id="d863e-108">0</span></span>  <br/> | <span data-ttu-id="d863e-109">Posição normal</span><span class="sxs-lookup"><span data-stu-id="d863e-109">Normal position</span></span>  <br/> |<span data-ttu-id="d863e-110">**visPosNormal**</span><span class="sxs-lookup"><span data-stu-id="d863e-110">**visPosNormal**</span></span> <br/> |
+| <span data-ttu-id="d863e-111">1 </span><span class="sxs-lookup"><span data-stu-id="d863e-111">1</span></span>  <br/> | <span data-ttu-id="d863e-112">Sobrescrito</span><span class="sxs-lookup"><span data-stu-id="d863e-112">Superscript</span></span>  <br/> |<span data-ttu-id="d863e-113">**visPosSuper**</span><span class="sxs-lookup"><span data-stu-id="d863e-113">**visPosSuper**</span></span> <br/> |
+| <span data-ttu-id="d863e-114">2 </span><span class="sxs-lookup"><span data-stu-id="d863e-114">2</span></span>  <br/> | <span data-ttu-id="d863e-115">Subscrito</span><span class="sxs-lookup"><span data-stu-id="d863e-115">Subscript</span></span>  <br/> |<span data-ttu-id="d863e-116">**visPosSub**</span><span class="sxs-lookup"><span data-stu-id="d863e-116">**visPosSub**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="922d6-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="922d6-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d863e-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="d863e-117">Remarks</span></span>
 
-<span data-ttu-id="922d6-118">Para fazer referência à célula Pos pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="922d6-118">To get a reference to the Pos cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d863e-118">Para fazer referência à célula Pos pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="d863e-118">To get a reference to the Pos cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="922d6-119">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="922d6-119">Cell name:</span></span>  <br/> | <span data-ttu-id="922d6-120">Char. pos [ *i* ] onde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="922d6-120">Char.Pos[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="d863e-119">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="d863e-119">Cell name:</span></span>  <br/> | <span data-ttu-id="d863e-120">Char.Pos[  *i*  ] onde i =  *<*  1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="d863e-120">Char.Pos[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="922d6-121">Para fazer referência à célula Pos pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="922d6-121">To get a reference to the Pos cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d863e-121">Para fazer referência à célula Pos pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="d863e-121">To get a reference to the Pos cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="922d6-122">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="922d6-122">Section index:</span></span>  <br/> |<span data-ttu-id="922d6-123">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="922d6-123">**visSectionCharacter**</span></span> <br/> |
-| <span data-ttu-id="922d6-124">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="922d6-124">Row index:</span></span>  <br/> |<span data-ttu-id="922d6-125">**visRowCharacter** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="922d6-125">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="922d6-126">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="922d6-126">Cell index:</span></span>  <br/> |<span data-ttu-id="922d6-127">**visCharacterPos**</span><span class="sxs-lookup"><span data-stu-id="922d6-127">**visCharacterPos**</span></span> <br/> |
+| <span data-ttu-id="d863e-122">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="d863e-122">Section index:</span></span>  <br/> |<span data-ttu-id="d863e-123">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="d863e-123">**visSectionCharacter**</span></span> <br/> |
+| <span data-ttu-id="d863e-124">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="d863e-124">Row index:</span></span>  <br/> |<span data-ttu-id="d863e-125">**visRowCharacter** +  *i*            onde  *i*  = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d863e-125">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="d863e-126">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="d863e-126">Cell index:</span></span>  <br/> |<span data-ttu-id="d863e-127">**visCharacterPos**</span><span class="sxs-lookup"><span data-stu-id="d863e-127">**visCharacterPos**</span></span> <br/> |
    
 

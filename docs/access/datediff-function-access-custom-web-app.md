@@ -5,7 +5,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
-description: Retorna a contagem dos limites de parte de data especificados cruzados entre a data de início e a data de término especificadas.
+description: Retorna a contagem dos limites da parte de data especificados cruzados entre a data de início e a data de término especificadas.
 ms.openlocfilehash: 1cce8a501c5a57384372e681f903baa4f4c20bef
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,40 +13,40 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415611"
 ---
-# <a name="datediff-function-access-custom-web-app"></a><span data-ttu-id="445ba-103">Função DateDiff (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="445ba-103">DateDiff function (Access custom web app)</span></span>
+# <a name="datediff-function-access-custom-web-app"></a><span data-ttu-id="34c67-103">Função DateDiff (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="34c67-103">DateDiff function (Access custom web app)</span></span>
 
-<span data-ttu-id="445ba-104">Retorna a contagem dos limites de parte de data especificados cruzados entre a data de início e a data de término especificadas.</span><span class="sxs-lookup"><span data-stu-id="445ba-104">Returns the count of the specified date part boundaries crossed between the specified start date and end date.</span></span>
+<span data-ttu-id="34c67-104">Retorna a contagem dos limites da parte de data especificados cruzados entre a data de início e a data de término especificadas.</span><span class="sxs-lookup"><span data-stu-id="34c67-104">Returns the count of the specified date part boundaries crossed between the specified start date and end date.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="445ba-105">O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.*</span><span class="sxs-lookup"><span data-stu-id="445ba-105">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*</span></span> <span data-ttu-id="445ba-106">> Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="445ba-106">> For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
+> <span data-ttu-id="34c67-105">O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.*</span><span class="sxs-lookup"><span data-stu-id="34c67-105">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*</span></span> <span data-ttu-id="34c67-106">> Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="34c67-106">> For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="445ba-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="445ba-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="34c67-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="34c67-107">Syntax</span></span>
 
-<span data-ttu-id="445ba-108">**DateDiff** (*Datepart*, *StartDate*, *EndDate*)</span><span class="sxs-lookup"><span data-stu-id="445ba-108">**DateDiff** (*DatePart*, *StartDate*, *EndDate*)</span></span> 
+<span data-ttu-id="34c67-108">**DateDiff** (*DatePart*, *StartDate*, *EndDate*)</span><span class="sxs-lookup"><span data-stu-id="34c67-108">**DateDiff** (*DatePart*, *StartDate*, *EndDate*)</span></span> 
   
-<span data-ttu-id="445ba-109">A função **DateDiff** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="445ba-109">The **DateDiff** function contains the following arguments.</span></span> 
+<span data-ttu-id="34c67-109">A **função DateDiff** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="34c67-109">The **DateDiff** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="445ba-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="445ba-110">**Argument name**</span></span>|<span data-ttu-id="445ba-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="445ba-111">**Description**</span></span>|
+|<span data-ttu-id="34c67-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="34c67-110">**Argument name**</span></span>|<span data-ttu-id="34c67-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="34c67-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="445ba-112">*DatePart*</span><span class="sxs-lookup"><span data-stu-id="445ba-112">*DatePart*</span></span>  <br/> |<span data-ttu-id="445ba-113">É a parte de *StartDate* e *EndDate* que especifica o tipo de limite ultrapassado.</span><span class="sxs-lookup"><span data-stu-id="445ba-113">Is the part of  *StartDate*  and  *EndDate*  that specifies the type of boundary crossed.</span></span> <span data-ttu-id="445ba-114">Consulte a seção comentários para obter a lista de configurações válidas.</span><span class="sxs-lookup"><span data-stu-id="445ba-114">Refer to the Remarks section for the list of valid settings.</span></span>  <br/> |
-| <span data-ttu-id="445ba-115">*StartDate*</span><span class="sxs-lookup"><span data-stu-id="445ba-115">*StartDate*</span></span>  <br/> |<span data-ttu-id="445ba-116">Uma expressão que pode ser resolvida como um valor de data/hora.</span><span class="sxs-lookup"><span data-stu-id="445ba-116">An expression that can be resolved to a Date/Time value.</span></span> <span data-ttu-id="445ba-117">A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="445ba-117">The  *Date*  argument expression, column expression, user-defined variable or string literal.</span></span>  <br/> |
-| <span data-ttu-id="445ba-118">*EndDate*</span><span class="sxs-lookup"><span data-stu-id="445ba-118">*EndDate*</span></span>  <br/> |<span data-ttu-id="445ba-119">Uma expressão que pode ser resolvida como um valor de data/hora.</span><span class="sxs-lookup"><span data-stu-id="445ba-119">An expression that can be resolved to a Date/Time value.</span></span> <span data-ttu-id="445ba-120">A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="445ba-120">The  *Date*  argument expression, column expression, user-defined variable or string literal.</span></span>  <br/> |
+| <span data-ttu-id="34c67-112">*DatePart*</span><span class="sxs-lookup"><span data-stu-id="34c67-112">*DatePart*</span></span>  <br/> |<span data-ttu-id="34c67-113">É a parte de  *StartDate*  *e EndDate*  que especifica o tipo de limite cruzado.</span><span class="sxs-lookup"><span data-stu-id="34c67-113">Is the part of  *StartDate*  and  *EndDate*  that specifies the type of boundary crossed.</span></span> <span data-ttu-id="34c67-114">Consulte a seção Comentários para ver a lista de configurações válidas.</span><span class="sxs-lookup"><span data-stu-id="34c67-114">Refer to the Remarks section for the list of valid settings.</span></span>  <br/> |
+| <span data-ttu-id="34c67-115">*StartDate*</span><span class="sxs-lookup"><span data-stu-id="34c67-115">*StartDate*</span></span>  <br/> |<span data-ttu-id="34c67-116">Uma expressão que pode ser resolvida para um valor de Data/Hora.</span><span class="sxs-lookup"><span data-stu-id="34c67-116">An expression that can be resolved to a Date/Time value.</span></span> <span data-ttu-id="34c67-117">A  *expressão do argumento Date,*  a expressão de coluna, a variável definida pelo usuário ou a cadeia de caracteres literal.</span><span class="sxs-lookup"><span data-stu-id="34c67-117">The  *Date*  argument expression, column expression, user-defined variable or string literal.</span></span>  <br/> |
+| <span data-ttu-id="34c67-118">*EndDate*</span><span class="sxs-lookup"><span data-stu-id="34c67-118">*EndDate*</span></span>  <br/> |<span data-ttu-id="34c67-119">Uma expressão que pode ser resolvida para um valor de Data/Hora.</span><span class="sxs-lookup"><span data-stu-id="34c67-119">An expression that can be resolved to a Date/Time value.</span></span> <span data-ttu-id="34c67-120">A  *expressão do argumento Date,*  a expressão de coluna, a variável definida pelo usuário ou a cadeia de caracteres literal.</span><span class="sxs-lookup"><span data-stu-id="34c67-120">The  *Date*  argument expression, column expression, user-defined variable or string literal.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="445ba-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="445ba-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34c67-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="34c67-121">Remarks</span></span>
 
-<span data-ttu-id="445ba-122">A tabela a seguir lista todos os argumentos de *datepart* válidos.</span><span class="sxs-lookup"><span data-stu-id="445ba-122">The following table lists all valid  *DatePart*  arguments.</span></span> 
+<span data-ttu-id="34c67-122">A tabela a seguir lista todos os  *argumentos DatePart*  válidos.</span><span class="sxs-lookup"><span data-stu-id="34c67-122">The following table lists all valid  *DatePart*  arguments.</span></span> 
   
-|<span data-ttu-id="445ba-123">***DatePart***</span><span class="sxs-lookup"><span data-stu-id="445ba-123">***DatePart***</span></span>|
+|<span data-ttu-id="34c67-123">***DatePart***</span><span class="sxs-lookup"><span data-stu-id="34c67-123">***DatePart***</span></span>|
 |:-----|
-|<span data-ttu-id="445ba-124">**year**</span><span class="sxs-lookup"><span data-stu-id="445ba-124">**year**</span></span> <br/> |
-|<span data-ttu-id="445ba-125">**trimestre**</span><span class="sxs-lookup"><span data-stu-id="445ba-125">**quarter**</span></span> <br/> |
-|<span data-ttu-id="445ba-126">**Mês**</span><span class="sxs-lookup"><span data-stu-id="445ba-126">**month**</span></span> <br/> |
-|<span data-ttu-id="445ba-127">**DayOfYear**</span><span class="sxs-lookup"><span data-stu-id="445ba-127">**dayofyear**</span></span> <br/> |
-|<span data-ttu-id="445ba-128">**day**</span><span class="sxs-lookup"><span data-stu-id="445ba-128">**day**</span></span> <br/> |
-|<span data-ttu-id="445ba-129">**útil**</span><span class="sxs-lookup"><span data-stu-id="445ba-129">**week**</span></span> <br/> |
-|<span data-ttu-id="445ba-130">**hora**</span><span class="sxs-lookup"><span data-stu-id="445ba-130">**hour**</span></span> <br/> |
-|<span data-ttu-id="445ba-131">**inclusões**</span><span class="sxs-lookup"><span data-stu-id="445ba-131">**minute**</span></span> <br/> |
-|<span data-ttu-id="445ba-132">**secundária**</span><span class="sxs-lookup"><span data-stu-id="445ba-132">**second**</span></span> <br/> |
-|<span data-ttu-id="445ba-133">**milissegundo**</span><span class="sxs-lookup"><span data-stu-id="445ba-133">**millisecond**</span></span> <br/> |
+|<span data-ttu-id="34c67-124">**ano**</span><span class="sxs-lookup"><span data-stu-id="34c67-124">**year**</span></span> <br/> |
+|<span data-ttu-id="34c67-125">**quarter**</span><span class="sxs-lookup"><span data-stu-id="34c67-125">**quarter**</span></span> <br/> |
+|<span data-ttu-id="34c67-126">**Mês**</span><span class="sxs-lookup"><span data-stu-id="34c67-126">**month**</span></span> <br/> |
+|<span data-ttu-id="34c67-127">**dayofyear**</span><span class="sxs-lookup"><span data-stu-id="34c67-127">**dayofyear**</span></span> <br/> |
+|<span data-ttu-id="34c67-128">**dia**</span><span class="sxs-lookup"><span data-stu-id="34c67-128">**day**</span></span> <br/> |
+|<span data-ttu-id="34c67-129">**semana**</span><span class="sxs-lookup"><span data-stu-id="34c67-129">**week**</span></span> <br/> |
+|<span data-ttu-id="34c67-130">**hour**</span><span class="sxs-lookup"><span data-stu-id="34c67-130">**hour**</span></span> <br/> |
+|<span data-ttu-id="34c67-131">**minute**</span><span class="sxs-lookup"><span data-stu-id="34c67-131">**minute**</span></span> <br/> |
+|<span data-ttu-id="34c67-132">**segundo**</span><span class="sxs-lookup"><span data-stu-id="34c67-132">**second**</span></span> <br/> |
+|<span data-ttu-id="34c67-133">**milissegundos**</span><span class="sxs-lookup"><span data-stu-id="34c67-133">**millisecond**</span></span> <br/> |
    
 

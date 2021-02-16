@@ -13,24 +13,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416717"
 ---
-# <a name="eventmultidrop-cell-events-section"></a><span data-ttu-id="cbe0c-102">Célula EventMultiDrop (Seção Eventos)</span><span class="sxs-lookup"><span data-stu-id="cbe0c-102">EventMultiDrop Cell (Events Section)</span></span>
+# <a name="eventmultidrop-cell-events-section"></a><span data-ttu-id="3f600-102">Célula EventMultiDrop (Seção Eventos)</span><span class="sxs-lookup"><span data-stu-id="3f600-102">EventMultiDrop Cell (Events Section)</span></span>
 
-<span data-ttu-id="cbe0c-103">Uma célula de evento que é avaliada quando várias formas são soltas na página de desenho, seja como instâncias ou quando formas são duplicadas ou coladas.</span><span class="sxs-lookup"><span data-stu-id="cbe0c-103">An event cell that is evaluated when multiple shapes are dropped on the drawing page, either as instances or when shapes are duplicated or pasted.</span></span>
+<span data-ttu-id="3f600-103">Uma célula de evento que é avaliada quando várias formas são retiradas na página de desenho, como instâncias ou quando as formas são duplicadas ou copiadas.</span><span class="sxs-lookup"><span data-stu-id="3f600-103">An event cell that is evaluated when multiple shapes are dropped on the drawing page, either as instances or when shapes are duplicated or pasted.</span></span>
   
-<span data-ttu-id="cbe0c-104">As células de evento são avaliadas somente quando ocorre o evento, e não ao inserir a fórmula.</span><span class="sxs-lookup"><span data-stu-id="cbe0c-104">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="3f600-104">As células de evento são avaliadas somente quando ocorre o evento, e não ao inserir a fórmula.</span><span class="sxs-lookup"><span data-stu-id="3f600-104">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
-<span data-ttu-id="cbe0c-105">Para referir-se à célula EventMultiDrop pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-105">To refer to the EventMultiDrop cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3f600-105">Para referir-se à célula EventMultiDrop pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="3f600-105">To refer to the EventMultiDrop cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cbe0c-106">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-106">Cell name:</span></span>  <br/> |<span data-ttu-id="cbe0c-107">EventMultiDrop</span><span class="sxs-lookup"><span data-stu-id="cbe0c-107">EventMultiDrop</span></span>  <br/> |
+|<span data-ttu-id="3f600-106">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="3f600-106">Cell name:</span></span>  <br/> |<span data-ttu-id="3f600-107">EventMultiDrop</span><span class="sxs-lookup"><span data-stu-id="3f600-107">EventMultiDrop</span></span>  <br/> |
    
-<span data-ttu-id="cbe0c-108">Para referir-se à célula EventMultiDrop pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-108">To refer to the EventMultiDrop cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3f600-108">Para referir-se à célula EventMultiDrop pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="3f600-108">To refer to the EventMultiDrop cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cbe0c-109">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-109">Section index:</span></span>  <br/> |<span data-ttu-id="cbe0c-110">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cbe0c-110">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="cbe0c-111">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-111">Row index:</span></span>  <br/> |<span data-ttu-id="cbe0c-112">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="cbe0c-112">**visRowEvent**</span></span> <br/> |
-|<span data-ttu-id="cbe0c-113">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="cbe0c-113">Cell index:</span></span>  <br/> |<span data-ttu-id="cbe0c-114">**visEvtCellMultiDrop**</span><span class="sxs-lookup"><span data-stu-id="cbe0c-114">**visEvtCellMultiDrop**</span></span> <br/> |
+|<span data-ttu-id="3f600-109">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="3f600-109">Section index:</span></span>  <br/> |<span data-ttu-id="3f600-110">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3f600-110">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="3f600-111">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="3f600-111">Row index:</span></span>  <br/> |<span data-ttu-id="3f600-112">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="3f600-112">**visRowEvent**</span></span> <br/> |
+|<span data-ttu-id="3f600-113">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="3f600-113">Cell index:</span></span>  <br/> |<span data-ttu-id="3f600-114">**visEvtCellMultiDrop**</span><span class="sxs-lookup"><span data-stu-id="3f600-114">**visEvtCellMultiDrop**</span></span> <br/> |
    
 

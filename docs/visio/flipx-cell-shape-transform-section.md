@@ -16,29 +16,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415947"
 ---
-# <a name="flipx-cell-shape-transform-section"></a><span data-ttu-id="6bf67-103">Célula FlipX (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="6bf67-103">FlipX Cell (Shape Transform Section)</span></span>
+# <a name="flipx-cell-shape-transform-section"></a><span data-ttu-id="b45d6-103">Célula FlipX (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="b45d6-103">FlipX Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="6bf67-104">Indica se a forma foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="6bf67-104">Indicates whether the shape has been flipped horizontally.</span></span>
+<span data-ttu-id="b45d6-104">Indica se a forma foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="b45d6-104">Indicates whether the shape has been flipped horizontally.</span></span>
   
-|<span data-ttu-id="6bf67-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="6bf67-105">**Value**</span></span>|<span data-ttu-id="6bf67-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6bf67-106">**Description**</span></span>|
+|<span data-ttu-id="b45d6-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="b45d6-105">**Value**</span></span>|<span data-ttu-id="b45d6-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b45d6-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="6bf67-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="6bf67-107">TRUE</span></span>  <br/> | <span data-ttu-id="6bf67-108">A forma foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="6bf67-108">The shape has been flipped horizontally.</span></span>  <br/> |
-| <span data-ttu-id="6bf67-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="6bf67-109">FALSE</span></span>  <br/> | <span data-ttu-id="6bf67-110">A forma não foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="6bf67-110">The shape has not been flipped horizontally.</span></span>  <br/> |
+| <span data-ttu-id="b45d6-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="b45d6-107">TRUE</span></span>  <br/> | <span data-ttu-id="b45d6-108">A forma foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="b45d6-108">The shape has been flipped horizontally.</span></span>  <br/> |
+| <span data-ttu-id="b45d6-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="b45d6-109">FALSE</span></span>  <br/> | <span data-ttu-id="b45d6-110">A forma não foi virada horizontalmente.</span><span class="sxs-lookup"><span data-stu-id="b45d6-110">The shape has not been flipped horizontally.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6bf67-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="6bf67-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b45d6-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="b45d6-111">Remarks</span></span>
 
-<span data-ttu-id="6bf67-112">Para fazer referência à célula FlipX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="6bf67-112">To get a reference to the FlipX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b45d6-112">Para fazer referência à célula FlipX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="b45d6-112">To get a reference to the FlipX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6bf67-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="6bf67-113">Cell name:</span></span>  <br/> | <span data-ttu-id="6bf67-114">FlipX</span><span class="sxs-lookup"><span data-stu-id="6bf67-114">FlipX</span></span>  <br/> |
+| <span data-ttu-id="b45d6-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="b45d6-113">Cell name:</span></span>  <br/> | <span data-ttu-id="b45d6-114">FlipX</span><span class="sxs-lookup"><span data-stu-id="b45d6-114">FlipX</span></span>  <br/> |
    
-<span data-ttu-id="6bf67-115">Para fazer referência à célula FlipX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="6bf67-115">To get a reference to the FlipX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b45d6-115">Para fazer referência à célula FlipX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="b45d6-115">To get a reference to the FlipX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6bf67-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="6bf67-116">Section index:</span></span>  <br/> |<span data-ttu-id="6bf67-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6bf67-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="6bf67-118">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="6bf67-118">Row index:</span></span>  <br/> |<span data-ttu-id="6bf67-119">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="6bf67-119">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="6bf67-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="6bf67-120">Cell index:</span></span>  <br/> |<span data-ttu-id="6bf67-121">**visXFormFlipX**</span><span class="sxs-lookup"><span data-stu-id="6bf67-121">**visXFormFlipX**</span></span> <br/> |
+| <span data-ttu-id="b45d6-116">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="b45d6-116">Section index:</span></span>  <br/> |<span data-ttu-id="b45d6-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b45d6-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="b45d6-118">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="b45d6-118">Row index:</span></span>  <br/> |<span data-ttu-id="b45d6-119">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="b45d6-119">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="b45d6-120">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="b45d6-120">Cell index:</span></span>  <br/> |<span data-ttu-id="b45d6-121">**visXFormFlipX**</span><span class="sxs-lookup"><span data-stu-id="b45d6-121">**visXFormFlipX**</span></span> <br/> |
    
 
