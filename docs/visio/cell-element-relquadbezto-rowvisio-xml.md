@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha RelQuadBezTo) (XML do Visio)
+title: Elemento Cell (Linha RelQuadBezTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542384"
 ---
-# <a name="cell-element-relquadbezto-row-visio-xml"></a>Elemento Cell (linha RelQuadBezTo) (XML do Visio)
+# <a name="cell-element-relquadbezto-row-visio-xml"></a>Elemento Cell (Linha RelQuadBezTo) (XML do Visio)
 
 Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier quadrática relativa à altura e largura da forma ou as coordenadas x ou y do ponto de controle da largura e altura da forma relativa da curva.
   

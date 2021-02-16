@@ -1,5 +1,5 @@
 ---
-title: Elemento datarecordsets (Visio XML)
+title: Elemento DataRecordSets (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542440"
 ---
-# <a name="datarecordsets-element-visio-xml"></a>Elemento datarecordsets (Visio XML)
+# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets (XML do Visio)
 
 Contém todos os elementos **DataRecordset** do documento. 
   

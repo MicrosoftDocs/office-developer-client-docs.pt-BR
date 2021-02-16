@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
-description: Especifica se um Recordset é atualizável usando os serviços do Visio no Microsoft SharePoint Server 2013.
+description: Especifica se um recordset é atualizável usando os Serviços do Visio no Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 21a0a5c198998c4b230be88c6bd9f96b25265990
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542874"
 ---
-# <a name="refreshabledata-element-publishsettingstype-complextype-visio-xml"></a>Elemento RefreshableData (PublishSettings_Type complexType) (XML do Visio)
+# <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Elemento RefreshableData (PublishSettings_Type complexType) (XML do Visio)
 
-Especifica se um Recordset é atualizável usando os serviços do Visio no Microsoft SharePoint Server 2013.
+Especifica se um recordset é atualizável usando os Serviços do Visio no Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -43,7 +43,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Especifica as configurações que são usadas quando o diagrama é aberto usando os serviços do Visio.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Especifica as configurações que são usadas quando o diagrama é aberto usando os Serviços do Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -53,6 +53,6 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O identificador de um Recordset.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O identificador de um recordset.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

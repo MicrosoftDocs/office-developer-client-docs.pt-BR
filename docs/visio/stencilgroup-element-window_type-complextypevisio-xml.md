@@ -1,12 +1,12 @@
 ---
-title: Elemento de estêncil (Window_Type complexType) (XML do Visio)
+title: Elemento StencilGroup (Window_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
-description: Especifica o grupo de janelas de estêncil mesclado da qual a janela é membro.
+description: Especifica o grupo de janelas de estêncil mescladas do qual a janela é membro.
 ms.openlocfilehash: 5550ed60943690a642c0bfcaa32426c599a49940
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541998"
 ---
-# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Elemento de estêncil (Window_Type complexType) (XML do Visio)
+# <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Elemento StencilGroup (Window_Type complexType) (XML do Visio)
 
-Especifica o grupo de janelas de estêncil mesclado da qual a janela é membro.
+Especifica o grupo de janelas de estêncil mescladas do qual a janela é membro.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica o grupo de janelas de estêncil mesclado da qual a janela é membro.
 |**Tipo de elemento** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

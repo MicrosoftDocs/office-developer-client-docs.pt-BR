@@ -23,7 +23,7 @@ O exemplo XML neste tópico é uma cadeia XML retornada para o Outlook Social Co
 
 Neste exemplo, o provedor OSC Especifica os seguintes elementos para mostrar os recursos de suporte no recurso amigos:
   
-- **getFriends** como **verdadeiro** para indicar que o provedor do OSC é compatível com o método[ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para obter informações dos amigos por programação. 
+- **getFriends** como **verdadeiro** para indicar que o provedor do OSC é compatível com o método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para obter informações dos amigos por programação. 
     
 - **cacheFriends** como **verdadeiro** para dar suporte a informações sobre o cache de amigos em uma pasta de contatos do Outlook. 
     
@@ -39,7 +39,7 @@ Neste exemplo, o provedor OSC Especifica os seguintes elementos para mostrar os 
 
 O provedor OSC especifica os seguintes elementos para mostrar o recurso de atividades de suporte:
   
-- **getActivities** como **verdadeiro** para indicar que o provedor do OSC é compatível com o método[ISocialProfile::GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) para visualizar atividades dos amigos por programação. 
+- **getActivities** como **verdadeiro** para indicar que o provedor do OSC é compatível com o método [ISocialProfile::GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) para visualizar atividades dos amigos por programação. 
     
 - **cacheActivities** como **falso** para dar suporte de atividades de cache de amigos na pasta oculta Feed de notícias do Outlook. 
     
@@ -57,11 +57,11 @@ O provedor OSC especifica os seguintes elementos para mostrar o suporte para aut
     
 - **displayUrl** como **falso** para indicar que o OSC não deverá exibir a URL para a rede social na caixa de diálogo da Configuração de conta. 
     
-- **hideHyperlinks** como **falso** para indicar que o provedor OSC oferece suporte apenas para contas existentes com senhas conhecidas e o OSC não deve exibir os hyperlinks **clique aqui para criar uma conta** e **Esqueceu sua senha? ** na caixa de diálogo da configuração de conta. 
+- **hideHyperlinks** como **falso** para indicar que o provedor OSC oferece suporte apenas para contas existentes com senhas conhecidas e o OSC não deve exibir os hyperlinks **clique aqui para criar uma conta** e **Esqueceu sua senha?** na caixa de diálogo da configuração de conta. 
     
 ## <a name="xml-example"></a>Exemplos de XML
 
-O exemplo a seguir mostra os**recursos** XML de um provedor do OSC. 
+O exemplo a seguir mostra os **recursos** XML de um provedor do OSC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>

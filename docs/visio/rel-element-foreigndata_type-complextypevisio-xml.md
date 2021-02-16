@@ -1,12 +1,12 @@
 ---
-title: Elemento rel (ForeignData_Type complexType) (XML do Visio)
+title: Elemento Rel (ForeignData_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
-description: Especifica uma relação entre uma forma e uma parte de documento que contém os dados de imagem associados à forma.
+description: Especifica uma relação entre uma forma e uma parte do documento que contém os dados de imagem associados à forma.
 ms.openlocfilehash: 5836fd306670600f65eda1f3a998ef4c5479114b
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542804"
 ---
-# <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Elemento rel (ForeignData_Type complexType) (XML do Visio)
+# <a name="rel-element-foreigndata_type-complextype-visio-xml"></a>Elemento Rel (ForeignData_Type complexType) (XML do Visio)
 
-Especifica uma relação entre uma forma e uma parte de documento que contém os dados de imagem associados à forma.
+Especifica uma relação entre uma forma e uma parte do documento que contém os dados de imagem associados à forma.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica uma relação entre uma forma e uma parte de documento que contém os
 |**Tipo de elemento** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Pages. xml, Masters. xml, Recordsets. xml, Page #. xml, Master #. xml  <br/> |
+|**Partes do documento** <br/> |pages.xml, masters.xml, recordsets.xml, page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Especifica uma instância dos dados de imagem armazenados no desenho.  <br/> |
+|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Especifica uma instância de dados de imagem armazenados no desenho.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,12 +52,12 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> Consulte Comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId #"  <br/> Consulte Comentários.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Consulte os comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId#"  <br/> Consulte os comentários.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor do atributo **r:ID** deve ser um tipo **ST_RelationshipID** . O tipo **ST_RelationshipID** é uma cadeia de caracteres que deve estar no formato "rId #", onde o caractere final deve ser um número. O número deve ser exclusivo entre todos os elementos irmãos do elemento **rel** . 
+O valor do atributo **r:id** deve ser um **tipo ST_RelationshipID** usuário. O **ST_RelationshipID** tipo é uma cadeia de caracteres que deve estar no formato 'rId#', onde o caractere final deve ser um número. O número deve ser exclusivo entre todos os elementos irmãos do **elemento Rel.** 
   
-Para obter mais informações sobre o tipo ST_RelationshipID, consulte a [Especificação ISO/IEC 29500 parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obter mais informações sobre o ST_RelationshipID, consulte a especificação [ISO/IEC 29500 Parte 1.](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)
   
 

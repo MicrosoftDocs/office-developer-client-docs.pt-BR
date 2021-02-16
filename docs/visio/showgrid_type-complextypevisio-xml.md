@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542342"
 ---
-# <a name="showgridtype-complextype-visio-xml"></a>ShowGrid_Type complexType (XML do Visio)
+# <a name="showgrid_type-complextype-visio-xml"></a>ShowGrid_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

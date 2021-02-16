@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha Connection) (Visio XML)
+title: Elemento Cell (Linha Connection) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541873"
 ---
-# <a name="cell-element-connection-row-visio-xml"></a>Elemento Cell (linha Connection) (Visio XML)
+# <a name="cell-element-connection-row-visio-xml"></a>Elemento Cell (Linha Connection) (XML do Visio)
 
 Contém as coordenadas x ou y, a direção horizontal ou vertical ou o tipo do ponto de conexão único em uma forma.
   

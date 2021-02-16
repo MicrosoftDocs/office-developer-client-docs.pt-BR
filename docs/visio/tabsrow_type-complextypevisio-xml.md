@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541929"
 ---
-# <a name="tabsrowtype-complextype-visio-xml"></a>TabsRow_Type complexType (XML do Visio)
+# <a name="tabsrow_type-complextype-visio-xml"></a>TabsRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Rule (RuleSet_Type complexType) (XML do Visio)
+title: Elemento Rule (RuleSet_Type complexType) (VISio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541705"
 ---
-# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Elemento Rule (RuleSet_Type complexType) (XML do Visio)
+# <a name="rule-element-ruleset_type-complextype-visio-xml"></a>Elemento Rule (RuleSet_Type complexType) (VISio XML)
 
 Representa uma regra de validação única em um conjunto de regras de validação de diagrama.
   
@@ -25,7 +25,7 @@ Representa uma regra de validação única em um conjunto de regras de validaç�
 |**Tipo de elemento** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -55,9 +55,9 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Categoria  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o texto exibido na coluna **categoria** da janela questões. O padrão é uma cadeia de caracteres vazia.  <br/> |Valores do tipo xsd:string.  <br/> |
-|Descrição  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica a descrição da regra de validação que aparece na interface do usuário. O padrão é "desconhecido".  <br/> |Valores do tipo xsd:string.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da regra de validação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Categoria  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o texto exibido na coluna **Categoria** da janela Problemas. O padrão é uma cadeia de caracteres vazia.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Descrição  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica a descrição da regra de validação que aparece na interface do usuário. O padrão é "Desconhecido".  <br/> |Valores do tipo xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo para a regra de validação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Ignorado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se a regra de validação é ignorada no momento. O padrão é False.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |obrigatório  <br/> |Especifica o nome universal da regra de validação.  <br/> |Valores do tipo xsd:string.  <br/> |
 |RuleTarget  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o tipo de objeto ao qual a regra de validação se aplica.  <br/> |Valores do tipo xsd:int.  <br/> |

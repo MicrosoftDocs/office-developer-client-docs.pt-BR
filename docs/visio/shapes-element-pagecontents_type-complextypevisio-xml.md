@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542118"
 ---
-# <a name="shapes-element-pagecontentstype-complextype-visio-xml"></a>Elemento Shapes (PageContents_Type complexType) (XML do Visio)
+# <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Elemento Shapes (PageContents_Type complexType) (XML do Visio)
 
 Contém uma coleção de elementos Shape.
   
@@ -42,8 +42,8 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica informações sobre as formas de um mestre em um desenho da Web.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica informações sobre as formas de um mestre em um desenho da Web.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica informações sobre as formas em um mestre em um desenho da Web.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica informações sobre as formas em um mestre em um desenho da Web.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

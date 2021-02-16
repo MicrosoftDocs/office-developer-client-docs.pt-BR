@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542825"
 ---
-# <a name="refreshconflicttype-complextype-visio-xml"></a>RefreshConflict_Type complexType (XML do Visio)
+# <a name="refreshconflict_type-complextype-visio-xml"></a>RefreshConflict_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

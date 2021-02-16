@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541369"
 ---
-# <a name="actiontagrowtype-complextype-visio-xml"></a>ActionTagRow_Type complexType (XML do Visio)
+# <a name="actiontagrow_type-complextype-visio-xml"></a>ActionTagRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

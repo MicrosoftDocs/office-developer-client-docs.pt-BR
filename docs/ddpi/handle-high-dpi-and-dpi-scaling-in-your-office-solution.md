@@ -41,7 +41,7 @@ Neste artigo vamos nos referir aos modos de percepção DPI é compatível com W
 |Modo  |Descrição  |Quando alterações DPI  |
 |---------|---------|---------|
 |DPI desconhecido |  Aplicativo sempre renderizado como se estivesse em uma exibição com valor de 96 DPI. |  Aplicativo é bitmap alongado para o tamanho esperado em exibir primário e secundário.    |
-|DPI ciente do sistema |  Aplicativo detecta DPI do monitor principal conectado ao fazer logon do Windows, mas não pode responder as alterações DPI. Para obter mais informações, consulte a seção [Configurar o Windows para corrigir aplicativos borrados](#configure-windows-to-fix-blurry-apps) neste artigo.  | O Aplicativo é bitmap alongado quando movidas para uma nova exibição com um DPI diferente.    |
+|DPI ciente do sistema |  Aplicativo detecta DPI do monitor principal conectado ao fazer logon do Windows, mas não pode responder as alterações DPI. Para obter mais informações, consulte [a seção Configurar o Windows para corrigir](#configure-windows-to-fix-blurry-apps) aplicativos desfocados neste artigo.  | O Aplicativo é bitmap alongado quando movidas para uma nova exibição com um DPI diferente.    |
 |Por Monitor DPI ciente |  O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.  |   O Windows enviará notificações DPI para janelas de nível superior do aplicativo para que possa reemitir quando o DPI for alterado.     |
 |Por Monitor v2 |  O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.  |   O Windows enviará notificações DPI ao nível superior e janelas de criança para que o aplicativo possa reemitir quando o DPI for alterado. |
 
@@ -237,7 +237,7 @@ Com o Windows atualização de abril de 2018 (1803) e versões posteriores, DPI 
 
 ![Diagrama mostrando janelas filho executando o sistema DPI cientes contexto no Windows abril de 2018 atualização (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obter o reconhecimento de DPI da janela pai. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a [função GetWindowDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obter a percepção DPI da janela pai. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
 > Você não pode depender reconhecimento de DPI o processo de como ela pode retornar [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) mesmo quando estiver o contexto de reconhecimento de conversa principal DPI aplicativo [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Use a função [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) Obtenha o contexto de reconhecimento de conversa DPI.
@@ -564,7 +564,7 @@ Você também pode encontrar essas técnicas adicionais úteis:
 
 ### <a name="articles"></a>Artigos
 
-- O [desenvolvimento de um aplicativo WPF de reconhecimento de DPI por monitor](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fornece uma visão geral e um guia para escrever aplicativos da área de trabalho Win32. Muitas das mesmas técnicas descritas neste artigo se aplicará a soluções de extensibilidade do Office.
+- [O desenvolvimento de Per-Monitor DPI-Aware aplicativo WPF](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fornece uma visão geral e um guia para escrever aplicativos da área de trabalho Win32. Muitas das mesmas técnicas descritas neste artigo se aplicará a soluções de extensibilidade do Office.
 - 
   [Escala de DPI mista e APIs de DPI](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) tem uma lista de APIs relacionados para DPI.
 - [Desenvolvedor guia: visualização por Monitor DPI - WPF ](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) abrange o guia de desenvolvimento de aplicativos WPF para criar reconhecimento de DPI WPF aplicativos.

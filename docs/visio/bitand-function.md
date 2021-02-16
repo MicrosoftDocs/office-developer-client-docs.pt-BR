@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251398
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
-description: Retorna um número binário de 16 bits em que cada bit é definido como 1 somente se o bit correspondente em ambos binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0.
+description: Retorna um número binário de 16 bits no qual cada bit é definido como 1 somente se o bit correspondente em binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0.
 ms.openlocfilehash: a3c76a9122d0f02d5ab61460cf3457bb15da4d7b
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "48293489"
 ---
 # <a name="bitand-function"></a>Função BITAND
 
-Retorna um número binário de 16 bits em que cada bit é definido como 1 somente se o bit correspondente em ambos binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0. 
+Retorna um número binário de 16 bits no qual cada bit é definido como 1 somente se o bit correspondente em binarynumber1 e binarynumber2 for 1. Caso contrário, o bit será definido como 0. 
   
 ## <a name="syntax"></a>Sintaxe
 
-BITAND (***binarynumber1***, ***binarynumber2*** ) 
+BITAND(***binarynumber1***, ***binarynumber2*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1 binário_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro número binário de 16 bits.  <br/> |
-| _número2 binário_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O segundo número binário de 16 bits.  <br/> |
+| _binary number1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro número binário de 16 bits.  <br/> |
+| _binary number2_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O segundo número binário de 16 bits.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -37,7 +37,7 @@ BITAND (***binarynumber1***, ***binarynumber2*** )
   
 ## <a name="example"></a>Exemplo
 
-BITAND (12, 6)
+BITAND(12,6)
   
 Retornará 4. Se 12 = 0...01100 e 6 = 0...00110; consequentemente, BITAND(12,6) = 0...00100.
   

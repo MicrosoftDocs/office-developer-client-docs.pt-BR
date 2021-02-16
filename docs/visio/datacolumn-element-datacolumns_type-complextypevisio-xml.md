@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541222"
 ---
-# <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) (XML do Visio)
+# <a name="datacolumn-element-datacolumns_type-complextype-visio-xml"></a>Elemento DataColumn (DataColumns_Type complexType) (XML do Visio)
 
 Define a aparência de uma coluna de dados na janela **Dados Externos** na interface de usuário do Visio e qualifica os dados na coluna definindo o tipo de dados e formatação. 
   

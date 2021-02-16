@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541173"
 ---
-# <a name="layerrowtype-complextype-visio-xml"></a>LayerRow_Type complexType (XML do Visio)
+# <a name="layerrow_type-complextype-visio-xml"></a>LayerRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

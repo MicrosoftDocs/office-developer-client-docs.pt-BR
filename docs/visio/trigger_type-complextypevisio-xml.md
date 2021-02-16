@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541894"
 ---
-# <a name="triggertype-complextype-visio-xml"></a>Trigger_Type complexType (XML do Visio)
+# <a name="trigger_type-complextype-visio-xml"></a>Trigger_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

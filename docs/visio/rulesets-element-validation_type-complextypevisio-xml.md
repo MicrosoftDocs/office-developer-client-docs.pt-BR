@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541572"
 ---
-# <a name="rulesets-element-validationtype-complextype-visio-xml"></a>Elemento RuleSets (Validation_Type complexType) (XML do Visio)
+# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Elemento RuleSets (Validation_Type complexType) (XML do Visio)
 
 Inclui um elemento **RuleSet** para cada conjunto de regras de validação no documento. 
   
@@ -25,7 +25,7 @@ Inclui um elemento **RuleSet** para cada conjunto de regras de validação no do
 |**Tipo de elemento** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

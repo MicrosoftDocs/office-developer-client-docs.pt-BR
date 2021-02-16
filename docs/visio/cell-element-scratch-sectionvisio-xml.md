@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Scratch) (Visio XML)
+title: Elemento Cell (Seção Scratch) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542321"
 ---
-# <a name="cell-element-scratch-section-visio-xml"></a>Elemento Cell (seção Scratch) (Visio XML)
+# <a name="cell-element-scratch-section-visio-xml"></a>Elemento Cell (Seção Scratch) (Visio XML)
 
 Especifica uma área de trabalho para inserir e testar fórmulas que podem ser referenciadas por outras células.
   

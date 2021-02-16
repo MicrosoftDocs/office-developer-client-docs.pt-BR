@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542202"
 ---
-# <a name="gluesettings-element-windowtype-complextype-visio-xml"></a>Elemento GlueSettings (Window_Type complexType) (XML do Visio)
+# <a name="gluesettings-element-window_type-complextype-visio-xml"></a>Elemento GlueSettings (Window_Type complexType) (XML do Visio)
 
 Especifica os objetos que definem a associação quando ela está habilitada no documento.
   

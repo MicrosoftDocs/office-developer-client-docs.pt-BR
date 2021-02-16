@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542832"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (XML do Visio)
+# <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (XML do Visio)
 
 Indica uma linha do conjunto de dados vinculados a uma forma que está em conflito após a atualização de conjunto do registros de dados.
   
@@ -52,8 +52,8 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID de página da forma envolvida no conflito.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A ID da linha original da linha agora está em conflito após a atualização dos dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID da página da forma envolvida no conflito.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A ID de linha original da linha agora está em conflito após a atualização dos dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |ShapeID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID da forma envolvida no conflito.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

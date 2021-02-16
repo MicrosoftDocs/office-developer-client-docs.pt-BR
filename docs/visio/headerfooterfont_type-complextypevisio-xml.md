@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541068"
 ---
-# <a name="headerfooterfonttype-complextype-visio-xml"></a>HeaderFooterFont_Type complexType (XML do Visio)
+# <a name="headerfooterfont_type-complextype-visio-xml"></a>HeaderFooterFont_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -92,10 +92,10 @@ Nenhum.
 |Altura  <br/> |xsd:int  <br/> |opcional  <br/> ||Valores do tipo xsd:int.  <br/> |
 |Itálico  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
 |Orientação  <br/> |xsd:int  <br/> |opcional  <br/> ||Valores do tipo xsd:int.  <br/> |
-|Precisão  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
 |PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
-|Quality  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
-|Risca  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
+|Qualidade  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
 |Sublinhado  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedByte.  <br/> |
 |Peso  <br/> |xsd:int  <br/> |opcional  <br/> ||Valores do tipo xsd:int.  <br/> |
 |Largura  <br/> |xsd:int  <br/> |opcional  <br/> ||Valores do tipo xsd:int.  <br/> |

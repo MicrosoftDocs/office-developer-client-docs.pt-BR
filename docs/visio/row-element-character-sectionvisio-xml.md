@@ -1,12 +1,12 @@
 ---
-title: Elemento Row (seção Character) (Visio XML)
+title: Elemento Row (Seção Character) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
-description: Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.
+description: Mostra os atributos de formatação de uma execução de texto da forma, como fonte, cor, estilo de texto, caso, posição relativa à linha de base e tamanho do ponto.
 ms.openlocfilehash: afff4dcb809bf73da6ada25045678711ade75b6b
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541782"
 ---
-# <a name="row-element-character-section-visio-xml"></a>Elemento Row (seção Character) (Visio XML)
+# <a name="row-element-character-section-visio-xml"></a>Elemento Row (Seção Character) (Visio XML)
 
-Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.
+Mostra os atributos de formatação de uma execução de texto da forma, como fonte, cor, estilo de texto, caso, posição relativa à linha de base e tamanho do ponto.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, maiúsculas e minúsculas, posição em relação à linha de base e tamanho do ponto.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Mostra os atributos de formatação para uma execução de texto da forma, como fonte, cor, estilo de texto, caso, posição relativa à linha de base e tamanho do ponto.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -55,9 +55,9 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
 |Del  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se uma linha que seria herdada de uma forma mestra foi excluída.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|IX  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica o identificador baseado em um da linha. Ele deve ser unqiue e maior que outros identificadores na mesma seção. O atributo IX é usado somente para as seções caractere, conexão, campo, FillGradient, geometria, camada, LineGradient, parágrafo, revisor, rabisco e guias. Uma linha pode ter apenas um dos atributos IX ou N.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica o identificador baseado em um para a linha. Ele deve ser unqiue e maior do que outros identificadores na mesma seção. O atributo IX só é usado para as seções Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch e Tabs. Uma linha só pode ter um dos atributos IX ou N.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |LocalName  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome exclusivo dependente de idioma da linha.  <br/> |Valores do tipo xsd:string.  <br/> |
-|N  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome exclusivo independente do idioma da linha. O atributo N é usado apenas para as seções usuário, propriedade, ações, controle, conexão, hiperlink e ActionTag. Uma linha pode ter apenas um dos atributos IX ou N.  <br/> |Valores do tipo xsd:string.  <br/> |
-|T  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o tipo de caminho geométrico representado pela linha e usado na visualização de geometria. O atributo T é usado apenas para a seção Geometry.  <br/> |Valores do tipo xsd:string.  <br/> |
+|N  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome exclusivo independente do idioma da linha. O atributo N só é usado para as seções User, Property, Actions, Control, Connection, Hyperlink e ActionTag. Uma linha só pode ter um dos atributos IX ou N.  <br/> |Valores do tipo xsd:string.  <br/> |
+|T  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o tipo do caminho geométrico representado pela linha e usado na visualização de geometria. O atributo T só é usado para a seção Geometry.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

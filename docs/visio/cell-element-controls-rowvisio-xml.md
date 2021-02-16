@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha Controls) (Visio XML)
+title: Elemento Cell (Linha Controls) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541831"
 ---
-# <a name="cell-element-controls-row-visio-xml"></a>Elemento Cell (linha Controls) (Visio XML)
+# <a name="cell-element-controls-row-visio-xml"></a>Elemento Cell (Linha Controls) (XML do Visio)
 
 Contém uma propriedade para uma alça de controle específica definida para uma forma.
   

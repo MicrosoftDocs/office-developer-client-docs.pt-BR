@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541145"
 ---
-# <a name="datacolumnstype-complextype-visio-xml"></a>DataColumns_Type complexType (XML do Visio)
+# <a name="datacolumns_type-complextype-visio-xml"></a>DataColumns_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

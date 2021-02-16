@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541992"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Elemento Connect (Connects_Type complexType) (XML do Visio)
+# <a name="connect-element-connects_type-complextype-visio-xml"></a>Elemento Connect (Connects_Type complexType) (XML do Visio)
 
 Representa uma conexão entre duas formas em um desenho, como uma linha e uma caixa em um organograma.
   

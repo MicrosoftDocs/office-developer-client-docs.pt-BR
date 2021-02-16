@@ -1,5 +1,5 @@
 ---
-title: RelMoveTo_Type complexType (XML do Visio)
+title: RelMoveTo_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542755"
 ---
-# <a name="relmovetotype-complextype-visio-xml"></a>RelMoveTo_Type complexType (XML do Visio)
+# <a name="relmoveto_type-complextype-visio-xml"></a>RelMoveTo_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

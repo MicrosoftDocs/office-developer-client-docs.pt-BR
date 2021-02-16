@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- modelos de formulário [InfoPath 2007], modelos de formulário de código gerenciado [InfoPath 2007], referência [InfoPath 2007], código gerenciado [InfoPath 2007], InfoPath 2007, referência
+- modelos de formulário [infopath 2007], modelos de formulário de código gerenciado [InfoPath 2007], referência [InfoPath 2007], código gerenciado [InfoPath 2007],InfoPath 2007, referência
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -27,7 +27,7 @@ Data de publicação desta referência: Outubro 2012
   
 ## <a name="related-links"></a>Links relacionados
 
-[Centro de desenvolvedores do Microsoft Office: docs](https://developer.microsoft.com/en-us/office/docs)
+[Central de Desenvolvedores do Microsoft Office: Documentos](https://developer.microsoft.com/en-us/office/docs)
   
 
 [Acessibilidade da Microsoft](https://www.microsoft.com/en-us/accessibility/)

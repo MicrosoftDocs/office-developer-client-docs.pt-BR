@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541936"
 ---
-# <a name="stylesheet-element-stylesheetstype-complextype-visio-xml"></a>Elemento StyleSheet (StyleSheets_Type complexType) (XML do Visio)
+# <a name="stylesheet-element-stylesheets_type-complextype-visio-xml"></a>Elemento StyleSheet (StyleSheets_Type complexType) (XML do Visio)
 
 Representa um estilo definido em um documento.
   
@@ -41,7 +41,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contém uma coleção de elementos **StyleSheet** para o documento.  <br/> |
+|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contém uma coleção de **elementos StyleSheet** para o documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -54,13 +54,13 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento de folha de estilos do qual esse estilo herda a formatação de preenchimento.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A identificação exclusiva do elemento no seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento StyleSheet do qual esse estilo herda a formatação de preenchimento.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se o nome foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se o nome Universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento de folha de estilos do qual esse estilo herda a formatação de linha.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se o nome universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento StyleSheet do qual esse estilo herda a formatação de linha.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Nome  <br/> |xsd:string  <br/> |opcional  <br/> |O nome do elemento.  <br/> |Valores do tipo xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |opcional  <br/> |O nome universal do elemento.  <br/> |Valores do tipo xsd:string.  <br/> |
-|TextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento de folha de estilos do qual esse estilo herda a formatação de texto.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do elemento StyleSheet do qual esse estilo herda a formatação de texto.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

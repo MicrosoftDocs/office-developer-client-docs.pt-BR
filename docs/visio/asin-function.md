@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251395
 localization_priority: Normal
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
-description: Retorna o arco seno de um número, por exemplo, o ângulo cujo seno é núm.
+description: Retorna o arco seno de um número, por exemplo, o ângulo cujo seno é número .
 ms.openlocfilehash: e66ed9ab3d01ac79bceb18f5c793afc928e5e4b4
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "48293503"
 ---
 # <a name="asin-function"></a>Função ASIN
 
-Retorna o arco seno de um número, por exemplo, o ângulo cujo seno é  *núm*  . 
+Retorna o arco seno de um número, por exemplo, o ângulo cujo seno é  *número*  . 
   
 ## <a name="syntax"></a>Sintaxe
 
-Asen (***número*** ) 
+ASIN(***number*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,11 +32,11 @@ Asen (***número*** )
    
 ## <a name="remarks"></a>Comentários
 
-O valor de entrada deve estar no intervalo-1 <=  *número*  <= 1, ou um #NUM! será retornado. O ângulo resultante está no intervalo-PI/2 <=  *angle*  <= pi/2 radianos (-90 <=  *angle*  <= 90 graus). 
+O valor de entrada deve estar no intervalo -1 <=  *número*  <= 1 ou um #NUM! será retornado. O ângulo resultante está no intervalo -PI/2 < *=*  ângulo <= PI/2 radianos (-90 < *=*  ângulo <= 90 graus). 
   
 ## <a name="example"></a>Exemplo
 
-ASEN (1)
+ASIN(1)
   
 Retorna 90 graus
   

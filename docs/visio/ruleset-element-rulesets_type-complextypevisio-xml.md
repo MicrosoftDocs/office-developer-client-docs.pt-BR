@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541635"
 ---
-# <a name="ruleset-element-rulesetstype-complextype-visio-xml"></a>Elemento RuleSet (RuleSets_Type complexType) (XML do Visio)
+# <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Elemento RuleSet (RuleSets_Type complexType) (XML do Visio)
 
 Representa um conjunto de regras de validação de diagrama.
   
@@ -25,7 +25,7 @@ Representa um conjunto de regras de validação de diagrama.
 |**Tipo de elemento** <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -56,9 +56,9 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
 |Descrição  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica a descrição que aparece na interface do usuário para o conjunto de regras de validação. O padrão é uma cadeia de caracteres vazia.  <br/> |Valores do tipo xsd:string.  <br/> |
-|Habilitado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se as regras no conjunto de regras de validação especificado são verificadas quando a validação é disparada para o documento atual. O padrão é True.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|Habilitado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se as regras no conjunto de regras de validação especificado serão verificadas quando a validação for disparada para o documento atual. O padrão é True.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo do conjunto de regras de validação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Nome  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome local do conjunto de regras de validação. O padrão é o valor do atributo nameu.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome local do conjunto de regras de validação. O padrão é o valor do atributo NameU.  <br/> |Valores do tipo xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |obrigatório  <br/> |Especifica o nome universal do conjunto de regras de validação.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

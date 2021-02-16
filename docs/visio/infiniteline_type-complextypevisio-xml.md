@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542412"
 ---
-# <a name="infinitelinetype-complextype-visio-xml"></a>InfiniteLine_Type complexType (XML do Visio)
+# <a name="infiniteline_type-complextype-visio-xml"></a>InfiniteLine_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

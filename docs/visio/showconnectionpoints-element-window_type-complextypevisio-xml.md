@@ -1,5 +1,5 @@
 ---
-title: Elemento doconnectionpoints (Window_Type complexType) (XML do Visio)
+title: Elemento ShowConnectionPoints (Window_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34543007"
 ---
-# <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Elemento doconnectionpoints (Window_Type complexType) (XML do Visio)
+# <a name="showconnectionpoints-element-window_type-complextype-visio-xml"></a>Elemento ShowConnectionPoints (Window_Type complexType) (XML do Visio)
 
 Especifica se os pontos de conexão são mostrados em uma janela.
   
@@ -25,7 +25,7 @@ Especifica se os pontos de conexão são mostrados em uma janela.
 |**Tipo de elemento** <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

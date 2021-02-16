@@ -40,11 +40,11 @@ Essa propriedade pode ter exatamente um dos seguintes valores:
     
 DTCT_LABEL (0x00000000)
   
-> Um rótulo de caixa de diálogo.
+> Um rótulo da caixa de diálogo.
    
 DTCT_EDIT (0x00000001)
   
-> Uma caixa de texto de edição de diálogo.
+> Uma caixa de texto de edição de caixa de diálogo.
 
 DTCT_LBX (0x00000002)
   
@@ -56,7 +56,7 @@ DTCT_COMBOBOX (0x00000003)
 
 DTCT_DDLBX (0x00000004)
   
-> Uma caixa de listagem suspensa de diálogo.
+> Uma caixa de listagem da caixa de diálogo.
 
 DTCT_CHECKBOX (0x00000005)
   
@@ -64,11 +64,11 @@ DTCT_CHECKBOX (0x00000005)
 
 DTCT_GROUPBOX (0x00000006)
   
-> Uma caixa de grupo de diálogo.
+> Uma caixa de diálogo de grupo.
   
 DTCT_BUTTON (0x00000007)
   
-> Um controle de botão de diálogo.
+> Um controle de botão de caixa de diálogo.
     
 DTCT_PAGE (0x00000008)
   
@@ -76,25 +76,25 @@ DTCT_PAGE (0x00000008)
     
 DTCT_RADIOBUTTON (0x00000009)
   
-> Um botão de opção de diálogo.
+> Um botão de rádio da caixa de diálogo.
     
 DTCT_MVLISTBOX (0x0000000B)
   
-> Uma caixa de listagem com vários valores preenchida por uma propriedade de vários valores do tipo String.
+> Uma caixa de listagem de vários valores preenchida por uma propriedade de vários valores da cadeia de caracteres de tipo.
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Uma caixa de listagem suspensa de vários valores preenchida por uma propriedade de vários valores do tipo cadeia de caracteres.
+> Uma caixa de listagem de valores múltiplos preenchida por uma propriedade de vários valores da cadeia de caracteres do tipo.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-mapitags. h
+mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -106,7 +106,7 @@ mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

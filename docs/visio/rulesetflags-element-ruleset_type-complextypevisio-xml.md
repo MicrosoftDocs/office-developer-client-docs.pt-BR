@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541593"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Elemento RuleSetFlags (RuleSet_Type complexType) (XML do Visio)
+# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Elemento RuleSetFlags (RuleSet_Type complexType) (XML do Visio)
 
 Especifica as propriedades do conjunto de regras.
   
@@ -25,7 +25,7 @@ Especifica as propriedades do conjunto de regras.
 |**Tipo de elemento** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -52,6 +52,6 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se o conjunto de regras aparece na lista regras a verificar.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica se o conjunto de regras aparece na lista Regras a Verificar.  <br/> |Valores do tipo xsd:boolean.  <br/> |
    
 

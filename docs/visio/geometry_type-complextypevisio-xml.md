@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542285"
 ---
-# <a name="geometrytype-complextype-visio-xml"></a>Geometry_Type complexType (XML do Visio)
+# <a name="geometry_type-complextype-visio-xml"></a>Geometry_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

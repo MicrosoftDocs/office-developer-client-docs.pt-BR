@@ -1,5 +1,5 @@
 ---
-title: Elemento facename (FaceNames_Type complexType) (XML do Visio)
+title: Elemento FaceName (FaceNames_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541012"
 ---
-# <a name="facename-element-facenamestype-complextype-visio-xml"></a>Elemento facename (FaceNames_Type complexType) (XML do Visio)
+# <a name="facename-element-facenames_type-complextype-visio-xml"></a>Elemento FaceName (FaceNames_Type complexType) (XML do Visio)
 
 Contém informações sobre uma fonte.
   

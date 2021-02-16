@@ -444,7 +444,7 @@ As funções JavaScript do aplicativo **QuickStatus** incluem o seguinte:
         }
    ```
 
-7. Adicione a função **exitToPwa**, que usa o parâmetro de cadeia de caracteres de consulta **SPHostUrl ** para a URL do site do Project Web App host. Para navegar de volta para a página Tarefas, acrescente `"/Tasks.aspx"` à URL. Por exemplo, a variável **spHostUrl** seria definida como `https://ServerName/ProjectServerName/Tasks.aspx`.
+7. Adicione a função **exitToPwa**, que usa o parâmetro de cadeia de caracteres de consulta **SPHostUrl** para a URL do site do Project Web App host. Para navegar de volta para a página Tarefas, acrescente `"/Tasks.aspx"` à URL. Por exemplo, a variável **spHostUrl** seria definida como `https://ServerName/ProjectServerName/Tasks.aspx`.
     
    A função  **getQueryStringParameter** divide a URL da página **QuickStatus** para extrair e retornar o parâmetro especificado nas opções da URL. A seguir, um exemplo do valor **document.URL** para o documento **QuickStatus** (tudo em uma linha): 
     
@@ -519,7 +519,7 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
 
 1. Examine a faixa de opções na página Tarefas no Project Web App. Selecione a guia **TAREFAS** na faixa de opções e planeje como modificá-la. Existem sete grupos, como **Enviar**, **Tarefas** e **Período**. O grupo **Enviar** tem dois controles, um botão **Salvar** e um menu suspenso **Enviar Status**. Você pode adicionar um controle em qualquer local de um grupo, adicionar um grupo com um novo controle em qualquer local na guia **TAREFAS** ou adicionar outra guia da faixa de opções com grupos e controles personalizados. Neste exemplo, adicionamos um terceiro botão ao grupo **Enviar**, em que o botão invoca o URL do aplicativo **QuickStatus**. 
     
-2. No painel **Gerenciador de Soluções ** do Visual Studio, clique com o botão direito do mouse no projeto **QuickStatus** e adicione um novo item. Na caixa de diálogo **Adicionar Novo Item**, escolha **Ação Personalizada da Faixa de Opções** (confira a Figura 4). Por exemplo, nomeie a ação personalizada RibbonQuickStatusAction e escolha **Adicionar**.
+2. No painel **Gerenciador de Soluções** do Visual Studio, clique com o botão direito do mouse no projeto **QuickStatus** e adicione um novo item. Na caixa de diálogo **Adicionar Novo Item**, escolha **Ação Personalizada da Faixa de Opções** (confira a Figura 4). Por exemplo, nomeie a ação personalizada RibbonQuickStatusAction e escolha **Adicionar**.
     
    **Figura 4. Adicionar uma ação personalizada da faixa de opções**
 

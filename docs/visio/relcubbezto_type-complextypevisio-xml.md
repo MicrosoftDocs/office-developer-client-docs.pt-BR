@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542713"
 ---
-# <a name="relcubbeztotype-complextype-visio-xml"></a>RelCubBezTo_Type complexType (XML do Visio)
+# <a name="relcubbezto_type-complextype-visio-xml"></a>RelCubBezTo_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

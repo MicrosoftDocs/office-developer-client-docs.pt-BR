@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541922"
 ---
-# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Elemento Text (ShapeSheet_Type complexType) (XML do Visio)
+# <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Elemento Text (ShapeSheet_Type complexType) (XML do Visio)
 
 Contém o texto de uma forma.
   
@@ -48,10 +48,10 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente.  <br/> |
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indica um ponto de inserção de campo de texto para o elemento Field correspondente.  <br/> |
-|[páginas](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Especifica o início de uma execução de propriedades de parágrafo.  <br/> |
-|[par](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Especifica o início de uma propriedade de guias executada.  <br/> |
+|[cp](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente.  <br/> |
+|[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indica um ponto de inserção de campo de texto para o elemento Field correspondente.  <br/> |
+|[pp](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Especifica o início de uma série de propriedades de parágrafo.  <br/> |
+|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Especifica o início de uma operação de propriedades de guias.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

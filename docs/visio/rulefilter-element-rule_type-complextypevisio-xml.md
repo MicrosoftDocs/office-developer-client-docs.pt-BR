@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541677"
 ---
-# <a name="rulefilter-element-ruletype-complextype-visio-xml"></a>Elemento RuleFilter (Rule_Type complexType) (XML do Visio)
+# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Elemento RuleFilter (Rule_Type complexType) (XML do Visio)
 
 Especifica a expressão lógica que determina se a regra de validação deve ser aplicada a um objeto de destino.
   
@@ -25,7 +25,7 @@ Especifica a expressão lógica que determina se a regra de validação deve ser
 |**Tipo de elemento** <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

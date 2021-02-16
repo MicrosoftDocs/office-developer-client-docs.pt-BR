@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542293"
 ---
-# <a name="celldeftype-complextype-visio-xml"></a>CellDef_Type complexType (XML do Visio)
+# <a name="celldef_type-complextype-visio-xml"></a>CellDef_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

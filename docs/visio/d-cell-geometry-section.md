@@ -25,7 +25,7 @@ Representa informações diferentes em linhas diferentes. Esta tabela descreve a
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A razão entre os eixos principal e secundário de um arco. Apesar do significado comum dessas palavras, o eixo "principal" não precisa ser maior que o eixo "secundário". Logo, a razão não precisa ser maior que 1. Definir esta célula para um valor menor ou igual a 0, ou maior que 1000, pode ocasionar resultados imprevisíveis.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A primeira espessura da B-spline racional não-uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | O grau de uma spline (um inteiro de 1 a 25).  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma coordenada *y* de um ponto em uma elipse; emparelhado com a coordenada *x* representada pela célula [C](c-cell-geometry-section.md) .  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma *coordenada y* de um ponto em uma elipse; emparelhada com a coordenada *x* representada pela [célula C.](c-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -33,19 +33,19 @@ Para fazer referência à célula D pelo nome, a partir de outra fórmula ou pro
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometry *i* . D *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
-|| Geometry *i* . D1 (linha Ellipse) onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Geometry  *i*  . D  *j*            onde  *i*  e  *j*  = <1>, 2, 3...  <br/> |
+|| Geometry  *i*  . D1 (linha Ellipse) onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice de linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex **(linha Ellipse)  <br/> |
-| Índice da célula:  <br/> |**visAspectRatio **(linha EllipticalArcTo)  <br/> |
-||**visNURBSWeightPrev **(linha NURBSTo)  <br/> |
-||**visSplineDegree **(linha SplineStart)  <br/> |
-||**visEllipseMinorY **(linha Ellipse)  <br/> |
+| Índice da seção:  <br/> |**visSectionFirstComponent**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowVertex**  +   *j* onde *j* = 0, 1, 2...  <br/> |
+||**visRowVertex**(linha Ellipse)  <br/> |
+| Índice da célula:  <br/> |**visAspectRatio**(linha EllipticalArcTo)  <br/> |
+||**visNURBSWeightPrev**(linha NURBSTo)  <br/> |
+||**visSplineDegree**(linha SplineStart)  <br/> |
+||**visEllipseMinorY**(linha Ellipse)  <br/> |
    
 

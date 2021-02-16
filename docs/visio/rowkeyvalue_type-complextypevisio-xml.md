@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541719"
 ---
-# <a name="rowkeyvaluetype-complextype-visio-xml"></a>RowKeyValue_Type complexType (XML do Visio)
+# <a name="rowkeyvalue_type-complextype-visio-xml"></a>RowKeyValue_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

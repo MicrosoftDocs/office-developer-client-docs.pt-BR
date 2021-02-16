@@ -20,14 +20,14 @@ Especifica um argumento que a célula de chamada pode passar para uma função p
   
 ## <a name="syntax"></a>Sintaxe
 
-ARG (***argName***, [ ***DefaultValue*** ]) 
+ARG(***argName***,[ ***defaultValue*** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome de um argumento que a célula de chamada pode passar para a função.  <br/> |
-| _Valor padrão_ <br/> |Opcional  <br/> |**Numérica** <br/> |O valor retornado por ARG se a célula de chamada não tiver passado um valor para o parâmetro  _argName_ .  <br/> |
+| _valor padrão_ <br/> |Opcional  <br/> |**Numérica** <br/> |O valor retornado por ARG se a célula de chamada não passar um valor para o _parâmetro argName._  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

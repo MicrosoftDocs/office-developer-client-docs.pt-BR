@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541835"
 ---
-# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Elemento EventItem (EventList_Type complexType) (XML do Visio)
+# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Elemento EventItem (EventList_Type complexType) (XML do Visio)
 
 Encapsula um código de evento.
   

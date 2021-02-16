@@ -1,5 +1,5 @@
 ---
-title: Elemento dados1 (ShapeSheet_Type complexType) (XML do Visio)
+title: Elemento Data1 (ShapeSheet_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542482"
 ---
-# <a name="data1-element-shapesheettype-complextype-visio-xml"></a>Elemento dados1 (ShapeSheet_Type complexType) (XML do Visio)
+# <a name="data1-element-shapesheet_type-complextype-visio-xml"></a>Elemento Data1 (ShapeSheet_Type complexType) (XML do Visio)
 
 Contém um valor arbitrário de cadeia de caracteres usado para fornecer informações adicionais sobre uma forma.
   

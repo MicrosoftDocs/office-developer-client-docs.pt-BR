@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541082"
 ---
-# <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Elemento HeaderFooterFont (HeaderFooter_Type complexType) (XML do Visio)
+# <a name="headerfooterfont-element-headerfooter_type-complextype-visio-xml"></a>Elemento HeaderFooterFont (HeaderFooter_Type complexType) (XML do Visio)
 
 Especifica a fonte utilizada no texto do cabeçalho e do rodapé.
   
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contém elementos do cabeçalho e rodapé de um documento.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contém elementos para o rodapé e o rodapé de um documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,19 +52,19 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSet  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica o conjunto de caracteres da fonte. Equivalente ao campo GDI LOGFONTlfCharSet.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a precisão de recorte da fonte. Equivalente ao campo GDI LOGFONTlfClipPrecision.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Escape  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o atributo de escape da fonte. Equivalente ao campo GDI LOGFONTlfEscapement.  <br/> |Valores do tipo xsd:int.  <br/> |
+|CharSet  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica o conjunto de caracteres da fonte. Equivalente ao campo GDI LOGLFTlfCharSet.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a precisão de recorte da fonte. Equivalente ao campo GDI LOGCUNTlfClipPrecision.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|Escape  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o atributo de escape da fonte. Equivalente ao campo GDI LOGLFTlfEscapement.  <br/> |Valores do tipo xsd:int.  <br/> |
 |FaceName  <br/> |xsd:string  <br/> |opcional  <br/> |Contém informações sobre uma fonte.  <br/> |Valores do tipo xsd:string.  <br/> |
 |Altura  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica a altura da forma em unidades de desenho.  <br/> |Valores do tipo xsd:int.  <br/> |
-|Itálico  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte está em itálico. Equivalente ao campo GDI LOGFONTlfItalic.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Orientação  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica a orientação da fonte. Equivalente ao campo GDI LOGFONTlfOrientation.  <br/> |Valores do tipo xsd:int.  <br/> |
-|Precisão  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica o atributo de precisão de saída da fonte. Equivalente ao campo GDI LOGFONTlfOutPrecision.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a densidade e a família da fonte. Equivalente ao campo GDI LOGFONTlfPitchAndFamily.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Quality  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a qualidade de saída da fonte. Equivalente ao campo GDI LOGFONTlfQuality.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Risca  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte é uma fonte riscada. Equivalente ao campo GDI LOGFONTlfStrikeOut.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Sublinhado  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte é sublinhada. Equivalente ao campo GDI LOGFONTlfUnderline.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
-|Peso  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o peso da fonte. Equivalente ao campo GDI LOGFONTlfWeight.  <br/> |Valores do tipo xsd:int.  <br/> |
-|Largura  <br/> |xsd:int  <br/> |opcional  <br/> |Contém a largura da forma associada nas unidades de desenho.  <br/> |Valores do tipo xsd:int.  <br/> |
+|Itálico  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte está em itálico. Equivalente ao campo GDI LOGLFTlfItalic.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|Orientação  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica a orientação da fonte. Equivalente ao campo GDI LOGPOTTlfOrientation.  <br/> |Valores do tipo xsd:int.  <br/> |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica o atributo de precisão de saída da fonte. Equivalente ao campo GDI LOGLFTlfOutPrecision.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a pitch e a família da fonte. Equivalente ao campo GDI LOGLFTlfPitchAndFamily.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|Qualidade  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica a qualidade de saída da fonte. Equivalente ao campo GDI LOGLFTlfQuality.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte é uma fonte em strikeout. Equivalente ao campo GDI LOGLFTlfStrikeOut.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|Sublinhado  <br/> |xsd:unsignedByte  <br/> |opcional  <br/> |Especifica se a fonte é sublinhada. Equivalente ao campo GDI LOGLFTlfUnderline.  <br/> |Valores do tipo xsd:unsignedByte.  <br/> |
+|Peso  <br/> |xsd:int  <br/> |opcional  <br/> |Especifica o peso da fonte. Equivalente ao campo GDI LOG LOGINTlfWeight.  <br/> |Valores do tipo xsd:int.  <br/> |
+|Largura  <br/> |xsd:int  <br/> |opcional  <br/> |Contém a largura da forma associada em unidades de desenho.  <br/> |Valores do tipo xsd:int.  <br/> |
    
 

@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542986"
 ---
-# <a name="showguidestype-complextype-visio-xml"></a>ShowGuides_Type complexType (XML do Visio)
+# <a name="showguides_type-complextype-visio-xml"></a>ShowGuides_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

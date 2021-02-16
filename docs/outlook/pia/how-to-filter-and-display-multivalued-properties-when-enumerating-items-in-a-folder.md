@@ -1,5 +1,5 @@
 ---
-title: Filtrar e exibir propriedades de vários valores ao enumerar itens em uma pasta
+title: Filtrar e exibir propriedades de valores múltiplos ao enumerar itens em uma pasta
 TOCTitle: Filter and display multivalued properties when enumerating items in a folder
 ms:assetid: 62dd2120-5c85-44b3-89ec-c4ca85aa2964
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184613(v=office.15)
@@ -60,7 +60,7 @@ O objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) rep
 
 O exemplo de código a seguir ilustra como adicionar uma propriedade de namespace de cadeia de caracteres MAPI ao objeto **Table** e como propriedades de valores múltiplos afetam os valores retornados em um objeto [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)). O procedimento TableMultiValuedProperties filtra o objeto **Table** para linhas onde a propriedade [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) não é uma referência nula. A propriedade **Categories** é representada por uma propriedade que uma o namespace da cadeia de caracteres MAPI. Um filtro DAV Searching and Locating (DASL) é construído para itens que têm categorias (o filtro real retorna categorias que não têm uma referência nula). Então, a coluna **Categories** é adicionada ao objeto **Table** concatenando-se o especificador de tipos, 0000001f, com a constante categoriesProperty. Por fim, o objeto **Column** que representa a propriedade **Categories** contém uma matriz de cadeia unidimensional, onde cada elemento da matriz representa uma categoria atribuída ao item. As duas propriedades do item **Categories** e **Subject** são escritas para os ouvintes de rastreamento da coleção [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

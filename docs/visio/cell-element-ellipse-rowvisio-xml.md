@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha Ellipse) (Visio XML)
+title: Elemento Cell (Linha Ellipse) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541866"
 ---
-# <a name="cell-element-ellipse-row-visio-xml"></a>Elemento Cell (linha Ellipse) (Visio XML)
+# <a name="cell-element-ellipse-row-visio-xml"></a>Elemento Cell (Linha Ellipse) (XML do Visio)
 
 Contém as coordenadas x ou y de um ponto central de uma elipse e dois pontos na elipse.
   

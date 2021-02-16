@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541985"
 ---
-# <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>Elemento StyleSheets (VisioDocument_Type complexType) (XML do Visio)
+# <a name="stylesheets-element-visiodocument_type-complextype-visio-xml"></a>Elemento StyleSheets (VisioDocument_Type complexType) (XML do Visio)
 
 Contém uma coleção de elementos StyleSheet para o documento.
   

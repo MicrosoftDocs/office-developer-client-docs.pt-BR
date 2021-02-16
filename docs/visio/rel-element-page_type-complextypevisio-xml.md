@@ -1,12 +1,12 @@
 ---
-title: Elemento rel (Page_Type complexType) (XML do Visio)
+title: Elemento Rel (Page_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
-description: Especifica uma relação com uma parte com a página XML correspondente.
+description: Especifica uma relação com uma parte com o XML de página correspondente.
 ms.openlocfilehash: 19224a7057786677cdb371df887e69e8457649c6
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542776"
 ---
-# <a name="rel-element-pagetype-complextype-visio-xml"></a>Elemento rel (Page_Type complexType) (XML do Visio)
+# <a name="rel-element-page_type-complextype-visio-xml"></a>Elemento Rel (Page_Type complexType) (XML do Visio)
 
-Especifica uma relação com uma parte com a página XML correspondente.
+Especifica uma relação com uma parte com o XML da página correspondente.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica uma relação com uma parte com a página XML correspondente.
 |**Tipo de elemento** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Pages. xml, Masters. xml, Recordsets. xml, Page #. xml, Master #. xml  <br/> |
+|**Partes do documento** <br/> |pages.xml, masters.xml, recordsets.xml, page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Especifica uma instância do XML de página armazenada no desenho.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Especifica uma instância do XML de página armazenado no desenho.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,12 +52,12 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> Consulte Comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId #"  <br/> Consulte Comentários.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Consulte os comentários.  <br/> |obrigatório  <br/> |Especifica uma relação com uma parte.  <br/> |"rId#"  <br/> Consulte os comentários.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor do atributo **r:ID** deve ser um tipo **ST_RelationshipID** . O tipo **ST_RelationshipID** é uma cadeia de caracteres que deve estar no formato "rId #", onde o caractere final deve ser um número. O número deve ser exclusivo entre todos os elementos irmãos do elemento **rel** . 
+O valor do atributo **r:id** deve ser um **tipo ST_RelationshipID** usuário. O **ST_RelationshipID** tipo é uma cadeia de caracteres que deve estar no formato 'rId#', onde o caractere final deve ser um número. O número deve ser exclusivo entre todos os elementos irmãos do **elemento Rel.** 
   
-Para obter mais informações sobre o tipo ST_RelationshipID, consulte a [Especificação ISO/IEC 29500 parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obter mais informações sobre o ST_RelationshipID, consulte a especificação [ISO/IEC 29500 Parte 1.](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)
   
 

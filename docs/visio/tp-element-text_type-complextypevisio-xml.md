@@ -1,12 +1,12 @@
 ---
-title: elemento TP (Text_Type complexType) (XML do Visio)
+title: Elemento tp (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: Especifica o início de uma propriedade de guias executada. A execução é definida para o final do texto ou até a próxima marcação.
+description: Especifica o início de uma operação de propriedades de guias. A execução é definida para o final do texto ou até a próxima marcação.
 ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542972"
 ---
-# <a name="tp-element-texttype-complextype-visio-xml"></a>elemento TP (Text_Type complexType) (XML do Visio)
+# <a name="tp-element-text_type-complextype-visio-xml"></a>Elemento tp (Text_Type complexType) (XML do Visio)
 
-Especifica o início de uma propriedade de guias executada. A execução é definida para o final do texto ou até a próxima marcação.
+Especifica o início de uma operação de propriedades de guias. A execução é definida para o final do texto ou até a próxima marcação.
   
 ## <a name="element-information"></a>Informações de elemento
 

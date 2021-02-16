@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541194"
 ---
-# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>Elemento DataColumns (DataRecordSet_Type complexType) (XML do Visio)
+# <a name="datacolumns-element-datarecordset_type-complextype-visio-xml"></a>Elemento DataColumns (DataRecordSet_Type complexType) (XML do Visio)
 
 Contém todos os elementos de **DataColumn** em um conjunto de registros de dados. 
   

@@ -1,11 +1,11 @@
 ---
-title: Integração de aplicativos de capacidade de gerenciamento com o instalador clique para executar do Microsoft 365
+title: Integrando aplicativos de capacidade de gerenciamento com o instalador Clique para Executar do Microsoft 365 Apps
 manager: lindalu
 ms.date: 09/28/2020
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
-description: Saiba como integrar o instalador de clique para executar do Microsoft 365 Apps com uma solução de gerenciamento de software.
+description: Saiba como integrar o instalador Clique para Executar do Microsoft 365 Apps com uma solução de gerenciamento de software.
 ms.openlocfilehash: eccd634f7906acf25b521ed2deb456ca914f37da
 ms.sourcegitcommit: c8c51bd3f51c0a59fe44c014c8e56f1ba7c7aa03
 ms.translationtype: MT
@@ -13,14 +13,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/28/2020
 ms.locfileid: "48297311"
 ---
-# <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Integração de aplicativos de capacidade de gerenciamento com o instalador clique para executar do Microsoft 365
+# <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Integrando aplicativos de capacidade de gerenciamento com o instalador Clique para Executar do Microsoft 365 Apps
 
-Saiba como integrar o instalador de clique para executar do Microsoft 365 Apps com uma solução de gerenciamento de software.
+Saiba como integrar o instalador Clique para Executar do Microsoft 365 Apps com uma solução de gerenciamento de software.
   
-O instalador de clique para executar do Microsoft 365 Apps fornece uma interface COM que permite aos profissionais de ti e soluções de gerenciamento de software controlar o gerenciamento de atualizações. Essa interface tem recursos adicionais de gerenciamento além do que é fornecido pela Ferramenta de Implantação do Office.
+O instalador Clique para Executar do Microsoft 365 Apps fornece uma interface COM que permite aos profissionais de TI e às soluções de gerenciamento de software controlarem o gerenciamento de atualizações. Essa interface tem recursos adicionais de gerenciamento além do que é fornecido pela Ferramenta de Implantação do Office.
   
 > [!NOTE]
-> Este artigo aplica-se aos aplicativos do Office que usam o instalador clique para executar. 
+> Este artigo se aplica aos aplicativos do Office que usam o instalador Clique para Executar. 
   
 ## <a name="integrating-with-the-click-to-run"></a>Integração ao Clique para Executar
 
@@ -31,9 +31,9 @@ Para usar essa interface, um aplicativo de capacidade de gerenciamento invoca a 
   
 **Veja a seguir um diagrama conceitual da interface COM**
 
-![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de usar a interface COM no instalador clique para executar do Office")
+![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de uso da interface COM no instalador Clique para Executar do Office")
   
-O instalador de clique para executar do Microsoft 365 apps implementa uma interface baseada em COM, **IUpdateNotify** registrado para CLSID **CLSID_UpdateNotifyObject**.
+O instalador Clique para Executar do Microsoft 365 Apps implementa uma interface baseada em COM, **IUpdateNotify** registrada no CLSID **CLSID_UpdateNotifyObject**.
   
 Essa interface pode ser invocada da seguinte maneira:
   
@@ -244,7 +244,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
-- Para baixar o conteúdo da CDN (rede de distribuição de conteúdo) do Office: chame a função **Download ()** sem especificar os parâmetros de  _Download_,  _ContentId_ou  _updatebaseurl_ . 
+- Para baixar o conteúdo da REDE de Distribuição de Conteúdo do Office (CDN): chame a função **download()** sem especificar os _parâmetros downloadsource_, _contentid_ ou _updatebaseurl._ 
     
 - Para baixar o conteúdo de um local personalizado: chame a função **download()** passando o seguinte parâmetro: 
     
@@ -348,7 +348,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 ### <a name="summary-of-iupdatenotify2-interface"></a>Resumo da interface IUpdateNotify2
 
-Na versão [16.0.8208.6352] adicionamos uma nova interface **IUpdateNotify2** . 
+Na versão [16.0.8208.6352] adicionamos uma nova interface **IUpdateNotify2.** 
   
 - CLSID_UpdateNotifyObject2, {52C2F9C2-F1AC-4021-BF50-756A5FA8DDFE}
     
@@ -370,9 +370,9 @@ Se você não usar qualquer um dos métodos novos, não será necessário altera
   
 ## <a name="implementing-the-bits-interface"></a>Como implantar a interface do BITS
 
-O BITS ([Serviço de Transferência Inteligente em Segundo Plano](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal)) é um serviço fornecido pela Microsoft para transferir arquivos entre um cliente e um servidor. O BITS é um dos canais que o instalador Clique para Executar do Office pode usar para baixar conteúdo. Por padrão, o instalador de clique para executar do Microsoft 365 aplicativos usa a implementação interna do BITS do Windows para baixar o conteúdo da CDN. 
+O BITS ([Serviço de Transferência Inteligente em Segundo Plano](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal)) é um serviço fornecido pela Microsoft para transferir arquivos entre um cliente e um servidor. O BITS é um dos canais que o instalador Clique para Executar do Office pode usar para baixar conteúdo. Por padrão, o instalador Clique para Executar do Microsoft 365 Apps usa a implementação do BITS criada pelo Windows para baixar o conteúdo da CDN. 
   
-Ao fornecer uma implementação do BITS personalizado ao método **download()** da interface **IUpdateNotify**, seu software de capacidade de gerenciamento pode controlar onde e como o cliente baixa o conteúdo. Uma interface de BITS personalizada é útil ao fornecer um canal de distribuição de conteúdo personalizado que não seja o clique para executar canais internos, como a CDN, servidores IIS ou compartilhamentos de arquivos. 
+Ao fornecer uma implementação do BITS personalizado ao método **download()** da interface **IUpdateNotify**, seu software de capacidade de gerenciamento pode controlar onde e como o cliente baixa o conteúdo. Uma interface do BITS personalizada é útil ao fornecer um canal de distribuição de conteúdo personalizado diferente dos canais integrados Clique para Executar, como CDN, servidores IIS ou compartilhamentos de arquivos. 
   
 O requisito mínimo para uma interface do BITS personalizado trabalhar com o serviço C2R do Office é:
   
@@ -426,7 +426,7 @@ O requisito mínimo para uma interface do BITS personalizado trabalhar com o ser
 
   - cmbits é embutido em código e significa o BITS personalizado.
     
-  -  _\<contentid\>_ é o parâmetro  _ContentId_ para o método **Download ()** . 
+  -  _\<contentid\>_ é o _parâmetro contentid_ do **método Download().** 
     
   -  _\<relative path to target file\>_ fornece o local e o nome do arquivo a ser baixado. 
     
@@ -454,25 +454,25 @@ O requisito mínimo para uma interface do BITS personalizado trabalhar com o ser
   ```
 ## <a name="automating-content-staging"></a>Como automatizar o preparo do conteúdo
 
-Os administradores de ti podem optar por ter clientes de desktop habilitados para receber atualizações automaticamente quando estiverem disponíveis diretamente da CDN ou podem optar por controlar a implantação de atualizações disponíveis nos canais de atualização usando a ferramenta de implantação do Office ou o Microsoft Endpoint Configuration Manager.
+Os administradores de IT podem optar por ter clientes da área de trabalho habilitados para receber atualizações automaticamente quando estão disponíveis diretamente da CDN ou podem optar por controlar a implantação de atualizações disponíveis nos canais de atualização usando a Ferramenta de Implantação do Office ou o Microsoft Endpoint Configuration Manager.
   
 O serviço dá suporte à capacidade das ferramentas de gerenciamento de reconhecer e automatizar o download do conteúdo quando as atualizações são disponibilizadas.
   
 **A imagem a seguir é uma visão geral de como baixar uma imagem personalizada**
 
-![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de usar a interface COM no instalador clique para executar do Office")
+![Um diagrama usando a interface COM no instalador Clique para Executar do Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Um diagrama de uso da interface COM no instalador Clique para Executar do Office")
   
 ### <a name="overview-of-downloading-a-custom-image"></a>Visão geral de como baixar uma imagem personalizada
   
-No diagrama anterior, você vê que uma nova imagem do Microsoft 365 aplicativos está disponível na CDN. Juntamente com a imagem de aplicativos do Microsoft 365, uma API está disponível, com as informações necessárias para habilitar o software de capacidade de criação para criar diretamente imagens personalizadas, substituindo a necessidade de usar a ferramenta de implantação do Office.
+No diagrama anterior, você verá que uma nova imagem do Microsoft 365 Apps está disponível na CDN. Junto com a imagem do Microsoft 365 Apps, uma API está disponível com as informações necessárias para habilitar o software de capacidade de gerenciamento para criar imagens personalizadas diretamente, substituindo a necessidade de usar a Ferramenta de Implantação do Office.
 
-Uma empresa configura o WSUS para sincronizar as atualizações do Microsoft 365 apps. Essas atualizações não contêm a carga real da imagem, mas permitem que o software de capacidade de gerenciamento reconheça quando conteúdo novo está disponível. O software de capacidade de gerenciamento pode ler os metadados de atualização de aplicativos do Microsoft 365 para entender a qual versão do Office a atualização se aplica.
+Uma empresa configura o WSUS para sincronizar as atualizações do Microsoft 365 Apps. Essas atualizações não contêm a carga real da imagem, mas permitem que o software de capacidade de gerenciamento reconheça quando conteúdo novo está disponível. O software de capacidade de gerenciamento pode ler os metadados da Atualização do Microsoft 365 Apps para entender a qual versão do Office a atualização se aplica.
 
 Se a atualização for aplicável, o software de capacidade de gerenciamento pode usar o conteúdo da CDN e a lista de arquivos para criar a imagem personalizada e armazená-la no local do compartilhamento de arquivos que ele está configurado para usar.
   
-### <a name="using-the-microsoft-365-apps-file-list-api"></a>Usando a API de lista de arquivos de aplicativos do Microsoft 365
+### <a name="using-the-microsoft-365-apps-file-list-api"></a>Usando a API da lista de arquivos do Microsoft 365 Apps
 
-A API da lista de arquivos de aplicativos do Microsoft 365 é usada para recuperar os nomes dos arquivos necessários para uma atualização específica do Microsoft 365 apps.
+A API da lista de arquivos do Microsoft 365 Apps é usada para recuperar os nomes dos arquivos necessários para uma atualização específica do Microsoft 365 Apps.
 
 Solicitação HTTP
 
@@ -480,28 +480,28 @@ GET https://config.office.com/api/filelist
 
 Não forneça um corpo de solicitação para esse método.
 
-Nenhuma permissão é necessária para chamar esta API.
+Nenhuma permissão é necessária para chamar essa API.
 
 Parâmetros de consulta opcionais
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-| channel <br/>| Especifica o nome do canal  <br/> Opcional – padrão para ' semestral ' <br/> Valores com suporte https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
-| versão <br/>| Especifica a versão de atualização <br/> Opcional – o padrão é a versão mais recente disponível para o canal especificado |
-| arco <br/>| Especifica a arquitetura do cliente <br/> Opcional – o padrão é "x64" <br/> Valores com suporte: x64, x86 |
-| lid <br/>| Especifica os arquivos de idioma que serão incluídos <br/> Opcional – padrão para nenhum <br/> Para especificar vários idiomas, inclua um parâmetro de consulta tampa para cada idioma <br/> Use o formato de identificador de idioma, ex. "pt-br", "fr-fr" |
-| idiomas <br/>| Especifica a inclusão de todos os arquivos de idioma <br/> Opcional – o padrão é false |
+| canal <br/>| Especifica o nome do canal  <br/> Opcional – padrão para 'SemiAnnual' <br/> Valores com suporte https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
+| versão <br/>| Especifica a versão de atualização <br/> Opcional – assume como padrão a versão mais recente disponível para o canal especificado |
+| arch <br/>| Especifica a arquitetura do cliente <br/> Opcional – o padrão é 'x64' <br/> Valores com suporte: x64, x86 |
+| lid <br/>| Especifica os arquivos de idioma a incluir <br/> Opcional – assume como padrão nenhum <br/> Para especificar vários idiomas, inclua um parâmetro de consulta de lid para cada idioma <br/> Use o formato do identificador de idioma, por ex. 'en-us', 'fr-fr' |
+| alllanguages <br/>| Especifica a inclusão de todos os arquivos de idioma <br/> Opcional – o padrão é false |
 
 Resposta HTTP
 
-Se bem-sucedido, este método retorna um código de resposta de OK 200 e uma coleção de objetos File no corpo da resposta.
+Se bem-sucedido, este método retorna um código de resposta 200 OK e uma coleção de objetos de arquivo no corpo da resposta.
 
 Para criar uma imagem, siga estas etapas:
 1.  Chame a API, fornecendo os parâmetros de consulta apropriados para o canal, a versão e a arquitetura da atualização em que você está interessado.
-Observação: objetos de arquivo com o atributo "LCID": "0" são arquivos neutros de idioma e devem ser incluídos na imagem.
-2.  Construa uma imagem local da CDN Iterando pelos objetos de arquivo e copiando os arquivos de CDN, enquanto cria a estrutura de pastas, conforme especificado pelo atributo "relativePath", definido para cada um dos objetos de arquivo.
+Observação: objetos de arquivo com o atributo "lcid": "0" são arquivos neutros de idioma e devem ser incluídos na imagem.
+2.  Construa uma imagem local da CDN iterando pelos objetos de arquivo e copiando os arquivos da CDN, enquanto cria a estrutura de pastas conforme especificado pelo atributo "relativePath" definido para cada um dos objetos de arquivo.
 
-O exemplo a seguir recupera a lista de arquivos para o canal atual e a versão 16.0.4229.1004 para 64 bits e inclui os arquivos de idioma francês e inglês:
+O exemplo a seguir recupera a lista de arquivos do Canal Atual e a versão 16.0.4229.1004 para 64bit e inclui os arquivos de idioma francês e inglês:
 
 ```http
 Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
@@ -509,7 +509,7 @@ Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.100
 
 ### <a name="hash-verification-of-dat-files"></a>Verificação de hash de arquivos .dat
 
-As ferramentas de criação de imagem podem verificar a integridade dos arquivos. dat baixados comparando um valor de hash calculado com o valor de hash fornecido associado a cada um dos arquivos. dat. Veja a seguir um exemplo de um objeto File que especifica os valores hashLocation e hashAlgorithm:
+As ferramentas de criação de imagem podem verificar a integridade dos arquivos .dat baixados comparando um valor de hash calculado com o valor de hash fornecido associado a cada um dos arquivos .dat. Veja a seguir um exemplo de um objeto de arquivo que especifica os valores hashLocation e hashAlgorithm:
   
 ```xml
 {
@@ -522,13 +522,13 @@ As ferramentas de criação de imagem podem verificar a integridade dos arquivos
 },
 ```
 
-- O atributo **hashLocation** especifica o local do caminho relativo do arquivo. cab que contém o valor de hash. Crie o local do arquivo hash concatenando a URL + relativePath + hashLocation. No seguinte exemplo, o local stream.x64.bg-bg.hash seria: 
+- O **atributo hashLocation** especifica o local do caminho relativo do arquivo .cab que contém o valor de hash. Crie o local do arquivo hash concatenando a URL + relativePath + hashLocation. No seguinte exemplo, o local stream.x64.bg-bg.hash seria: 
     
   ```http
   https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
   ```
 
-- O atributo **hashAlgorithm** especifica qual algoritmo de hash foi usado. 
+- O **atributo hashAlgorithm** especifica qual algoritmo de hash foi usado. 
     
   Para validar a integridade do arquivo stream.x64.bg-bg.dat, abra o stream.x64.bg-bg.hash e leia o valor do HASH, que é a primeira linha do texto no arquivo de hash. Compare-o com o valor do hash calculado (usando o algoritmo de hash especificado) para verificar a integridade do arquivo .dat baixado.
     
@@ -539,27 +539,27 @@ As ferramentas de criação de imagem podem verificar a integridade dos arquivos
     string readHash = readHashes.First();
   ```
 
-### <a name="microsoft-365-apps-updates"></a>Atualizações de aplicativos do Microsoft 365
+### <a name="microsoft-365-apps-updates"></a>Atualizações do Microsoft 365 Apps
 
-Todas as atualizações de aplicativos do Microsoft 365 são publicadas no [catálogo do Microsoft Update](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
+Todas as Atualizações de Aplicativos do Microsoft 365 são publicadas no [Catálogo do Microsoft Update.](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client)
   
-As atualizações de aplicativos do Microsoft 365 permitem que o software de capacidade de gerenciamento trate as atualizações dos aplicativos da Microsoft 365 de uma maneira muito semelhante a qualquer outra atualização do WU, com uma exceção; as atualizações do cliente não contêm uma carga real. As atualizações de aplicativos do 365 da Microsoft não devem ser instaladas em nenhum cliente, mas sim para disparar os fluxos de trabalho com o software de capacidade de gerenciamento que substitui o comando de instalação pelo mecanismo de instalação com base no COM, mostrado acima.
+As Atualizações de Aplicativos do Microsoft 365 permitem que o software de capacidade de gerenciamento trate as Atualizações de Aplicativos do Microsoft 365 de maneira muito semelhante a qualquer outra atualização do WU com uma exceção; as atualizações do cliente não contêm uma carga real. As Atualizações de Aplicativos do Microsoft 365 não devem ser instaladas em nenhum cliente, mas usadas para disparar os fluxos de trabalho com o software de capacidade de gerenciamento substituindo o comando de instalação pelo mecanismo de instalação baseado em COM mostrado acima.
 
 **A figura a seguir mostra um diagrama do fluxo de trabalho da Atualização de Cliente do Office 365.**
 
 ![Diagrama de fluxo de trabalho de atualizações do cliente O365PP .](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagrama de fluxo de trabalho para atualizações do cliente O365PP")
   
-Cada atualização de aplicativos do Microsoft 365 publicada inclui metadados sobre a atualização. Estes metadados incluem um parâmetro chamado MoreInfoUrl que pode ser usado para derivar a chamada de API para a API da lista de arquivos para essa atualização específica.
+Cada Atualização do Microsoft 365 Apps publicada inclui metadados sobre a atualização. Esses metadados incluem um parâmetro chamado MoreInfoUrl que pode ser usado para derivar a chamada de API para a API da lista de arquivos para essa atualização específica.
 
-No exemplo a seguir, a API da lista de arquivos é incorporada no MoreInfoURL e começa com "InPath ="
+No exemplo a seguir, a API da lista de arquivos é incorporada ao MoreInfoURL e começa com "ServicePath="
 
-http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& Caminho do próprio =https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
+http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& ServicePath=https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
   
 ### <a name="additional-metadata-for-automating-content-staging"></a>Metadados adicionais para automatização do preparo de conteúdo
 
-**API de histórico de versão**
+**API do Histórico de Versões**
   
-A API de histórico de lançamento do Microsoft 365 apps é usada para recuperar os detalhes de cada uma das atualizações publicadas na CDN junto com os nomes dos canais e outros atributos do canal.
+A API do histórico de versões do Microsoft 365 Apps é usada para recuperar detalhes de cada uma das atualizações publicadas na CDN juntamente com os nomes de canal e outros atributos de canal.
 
 Solicitação HTTP
 
@@ -569,15 +569,15 @@ GET https://config.office.com/api/filelist/channels
 
 Não forneça um corpo de solicitação para esse método.
 
-Nenhuma permissão é necessária para chamar esta API.
+Nenhuma permissão é necessária para chamar essa API.
 
 Resposta HTTP
 
-Se bem-sucedido, este método retorna um código de resposta de OK 200 e uma coleção de objetos File no corpo da resposta.
+Se bem-sucedido, este método retorna um código de resposta 200 OK e uma coleção de objetos de arquivo no corpo da resposta.
 
-**API de SKUs**
+**SKUs API**
   
-A API SKUs retorna informações que são úteis para determinar quais produtos estão disponíveis para implantação e manutenção da CDN do Office juntamente com várias opções para cada um deles.
+A API de SKUs retorna informações úteis para determinar quais produtos estão disponíveis para implantação e manutenção da CDN do Office, juntamente com várias opções para cada um.
 
 Solicitação HTTP
 
@@ -587,8 +587,8 @@ GET https://config.office.com/api/filelist/skus
 
 Não forneça um corpo de solicitação para esse método.
 
-Nenhuma permissão é necessária para chamar esta API.
+Nenhuma permissão é necessária para chamar essa API.
 
 Resposta HTTP
 
-Se bem-sucedido, este método retorna um código de resposta de OK 200 e uma coleção de objetos File no corpo da resposta.
+Se bem-sucedido, este método retorna um código de resposta 200 OK e uma coleção de objetos de arquivo no corpo da resposta.

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542097"
 ---
-# <a name="shapes-element-shapesheettype-complextype-visio-xml"></a>Elemento Shapes (ShapeSheet_Type complexType) (XML do Visio)
+# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Elemento Shapes (ShapeSheet_Type complexType) (XML do Visio)
 
 Contém uma coleção de elementos Shape.
   

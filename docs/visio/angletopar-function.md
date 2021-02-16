@@ -22,7 +22,7 @@ Retorna um ângulo transformado no sistema de coordenadas pai da forma de destin
   
 ## <a name="syntax"></a>Sintaxe
 
-ANGLETOPAR (***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOPAR(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Parâmetros
 

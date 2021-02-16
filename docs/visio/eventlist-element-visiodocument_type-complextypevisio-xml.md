@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541796"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento EventList (VisioDocument_Type complexType) (XML do Visio)
+# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a>Elemento EventList (VisioDocument_Type complexType) (XML do Visio)
 
 Contém um elemento **EventItem** para cada evento ao qual um objeto deve responder. 
   

@@ -28,22 +28,22 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
 
  _pxProcedure_ (**xltypeStr**)
   
-O nome da função do manipulador de eventos conforme ele aparece no código de DLL.
+O nome da função do manipulador de eventos como aparece no código DLL.
   
  _pxEvent_ (**xltypeInt**)
   
-O evento manipulado pela função designada no parâmetro _pxProcedure_ . 
+O evento manipulado pela função designada no _parâmetro pxProcedure._ 
   
-A partir do Excel 2010, o Excel oferece suporte aos seguintes eventos:
+A partir do Excel 2010, o Excel dá suporte aos seguintes eventos:
   
 |**Evento**|**Descrição**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Gerado quando o Excel conclui um cálculo. Você pode liberar todos os recursos alocados durante o cálculo após este evento.  <br/> |
-|**xleventCalculationCanceled** <br/> |Gerado quando o usuário interrompe o cálculo. O XLL deve interromper qualquer atividade assíncrona. O evento CalculationEnded é gerado imediatamente após este evento.  <br/> |
+|**xleventCalculationEnded** <br/> |Gerado quando o Excel conclui um cálculo. Você pode liberar todos os recursos alocados durante o cálculo após esse evento.  <br/> |
+|**xleventCalculationCanceled** <br/> |Gerado quando o usuário interrompe o cálculo. O XLL deve parar qualquer atividade assíncrona. O evento CalculationEnded é gerado imediatamente após esse evento.  <br/> |
    
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se tiver êxito, pxRes (**xltypeInt**) tem um valor > 0. Se não tiver êxito, pxRes = = 0.
+Se bem-sucedido, pxRes (**xltypeInt**) tem um valor > 0. Se não tiver êxito, pxRes ==0.
   
 ## <a name="see-also"></a>Confira também
 
