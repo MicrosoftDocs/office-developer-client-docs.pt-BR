@@ -44,7 +44,7 @@ Para obter as etapas detalhadas, consulte a seção [Criando um fluxo de trabalh
 3. No SharePoint Designer 2013, construa o fluxo de trabalho usando instruções declarativas no **Designer Baseado em Texto**:
     
     > [!NOTE]
-    > Você também pode alternar para o **Designer Visual ** do SharePoint Designer 2013 ou importar um fluxo de trabalho existente do Visio 2013. Siga estas etapas para usar o **Designer Baseado em Texto**: 
+    > Você também pode alternar para o **Designer Visual** do SharePoint Designer 2013 ou importar um fluxo de trabalho existente do Visio 2013. Siga estas etapas para usar o **Designer Baseado em Texto**: 
     > 
     > 1. Abra o site do Project Web App e então crie um fluxo de trabalho de site que use a plataforma de fluxo de trabalho **Fluxo de Trabalho do SharePoint 2013 - Project Server**. 
     > 2. Adicione os estágios usados pelo fluxo de trabalho.
@@ -211,7 +211,7 @@ No SharePoint Designer 2013, construa o fluxo de trabalho usando instruções de
 
 No Project Web App, crie um EPT para o fluxo de trabalho e então teste o fluxo de trabalho criando uma proposta de projeto:
     
-1. Na página Configurações do PWA, escolha **Tipos de Projeto Corporativo**e crie um EPT chamado Fluxo de Trabalho de Ramificação de Teste. Desmarque as caixas de seleção **Criar novos projetos como Projetos de Lista de Tarefas do SharePoint**, dessa forma o Project Server manterá total controle dos projetos criados pela EPT. Selecione **Fluxo de Trabalho de Ramificação** na lista suspensa **Associação de Fluxo de Trabalho de Site** e selecione a PDP **Informações do Projeto** na lista suspensa **Nova Página do Projeto** para ser a primeira página que o fluxo de trabalho mostra. 
+1. Na página Configurações do PWA, escolha **Tipos de Projeto Corporativo** e crie um EPT chamado Fluxo de Trabalho de Ramificação de Teste. Desmarque as caixas de seleção **Criar novos projetos como Projetos de Lista de Tarefas do SharePoint**, dessa forma o Project Server manterá total controle dos projetos criados pela EPT. Selecione **Fluxo de Trabalho de Ramificação** na lista suspensa **Associação de Fluxo de Trabalho de Site** e selecione a PDP **Informações do Projeto** na lista suspensa **Nova Página do Projeto** para ser a primeira página que o fluxo de trabalho mostra. 
     
     **Figura 12. Adição de um EPT ao fluxo de trabalho**
 
@@ -265,7 +265,7 @@ No Project Web App, crie um EPT para o fluxo de trabalho e então teste o fluxo 
 
     ![Execução](media/pj15_CreateWorkflowSPD_ExecutionStage.gif "Status do Fluxo de Trabalho no estágio Execução")
   
-No estágio Detalhes do Projeto, o fluxo de trabalho não aguarda um evento de envio. Se o PDP Detalhes do Projeto incluir campos obrigatórios adicionais, o Project Server aguardará até você adicionar dados aos campos antes de prosseguir para o estágio Execução. Como definido no Fluxo de Trabalho de Ramificação, o estágio Execução também não aguarda um evento de envio. No estágio Execução, você pode editar o projeto como um gerente de projeto ou escolher **Fechar ** na guia **PROJETO** da faixa de opções. Quando você escolher **Fechar** poderá fazer check-in no projeto e editá-lo posteriormente ou deixar o projeto em check-out.
+No estágio Detalhes do Projeto, o fluxo de trabalho não aguarda um evento de envio. Se o PDP Detalhes do Projeto incluir campos obrigatórios adicionais, o Project Server aguardará até você adicionar dados aos campos antes de prosseguir para o estágio Execução. Como definido no Fluxo de Trabalho de Ramificação, o estágio Execução também não aguarda um evento de envio. No estágio Execução, você pode editar o projeto como um gerente de projeto ou escolher **Fechar** na guia **PROJETO** da faixa de opções. Quando você escolher **Fechar** poderá fazer check-in no projeto e editá-lo posteriormente ou deixar o projeto em check-out.
 
 O projeto **Fluxo de Trabalho de Ramificação** é um exemplo simples que tem somente um teste de comparação. O fluxo de trabalho envolve três estágios na fase Criar e um estágio na fase Gerenciar do Gerenciamento de Propostas. Para testar cuidadosamente um fluxo de trabalho, você deverá testar todas as ramificações do fluxo de trabalho e usar valores extremos e típicos para ver se o comportamento é o esperado. 
 

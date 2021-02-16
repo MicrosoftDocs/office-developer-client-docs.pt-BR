@@ -25,28 +25,28 @@ ms.locfileid: "33411026"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um objeto Container que é usado para pesquisas avançadas.
+Contém um objeto de contêiner que é usado para pesquisas avançadas.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SEARCH  <br/> |
 |Identificador:  <br/> |0x3607  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Contêiner de catálogo de endereços  <br/> |
+|Área:  <br/> |Contêiner do livro de endereços  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um contêiner que não oferece suporte a recursos de pesquisa avançada não precisa fornecer a propriedade.
+Um contêiner que não dá suporte a recursos avançados de pesquisa não precisa fornecer a propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -39,15 +39,15 @@ ULONG FAR * lpulTableStatus
 
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  _ulTimeout_
   
-> no Número máximo de milissegundos para aguardar a conclusão da operação ou operações assíncronas. Para esperar indefinidamente até a conclusão ocorrer, defina _ulTimeout_ como 0xFFFFFFFF. 
+> [in] Número máximo de milissegundos a aguardar a conclusão da operação ou das operações assíncronas. Para aguardar indefinidamente até que a conclusão ocorra, de definir  _ulTimeout_ como 0xFFFFFFFF. 
     
  _lpulTableStatus_
   
-> [in, out] Na entrada, um ponteiro válido ou nulo. Na saída, se _lpulTableStatus_ for um ponteiro válido, apontará para o status mais recente da tabela. Se _lpulTableStatus_ for NULL, nenhuma informação de status será retornada. Se **WaitForCompletion** retornar um valor de HRESULT sem êxito, o conteúdo de _lpulTableStatus_ será indefinido. 
+> [in, out] Na entrada, um ponteiro válido ou NULL. Na saída, se  _lpulTableStatus_ for um ponteiro válido, ele aponta para o status mais recente da tabela. Se  _lpulTableStatus_ for NULL, nenhuma informação de status será retornada. Se **WaitForCompletion** retornar um valor HRESULT malsucedido, o conteúdo de  _lpulTableStatus_ será indefinido. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,15 +57,15 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> A tabela não dá suporte à espera para a conclusão de operações assíncronas.
+> A tabela não dá suporte à espera da conclusão de operações assíncronas.
     
 MAPI_E_TIMEOUT 
   
-> A operação assíncrona ou as operações não foram concluídas no tempo especificado.
+> A operação ou operações assíncronas não foram concluídas no tempo especificado.
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: WaitForCompletion** suspende o processamento até que qualquer operação assíncrona atualmente em andamento para a tabela tenha sido concluída. **WaitForCompletion** pode permitir que as operações assíncronas sejam totalmente concluídas ou sejam executadas por um determinado número de milissegundos, conforme indicado por _ulTimeout_, antes de ser interrompido. Para detectar operações assíncronas em andamento, chame o método imApitable [:: GetStatus](imapitable-getstatus.md) . 
+O **método IMAPITable::WaitForCompletion** suspende o processamento até que quaisquer operações assíncronas em andamento para a tabela tenham sido concluídas. **WaitForCompletion** pode permitir que as operações assíncronas concluam totalmente ou executem por um determinado número de milissegundos, conforme indicado por  _ulTimeout_, antes de serem interrompidas. Para detectar operações assíncronas em andamento, chame o [método IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
 ## <a name="see-also"></a>Confira também
 

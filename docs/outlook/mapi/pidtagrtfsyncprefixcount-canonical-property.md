@@ -25,7 +25,7 @@ ms.locfileid: "32357859"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma contagem dos caracteres ignorable que aparecem antes dos caracteres significativos da mensagem.
+Contém uma contagem dos caracteres ignoráveis que aparecem antes dos caracteres significativos da mensagem.
   
 |||
 |:-----|:-----|
@@ -38,27 +38,27 @@ Contém uma contagem dos caracteres ignorable que aparecem antes dos caracteres 
 
 A contagem de caracteres de prefixo não inclui espaço em branco.
   
-Esta propriedade é uma propriedade auxiliar do formato Rich Text (RTF). As propriedades auxiliares de RTF são usadas pela função [RTFSync](rtfsync.md) e não se destinam a ser usadas diretamente por aplicativos cliente. 
+Essa propriedade é uma propriedade auxiliar RTF (Rich Text Format). As propriedades auxiliares RTF são usadas pela [função RTFSync](rtfsync.md) e não se destinam a ser usadas diretamente por aplicativos cliente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
+> Codifica e decodifica objetos de mensagem e anexo para uma representação eficiente do fluxo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

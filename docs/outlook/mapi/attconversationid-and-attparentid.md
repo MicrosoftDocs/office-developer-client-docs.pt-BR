@@ -19,17 +19,17 @@ ms.locfileid: "33410046"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A chave de conversa de email do Windows para Workgroups 3,1 é uma cadeia de caracteres de texto. O equivalente MAPI é um valor binário. Para fornecer compatibilidade com versões anteriores, a implementação do TNEF converte os dados binários em texto e adiciona um caractere nulo de terminação.
+A chave de conversa de email do Windows for Workgroups 3.1 é uma cadeia de caracteres de texto. O equivalente MAPI é um valor binário. Para fornecer compatibilidade com compatibilidade, a implementação do TNEF converte os dados binários em texto e adiciona um caractere nulo de terminação.
   
 > [!NOTE]
-> As propriedades correspondentes em MAPI para as quais esses atributos TNEF são mapeados, PR_CONVERSATION_KEY e PR_PARENT_KEY, foram preteridos no Microsoft Exchange Server: o uso de **PR_CONVERSATION_KEY**, o [PidTagConversationKey canônica Propriedade](pidtagconversationkey-canonical-property.md), persiste no Outlook somente para localizar **IPM. **Mensagens de MessageManager. 
+> As propriedades correspondentes no MAPI para as quais esses atributos TNEF são mapeados, PR_CONVERSATION_KEY e PR_PARENT_KEY, foram preterido no Microsoft Exchange Server: o uso de PR_CONVERSATION_KEY , **a** propriedade canônica [PidTagConversationKey](pidtagconversationkey-canonical-property.md), persiste somente no Outlook, para localizar **o IPM. Mensagens do MessageManager.** 
   
 ## <a name="remarks"></a>Comentários
 
-A propriedade **PR_CONVERSATION_KEY** é o precursor obsoleto do **PR_CONVERSATION_INDEX**, [PidTagConversationIndex Propriedade canônica](pidtagconversationindex-canonical-property.md) e **PR_CONVERSATION_TOPIC**, [PidTagConversationTopic canônica Propriedade](pidtagconversationtopic-canonical-property.md), que deve ser usada em seu lugar.
+A **propriedade PR_CONVERSATION_KEY** é o precursor obsoleto da propriedade canônica **PR_CONVERSATION_INDEX**, [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) e **PR_CONVERSATION_TOPIC**, propriedade canônica [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md), que deve ser usada em vez disso.
   
 ## <a name="see-also"></a>Confira também
 
-- [SubÁrvore IPM](ipm-subtree.md)
+- [Subárvore IPM](ipm-subtree.md)
 - [Pastas especiais MAPI](mapi-special-folders.md)
 

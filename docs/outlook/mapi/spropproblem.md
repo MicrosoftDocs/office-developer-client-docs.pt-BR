@@ -29,7 +29,7 @@ Descreve um erro relacionado a uma operação envolvendo uma propriedade.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -51,13 +51,13 @@ typedef struct _SPropProblem
   
 > Marca de propriedade da propriedade que tem o erro.
     
- **SCODE**
+ **scode**
   
-> Valor de erro descrevendo o problema com a propriedade. Esse valor pode ser qualquer valor de [SCODE](scode.md) de MAPI. 
+> Valor de erro que descreve o problema com a propriedade. Esse valor pode ser qualquer valor [de SCODE MAPI.](scode.md) 
     
 ## <a name="remarks"></a>Comentários
 
-Uma matriz de estruturas **SPropProblem** é retornada dos seguintes métodos: 
+Uma matriz de **estruturas SPropProblem** é retornada dos seguintes métodos: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,9 +73,9 @@ Uma matriz de estruturas **SPropProblem** é retornada dos seguintes métodos:
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-Uma estrutura **SPropProblem** contém um valor de erro **SCODE** que resulta de uma operação que tenta modificar ou excluir uma propriedade MAPI. 
+Uma **estrutura SPropProblem** contém um valor de erro **SCODE** que resulta de uma operação tentando modificar ou excluir uma propriedade MAPI. 
   
-Para obter mais informações sobre como a estrutura do **SPropProblem** funciona com erros relacionados a propriedades, consulte [MAPI Named Properties](mapi-named-properties.md). 
+Para obter mais informações sobre como **a estrutura SPropProblem** funciona com erros relacionados a propriedades, consulte [MAPI Named Properties](mapi-named-properties.md). 
   
 ## <a name="see-also"></a>Confira também
 

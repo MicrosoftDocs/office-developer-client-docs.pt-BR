@@ -25,7 +25,7 @@ ms.locfileid: "33409017"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e a hora em que um provedor de transporte aprovou uma mensagem para seu sistema de mensagens subjacente.
+Contém a data e a hora em que um provedor de transporte passou uma mensagem para seu sistema de mensagens subjacente.
   
 |||
 |:-----|:-----|
@@ -38,17 +38,17 @@ Contém a data e a hora em que um provedor de transporte aprovou uma mensagem pa
 
 Essa propriedade é definida pelo provedor de transporte de saída no momento em que uma mensagem é enviada.
   
-Essa propriedade corresponde a um envelope de envio por mensagem X. 400. 
+Essa propriedade corresponde a um envelope de envio X.400 por atributo de mensagem. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

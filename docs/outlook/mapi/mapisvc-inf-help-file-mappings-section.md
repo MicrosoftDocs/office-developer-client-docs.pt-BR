@@ -1,5 +1,5 @@
 ---
-title: Seção MapiSvc. inf [mapeamentos do arquivo de ajuda]
+title: Seção MapiSvc.inf [Mapeamentos de Arquivo de Ajuda]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407554"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>Seção MapiSvc. inf [mapeamentos do arquivo de ajuda]
+# <a name="mapisvcinf-help-file-mappings-section"></a>Seção MapiSvc.inf [Mapeamentos de Arquivo de Ajuda]
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[help file Mappings]** contém entradas que cada mapa de um serviço de mensagens para o arquivo que fornece ajuda para erros gerados pelo serviço. As entradas nesta seção usam o seguinte formato: 
+A **seção [Mapeamentos** de Arquivo de Ajuda] contém entradas que mapeiam um serviço de mensagens para o arquivo que fornece Ajuda para erros gerados pelo serviço. As entradas nesta seção usam o seguinte formato: 
   
- **[Mapeamentos do arquivo de ajuda]** _nome do serviço de mensagens_  =   _Nome do arquivo de ajuda_
+ Nome do arquivo de Ajuda do nome do serviço de mensagem **[Mapeamentos** de Arquivo de Ajuda] Nome _do_ arquivo  =   _de Ajuda_
   
-O nome do serviço de mensagens é o nome do serviço de mensagens instalado; o nome do arquivo de ajuda é o nome do arquivo onde residem as informações de erro. O exemplo a seguir mostra uma seção típica **[mapeamentos de arquivos de ajuda]** que contém entradas para três serviços: MAPI, o serviço MsgService e o serviço MS. 
+O nome do serviço de mensagens é o nome do serviço de mensagens instalado; o nome do arquivo de Ajuda é o nome do arquivo onde residem as informações de erro. O exemplo a seguir mostra uma seção **típica [Mapeamentos** de Arquivo de Ajuda] que contém entradas para três serviços: MAPI, o serviço MsgService e o serviço MS. 
   
 ```cpp
 [Help File Mappings]

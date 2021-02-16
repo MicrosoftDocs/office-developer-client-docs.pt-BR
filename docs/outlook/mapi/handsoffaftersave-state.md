@@ -21,20 +21,20 @@ ms.locfileid: "33406602"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O estado HandsOffAfterSave é parte do processo de salvar o conteúdo de um formulário no armazenamento permanente. Quando nesse estado, o objeto Form deve evitar fazer alterações nas cópias na memória dos valores das propriedades da mensagem, porque pode não haver outra oportunidade para salvar essas alterações. A tabela a seguir descreve as transições permitidas do estado HandsOffAfterSave.
+O estado HandsOffAfterSave faz parte do processo de salvar o conteúdo de um formulário em armazenamento permanente. Nesse estado, o objeto de formulário deve evitar fazer alterações nas cópias na memória dos valores das propriedades da mensagem, porque pode não haver outra oportunidade para salvar essas alterações. A tabela a seguir descreve transições permitidas do estado HandsOffAfterSave.
   
-|**Método IPersistMessage**|**Action**|**Novo estado**|
+|**Método IPersistMessage**|**Ação**|**Novo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) (_PMessage! =_ nulo)  <br/> |Abra quaisquer objetos incorporados. É garantido que os dados da mensagem armazenada no _PMessage_ sejam iguais à mensagem do [IPersistMessage anterior:: salvar](ipersistmessage-save.md) chamada. Se a chamada **SaveCompleted** for bem-sucedida, insira o estado normal. Caso contrário, defina o último erro como E_OUTOFMEMORY e permaneça no estado HandsOffAfterSave.  <br/> |[Normal](normal-state.md) ou HandsOffAfterSave  <br/> |
-|**IPersistMessage:: SaveCompleted** (_PMessage = =_ nulo)  <br/> |Defina o último erro como E_INVALIDARG ou E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md), **salvar**ou [IPersistMessage:: InitNew](ipersistmessage-initnew.md) <br/> |Definir o último erro para e retornar E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Carregar o objeto Form com dados da mensagem de destino. Essa chamada pode ocorrer quando o objeto Form estiver indo para a mensagem seguinte ou anterior em uma pasta.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Retorna o último erro.  <br/> |HandsOffAfterSave  <br/> |
-|Outros métodos [IPersistMessage: IUnknown](ipersistmessageiunknown.md) de outras interfaces  <br/> |Definir o último erro para e retornar E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Abra todos os objetos incorporados. Os dados na mensagem armazenada em  _pMessage_ são garantidos como os mesmos da mensagem na chamada [IPersistMessage::Save](ipersistmessage-save.md) anterior. Se a **chamada SaveCompleted** for bem-sucedida, insira o estado Normal. Caso contrário, de definida a última E_OUTOFMEMORY e fique no estado HandsOffAfterSave.  <br/> |[Normal](normal-state.md) ou HandsOffAfterSave  <br/> |
+|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |De definir o último erro como E_INVALIDARG ou E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md), **Save** ou [IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |De definida a última mensagem de erro e retorne E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Carregue o objeto de formulário com dados da mensagem de destino. Essa chamada pode ocorrer quando o objeto de formulário está indo para a mensagem seguinte ou anterior em uma pasta.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Retornar o último erro.  <br/> |HandsOffAfterSave  <br/> |
+|Outros [IPersistMessage : métodos ou métodos IUnknown](ipersistmessageiunknown.md) de outras interfaces  <br/> |De definida a última mensagem de erro e retorne E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Estados de formulário](form-states.md)
+[Estados do formulário](form-states.md)
 

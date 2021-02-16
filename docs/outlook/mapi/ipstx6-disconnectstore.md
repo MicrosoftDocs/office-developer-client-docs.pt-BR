@@ -25,7 +25,7 @@ ms.locfileid: "33409815"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Desconecta o repositório local.
+Desconecta o armazenamento local.
   
 ```cpp
 HRESULT DisconnectStore( 
@@ -37,7 +37,7 @@ HRESULT DisconnectStore(
 
  _ulFlags_
   
->  [in] Sinalizadores para modificar o comportamento. Esse parâmetro sempre deve ser definido como 0. 
+>  [in] Sinalizadores para modificar o comportamento. Esse parâmetro deve ser sempre definido como 0. 
     
 ## <a name="see-also"></a>Confira também
 

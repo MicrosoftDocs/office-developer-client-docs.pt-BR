@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ff1a6843-6dd6-4527-9fc1-70da288cb9e7
-description: Esta seção descreve como configurar o Outlook para resolver conflitos de item, determinar o tempo de atualização de um catálogo de endereços offline e registrar um domínio para configuração automática.
+description: Esta seção descreve como configurar o Outlook para resolver conflitos de item, determinar o tempo de atualização de um Livro de Endereços Offline e registrar um domínio para configuração automática.
 ms.openlocfilehash: 781d1fe34a8918fdb96900e4f191ea36cf1b732c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33411019"
 ---
 # <a name="outlook-configuration"></a>Configuração do Outlook
 
-Esta seção descreve como configurar o Outlook para resolver conflitos de item, determinar o tempo de atualização de um catálogo de endereços offline e registrar um domínio para configuração automática.
+Esta seção descreve como configurar o Outlook para resolver conflitos de item, determinar o tempo de atualização de um Livro de Endereços Offline e registrar um domínio para configuração automática.
 
 - [Sobre a resolução de conflitos de tipos de itens personalizados](about-conflict-resolution-for-custom-item-types.md)
     

@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356837"
 ---
-# <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
+# <a name="mnls_lstrcmpw"></a>MNLS_lstrcmpW
 
  
   
@@ -33,19 +33,19 @@ int MNLS_lstrcmpW(
 
  _lpString1_
   
-> no Ponteiro para a primeira cadeia de caracteres Unicode a ser comparado.
+> [in] Ponteiro para a primeira cadeia de caracteres Unicode a ser comparada.
     
  _lpString2_
   
-> no Ponteiro para a segunda cadeia de caracteres Unicode a ser comparado.
+> [in] Ponteiro para a segunda cadeia de caracteres Unicode a ser comparada.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna os valores descritos para uma chamada equivalente a **MNLS_CompareStringW** , exceto para CSTR_EQUAL. 
+Retorna os valores descritos para uma chamada equivalente **MNLS_CompareStringW** exceto para CSTR_EQUAL. 
   
 ## <a name="remarks"></a>Comentários
 
- _MNLS_lstrcmpW_ realiza uma comparação chamando [MNLS_CompareStringW](mnls_comparestringw.md) com uma localidade de GetUserDefaultLCID, 0 para sinalizadores e-1 para cch1 e CCH2. 
+ _MNLS_lstrcmpW_ executa uma comparação chamando [MNLS_CompareStringW](mnls_comparestringw.md) com uma localidade de GetUserDefaultLCID, 0 para sinalizadores e -1 para cch1 e cch2. 
   
 ## <a name="see-also"></a>Confira também
 

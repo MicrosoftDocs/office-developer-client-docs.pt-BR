@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister
 keywords:
-- função xlfunregister [Excel 2007]
+- Função xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,17 +22,17 @@ ms.locfileid: "33410081"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **Unregister** de uma folha de macro XLM do Excel. 
+Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **UNREGISTER de** uma folha de macro XLM do Excel. 
   
 **xlfUnregister** pode ser chamado de duas formas: 
   
-- Formulário 1: cancela o registro de um comando ou função individual.
+- Formulário 1: Desastra o registro de um comando ou função individual.
     
-- Formulário 2: descarrega e desativa um XLL.
+- Formulário 2: Descarrega e desativa um XLL.
     
-Chamado no formato 1, essa função reduz a contagem de uso de uma função DLL ou de um comando que foi previamente registrado usando **xlfRegister** ou **Register**. Se a contagem de uso já for zero, essa função não terá efeito. Quando a contagem de uso de todas as funções em uma DLL chega a zero, a DLL é descarregada da memória.
+Chamada no Formulário 1, esta função reduz a contagem de uso de uma função ou comando DLL que foi registrado anteriormente usando **xlfRegister** ou **REGISTER**. Se a contagem de uso já for zero, essa função não terá efeito. Quando a contagem de uso de todas as funções em uma DLL atinge zero, a DLL é descarregada da memória.
   
-**xlfRegister** (Form 1) também define um nome oculto que é o argumento de texto da função, _pxFunctionText_, e que é avaliado como a ID de registro de função ou comando. Ao cancelar o registro da função, esse nome deve ser excluído usando o **xlfSetName** para que o nome da função não seja mais listado pelo assistente de função. Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Formulário 1) também define um nome oculto que é o argumento de texto da função,  _pxFunctionText_ e que avalia a ID de registro da função ou comando. Quando a função for registrada, esse nome deverá ser excluído usando **xlfSetName** para que o nome da função não seja mais listado pelo Assistente de Função. Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
@@ -42,19 +42,19 @@ Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 
 _pxRegisterId_ (**xltypeNum**)
   
-A ID de registro da função a ser cancelada.
+A ID de registro da função a ser não registrou.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se bem-sucedido, retorna **true** (**xltypeBool**), caso contrário, retorna false.
+Se tiver êxito, **retornará TRUE** (**xltypeBool**), caso contrário, retornará FALSE.
   
 ## <a name="remarks"></a>Comentários
 
-A ID de registro da função é retornada por **xlfRegister** quando a função é registrada pela primeira vez. Ela também pode ser obtida chamando-se a [função xlfRegisterId](xlfregisterid.md) ou a [função xlfEvaluate](xlfevaluate.md). Observe que xlfRegisterId tenta registrar a função se ela ainda não tiver sido registrada. Por esse motivo, se você estiver apenas tentando obter a ID para que possa cancelar o registro da função, é melhor obtê-la passando o nome registrado para **xlfEvaluate**. Se a função não tiver sido registrada, o **xlfEvaluate** falhará com um #NAME? erros. 
+A ID de registro da função é retornada por **xlfRegister** quando a função é registrada pela primeira vez. Ele também pode ser obtido chamando a função [xlfRegisterId](xlfregisterid.md) ou [a função xlfEvaluate](xlfevaluate.md). Observe que xlfRegisterId tentará registrar a função se ainda não tiver sido registrada. Por esse motivo, se você estiver apenas tentando obter a ID para que possa registrar a função, é melhor obtendo-la passando o nome registrado para **xlfEvaluate**. Se a função não tiver sido registrada, **xlfEvaluate** falhará com um #NAME? erro. 
   
 ## <a name="example"></a>Exemplo
 
-Consulte o código para a função **fExit** no `\SAMPLES\GENERIC\GENERIC.C`.
+Consulte o código para **a função fExit** em  `\SAMPLES\GENERIC\GENERIC.C` .
   
 ```cs
 int WINAPI fExit(void)

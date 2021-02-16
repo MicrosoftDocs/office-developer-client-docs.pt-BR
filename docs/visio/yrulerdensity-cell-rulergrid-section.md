@@ -1,5 +1,5 @@
 ---
-title: Célula YRulerDensity (seção &amp; Ruler Grid)
+title: Célula YRulerDensity (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406798"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Célula YRulerDensity (seção &amp; Ruler Grid)
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Célula YRulerDensity (Seção Ruler &amp; Grid)
 
 Especifica as subdivisões verticais da régua na página.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |Grande  <br/> |**visRulerCoarse** <br/> |
+|0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
+|8 ( &amp; H8)  <br/> |Insupernte  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (padrão)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Funciona  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Bem  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção de **subdivisões** verticais da caixa de diálogo **grade &amp; da régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Essa célula corresponde à opção **Subdivisões** verticais da caixa  de diálogo Grade de Régua (na guia Exibir, clique na **seta** Mostrar). **&amp;** 
   
 Para obter uma referência para a célula YRulerDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
@@ -43,6 +43,6 @@ Para obter uma referência para a célula YRulerDensity pelo índice, a partir d
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visYRulerDensity** <br/> |
+|Índice de célula:  <br/> |**visYRulerDensity** <br/> |
    
 

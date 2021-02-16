@@ -25,7 +25,7 @@ ms.locfileid: "33406273"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um cliente ou provedor de serviços para receber notificações sobre alterações em uma ou mais entradas no catálogo de endereços.
+Registra um cliente ou provedor de serviços para receber notificações sobre alterações em uma ou mais entradas no livro de endereços.
   
 ```cpp
 HRESULT Advise(
@@ -41,15 +41,15 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do contêiner de catálogo de endereços, usuário de mensagens ou lista de distribuição que gerará uma notificação quando uma alteração ocorrer do tipo ou tipos descritos no parâmetro _ulEventMask_ . 
+> [in] Um ponteiro para o identificador de entrada do contêiner do address book, do usuário de mensagens ou da lista de distribuição que gerará uma notificação quando ocorrer uma alteração do tipo ou dos tipos descritos no _parâmetro ulEventMask._ 
     
  _ulEventMask_
   
-> no Um ou mais eventos de notificação que o chamador está registrando para receber. Cada evento é associado a uma estrutura de notificação específica que contém informações sobre a alteração que ocorreu. A tabela a seguir lista os valores válidos para _ulEventMask_ e suas estruturas correspondentes. 
+> [in] Um ou mais eventos de notificação que o chamador está se registrando para receber. Cada evento é associado a uma estrutura de notificação específica que contém informações sobre a alteração que ocorreu. A tabela a seguir lista os valores válidos para  _ulEventMask_ e suas estruturas correspondentes. 
     
 |**Evento de notificação**|**Estrutura correspondente**|
 |:-----|:-----|
@@ -63,11 +63,11 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> no Um ponteiro para o objeto do coletor de aviso a ser chamado quando o evento para o qual a notificação foi solicitada ocorre.
+> [in] Um ponteiro para o objeto sink de aviso a ser chamado quando o evento para o qual a notificação foi solicitada ocorre.
     
  _lpulConnection_
   
-> bota Um ponteiro para um número de conexão diferente de zero que representa o registro de notificação.
+> [out] Um ponteiro para um número de conexão que não seja zero que representa o registro de notificação.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -77,29 +77,29 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> O provedor de catálogo de endereços responsável pelo identificador de entrada passado no _lpEntryID_ não pôde registrar uma notificação para a entrada correspondente. 
+> O provedor de agendamento responsável pelo identificador de entrada passado  _em lpEntryID_ não pôde registrar uma notificação para a entrada correspondente. 
     
 MAPI_E_NO_SUPPORT 
   
-> A notificação não é suportada pelo provedor de catálogo de endereços responsável pelo objeto identificado pelo identificador de entrada passado no parâmetro _lpEntryID_ . 
+> A notificação não é suportada pelo provedor de agendas responsável pelo objeto identificador de entrada passado no _parâmetro lpEntryID._ 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O identificador de entrada passado no _lpEntryID_ não pode ser manipulado por nenhum dos provedores de catálogo de endereços no perfil. 
+> O identificador de entrada passado  _em lpEntryID_ não pode ser manipulado por nenhum dos provedores de agendas no perfil. 
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes e os provedores de serviços chamam o método **Advise** para registrar um tipo específico ou tipos de notificação em uma entrada de catálogo de endereços. Os tipos de notificação são indicados pela máscara de evento passada com o parâmetro _ulEventMask_ . 
+Os clientes e provedores de serviços chamam o **método Advise** para se registrar para um tipo específico ou tipos de notificação em uma entrada do livro de endereços. Os tipos de notificação são indicados pela máscara de evento passada com o _parâmetro ulEventMask._ 
   
-O MAPI encaminha essa **** chamada para o provedor de catálogo de endereços responsável pela entrada, conforme indicado pelo identificador de entrada no parâmetro _lpEntryID_ . O provedor do catálogo de endereços trata o registro em si ou chama o método de suporte, [IMAPISupport:: Subscribe](imapisupport-subscribe.md), para solicitar MAPI para registrar o chamador. Um número de conexão diferente de zero é retornado para representar o registro bem-sucedido.
+MAPI forwards this **Advise** call to the address book provider that is responsible for the entry as indicated by the entry identifier in the  _lpEntryID_ parameter. O provedor de agendamento de endereço trata o registro em si ou chama o método de suporte, [IMAPISupport::Subscribe](imapisupport-subscribe.md), para solicitar MAPI para registrar o chamador. Um número de conexão que não seja zero é retornado para representar o registro bem-sucedido.
   
-Sempre que uma alteração ocorre na entrada do tipo indicado pelo registro de notificação, o provedor de catálogo de endereços chama o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) para o objeto de coletor de aviso especificado no parâmetro _lpAdviseSink_ . O **** método OnNotify inclui uma estrutura de [notificação](notification.md) como um parâmetro de entrada que contém dados para descrever o evento. 
+Sempre que ocorre uma alteração na entrada do tipo indicado pelo registro de notificação, o provedor de agendamento chama o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto sink de aviso especificado no parâmetro _lpAdviseSink._ O **método OnNotify** inclui uma estrutura [NOTIFICATION](notification.md) como um parâmetro de entrada que contém dados para descrever o evento. 
   
-Dependendo do provedor de catálogo de endereços, a chamada para **OnNotify** pode ocorrer imediatamente após a alteração para o objeto registrado ou em um momento posterior. Em sistemas que oferecem suporte a vários threads de execução, **** a chamada para OnNotify pode ocorrer em qualquer thread. Os clientes podem solicitar que essas notificações ocorram em um thread específico chamando a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) para criar o objeto de coletor de aviso que é passado para **Advise**. 
+Dependendo do provedor de agendamento de endereços, a chamada para **OnNotify** pode ocorrer imediatamente após a alteração no objeto registrado ou posteriormente. Em sistemas que suportam vários threads de execução, a chamada para **OnNotify** pode ocorrer em qualquer thread. Os clientes podem solicitar que essas notificações ocorram em um thread específico chamando a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) para criar o objeto de evento de aviso que é passado para **Advise**. 
   
-Como um provedor de catálogo de endereços pode liberar o objeto de coletor de aviso aprovado por clientes a qualquer momento após a conclusão bem-sucedida da chamada de **aviso** e antes de uma chamada a [IAddrBook:: Unadvise](iaddrbook-unadvise.md) para cancelar a notificação, os clientes devem liberar seus objetos de coletor de aviso quando **Advise** retorna. 
+Como um provedor de livro de endereços pode liberar o objeto de  evento de aviso passado pelos clientes a qualquer momento após a conclusão bem-sucedida  da chamada advise e antes de uma chamada [IAddrBook::Unadvise](iaddrbook-unadvise.md) para cancelar a notificação, os clientes devem liberar seus objetos de evento de aviso quando Advise retorna. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md).
+Para obter mais informações sobre o processo de notificação, consulte [Notificação de Evento em MAPI](event-notification-in-mapi.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -111,7 +111,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Event
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[Notifica](notification.md)
+[NOTIFICAÇÃO](notification.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

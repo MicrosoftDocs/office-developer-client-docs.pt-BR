@@ -25,12 +25,12 @@ ms.locfileid: "33409563"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Implementa um objeto de coletor de aviso para manipular notificações. Um ponteiro para um objeto de coletor de aviso é passado em uma chamada para o método **Advise** de um provedor de serviços, o mecanismo usado para registrar-se para notificação. 
+Implementa um objeto sink de aviso para manipular a notificação. Um ponteiro para um objeto sink de aviso é passado em uma chamada para o método **Advise** de um provedor de serviços, o mecanismo usado para registrar para notificação. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Avisar objetos do coletor  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |Avisar objetos sink  <br/> |
 |Implementado por:  <br/> |Aplicativos cliente e MAPI  <br/> |
 |Chamado por:  <br/> |Provedores de serviços e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIAdviseSink  <br/> |
@@ -40,7 +40,7 @@ Implementa um objeto de coletor de aviso para manipular notificações. Um ponte
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a uma notificação executando uma ou mais tarefas. As tarefas realizadas dependem do tipo de evento e do objeto que gera a notificação.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a uma notificação executando uma ou mais tarefas. As tarefas executadas dependem do tipo de evento e do objeto que gera a notificação.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

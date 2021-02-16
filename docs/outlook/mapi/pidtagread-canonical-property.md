@@ -25,34 +25,34 @@ ms.locfileid: "32356505"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se uma linha da tabela foi lida.
+Indica se uma linha de tabela foi lida.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_READ  <br/> |
 |Identificador:  <br/> |0x0E69  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclui operações permissíveis para os objetos da tabela principal.
+> Inclui operações permitidas para os objetos de tabela principais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

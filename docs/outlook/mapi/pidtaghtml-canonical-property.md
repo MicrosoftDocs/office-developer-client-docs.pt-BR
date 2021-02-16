@@ -36,11 +36,11 @@ Contém o texto do corpo da mensagem no formato HTML.
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Define cada propriedade que é usada nos objetos descritos por documentos do MS-OXO-prefixados.
+> Define cada propriedade que é usada nos objetos descritos por documentos prefixados por MS-OXO.
     
 [[MS-OXBBODY]](https://msdn.microsoft.com/library/98296160-746e-4b25-8d45-676dabebb57d%28Office.15%29.aspx)
   
@@ -48,27 +48,27 @@ Contém o texto do corpo da mensagem no formato HTML.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nos objetos post.
+> Especifica as propriedades e operações que são permitidas em objetos post.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas com direitos gerenciados.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que representam itens RSS.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -80,7 +80,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

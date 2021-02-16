@@ -25,13 +25,13 @@ ms.locfileid: "33408520"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Decrementa a contagem de referência, limpa e exclui dados globais por instância da DLL MAPI. 
+Diminui a contagem de referência, limpa e exclui dados globais por instância da DLL MAPI. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 void MAPIUninitialize ( void );
@@ -47,11 +47,11 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente chama a função **MAPIUninitialize** para finalizar sua interação com MAPI, iniciado com uma chamada para a função [MAPIInitialize](mapiinitialize.md) . Após a chamada de **MAPIUninitialize** , nenhuma outra chamada MAPI pode ser feita pelo cliente. 
+Um aplicativo cliente chama a função **MAPIUninitialize** para encerrar sua interação com MAPI, iniciado com uma chamada para a função [MAPIInitialize.](mapiinitialize.md) Depois **que MAPIUninitialize** é chamado, nenhuma outra chamada MAPI pode ser feita pelo cliente. 
   
- **MAPIUninitialize** decrementa a contagem de referência, e a função **MAPIInitialize** correspondente incrementa a contagem de referência. Portanto, o número de chamadas para uma função deve ser igual ao número de chamadas para o outro. 
+ **MAPIUninitialize** diminui a contagem de referência, e a função **MAPIInitialize** correspondente incrementa a contagem de referência. Assim, o número de chamadas para uma função deve ser igual ao número de chamadas para a outra. 
   
 > [!NOTE]
-> Você não pode chamar o **MAPIInitialize** ou o **MAPIUninitialize** de dentro de uma função **DllMain** do Win32 ou qualquer outra função que crie ou encerre threads. Para obter mais informações, consulte [usando objetos isentos de threads](using-thread-safe-objects.md). 
+> Você não pode chamar **MAPIInitialize** ou **MAPIUninitialize** de dentro de uma função **DllMain** Win32 ou qualquer outra função que crie ou termine threads. Para obter mais informações, [consulte Usando objetos Thread-Safe dados.](using-thread-safe-objects.md) 
   
 

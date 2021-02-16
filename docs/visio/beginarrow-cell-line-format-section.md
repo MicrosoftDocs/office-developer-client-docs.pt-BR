@@ -22,7 +22,7 @@ Indica se a linha tem uma ponta de seta ou outro formato de fim de linha em seu 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| ,0  <br/> | Sem ponta de seta.  <br/> |
+| 0  <br/> | Sem ponta de seta.  <br/> |
 | 1 - 45  <br/> | Estilos de ponta de seta variados correspondentes a entradas indexadas na caixa de diálogo **Linha**.  <br/> |
    
 ## <a name="remarks"></a>Comentários

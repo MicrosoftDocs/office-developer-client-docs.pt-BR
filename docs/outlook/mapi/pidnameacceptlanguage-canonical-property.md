@@ -25,7 +25,7 @@ ms.locfileid: "32360939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de campo de cabeçalho [RFC3282] Accept-Language.
+Contém um valor de campo de Accept-Language [RFC3282].
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Contém um valor de campo de cabeçalho [RFC3282] Accept-Language.
    
 ## <a name="remarks"></a>Comentários
 
-Para definir o valor dessa propriedade, os clientes MIME (Multipurpose Internet Message Extensions) devem gravar um campo de cabeçalho Accept-Language com o valor desejado. Clientes MIME podem escrever um campo de cabeçalho X-Accept-Language. Leitores MIME devem copiar o valor de um campo de cabeçalho para o valor dessa propriedade. Se ambos os campos de cabeçalho estiverem presentes, os leitores MIME deverão usar o campo de cabeçalho Accept-Language.
+Para definir o valor dessa propriedade, os clientes MIME (Multipurpose Internet Message Extensions) devem gravar um campo de Accept-Language com o valor desejado. Em vez disso, os clientes MIME podem escrever um campo de header X-Accept-Language. Os leitores MIME devem copiar o valor de qualquer campo de header para o valor dessa propriedade. Se ambos os campos de header estão presentes, os leitores MIME devem usar o campo Accept-Language de Accept-Language de dados.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

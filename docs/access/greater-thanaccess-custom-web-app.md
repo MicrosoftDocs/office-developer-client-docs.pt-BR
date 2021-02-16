@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
-description: Compara duas expressões. Quando você compara expressões não nulas, o resultado é TRUE se o operando à esquerda tem um valor maior do que o operando à direita; caso contrário, o resultado será FALSE.
+description: Compara duas expressões. Quando você compara expressões não nulas, o resultado é VERDADEIRO se o operand esquerdo tiver um valor maior do que o operand direito; caso contrário, o resultado será FALSO.
 ms.openlocfilehash: aac3ee7ef575e5a982d55d2003c77cb667cc903d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33407736"
 ---
 # <a name="greater-than-access-custom-web-app"></a>Maior que (aplicativo Web personalizado do Access)
 
-Compara duas expressões. Quando você compara expressões não nulas, o resultado é TRUE se o operando à esquerda tem um valor maior do que o operando à direita; caso contrário, o resultado será FALSE.
+Compara duas expressões. Quando você compara expressões não nulas, o resultado é VERDADEIRO se o operand esquerdo tiver um valor maior do que o operand direito; caso contrário, o resultado será FALSO.
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 

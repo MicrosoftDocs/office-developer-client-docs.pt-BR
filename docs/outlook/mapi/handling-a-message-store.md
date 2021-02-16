@@ -19,38 +19,38 @@ ms.locfileid: "33407540"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Manipular um repositório de mensagens é uma parte importante do conjunto de tarefas de qualquer cliente. Essas tarefas incluem abrir, copiar, mover, adicionar e excluir pastas e mensagens, exibir várias tabelas, definir propriedades e controlar níveis de acesso.
+Lidar com um armazenamento de mensagens é uma parte importante do conjunto de tarefas de qualquer cliente. Essas tarefas incluem abrir, copiar, mover, adicionar e excluir pastas e mensagens, exibir várias tabelas, definir propriedades e controlar níveis de acesso.
 
-- [Abrir um repositório de mensagens](opening-a-message-store.md): descreve como abrir um ou mais repositórios de mensagens durante uma sessão.
+- [Abrir um Armazenamento de Mensagens:](opening-a-message-store.md)descreve como abrir um ou mais armazenamentos de mensagens durante uma sessão.
     
-- [Abrir o repositório de mensagens padrão](opening-the-default-message-store.md): descreve como abrir o repositório de mensagens padrão.
+- [Abrir o Armazenamento de Mensagens Padrão:](opening-the-default-message-store.md)descreve como abrir o armazenamento de mensagens padrão.
     
-- [Validar e inicializar um repositório de mensagens](validating-and-initializing-a-message-store.md): descreve como inicializar e validar um repositório de mensagens.
+- [Validando e inicializando um armazenamento de mensagens:](validating-and-initializing-a-message-store.md)descreve como inicializar e validar um armazenamento de mensagens.
     
-- [Pesquisando um repositório de mensagens](searching-a-message-store.md): descreve como examinar uma ou mais pastas procurando mensagens que correspondam aos critérios de pesquisa.
+- [Pesquisar um Armazenamento de Mensagens:](searching-a-message-store.md)descreve como procurar uma ou mais pastas em busca de mensagens que corresponderem aos critérios de pesquisa.
     
-- [Selecionar uma pasta de recebimento](selecting-a-receive-folder.md): descreve as etapas para criar uma pasta de recebimento.
+- [Selecionando uma Pasta de](selecting-a-receive-folder.md)Recebimento: descreve as etapas para criar uma pasta de recebimento.
     
-- [Abrir uma pasta do repositório de mensagens](opening-a-message-store-folder.md): descreve como abrir uma pasta.
+- [Abrir uma pasta do armazenamento](opening-a-message-store-folder.md)de mensagens: descreve como abrir uma pasta.
     
-- [Exibindo uma tabela de conteúdo da pasta](displaying-a-folder-contents-table.md): descreve como exibir a tabela de conteúdo da pasta que contém informações resumidas sobre todas as suas mensagens.
+- [Exibindo uma tabela de conteúdo de pasta:](displaying-a-folder-contents-table.md)descreve como exibir a tabela de conteúdo da pasta que contém informações resumidas sobre todas as suas mensagens.
     
-- [Atravessando a pasta caixa de entrada](traversing-the-inbox-folder.md): descreve como percorrer todas as mensagens na caixa de entrada.
+- [Percorrendo a pasta Caixa de](traversing-the-inbox-folder.md)Entrada: descreve como percorrer todas as mensagens na Caixa de Entrada.
     
-- [Copiar ou mover uma mensagem ou uma pasta](copying-or-moving-a-message-or-a-folder.md): descreve como copiar ou mover uma ou mais mensagens.
+- [Copiar ou mover uma mensagem ou uma pasta:](copying-or-moving-a-message-or-a-folder.md)descreve como copiar ou mover uma ou mais mensagens.
     
-- [Abrir uma mensagem](opening-a-message.md): descreve como abrir uma mensagem.
+- [Abrir uma mensagem:](opening-a-message.md)descreve como abrir uma mensagem.
     
-- [Localizar o ícone de uma mensagem](finding-the-icon-for-a-message.md): descreve como localizar um ícone associado a uma mensagem.
+- [Localizar o ícone de uma mensagem:](finding-the-icon-for-a-message.md)descreve como encontrar um ícone associado a uma mensagem.
     
-- [Abrir um descritor de modo de exibição](opening-a-view-descriptor.md): descreve como abrir um descritor de modo de exibição.
+- [Abrir um Descritor de Exibição:](opening-a-view-descriptor.md)descreve como abrir um descritor de exibição.
     
-- [Excluir uma mensagem](deleting-a-message.md): descreve como excluir uma mensagem.
+- [Excluindo uma mensagem:](deleting-a-message.md)descreve como excluir uma mensagem.
     
-- [Salvar uma mensagem na caixa de entrada](saving-a-message-in-the-inbox.md): descreve como armazenar uma mensagem na caixa de entrada.
+- [Salvar uma mensagem na Caixa de](saving-a-message-in-the-inbox.md)Entrada: descreve como armazenar uma mensagem na Caixa de Entrada.
     
-- [Localizar mensagens enviadas ou salvas](finding-sent-or-saved-messages.md): descreve como localizar todas as mensagens de saída que foram salvas ou enviadas.
+- [Localizando mensagens enviadas ou salvas:](finding-sent-or-saved-messages.md)descreve como localizar todas as mensagens de saída que foram salvas ou enviadas.
     
-- [Controlar conversas](tracking-conversations.md): descreve como controlar as conversas.
+- [Acompanhar conversas:](tracking-conversations.md)descreve como acompanhar conversas.
     
 

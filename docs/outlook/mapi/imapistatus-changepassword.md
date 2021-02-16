@@ -25,7 +25,7 @@ ms.locfileid: "33410354"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Modifica a senha de um provedor de serviços sem exibir uma interface de usuário. Opcionalmente, este método é compatível com objetos de status que os provedores de serviços implementam.
+Modifica a senha de um provedor de serviços sem exibir uma interface do usuário. Opcionalmente, esse método tem suporte em objetos de status implementados por provedores de serviços.
   
 ```cpp
 HRESULT ChangePassword(
@@ -39,19 +39,19 @@ HRESULT ChangePassword(
 
  _lpOldPass_
   
-> no Um ponteiro para a senha antiga.
+> [in] Um ponteiro para a senha antiga.
     
  _lpNewPass_
   
-> no Um ponteiro para a nova senha.
+> [in] Um ponteiro para a nova senha.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o formato das senhas. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o formato das senhas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As senhas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as senhas estarão no formato ANSI.
+> As senhas estão no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, as senhas estão no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,21 +61,21 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> A senha antiga indicada por _lpOldPass_ é inválida. 
+> A senha antiga apontada por  _lpOldPass_ é inválida. 
     
 MAPI_E_NO_SUPPORT 
   
-> O objeto status não oferece suporte a essa operação, conforme indicado pela ausência do sinalizador STATUS_CHANGE_PASSWORD na propriedade **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto status.
+> O objeto de status não dá suporte a essa operação, conforme indicado pela ausência do sinalizador STATUS_CHANGE_PASSWORD na propriedade **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto de status.
     
 ## <a name="remarks"></a>Comentários
 
-Nem todos os objetos de status dão suporte ao método **IMAPIStatus:: ChangePassword** . Só há suporte para os provedores de serviços que exigem que os clientes insiram uma senha. Nenhum dos objetos de status que o MAPI implementa oferece suporte à operação de alteração de senha. 
+Nem todos os objetos de status suportam o **método IMAPIStatus::ChangePassword.** Há suporte apenas para provedores de serviços que exigem que os clientes insiram uma senha. Nenhum dos objetos de status que o MAPI implementa suporta a operação de alteração de senha. 
   
- **ChangePassword** modifica uma senha por meio de programação, sem interação do usuário. 
+ **ChangePassword** modifica uma senha programaticamente, sem interação do usuário. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Os provedores de transporte remotos implementam a **ChangePassword** conforme especificado aqui. Não há considerações especiais. 
+Os provedores de transporte **remoto implementam ChangePassword** conforme especificado aqui. Não há considerações especiais. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -36,38 +36,38 @@ Especifica um campo de bits que descreve o status do destinatário.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade não é obrigatória. Estes são os sinalizadores individuais que podem ser definidos.
+Essa propriedade não é necessária. A seguir estão os sinalizadores individuais que podem ser definidos.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|S (recipSendable, 0x00000001)  <br/> |O destinatário é um participante que é **enviado** . Este sinalizador é usado apenas na propriedade **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
-|O (recipOrganizer, 0x0000002)  <br/> |O **RecipientRow** no qual este sinalizador é definido representa o organizador da reunião.  <br/> |
-|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indica que o participante deu uma resposta para a exceção na qual esse **RecipientRow** reside. Este sinalizador é usado apenas em um **RecipientRow** de um objeto de mensagem incorporado de exceção do objeto de reunião do organizador.  <br/> |
-|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indica que, apesar da **RecipientRow** existir, ela deve ser tratada como se o destinatário correspondente não. Este sinalizador é usado apenas em um **RecipientRow** de um objeto de mensagem incorporado de exceção do objeto de reunião do organizador.  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |O destinatário é **um Participante Enviável.** Esse sinalizador só é usado na **propriedade dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
+|O (recipOrganizer, 0x0000002)  <br/> |RecipientRow **no** qual esse sinalizador é definido representa o Organizador da reunião.  <br/> |
+|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indica que o participante deu uma resposta para a exceção na qual **esta RecipientRow** reside. Esse sinalizador só é usado em **Um RecipientRow** de um objeto de mensagem incorporado de exceção do objeto de reunião do organizador.  <br/> |
+|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indica que, embora **o RecipientRow** exista, ele deve ser tratado como se o destinatário correspondente não existe. Esse sinalizador só é usado em **um RecipientRow** de um objeto de mensagem incorporado de exceção do objeto de reunião do organizador.  <br/> |
 |X (reservado, 0x00000040)  <br/> |Não deve ser definido.  <br/> |
 |X (reservado, 0x00000080)  <br/> |Não deve ser definido.  <br/> |
-|G (recipOriginal, 0x00000100)  <br/> |Indica que o destinatário é um participante original. Este sinalizador é usado apenas na propriedade **dispidApptUnsendableRecips** .  <br/> |
+|G (recipOriginal, 0x00000100)  <br/> |Indica que o destinatário é um participante original. Esse sinalizador só é usado na **propriedade dispidApptUnsendableRecips.**  <br/> |
 |X (reservado, 0x00000200)  <br/> |Reservado.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

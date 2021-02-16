@@ -25,7 +25,7 @@ ms.locfileid: "33407603"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulários de que a mensagem atual em um formulário foi salva.
+Notifica o visualizador de formulário de que a mensagem atual em um formulário foi salva.
   
 ```cpp
 HRESULT OnSaved( void );
@@ -39,13 +39,13 @@ Nenhum
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Um objeto Form chama o método **IMAPIViewAdviseSink::** onsaved após a mensagem atual em um formulário ter sido salva com êxito. Isso permite que os visualizadores atualizem suas janelas para refletir as alterações na mensagem. 
+Um objeto de formulário chama o método **IMAPIViewAdviseSink::OnSaved** após a mensagem atual em um formulário ter sido salva com êxito. Isso permite que os visualizadores atualizem suas janelas para refletir as alterações na mensagem. 
   
-Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [Enviando e recebendo notificações de formulário.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33410781"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre o objeto status do provedor.
+Abre o objeto de status do provedor.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface que deve ser usada para acessar o objeto status. Passar NULL retorna a interface padrão do objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface que deve ser usada para acessar o objeto de status. Passar NULL retorna a interface padrão do objeto, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto status é aberto. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como o objeto de status é aberto. O sinalizador a seguir pode ser definido:
     
 MAPI_MODIFY 
   
-> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura, e os chamadores não devem supor que a permissão de leitura/gravação tenha sido concedida.
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura e os chamadores não devem presumir que a permissão de leitura/gravação foi concedida.
     
  _lpulObjType_
   
-> bota Um ponteiro para o tipo do objeto aberto.
+> [out] Um ponteiro para o tipo do objeto aberto.
     
  _lppEntry_
   
-> bota Um ponteiro para um ponteiro para o objeto aberto.
+> [out] Um ponteiro para um ponteiro para o objeto aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e o objeto status foi aberto.
+> A chamada foi bem-sucedida e o objeto de status foi aberto.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de catálogos de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto status. Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporte, no mínimo, o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . Para mais informações, consulte [implementação do objeto de status](status-object-implementation.md).
+Os provedores de agendas **implementam o método OpenStatusEntry** para conceder acesso ao seu objeto de status. Todos os provedores de livro de endereços são necessários para implementar um objeto de status que oferece suporte, no mínimo, ao método [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Para obter mais informações, consulte [Implementação de objeto de status.](status-object-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -24,7 +24,7 @@ Determina a cor do plano de fundo do texto de uma forma.
 
 A célula TextBkgnd pode ter qualquer valor de 0 até 24 ou 255. Os valores 0 e 255 ( *visTxtBlklOpaque*) indicam um plano de fundo de texto transparente. 
   
-Para inserir uma cor personalizada, utilize a função RGB ou HSL mais um, como, por exemplo, RGB(255,127,255)+1. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*) + 1, e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 25. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL mais um, como, por exemplo, RGB(255,127,255)+1. O valor de uma cor personalizada é sua cor RGB, e RGB( *r, g, b*)+1, em vez de um número, será mostrado na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 25. 
   
 É possível definir a transparência da cor do plano de fundo do texto na célula TextBkgndTrans.
   

@@ -24,7 +24,7 @@ Determina a fonte de papel para a página.
 
 Essa configuração corresponde à configuração **Fonte de Papel** da caixa de diálogo **Configurar Impressão** (na guia **Design**, clique na seta **Configurar Página** e, na guia **Configurar Impressão**, clique em **Configurar**).
   
-Os valores numéricos nesta célula mapeiam as constantes (prefixadas com DMBIN) definidas para seleções de bin no arquivo WinGDI. h do Microsoft Windows; por exemplo, o valor 7 representa DMBIN_AUTO. 
+Os valores numéricos nesta célula são mapeados para constantes (prefixadas com DMBIN) definidas para seleções bin no arquivo wingdi.h do Microsoft Windows; por exemplo, o valor 7 representa DMBIN_AUTO. 
   
 Para obter uma referência para a célula PaperSource pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -38,6 +38,6 @@ Para obter uma referência para a célula PaperSource pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
-|Índice da célula:  <br/> |**visPrintPropertiesPaperSource** <br/> |
+|Índice de célula:  <br/> |**visPrintPropertiesPaperSource** <br/> |
    
 

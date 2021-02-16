@@ -37,17 +37,17 @@ LPSTREAM FAR * ppstm
 
 ## <a name="parameters"></a>Parâmetros
 
- _pulFlags_
+ _lagFlags_
   
-> bota Ponteiro para uma bitmask de sinalizadores que controla como o texto da mensagem deve ser salvo. O seguinte sinalizador pode ser definido:
+> [out] Ponteiro para uma máscara de bits de sinalizadores que controla como o texto da mensagem deve ser salvo. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> O texto da mensagem é salvo no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o texto será salvo no formato ANSI.
+> O texto da mensagem é salvo no formato Unicode. Se o MAPI_UNICODE não estiver definido, o texto será salvo no formato ANSI.
     
- _pulFormat_
+ _milaFormat_
   
-> bota Ponteiro para uma bitmask de sinalizadores que controla o formato do texto salvo. Os seguintes sinalizadores podem ser definidos:
+> [out] Ponteiro para uma máscara de bits de sinalizadores que controla o formato do texto salvo. Os sinalizadores a seguir podem ser definidos:
     
 SAVE_FORMAT_RICHTEXT 
   
@@ -55,11 +55,11 @@ SAVE_FORMAT_RICHTEXT
     
 SAVE_FORMAT_TEXT 
   
-> O texto da mensagem deve ser salvo como texto sem formatação. 
+> O texto da mensagem deve ser salvo como texto sem texto simples. 
     
- _ppStm_
+ _ppstm_
   
-> bota Ponteiro para um ponteiro para o Stream que conterá a mensagem salva.
+> [out] Ponteiro para um ponteiro para o fluxo que conterá a mensagem salva.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -69,11 +69,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIViewContext:: GetSaveStream** para recuperar um objeto Stream que implementa a interface **IStream** para suportar o tratamento do verbo salvar como no Visualizador de formulários. O método [IMAPIForm::D overb](imapiform-doverb.md) , que é implementado no servidor de formulário e chamado pelo Visualizador de formulários para invocar um verbo, não deve ser retornado até que a mensagem seja totalmente convertida no formato de texto apropriado e colocado no fluxo apropriado. 
+Objetos de formulário chamam o método **IMAPIViewContext::GetSaveStream** para recuperar um fluxo de um objeto que implementa a interface **IStream** para suportar a manipulação do verbo Salvar como no visualizador de formulário. O método [IMAPIForm::D oVerb,](imapiform-doverb.md) que é implementado no servidor de formulário e chamado pelo visualizador de formulário para invocar um verbo, não deve retornar até que a mensagem seja totalmente convertida no formato de texto apropriado e colocada no fluxo apropriado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Não grave no fluxo apontado pelo _ppStm_ antes de chamar **GetSaveStream**. Quando **GetSaveStream** retorna, não redefine a posição do ponteiro de busca. Esse ponteiro deve permanecer no final do texto da mensagem salva. 
+Não escreva no fluxo apontado pelo  _ppstm_ antes de chamar **GetSaveStream**. Quando **GetSaveStream** retornar, não redefinir a posição do ponteiro de busca. Este ponteiro deve permanecer no final do texto da mensagem salva. 
   
 ## <a name="see-also"></a>Confira também
 

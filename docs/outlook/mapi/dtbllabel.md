@@ -29,7 +29,7 @@ Descreve um rótulo que será usado em uma caixa de diálogo criada a partir de 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
    
 ```cpp
@@ -49,23 +49,23 @@ typedef struct _DTBLLABEL
     
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para designar o formato do rótulo apontado pelo membro **ulbLpszLabelName** . O seguinte sinalizador pode ser definido: 
+> Bitmask de sinalizadores usados para designar o formato do rótulo apontado pelo **membro ulbLpszLabelName.** O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo estará no formato ANSI.
+> O rótulo está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o rótulo está no formato ANSI.
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLLABEL** descreve um texto de controle de rótulo que é exibido com outro tipo de controle para adicionar significado a esse controle. Por exemplo, a maioria dos controles de edição são posicionados ao lado de rótulos para informar ao usuário sobre o tipo de informação a ser inserido. Alguns controles, como caixas de grupo e botões de opção, mantêm seus próprios rótulos. 
+Uma **estrutura DTBLLABEL** descreve um texto de controle de rótulo que é exibido com outro tipo de controle para adicionar significado a esse controle. Por exemplo, a maioria dos controles de edição é posicionada ao lado dos rótulos para informar o usuário sobre o tipo de informação a ser inserida. Alguns controles, como caixas de grupo e botões de rádio, têm seus próprios rótulos. 
   
-O rótulo pode incluir um acelerador do Windows, identificado como o caractere após o&amp;e comercial (). Pressionar a tecla aceleradora coloca o foco no primeiro controle não rótulo, sem botão, seguindo este rótulo na tabela de exibição.
+O rótulo pode incluir um acelerador do Windows, identificado como o caractere após o esand ( &amp; ). Pressionar a tecla aceleradora coloca o foco no primeiro controle sem rótulo e sem rótulo após esse rótulo na tabela de exibição.
   
 Não há suporte para rótulos de várias linhas. Mostrar várias linhas requer vários rótulos.
   
-Não é possível usar um rótulo como um controle de edição somente leitura. A diferença é que um controle de edição pode ser selecionado e copiado, enquanto um rótulo não pode. 
+Não é possível usar um rótulo como um controle de edição somente leitura. A diferença é que um controle de edição pode ser selecionado e copiado, enquanto um rótulo não. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Tabelas de Exibição.](display-tables.md) Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

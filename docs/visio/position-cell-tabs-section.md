@@ -26,14 +26,14 @@ Para fazer referência à célula Position pelo nome a partir de outra fórmula 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Tabula.  *IJ* onde *i* e *j* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Guias.  *ij*            onde  *i*  e  *j*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Position pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTab** <br/> |
-| Índice de linha:  <br/> |**visRowTab** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> | (*j* * 3) + **visTabPos** <br/> |
+| Índice de linha:  <br/> |**visRowTab**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

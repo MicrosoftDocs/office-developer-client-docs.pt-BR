@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356851"
 ---
-# <a name="mnlsisbadstringptrw"></a>MNLS_IsBadStringPtrW
+# <a name="mnls_isbadstringptrw"></a>MNLS_IsBadStringPtrW
 
   
   
@@ -33,18 +33,18 @@ BOOL MNLS_IsBadStringPtrW(
 
  _lpsz_
   
-> no Um ponteiro para a cadeia de caracteres largos.
+> [in] Um ponteiro para a cadeia de caracteres larga.
     
  _ucchMax_
   
-> no O tamanho máximo da cadeia de caracteres em caracteres incluindo o terminador.
+> [in] O comprimento máximo da cadeia de caracteres em caracteres, incluindo o terminador.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um Boolean que será true se a cadeia de caracteres for inválida.
+Retorna um Boolean que será true se a cadeia de caracteres for ruim.
   
 ## <a name="remarks"></a>Comentários
 
-Essa função envolve [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Para obter mais informações, consulte [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
+Esta função quebra [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Para obter mais informações, consulte [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
   
 

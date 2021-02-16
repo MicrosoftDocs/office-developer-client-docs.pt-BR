@@ -21,7 +21,7 @@ ms.locfileid: "33410249"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para sincronizar um cabeçalho de mensagem durante o [download do estado do cabeçalho da mensagem](download-message-header-state.md).
+Informações para sincronizar um header de mensagem durante o estado [de download do header da mensagem.](download-message-header-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -38,13 +38,13 @@ struct HDRSYNC
 
 ## <a name="members"></a>Membros
 
- _pupmsg_
+ _btmsg_
   
-- bota Informações do cabeçalho da mensagem atual no repositório local.
+- [out] Informações para o header de mensagem atual no armazenamento local.
     
  _feidPar_
   
-- bota ID de entrada da pasta pai do item de mensagem.
+- [out] Entry ID for the parent folder of the message item.
     
  _pstmReserved_
   
@@ -52,23 +52,23 @@ struct HDRSYNC
     
  _ulFlags_
   
-- no Sinalizadores para modificar o comportamento:
+- [in] Sinalizadores para modificar o comportamento:
     
 - HSF_LOCAL
     
-  - no O item completo reside no mesmo repositório local que o item de cabeçalho.
+  - [in] O item completo reside no mesmo armazenamento local que o item de header.
     
 - HSF_COPYDESTRUCTIVE
     
-  -  no Otimizar operações de cópia interna. Isso pode causar perda de dados. **HSF_LOCAL** deve ser definido. 
+  -  [in] Otimizar operações de cópia interna. Isso pode causar perda de dados. **HSF_LOCAL** deve ser definido. 
     
 - HSF_OK
     
-  - no A sincronização do cabeçalho foi bem-sucedida. O cliente define isso depois de baixar informações do servidor.
+  - [in] A sincronização do header foi bem-sucedida. O cliente define isso depois de baixar informações do servidor.
     
      _pmsgFull_
     
-  - no O item de mensagem completo, incluindo o cabeçalho da mensagem baixado do servidor. Consulte mapidefs. h para a definição de tipo de **lpMessage**. 
+  - [in] O item de mensagem completo, incluindo o header da mensagem baixado do servidor. Consulte mapidefs.h para a definição de tipo de **LPMESSAGE**. 
     
 ## <a name="see-also"></a>Confira também
 

@@ -21,15 +21,15 @@ ms.locfileid: "33407519"
   
 Os clientes e provedores de serviços podem atualizar um valor de propriedade chamando:
   
-- O método [IMAPIProp::](imapiprop-setprops.md) SetProps de um objeto para atualizar o valor de uma ou mais propriedades de um objeto. 
+- Método [IMAPIProp::SetProps](imapiprop-setprops.md) de um objeto para atualizar o valor de uma ou mais propriedades de um objeto. 
     
-- A função [HrSetOneProp](hrsetoneprop.md) para atualizar apenas uma propriedade por vez. Use **HrSetOneProp** somente se o objeto de destino for local; Essa função pode causar degradação de desempenho quando usada com objetos remotos. 
+- A [função HrSetOneProp](hrsetoneprop.md) para atualizar apenas uma propriedade por vez. Use **HrSetOneProp** somente se o objeto de destino for local; essa função pode causar degradação do desempenho quando usada com objetos remotos. 
     
-O procedimento a seguir ilustra como usar **** SetProps para atualizar a classe de mensagem ou a propriedade PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), de uma mensagem. 
+O procedimento a seguir ilustra como usar **SetProps** para atualizar a classe de mensagem ou PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de uma mensagem. 
   
 ### <a name="to-update-the-message-class-of-a-message"></a>Para atualizar a classe de mensagem de uma mensagem 
   
-1. Aloque uma estrutura [SPropValue](spropvalue.md) para a classe de mensagem e defina seus membros conforme apropriado. 
+1. Aloce [uma estrutura SPropValue](spropvalue.md) para a classe de mensagem e de definir seus membros conforme apropriado. 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,7 +38,7 @@ O procedimento a seguir ilustra como usar **** SetProps para atualizar a classe 
     
   ```
 
-2. Chame o método **IMAPIProp::** SetProps da mensagem para definir a nova classe de mensagem. 
+2. Chame o método **IMAPIProp::SetProps** da mensagem para definir a nova classe de mensagem. 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

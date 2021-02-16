@@ -25,7 +25,7 @@ ms.locfileid: "33404852"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela os retornos de chamada para um objeto offline.
+Cancela retornos de chamada para um objeto offline.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -38,11 +38,11 @@ HRESULT COfflineObj::Unadvise(
 
  _ulFlags_
   
-> no Sinalizadores para o retorno de chamada de cancelamento. Só há suporte para o valor MAPIOFFLINE_UNADVISE_DEFAULT.
+> [in] Sinalizadores para cancelar retorno de chamada. Somente o valor MAPIOFFLINE_UNADVISE_DEFAULT é suportado.
     
  _ulAdviseToken_
   
-> no Um token de aviso que identifica o registro de retorno de chamada que deve ser cancelado. 
+> [in] Um token de consultoria que identifica o registro de retorno de chamada que deve ser cancelado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Remove o registro do retorno de chamada que foi associado ao *ulAdviseToken* retornado de uma chamada anterior para **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Faz com que o objeto **IMAPIOfflineMgr** Libere sua referência no objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associado ao *ulAdviseToken* . 
+Remove o registro do retorno de chamada associado ao  *ulAdviseToken*  retornado de uma chamada anterior para **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Faz com que o objeto **IMAPIOfflineMgr** libere sua referência no objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associado  *a ulAdviseToken*  . 
   
 ## <a name="see-also"></a>Confira também
 

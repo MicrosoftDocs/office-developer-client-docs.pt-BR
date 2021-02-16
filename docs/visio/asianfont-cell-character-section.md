@@ -30,7 +30,7 @@ Para fazer referência à célula AsianFont pelo nome, a partir de outra fórmul
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char. AsianFont [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char.AsianFont[ *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula AsianFont pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

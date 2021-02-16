@@ -25,30 +25,30 @@ ms.locfileid: "33407659"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que clientes, provedores de serviços e MAPI trabalhem com propriedades. Todos os objetos que dão suporte a Propriedades implementam essa interface.
+Permite que clientes, provedores de serviços e MAPI trabalhem com propriedades. Todos os objetos que suportam propriedades implementam essa interface.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Nenhum objeto expõe esta interface diretamente.  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |Nenhum objeto expõe essa interface diretamente.  <br/> |
 |Implementado por:  <br/> |Provedores de serviços e MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente, provedores de serviços e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIProp  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIPROP  <br/> |
-|Modelo de transação:  <br/> |Classe abstrata, nunca implementado  <br/> |
+|Modelo de transação:  <br/> |Classe abstrata, nunca implementada  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[GetLastError](imapiprop-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Torna permanente quaisquer alterações feitas a um objeto desde a última operação de salvamento.  <br/> |
+|[GetLastError](imapiprop-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior.  <br/> |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Faz alterações permanentes que foram feitas em um objeto desde a última operação de salvar.  <br/> |
 |[GetProps](imapiprop-getprops.md) <br/> |Recupera o valor da propriedade de uma ou mais propriedades de um objeto.  <br/> |
-|[GetProplist](imapiprop-getproplist.md) <br/> |Retorna as marcas de propriedade de todas as propriedades.  <br/> |
+|[GetPropList](imapiprop-getproplist.md) <br/> |Retorna marcas de propriedade para todas as propriedades.  <br/> |
 |[OpenProperty](imapiprop-openproperty.md) <br/> |Retorna um ponteiro para uma interface que pode ser usada para acessar uma propriedade.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Atualiza uma ou mais propriedades.  <br/> |
 |[DeleteProps](imapiprop-deleteprops.md) <br/> |Exclui uma ou mais propriedades de um objeto.  <br/> |
-|[CopyTo](imapiprop-copyto.md) <br/> |Copia ou move todas as propriedades, exceto as propriedades especificamente excluídas.  <br/> |
+|[CopyTo](imapiprop-copyto.md) <br/> |Copia ou move todas as propriedades, exceto para propriedades especificamente excluídas.  <br/> |
 |[CopyProps](imapiprop-copyprops.md) <br/> |Copia ou move as propriedades selecionadas.  <br/> |
 |[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fornece os nomes de propriedade que correspondem a um ou mais identificadores de propriedade.  <br/> |
 |[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fornece os identificadores de propriedade que correspondem a um ou mais nomes de propriedade.  <br/> |

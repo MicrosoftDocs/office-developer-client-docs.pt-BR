@@ -25,7 +25,7 @@ ms.locfileid: "33405055"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta de saída padrão de mensagem interpessoal (IPM). 
+Contém o identificador de entrada da pasta padrão da caixa de saída da mensagem interpersonal (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o identificador de entrada da pasta de saída padrão de mensagem interp
    
 ## <a name="remarks"></a>Comentários
 
-As mensagens de saída normalmente são criadas na pasta de saída. As mensagens interpessoais devem ser colocadas nesta pasta para envio. 
+As mensagens de saída geralmente são criadas na pasta Caixa de Saída. As mensagens interpersonals devem ser colocadas nesta pasta para envio. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

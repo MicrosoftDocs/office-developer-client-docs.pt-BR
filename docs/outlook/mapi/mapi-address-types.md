@@ -21,18 +21,18 @@ ms.locfileid: "33405433"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cada usuário de mensagens é associado a um tipo de endereço, uma cadeia de caracteres que descreve o formato do endereço do usuário que é armazenado na propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Os tipos de endereço mapeiam para formatos de endereço. Ou seja, observando o tipo de endereço de um destinatário, os aplicativos clientes podem determinar como formatar um endereço apropriado para o destinatário. 
+Cada usuário de mensagens é associado a um tipo de endereço, uma cadeia de caracteres que descreve o formato do endereço do usuário armazenado na propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Os tipos de endereço mapeiam para formatos de endereço. Ou seja, ao olhar para o tipo de endereço de um destinatário, os aplicativos cliente podem determinar como formatar um endereço apropriado para o destinatário. 
   
-Por exemplo, o `SMTP` tipo de endereço especifica o endereço de Internet padrão: 
+Por exemplo, o  `SMTP` tipo de endereço especifica o endereço padrão da Internet: 
   
  `username@companyname.com.`
   
-E o tipo `EX` de endereço especifica um endereço do Exchange Server. 
+E o tipo  `EX` de endereço especifica um endereço do Exchange Server. 
   
-Todas as entradas do catálogo de endereços devem ter um tipo de endereço válido. Os clientes exigem que seus usuários especifiquem um tipo de endereço ao criar um tipo de destinatário personalizado sem suporte pelo provedor de catálogo de endereços. Para as entradas que eles dão suporte, os provedores de catálogo de endereços são necessários para fornecer tipos de endereço válidos. 
+Todas as entradas do livro de endereços devem ter um tipo de endereço válido. Os clientes exigem que seus usuários especifiquem um tipo de endereço ao criar um tipo de destinatário personalizado sem suporte do provedor de agendas. Para as entradas com suporte, os provedores de agendas são necessários para fornecer tipos de endereço válidos. 
   
 MAPI define apenas um tipo de endereço: MAPIPDL, que significa lista de distribuição pessoal.
   
-Para obter uma lista dos tipos de endereço suportados por todos os provedores de transporte na sessão, os aplicativos cliente chamam o método **IMAPISession:: EnumAdrTypes** . Para obter mais informações, consulte [IMAPISession:: EnumAdrTypes](imapisession-enumadrtypes.md).
+Para obter uma lista dos tipos de endereços suportados por todos os provedores de transporte na sessão, os aplicativos cliente chamam o método **IMAPISession::EnumAdrTypes.** Para obter mais informações, [consulte IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md).
   
 

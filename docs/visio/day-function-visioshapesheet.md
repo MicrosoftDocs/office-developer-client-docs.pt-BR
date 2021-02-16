@@ -34,7 +34,7 @@ DAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
    
 ### <a name="return-value"></a>Valor de retorno
 
-Número inteiro
+Inteiro
   
 ## <a name="remarks"></a>Comentários
 

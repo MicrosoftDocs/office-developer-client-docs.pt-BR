@@ -37,13 +37,13 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> bota Aponta para o valor de indicador de 32 bits retornado. Este indicador pode ser passado posteriormente em uma chamada para o método imApitable [:: SeekRow](imapitable-seekrow.md) . 
+> [out] Ponteiro para o valor de indicador de 32 bits retornado. Esse indicador pode ser passado posteriormente em uma chamada para o [método IMAPITable::SeekRow.](imapitable-seekrow.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
@@ -51,21 +51,21 @@ MAPI_E_UNABLE_TO_COMPLETE
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: CreateBookmark** marca uma posição de tabela criando um valor chamado indicador. Um indicador pode ser usado para retornar à posição identificada pelo indicador. A posição com indicador é associada ao objeto nessa linha na tabela. 
+O **método IMAPITable::CreateBookmark** marca uma posição de tabela criando um valor chamado indicador. Um indicador pode ser usado para retornar à posição identificada pelo indicador. A posição do indicador está associada ao objeto nessa linha na tabela. 
   
-Não há suporte para indicadores em tabelas de anexos e implementações de tabelas **** de anexos de MAPI_E_NO_SUPPORT de retorno de CreateBookmark. 
+Bookmarks are not supported on attachment tables, and attachment table implementations of **CreateBookmark** return MAPI_E_NO_SUPPORT. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Por causa da despesa de memória de manter posições de cursor com indicadores, limite o número de indicadores que você pode criar. Quando chegar a esse número, retorne MAPI_E_UNABLE_TO_COMPLETE de todas as chamadas **** subsequentes para CreateBookmark.
+Devido à despesa de memória com a manutenção de posições do cursor com indicadores, limite o número de indicadores que você pode criar. Quando você alcançar esse número, retorne MAPI_E_UNABLE_TO_COMPLETE de todas as chamadas subsequentes para **CreateBookmark**.
   
-Às vezes, um indicador aponta para uma linha que não está mais no modo de exibição de tabela. Se um chamador usar esse indicador, mova o cursor para a próxima linha visível e pare lá. 
+Às vezes, um indicador aponta para uma linha que não está mais no ponto de vista da tabela. Se um chamador usar esse indicador, mova o cursor para a próxima linha visível e pare lá. 
   
-Quando o chamador tenta usar um indicador que aponta para uma linha não visível porque foi recolhido, retorne MAPI_W_POSITION_CHANGED após mover o indicador. Você pode reposicionar o indicador para a próxima linha visível no momento ou quando o recolhimento ocorre no método setCollapsestate. **** Se você mover o indicador no momento em que a linha estiver recolhida, deverá manter um bit no indicador que indica exatamente quando o indicador foi movido: desde o último uso ou se ele nunca tiver sido usado desde sua criação. 
+Quando o chamador tentar usar um indicador que está apontando para uma linha nãovisível porque ela foi recolhido, retorne MAPI_W_POSITION_CHANGED depois de mover o indicador. Você pode reposicionar o indicador para a próxima linha visível neste momento ou quando o rebaixamento ocorrer no **método SetCollapseState.** Se você mover o indicador no momento em que a linha estiver recolhido, deverá manter um pouco no indicador que indica exatamente quando o indicador foi movido: desde seu último uso ou se ele nunca foi usado desde sua criação. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **CreateBookmark** aloca memória para o indicador que cria. Libere os recursos para o indicador chamando o método [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) . 
+ **CreateBookmark** aloca memória para o indicador que ele cria. Libere os recursos para o indicador chamando o [método IMAPITable::FreeBookmark.](imapitable-freebookmark.md) 
   
 ## <a name="see-also"></a>Confira também
 

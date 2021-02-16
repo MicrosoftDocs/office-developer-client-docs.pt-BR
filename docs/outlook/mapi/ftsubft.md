@@ -29,7 +29,7 @@ Subtrai um inteiro de 64 bits não assinado de outro.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtSubFt(
 
  _Minuend_
   
-> no Uma estrutura [FILETIME](filetime.md) que contém o inteiro de 64 bits não assinado a partir do qual o valor no parâmetro _subtrahend_ deve ser subtraído. 
+> [in] Uma [estrutura FILETIME](filetime.md) que contém o inteiro de 64 bits não assinado do qual o valor no parâmetro  _Subtrahend_ deve ser subtraído. 
     
  _Subtrahend_
   
-> no Uma estrutura **FILETIME** que contém o inteiro de 64 bits não assinado que é subtraído do valor indicado pelo parâmetro _minuend_ . 
+> [in] Uma **estrutura FILETIME** que contém o inteiro de 64 bits não assinado que é subtraído do valor indicado pelo parâmetro _Minuend._ 
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **FtSubFt** retorna uma estrutura **FILETIME** que contém o resultado da subtração. Os dois parâmetros de entrada permanecem inalterados. 
+A **função FtSubFt** retorna uma **estrutura FILETIME** que contém o resultado da subtração. Os dois parâmetros de entrada permanecem inalterados. 
   
 

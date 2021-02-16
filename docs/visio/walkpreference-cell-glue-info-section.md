@@ -22,8 +22,8 @@ Determina se um ponto de extremidade de uma forma 1D será movido para um ponto 
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 1  <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão vertical e o ponto de extremidade é movido para um ponto de conexão horizontal (conexões de cima para o lado ou de baixo para o lado).  <br/> |**visWalkPrefBegNS** <br/> |
-| duas  <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão horizontal e o ponto final é movido para um ponto de conexão vertical (conexões do lado para cima ou do lado para baixo).  <br/> |**visWalkPrefEndNS** <br/> |
+| 1   <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão vertical e o ponto de extremidade é movido para um ponto de conexão horizontal (conexões de cima para o lado ou de baixo para o lado).  <br/> |**visWalkPrefBegNS** <br/> |
+| 2   <br/> | O ponto inicial da forma 1D é movido para um ponto de conexão horizontal e o ponto final é movido para um ponto de conexão vertical (conexões do lado para cima ou do lado para baixo).  <br/> |**visWalkPrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

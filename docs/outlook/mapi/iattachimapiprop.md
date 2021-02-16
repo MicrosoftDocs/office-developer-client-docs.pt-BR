@@ -25,23 +25,23 @@ ms.locfileid: "33409087"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **IAttach** não tem métodos exclusivos próprios. Para obter mais informações sobre como usar anexos, consulte [MAPI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
+Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **IAttach** não tem métodos exclusivos próprios. Para obter mais informações sobre como usar anexos, consulte [MapI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Objetos Attachment  <br/> |
-|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |Objetos attachment  <br/> |
+|Implementado por:  <br/> |Provedores de armazenamento de mensagens  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IAttachment  <br/> |
 |Tipo de ponteiro:  <br/> |LPATTACH  <br/> |
-|Modelo de transação:  <br/> |Transact  <br/> |
+|Modelo de transação:  <br/> |Transacted  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
-Esta interface não tem nenhum método exclusivo.
+Essa interface não tem métodos exclusivos.
   
-|**Propriedades necessárias**|**Acesso**|
+|**Propriedades necessárias**|**Access**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Leitura/gravação  <br/> |

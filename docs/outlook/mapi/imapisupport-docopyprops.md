@@ -45,35 +45,35 @@ HRESULT DoCopyProps(
 
  _lpSrcInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o objeto com as propriedades a serem copiadas ou movidas.
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar o objeto com as propriedades a serem copiadas ou movidas.
     
  _lpSrcObj_
   
-> no Um ponteiro para o objeto que contém as propriedades a serem copiadas ou movidas.
+> [in] Um ponteiro para o objeto que contém as propriedades a serem copiadas ou movidas.
     
  _lpIncludeProps_
   
-> no Um ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz contada de marcas de propriedade que indicam as propriedades a serem copiadas ou movidas. O parâmetro _lpIncludeProps_ não pode ser nulo. 
+> [in] Um ponteiro para uma [estrutura SPropTagArray](sproptagarray.md) que contém uma matriz contada de marcas de propriedade que indicam as propriedades a ser copiadas ou movimentadas. O  _parâmetro lpIncludeProps_ não pode ser NULL. 
     
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso.
+> [in] Um alça para a janela pai do indicador de progresso.
     
  _lpProgress_
   
-> no Um ponteiro para uma implementação de um indicador de progresso. Se NULL for passado no parâmetro _lpProgress_ , o indicador de progresso será exibido usando a implementação MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um ponteiro para uma implementação de um indicador de progresso. Se NULL for passado no  _parâmetro lpProgress,_ o indicador de progresso será exibido usando a implementação de MAPI. O _parâmetro lpProgress_ é ignorado, a menos que o sinalizador MAPI_DIALOG seja definido no _parâmetro ulFlags._ 
     
  _lpDestInterface_
   
-> no Um ponteiro para o identificador de interface que representa a interface a ser usada para acessar o objeto para receber as propriedades que são copiadas ou movidas.
+> [in] Um ponteiro para o identificador da interface que representa a interface a ser usada para acessar o objeto e receber as propriedades que são copiadas ou movidas.
     
  _lpDestObj_
   
-> no Um ponteiro para o objeto para receber as propriedades copiadas ou movidas.
+> [in] Um ponteiro para o objeto para receber as propriedades copiadas ou movidas.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como a operação de cópia ou movimentação é executada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a operação de cópia ou movimentação é executada. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_DIALOG 
   
@@ -81,15 +81,15 @@ MAPI_DIALOG
     
 MAPI_MOVE 
   
-> **DoCopyProps** deve executar uma operação de movimentação em vez de uma operação de cópia. Quando esse sinalizador não é definido, o **DoCopyProps** realiza uma operação de cópia. 
+> **DoCopyProps** deve executar uma operação de movimentação em vez de uma operação de cópia. Quando esse sinalizador não está definido, **o DoCopyProps** executa uma operação de cópia. 
     
 MAPI_NOREPLACE 
   
-> As propriedades existentes no objeto de destino não devem ser substituídas. Quando esse sinalizador não é definido, **DoCopyProps** substitui as propriedades existentes. 
+> As propriedades existentes no objeto de destino não devem ser substituídas. Quando esse sinalizador não estiver definido, **DoCopyProps** substituirá as propriedades existentes. 
     
  _lppProblems_
   
-> [in, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; caso contrário, NULL, que não indica nenhuma necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DoCopyProps** retornará informações detalhadas sobre erros ao copiar uma ou mais propriedades. 
+> [in, out] Na entrada, um ponteiro para um ponteiro para uma [estrutura SPropProblemArray;](spropproblemarray.md) caso contrário, NULL, que indica nenhuma necessidade de informações de erro. Se  _lppProblems_ for um ponteiro válido na entrada, **DoCopyProps** retornará informações detalhadas sobre erros ao copiar uma ou mais propriedades. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -99,29 +99,29 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> Uma propriedade a ser copiada ou movida já existe no objeto de destino e o sinalizador MAPI_NOREPLACE está definido. 
+> Uma propriedade a ser copiada ou movida já existe no objeto de destino e o MAPI_NOREPLACE sinalizador está definido. 
     
 MAPI_E_FOLDER_CYCLE 
   
-> O objeto de origem direta ou indiretamente contém o objeto de destino. Um trabalho significativo pode ter sido realizado antes da descoberta dessa condição, portanto, os objetos de origem e de destino podem ser parcialmente modificados. 
+> O objeto de origem contém direta ou indiretamente o objeto de destino. Um trabalho significativo pode ter sido realizado antes dessa condição ser descoberta, portanto, os objetos de origem e destino podem ser parcialmente modificados. 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> A interface identificada pelo parâmetro _lpSrcInterface_ não é suportada pelo objeto de origem ou a interface identificada pelo parâmetro _lpDestInterface_ não é suportada pelo objeto de destino. 
+> A interface identificada pelo parâmetro  _lpSrcInterface_ não é suportada pelo objeto de origem ou a interface identificada pelo parâmetro  _lpDestInterface_ não é suportada pelo objeto de destino. 
     
 MAPI_E_NO_ACCESS 
   
 > Foi feita uma tentativa de acessar um objeto para o qual o chamador tem permissões insuficientes. Esse erro será retornado se o objeto de destino for o mesmo que o objeto de origem.
     
-Os valores a seguir podem ser retornados na estrutura **SPropProblemArray** , mas não como valores de retorno para **DoCopyProps**. Esses erros se aplicam a uma única propriedade.
+Os seguintes valores podem ser retornados na **estrutura SPropProblemArray,** mas não como valores de retorno para **DoCopyProps**. Esses erros se aplicam a uma única propriedade.
   
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e o **DoCopyProps** não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e **DoCopyProps** suporta apenas Unicode. 
+> O sinalizador MAPI_UNICODE padrão foi definido e **DoCopyProps** não dá suporte a Unicode ou MAPI_UNICODE não foi definido e **DoCopyProps** dá suporte apenas a Unicode. 
     
 MAPI_E_COMPUTED 
   
-> A propriedade não pode ser modificada pelo chamador porque é uma propriedade somente leitura, calculada pelo proprietário do objeto de destino. Esse erro não é grave; o chamador deve permitir que a operação de cópia continue.
+> A propriedade não pode ser modificada pelo chamador porque é uma propriedade somente leitura, calculada pelo proprietário do objeto de destino. Este erro não é grave; o chamador deve permitir que a operação de cópia continue.
     
 MAPI_E_INVALID_TYPE 
   
@@ -129,29 +129,29 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> O tipo de propriedade não é o tipo esperado pelo chamador.
+> O tipo de propriedade não é o tipo que o chamador espera.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::D ocopyprops** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositórios de mensagens podem chamar o **DoCopyProps** para implementar o método [IMAPIProp:: CopyProps](imapiprop-copyprops.md) para suas pastas e mensagens. **DoCopyProps** copia ou move as propriedades que são identificadas na matriz de marca de propriedade indicada por _lpIncludeProps_ e que estão presentes no objeto apontado por _lpSrcObj_. 
+O **método IMAPISupport::D oCopyProps** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens podem chamar **DoCopyProps** para implementar o método [IMAPIProp::CopyProps](imapiprop-copyprops.md) para suas pastas e mensagens. **DoCopyProps** copia ou move as propriedades identificadas na matriz de marca de propriedade apontada por  _lpIncludeProps_ e que estão presentes no objeto apontado por  _lpSrcObj_. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando você copia Propriedades entre objetos do mesmo tipo, como duas mensagens, os parâmetros _lpSrcInterface_ e _lpDestInterface_ devem conter o mesmo identificador de interface e os parâmetros _lpSrcObj_ e _lpDestObj_ deve apontar para objetos do mesmo tipo. Se _lpDestInterface_ estiver definido como nulo, **DoCopyProps** retornará MAPI_E_INVALID_PARAMETER. Se você definir _lpDestInterface_ como um identificador de interface aceitável, mas definir _lpDestObj_ como um ponteiro inválido, os resultados serão imprevisíveis. Provavelmente, o provedor falhará. 
+Quando você copia propriedades entre objetos do mesmo tipo, como duas mensagens, os parâmetros  _lpSrcInterface_ e  _lpDestInterface_ devem conter o mesmo identificador de interface, e os parâmetros  _lpSrcObj_ e  _lpDestObj_ devem apontar para objetos do mesmo tipo. Se  _lpDestInterface_ for definido como NULL, **DoCopyProps** retornará MAPI_E_INVALID_PARAMETER. Se você definir  _lpDestInterface_ como um identificador de interface aceitável, mas definir  _lpDestObj_ como um ponteiro inválido, os resultados serão imprevisíveis. Provavelmente, seu provedor falhará. 
   
-Defina o sinalizador MAPI_NOREPLACE se não quiser que nenhuma das propriedades no objeto de destino seja substituída. As propriedades no objeto de destino que existem no objeto de origem e não são sobrescritas não são excluídas ou modificadas.
+De definida MAPI_NOREPLACE sinalizador se você não quiser que nenhuma das propriedades no objeto de destino seja substituída. As propriedades no objeto de destino existentes no objeto de origem e que não são substituídas não são excluídas ou modificadas.
   
-Para copiar a lista de destinatários de uma mensagem, inclua a propriedade **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) na matriz de marca de propriedade apontada pelo parâmetro _lpIncludeProps_ . Para copiar os anexos da mensagem, inclua a propriedade **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
+Para copiar a lista de destinatários de uma mensagem, inclua a propriedade **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) na matriz de marca de propriedade apontada pelo parâmetro _lpIncludeProps._ Para copiar os anexos da mensagem, inclua a **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) . 
   
-Para copiar uma pasta ou uma tabela de conteúdo ou hierarquia do contêiner de catálogo de endereços, inclua **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) na matriz de marca de propriedade. Para incluir a tabela de conteúdo associado de uma pasta, inclua a propriedade **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) na matriz.
+Para copiar a hierarquia ou a tabela de conteúdo de um contêiner de pasta ou de um conjunto de endereços, inclua **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) na matriz de marca de propriedade. Para incluir a tabela de conteúdo associada de uma pasta, inclua a propriedade **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) na matriz.
   
-Se as subpastas forem copiadas ou movidas, seu conteúdo será copiado ou movido totalmente, independentemente do uso das propriedades indicadas pela estrutura **SPropTagArray** . 
+Se as subpastas são copiadas ou movidas, seus conteúdos são copiados ou movidos em sua totalidade, independentemente do uso das propriedades indicadas pela **estrutura SPropTagArray.** 
   
- **DoCopyProps** relata erros globais que ocorrem com a operação como um todo e erros individuais que ocorrem com uma ou mais propriedades. Esses erros individuais são colocados em uma estrutura **SPropProblemArray** . Você pode suprimir o relatório de erros no nível da propriedade passando NULL, em vez de um ponteiro válido, para o parâmetro da estrutura da matriz do problema da propriedade. 
+ **O DoCopyProps** relata erros globais que ocorrem com a operação como um todo e erros individuais que ocorrem com uma ou mais das propriedades. Esses erros individuais são colocados em uma **estrutura SPropProblemArray.** Você pode suprimir o relatório de erros no nível da propriedade passando NULL, em vez de um ponteiro válido, para o parâmetro de estrutura da matriz do problema de propriedade. 
   
-Se você quiser receber informações sobre erros, passe um ponteiro de estrutura **SPropProblemArray** válido no parâmetro _lppProblems_ . Quando **DoCopyProps** retorna S_OK, verifique se há possíveis erros com propriedades individuais na estrutura. Quando **DoCopyProps** retorna um erro, nenhuma informação é retornada na estrutura **SPropProblemArray** . Em vez disso, chame o método [IMAPISupport:: GetLastError](imapisupport-getlasterror.md) para recuperar informações de erro detalhadas. 
+Se você quiser receber informações sobre erros, passe um ponteiro de estrutura **SPropProblemArray** válido no parâmetro _lppProblems._ Quando **DoCopyProps** retornar S_OK, verifique se há possíveis erros com propriedades individuais na estrutura. Quando **DoCopyProps** retorna um erro, nenhuma informação é retornada na **estrutura SPropProblemArray.** Em vez disso, chame [o método IMAPISupport::GetLastError](imapisupport-getlasterror.md) para recuperar informações de erro detalhadas. 
   
-Se **DoCopyProps** retornar S_OK, libere a estrutura **SPropProblemArray** retornada chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Se **DoCopyProps** retornar S_OK, livre a estrutura **SPropProblemArray** retornada chamando a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>Confira também
 

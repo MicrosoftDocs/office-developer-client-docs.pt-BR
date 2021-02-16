@@ -23,7 +23,7 @@ ms.locfileid: "33408793"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As entradas em ordem alfabética a seguir contêm documentação para os tipos de dados usados em métodos MAPI, funções e estruturas. 
+As entradas em ordem alfabética a seguir contêm documentação para os tipos de dados usados em métodos, funções e estruturas MAPI. 
   
 ||
 |:-----|
@@ -48,7 +48,7 @@ As entradas em ordem alfabética a seguir contêm documentação para os tipos d
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SINCRONIZAÇÃO](sync.md) <br/> |
+|[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |

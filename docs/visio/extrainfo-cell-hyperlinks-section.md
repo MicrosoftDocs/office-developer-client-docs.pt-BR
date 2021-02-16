@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm360
 localization_priority: Normal
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
-description: Representa uma sequência de caracteres que passa as informações que serão utilizadas para resolver um URL, como as coordenadas de um mapa de imagens. Por exemplo, na célula ExtraInfo, x = 41&amp;y = 7specifies as coordenadas de um mapa de imagem.
+description: Representa uma sequência de caracteres que passa as informações que serão utilizadas para resolver um URL, como as coordenadas de um mapa de imagens. Por exemplo, na célula ExtraInfo, x=41 y=7 especifica as &amp; coordenadas de um mapa de imagem.
 ms.openlocfilehash: df2886ef7911b484cc60e8a476bfa53369fbf646
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33409570"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>Célula ExtraInfo (Seção Hyperlinks)
 
-Representa uma sequência de caracteres que passa as informações que serão utilizadas para resolver um URL, como as coordenadas de um mapa de imagens. Por exemplo, na célula ExtraInfo, "x = 41&amp;y = 7" especifica as coordenadas de um mapa de imagem.
+Representa uma sequência de caracteres que passa as informações que serão utilizadas para resolver um URL, como as coordenadas de um mapa de imagens. Por exemplo, na célula ExtraInfo, "x=41 &amp; y=7" especifica as coordenadas de um mapa de imagem.
   
 ## <a name="remarks"></a>Comentários
 
@@ -28,7 +28,7 @@ Para fazer referência à célula ExtraInfo pelo nome a partir de outra fórmula
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *nome* . ExtraInfo onde hiperlink.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *nome*  . ExtraInfo onde Hyperlink.  *nome*  é o nome da linha  <br/> |
    
 Para fazer referência à célula ExtraInfo pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

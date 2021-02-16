@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- função func1 [Excel 2007]
+- função func1 [excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33408912"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemplo de função de planilha definida pelo usuário demonstra o retorno de um valor de cadeia de caracteres estática. Quando GENERIC. XLL é carregado, ele registra essa função para que ela possa ser chamada da planilha.
+A função de planilha definida pelo usuário de exemplo demonstra o retorno de um valor estático de cadeia de caracteres. Quando GENERIC.xll é carregado, ele registra essa função para que possa ser chamada a partir da planilha.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,17 +30,17 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>Parâmetros
 
- _PX_ (**LPXLOPER**)
+ _px_ (**LPXLOPER**)
   
 Esse argumento é ignorado e serve apenas para disparar o Microsoft Excel para chamar a função.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
- **LPXLOPER12**: sempre a cadeia de caracteres "func1"
+ **LPXLOPER12**: Sempre a cadeia de caracteres "Func1"
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

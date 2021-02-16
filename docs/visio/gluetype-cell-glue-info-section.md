@@ -23,8 +23,8 @@ Determina se uma forma 1D utilizará a cola estática (ponto a ponto) ou dinâmi
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 | &amp;H0  <br/> | Padrão. Permitir cola dinâmica somente para o conector dinâmico; caso contrário, utilizar cola estática.  <br/> |**visGlueTypeDefault** <br/> |
-| &amp;Semestre  <br/> | Permitir cola dinâmica.  <br/> | Obsoleta no Visio 2002  <br/> |
-| &amp;S2  <br/> | Permitir cola dinâmica.  <br/> |**visGlueTypeWalking** <br/> |
+| &amp;H1  <br/> | Permitir cola dinâmica.  <br/> | Obsoleta no Visio 2002  <br/> |
+| &amp;H2  <br/> | Permitir cola dinâmica.  <br/> |**visGlueTypeWalking** <br/> |
 | &amp;H4  <br/> | Não permitir cola dinâmica.  <br/> |**visGlueTypeNoWalking** <br/> |
 | &amp;H8  <br/> | Não permitir que esta forma 2D seja conectada com cola dinâmica.  <br/> |**visGlueTypeNoWalkingTo** <br/> |
    

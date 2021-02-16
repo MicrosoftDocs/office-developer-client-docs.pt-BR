@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- função fdance [Excel 2007]
+- função fdance [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33409045"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemplo de comando definido pelo usuário que altera as células selecionadas na planilha ativa até o usuário pressionar **ESC**. Quando GENERIC. XLL é carregado, ele cria um menu definido pelo usuário, genérico, através do qual este comando é acessado.
+Exemplo de comando definido pelo usuário que altera as células selecionadas na planilha ativa até que o usuário pressione **ESC**. Quando GENERIC.xll é carregado, ele cria um menu definido pelo usuário, Genérico, por meio do qual esse comando é acessado.
   
 ```cs
 int WINAPI fDance(void);
@@ -30,7 +30,7 @@ int WINAPI fDance(void);
 
 ## <a name="parameters"></a>Parâmetros
 
-A função não utiliza parâmetros.
+A função não aceita parâmetros.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
@@ -38,11 +38,11 @@ A função sempre retorna 1.
   
 ## <a name="remarks"></a>Comentários
 
-Este é um exemplo de operação extensa. Ele chama a função [xlAbort](xlabort.md) ocasionalmente. Isso gera o processador (ajuda com multitarefa cooperativa) e verifica se o usuário pressionou **ESC** para cancelar a operação. Em caso afirmativo, ele oferece ao usuário a oportunidade de cancelar a anulação. 
+Este é um exemplo de uma operação demorada. Ele chama a função [xlAbort ocasionalmente.](xlabort.md) Isso gera o processador (ajudando com multitarefa cooperativo) e verifica se o usuário pressionou **o ESC** para cancelar a operação. Se sim, oferece ao usuário a chance de cancelar a anulação. 
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

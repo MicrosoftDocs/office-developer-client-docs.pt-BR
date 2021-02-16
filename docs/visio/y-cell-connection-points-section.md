@@ -18,7 +18,7 @@ ms.locfileid: "33410844"
 ---
 # <a name="y-cell-connection-points-section"></a>Célula Y (Seção Connection Points)
 
-Representa a coordenada *y* de um ponto de conexão em coordenadas locais. 
+Representa a  *coordenada y*  de um ponto de conexão em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,14 +26,14 @@ Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Connections. ** Y onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Connections.Y  *i*            onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionConnectionPts** <br/> |
-| Índice de linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowConnectionPts**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visY** <br/> |
    
 

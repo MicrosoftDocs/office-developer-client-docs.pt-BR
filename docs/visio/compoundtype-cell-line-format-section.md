@@ -21,10 +21,10 @@ Determina o tipo composto da linha de uma forma.
 |**Valor**|**Descrição**|
 |:-----|:-----|
 |0  <br/> |Simples  <br/> |
-|1  <br/> |Duplo  <br/> |
-|2  <br/> |Espesso fino  <br/> |
-|3  <br/> |Fino espesso  <br/> |
-|4  <br/> |Tripla  <br/> |
+|1   <br/> |Duplo  <br/> |
+|2   <br/> |Espesso fino  <br/> |
+|3   <br/> |Fino espesso  <br/> |
+|4   <br/> |Tripla  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410676"
 ---
-# <a name="mviprop"></a>MVI_PROP
+# <a name="mvi_prop"></a>MVI_PROP
 
   
   
@@ -29,7 +29,7 @@ Define o MVI_FLAG para uma propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -38,17 +38,17 @@ MVI_PROP (tag)
 
 ## <a name="parameters"></a>Parâmetros
 
- _identificador_
+ _tag_
   
 > A marca de propriedade a ser modificada.
     
 ## <a name="remarks"></a>Comentários
 
-O MVI_FLAG combina a configuração de MV_FLAG, identificando uma propriedade como de múltiplos valores e MV_INSTANCE, solicitando que uma propriedade de vários valores seja exibida em uma tabela em várias linhas. O tipo de propriedade da propriedade afetada é modificada, mas o identificador permanece inalterado. 
+O MVI_FLAG combina a configuração de MV_FLAG, identificando uma propriedade como de vários valores e MV_INSTANCE, solicitando que uma propriedade de vários valores seja exibida em uma tabela em várias linhas. O tipo de propriedade da propriedade afetada é modificado, mas o identificador permanece inalterado. 
   
-Por exemplo, quando a macro MVI_PROP é aplicada a uma propriedade do tipo PT_FLOAT, seu tipo é alterado para PT_MV_FLOAT. Quando incluída em uma tabela, várias linhas são usadas para representar a propriedade que tem uma linha para cada valor. As propriedades das outras colunas são repetidas. 
+Por exemplo, quando a MVI_PROP macro é aplicada a uma propriedade do tipo PT_FLOAT, seu tipo é alterado para PT_MV_FLOAT. Quando incluídas em uma tabela, várias linhas são usadas para representar a propriedade que tem uma linha para cada valor. As propriedades das outras colunas são repetidas. 
   
-Para obter mais informações sobre esses sinalizadores, consulte [MAPI Property Type Overview](mapi-property-type-overview.md) e [Working with multivalued Columns](working-with-multivalued-columns.md).
+Para obter mais informações sobre esses sinalizadores, consulte Visão geral do tipo de propriedade [MAPI](mapi-property-type-overview.md) e [como trabalhar com colunas de múltiplos valores.](working-with-multivalued-columns.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "32357887"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a versão do formato Rich Text (RTF) do texto da mensagem, geralmente em formato compactado. 
+Contém a versão RTF (Rich Text Format) do texto da mensagem, geralmente em formato compactado. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém a versão do formato Rich Text (RTF) do texto da mensagem, geralmente em
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém o mesmo texto de mensagem que a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), mas em RTF. 
+Essa propriedade contém o mesmo texto da mensagem **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), mas em RTF. 
   
-Normalmente, o texto da mensagem em RTF é armazenado em formato compactado. No enTanto, alguns sistemas não compactam o texto formatado. Para acomodá-los, o MAPI fornece o valor dwMagicUncompressedRTF para um cabeçalho de fluxo para identificar o RTF descompactado e o sinalizador **STORE_UNCOMPRESSED_RTF** no **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para a mensagem Store para indicar que pode armazenar RTF não compactado. 
+O texto da mensagem em RTF normalmente é armazenado em formato compactado. No entanto, alguns sistemas não compactam texto formatado. Para acomodá-los, o MAPI fornece o valor dwMagicUncompressedRTF para um header de fluxo identificar RTF não compactado e o sinalizador **STORE_UNCOMPRESSED_RTF** em **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para o repositório de mensagens indicar que ele pode armazenar RTF não compactado. 
   
-Para obter o conteúdo dessa propriedade, chame **OpenProperty**e, em seguida, chame [WrapCompressedRTFStream](wrapcompressedrtfstream.md) com o sinalizador **MAPI_READ** . Para gravar nessa propriedade, abra-a com os sinalizadores **MAPI_MODIFY** e **MAPI_CREATE** . Isso garante que os novos dados substituam completamente quaisquer dados antigos e que as gravações sejam realizadas usando o número mínimo de atualizações de armazenamento. 
+Para obter o conteúdo dessa propriedade, chame **OpenProperty** e, em seguida, chame [WrapCompressedRTFStream](wrapcompressedrtfstream.md) com o **sinalizador MAPI_READ** usuário. Para gravar nessa propriedade, abra-a com os **sinalizadores MAPI_MODIFY** e **MAPI_CREATE** texto. Isso garante que os novos dados substituam completamente todos os dados antigos e que as gravações sejam executadas usando o número mínimo de atualizações do armazenamento. 
   
-Os repositórios de mensagens que oferecem suporte a RTF ignoram qualquer alteração no espaço em branco no texto da mensagem. Quando o **PR_BODY** é armazenado pela primeira vez, o repositório de mensagens também gera e armazena essa propriedade. Se o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) for subsequentemente chamado e **PR_BODY** tiver sido modificado, o repositório de mensagens chamará a função [RTFSync](rtfsync.md) para garantir a sincronização com a versão RTF. Se apenas o espaço em branco tiver sido alterado, as propriedades permanecerão inalteradas. Isso preserva qualquer formatação RTF não trivial quando a mensagem viaja por clientes e sistemas de mensagens que não reconhecem RTF. 
+Os armazenamentos de mensagens que suportam RTF ignoram qualquer alteração no espaço em branco no texto da mensagem. Quando **PR_BODY** é armazenado pela primeira vez, o armazenamento de mensagens também gera e armazena essa propriedade. Se o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) for chamado posteriormente e PR_BODY tiver sido modificado, o armazenamento de mensagens chamará a função [RTFSync](rtfsync.md) para garantir a sincronização com **a** versão RTF. Se apenas o espaço em branco tiver sido alterado, as propriedades permanecerão inalteradas. Isso preserva qualquer formatação RTF nãotrivial quando a mensagem passa por clientes não cientes de RTF e sistemas de mensagens. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXRTFCP]](https://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
   
@@ -64,13 +64,13 @@ Os repositórios de mensagens que oferecem suporte a RTF ignoram qualquer altera
   
 > Encapsula formatos de conteúdo adicionais (como HTML) dentro da propriedade de corpo RTF de mensagens e anexos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -82,7 +82,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -20,10 +20,10 @@ ms.locfileid: "33406224"
 
 Determina a direção dos caracteres em um bloco de texto.
   
-|**Valor**|**Direction**|**Constante de automação**|
+|**Valor**|**Direção**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
-| 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
+| 0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
+| 1   <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

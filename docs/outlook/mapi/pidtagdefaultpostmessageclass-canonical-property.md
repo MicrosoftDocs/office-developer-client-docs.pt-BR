@@ -25,7 +25,7 @@ ms.locfileid: "32357901"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de uma classe de mensagem de formulário personalizada.
+Contém o nome de uma classe de mensagem de formulário personalizado.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém o nome de uma classe de mensagem de formulário personalizada.
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for definida em uma pasta, o valor deverá conter exatamente a classe de mensagem base (por exemplo, "IPM. Contact "para uma pasta de contatos ou" IPM. Compromisso "para uma pasta de calendário) ou comece com a classe de mensagem base (por exemplo," IPM. Contact. myContact ").
+Se essa propriedade for definida em uma pasta, o valor deverá conter exatamente a classe de mensagem base (por exemplo, "IPM. Contato" para uma pasta de contatos ou "IPM. Compromisso" para uma pasta de calendário) ou comece com a classe de mensagem base (por exemplo, "IPM. Contact.MyContact").
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

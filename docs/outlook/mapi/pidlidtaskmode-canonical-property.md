@@ -33,7 +33,7 @@ Especifica o status da atribuição da tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x00008518  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -41,28 +41,28 @@ O valor deve ser um dos seguintes.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |A tarefa não foi atribuída.  <br/> |
-|0x00000001  <br/> |A tarefa é incorporada a uma solicitação de tarefa.  <br/> |
+|0x00000000  <br/> |A tarefa não é atribuída.  <br/> |
+|0x00000001  <br/> |A tarefa é incorporada em uma solicitação de tarefa.  <br/> |
 |0x00000002  <br/> |A tarefa foi aceita pelo destinatário da tarefa.  <br/> |
 |0x00000003  <br/> |A tarefa foi rejeitada pelo destinatário da tarefa.  <br/> |
-|0x00000004  <br/> |A tarefa é incorporada a uma atualização de tarefa.  <br/> |
-|0x00000005  <br/> |A tarefa foi atribuída ao destinatário da tarefa.  <br/> |
+|0x00000004  <br/> |A tarefa é incorporada em uma atualização de tarefa.  <br/> |
+|0x00000005  <br/> |A tarefa foi atribuída ao designador da tarefa.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

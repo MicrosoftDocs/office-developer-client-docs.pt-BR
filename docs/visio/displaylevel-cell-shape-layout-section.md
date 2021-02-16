@@ -28,7 +28,7 @@ O nível de exibição divide as formas em agrupamentos (também conhecidos como
   
 O intervalo de níveis de exibição varia de -32.767 a +32.767. Formas com o mesmo nível de exibição são combinadas em uma única faixa, dentro da qual também são classificadas em relação umas às outras pela ordem Z.
   
-Você pode alterar a ordem Z das formas em uma banda usando os comandos **Avançar**, **Enviar para trás**, **trazer para frente**e **Enviar para trás**. Se esses comandos moverem uma forma para fora da faixa determinada, o Microsoft Visio exibirá o valor reservado -32.768 na célula DisplayLevel da forma, a menos que a célula esteja protegida. Nesse caso, a forma não poderá ser movida para outra faixa e o Visio exibirá o aviso "A proteção da forma e/ou as propriedades da camada impedem a execução completa deste comando". 
+Você pode alterar a ordem Z das formas dentro de uma banda usando os comandos **Bring Forward**, **Send Backward**, Bring to **Front** e Send **to Back**. Se esses comandos moverem uma forma para fora da faixa determinada, o Microsoft Visio exibirá o valor reservado -32.768 na célula DisplayLevel da forma, a menos que a célula esteja protegida. Nesse caso, a forma não poderá ser movida para outra faixa e o Visio exibirá o aviso "A proteção da forma e/ou as propriedades da camada impedem a execução completa deste comando". 
   
 Para obter uma referência à célula DisplayLevel pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

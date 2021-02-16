@@ -25,7 +25,7 @@ ms.locfileid: "33405454"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adiciona um novo destinatário diretamente a um contêiner de catálogo de endereços ou à lista de destinatários de uma mensagem de saída.
+Adiciona um novo destinatário diretamente a um contêiner de livro de endereços ou à lista de destinatários de uma mensagem de saída.
   
 ```cpp
 HRESULT NewEntry(
@@ -44,35 +44,35 @@ HRESULT NewEntry(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo.
+> [in] Um alça para a janela pai da caixa de diálogo.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _cbEIDContainer_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEIDContainer_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEIDContainer._ 
     
  _lpEIDContainer_
   
-> no Um ponteiro para o identificador de entrada do contêiner para receber a nova entrada. Se _cbEIDContainer_ for 0 e _lpEIDContainer_ for nulo, **NewEntry** criará um identificador de entrada one-off que é o mesmo tipo que é gerado por uma chamada para o método [IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md) . 
+> [in] Um ponteiro para o identificador de entrada do contêiner para receber a nova entrada. Se _cbEIDContainer_ for 0 e _lpEIDContainer_ for NULL, **NewEntry** criará um identificador de entrada único que é do mesmo tipo gerado por uma chamada para o método [IMAPISupport::CreateOneOff.](imapisupport-createoneoff.md) 
     
  _cbEIDNewEntryTpl_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEIDNewEntryTpl_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEIDNewEntryTpl._ 
     
  _lpEIDNewEntryTpl_
   
-> no Um ponteiro para o identificador de entrada do modelo a ser usado para criar a nova entrada. Se _cbEIDNewEntryTpl_ for 0 e _lpEIDNewEntryTpl_ for nulo, **NewEntry** exibirá uma caixa de diálogo que permite ao usuário selecionar de uma lista de modelos para adicionar novas entradas. 
+> [in] Um ponteiro para o identificador de entrada do modelo a ser usado para criar a nova entrada. Se  _cbEIDNewEntryTpl_ for 0 e  _lpEIDNewEntryTpl_ for NULL, **NewEntry** exibirá uma caixa de diálogo que permite ao usuário selecionar em uma lista de modelos para adicionar novas entradas. 
     
  _lpcbEIDNewEntry_
   
-> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEIDNewEntry_ . 
+> [out] Um ponteiro para a contagem de byte no identificador de entrada apontado pelo _parâmetro lppEIDNewEntry._ 
     
  _lppEIDNewEntry_
   
-> bota Um ponteiro para um ponteiro para o identificador de entrada da entrada recém-criada.
+> [out] Um ponteiro para um ponteiro para o identificador de entrada da entrada recém-criada.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -82,27 +82,27 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: NewEntry** é implementado para objetos de suporte do provedor de catálogo de endereços. Os provedores de catálogo de endereços chamam o **NewEntry** para criar uma nova entrada de catálogo de endereços a ser adicionada diretamente a um contêiner ou para ser usada para endereçar uma mensagem de saída. 
+O **método IMAPISupport::NewEntry** é implementado para objetos de suporte do provedor de agendas de endereços. Os provedores de agendamento chamam **NewEntry** para criar uma nova entrada de livro de endereços a ser adicionada diretamente a um contêiner ou a ser usada para lidar com uma mensagem de saída. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se você deseja que a nova entrada seja adicionada a um contêiner específico, defina _lpEIDContainer_ para o identificador de entrada do contêiner e _cbEIDContainer_ para a contagem de bytes no identificador de entrada. 
+Se você quiser que a nova entrada seja adicionada a um contêiner específico, de definida  _lpEIDContainer_ como o identificador de entrada do contêiner e  _cbEIDContainer_ para a contagem de byte no identificador de entrada. 
   
-Se quiser que a nova entrada seja adicionada à lista de destinatários de uma mensagem de saída, defina _lpEIDContainer_ como nulo e _cbEIDContainer_ como 0. 
+Se você quiser que a nova entrada seja adicionada à lista de destinatários de uma mensagem de saída, de definida  _lpEIDContainer_ como NULL e  _cbEIDContainer_ como 0. 
   
-Se você deseja permitir que o usuário de um aplicativo cliente selecione o tipo de entrada a ser criada, passe 0 em _cbEIDNewEntryTpl_ e nulo no _lpEIDNewEntryTpl_. O **NewEntry** exibe a tabela de one-off MAPI, uma lista de modelos que o MAPI e cada um dos provedores de catálogo de endereços na sessão dão suporte. Cada modelo pode criar uma entrada de destinatário para um ou mais tipos de endereço. 
+Se você quiser permitir que o usuário de um aplicativo cliente selecione o tipo de entrada a ser criada, passe 0 em  _cbEIDNewEntryTpl_ e NULL em  _lpEIDNewEntryTpl_. **NewEntry** exibe a tabela única MAPI, uma lista de modelos que MAPI e cada um dos provedores de livro de endereços no suporte de sessão. Cada modelo pode criar uma entrada de destinatário para um ou mais tipos de endereço. 
   
-Se você quiser manter o identificador de entrada da nova entrada, passe os ponteiros válidos nos parâmetros _lpcbEIDNewEntry_ e _lppEIDNewEntry_ . Você é responsável por liberar esse identificador de entrada quando terminar de fazê-lo chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Se você quiser manter o identificador de entrada da nova entrada, passe ponteiros válidos nos parâmetros _lpcbEIDNewEntry_ e _lppEIDNewEntry._ Você é responsável por liberar esse identificador de entrada quando terminar de chamá-lo chamando a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
 Para usar um modelo específico para adicionar uma nova entrada a um contêiner modificável, use o procedimento a seguir:
   
-1. Chame o método [IMAPISupport:: OpenEntry](imapisupport-openentry.md) para abrir o contêiner de destino e defina o parâmetro _lpEntryID_ para o identificador de entrada do contêiner. 
+1. Chame o [método IMAPISupport::OpenEntry](imapisupport-openentry.md) para abrir o contêiner de destino e de definir o parâmetro  _lpEntryID_ como o identificador de entrada do contêiner. 
     
-2. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do contêiner de destino e defina o _parâmetro ulPropTag_ como **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) e o parâmetro _lpiid_ para IID_IMAPITable. O contêiner retornará uma tabela única que lista todos os modelos compatíveis com a criação de novas entradas. 
+2. Chame o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do contêiner de destino e de definir o parâmetro  _ulPropTag_ como **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) e o parâmetro  _lpiid_ como IID_IMAPITable. O contêiner retornará uma tabela única que lista todos os modelos compatíveis com a criação de novas entradas. 
     
-3. Recupere a linha que representa o modelo para o tipo específico de entrada que você deseja criar. A coluna **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indica o tipo de endereço que tem suporte no modelo. 
+3. Recupere a linha que representa o modelo para o tipo específico de entrada que você deseja criar. A **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indica o tipo de endereço suportado pelo modelo. 
     
-4. Chame **IMAPISupport:: NewEntry** e defina o parâmetro _lpEIDNewEntryTpl_ para o identificador de entrada do modelo selecionado. O identificador de entrada é a coluna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) da linha do modelo na tabela one-off. Passe 0 em _cbEIDContainer_ e nulo no _lpEIDContainer_. Passe um ponteiro válido no parâmetro _lppEIDNewEntry_ se você quiser manter o identificador de entrada da nova entrada. 
+4. Chame **IMAPISupport::NewEntry** e de definida o  _parâmetro lpEIDNewEntryTpl_ para o identificador de entrada do modelo selecionado. O identificador de entrada **PR_ENTRYID** coluna ([PidTagEntryId](pidtagentryid-canonical-property.md)) da linha do modelo na tabela one-off. Passe 0 em  _cbEIDContainer_ e NULL em  _lpEIDContainer_. Passe um ponteiro válido no parâmetro  _lppEIDNewEntry_ se quiser manter o identificador de entrada da nova entrada. 
     
 ## <a name="see-also"></a>Confira também
 

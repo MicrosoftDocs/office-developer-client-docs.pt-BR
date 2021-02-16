@@ -1,5 +1,5 @@
 ---
-title: Função DESVPAD (aplicativo Web personalizado do Access)
+title: Função StDev (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410186"
 ---
-# <a name="stdev-function-access-custom-web-app"></a>Função DESVPAD (aplicativo Web personalizado do Access)
+# <a name="stdev-function-access-custom-web-app"></a>Função StDev (aplicativo Web personalizado do Access)
 
 Retorna o desvio padrão estatístico de todos os valores na expressão especificada.
   
@@ -23,12 +23,12 @@ Retorna o desvio padrão estatístico de todos os valores na expressão especifi
   
 ## <a name="syntax"></a>Sintaxe
 
- **DESVPAD** (*Numericé*) 
+ **StDev** (*NumericExpression*) 
   
-A função **DESVPAD** contém o argumento a seguir. 
+A **função StDev** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |Uma expressão numérica  <br/> |
+| *NumericExpression*  <br/> |Uma expressão numérica  <br/> |
    
 

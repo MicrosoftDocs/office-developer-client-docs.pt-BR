@@ -29,7 +29,7 @@ Uma cadeia de caracteres que contém o nome da rede social.
   
 ## <a name="remarks"></a>Comentários
 
-Os provedores do Outlook Social Connector (OSC) devem localizar o nome da rede social.
+Os provedores do Outlook Social Connector (OSC) devem localizador o nome da rede social.
   
 ## <a name="see-also"></a>Confira também
 

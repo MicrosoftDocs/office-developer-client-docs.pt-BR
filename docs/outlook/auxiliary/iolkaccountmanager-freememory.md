@@ -16,7 +16,7 @@ ms.locfileid: "33408485"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 
-Libera memória alocada pela interface [IOlkAccountManager](iolkaccountmanager.md) . 
+Libera memória alocada pela interface [IOlkAccountManager.](iolkaccountmanager.md) 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -30,9 +30,9 @@ HRESULT IOlkAccountManager::FreeMemory (
 
 ## <a name="parameters"></a>Parâmetros
 
-_PV_
+_pv_
   
-> no Um ponteiro para a memória a ser liberado.
+> [in] Um ponteiro para a memória a ser livre.
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -40,7 +40,7 @@ S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Use este método para liberar a memória alocada por [IOlkAccountManager:: GetOrder](iolkaccountmanager-getorder.md).
+Use este método para liberar memória alocada por [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
   
 ## <a name="see-also"></a>Confira também
 

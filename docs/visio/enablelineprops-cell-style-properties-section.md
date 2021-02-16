@@ -31,7 +31,7 @@ Para obter uma referência para a célula EnableFillProps pelo nome, a partir de
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |EnableFillProps  <br/> |
+|Nome da célula:  <br/> |EnableLineProps  <br/> |
    
 Para obter uma referência para a célula EnableFillProps pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
@@ -39,6 +39,6 @@ Para obter uma referência para a célula EnableFillProps pelo índice a partir 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowStyle** <br/> |
-|Índice da célula:  <br/> |**visStyleIncludesLine** <br/> |
+|Índice de célula:  <br/> |**visStyleIncludesLine** <br/> |
    
 

@@ -24,20 +24,20 @@ Especifica o tamanho de um marcador.
 
 Esse valor pode ser especificado para marcadores predefinidos ou personalizados, como um valor percentual ou específico. 
   
-Se o valor for zero (0), o marcador terá o mesmo tamanho de fonte do primeiro caractere do parágrafo. Se o valor for percentual, o tamanho do marcador será um percentual do tamanho da fonte do primeiro caractere do parágrafo. Números negativos são tratados como percentuais.
+Se o valor for zero (0), o marcador será do mesmo tamanho de fonte do primeiro caractere do parágrafo. Se o valor for percentual, o tamanho do marcador será um percentual do tamanho da fonte do primeiro caractere do parágrafo. Números negativos são tratados como percentuais.
   
 Para fazer referência à célula BulletSize pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para. BulletFontSize [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para.BulletFontSize[  *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula BulletSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-| Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowParagraph**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visBulletFontSize** <br/> |
    
 

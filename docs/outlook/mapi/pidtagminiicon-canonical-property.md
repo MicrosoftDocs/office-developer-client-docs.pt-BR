@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagMiniIcon
+title: Propriedade canônica PidTagMiniicon
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405412"
 ---
-# <a name="pidtagminiicon-canonical-property"></a>Propriedade canônica PidTagMiniIcon
+# <a name="pidtagminiicon-canonical-property"></a>Propriedade canônica PidTagMiniicon
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um bitmap de um ícone de meio tamanho de um formulário.
+Contém um bitmap de um ícone de tamanho médio para um formulário.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém um bitmap de um ícone de meio tamanho de um formulário.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade contém uma imagem de pixel 32 × 32 de um ícone, o mesmo que o conteúdo de um. ICO, mas somente os 16 × 16 pixels superiores são considerados significativos. Essa propriedade normalmente é copiada do. ICO especificado na linha SmallIcon da seção [Description] apropriada do arquivo de configuração de formulário.
+Essa propriedade contém uma imagem de 32 × 32 pixels de um ícone, o mesmo que o conteúdo de um . Arquivo ICO, mas apenas a parte superior esquerda 16 × 16 pixels são consideradas significativas. Essa propriedade normalmente é copiada do . Arquivo ICO especificado na linha SmallIcon da seção [Descrição] apropriada do arquivo de configuração do formulário.
   
- **Observação** Algumas plataformas não dão suporte a ícones com 16 × 16 pixels. O formato 32 × 32 dessa propriedade pode ser usado nesse caso, mas os aplicativos cliente devem estar cientes das inconsistências de exibição. 
+ **Observação** Algumas plataformas não suportam ícones de 16 × de 16 pixels. O formato 32 × 32 dessa propriedade pode ser usada nesse caso, mas os aplicativos cliente devem estar cientes das inconsistências de exibição. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33410473"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de serviço de mensagens, uma lista dos serviços de mensagens no perfil.
+Fornece acesso à tabela de serviço de mensagens, uma lista dos serviços de mensagem no perfil.
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -38,11 +38,11 @@ HRESULT GetMsgServiceTable(
 
  _ulFlags_
   
-> no Sempre nulo.
+> [in] Sempre NULO.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela de serviço de mensagens.
+> [out] Um ponteiro para um ponteiro para a tabela de serviço de mensagens.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin:: GetMsgServiceTable** fornece acesso à tabela de serviço de mensagens, uma tabela que o MAPI mantém que lista os serviços de mensagens atualmente instalados no perfil da sessão. Para obter uma lista completa das colunas na tabela do serviço de mensagens, consulte [Message Service Table](message-service-tables.md).
+O método **IMsgServiceAdmin::GetMsgServiceTable** fornece acesso à tabela de serviço de mensagens, uma tabela que o MAPI mantém que lista os serviços de mensagem atualmente instalados no perfil de sessão. Para uma lista completa de colunas na tabela de serviço de mensagens, consulte [Message Service Table](message-service-tables.md).
   
-A tabela de serviço de mensagens é estática. Depois que um cliente recebeu acesso a ele, as adições ou exclusões do serviço de mensagens subsequentes não o afetarão. Se não houver nenhum serviço de mensagens no perfil atual, **GetMsgServiceTable** retornará uma tabela com zero linhas. 
+A tabela de serviço de mensagens é estática. Depois que um cliente recebe acesso a ele, adições ou exclusões subsequentes do serviço de mensagens não o afetará. Se não houver serviços de mensagem no perfil atual, **GetMsgServiceTable** retornará uma tabela com zero linhas. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -62,7 +62,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnRefreshView  <br/> |MFCMAPI usa o método **IMsgServiceAdmin:: GetMsgServiceTable** para carregar o índice de serviços em um perfil para renderizar no modo de exibição.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::GetMsgServiceTable** para carregar a tabela de serviços em um perfil para renderizar no modo de exibição.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

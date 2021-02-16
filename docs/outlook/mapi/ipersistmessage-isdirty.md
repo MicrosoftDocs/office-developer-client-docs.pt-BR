@@ -25,7 +25,7 @@ ms.locfileid: "33407568"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Verifica se há alterações feitas desde o último salvamento no formulário.
+Verifica o formulário em busca de alterações feitas desde o último salvar.
   
 ```cpp
 HRESULT IsDirty( void );
@@ -39,7 +39,7 @@ Nenhum
 
 S_OK 
   
-> O formulário tem alterações feitas desde que foi salvo pela última vez.
+> O formulário tem alterações que foram feitas desde que foi salvo pela última vez.
     
 S_FALSE 
   
@@ -47,7 +47,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IPersistMessage:: IsDirty** para determinar se a mensagem tem dados não salvos. 
+Os visualizadores de formulário chamam o método **IPersistMessage::IsDirty** para determinar se a mensagem tem dados não-sobresaldos. 
   
 ## <a name="see-also"></a>Confira também
 

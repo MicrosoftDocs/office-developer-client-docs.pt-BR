@@ -22,7 +22,7 @@ Retorna um número elevado à potência de um expoente.
   
 ## <a name="syntax"></a>Sintaxe
 
-POW (* * *número* * *, * * *expoente* * *) 
+POW(** *número* **, ** *expoente* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -33,11 +33,11 @@ POW (* * *número* * *, * * *expoente* * *)
    
 ## <a name="remarks"></a>Comentários
 
-Tanto o _número_ quanto o _expoente_ podem ser não inteiros e podem ser negativos. Se _núm_ não for 0 e _expoente_ for 0, essa função retornará 1. Se _núm_ for 0 e _expoente_ for negativo, essa função retornará 0,0. Se _núm_ e _expoente_ forem 0, ou se _núm_ for negativo e _expoente_ não for um inteiro, essa função retornará 0,0. Se tanto _núm_ quanto _expoente_ forem negativos, essa função retornará-1. #IND. 
+O  _número_ e  _o expoente_ podem ser não inteiros e podem ser negativos. Se  _núm_ não for 0 e  _o expoente_ for 0, essa função retornará 1. Se  _núm_ for 0 e  _o expoente_ for negativo, essa função retornará 0,0. Se o  _número_ e o  _expoente_ são 0 ou se  _núm_ for negativo e o  _expoente_ não for um inteiro, essa função retornará 0,0. Se o  _número_ e  _o expoente são_ negativos, essa função retornará -1,#IND. 
   
 ## <a name="example"></a>Exemplo
 
-POW (5, 2) 
+POW(5,2) 
   
 Retornará 25. 
   

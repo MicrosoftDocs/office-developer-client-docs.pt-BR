@@ -21,20 +21,20 @@ ms.locfileid: "33408338"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta referência da API de mensagens do Microsoft Outlook (MAPI) é escrita para desenvolvedores C e C++ com uma variedade de necessidades e experiência com mensagens. Para os desenvolvedores que desejam usar o MAPI para ampliar seus aplicativos que têm recursos de mensagens, nenhum conhecimento específico de pré-requisito é necessário. Você precisa de um plano de fundo no sistema de mensagens e do COM (Component Object Model) para usar o MAPI para criar aplicativos ou drivers de grupo de trabalho de escala total para serviços especializados do sistema de mensagens.
+Esta Referência da API de Mensagens do Microsoft Outlook (MAPI) foi escrita para desenvolvedores C e C++ com uma variedade de necessidades e experiência com mensagens. Para os desenvolvedores que querem usar MAPI para aumentar seus aplicativos que têm recursos de mensagens, nenhum conhecimento de pré-requisito específico é necessário. Você precisa de um plano de fundo nas mensagens e no COM (Component Object Model) para usar o MAPI para criar aplicativos ou drivers de grupo de trabalho em escala completa para serviços especializados do sistema de mensagens.
   
-Antes de iniciar o trabalho de desenvolvimento, considere as seguintes informações sobre como usar o MAPI, o processo de logon e como os perfis e os serviços de mensagens são criados e configurados.
+Antes de iniciar o trabalho de desenvolvimento, você deve considerar as seguintes informações sobre como usar o MAPI, o processo de logon e como perfis e serviços de mensagens são criados e configurados.
   
-O MAPI (Messaging Application Program interface) é um conjunto abrangente de funções que os desenvolvedores podem usar para criar aplicativos habilitados para email. A biblioteca de funções completa é conhecida como MAPI. O MAPI permite o controle completo sobre o sistema de mensagens no computador cliente, a criação e o gerenciamento de mensagens, o gerenciamento da caixa de correio do cliente, dos provedores de serviços e assim por diante.
+O MAPI (Messaging Application Program Interface) é um amplo conjunto de funções que os desenvolvedores podem usar para criar aplicativos habilitados para email. A biblioteca de funções completa é conhecida como MAPI. MAPI enables complete control over the messaging system on the client computer, creation and management of messages, management of the client mailbox, service providers, and so on.
   
 > [!NOTE]
 > MAPI estendido é o mesmo que MAPI e é simplesmente chamado de MAPI na documentação MAPI. 
   
  **Simple MAPI**
   
-O Simple MAPI fornece um conjunto de funções que permite adicionar um nível básico de funcionalidade de mensagens a aplicativos baseados no Microsoft Windows.
+Simple MAPI provides a set of functions that enables you to add a basic level of messaging functionality to Microsoft Windows-based applications.
   
 > [!IMPORTANT]
-> A função Simple MAPI MAPISendMail é suportada pelo Microsoft Outlook 2013 e pelo Microsoft Outlook 2010. Outras funções do Simple MAPI foram preteridas no Windows. 
+> A função MAPISendMail simples é suportada pelo Microsoft Outlook 2013 e Microsoft Outlook 2010. Outras funções MAPI simples foram preteridas no Windows. 
   
 

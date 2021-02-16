@@ -25,7 +25,7 @@ ms.locfileid: "33405111"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um ícone com base em uma das propriedades de ícone de um formulário.
+Cria um ícone a partir de uma das propriedades de ícone de um formulário.
   
 ```cpp
 HRESULT MakeIconFromBinary(
@@ -38,21 +38,21 @@ HRESULT MakeIconFromBinary(
 
  _nPropID_
   
-> no Um identificador de propriedade para uma Propriedade Icon.
+> [in] Um identificador de propriedade para uma propriedade de ícone.
     
  _phicon_
   
-> bota Um ponteiro para o ícone retornado.
+> [out] Um ponteiro para o ícone retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos cliente chamam o método **IMAPIFormInfo:: MakeIconFromBinary** para criar um ícone de uma das propriedades de ícone de um formulário. No parâmetro _nPropID_ , **MakeIconFromBinary** Obtém o identificador de propriedade de uma das propriedades de ícone de um formulário. Usando esse identificador de propriedade, ele cria um ícone que pode ser exibido em modos de exibição de tabela que incluem colunas de propriedade para ícones. 
+Os aplicativos cliente chamam o método **IMAPIFormInfo::MakeIconFromBinary** para criar um ícone a partir de uma das propriedades de ícone de um formulário. No parâmetro  _nPropID,_ **MakeIconFromBinary** assume o identificador de propriedade de uma das propriedades de ícone de um formulário. Usando esse identificador de propriedade, ele cria um ícone que pode ser exibido em exibições de tabela que incluem colunas de propriedade para ícones. 
   
 ## <a name="see-also"></a>Confira também
 

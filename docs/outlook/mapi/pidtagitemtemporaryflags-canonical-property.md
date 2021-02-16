@@ -25,7 +25,7 @@ ms.locfileid: "32357698"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um sinalizador que indica que uma mensagem foi lida, mas não está marcada como lida.
+Contém um sinalizador que indica que uma mensagem foi lida, mas não marcada como lida.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém um sinalizador que indica que uma mensagem foi lida, mas não está marc
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada na pasta de pesquisa de mensagens não lidas do Outlook para controlar quais mensagens foram lidas sem realmente marcá-las como lidas, o que as removeria da pasta. Quando o modo de exibição altera essa propriedade é removido e o item é marcado como lido. Esta propriedade não será sincronizada com o Exchange Server.
+Essa propriedade é usada na pasta de pesquisa Mensagens Não Lidas do Outlook para acompanhar quais mensagens foram lidas sem realmente as marcar como lidas, o que as removeria da pasta. Quando o ponto de exibição muda, essa propriedade é removida e o item é marcado como lido. Essa propriedade não será sincronizada com o Exchange Server.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

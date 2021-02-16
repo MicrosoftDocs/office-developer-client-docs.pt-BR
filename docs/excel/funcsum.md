@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - FuncSum
 keywords:
-- função funcsum [Excel 2007]
+- função funcsum [excel 2007]
 localization_priority: Normal
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33406938"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemplo de função de planilha definida pelo usuário que leva de 1 a 29 argumentos e computa sua soma. Cada argumento pode ser um número único, um intervalo ou uma matriz. Quando GENERIC. XLL é carregado, ele registra essa função para que ela possa ser chamada da planilha. 
+Exemplo de função de planilha definida pelo usuário que pega de 1 a 29 argumentos e calcula sua soma. Cada argumento pode ser um único número, um intervalo ou uma matriz. Quando GENERIC.xll é carregado, ele registra essa função para que possa ser chamada a partir da planilha. 
   
 ```cs
 LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPER12 px4, LPXLOPER12 px5, LPXLOPER12 px6, LPXLOPER12 px7,LPXLOPER12 px8, LPXLOPER12 px9, LPXLOPER12 px10, LPXLOPER12 px11,LPXLOPER12 px12, LPXLOPER12 px13, LPXLOPER12 px14, LPXLOPER12 px15,LPXLOPER12 px16, LPXLOPER12 px17, LPXLOPER12 px18, LPXLOPER12 px19,LPXLOPER12 px20, LPXLOPER12 px21, LPXLOPER12 px22, LPXLOPER12 px23,LPXLOPER12 px24, LPXLOPER12 px25, LPXLOPER12 px26, LPXLOPER12 px27,LPXLOPER12 px28, LPXLOPER12 px29);
@@ -30,19 +30,19 @@ LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPE
 
 ## <a name="parameters"></a>Parâmetros
 
- _PX1-px29_ (**LPXLOPER12**)
+ _px1-px29_ (**LPXLOPER12**)
   
-Ponteiros para argumentos **XLOPER12** . A função aceita qualquer tipo de tipo de entrada, mas é codificada apenas para operar em números, matrizes literais de números e intervalos que contenham apenas números ou células em branco. Se forem fornecidos menos de 29 argumentos, os argumentos restantes serão fornecidos como **xltypeMissing**.
+Ponteiros para **argumentos XLOPER12.** A função aceita qualquer tipo de entrada, mas é codificada apenas para operar em números, matrizes literais de números e intervalos contendo apenas números ou células em branco. Se menos de 29 argumentos são fornecidos, os argumentos restantes são fornecidos como **xltypeMissing**.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 (**LPXLOPER12 xltypeNum** ou **xltypeErr**)
   
-A soma dos argumentos ou #VALUE! Se houver não numéricos na lista de argumentos fornecidos ou em uma célula em um intervalo ou elemento em uma matriz.
+A soma dos argumentos ou #VALUE! se houver não numéricos na lista de argumentos fornecidos ou em uma célula em um intervalo ou elemento em uma matriz.
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

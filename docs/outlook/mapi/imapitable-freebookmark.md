@@ -37,7 +37,7 @@ BOOKMARK bkPosition
 
  _bkPosition_
   
-> no O indicador a ser liberado, criado chamando o método [IMAPITable:: CreateBookmark](imapitable-createbookmark.md) . 
+> [in] O indicador a ser liberado, criado chamando o [método IMAPITable::CreateBookmark.](imapitable-createbookmark.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -51,11 +51,11 @@ MAPI_E_INVALID_BOOKMARK
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: FreeBookmark** libera um indicador que não é mais necessário. O indicador não é mais válido após esta chamada. Sempre que uma tabela é liberada da memória, todos os indicadores associados também são lançados. 
+O **método IMAPITable::FreeBookmark** libera um indicador que não é mais necessário. O indicador não é mais válido após essa chamada. Sempre que uma tabela é liberada da memória, todos os seus indicadores associados também são liberados. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se o chamador transmitir um dos três indicadores predefinidos no parâmetro _bkPosition_ , ignore a solicitação e retorne S_OK. 
+Se o chamador passar um dos três indicadores predefinidos no parâmetro  _bkPosition,_ ignore a solicitação e retorne S_OK. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -30,14 +30,14 @@ Para obter uma referência para a célula BulletString pelo nome, a partir de ou
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Para. BulletStr [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Para.BulletStr[ *i*  ] onde  *i*  = <1>, 2, 3, ...  <br/> |
    
 Para obter uma referência para a célula BulletString pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-|Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visBulletString** <br/> |
+|Índice de linha:  <br/> |**visRowParagraph**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visBulletString** <br/> |
    
 

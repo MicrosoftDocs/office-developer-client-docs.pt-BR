@@ -8,7 +8,7 @@ f1_keywords:
 - TempErr
 - TempErr12
 keywords:
-- função temperr [Excel 2007], função TempErr12 [Excel 2007]
+- função queer [excel 2007],função TempErr12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33410606"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A função da biblioteca de estrutura que cria um **XLOPER de XLOPER**/ **** temporário contendo um erro de planilha do Microsoft Excel. 
+Função de biblioteca de estrutura que cria um  /  **XLOPER XLOPER12 temporário** contendo um erro de planilha do Microsoft Excel. 
   
 ```cs
 LPXLOPER TempErr(WORD err);
@@ -36,26 +36,26 @@ LPXLOPER12 TempErr12(BOOL err);
   
 O código de erro desejado ou seu equivalente numérico literal, conforme mostrado na tabela a seguir.
   
-|**Erro**|**Código de erro definido no XLCALL. 0**|**Equivalente Decimal**|
+|**Erro**|**Código de erro definido em XLCALL. H**|**Equivalente decimal**|
 |:-----|:-----|:-----|
-|#NULL  <br/> |**xlerrNull** <br/> |,0  <br/> |
+|#NULL  <br/> |**xlerrNull** <br/> |0  <br/> |
 |#DIV/0!  <br/> |**xlerrDiv0** <br/> |7   <br/> |
 |#VALUE!  <br/> |**xlerrValue** <br/> |15   <br/> |
 |#REF!  <br/> |**xlerrRef** <br/> |23  <br/> |
-|#NAME?  <br/> |**xlerrName** <br/> |anos  <br/> |
+|#NAME?  <br/> |**xlerrName** <br/> |29  <br/> |
 |#NUM!  <br/> |**xlerrNum** <br/> |36  <br/> |
 |#N/A  <br/> |**xlerrNA** <br/> |42  <br/> |
    
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um **xltypeBool** contendo o código de erro passado. 
+Retorna um **xltypeBool** que contém o código de erro passado. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempErr12** para retornar um #VALUE! erro no Excel. 
+Este exemplo usa a **função TempErr12** para retornar um #VALUE! para o Excel. 
   
 > [!NOTE]
-> A função de biblioteca da estrutura **TempErr12** aloca memória de um buffer interno, que normalmente é liberado quando a função de estrutura **Excel12f** é chamada. Se esta função de exemplo for chamada repetidamente sem o **Excel12f** ser chamado, ocorrerá um vazamento de memória. 
+> A função de biblioteca Do Framework **TempErr12** aloca memória de um buffer interno, que normalmente é liberado quando a função **Framework Excel12f** é chamada. Se esta função de exemplo for chamada repetidamente sem que **o Excel12f** seja chamado, ocorrerá um vazamento de memória. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

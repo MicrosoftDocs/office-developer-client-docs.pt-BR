@@ -19,10 +19,10 @@ ms.locfileid: "33404544"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Chame [IMAPISession:: OpenAddressBook](imapisession-openaddressbook.md) para abrir o catálogo de endereços integrado e recuperar um ponteiro para a interface MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) . Os métodos da interface **IAddrBook** podem ser usados para acessar entradas em todos os contêineres de cada um dos provedores de catálogo de endereços no perfil. 
+Chame [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) para abrir o livro de endereços integrado e recuperar um ponteiro para a interface [IAddrBook de MAPI: IMAPIProp.](iaddrbookimapiprop.md) Os métodos da interface **IAddrBook** podem ser usados para acessar entradas em todos os contêineres de cada um dos provedores de livro de endereços no perfil. 
   
-**OpenAddressBook** pode retornar um aviso, MAPI_W_ERRORS_RETURNED, para indicar que houve problemas com um ou mais dos provedores de catálogo de endereços. Os clientes interAtivos devem chamar [IMAPISession:: GetLastError](imapisession-getlasterror.md) para recuperar informações de erro adicionais e exibir as informações retornadas na primeira vez que chamarem **OpenAddressBook** e retornará um aviso. 
+**OpenAddressBook** pode retornar um aviso, MAPI_W_ERRORS_RETURNED, para indicar que houve problemas com um ou mais provedores de agendas. Os clientes interativos devem chamar [IMAPISession::GetLastError](imapisession-getlasterror.md) para recuperar informações de erro adicionais e exibir as informações retornadas na primeira vez que chamarem **OpenAddressBook** e retornar um aviso. 
   
-Os clientes não interativos devem ignorar o aviso e prosseguir como se o método fosse bem-sucedido. A interface **IAddrBook** retornada é válida independentemente de todos, alguns ou nenhum dos provedores de catálogo de endereços no perfil estão em execução. Portanto, os clientes interativos e não interativos devem sempre se lembrar de liberar o ponteiro do **IAddrBook** quando a sessão terminar. 
+Os clientes não-inativos devem ignorar o aviso e prosseguir como se o método tivesse sido bem-sucedido. A interface **IAddrBook** retornada é válida independentemente de todos, alguns ou nenhum dos provedores de livro de endereços no perfil estão em execução. Portanto, os clientes interativos e não interativos devem sempre se lembrar de liberar o ponteiro **IAddrBook** quando a sessão terminar. 
   
 

@@ -28,14 +28,14 @@ Para fazer referência à célula D pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Connections. D [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Connections.D[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionConnectionPts** <br/> |
-| Índice de linha:  <br/> |**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowConnectionPts**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCnnctD** <br/> |
    
 

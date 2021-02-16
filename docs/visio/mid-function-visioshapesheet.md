@@ -22,15 +22,15 @@ Retorna um número específico de caracteres de uma cadeia de caracteres de text
   
 ## <a name="syntax"></a>Sintaxe
 
-MID (* * *Text* * *, * * *Núm_inicial* * *, * * *Núm_caract* * *) 
+MID (** *texto* **, ** *start_num* **, ** *num_chars* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
-| _núm_inicial_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do primeiro caractere a ser extraído. O primeiro caractere na cadeia de caracteres de texto está na posição 1.  <br/> |
-| _Núm_caract_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres a retornar.  <br/> |
+| _text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto que contém os caracteres a serem extraídos.  <br/> |
+| _start_num_ <br/> |Obrigatório  <br/> |**Número** <br/> |A posição do primeiro caractere a ser extraído. O primeiro caractere na cadeia de caracteres de texto está na posição 1.  <br/> |
+| _num_chars_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número de caracteres a retornar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -38,15 +38,15 @@ Cadeia de caracteres
   
 ## <a name="remarks"></a>Comentários
 
-Se *Núm_inicial* for: 
+Se  *start_num*  for: 
   
-- Maior do que o comprimento de *Text* , mid retornará "" (texto vazio). 
+- Maior que o comprimento do  *texto,*  MID retornará "" (texto vazio). 
     
-- Menor que o comprimento do *texto* , mas *Núm_inicial* mais *Núm_caract* excede o comprimento do *texto* , mid retorna os caracteres até o final do *texto* . 
+- Menor que o comprimento do  *texto,*  mas  *start_num*  mais  *num_chars*  exceder o comprimento do texto  *,*  MID retorna os caracteres até o final do  *texto*  . 
     
-- Menos de 1, MID retornará o #VALUE! valor de erro. 
+- Menor que 1, MID retornará o #VALUE! valor de erro. 
     
-Se *Núm_caract* for negativo, mid retornará o #VALUE! valor de erro. 
+Se  *num_chars*  for negativo, MID retornará a #VALUE! valor de erro. 
   
 ## <a name="example"></a>Exemplo
 

@@ -25,11 +25,11 @@ Retorna um GUID que representa um identificador exclusivo para a rede social.
 
 ## <a name="property-value"></a>Valor de propriedade
 
-Um ponteiro para um valor de GUID que representa um identificador exclusivo para a rede social.
+Um ponteiro para um valor GUID que representa um identificador exclusivo para a rede social.
   
 ## <a name="remarks"></a>Comentários
 
-O GUID deve ser imutável e não deve ser alterado, mesmo se a versão do provedor for alterada.
+O GUID deve ser imutável e não deve mudar mesmo se a versão do provedor mudar.
   
 ## <a name="see-also"></a>Confira também
 

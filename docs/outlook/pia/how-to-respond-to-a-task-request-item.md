@@ -25,7 +25,7 @@ Este exemplo mostra como obter e responder um item de solicitação de tarefa.
 
 No exemplo a seguir, AcceptTaskRequest usa o método [GetAssociatedTask(Boolean)](https://msdn.microsoft.com/library/bb645779\(v=office.15\)) do objeto [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)) para obter o objeto [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)). O exemplo chama o método [Respond(OlTaskResponse, Object, Object)](https://msdn.microsoft.com/library/bb644188\(v=office.15\)) com o parâmetro definido como [olTaskAccept](https://msdn.microsoft.com/library/bb624484\(v=office.15\)) para aceitar a solicitação de tarefa.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

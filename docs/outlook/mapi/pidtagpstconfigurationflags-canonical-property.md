@@ -21,64 +21,64 @@ ms.locfileid: "33408940"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica sinalizadores de configuração de uma tabela de armazenamento pessoal (arquivo. pst).
+Especifica sinalizadores de configuração para uma tabela de armazenamento pessoal (arquivo .pst).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PST_CONFIG_FLAGS  <br/> |
 |Identificador:  <br/> |0x6770  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tabela de armazenamento pessoal (. pst) interna  <br/> |
+|Área:  <br/> |Tabela de armazenamento pessoal (.pst) interna  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Estes são os valores válidos para esta propriedade:
+Estes são os valores válidos para essa propriedade:
   
 PST_CONFIG_UNICODE
   
-> Indica um arquivo. pst Unicode. 
+> Indica um arquivo .pst Unicode. 
     
    `#define PST_CONFIG_UNICODE 0x80000000`
     
 PST_CONFIG_CREATE_NOWARN
   
-> Quando definido nos sinalizadores de cliente para o método [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) , trata **ConfigureMsgService** como uma chamada [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) e ignora o "este serviço de informações não foi configurado" Cuidado. 
+> Quando definido dos sinalizadores de cliente para o método [IMsgServiceAdmin::ConfigureMsgService,](imsgserviceadmin-configuremsgservice.md) trata **ConfigureMsgService** como uma chamada [de IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) e ignora o aviso "Este serviço de informações não foi configurado". 
     
    `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
-> Informa ao **ConfigureMsgService** para não alterar o valor da propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), mesmo que ela tenha sido fornecida. Nesse caso, ele foi fornecido apenas para os novos arquivos. pst.
+> Informa **ao ConfigureMsgService** para não alterar o valor da propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), mesmo que ele tenha sido fornecido. Nesse caso, ele foi fornecido apenas para novos arquivos .pst.
     
    `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     
 OST_CONFIG_POLICY_DELAY_IGNORE_OST
   
-> Instrui o código de configuração a exibir primeiro uma caixa de diálogo para confirmar se um arquivo de pasta offline (. ost) foi encontrado e, dependendo da resposta do usuário, usar a pasta offline encontrada ou permitir que o usuário navegue para outra pasta offline.
+> Informa ao código de configuração para exibir primeiro uma caixa de diálogo para confirmar se um arquivo de Pasta Offline (.ost) foi encontrado e, dependendo da resposta do usuário, use a Pasta Offline encontrada ou habilita o usuário a procurar outra Pasta Offline.
     
    `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
     
 OST_CONFIG_CREATE_NEW_DEFAULT
   
-> Copia o arquivo. ost com um novo nome exclusivo e descarta o nome atual. O arquivo. ost existente permanece no computador, mas não é mais usado neste perfil. Isso geralmente ocorre quando o Microsoft Outlook não permite mais um arquivo. ost específico, e as políticas de registro não permitem que o usuário renomeie o arquivo. 
+> Copia o arquivo .ost com um novo nome exclusivo e descarta o nome atual. O arquivo .ost existente permanece no computador, mas não é mais usado nesse perfil. Isso normalmente ocorre quando o Microsoft Outlook não permite mais um determinado arquivo .ost, e as políticas do Registro não permitem que o usuário renomeie o arquivo. 
     
    `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -90,7 +90,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

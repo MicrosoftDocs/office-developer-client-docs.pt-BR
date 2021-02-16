@@ -23,11 +23,11 @@ ms.locfileid: "33410928"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada do [SRowSet](srowset.md) que contém um número especificado de linhas. 
+Cria uma estrutura [SRowSet](srowset.md) nomeada que contém um número especificado de linhas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
@@ -36,17 +36,17 @@ SizedSRowSet (_crow, _name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__galinha_
+__ia_
   
 > Contagem do número de linhas a serem incluídas na nova estrutura.
     
-__nome_
+_ _name_
   
 > Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-Para usar a nova estrutura que resulta da macro **SizedSRowSet** como um ponteiro para uma estrutura **SRowSet** , execute a seguinte conversão: 
+Para usar a nova estrutura que resulta da macro **SizedSRowSet** como um ponteiro para uma estrutura **SRowSet,** execute a seguinte projeção: 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

@@ -37,7 +37,7 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> no Um ponteiro para uma estrutura [SRow](srow.md) que descreve a linha a ser adicionada ou para substituir uma linha existente. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** da estrutura **SRow** deve conter a coluna de índice, o mesmo valor que foi especificado no parâmetro _UlPropTagIndexColumn_ na chamada para o CreateTable [ ](createtable.md)função. 
+> [in] Um ponteiro para uma [estrutura SRow](srow.md) que descreve a linha a ser adicionada ou para substituir uma linha existente. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** da estrutura **SRow** deve conter a coluna de índice, o mesmo valor especificado no parâmetro _ulPropTagIndexColumn_ na chamada para a função [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -51,13 +51,13 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrModifyRow** insere a linha descrita pela estrutura **SRow** indicada pelo parâmetro _lpSRow_ . Se uma linha que tem o mesmo valor para sua coluna de índice como a linha à qual _lpSRow_ aponta já existir na tabela, a linha existente será substituída. Se não existir nenhuma linha que coincida com a incluída na estrutura **SRow** , **HrModifyRow** adicionará a linha ao final da tabela. 
+O **método ITableData::HrModifyRow** insere a linha descrita pela estrutura **SRow** apontada pelo _parâmetro lpSRow._ Se uma linha com o mesmo valor de sua coluna de índice que a linha  _que lpSRow_ aponta já existir na tabela, a linha existente será substituída. Se não existir uma linha que corresponde à que está incluída na estrutura **SRow,** **HrModifyRow** adiciona a linha ao final da tabela. 
   
-Todos os modos de exibição da tabela são modificados para incluir a linha indicada por _lpSRow_. No enTanto, se um modo de exibição tiver uma restrição no lugar que exclua a linha, ele pode não estar visível para o usuário. 
+Todos os exibições da tabela são modificados para incluir a linha apontada por  _lpSRow_. No entanto, se um ponto de vista tiver uma restrição no local que exclua a linha, talvez ele não seja visível para o usuário. 
   
-As colunas na linha apontadas por _lpSRow_ não precisam estar na mesma ordem das colunas da tabela. O chamador também pode incluir as propriedades de colunas que não estão na tabela no momento. Para modos de exibição existentes, o **HrModifyRow** torna essas novas colunas disponíveis, mas não as inclui no conjunto de colunas atual. Para modos de exibição futuros, o **HrModifyRow** inclui as novas colunas no conjunto de colunas. 
+As colunas na linha apontada por  _lpSRow_ não devem estar na mesma ordem que as colunas na tabela. O chamador também pode incluir como propriedades de colunas que não estão atualmente na tabela. Para exibições existentes, **HrModifyRow** disponibiliza essas novas colunas, mas não as inclui no conjunto de colunas atual. Para exibições futuras, **HrModifyRow** inclui as novas colunas no conjunto de colunas. 
   
-Depois que o **HrModifyRow** adiciona a linha, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método IMAPITable [:: Advise](imapitable-advise.md) da tabela para se registrarem para notificações. 
+Depois **que HrModifyRow** adiciona a linha, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamam o método [IMAPITable::Advise](imapitable-advise.md) da tabela para registrar para notificações. 
   
 ## <a name="see-also"></a>Confira também
 

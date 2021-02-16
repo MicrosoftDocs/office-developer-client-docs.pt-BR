@@ -37,7 +37,7 @@ LPSSortOrderSet FAR * lppSortCriteria
 
  _lppSortCriteria_
   
-> bota Ponteiro para um ponteiro para a estrutura [SSortOrderSet](ssortorderset.md) que contém a ordem de classificação atual. 
+> [out] Ponteiro para um ponteiro para a [estrutura SSortOrderSet](ssortorderset.md) que mantém a ordem de classificação atual. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Outra operação está em andamento, o que impede a inicialização da operação de recuperação da ordem de classificação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
+> Outra operação está em andamento que impede o início da operação de recuperação de ordem de classificação. A operação em andamento deve ter permissão para ser concluída ou deve ser interrompida.
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: QuerySortOrder** recupera a ordem de classificação atual para uma tabela. As ordens de classificação são descritas com uma estrutura [SSortOrderSet](ssortorderset.md) . 
+O **método IMAPITable::QuerySortOrder** recupera a ordem de classificação atual de uma tabela. As ordens de classificação são descritas com [uma estrutura SSortOrderSet.](ssortorderset.md) 
   
-- O membro **cSorts** da estrutura **SSortOrderSet** pode ser definido como zero se: 
+- O **membro cSorts** da **estrutura SSortOrderSet** pode ser definido como zero se: 
     
-- A tabela não está classificada.
+- A tabela está sem classificação.
     
-- Não há informações sobre como a tabela é classificada.
+- Não há informações sobre como a tabela é ordenada.
     
-- A estrutura **SSortOrderSet** não é adequada para descrever a ordem de classificação. 
+- A **estrutura SSortOrderSet** não é apropriada para descrever a ordem de classificação. 
     
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se for feita uma chamada para o método imApitable [:: SortTable](imapitable-sorttable.md) com uma estrutura **SSortOrderSet** que contenha zero colunas na chave de classificação, remova a ordem de classificação atual e aplique a ordem padrão, se houver uma. Em chamadas subsequentes para **QuerySortOrder**, você pode escolher se deseja retornar zero ou mais colunas para a chave de classificação. Você pode retornar mais colunas do que no modo de exibição atual.
+Se uma chamada for feita para seu método [IMAPITable::SortTable](imapitable-sorttable.md) com uma estrutura **SSortOrderSet** contendo zero colunas na chave de classificação, remova a ordem de classificação atual e aplique a ordem padrão, se houver uma. Em chamadas subsequentes **para QuerySortOrder**, você pode optar por retornar zero ou mais colunas para a chave de classificação. Você pode retornar mais colunas do que as que estão no ponto de vista atual.
   
-Para obter mais informações sobre classificação, consulte [classificação e categorização](sorting-and-categorization.md).
+Para obter mais informações sobre classificação, consulte [Classificação e Categorização.](sorting-and-categorization.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -1,5 +1,5 @@
 ---
-title: Equals (aplicativo Web personalizado do Access)
+title: Equals(Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408926"
 ---
-# <a name="equals-access-custom-web-app"></a>Equals (aplicativo Web personalizado do Access)
+# <a name="equals-access-custom-web-app"></a>Igual a (aplicativo Web personalizado do Access)
 
 Compara a igualdade de duas expressões.
   
@@ -24,9 +24,9 @@ Compara a igualdade de duas expressões.
 
 `= (Equals)`
 
-**  =  *expressão* de expressão 
+*expressão*   =   *expressão* 
   
-*expression* Trata-se de qualquer expressão válida. Se as expressões não forem do mesmo tipo de dados, o tipo de dados de uma expressão deverá ser implicitamente conversível no tipo de dados da outra. A conversão depende das regras de precedência do tipo de dados. 
+*expression* Trata-se de qualquer expressão válida. Se as expressões não são do mesmo tipo de dados, o tipo de dados de uma expressão deve ser implicitamente conversível para o tipo de dados da outra. A conversão depende das regras de precedência do tipo de dados. 
   
 ## <a name="return-type"></a>Tipo de retorno
 
@@ -34,8 +34,8 @@ Compara a igualdade de duas expressões.
   
 ## <a name="remarks"></a>Comentários
 
-Quando você compara duas expressões nulas, o resultado é TRUE.
+Quando você compara duas expressões NULL, o resultado é VERDADEIRO.
   
-Comparar NULL com um valor não nulo sempre resulta em FALSE.
+Comparar NULL a um valor não NULO sempre resulta em FALSE.
   
 

@@ -23,11 +23,11 @@ ms.locfileid: "33410431"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma linha de uma tabela que contém as propriedades selecionadas para um objeto específico. 
+Descreve uma linha de uma tabela que contém propriedades selecionadas para um objeto específico. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRow
@@ -43,21 +43,21 @@ typedef struct _SRow
 
 **ulAdrEntryPad**
   
-> Os bytes de preenchimento para alinhar corretamente os valores de propriedade apontados pelo membro **lpProps** . 
+> Preenchimento de bytes para alinhar corretamente os valores de propriedade apontados pelo **membro lpProps.** 
     
 **cValues**
   
-> Contagem de valores de propriedade apontados por **lpProps**. 
+> Contagem de valores de propriedade apontados **por lpProps**. 
     
 **lpProps**
   
-> Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que descrevem os valores de propriedade para as colunas na linha. 
+> Ponteiro para uma matriz de [estruturas SPropValue](spropvalue.md) que descrevem os valores de propriedade para as colunas na linha. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **SRow** descreve uma linha em uma tabela. Ele está incluído na estrutura [TABLE_NOTIFICATION](table_notification.md) que acompanha uma notificação de tabela. 
+Uma **estrutura SRow** descreve uma linha em uma tabela. Ele está incluído na estrutura [TABLE_NOTIFICATION](table_notification.md) que acompanha uma notificação de tabela. 
   
-As estruturas **SRow** são usadas nos seguintes métodos: 
+**As estruturas SRow** são usadas nos seguintes métodos: 
   
 - [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
     
@@ -67,7 +67,7 @@ As estruturas **SRow** são usadas nos seguintes métodos:
     
 - [IMAPITable::ExpandRow](imapitable-expandrow.md)
     
-- [ITableData: IUnknown](itabledataiunknown.md) (muitos métodos) 
+- [ITableData : IUnknown](itabledataiunknown.md) (muitos métodos) 
     
 - [FBadRowSet](fbadrowset.md)
     
@@ -75,17 +75,17 @@ As estruturas **SRow** são usadas nos seguintes métodos:
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-Quando mais de uma linha precisa ser descrita, uma estrutura [SRowSet](srowset.md) é usada. Uma estrutura **SRowSet** contém uma matriz de estruturas **SRow** e uma contagem de estruturas na matriz. 
+Quando mais de uma linha precisa ser descrita, uma [estrutura SRowSet](srowset.md) é usada. Uma **estrutura SRowSet** contém uma matriz de **estruturas SRow** e uma contagem de estruturas na matriz. 
   
-A ilustração a seguir mostra a relação entre um **SRow** e uma estrutura de dados do **SRowSet** . 
+A ilustração a seguir mostra a relação entre uma **SRow** e uma **estrutura de dados SRowSet.** 
   
 **Relationship between SRow and SRowSet**
   
-![Relação entre SRow e SRowSet] (media/amapi_17.gif "Relação entre SRow e SRowSet")
+![Relação entre SRow e SRowSet](media/amapi_17.gif "Relationship entre SRow e SRowSet")
   
-As estruturas **SRow** são definidas da mesma forma que as estruturas [ADRENTRY](adrentry.md) . Portanto, uma linha de uma tabela de destinatários e uma entrada em uma lista de endereços podem ser tratados da mesma forma. 
+**As estruturas SRow** são definidas da mesma forma que [as estruturas ADRENTRY.](adrentry.md) Portanto, uma linha de uma tabela de destinatários e uma entrada em uma lista de endereços podem ser tratadas da mesma forma. 
   
-Para obter informações sobre como a memória para estruturas **SRow** devem ser alocadas, consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obter informações sobre como a memória para estruturas **SRow** deve ser alocada, consulte Gerenciando memória para [estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -94,5 +94,5 @@ Para obter informações sobre como a memória para estruturas **SRow** devem se
 - [SRowSet](srowset.md)
 - [TABLE_NOTIFICATION](table_notification.md)
 - [Estruturas MAPI](mapi-structures.md)
-- [Gerenciando memória para estruturas das ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+- [Gerenciando memória para estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

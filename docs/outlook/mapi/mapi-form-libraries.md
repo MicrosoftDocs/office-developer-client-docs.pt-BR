@@ -1,5 +1,5 @@
 ---
-title: Bibliotecas de formulários MAPI
+title: Bibliotecas de formulário MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411110"
 ---
-# <a name="mapi-form-libraries"></a>Bibliotecas de formulários MAPI
+# <a name="mapi-form-libraries"></a>Bibliotecas de formulário MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para ajudar a organizar os servidores de formulários e torná-los facilmente disponíveis para os aplicativos cliente, a arquitetura de formulários MAPI inclui bibliotecas de formulários que dão suporte à instalação, administração, replicação e uso de servidores de formulário.
+Para ajudar a organizar servidores de formulário e torná-los facilmente disponíveis para aplicativos cliente, a arquitetura de formulário MAPI inclui bibliotecas de formulário, que suportam a instalação, administração, replicação e uso de servidores de formulário.
   
-Bibliotecas de formulários são repositórios de informações de configuração e servidores de formulário que o gerente de formulários usa ao carregar servidores de formulário. 
+As bibliotecas de formulário são repositórios de servidores de formulário e informações de configuração sobre eles que o gerenciador de formulário usa ao carregar servidores de formulário. 
   
 > [!NOTE]
-> No início do histórico de MAPI, as bibliotecas de formulários eram chamadas de "registros". Por causa disso, o termo "registro" persiste em algumas interfaces MAPI relacionadas a formulários, propriedades, entradas de arquivo de configuração e assim por diante. Se a interface do aplicativo exigir o uso de um desses termos, você deverá usar o termo "library" exclusivamente. 
+> No início do histórico de MAPI, as bibliotecas de formulário eram chamadas de "registros". Por isso, o termo "registro" persiste em algumas interfaces MAPI relacionadas ao formulário, propriedades, entradas de arquivo de configuração e assim por diante. Se a interface do seu aplicativo exigir o uso de um desses termos, você deverá usar o termo "biblioteca" exclusivamente. 
   
 ## <a name="see-also"></a>Confira também
 

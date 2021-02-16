@@ -1,5 +1,5 @@
 ---
-title: Desenvolver um aplicativo cliente MAPI
+title: Desenvolvendo um aplicativo cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410032"
 ---
-# <a name="developing-a-mapi-client-application"></a>Desenvolver um aplicativo cliente MAPI
+# <a name="developing-a-mapi-client-application"></a>Desenvolvendo um aplicativo cliente MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os aplicativos clientes MAPI são escritos com a interface de cliente MAPI orientada a objeto. Os clientes MAPI interagem com um ou mais sistemas de mensagens por meio do subsistema MAPI e provedores de serviço compatíveis com MAPI. Essa interação pode ocorrer de várias maneiras diferentes; Há uma enorme variedade de aplicativos cliente. A maioria dos clientes são clientes de mensagens, integrando o sistema de mensagens ao conjunto de recursos estabelecidos ou realizando mensagens como seu recurso principal. Outros recursos que os clientes MAPI podem fornecer incluem administração de perfil ou catálogo de endereços e gerenciamento de repositório de mensagens.
+Os aplicativos cliente MAPI são escritos com a interface de cliente MAPI orientada ao objeto. Os clientes MAPI interagem com um ou mais sistemas de mensagens por meio do subsistema MAPI e provedores de serviços compatíveis com MAPI. Essa interação pode ocorrer de várias maneiras diferentes; há uma enorme variedade em aplicativos cliente. A maioria dos clientes são clientes de mensagens, integrando mensagens ao conjunto de recursos estabelecido ou executando mensagens como seu recurso principal. Outros recursos que os clientes MAPI podem fornecer incluem a administração de perfil ou o livro de endereços e o gerenciamento de armazenamento de mensagens.
   
-Todos os clientes de mensagens inicializam as bibliotecas MAPI e iniciam uma **sessão** com o subsistema MAPI. Para obter mais informações, consulte acEssando [objetos usando a sessão](accessing-objects-by-using-the-session.md). Depois que uma sessão for estabelecida, um cliente poderá:
+Todos os clientes de mensagens inicializam as bibliotecas MAPI e iniciam **uma sessão com** o subsistema MAPI. Para obter mais informações, [consulte Acessando objetos usando a sessão.](accessing-objects-by-using-the-session.md) Depois que uma sessão é estabelecida, um cliente pode:
   
-- Gerenciar mensagens de saída, incluindo respostas, mensagens encaminhadas e retransmissões.
+- Lidar com mensagens de saída, incluindo respostas, mensagens encaminhadas e retransmissões.
     
-- Lidar com mensagens de entrada.
+- Manipular mensagens de entrada.
     
-- Manipule o repositório de mensagens abrindo pastas e mensagens, criando, modificando, copiando e enviando mensagens, controlando conversas e pesquisando uma ou mais pastas.
+- Manipular o armazenamento de mensagens abrindo pastas e mensagens, criando, modificando, copiando e enviando mensagens, acompanhando conversas e pesquisando uma ou mais pastas.
     
-- Manipule o catálogo de endereços criando e modificando destinatários, localizando entradas e atravessando a hierarquia de contêineres.
+- Manipular o livro de endereços criando e modificando destinatários, localizando entradas e percorrendo a hierarquia do contêiner.
     
-- Gerenciar um provedor de transporte executando reconfiguração, definindo opções e ordem de transporte e enviando mensagens sob demanda.
+- Manipular um provedor de transporte executando reconfiguração, definindo opções e ordem de transporte e enviando mensagens sob demanda.
     
-- Lidar com notificações de eventos.
+- Manipular notificação de evento.
     
 - Manipular formulários.
     
-- Gerenciar perfis e serviços de mensagens.
+- Manipular perfis e serviços de mensagens.
     
-Use os tópicos desta seção para ajudá-lo a implementar essas tarefas básicas e os recursos específicos que farão com que seu cliente MAPI seja exclusivo.
+Use os tópicos desta seção para ajudá-lo a implementar essas tarefas básicas e os recursos específicos que tornarão seu cliente MAPI exclusivo.
   
 

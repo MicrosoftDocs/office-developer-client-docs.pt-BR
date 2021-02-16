@@ -25,7 +25,7 @@ ms.locfileid: "32357971"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o andamento que o usuário fez em uma tarefa. 
+Indica o progresso que o usuário fez em uma tarefa. 
   
 |||
 |:-----|:-----|
@@ -33,21 +33,21 @@ Indica o andamento que o usuário fez em uma tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008102  <br/> |
 |Tipo de dados:  <br/> |PT_R8  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor dessa propriedade deve ser um número maior ou igual a 0,0 e menor ou igual a 1,0, onde 1,0 indica que o trabalho foi concluído e 0,0 indica que o trabalho não foi iniciado.
+O valor dessa propriedade deve ser um número maior ou igual a 0,0 e menor ou igual a 1,0, onde 1,0 indica que o trabalho foi concluído e 0,0 indica que o trabalho não começou.
   
-Para um objeto Message sinalizado por hora, o valor dessa propriedade deve ser definido como 1,0 se o objeto for marcado como concluído e deve ser definido como 0,0 caso contrário.
+Para um objeto de mensagem sinalizado com tempo, o valor dessa propriedade deverá ser definido como 1,0 se o objeto estiver sinalizado como concluído e, caso contrário, deverá ser definido como 0,0.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -59,19 +59,19 @@ Para um objeto Message sinalizado por hora, o valor dessa propriedade deve ser d
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -83,7 +83,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

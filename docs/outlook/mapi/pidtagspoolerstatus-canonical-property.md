@@ -25,34 +25,34 @@ ms.locfileid: "33408674"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o status da mensagem com base nas informações que estão disponíveis para o spooler MAPI.
+Contém o status da mensagem com base nas informações disponíveis para o spooler MAPI.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SPOOLER_STATUS  <br/> |
 |Identificador:  <br/> |0x0E10  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é calculada por MAPI em objetos de mensagem.
+Essa propriedade é calculada por MAPI em objetos de mensagem.
   
-Essa propriedade aparece somente em mensagens de entrada e é reservada em todos os outros casos. Ele indica se uma mensagem foi entregue ou não ao seu local final ou se um provedor de conexão de mensagens possivelmente excluiu a mensagem ao reroteá-la.
+Essa propriedade aparece somente em mensagens de entrada e é reservada em todos os outros casos. Ele indica se uma mensagem foi entregue ou não ao seu local final ou se um provedor de gancho de mensagens potencialmente excluiu a mensagem enquanto a redirecionava.
   
-Os aplicativos cliente nunca devem definir essa propriedade. Para uma mensagem de entrada, um cliente ou um provedor de serviços pode chamar [IMAPIProp::](imapiprop-getprops.md) GetProps nessa propriedade para determinar o status da mensagem. O valor S_OK indica que a mensagem foi entregue com êxito ao repositório de mensagens. O valor MAPI_E_OBJECT_DELETED indica que a mensagem foi excluída e nunca foi confirmada no repositório. 
+Os aplicativos cliente nunca devem definir essa propriedade. Para uma mensagem de entrada, um cliente ou provedor de serviços pode chamar [IMAPIProp::GetProps](imapiprop-getprops.md) nessa propriedade para determinar o status da mensagem. O valor S_OK indica que a mensagem foi entregue com êxito ao armazenamento de mensagens. O valor MAPI_E_OBJECT_DELETED indica que a mensagem foi excluída e nunca foi comprometida com o armazenamento. 
   
-Os provedores de repositório de mensagens devem oferecer suporte a essa propriedade em mensagens, tabelas de destinatários e na tabela de fila de saída. Os clientes e provedores devem ser capazes de definir colunas na tabela de fila de saída e restringir com base nessa propriedade.
+Os provedores de armazenamento de mensagens devem dar suporte a essa propriedade em mensagens, tabelas de destinatários e na tabela de filas de saída. Os clientes e provedores devem ser capazes de definir colunas na tabela de filas de saída e restringir com base nessa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

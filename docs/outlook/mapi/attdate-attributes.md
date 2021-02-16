@@ -1,5 +1,5 @@
 ---
-title: Atributos attDate
+title: atributos attDate
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408275"
 ---
-# <a name="attdate-attributes"></a>Atributos attDate
+# <a name="attdate-attributes"></a>atributos attDate
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o prefixo **attDate** . Todos são codificados como estruturas de **DTR** . As datas e horas para atributos de anexo também são codificadas como estruturas de **DTR** . 
+Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o **prefixo attDate.** Todos eles são codificados como estruturas **DTR.** As datas e horas para atributos de anexo também são codificadas como estruturas **DTR.** 
   
-Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o prefixo **attDate** . Todos são codificados como estruturas de **DTR** . As datas e horas para atributos de anexo também são codificadas como estruturas de **DTR** . 
+Todas as propriedades MAPI relacionadas a datas e horas são mapeadas para atributos TNEF que têm o **prefixo attDate.** Todos eles são codificados como estruturas **DTR.** As datas e horas para atributos de anexo também são codificadas como estruturas **DTR.** 
   
-Uma estrutura **DTR** é muito parecida com a estrutura **SYSTEMTIME** definida nos arquivos de cabeçalho do Win32. A estrutura **DTR** é codificada nos bytes de fluxo TNEF como **sizeof (DTR)** começando com o primeiro membro da estrutura. A estrutura **DTR** é definida no TNEF. Arquivo de cabeçalho H. 
+Uma **estrutura DTR** é muito semelhante à estrutura **SYSTEMTIME** definida nos arquivos de título Win32. A **estrutura DTR** é codificada no fluxo TNEF como bytes **sizeof(DTR)** começando com o primeiro membro da estrutura. A **estrutura DTR** é definida no TNEF. Arquivo de header H. 
   
 

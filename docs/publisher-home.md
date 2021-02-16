@@ -18,7 +18,7 @@ ms.locfileid: "32360680"
 Encontre conteúdo de instruções, artigos técnicos e referências para soluções de desenvolvimento e personalização do Publisher.
 
 > [!NOTE]
-> Interessado em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Deseja desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
 
 ### <a name="viewed-most"></a>Mais vistos
 

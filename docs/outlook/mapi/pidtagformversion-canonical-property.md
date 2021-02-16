@@ -36,17 +36,17 @@ Contém a versão de um formulário.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades indicam qual versão de design está atualmente em vigor para o formulário. A versão é definida e mantida pelo designer do formulário e não está necessariamente relacionada a qualquer versão de componente MAPI. 
+Essas propriedades indicam qual versão de design está em vigor no momento para o formulário. A versão é definida e mantida pelo designer do formulário e não está necessariamente relacionada a qualquer versão de componente MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,6 +23,6 @@ ms.locfileid: "33405678"
 2. Pressione DELETE e ENTER.
     
 > [!NOTE]
-> Experimente isso em uma célula **Scratch** após inserir uma fórmula local. A célula reverte para ' sem fórmula ', porque não há fórmulas a serem herdadas do mestre. 
+> Experimente isso em uma **célula Scratch** depois de inserir uma fórmula local. A célula é reverteda para 'No Formula', porque não há fórmula a ser herdada do mestre. 
   
 

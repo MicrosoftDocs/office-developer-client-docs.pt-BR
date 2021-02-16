@@ -32,26 +32,26 @@ Contém o nome, o tipo de dados e outras informações sobre um campo definido p
    
 ## <a name="remarks"></a>Comentários
 
-Para cada item, o Outlook armazena as definições de todos os campos definidos pelo usuário na propriedade [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) do objeto **IMessage** correspondente. A propriedade **PidLidPropertyDefinitionStream** contém um fluxo binário conhecido como [PropertyDefinition](propertydefinition-stream-structure.md), que contém as definições de campo. Para obter mais informações sobre estruturas de fluxo para definições de campo, consulte [estruturas de fluxo](stream-structures.md).
+Para cada item, o Outlook armazena as definições de todos os campos definidos pelo usuário na propriedade [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) do objeto **IMessage** correspondente. A **propriedade PidLidPropertyDefinitionStream** contém um fluxo binário conhecido como [PropertyDefinition](propertydefinition-stream-structure.md), que contém as definições de campo. Para obter mais informações sobre estruturas de fluxo para definições de campo, consulte [Estruturas de fluxo.](stream-structures.md)
   
-Para cada pasta, o Outlook armazena as definições de todos os campos definidos pelo usuário nessa pasta na propriedade **PidTagUserFields** de uma mensagem associada da classe de mensagem IPC.ms. Ren. UserFIELDs-cada pasta presumid não conter mais de uma mensagem dessa classe em sua tabela de conteúdo associado. 
+Para cada pasta, o Outlook armazena as definições de todos os campos definidos pelo usuário nessa pasta na propriedade **PidTagUserFields** de uma mensagem associada da classe de mensagem IPC.MS. REN. USERFIELDS - cada pasta presumida de conter não mais de uma mensagem dessa classe em sua tabela de conteúdo associada. 
   
 > [!NOTE]
-> O conjunto de campos definidos pelo usuário em uma pasta pode não coincidir necessariamente com os conjuntos de campos definidos pelo usuário em cada um dos seus itens. 
+> O conjunto de campos definidos pelo usuário em uma pasta pode não corresponder necessariamente aos conjuntos de campos definidos pelo usuário em cada um de seus itens. 
   
-O conjunto de campos definidos pelo usuário em uma pasta é exibido em vários locais na interface do usuário do Outlook, como o seletor de campos da pasta. A propriedade **PidTagUserFields** da mensagem contém um fluxo binário, **FolderUserFields**, que contém as definições de campo de pasta. Para obter mais informações sobre estruturas de fluxo para definições de campo de pasta, confira [estruturas de fluxo de campos de pasta](folder-fields-stream-structures.md) e o exemplo de [fluxo FolderUserFields](folderuserfields-stream-sample.md).
+O conjunto de campos definidos pelo usuário em uma pasta é exibido em vários lugares na interface do usuário do Outlook, como o Selador de Campos da pasta. A propriedade **PidTagUserFields** da mensagem contém um fluxo binário, **FolderUserFields**, que contém as definições de campo de pasta. Para obter mais informações sobre estruturas de fluxo para definições de campo de pasta, consulte [Estruturas](folder-fields-stream-structures.md) de fluxo de campos de pasta e o exemplo de fluxo [FolderUserFields](folderuserfields-stream-sample.md).
   
 ## <a name="section-heading"></a>Cabeçalho da seção
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -61,15 +61,15 @@ Mapidefs. h
 
 [Campos e itens do Outlook](outlook-items-and-fields.md)
   
-[Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Adicionar uma definição para um novo User-Defined campo](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Exemplo de fluxo PropertyDefinition](propertydefinition-stream-sample.md)
+[Exemplo de fluxo propertyDefinition](propertydefinition-stream-sample.md)
   
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

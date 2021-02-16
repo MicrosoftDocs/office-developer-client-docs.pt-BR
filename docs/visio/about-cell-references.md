@@ -24,7 +24,7 @@ Na fórmula de uma célula, você pode fazer referência a uma célula da mesma 
   
 ## <a name="what-cell-references-can-include"></a>O que as referências de célula podem incluir
 
-As referências de célula podem incluir identificações de forma (IDs) ou nomes. Você sempre pode fazer referência a qualquer forma na página pela sua ID, independentemente de a forma estar nomeada ou não. Se a forma não tiver sido nomeada, seu nome padrão será Sheet. *i* , onde *i* é a ID da forma. A ID é atribuída quando a forma é criada e não é alterada a menos que você mova a forma para outra página ou documento. Se mais de uma forma na página tiver o mesmo nome, inclua a ID atribuída. 
+As referências de célula podem incluir identificações de forma (IDs) ou nomes. Você sempre pode fazer referência a qualquer forma na página pela sua ID, independentemente de a forma estar nomeada ou não. Se a forma não tiver sido nomeada, seu nome padrão será Sheet. *i*  , onde  *i*  é a ID da forma. A ID é atribuída quando a forma é criada e não é alterada a menos que você mova a forma para outra página ou documento. Se mais de uma forma na página tiver o mesmo nome, inclua a ID atribuída. 
   
 ## <a name="cell-reference-syntax-and-examples"></a>Sintaxe e exemplo de referência de células
 
@@ -38,17 +38,17 @@ A sintaxe usada e a possibilidade de fazer referência a uma forma pelo nome dep
     
 |**Para fazer referência a uma célula de**|**Use esta sintaxe**|**Exemplo**|
 |:-----|:-----|:-----|
-|Mesma forma  <br/> | Cellname  <br/> | Largura  <br/> |
-| Uma forma, um grupo ou uma guia  <br/> | Shapename! Cellname  <br/> | Começando! Reto  <br/> |
-| Uma forma, um grupo ou uma guia em que mais de uma forma no mesmo nível tenha o mesmo nome  <br/> | Shapename.ID! Cellname  <br/> | Executivo. 2! Height  <br/> |
-| Uma coluna nomeada com linhas indexadas  <br/> | Seção. Column [index]  <br/> | Char. Font [3]  <br/> |
-| Uma coluna não-nomeada com linhas indexadas  <br/> | Section. ColumnIndex  <br/> | Scratch. a5  <br/> |
-| Qualquer forma, página, mestre ou estilo  <br/> | Sheet.ID! Cellname  <br/> | Sheet. 8! FillForegnd  <br/> |
-| Um mestre  <br/> | Mestres [MasterName]! SheetName! CellReference  <br/> | Mestres [engrenagem]! Eixo! Geometry1. X1  <br/> |
-| Página ou página mestre na qual o objeto está localizado  <br/> | A página! CellReference  <br/> | A página! User. Vanishing_Point  <br/> |
-| Outra página no documento  <br/> | Páginas [pagename]! SheetName! CellReference  <br/> | Páginas [Page-3]! Sheet. 4! BeginX  <br/> |
-| Um estilo  <br/> | Estilos! SheetName! CellReference  <br/> | Estilos! Gerenciador! LineColor  <br/> |
+|Mesma forma  <br/> | CellName  <br/> | Largura  <br/> |
+| Uma forma, um grupo ou uma guia  <br/> | Shapename! CellName  <br/> | Estrela! Ângulo  <br/> |
+| Uma forma, um grupo ou uma guia em que mais de uma forma no mesmo nível tenha o mesmo nome  <br/> | Shapename.ID! CellName  <br/> | Executive.2! Altura  <br/> |
+| Uma coluna nomeada com linhas indexadas  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
+| Uma coluna não-nomeada com linhas indexadas  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
+| Qualquer forma, página, mestre ou estilo  <br/> | Sheet.ID! CellName  <br/> | Sheet.8! FillForegnd  <br/> |
+| Um mestre  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Engrenagem]! 100.00 Geometry1.X1  <br/> |
+| Página ou página mestre na qual o objeto está localizado  <br/> | ThePage! CellReference  <br/> | ThePage! User.Vanishing_Point  <br/> |
+| Outra página no documento  <br/> | Pages[PageName]! SheetName! CellReference  <br/> | Pages[Page-3]! Sheet.4! BeginX  <br/> |
+| Um estilo  <br/> | Estilos! SheetName! CellReference  <br/> | Estilos! Gerente! LineColor  <br/> |
 | Documento  <br/> | TheDoc! CellReference  <br/> | TheDoc! PreviewQuality  <br/> |
-| Uma forma, uma página, um mestre, um documento ou um estilo com um nome que não seja padrão.  <br/> | ' SheetName '! Cellname  <br/> | ' 1-D '! LineColor  <br/> |
+| Uma forma, uma página, um mestre, um documento ou um estilo com um nome que não seja padrão.  <br/> | 'Sheetname'! CellName  <br/> | '1-D'! LineColor  <br/> |
    
 

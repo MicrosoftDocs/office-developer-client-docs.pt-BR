@@ -22,13 +22,13 @@ Armazena as relações entre contêineres, listas, textos explicativos e formas.
   
 ## <a name="remarks"></a>Comentários
 
- O Microsoft Visio usa a célula relações para armazenar as relações que envolvem essa forma. Uma série de funções DEPENDSON, com os parâmetros mostrados, são usadas para representar relações com essa forma, como apresentado na tabela a seguir. 
+ O Microsoft Visio usa a célula Relationships para armazenar as relações que envolvem essa forma. Uma série de funções DEPENDSON, com os parâmetros mostrados, são usadas para representar relações com essa forma, como apresentado na tabela a seguir. 
   
 |**Primeiro parâmetro**|**Parâmetros adicionais**|
 |:-----|:-----|
-|1  <br/> |Formas que são membros deste contêiner.  <br/> |
-|duas  <br/> |Formas que são membros desta lista.  <br/> |
-|3D  <br/> |Textos explicativos que estão associados a esta forma.  <br/> |
+|1   <br/> |Formas que são membros deste contêiner.  <br/> |
+|2   <br/> |Formas que são membros desta lista.  <br/> |
+|3   <br/> |Textos explicativos que estão associados a esta forma.  <br/> |
 |4   <br/> |Contêneres dos quais esta forma é membro.  <br/> |
 |5   <br/> |Lista da qual este item de lista é membro.  <br/> |
 |6   <br/> |Forma associada a este texto explicativo.  <br/> |
@@ -36,7 +36,7 @@ Armazena as relações entre contêineres, listas, textos explicativos e formas.
 |8   <br/> |Contêiner na borda limítrofe direita da qual esta forma é membro.  <br/> |
 |9   <br/> |Contêiner na borda limítrofe superior da qual esta forma é membro.  <br/> |
 |10   <br/> |Contêiner na borda limítrofe inferior da qual esta forma é membro.  <br/> |
-|11   <br/> |Lista à qual esta lista se sobrepõe.  <br/> |
+|11  <br/> |Lista à qual esta lista se sobrepõe.  <br/> |
    
 Para obter uma referência à célula Relationships pelo nome a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

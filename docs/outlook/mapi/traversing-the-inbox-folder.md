@@ -1,5 +1,5 @@
 ---
-title: Atravessando a pasta caixa de entrada
+title: Percorrendo a pasta Caixa de Entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406553"
 ---
-# <a name="traversing-the-inbox-folder"></a>Atravessando a pasta caixa de entrada
+# <a name="traversing-the-inbox-folder"></a>Percorrendo a pasta Caixa de Entrada
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para percorrer todas as mensagens na caixa de entrada**
+ **Para passar por todas as mensagens na Caixa de Entrada**
   
-1. Chame [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) para recuperar o identificador de entrada da caixa de entrada. 
+1. Chame [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) para recuperar o identificador de entrada da Caixa de Entrada. 
     
-2. Chame **IMAPIFolder:: OpenEntry** para abrir a caixa de entrada. 
+2. Chame **IMAPIFolder::OpenEntry** para abrir a Caixa de Entrada. 
     
-3. Chame o método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable da caixa de entrada para recuperar a tabela de conteúdo. 
+3. Chame o método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) da Caixa de Entrada para recuperar a tabela de conteúdo. 
     
-4. Chame o método imApitable da tabela de conteúdo [::](imapitable-setcolumns.md) SetColumns para limitar o conjunto de colunas a **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e quaisquer outras colunas necessárias. 
+4. Chame o método [IMAPITable::SetColumns](imapitable-setcolumns.md) da tabela de conteúdo para limitar o conjunto de colunas **a PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e quaisquer outras colunas necessárias. 
     
-5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar um grupo de linhas. 
+5. Chame [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar um grupo de linhas. 
     
-6. Até que não haja mais nenhuma linha na tabela de conteúdo:
+6. Até que não haja mais linhas na tabela de conteúdo:
     
-1. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md) para abrir a mensagem representada pelo identificador de entrada de cada linha. 
+1. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir a mensagem representada pelo identificador de entrada de cada linha. 
     
-2. Atribua o parâmetro _lppUnk_ a um ponteiro de interface **IMessage** local. 
+2. Atribua  _o parâmetro lppUnk_ a um ponteiro da interface **IMessage** local. 
     
-3. Trabalhar com as propriedades da mensagem.
+3. Trabalhe com as propriedades da mensagem.
     
-4. Solte o ponteiro apontado pelo parâmetro _lppUnk_ . 
+4. Libere o ponteiro apontado pelo parâmetro _lppUnk._ 
     
-5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar o próximo grupo de linhas. 
+5. Chame [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar o próximo grupo de linhas. 
     
-7. Libera a tabela de conteúdo.
+7. Liberar o índice de conteúdo.
     
 

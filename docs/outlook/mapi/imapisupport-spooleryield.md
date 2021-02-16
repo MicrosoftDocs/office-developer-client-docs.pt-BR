@@ -25,7 +25,7 @@ ms.locfileid: "33409906"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Dá controle da CPU ao spooler MAPI para que ele possa executar qualquer tarefa que ele considere necessário.
+Dá controle da CPU ao spooler MAPI para que ele possa executar todas as tarefas que considera necessárias.
   
 ```cpp
 HRESULT SpoolerYield(
@@ -37,13 +37,13 @@ ULONG ulFlags
 
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O provedor de transporte liberou com êxito a CPU.
+> O provedor de transporte lançou com êxito a CPU.
     
 MAPI_W_CANCEL_MESSAGE 
   
@@ -51,15 +51,15 @@ MAPI_W_CANCEL_MESSAGE
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: SpoolerYield** é implementado para objetos de suporte do provedor de transporte. Os provedores de transporte chamam o **SpoolerYield** para permitir que o spooler MAPI realize qualquer processamento necessário. 
+O **método IMAPISupport::SpoolerYield** é implementado para objetos de suporte do provedor de transporte. Os provedores de transporte **chamam SpoolerYield** para permitir que o spooler MAPI realize qualquer processamento necessário. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame **SpoolerYield** quando você estiver executando operações demoradas que podem ser pausadas. Isso permite que aplicativos de primeiro plano sejam executados durante uma operação longa, como a entrega para uma lista de destinatários grande em uma rede ocupada. 
+Chame **SpoolerYield** quando estiver executando operações demoradas que podem ser pausadas. Isso permite que aplicativos em primeiro plano executem durante uma longa operação, como a entrega para uma lista de destinatários grande em uma rede ocupada. 
   
-Se **SpoolerYield** retornar com MAPI_W_CANCEL_MESSAGE, o spooler MAPI determinou que a mensagem não deve mais ser enviada. ReTorne MAPI_E_USER_CANCEL ao processo de chamada e saia, se possível. 
+Se **SpoolerYield** retornar com MAPI_W_CANCEL_MESSAGE, o spooler MAPI determinou que a mensagem não deve mais ser enviada. Retorne MAPI_E_USER_CANCEL processo de chamada e saia, se possível. 
   
-Para obter mais informações sobre como produzir o spooler MAPI, consulte [interagindo com o spooler MAPI](interacting-with-the-mapi-spooler.md).
+Para obter mais informações sobre como gerar para o spooler MAPI, consulte [Interagindo com o Spooler MAPI.](interacting-with-the-mapi-spooler.md)
   
 ## <a name="see-also"></a>Confira também
 

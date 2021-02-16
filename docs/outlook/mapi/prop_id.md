@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409129"
 ---
-# <a name="propid"></a>PROP_ID
+# <a name="prop_id"></a>PROP_ID
 
   
   
@@ -29,7 +29,7 @@ Retorna o identificador de propriedade de uma marca de propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -44,9 +44,9 @@ PROP_ID (ulPropTag)
     
 ## <a name="remarks"></a>Comentários
 
-Cada marca de propriedade contém o tipo de propriedade na palavra de ordem inferior (bits 0 a 15) e o identificador de propriedade na palavra de ordem alta (bits 16 a 31). A macro **PROP_ID** extrai o identificador de propriedade e coloca-o em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
+Cada marca de propriedade contém o tipo de propriedade na palavra de ordem baixa (bits 0 a 15) e o identificador da propriedade na palavra de ordem alta (bits 16 a 31). A **PROP_ID** macro extrai o identificador de propriedade e o coloca nos bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
   
-A macro **PROP_ID** pode ser usada, por exemplo, para recuperar um identificador para passar para o [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera o nome da propriedade associada a um identificador de uma propriedade nomeada. 
+A **PROP_ID** macro pode ser usada, por exemplo, para recuperar um identificador a ser passado para [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera o nome da propriedade associada a um identificador de uma propriedade nomeada. 
   
 ## <a name="see-also"></a>Confira também
 

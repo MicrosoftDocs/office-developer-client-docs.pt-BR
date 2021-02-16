@@ -217,7 +217,7 @@ Se você não usar o assembly de proxy baseado em ASMX ou adicionar um arquivo d
   
 1. No **Gerenciador de Soluções**, clique com botão direito do mouse na pasta **Referências** e, em seguida, escolha **Adicionar Referência de Serviço**. 
     
-2. Na caixa de diálogo**Adicionar Referência de Serviço**, escolha **Avançado**.
+2. Na caixa de diálogo **Adicionar Referência de Serviço**, escolha **Avançado**.
     
 3. Na caixa de diálogo **Configurações de Referência de Serviço**, escolha **Adicionar Referência Web**.
     

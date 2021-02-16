@@ -1,5 +1,5 @@
 ---
-title: Provedores de serviço MAPI
+title: Provedores de Serviços MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,46 +15,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409535"
 ---
-# <a name="mapi-service-providers"></a>Provedores de serviço MAPI
+# <a name="mapi-service-providers"></a>Provedores de Serviços MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Há três tipos comuns de provedores de serviços:
+Existem três tipos comuns de provedores de serviços:
   
-- Provedores de catálogos de endereços.
+- Provedores de lista de endereços.
     
-- Provedores do repositório de mensagens.
+- Provedores de armazenamento de mensagens.
     
 - Provedores de transporte.
     
-Os provedores de catálogo de endereços e de repositório de mensagens têm muitas semelhanças. Eles registram um identificador exclusivo com MAPI que eles usam para construir identificadores de entrada para seus objetos. Eles fornecem uma hierarquia de objetos e propriedades que os clientes podem acessar e manipular. Para seus objetos contêiner, eles dão suporte a uma tabela de hierarquia e a uma tabela de conteúdo. Eles dão suporte à notificação de eventos nessas tabelas e, opcionalmente, em objetos individuais para que os clientes possam ser informados sobre alterações que ocorrem durante a sessão. Quando as operações se tornam longas, elas podem exibir um indicador de progresso para informar o usuário sobre o status da operação. Os clientes podem se comunicar com o catálogo de endereços e os provedores de repositórios de mensagens indiretamente por meio de MAPI usando as interfaces [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) e [IMAPISession: IUnknown](imapisessioniunknown.md) ou diretamente usando uma das interfaces de provedor de serviços no tabela a seguir. 
+Os provedores de armazenamento de mensagens e de address book têm muitas semelhanças. Eles registram um identificador exclusivo com MAPI que usam para construir identificadores de entrada para seus objetos. Eles fornecem uma hierarquia de objetos e propriedades que os clientes podem acessar e manipular. Para seus objetos contêineres, eles suportam uma tabela de hierarquia e uma tabela de conteúdo. Eles suportam a notificação de evento nessas tabelas e, opcionalmente, em objetos individuais, para que os clientes possam ser informados das alterações que ocorrem durante a sessão. Quando as operações se tornam demoradas, elas podem exibir um indicador de progresso para informar o usuário sobre o status da operação. Os clientes podem se comunicar com o livro de endereços e provedores de armazenamento de mensagens indiretamente através de MAPI usando [o IAddrBook : IMAPIProp](iaddrbookimapiprop.md) e [IMAPISession : interfaces IUnknown](imapisessioniunknown.md) ou diretamente usando uma das interfaces do provedor de serviços na tabela a seguir. 
   
-|**Interfaces do provedor de catálogo de endereços**|**Interfaces do provedor de repositório de mensagens**|
+|**Interfaces do provedor de agendas**|**Interfaces do provedor do armazenamento de mensagens**|
 |:-----|:-----|
 |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) <br/> |
 |[IDistList : IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) <br/> |
 |[IMailUser : IMAPIProp](imailuserimapiprop.md) <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 | <br/> |[IAttach : IMAPIProp](iattachimapiprop.md) <br/> |
    
-Os provedores de transporte diferem dos provedores de catálogo de endereços e de repositório de mensagens no modo como se comunicam com MAPI e com clientes. Geralmente, os provedores de transporte esperam por MAPI solicitar informações em vez de iniciar a comunicação. Diferentemente dos outros provedores, os provedores de transporte não dão suporte a uma variedade de objetos e tabelas que são comumente acessados por clientes. No enTanto, eles dão suporte a um objeto status, como todos os provedores de serviço e publica suas propriedades na tabela de status. Enquanto o catálogo de endereços e os provedores de repositório de mensagens chamam o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) para registrar identificadores exclusivos para construir seus identificadores de entrada, os provedores de transporte chamam o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) para Registre os identificadores exclusivos, bem como os tipos de endereço para assumir a responsabilidade da entrega de mensagens específicas. 
+Os provedores de transporte diferem do livro de endereços e dos provedores de armazenamento de mensagens na maneira como se comunicam com MAPI e com clientes. Os provedores de transporte normalmente aguardam o MAPI solicitar informações em vez de iniciar a comunicação. Ao contrário dos outros provedores, os provedores de transporte não suportam uma variedade de objetos e tabelas que são comumente acessados por clientes. No entanto, eles suportam um objeto de status, assim como todos os provedores de serviços, e publicam suas propriedades na tabela de status. Enquanto os provedores de armazenamento de mensagens e de agendamento de endereços chamam o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar identificadores exclusivos para construir seus identificadores de entrada, os provedores de transporte chamam o método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) para registrar identificadores exclusivos, bem como os tipos de endereço para assumir a responsabilidade pela entrega de mensagens específicas. 
   
-Seu provedor de serviços deve ter três arquivos de cabeçalho: um arquivo de cabeçalho público e dois arquivos internos. Use o arquivo de cabeçalho público para configuração e para documentar Propriedades e seus valores. Inclua um dos arquivos de cabeçalho internos todos os cabeçalhos MAPI públicos necessários; Esse arquivo de cabeçalho deve ser incluído em todos os arquivos de origem do provedor de serviços. Use o outro arquivo interno para definir identificadores de recurso.
+Seu provedor de serviços deve ter três arquivos de header: um arquivo de header público e dois arquivos internos. Use o arquivo de header público para configuração e para documentar propriedades e seus valores. Inclua em um dos arquivos de header internos todos os headers DE MAPI públicos necessários; esse arquivo de header deve ser incluído em todos os arquivos de origem do provedor de serviços. Use o outro arquivo interno para definir identificadores de recurso.
   
-Catálogo de endereços, repositório de mensagens e provedores de transporte execute as seguintes tarefas:
+Os provedores de agenda, armazenamento de mensagens e transporte executam as seguintes tarefas:
   
-- Forneça uma função de ponto de entrada. 
+- Fornecer uma função de ponto de entrada. 
     
-- Forneça um provedor e um objeto de logon para manipular o logon e a inicialização. 
+- Fornecer um provedor e um objeto de logon para lidar com o logon e a inicialização. 
     
-- Se o provedor pertencer a um serviço de mensagens, forneça uma função de ponto de entrada do serviço de mensagens. 
+- Se o provedor pertencer a um serviço de mensagens, fornecerá uma função de ponto de entrada do serviço de mensagens. 
     
 - Suporte à configuração implementando uma folha de propriedades.
     
-- Implemente um objeto status e dê suporte à tabela status. 
+- Implemente um objeto de status e suporte a tabela de status. 
     
-- Controle de desligamento.
+- Tratar o desligar.
     
 ## <a name="see-also"></a>Confira também
 

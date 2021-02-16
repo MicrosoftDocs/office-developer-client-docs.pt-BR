@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [FLATENTRYLIST](flatentrylist.md) ex
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbFLATENTRYLIST(_lplist)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lplist_
+ _ _lplist_
   
-> Ponteiro para a estrutura **FLATENTRYLIST** em questão. 
+> Ponteiro para a **estrutura FLATENTRYLIST** em questão. 
     
 ## <a name="see-also"></a>Confira também
 

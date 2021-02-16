@@ -65,7 +65,7 @@ O fluxo de trabalho completo final é semelhante e este:
     
     ![Armazenar a URL do projeto em uma variável](media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "Armazenar a URL do projeto em uma variável")
   
-2. Adicione a ação **Aguardar o Evento do Projeto** ao fluxo de trabalho e escolha o evento**Quando é feito o check-in de um projeto**. 
+2. Adicione a ação **Aguardar o Evento do Projeto** ao fluxo de trabalho e escolha o evento **Quando é feito o check-in de um projeto**. 
     
     ![Aguardar o check-in do projeto](media/699aa9c7-b3c9-426e-a775-96993a13559c.png "Aguardar o check-in do projeto")
   
@@ -77,8 +77,8 @@ O fluxo de trabalho completo final é semelhante e este:
     
     |Nome|Tipo|Valor|
     |:-----|:-----|:-----|
-    |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
-    |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Aceitar  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
+    |Content-Type  <br/> |Cadeia de Caracteres  <br/> |application/json; odata=verbose  <br/> |
    
     ![Adicionar um cabeçalho Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adicionar um cabeçalho Accept")
   
@@ -123,17 +123,17 @@ O fluxo de trabalho completo final é semelhante e este:
   
        |Nome|Tipo|Valor|
        |:-----|:-----|:-----|
-       |customFieldDictionary(0)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(0)/Key  <br/> |String  <br/> |Custom\_ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary(0)/Value  <br/> |String  <br/> |Entry\_b9a2fd69279de411940f00155d3c8201;#Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary(0)/ValueType  <br/> |String  <br/> |Edm.String  <br/> |
-       |customFieldDictionary(1)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(1)/Key  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary(1)/Value  <br/> |String  <br/> |90,5  <br/> |
+       |customFieldDictionary(0)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(0)/Key  <br/> |Cadeia de caracteres  <br/> |Custom\_ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary(0)/Value  <br/> |Cadeia de caracteres  <br/> |Entry\_b9a2fd69279de411940f00155d3c8201;#Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary(0)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.String  <br/> |
+       |customFieldDictionary(1)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(1)/Key  <br/> |Cadeia de caracteres  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary(1)/Value  <br/> |Cadeia de caracteres  <br/> |90,5  <br/> |
        |customFieldDictionary(1)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary(2)/__metadata/type  <br/> |String  <br/> |SP.KeyValue  <br/> |
-       |customFieldDictionary(2)/Key  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary(2)/__metadata/type  <br/> |Cadeia de caracteres  <br/> |SP.KeyValue  <br/> |
+       |customFieldDictionary(2)/Key  <br/> |Cadeia de caracteres  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary(2)/Value  <br/> |Cadeia de caracteres  <br/> |2015-04-01T00:00:00.0000000  <br/> |
        |customFieldDictionary(2)/ValueType  <br/> |Cadeia de caracteres  <br/> |Edm.DateTime  <br/> |
    
        ![Dicionário que define atualizações de campos personalizados](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dicionário que define atualizações de campos personalizados")
@@ -198,8 +198,8 @@ Adicionamos o método **CreateProjectSite** para que você possa escolher quando
     
     |Nome|Tipo|Valor|
     |:-----|:-----|:-----|
-    |Accept  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
-    |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Aceitar  <br/> |Cadeia de caracteres  <br/> |application/json; odata=verbose  <br/> |
+    |Content-Type  <br/> |Cadeia de Caracteres  <br/> |application/json; odata=verbose  <br/> |
    
     ![Adicionar um cabeçalho Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Adicionar um cabeçalho Accept")
   

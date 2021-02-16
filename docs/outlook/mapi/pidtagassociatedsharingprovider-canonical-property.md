@@ -21,14 +21,14 @@ ms.locfileid: "33408919"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se um provedor de repositório de arquivos de pastas particulares (PST) está configurado como um PST do Microsoft SharePoint 2010.
+Determina se um provedor de armazenamento de pastas particulares (PST) está configurado como um PST do Microsoft SharePoint 2010.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Identificador:  <br/> |0x0EA00048  <br/> |
 |Tipo de dados:  <br/> |PT_CLSID  <br/> |
-|Área:  <br/> |Tabela de armazenamento pessoal (. pst) interna  <br/> |
+|Área:  <br/> |Tabela de armazenamento pessoal (.pst) interna  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -42,7 +42,7 @@ Esta propriedade indica se um PST está configurado para o Microsoft SharePoint 
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

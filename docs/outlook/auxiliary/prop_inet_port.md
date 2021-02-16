@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
-description: Representa o número da porta de uma caixa de correio de Internet geral.
+description: Representa o número da porta de uma caixa de correio geral da Internet.
 ms.openlocfilehash: b7870df294a5580831ffb99c59d01e8a8652b4a6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409185"
 ---
-# <a name="propinetport"></a>PROP_INET_PORT
+# <a name="prop_inet_port"></a>PROP_INET_PORT
 
-Representa o número da porta de uma caixa de correio de Internet geral.
+Representa o número da porta de uma caixa de correio geral da Internet.
   
 ## <a name="quick-info"></a>Informações rápidas
 

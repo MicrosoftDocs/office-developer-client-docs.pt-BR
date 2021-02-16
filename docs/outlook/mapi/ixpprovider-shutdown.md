@@ -25,7 +25,7 @@ ms.locfileid: "33409689"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fecha um provedor de transporte de maneira ordenada.
+Fecha um provedor de transporte de forma pedido.
   
 ```cpp
 HRESULT Shutdown (
@@ -37,17 +37,17 @@ HRESULT Shutdown (
 
  _lpulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito ao desligar o provedor de transporte.
+> A chamada foi bem-sucedida ao desligar o provedor de transporte.
     
 ## <a name="remarks"></a>Comentários
 
-O spooler MAPI chama o método **IXPProvider:: Shutdown** antes de liberar um objeto de provedor de transporte. Antes de chamar **Shutdown**, MAPI libera todos os objetos de logon de um provedor.
+O spooler MAPI chama o **método IXPProvider::Shutdown** pouco antes de liberar um objeto de provedor de transporte. Antes de **chamar o Desligamento,** o MAPI libera todos os objetos de logon de um provedor.
   
 ## <a name="see-also"></a>Confira também
 

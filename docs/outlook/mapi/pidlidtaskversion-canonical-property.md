@@ -33,29 +33,29 @@ Indica qual cópia é a atualização mais recente de uma tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008112  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-As atualizações com versões menores do que a tarefa são ignoradas. 
+Atualizações com versões inferiores à tarefa são ignoradas. 
   
-Ao incorporar uma tarefa em uma comunicação de tarefa, o cliente define a versão atual da tarefa incorporada também na comunicação da tarefa.
+Ao incorporar uma tarefa em uma comunicação de tarefa, o cliente também define a versão atual da tarefa incorporada na comunicação da tarefa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

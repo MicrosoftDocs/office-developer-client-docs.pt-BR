@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
-description: Modifica a cor aumentando sua luminosidade pelo valor (positivo ou negativo) especificado no parâmetro int.
+description: Modifica a cor aumentando sua luminosidade pela quantidade (positiva ou negativa) especificada no parâmetro int.
 ms.openlocfilehash: 8924bc0662814e14d01b4bd5332f5fadeb0a1082
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33406574"
 ---
 # <a name="tint-function"></a>Função TINT
 
-Modifica a cor aumentando sua luminosidade pelo valor (positivo ou negativo) especificado no parâmetro _int_ . 
+Modifica a cor aumentando sua luminosidade pela quantidade (positiva ou negativa) especificada no _parâmetro int._ 
   
 ## <a name="syntax"></a>Sintaxe
 
-TONALIDADE (* * *cor* * *, * * *int* * *) 
+TINT(** *color* **, ** *int* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -35,6 +35,6 @@ TONALIDADE (* * *cor* * *, * * *int* * *)
   
 ## <a name="remarks"></a>Comentários
 
-Os limites superior e inferior de luminosidade são, respectivamente, 0 e 240. Não há limite para o tamanho do inteiro que você pode passar para o parâmetro _int_ , mas a luminosidade nunca excede esses limites. 
+Os limites superior e inferior de luminosidade são, respectivamente, 0 e 240. Não há limite para o tamanho do inteiro que você pode passar para o parâmetro  _int,_ mas a luminosidade nunca excede esses limites. 
   
 

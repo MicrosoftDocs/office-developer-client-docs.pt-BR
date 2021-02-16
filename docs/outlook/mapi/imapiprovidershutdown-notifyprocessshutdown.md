@@ -25,7 +25,7 @@ ms.locfileid: "33405244"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica ao provedor MAPI que um cliente MAPI fará um desligamento rápido, para que o provedor possa realizar ações para evitar a perda de dados.
+Indica ao provedor de MAPI que um cliente MAPI fará um desligamento rápido, para que o provedor possa tomar medidas para evitar a perda de dados.
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,7 +35,7 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> O provedor MAPI está executando ações para evitar a perda de dados quando o cliente MAPI é desligado.
+> O provedor MAPI está tomando ações para evitar a perda de dados quando o cliente MAPI é desligado.
     
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "32357782"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um índice que identifica um dos conjuntos de cadeias de caracteres de texto predefinidos associados ao sinalizador.
+Contém um índice que identifica um de um conjunto de cadeias de caracteres de texto pré-definidas associadas ao sinalizador.
   
 |||
 |:-----|:-----|
@@ -33,56 +33,56 @@ Contém um índice que identifica um dos conjuntos de cadeias de caracteres de t
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x000085C0  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for definida, os clientes devem usar o valor de cadeia de caracteres correspondente nas tabelas abaixo (por exemplo, para substituir uma cadeia de caracteres que é traduzida no idioma do usuário atual) e deve ignorar o valor definido em **dispidFlagRequest** ([ PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
+Se essa propriedade for definida, os clientes deverão usar o valor de cadeia de caracteres correspondente nas tabelas abaixo (por exemplo, para substituir uma cadeia de caracteres traduzida no idioma do usuário atual) e devem ignorar o valor definido em **dispidFlagRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
-Os padrões sugeridos para os objetos de contato do usuário são os seguintes:
+Os padrões sugeridos para o usuário para objetos de contato são:
   
 |**Valor**|**Cadeia de caracteres em inglês**|
 |:-----|:-----|
-|0x00000000 ou não presente  <br/> | Siga as orientações relacionadas à exibição do **dispidFlagRequest**.  <br/> |
+|0x00000000 ou não está presente  <br/> | Siga as orientações relacionadas à **exibição de dispidFlagRequest**.  <br/> |
 |0x0000006E  <br/> |"Acompanhamento"  <br/> |
-|0x0000006F  <br/> |Receptor  <br/> |
+|0x0000006F  <br/> |"Call"  <br/> |
 |0x00000070  <br/> |"Organizar reunião"  <br/> |
-|0x00000071  <br/> |"Enviar email"  <br/> |
-|0x00000072  <br/> |"Enviar carta"  <br/> |
+|0x00000071  <br/> |"Enviar Email"  <br/> |
+|0x00000072  <br/> |"Enviar Carta"  <br/> |
    
-Os padrões sugeridos para o usuário para todos os outros objetos de mensagem são os seguintes:
+Os padrões sugeridos para o usuário para todos os outros objetos de mensagem são:
   
 |**Valor**|**Cadeia de caracteres em inglês**|
 |:-----|:-----|
-|0x00000000 ou não presente  <br/> | Siga as orientações relacionadas à exibição do **dispidFlagRequest**.  <br/> |
-|0x00000001  <br/> |Receptor  <br/> |
-|0x00000002  <br/> |"Não enCaminhar"  <br/> |
+|0x00000000 ou não está presente  <br/> | Siga as orientações relacionadas à **exibição de dispidFlagRequest**.  <br/> |
+|0x00000001  <br/> |"Call"  <br/> |
+|0x00000002  <br/> |"Não Encaminhar"  <br/> |
 |0x00000003  <br/> |"Acompanhamento"  <br/> |
 |0x00000004  <br/> |"Para suas informações"  <br/> |
-|0x00000005  <br/> |Direta  <br/> |
+|0x00000005  <br/> |"Encaminhar"  <br/> |
 |0x00000006  <br/> |"Nenhuma resposta necessária"  <br/> |
-|0x00000007  <br/> |Saiba  <br/> |
-|0x00000008  <br/> |Resposta  <br/> |
-|0x00000009  <br/> |"Responder a todos"  <br/> |
-|Interrupção  <br/> |Exame  <br/> |
+|0x00000007  <br/> |"Leitura"  <br/> |
+|0x00000008  <br/> |"Responder"  <br/> |
+|0x00000009  <br/> |"Responder a Todos"  <br/> |
+|0x0000000A  <br/> |"Revisão"  <br/> |
    
 Todas as cadeias de caracteres especificadas acima podem ser traduzidas para o idioma do usuário, se apropriado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -94,7 +94,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

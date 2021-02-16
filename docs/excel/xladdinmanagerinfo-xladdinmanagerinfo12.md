@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAddInManagerInfo
 keywords:
-- função xlAddInManagerInfo [Excel 2007]
+- Função xladdinmanagerinfo [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,13 +22,13 @@ ms.locfileid: "33407792"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chamado pelo Microsoft Excel quando o Gerenciador de suplementos é chamado pela primeira vez em uma sessão do Excel. Essa função é usada para fornecer informações sobre o suplemento ao Gerenciador de suplementos.
+Chamado pelo Microsoft Excel quando o Gerenciador de Complementos é invocado pela primeira vez em uma sessão do Excel. Essa função é usada para fornecer ao Add-In Do usuário informações sobre o seu complemento.
   
-O Excel 2007 e versões posteriores chamam **xlAddInManagerInfo12** em preferência para **xlAddInManagerInfo** se exportados pelo XLL. A função **xlAddInManagerInfo12** deve funcionar da mesma maneira que o **xlAddInManagerInfo** para evitar diferenças específicas de versão no comportamento do XLL. O Excel espera que **xlAddInManagerInfo12** retorne um tipo de dados **XLOPER12** , enquanto **xlAddInManagerInfo** deve retornar um **XLOPER**.
+O Excel 2007 e versões posteriores chamam **xlAddInManagerInfo12** de preferência para **xlAddInManagerInfo** se exportado pelo XLL. A **função xlAddInManagerInfo12** deve funcionar da mesma maneira que **xlAddInManagerInfo** para evitar diferenças específicas de versão no comportamento do XLL. O Excel espera **que xlAddInManagerInfo12** retorne um tipo de dados **XLOPER12,** enquanto **xlAddInManagerInfo** deve retornar um **XLOPER**.
   
-A função **xlAddInManagerInfo12** não é chamada por versões do Excel anteriores ao Excel 2007, pois elas não dão suporte ao **XLOPER12**.
+A **função xlAddInManagerInfo12** não é chamada por versões do Excel anteriores ao Excel 2007, pois elas não têm suporte para **XLOPER12**.
   
-O Excel não requer que um XLL implemente e exporte uma dessas funções.
+O Excel não exige um XLL para implementar e exportar qualquer uma dessas funções.
   
 ```cs
 LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
@@ -37,19 +37,19 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## <a name="parameters"></a>Parâmetros
 
- _pxAction:_ Um ponteiro para um **XLOPER numérico/XLOPER12** (**xltypeInt** ou **xltypeNum**).
+ _pxAction:_ Um ponteiro para um **XLOPER/XLOPER12** numérico (**xltypeInt** ou **xltypeNum**).
   
 As informações que o Excel está solicitando.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se _pxAction_ for, ou puder ser forçado, o número 1, então a implementação dessa função deverá retornar uma cadeia de caracteres contendo algumas informações sobre o suplemento, normalmente seu nome e, talvez, um número de versão. Caso contrário, ele deve retornar #VALUE!. 
+Se  _pxAction_ for ou puder ser coerced para o número 1, sua implementação dessa função deverá retornar uma cadeia de caracteres contendo algumas informações sobre o complemento, normalmente seu nome e talvez um número de versão. Caso contrário, ele deve retornar #VALUE!. 
   
 Se você não retornar uma cadeia de caracteres, o Excel tentará converter o valor retornado em uma cadeia de caracteres.
   
 ## <a name="remarks"></a>Comentários
 
-Se a cadeia de caracteres retornada apontar para um buffer alocado dinamicamente, você deverá garantir que esse buffer seja eventualmente liberado. Se a cadeia de caracteres tiver sido alocada pelo Excel, faça isso Configurando **xlbitXLFree**. Se a cadeia de caracteres foi alocada pela DLL, você faz isso **definindo xlbitDLLFree**, e você também deve implementar [no xlAutoFree](xlautofree-xlautofree12.md) (se você estiver retornando um **XLOPER**) ou **xlAutoFree12** (se você estiver retornando um **XLOPER12**).
+Se a cadeia de caracteres retornada aponta para buffer alocado dinamicamente, você deve garantir que esse buffer seja liberado eventualmente. Se a cadeia de caracteres foi alocada pelo Excel, faça isso definindo **xlbitXLFree**. Se a cadeia de caracteres foi alocada pela DLL, você faz isso definindo **xlbitDLLFree** e também deve implementar em [xlAutoFree](xlautofree-xlautofree12.md) (se você estiver retornando um **XLOPER**) ou **xlAutoFree12** (se estiver retornando um **XLOPER12**).
   
 ## <a name="example"></a>Exemplo
 

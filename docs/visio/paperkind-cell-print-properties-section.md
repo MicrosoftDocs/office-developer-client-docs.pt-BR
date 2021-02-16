@@ -22,9 +22,9 @@ Especifica o tipo de papel no qual a página será impressa.
   
 ## <a name="remarks"></a>Comentários
 
-Essa configuração corresponde à configuração **tamanho do papel** da caixa de diálogo **Configurar impressão** (na guia **design** , clique na seta **Configurar página** e, na guia **Configurar impressão** , clique no botão **Configurar** ). 
+Essa configuração corresponde  à configuração  Tamanho do Papel na caixa de  diálogo Configurar Impressão (na guia **Design,** clique na seta Configurar Página e, na guia Configurar Impressão, clique no botão Configurar).   
   
-Os valores numéricos nesta célula são mapeados como constantes (prefixadas com DMPAPER) definidas para seleções de papel no arquivo WinGDI. h do Microsoft Windows. 
+Os valores numéricos nesta célula são mapeados para constantes (prefixadas com DMPAPER) definidas para seleções de papel no arquivo wingdi.h do Microsoft Windows. 
   
 Para obter uma referência para a célula PaperKind pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -38,6 +38,6 @@ Para obter uma referência para a célula PaperKind pelo índice a partir de um 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
-|Índice da célula:  <br/> |**visPrintPropertiesPaperKind** <br/> |
+|Índice de célula:  <br/> |**visPrintPropertiesPaperKind** <br/> |
    
 

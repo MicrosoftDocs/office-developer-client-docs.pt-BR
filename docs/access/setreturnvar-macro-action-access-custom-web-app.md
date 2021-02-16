@@ -1,5 +1,5 @@
 ---
-title: Ação de macro SetReturnVar (aplicativo Web personalizado do Access)
+title: Ação de Macro DefinirVarVar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409591"
 ---
-# <a name="setreturnvar-macro-action-access-custom-web-app"></a>Ação de macro SetReturnVar (aplicativo Web personalizado do Access)
+# <a name="setreturnvar-macro-action-access-custom-web-app"></a>Ação de Macro DefinirVarVar (aplicativo Web personalizado do Access)
 
-A ação **SetReturnVar** cria uma variável de retorno e a define como um valor específico. 
+A **ação SetReturnVar** cria uma variável de retorno e a define como um valor específico. 
   
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
-> A ação **SetReturnVar** está disponível somente em macros de dados. 
+> A **ação DefinirVarReturna** está disponível somente em Macros de Dados. 
   
 ## <a name="setting"></a>Setting
 
-A ação **SetReturnVar** tem os seguintes argumentos. 
+A **ação SetReturnVar** tem os seguintes argumentos. 
   
 |**Nome do argumento**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
@@ -35,12 +35,12 @@ A ação **SetReturnVar** tem os seguintes argumentos.
    
 ## <a name="remarks"></a>Comentários
 
-A ação **SetReturnVar** é usada para criar um **ReturnVar**, que é variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro** . 
+A **ação SetReturnVar** é usada para criar uma **Variável** RetornarVar , que é uma variável que pode ser usada por macros que chamam uma macro de dados usando a ação **RunDataMacro.** 
   
-Depois que um **ReturnVar** é criado pela ação **SetReturnVar** , a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou um **ReturnVar** chamado **UpdateSuccess**, poderia usar a variável usando a seguinte sintaxe:
+Depois que **umaVar Retornada** é criada pela **ação DefinirVarVaária,** a macro de chamada pode usá-la em uma expressão. Por exemplo, se você criou uma **ReturnVar** chamada **UpdateSuccess,** poderá usar a variável usando a seguinte sintaxe:
   
 `=[ReturnVars]![UpdateSuccess]`
 
-A ação **SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ele não está disponível em macros de dados anexadas a um evento de macro de dados. 
+A **ação SetReturnVar** pode ser usada somente em macros de dados nomeadas. Ela não está disponível em macros de dados anexadas a um evento de macro de dados. 
   
 

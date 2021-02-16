@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357292"
 ---
-# <a name="mapiinit0"></a>MAPIINIT_0
+# <a name="mapiinit_0"></a>MAPIINIT_0
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Transmite opções para a função [MAPIInitialize](mapiinitialize.md) . 
+Transmite opções para a [função MAPIInitialize.](mapiinitialize.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIX. 0  <br/> |
+|Arquivo de cabeçalho:  <br/> |MAPIX. H  <br/> |
    
 ```cpp
 typedef struct
@@ -44,29 +44,29 @@ typedef struct
 
  **ulVersion**
   
-> Um valor inteiro que representa o número da versão da estrutura **MAPIINIT_0** . O membro **ulVersion** é para expansão futura e não representa a versão da interface MAPI. No momento, **ulVersion** deve ser definido como MAPI_INIT_VERSION. 
+> Um valor inteiro que representa o número de versão do **MAPIINIT_0** estrutura. O **membro ulVersion** é para expansão futura e não representa a versão da interface MAPI. Atualmente, **ulVersion** deve ser definido como MAPI_INIT_VERSION. 
     
  **ulFlags**
   
-> A bitmask dos sinalizadores usados para controlar a inicialização da sessão MAPI. Os seguintes sinalizadores podem ser definidos:
+> A máscara de bits de sinalizadores usada para controlar a inicialização da sessão MAPI. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_MULTITHREAD_NOTIFICATIONS 
   
-> O MAPI deve gerar notificações usando um thread dedicado a tratamento de notificação em vez do primeiro thread usado para chamar o **MAPIInitialize**.
+> MAPI should generate notifications using a thread dedicated to notification handling instead of the first thread used to call **MAPIInitialize**.
     
 MAPI_NT_SERVICE 
   
-> O chamador está sendo executado como um serviço do Windows. Os chamadores que não estão sendo executados como um serviço do Windows não devem definir esse sinalizador; os chamadores que estão executando como um serviço devem definir esse sinalizador.
+> O chamador está sendo executado como um serviço do Windows. Os chamadores que não estão sendo executados como um serviço do Windows não devem definir esse sinalizador; os chamadores que estão sendo executados como um serviço devem definir esse sinalizador.
     
 MAPI_NO_COINIT
   
-> Defina o sinalizador MAPI_NO_COINT para que o **MAPIInitialize** não tente inicializar com com uma chamada para CoInitialize. [](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx) Se uma estrutura **MAPIINIT_0** for passada para o **MAPIInitialize** com _parâmetroulflags_ definido como MAPI_NO_COINIT, o MAPI presumirá que com já tenha sido inicializado e ignorará a chamada para o CoInitialize. ****
+> De definida MAPI_NO_COINT sinalizador para que **MAPIInitialize** não tente inicializar COM com uma chamada para [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Se uma estrutura **MAPIINIT_0** for passada para **MAPIInitialize** com  _ulFlags_ definido como MAPI_NO_COINIT, o MAPI assumirá que COM já foi inicializado e ignorará a chamada para **CoInitialize**.
     
 ## <a name="remarks"></a>Comentários
 
-Clientes multissegmentados devem definir o sinalizador MAPI_MULTITHREAD_NOTIFICATIONS. Se o sinalizador não for definido, as notificações serão geradas no thread usado para fazer a primeira chamada a **MAPIInitialize**. 
+Clientes multithreaded devem definir o sinalizador MAPI_MULTITHREAD_NOTIFICATIONS leitura. Se o sinalizador não estiver definido, as notificações serão geradas no thread usado para fazer a primeira chamada para **MAPIInitialize**. 
   
-Para obter mais informações sobre quando definir esse sinalizador e como implementar a segurança de thread em um cliente, consulte [Threading in MAPI](threading-in-mapi.md). 
+Para obter mais informações sobre quando definir esse sinalizador e como implementar a segurança de thread em um cliente, consulte [Threading em MAPI](threading-in-mapi.md). 
   
 ## <a name="see-also"></a>Confira também
 

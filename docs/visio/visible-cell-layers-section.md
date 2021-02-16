@@ -27,20 +27,20 @@ Especifica se as formas pertencentes à camada ficarão visíveis na página de 
    
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção **visível** na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e em Propriedades da **camada** ). 
+Essa célula corresponde à opção  Visível na caixa de  diálogo Propriedades  da Camada (na guia Início, no grupo Edição, clique em Camadas e em Propriedades da **Camada).**   
   
 Para obter uma referência para a célula Visible pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers. Visible [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers.Visible[ *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Visible pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visLayerVisible** <br/> |
+|Índice de linha:  <br/> |**visRowLayer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visLayerVisible** <br/> |
    
 

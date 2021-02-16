@@ -21,11 +21,11 @@ ms.locfileid: "33409542"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Executa a mesma função da função [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) , exceto pelo fato de que a função **HrOpenABEntryWithProviderUIDSupport** abre a entrada usando o objeto de suporte fornecido em vez de usar a sessão e o catálogo de endereços. 
+Executa a mesma função que a função [HrOpenABEntryWithProviderUID,](hropenabentrywithprovideruid.md) exceto que a função **HrOpenABEntryWithProviderUIDSupport** abre a entrada usando o objeto de suporte determinado em vez de usar a sessão e o livro de endereços. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |abhelp. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -46,7 +46,7 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
 
  _pEmsabpUID_
   
-> no Um ponteiro para um parâmetro _emsabpUID_ que identifica o provedor do catálogo de endereços do Exchange que essa função deve usar para exibir detalhes sobre o identificador de entrada. Se o identificador de entrada de entrada não for um identificador de entrada do provedor de catálogo de endereços do Exchange, esse parâmetro será ignorado e a chamada de função atuará exatamente como [IAddrBook::D etails](iaddrbook-details.md). Se esse parâmetro for nulo ou um MAPIUID zero, essa função também funcionará exatamente como [IAddrBook::D etails](iaddrbook-details.md).
+> [in] Um ponteiro para  _um parâmetro emsabpUID_ que identifica o provedor do address book do Exchange que essa função deve usar para exibir detalhes sobre o identificador de entrada. Se o identificador de entrada de entrada não for um identificador de entrada do provedor de endereços do Exchange, esse parâmetro será ignorado e a chamada de função agirá exatamente como [IAddrBook::D etails](iaddrbook-details.md). Se esse parâmetro for NULL ou zero MAPIUID, essa função também atuará exatamente como [IAddrBook::D etails](iaddrbook-details.md).
     
  _lpSup_
   
@@ -54,42 +54,42 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
     
  _cbEntryID_
   
-> no A contagem de bytes do identificador de entrada especificado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte do identificador de entrada especificado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada que representa a entrada do catálogo de endereços a ser aberta.
+> [in] Um ponteiro para o identificador de entrada que representa a entrada do livro de endereços a ser aberta.
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) da interface a ser usado para acessar a entrada aberta. Passar NULL retorna a interface padrão do objeto. Para usuários de mensagens, a interface padrão é [IMailUser: IMAPIProp](imailuserimapiprop.md). Para listas de distribuição, é [IDistList: IMAPIContainer](idistlistimapicontainer.md)e para contêineres é [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Os chamadores podem definir _lpInterface_ como a interface padrão apropriada ou uma interface na hierarquia de herança. 
+> [in] Um ponteiro para o IID (identificador de interface) da interface a ser usada para acessar a entrada aberta. Passar NULL retorna a interface padrão do objeto. Para usuários de mensagens, a interface padrão [é IMailUser : IMAPIProp](imailuserimapiprop.md). Para listas de distribuição, é [IDistList : IMAPIContainer](idistlistimapicontainer.md)e para contêineres é [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Os chamadores podem definir  _lpInterface_ como a interface padrão apropriada ou uma interface na hierarquia de herança. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de texto para o parâmetro _lpszButtonText_ . Os seguintes sinalizadores podem ser definidos: 
+> [in] Uma bitmask de sinalizadores que controla o tipo de texto para o _parâmetro lpszButtonText._ Os sinalizadores a seguir podem ser definidos: 
     
 AB_TELL_DETAILS_CHANGE
   
-> Indica que os detalhes retorna TRUE se as alterações forem realmente feitas no endereço; caso contrário, Details retornará FALSE.
+> Indica que Details retornará TRUE se as alterações realmente foram feitas no endereço; Caso contrário, Details retornará FALSE.
     
 DIALOG_MODAL
   
-> Exibe a versão modal da caixa de diálogo endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_SDI.
+> Exibe a versão modal da caixa de diálogo de endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_SDI.
     
 DIALOG_SDI
   
-> Exibe a versão sem janela restrita da caixa de diálogo de endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_MODAL.
+> Exibe a versão sem modo da caixa de diálogo de endereço comum. Esse sinalizador é mutuamente exclusivo com DIALOG_MODAL.
     
 MAPI_UNICODE
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _lpulObjType_
   
-> bota Um ponteiro para o tipo de entrada aberta.
+> [out] Um ponteiro para o tipo de entrada aberta.
     
  _lppUnk_
   
-> bota Um ponteiro para um ponteiro da entrada aberta.
+> [out] Um ponteiro para um ponteiro da entrada aberta.
     
 

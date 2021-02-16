@@ -18,7 +18,7 @@ ms.locfileid: "33406448"
 ---
 # <a name="x-cell-controls-section"></a>Célula X (Seção Controls)
 
-Representa a coordenada *x* que indica o local da alça de controle de uma forma em coordenadas locais. 
+Representa a  *coordenada x*  que indica o local da alça de controle de uma forma em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,14 +26,14 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Menores.  *nome* . X onde Controls.  *Name* é o nome da linha de controles.  <br/> |
+| Nome da célula:  <br/> | Controles.  *nome*  . X onde Controls.  *é*  o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionControls** <br/> |
-| Índice de linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowControl**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCtlX** <br/> |
    
 

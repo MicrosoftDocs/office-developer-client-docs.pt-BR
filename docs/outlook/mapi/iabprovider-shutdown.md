@@ -37,7 +37,7 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> No Serve deve ser um ponteiro para zero.
+> [In] Reservado; deve ser um ponteiro para zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Na sua implementação do método **Shutdown** , execute qualquer tarefa que você considere necessário. O MAPI chama seu método **Shutdown** somente depois que você lançou todos os objetos de logon. 
+Na implementação do método **Shutdown,** execute as tarefas que considerar necessárias. MAPI calls your **Shutdown** method only after you have released all your logon objects. 
   
 ## <a name="see-also"></a>Confira também
 

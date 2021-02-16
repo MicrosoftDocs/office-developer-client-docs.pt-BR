@@ -21,14 +21,14 @@ ms.locfileid: "33409150"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para localizar o ícone associado a uma mensagem**
+ **Para encontrar o ícone associado a uma mensagem**
   
-1. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps da mensagem para recuperar sua propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. Chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) da mensagem para recuperar sua **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) .
     
-2. Chame [MAPIOpenFormMgr](mapiopenformmgr.md) para recuperar um ponteiro de interface **IMAPIFormMgr** . Passe o ponteiro do **IMAPISession** no parâmetro _pSession_ . 
+2. Chame [MAPIOpenFormMgr para](mapiopenformmgr.md) recuperar um ponteiro de interface **IMAPIFormMgr.** Passe seu **ponteiro IMAPISession** no parâmetro _pSession._ 
     
-3. Chame [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar um ponteiro de interface do **IMAPIFormInfo** . 
+3. Chame [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar um ponteiro da interface **IMAPIFormInfo.** 
     
-4. Use o **ponteiro IMAPIFormInfo** para chamar [IMAPIProp::](imapiprop-getprops.md) GetProps e recuperar as propriedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) e/ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. Use o ponteiro **IMAPIFormInfo** para chamar [IMAPIProp::GetProps](imapiprop-getprops.md) e recuperar as propriedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) e/ou **PR_MINI_ICON** ([PidTagMiniIcon).](pidtagminiicon-canonical-property.md) 
     
 

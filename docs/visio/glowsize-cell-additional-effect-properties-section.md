@@ -1,5 +1,5 @@
 ---
-title: Célula GlowSize (seção Additional Effect Properties)
+title: Célula GlowSize (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409528"
 ---
-# <a name="glowsize-cell-additional-effect-properties-section"></a>Célula GlowSize (seção Additional Effect Properties)
+# <a name="glowsize-cell-additional-effect-properties-section"></a>Célula GlowSize (Seção Additional Effect Properties)
 
 Determina o tamanho do brilho externo de uma forma em pontos. 
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **GlowSize** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **GlowSize** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | GlowSize  <br/> |
    
-Para obter uma referência para a célula **GlowSize** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **GlowSize** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Índice da célula:  <br/> |**visGlowSize** <br/> |
+| Índice de célula:  <br/> |**visGlowSize** <br/> |
    
 

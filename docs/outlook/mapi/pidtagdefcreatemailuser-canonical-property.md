@@ -25,7 +25,7 @@ ms.locfileid: "33407477"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada de modelo para um objeto de usuário de mensagem padrão. 
+Contém o identificador de entrada de modelo para um objeto de usuário de mensagens padrão. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o identificador de entrada de modelo para um objeto de usuário de mensa
    
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos cliente usam essa propriedade para criar um objeto de usuário de mensagens dentro de um contêiner. O suporte à criação de entrada é opcional para contêineres do catálogo de endereços; os que não oferecem suporte a ele não são necessários para expor essa propriedade. 
+Os aplicativos cliente usam essa propriedade para criar um objeto de usuário de mensagens dentro de um contêiner. O suporte à criação de entradas é opcional para contêineres de livro de endereços; aqueles que não suportam essa propriedade não são necessários para expor essa propriedade. 
   
-Esta propriedade especifica uma entrada que pode aparecer na propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) para usuários de mensagens. Após obter o identificador, o cliente o usará em uma chamada para o método [IABContainer:: createentry](iabcontainer-createentry.md) . A entrada representa o modelo do usuário de mensagens padrão. 
+Esta propriedade especifica uma entrada que pode aparecer na propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) para usuários de mensagens. Depois de obter o identificador, o cliente o usa em uma chamada para o [método IABContainer::CreateEntry.](iabcontainer-createentry.md) A entrada representa o modelo para o usuário de mensagens padrão. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

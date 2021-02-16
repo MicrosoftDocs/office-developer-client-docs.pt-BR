@@ -18,7 +18,7 @@ ms.locfileid: "33410592"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>Célula LocPinY (Seção Shape Transform)
 
-Representa a coordenada *y* do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinY é: 
+Representa a coordenada  *y*  do pino da forma (centro de rotação) em relação à origem da forma. A fórmula padrão para determinar a célula LocPinY é: 
   
 = Altura \* 0,5
   

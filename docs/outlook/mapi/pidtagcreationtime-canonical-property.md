@@ -25,7 +25,7 @@ ms.locfileid: "32357894"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora de criação de uma mensagem. 
+Contém a data e a hora de criação de uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém a data e hora de criação de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Um repositório de mensagens define essa propriedade para cada mensagem que ela cria.
+Um armazenamento de mensagens define essa propriedade para cada mensagem que ele cria.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

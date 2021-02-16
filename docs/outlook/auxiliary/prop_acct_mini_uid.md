@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409430"
 ---
-# <a name="propacctminiuid"></a>PROP_ACCT_MINI_UID
+# <a name="prop_acct_mini_uid"></a>PROP_ACCT_MINI_UID
 
 Retorna um identificador de conta exclusivo nos perfis do Outlook.
   
@@ -33,7 +33,7 @@ Confira [IOlkAccount](iolkaccount.md).
 
 Use essa propriedade por meio [IOlkAccount::GetProp](iolkaccount-getprop.md). Se o cliente tentar definir essa propriedade, essa propriedade retornará **E_OLK_PROP_READ_ONLY**. 
   
-Essa propriedade é diferente de [PROP_ACCT_ID](prop_acct_id.md) , pois seu valor identifica exclusivamente a conta dentro e fora do perfil no qual a conta foi criada, enquanto **PROP_ACCT_ID** é exclusiva somente entre todas as contas dentro de um perfil em que a conta foi criada. Quando uma mensagem com essas propriedades é móvel para um segundo computador com um perfil do Outlook diferente e um conjunto diferente de contas, o **PROP_ACCT_MINI_UID** pode identificar exclusivamente a conta original no perfil original. No enTanto, **PROP_ACCT_ID** pode possivelmente entrar em conflito com uma conta no perfil do segundo computador. 
+Essa propriedade é diferente do PROP_ACCT_ID porque seu valor identifica exclusivamente [a](prop_acct_id.md) conta dentro e fora do perfil no qual a conta foi criada, enquanto o PROP_ACCT_ID é exclusivo apenas entre todas as contas nesse perfil em que **a** conta foi criada. Quando uma mensagem com essas propriedades percorre um segundo computador com um perfil do Outlook diferente e um conjunto diferente de contas, o **PROP_ACCT_MINI_UID** pode identificar exclusivamente a conta original no perfil original. No **entanto, PROP_ACCT_ID** pode entrar em conflito com uma conta no perfil do segundo computador. 
   
 ## <a name="see-also"></a>Confira também
 

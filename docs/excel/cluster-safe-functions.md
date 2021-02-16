@@ -18,33 +18,33 @@ ms.locfileid: "33409297"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-No Excel 2013, o Excel pode descarregar chamadas de função definida pelo usuário (UDF) para um cluster de computação de alto desempenho por meio de uma interface de conector de cluster dedicado. Os fornecedores de cluster de computação fornecem conectores de cluster. Os autores de UDF podem declarar seus UDFs como seguros de cluster e, quando um conector de cluster estiver presente, o Excel enviará chamadas para esses UDFs para o conector de cluster para descarregamento.
+No Excel 2013, o Excel pode descarregar chamadas User-Defined Function (UDF) para um cluster de computação de alto desempenho por meio de uma interface de conector de cluster dedicada. Os fornecedores de cluster de computação fornecem Conectores de Cluster. Os autores UDF podem declarar suas UDFs como seguras de cluster e, quando um conector de cluster estiver presente, o Excel envia chamadas para essas UDFs para o conector de cluster para descarregamento.
   
-Quando o Excel descobre um UDF seguro de cluster durante o recálculo, ele passa o nome do XLL atualmente em execução, o nome do UDF com segurança de cluster e todos os parâmetros para o conector de cluster. O conector executa a chamada UDF remotamente e retorna os resultados para o Excel. O cálculo não dependente continua e quando o conector do cluster termina de executar o UDF, ele passa os resultados para o Excel e os cálculos dependentes continuam. O mecanismo para esse comportamento assíncrono imita o mecanismo usado por UDFs assíncronas, exceto pelo fato de o conector de cluster gerenciar os aspectos assíncronos em vez do autor do UDF. Normalmente, um conector de cluster implementa uma Shim de XLL para carregar XLLs e executar UDFs em nós de cluster de computadores.
+Quando o Excel descobre uma UDF segura para cluster durante o recálculo, ele passa o nome do XLL em execução no momento, o nome da UDF segura para cluster e quaisquer parâmetros para o conector do cluster. O conector executa a chamada UDF remotamente e retorna os resultados para o Excel. O cálculo não dependente continua e, quando o conector de cluster termina de executar o UDF, ele passa os resultados para o Excel e os cálculos dependentes continuam. O mecanismo para esse comportamento assíncrono imita o mecanismo usado por UDFs assíncronas, exceto que o conector de cluster gerencia os aspectos assíncronos em vez do autor UDF. Normalmente, um conector de cluster implementa um shim XLL para carregar XLLs e executar UDFs em nós de cluster de computação.
   
-A mecânica da declaração de UDFs como em cluster é semelhante àquelas da declaração de UDFs como seguros para o recálculo de vários threads. No enTanto, como o UDF não está necessariamente em execução no mesmo computador que outros UDFs da mesma sessão do Excel, há diferentes considerações ao gravar UDFs com segurança de cluster.
+A mecânica de declaração de UDFs como seguras para cluster é semelhante às de declarar UDFs como seguras para recálculo multi-threaded. No entanto, como o UDF não está necessariamente sendo executado no mesmo computador que outras UDFs da mesma sessão do Excel, há considerações diferentes ao escrever UDFs seguras para cluster.
   
-Para registrar um UDF como protegido por cluster, você deve chamar a função de retorno de chamada [xlfRegister (formulário 1)](xlfregister-form-1.md) através da interface **Excel12** ou **Excel12v** . Para obter mais informações sobre essas interfaces, consulte o [Excel4/Excel12](excel4-excel12.md) e o [Excel4v/Excel12v](excel4v-excel12v.md). Não há suporte para o registro de um UDF como protegido por cluster por meio da interface **Excel4** ou **Excel4v** . 
+Para registrar uma UDF como segura para cluster, você deve chamar a função de retorno de chamada [xlfRegister (Formulário 1)](xlfregister-form-1.md) por meio da interface **Excel12** ou **Excel12v.** Para obter mais informações sobre essas interfaces, consulte [Excel4/Excel12](excel4-excel12.md) e [Excel4v/Excel12v](excel4v-excel12v.md). Não há suporte para o registro de uma UDF como segura para cluster por meio da interface **Excel4** ou **Excel4v.** 
   
-Se você registrar uma função como segura para cluster, deverá garantir que a função se comformará em um modo de segurança do cluster. Embora o comportamento exato do conector de cluster seja específico da implementação, você deve projetar seu UDF para ser executado em um sistema de computador distribuído e ter as seguintes características:
+Se você registrar uma função como segura para cluster, deverá garantir que a função se comporte de maneira segura para cluster. Embora o comportamento exato do conector de cluster seja específico da implementação, você deve projetar o UDF para ser executado em um sistema de computador distribuído e ter as seguintes características:
   
-- Um UDF não deve depender de nenhum estado de memória. Por exemplo, um UDF não deve confiar em um cache existente na memória.
+- Uma UDF não deve depender de nenhum estado de memória. Por exemplo, uma UDF não deve depender de um cache existente na memória.
     
-- Um UDF não deve executar retornos de chamada do Excel para os quais o provedor do conector de cluster não ofereça suporte.
+- A UDF should not perform Excel callbacks that the cluster connector provider does not support.
     
-Além do comportamento de cluster seguro, existem as seguintes restrições técnicas em UDFs com segurança de cluster:
+Além do comportamento seguro para cluster, há as seguintes restrições técnicas em UDFs seguras para cluster:
   
-1. Nenhum argumento XLOPER (tipos ' P ', ' R ').
+1. Nenhum argumento XLOPER (tipos 'P', 'R').
     
-2. Nenhum argumento XLOPER12 que oferece suporte a referências de intervalo (tipo ' U ').
+2. Nenhum argumento XLOPER12 que suporte referências de intervalo (tipo 'U').
     
-3. Não pode ser uma função equivalente de planilha de macro (' #&amp;' e ' ' não podem ser combinados).
+3. Não pode ser uma função equivalente de planilha de macro ('#' e &amp; ' ' não podem ser combinadas).
     
-Para UDFs com tempos de execução mais curtos, a sobrecarga de descarregamento pode ser maior do que o tempo que o UDF leva para ser executado, eliminando muitos dos benefícios de usar essa infraestrutura.
+Para UDFs com tempos de execução mais curtos, a sobrecarga de descarregamento pode ser maior do que o tempo que leva para a UDF ser executada, anulando muitos dos benefícios de usar essa infraestrutura.
   
 > [!NOTE]
-> Você não pode declarar um UDF com segurança de cluster como um UDF assíncrono. 
+> Você não pode declarar uma UDF segura para cluster como uma UDF assíncrona. 
   
-Um UDF pode determinar se ele está sendo executado usando um conector de cluster chamando a função de retorno de chamada [xlRunningOnCluster](xlrunningoncluster.md) . 
+Uma UDF pode determinar se está sendo executado usando um conector de cluster chamando a função de retorno de chamada [xlRunningOnCluster.](xlrunningoncluster.md) 
   
 

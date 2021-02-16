@@ -29,9 +29,9 @@ ms.locfileid: "33408177"
     
 - [Funções matemáticas (aplicativo Web personalizado do Access)](math-functions-access-custom-web-app.md)
     
-- [Funções de fluxo de programa (aplicativo Web personalizado do Access)](program-flow-functions-access-custom-web-app.md)
+- [Funções de fluxo de programas (aplicativo Web personalizado do Access)](program-flow-functions-access-custom-web-app.md)
     
-- [Funções de texto (aplicativo da Web personalizado do Access)](text-functions-access-custom-web-app.md)
+- [Funções de texto (aplicativo Web personalizado do Access)](text-functions-access-custom-web-app.md)
     
 - [Operadores (aplicativo Web personalizado do Access)](operators-access-custom-web-app.md)
     

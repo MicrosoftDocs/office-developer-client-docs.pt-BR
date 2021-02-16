@@ -33,33 +33,33 @@ Fornece dicas de otimização sobre os destinatários de uma tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008120  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se definido, essa propriedade deve ser definida como uma operação bit a bit **ou** como zero ou mais dos seguintes valores. 
+Se definida, essa propriedade deve ser definida como uma operação **OR** bit a bit igual a zero ou mais dos valores a seguir. 
   
 |**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|Enviado  <br/> |0x00000001  <br/> |A tarefa tem vários destinatários primários.  <br/> |
-|Received  <br/> |0x00000002  <br/> |Embora a dica sent não estivesse presente, o cliente detectou que a tarefa tem vários destinatários primários.  <br/> |
+|Sent  <br/> |0x00000001  <br/> |A tarefa tem vários destinatários principais.  <br/> |
+|Received  <br/> |0x00000002  <br/> |Embora a dica de Enviada não estava presente, o cliente detectou que a tarefa tem vários destinatários principais.  <br/> |
 |Reserved  <br/> |0x00000004  <br/> |Esse valor é reservado.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -71,7 +71,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408247"
 ---
-# <a name="propacctstamp"></a>PROP_ACCT_STAMP
+# <a name="prop_acct_stamp"></a>PROP_ACCT_STAMP
 
 Retorna o carimbo da conta.
   

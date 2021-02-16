@@ -25,34 +25,34 @@ ms.locfileid: "32360722"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de um descritor de modo de exibição.
+Contém o nome de um descritor de exibição.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identificador:  <br/> |0x7006  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Transmissão definida pela classe da mensagem-transmittable  <br/> |
+|Área:  <br/> |Message class-defined transmitable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser definidas como uma cadeia de caracteres não vazia para uma mensagem de informações de associação de pasta (FAI) que contenha definições de exibição.
+Essas propriedades devem ser definidas como uma cadeia de caracteres não vazia para uma mensagem FAI (Informações de Associação de Pastas) que contenha definições de exibição.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica o local e as propriedades dos dados de configuração de cliente e de servidor, como listas de categorias compartilhadas e horários de trabalho.
+> Especifica o local e as propriedades dos dados de configuração do cliente e do servidor, como listas de categorias compartilhadas e horas de trabalho.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

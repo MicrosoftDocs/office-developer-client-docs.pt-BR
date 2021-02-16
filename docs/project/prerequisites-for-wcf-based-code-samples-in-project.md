@@ -179,7 +179,7 @@ As etapas a seguir mostram como definir uma referência de serviço usando o Vis
       > [!NOTE]
       > Pode haver mais de um diretório virtual do Serviço do Project Server. Escolha o diretório virtual que contém a instância do Project Web App que você deseja. 
   
-   - Use o cmdlet **get-SPServiceApplication** no Windows PowerShell que é instalado com o SharePoint 2013. No menu **Iniciar** da barra de tarefas, escolha **Todos os Programas**, escolha **Produtos do Microsoft SharePoint 2013** e, em seguida, escolha **Shell de Gerenciamento do SharePoint 2013 **. Veja a seguir o comando e os resultados na janela **SharePoint 2013get- Management Shell** para os aplicativos de serviço definidos (seu GUIDs serão diferentes). Copie o GUID para o aplicativo do Serviço do Project Server. 
+   - Use o cmdlet **get-SPServiceApplication** no Windows PowerShell que é instalado com o SharePoint 2013. No menu **Iniciar** da barra de tarefas, escolha **Todos os Programas**, escolha **Produtos do Microsoft SharePoint 2013** e, em seguida, escolha **Shell de Gerenciamento do SharePoint 2013**. Veja a seguir o comando e os resultados na janela **SharePoint 2013get- Management Shell** para os aplicativos de serviço definidos (seu GUIDs serão diferentes). Copie o GUID para o aplicativo do Serviço do Project Server. 
     
         ```powershell
             PS > get-SPServiceApplication

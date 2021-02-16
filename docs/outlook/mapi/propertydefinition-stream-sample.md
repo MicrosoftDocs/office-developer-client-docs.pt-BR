@@ -17,11 +17,11 @@ ms.locfileid: "33406658"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico descreve um exemplo de um fluxo do PropertyDefinition. O Stream contém uma definição de um campo definido pelo usuário `TextField1`. O tipo é **texto**e a definição está no formato PropDefV2.
+Este tópico descreve um exemplo de um fluxo PropertyDefinition. O fluxo contém uma definição de um campo definido pelo usuário,  `TextField1` . O tipo é **Texto** e a definição está no formato PropDefV2.
   
 ## <a name="data-dump"></a>Despejo de dados
 
-O seguinte é um despejo de dados do Stream como seria exibido em um editor binário.
+A seguir está um despejo de dados do fluxo, como seria exibido em um editor binário.
   
 |Deslocamento de fluxo|Bytes de dados|Dados ASCII|
 |:-----|:-----|:-----|
@@ -34,80 +34,80 @@ O seguinte é um despejo de dados do Stream como seria exibido em um editor bin�
    
 Veja a seguir uma análise dos dados de exemplo para o fluxo PropertyDefinition:
   
-- Versão: offset 0x0, 2 bytes: 0x0103 (PropDefV2).
+- Versão: Deslocamento 0x0, 2 bytes: 0x0103 (PropDefV2).
     
-- FieldDefinitionCount: offset 0x2, 4 bytes: 0x1 (1).
+- FieldDefinitionCount: deslocamento 0x2, 4 bytes: 0x1 (1).
     
-- FieldDefinitions: offset 0x6, matriz de 1 FieldDefinition Stream.
+- FieldDefinitions: Deslocamento 0x6, matriz de 1 fluxo FieldDefinition.
     
-  - Sinalizadores: offset 0x6, 4 bytes: 0x45 (PDO_IS_CUSTOM | PDO_PRINT_SAVEAS | PDO_PRINT_SAVEAS_DEF).
+  - Sinalizadores: Deslocamento 0x6, 4 bytes: 0x45 (PDO_IS_CUSTOM| PDO_PRINT_SAVEAS| PDO_PRINT_SAVEAS_DEF).
     
-  - VT: offset 0xA, 2 bytes: 0x8 (**VT_BSTR**).
+  - VT: deslocamento 0xA, 2 bytes: 0x8 (**VT_BSTR**).
     
-  - DispId: offset 0xC, 4 bytes: 0x0 (0).
+  - DispId: deslocamento 0xC, 4 bytes: 0x0 (0).
     
-  - NmidNameLength: offset 0x10, 2 bytes: 0xA (10).
+  - NmidNameLength: deslocamento 0x10, 2 bytes: 0xA (10).
     
-  - NmidName: offset 0x12, matriz de 10 WCHAR. Valor da cadeia de caracteres Unicode: "TextField1".
+  - NmidName: deslocamento 0x12, matriz de 10 WCHARs. Valor da cadeia de caracteres Unicode: "TextField1".
     
-  - NameANSI: offset 0x26, PackedAnsiString Stream.
+  - NameANSI: deslocamento 0x26, fluxo PackedAnsiString.
     
-    - Comprimento: offset 0x26, 1 byte: 0xA (10).
+    - Comprimento: deslocamento 0x26, 1 byte: 0xA (10).
       
-    - Caracteres: offset 0x27, matriz de 10 caracteres. Valor da cadeia de caracteres ANSI: "TextField1".
+    - Caracteres: Deslocamento 0x27, matriz de 10 CHARs. Valor da cadeia de caracteres ANSI: "TextField1".
     
-  - FormulaANSI: offset 0x31, PackedAnsiString Stream.
+  - FormulaANSI: deslocamento 0x31, fluxo PackedAnsiString.
     
-    - Comprimento: offset 0x31, 1 byte: 0x0 (0).
+    - Comprimento: deslocamento 0x31, 1 byte: 0x0 (0).
       
-    - Caracteres: offset 0x32, matriz de 0 caracteres. Cadeia de caracteres ANSI vazia.
+    - Caracteres: Deslocamento 0x32, matriz de 0 CHARs. Cadeia de caracteres ANSI vazia.
     
-  - ValidationRuleANSI: offset 0x32, PackedAnsiString Stream.
+  - ValidationRuleANSI: deslocamento 0x32, fluxo PackedAnsiString.
     
-    - Comprimento: offset 0x32, 1 byte: 0x0 (0).
+    - Comprimento: deslocamento 0x32, 1 byte: 0x0 (0).
       
-    - Caracteres: offset 0x33, matriz de 0 caracteres. Cadeia de caracteres ANSI vazia.
+    - Caracteres: Deslocamento 0x33, matriz de 0 CHARs. Cadeia de caracteres ANSI vazia.
     
-  - ValidationTextANSI: offset 0x33, PackedAnsiString Stream.
+  - ValidationTextANSI: deslocamento 0x33, fluxo PackedAnsiString.
     
-    - Comprimento: offset 0x33, 1 byte: 0x0 (0).
+    - Comprimento: deslocamento 0x33, 1 byte: 0x0 (0).
       
-    - Caracteres: offset 0x34, matriz de 0 caracteres. Cadeia de caracteres ANSI vazia.
+    - Caracteres: Deslocamento 0x34, matriz de 0 CHARs. Cadeia de caracteres ANSI vazia.
     
-  - ErrorANSI: offset 0x34, PackedAnsiString Stream.
+  - ErrorANSI: deslocamento 0x34, fluxo PackedAnsiString.
     
-    - Comprimento: offset 0x34, 1 byte: 0x0 (0).
+    - Comprimento: deslocamento 0x34, 1 byte: 0x0 (0).
       
-    - Caracteres: offset 0x35, matriz de 0 caracteres. Cadeia de caracteres ANSI vazia.
+    - Caracteres: Deslocamento 0x35, matriz de 0 CHARs. Cadeia de caracteres ANSI vazia.
     
-  - InternalType: offset 0x35, 4 bytes: 0x0 (iTypeString).
+  - InternalType: deslocamento 0x35, 4 bytes: 0x0 (iTypeString).
     
-  - SkipBlocks: offset 0x39, série de fluxos do SkipBlock.
+  - SkipBlocks: Deslocamento 0x39, série de fluxos SkipBlock.
     
-  - Primeira SkipBlock
+  - First SkipBlock
     
-    - Tamanho: offset 0x39, 4 bytes: 0x15 (21).
+    - Tamanho: deslocamento 0x39, 4 bytes: 0x15 (21).
       
-    - Content: offset 0x3D, matriz de 21 bytes. Este é o primeiro fluxo de SkipBlock, portanto, esta matriz contém um fluxo FirstSkipBlockContent.
+    - Conteúdo: deslocamento 0x3D, matriz de 21 bytes. Este é o primeiro fluxo SkipBlock, portanto, essa matriz contém um fluxo FirstSkipBlockContent.
       
-      - FieldName: offset 0x3D, PackedUnicodeString Stream.
+      - FieldName: deslocamento 0x3D, fluxo PackedUnicodeString.
         
-        - Comprimento: offset 0x3D, 1 byte: 0xA (10).
+        - Comprimento: deslocamento 0x3D, 1 byte: 0xA (10).
           
-        - Caracteres: offset 0x3E, matriz de 10 WCHAR. Valor da cadeia de caracteres Unicode: "TextField1".
+        - Caracteres: deslocamento 0x3E, matriz de 10 WCHARs. Valor da cadeia de caracteres Unicode: "TextField1".
     
-  - Segunda SkipBlock
+  - Segundo SkipBlock
     
-    - Tamanho: offset 0x52, 4 bytes: 0x0 (0). Este é o fluxo de SkipBlock de terminação.
+    - Tamanho: deslocamento 0x52, 4 bytes: 0x0 (0). Este é o fluxo SkipBlock de encerramento.
     
 ## <a name="see-also"></a>Confira também
 
 - [Campos e itens do Outlook](outlook-items-and-fields.md)
 - [Estruturas de fluxo](stream-structures.md)
 - [Estrutura de fluxo PropertyDefinition](propertydefinition-stream-structure.md)
-- [Estrutura de fluxo FieldDefinition](fielddefinition-stream-structure.md)
+- [Estrutura de Fluxo de FieldDefinition](fielddefinition-stream-structure.md)
 - [Estrutura de fluxo SkipBlock](skipblock-stream-structure.md)
-- [Estrutura de fluxo FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
-- [Estrutura de fluxo PackedAnsiString](packedansistring-stream-structure.md)
-- [Estrutura de fluxo PackedUnicodeString](packedunicodestring-stream-structure.md)
+- [Estrutura de fluxo firstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+- [Estrutura de fluxo de PackedAnsiString](packedansistring-stream-structure.md)
+- [Estrutura de fluxo de PackedUnicodeString](packedunicodestring-stream-structure.md)
 

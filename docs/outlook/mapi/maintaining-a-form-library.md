@@ -1,5 +1,5 @@
 ---
-title: Mantendo uma biblioteca de formulários
+title: Mantendo uma biblioteca de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408800"
 ---
-# <a name="maintaining-a-form-library"></a>Mantendo uma biblioteca de formulários
+# <a name="maintaining-a-form-library"></a>Mantendo uma biblioteca de formulário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma biblioteca de formulários contém todas as informações importantes sobre um formulário: suas propriedades, seus verbos e os arquivos executáveis do servidor. Alguns clientes permitem que seus usuários mantenham, instalem ou removam servidores de formulários. Se quiser oferecer esse recurso aos seus usuários, você deve ter acesso ao:
+Uma biblioteca de formulário contém todas as informações importantes sobre um formulário: suas propriedades, seus verbos e seus arquivos executáveis do servidor. Alguns clientes permitem que seus usuários mantenham, instalem ou removam servidores de formulário. Se quiser oferecer esse recurso aos usuários, você deve ter acesso a:
   
-- O arquivo de configuração do servidor de formulário, um arquivo com o. Extensão CFG.
+- O arquivo de configuração do servidor de formulário, um arquivo com o . Extensão CFG.
     
-- O objeto contêiner da biblioteca de formulários, um objeto que implementa a interface [IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md) . 
+- O objeto contêiner da biblioteca de formulário, um objeto que implementa [o IMAPIFormContainer : interface IUnknown.](imapiformcontaineriunknown.md) 
     
-Para acessar o arquivo de configuração ou um nome de caminho para ele, use o que for conveniente. Normalmente, os clientes apresentam ao usuário uma caixa de diálogo para instalar e remover servidores de formulários que também podem ser usados para solicitar ao usuário o local do arquivo de configuração.
+Para acessar o arquivo de configuração ou um nome de caminho a ele, use qualquer meio que seja conveniente. Normalmente, os clientes apresentam ao usuário uma caixa de diálogo para instalar e remover servidores de formulário que também podem ser usados para solicitar ao usuário o local do arquivo de configuração.
   
-Para acessar o contêiner da biblioteca de formulários, chame o método [IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md) do gerente de formulários. Passe um valor de enumeração para especificar qual biblioteca de formulários será aberta e, se necessário, um ponteiro para o objeto que o gerente de formulários deve usar para abrir a biblioteca de formulários. Por exemplo, se você estiver abrindo uma [biblioteca de formulários de pasta](folder-form-libraries.md), passe um ponteiro de [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) . 
+Para acessar o contêiner da biblioteca de formulário, chame o método [IMAPIFormMgr::OpenFormContainer do](imapiformmgr-openformcontainer.md) gerenciador de formulário. Passe um valor de enumeração para especificar qual biblioteca de formulário abrir e, se necessário, um ponteiro para o objeto que o gerenciador de formulário deve usar para abrir a biblioteca de formulário. For example, if you are opening a [Folder Form Libraries](folder-form-libraries.md), pass an [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) pointer. 
   
-Após **OpenFormContainer** retornar o ponteiro **IMAPIFormContainer** , chame [IMAPIFormContainer:: InstallForm](imapiformcontainer-installform.md) ou [IMAPIFormContainer:: RemoveForm](imapiformcontainer-removeform.md), dependendo da manutenção a ser executada. **InstallForm** adiciona um servidor de formulários à biblioteca; **RemoveForm** exclui um servidor de formulários da biblioteca. 
+Depois que **OpenFormContainer** retornar o ponteiro **IMAPIFormContainer,** chame [IMAPIFormContainer::InstallForm](imapiformcontainer-installform.md) ou [IMAPIFormContainer::RemoveForm](imapiformcontainer-removeform.md), dependendo da manutenção a ser executada. **InstallForm** adiciona um servidor de formulário à biblioteca; **RemoveForm** exclui um servidor de formulário da biblioteca. 
   
 

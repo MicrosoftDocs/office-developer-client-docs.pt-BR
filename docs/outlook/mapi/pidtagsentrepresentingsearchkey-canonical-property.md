@@ -36,49 +36,49 @@ Contém a chave de pesquisa para o usuário de mensagens representado pelo remet
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é uma das propriedades de endereço do usuário de mensagens que está sendo representada pelo remetente. Quando um aplicativo cliente envia uma mensagem em nome de outro cliente, ele deve definir todas as propriedades de remetente representadas para os valores desse cliente. Um usuário de mensagens enviando em seu próprio nome normalmente deixa as propriedades do remetente representadas como não contratadas.
+Essa propriedade é uma das propriedades de endereço do usuário de mensagens que está sendo representado pelo remetente. Quando um aplicativo cliente envia uma mensagem em nome de outro cliente, ele deve definir todas as propriedades do remetente representado para os valores desse cliente. Um usuário de mensagens que envia em seu próprio nome normalmente deixa as propriedades do remetente representadas desaperadas.
   
-O provedor de transporte de saída sempre deve deixar essa propriedade inalterada se tiver sido definida pelo cliente de envio. Se estiver indefinido, o provedor de transporte deve defini-lo como **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) na cópia de saída da mensagem e deixá-lo desdefinido na cópia local.
+O provedor de transporte de saída deve sempre deixar essa propriedade inalterada se tiver sido definida pelo cliente de envio. Se não for definido, o provedor de transporte deverá defini-la como **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) na cópia de saída da mensagem e deixá-la desa definida na cópia local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para objetos post.
+> Especifica as propriedades e operações que são permitidas para postagem de objetos.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para listas de contato e de distribuição pessoal.
+> Especifica as propriedades e operações que são permitidas para listas de contatos e distribuição pessoal.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -90,7 +90,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

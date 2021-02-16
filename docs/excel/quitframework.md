@@ -22,7 +22,7 @@ ms.locfileid: "33408569"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A função da biblioteca de estrutura que não inicializa a biblioteca de estrutura, que simplesmente reinicializa as estruturas de dados de memória de**XLOPER12** de **XLOPER**/ temporários, liberando qualquer memória que já tenha sido alocada. 
+Função de biblioteca de estrutura que não inicializa a biblioteca framework, que simplesmente rea inicializa as estruturas de dados de memória /  **XLOPER XLOPER12** temporárias, liberando qualquer memória que já tenha sido alocada. 
   
 ```cs
 short WINAPI QuitFramework(void);
@@ -34,7 +34,7 @@ Essa função não usa argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Essa função não retorna um valor.
+Esta função não retorna um valor.
   
 ## <a name="see-also"></a>Confira também
 

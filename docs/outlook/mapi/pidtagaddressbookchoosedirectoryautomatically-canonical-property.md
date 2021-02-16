@@ -21,7 +21,7 @@ ms.locfileid: "33409661"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolha a lista de endereços global (GAL) ou a pasta de contatos mais apropriada para a caixa de correio atual.
+Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolham a lista de endereços global (GAL) ou a pasta de contatos mais apropriada para a caixa de correio atual.
   
 |||
 |:-----|:-----|
@@ -32,17 +32,17 @@ Permite que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolha a lista 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade corresponde à opção **escolher automaticamente** na caixa de diálogo opções do catálogo de endereços. Quando essa propriedade existe na seção perfil do IID_CAPONE_PROF e é definida como **true**, a caixa de diálogo catálogo de endereços não é mais padrão para o contêiner especificado pelo método [SetDefaultDir](iaddrbook-setdefaultdir.md) , mas escolhe um catálogo de endereços que o Outlook 2010 ou o Outlook 2013 considera apropriado para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de catálogos de endereços de terceiros. 
+Essa propriedade corresponde à configuração Escolher **automaticamente** na caixa de diálogo Opções do Address Book. Quando essa propriedade existe na seção de perfil do IID_CAPONE_PROF e está definida como **true**, a caixa de diálogo do Address Book não é mais padrão para o contêiner especificado pelo método [SetDefaultDir,](iaddrbook-setdefaultdir.md) mas escolhe um livro de endereços que o Outlook 2010 ou o Outlook 2013 considera apropriado para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de agendas de terceiros. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -56,7 +56,7 @@ Mapidefs. h
   
 [Constantes MAPI](mapi-constants.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

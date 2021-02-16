@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
-description: 'Última modificação: 02 de julho de 2012'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "33408983"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Antes de poder fazer logon em MAPI em um provedor de repositório PST encapsulado, você deve inicializar e configurar o provedor de repositório de arquivos de pastas particulares (PST). Para obter mais informações, consulte [inicialização de um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md).
+Antes de fazer logoff no MAPI para um provedor de armazenamento PST empacotado, você deve inicializar e configurar o provedor de armazenamento PST (arquivo de Pastas Particulares) empacotado. Para obter mais informações, consulte [Inicializando um provedor de armazenamento PST.](initializing-a-wrapped-pst-store-provider.md)
   
-Depois de inicializar e configurar um provedor de repositório PST encapsulado, você deve implementar duas rotinas de logon. A função **[IMSProvider:: logon](imsprovider-logon.md)** faz logon em MAPI para o provedor de repositório PST encapsulado. A função **[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** registra o spooler MAPI no provedor de repositório PST encapsulado. 
+Depois de inicializar e configurar um provedor de armazenamento PST, você deve implementar duas rotinas de logon. A **[função IMSProvider::Logon](imsprovider-logon.md)** faz logon no MAPI para o provedor de armazenamento PST empacotado. A **[função IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** registra no spooler MAPI para o provedor de armazenamento PST empacotado. 
   
-Neste tópico, a função **IMSProvider:: logon** e a função **IMSProvider:: SpoolerLogon** são demonstradas usando exemplos de código do provedor de repositório PST encapsulado de amostra. O exemplo implementa um provedor de PST encapsulado destinado a ser usado em conjunto com a API de replicação. Para obter mais informações sobre como baixar e instalar o exemplo de provedor de repositório PST encapsulado, consulte [instalando o provedor de repositório PST encapsulado de amostra](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de replicação, consulte [About The Replication API](about-the-replication-api.md).
+Neste tópico, a função **IMSProvider::Logon** e a função **IMSProvider::SpoolerLogon** são demonstradas usando exemplos de código do Sample Wrapped PST Store Provider. O exemplo implementa um provedor PST empacotado que se destina a ser usado em conjunto com a API de Replicação. Para obter mais informações sobre como baixar e instalar o Sample Wrapped PST Store Provider, consulte [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Para obter mais informações sobre a API de Replicação, consulte [Sobre a API de Replicação.](about-the-replication-api.md)
   
-Após MAPI e o spooler MAPI conectado ao provedor de repositório PST encapsulado, ele está pronto para ser usado. Para obter mais informações, consulte [usar um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md).
+Depois que o MAPI e o spooler MAPI são conectados ao provedor de armazenamento PST disposto, ele está pronto para ser usado. Para obter mais informações, consulte [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md).
   
-## <a name="mapi-logon-routine"></a>Rotina de logon de MAPI
+## <a name="mapi-logon-routine"></a>Rotina de logon MAPI
 
-Após a inicialização do provedor de repositório PST encapsulado, você deve implementar a função **[IMSProvider:: logon](imsprovider-logon.md)** para fazer logon no MAPI no repositório PST encapsulado. Essa função valida as credenciais do usuário e obtém as propriedades de configuração do provedor. Você também deve implementar a `SetOLFIInOST` função para definir as informações de arquivo offline (**[OLFI](olfi.md)** ). **OLFI** é uma fila de estruturas de ID de longo prazo que é usada pelo provedor de repositório PST encapsulado para atribuir uma ID de entrada para uma nova mensagem ou pasta no modo offline. Por fim, a função **IMSProvider:: logon** retorna um objeto de repositório de mensagens que o spooler MAPI e os aplicativos cliente podem fazer logon `ppMDB` no parâmetro. 
+Depois que o provedor de armazenamento PST empacotado for inicializado, você deverá implementar a função **[IMSProvider::Logon](imsprovider-logon.md)** para fazer logon no MAPI para o armazenamento PST empacotado. Essa função valida as credenciais do usuário e obtém as propriedades de configuração do provedor. Você também deve implementar a `SetOLFIInOST` função para definir as Informações do Arquivo Offline **[(OLFI).](olfi.md)** **O OLFI** é uma fila de estruturas de ID de longo prazo usada pelo provedor de armazenamento PST empacotado para atribuir uma ID de entrada para uma nova mensagem ou pasta no modo offline. Por fim, a **função IMSProvider::Logon** retorna um objeto de armazenamento de mensagens em que o spooler MAPI e os aplicativos cliente podem fazer logon no  `ppMDB` parâmetro. 
   
-### <a name="cmsproviderlogon-example"></a>CMSProvider:: logon () exemplo
+### <a name="cmsproviderlogon-example"></a>Exemplo de CMSProvider::Logon()
 
 ```cpp
 STDMETHODIMP CMSProvider::Logon( 
@@ -101,11 +101,11 @@ STDMETHODIMP CMSProvider::Logon(
 }
 ```
 
-## <a name="mapi-spooler-logon-routine"></a>Rotina de logon do spooler MAPI
+## <a name="mapi-spooler-logon-routine"></a>Rotina de logon do Spooler MAPI
 
-Semelhante a **IMSProvider:: logon**, você deve implementar a função **[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** para registrar o spooler MAPI no repositório PST encapsulado. Um objeto de repositório de mensagens que os aplicativos cliente e spooler MAPI podem fazer logon é retornado no `ppMDB` parâmetro. 
+Semelhante a **IMSProvider::Logon**, você deve implementar a função **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** para fazer logon do spooler MAPI no armazenamento PST empacotado. Um objeto de armazenamento de mensagens no que o spooler MAPI e os aplicativos cliente podem fazer logoff é retornado no  `ppMDB` parâmetro. 
   
-### <a name="cmsproviderspoolerlogon-example"></a>Exemplo de CMSProvider:: SpoolerLogon ()
+### <a name="cmsproviderspoolerlogon-example"></a>Exemplo de CMSProvider::SpoolerLogon()
 
 ```cpp
 STDMETHODIMP CMSProvider::SpoolerLogon ( 
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre o exemplo de provedor de repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md) 
-- [Instalando o provedor de repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md) 
-- [Inicializando um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
-- [Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
-- [DesLigamento de um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Sobre o provedor de armazenamento PST com conteúdo de exemplo](about-the-sample-wrapped-pst-store-provider.md) 
+- [Instalando o provedor de armazenamento PST com conteúdo de exemplo](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Inicializando um provedor de armazenamento PST empacotado](initializing-a-wrapped-pst-store-provider.md)
+- [Usando um provedor de armazenamento PST empacotado](using-a-wrapped-pst-store-provider.md)
+- [Desligar um provedor de armazenamento PST empacotado](shutting-down-a-wrapped-pst-store-provider.md)
 

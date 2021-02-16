@@ -25,13 +25,13 @@ ms.locfileid: "33406028"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gerencia um formulário no Visualizador de formulários de um aplicativo cliente. 
+Gerencia um formulário no visualizador de formulário de um aplicativo cliente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Exposto por:  <br/> |Exibir objetos de contexto  <br/> |
-|Implementado por:  <br/> |Visualizadores de formulários  <br/> |
+|Implementado por:  <br/> |Visualizadores de formulário  <br/> |
 |Chamado por:  <br/> |Objetos de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIViewContext  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
@@ -41,11 +41,11 @@ Gerencia um formulário no Visualizador de formulários de um aplicativo cliente
 |||
 |:-----|:-----|
 |[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gerencia o registro de um formulário para receber notificações sobre alterações no visualizador.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Ativa a mensagem seguinte ou anterior no Visualizador de formulários.  <br/> |
-|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Recupera as informações de impressão atuais.  <br/> |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Ativa a mensagem seguinte ou anterior no visualizador de formulário.  <br/> |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Recupera informações de impressão atuais.  <br/> |
 |[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Recupera um fluxo a ser usado para salvar a mensagem atual.  <br/> |
 |[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera o status atual do visualizador.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorre no objeto de contexto View.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior que ocorre no objeto de contexto de exibição.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

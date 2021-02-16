@@ -25,11 +25,11 @@ ms.locfileid: "33407239"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma [](entryid.md) estrutura ENTRYID mais uma contagem de bytes que especifica o tamanho da **** estrutura ENTRYID. 
+Uma [estrutura ENTRYID](entryid.md) mais uma contagem de byte que especifica o tamanho da **estrutura ENTRYID.** 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> Contagem de bytes no membro **abEntry** . 
+> Contagem de bytes no **membro abEntry.** 
     
  **abEntry**
   
@@ -53,15 +53,15 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **FLATENTRY** lembra de uma estrutura [EntryID](entryid.md) . No enTanto, há algumas diferenças: 
+Uma **estrutura FLATENTRY** é semelhante a [uma estrutura ENTRYID.](entryid.md) No entanto, há algumas diferenças: 
   
-- Uma estrutura **FLATENTRY** armazena o tamanho do identificador de entrada; **EntryID** não. 
+- Uma **estrutura FLATENTRY** armazena o tamanho do identificador de entrada; **ENTRYID** não. 
     
-- Uma estrutura **FLATENTRY** armazena os dados de sinalizador junto com o resto do identificador de entrada; **EntryID** as armazena separadamente. 
+- Uma **estrutura FLATENTRY** armazena os dados de sinalizador junto com o restante do identificador de entrada; **ENTRYID** os armazena separadamente. 
     
-- Uma estrutura **FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes, enquanto uma estrutura **EntryID** é usada pelos métodos da interface [IMAPIProp](imapipropiunknown.md) e pelos seguintes métodos de **OpenEntry** : [IABLogon: : OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:](imapicontainer-openentry.md): OpenEntry, [IMAPISession:](imapisession-openentry.md): OpenEntry, [](imapisupport-openentry.md)IMAPISupport [:](imsgstore-openentry.md)OpenEntry, IMsgStore:: OpenEntry [](imslogon-openentry.md)
+- Uma estrutura **FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes, enquanto uma estrutura **ENTRYID** é usada pelos métodos de interface [IMAPIProp](imapipropiunknown.md) e pelos seguintes métodos **OpenEntry:** [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     
-- Uma estrutura **FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes. Uma **** estrutura ENTRYID é usada para armazenar um identificador de entrada no disco. 
+- Uma **estrutura FLATENTRY** é usada para armazenar um identificador de entrada em um arquivo ou passá-lo em um fluxo de bytes. Uma **estrutura ENTRYID** é usada para armazenar um identificador de entrada no disco. 
     
 ## <a name="see-also"></a>Confira também
 

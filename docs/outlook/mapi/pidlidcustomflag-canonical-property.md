@@ -25,7 +25,7 @@ ms.locfileid: "32357614"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma bitmask que especifica como uma mensagem é personalizada, por exemplo, salva com as propriedades personalizadas.
+Uma máscara de bits que especifica como uma mensagem é personalizada, por exemplo, salva com propriedades personalizadas.
   
 ## 
 
@@ -37,9 +37,9 @@ Uma bitmask que especifica como uma mensagem é personalizada, por exemplo, salv
    
 ## <a name="remarks"></a>Comentários
 
-Para recuperar o valor dessa propriedade, primeiro use **[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** para obter a marca de propriedade e, em seguida, especifique essa marca de propriedade em **[IMAPIProp::](imapiprop-getprops.md)** GetProps para obter o valor. 
+Para recuperar o valor dessa propriedade, primeiro use **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** para obter a marca de propriedade e especifique essa marca de propriedade em **[IMAPIProp::GetProps](imapiprop-getprops.md)** para obter o valor. 
   
-Os sinalizadores possíveis são os seguintes:
+Os Sinalizadores possíveis são os seguinte:
   
 ****
 
@@ -48,11 +48,11 @@ Os sinalizadores possíveis são os seguintes:
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-Ao chamar **IMAPIProp:: GetIDsFromNames**, especifique os seguintes valores para a estrutura **[MAPINAMEID](mapinameid.md)** apontada pelo parâmetro de entrada *lppPropNames* . 
+Ao chamar **IMAPIProp::GetIDsFromNames**, especifique os seguintes valores para a **[estrutura MAPINAMEID](mapinameid.md)** apontada pelo parâmetro de entrada  *lppPropNames*  . 
   
 ****
 
-|**Member**|**Valor**|
+|**Membro**|**Valor**|
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_ID  <br/> |
@@ -60,19 +60,19 @@ Ao chamar **IMAPIProp:: GetIDsFromNames**, especifique os seguintes valores para
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece definições de conjunto de propriedades.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -84,7 +84,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

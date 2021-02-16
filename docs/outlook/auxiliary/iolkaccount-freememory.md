@@ -16,7 +16,7 @@ ms.locfileid: "33406196"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-Libera memória alocada pela interface [IOlkAccount](iolkaccount.md) . 
+Libera memória alocada pela interface [IOlkAccount.](iolkaccount.md) 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -31,9 +31,9 @@ HRESULT IOlkAccount::FreeMemory (
 
 ## <a name="parameters"></a>Parâmetros
 
-_PV_
+_pv_
   
-> no Um ponteiro para que a memória seja liberada.
+> [in] Um ponteiro para a memória a ser liberado.
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -41,7 +41,7 @@ S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Use este método para liberar memória alocada por [IOlkAccount:: GetProp](iolkaccount-getprop.md) (se o valor da propriedade de conta especificada for um tipo de cadeia de caracteres ou binário) e [IOlkAccount:: GetAccountInfo](iolkaccount-getaccountinfo.md).
+Use este método para liberar memória alocada por [IOlkAccount::GetProp](iolkaccount-getprop.md) (se o valor da propriedade da conta especificada for um tipo binário ou de cadeia de caracteres) e [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
   
 ## <a name="see-also"></a>Confira também
 

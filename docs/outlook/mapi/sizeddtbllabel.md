@@ -23,11 +23,11 @@ ms.locfileid: "33408611"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLLABEL](dtbllabel.md) para descrever um controle Label e o rótulo associado de um comprimento especificado. 
+Cria uma estrutura nomeada que inclui uma estrutura [DTBLLABEL](dtbllabel.md) para descrever um controle label e o rótulo associado de um comprimento especificado. 
   
 |||
 |:-----|:-----|
-|Especificado no arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Especificado no arquivo de header:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ SizedDtblLabel (n, u)
 
 _n_
   
-> Comprimento do rótulo. Isso inclui o caractere final nulo. 
+> Comprimento do rótulo. Isso inclui o caractere NULL final. 
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblLabel** permite definir um rótulo de exibição da tabela quando o número de caracteres no rótulo é conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblLabel** permite definir um rótulo de tabela de exibição quando o número de caracteres no rótulo for conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblLabel** como um ponteiro de estrutura **DTBLLABEL** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblLabel** como um ponteiro de estrutura **DTBLLABEL,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;

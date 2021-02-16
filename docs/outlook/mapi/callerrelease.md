@@ -25,11 +25,11 @@ ms.locfileid: "33408723"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que pode liberar um objeto Table Data quando um modo de exibição de tabela está sendo liberado. 
+Define uma função de retorno de chamada que pode liberar um objeto de dados de tabela quando um exibição de tabela está sendo liberado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Função definida implementada por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
 |Função definida chamada por:  <br/> |MAPI  <br/> |
    
@@ -45,15 +45,15 @@ void CALLERRELEASE(
 
  _ulCallerData_
   
-> no Dados do chamador salvos por MAPI com o modo de exibição de tabela e passados para a função de retorno de chamada baseada em **CALLERRELEASE** . Os dados fornecem contexto sobre a exibição da tabela que está sendo liberada. 
+> [in] Dados do chamador salvos por MAPI com o exibição de tabela e passados para a função de retorno de chamada baseada em **CALLERRELEASE.** Os dados proporcionam contexto sobre a exibição de tabela que está sendo liberada. 
     
  _lpTblData_
   
-> no Ponteiro para a interface [ITableData: IUnknown](itabledataiunknown.md) do objeto de dados de tabela subjacente à exibição da tabela que está sendo liberada. 
+> [in] Ponteiro para a [interface ITableData : IUnknown](itabledataiunknown.md) para o objeto de dados de tabela subjacente à exibição de tabela que está sendo liberada. 
     
  _lpVue_
   
-> no Ponteiro para a interface imApitable [: IUnknown](imapitableiunknown.md) para o modo de exibição de tabela que está sendo liberado. Esta é uma interface para o objeto Table retornada no parâmetro _lppMAPITable_ do método [ITableData:: HrGetView](itabledata-hrgetview.md) que criou o objeto a ser liberado. 
+> [in] Ponteiro para a [interface IMAPITable : IUnknown](imapitableiunknown.md) para o exibição de tabela que está sendo liberado. Esta é uma interface para o objeto table retornado no parâmetro  _lppMAPITable_ do método [ITableData::HrGetView](itabledata-hrgetview.md) que criou o objeto a ser liberado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,8 +61,8 @@ Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente ou provedor de serviços que tenha preenchido um objeto de dados de tabela pode chamar [ITableData:: HrGetView](itabledata-hrgetview.md) para criar um modo de exibição de somente leitura e classificado da tabela. A chamada para **HrGetView** passa um ponteiro para uma função de retorno de chamada baseada em **CALLERRELEASE** e também um contexto a ser salvo com o modo de exibição de tabela. Quando a contagem de referência do modo de exibição de tabela retornar a zero e o modo de exibição **** estiver sendo liberado, a implementação imapitada chamará a função de retorno de chamada, passando o contexto no parâmetro _ulCallerData_ . 
+Um aplicativo cliente ou provedor de serviços que preencheu um objeto de dados de tabela pode chamar [ITableData::HrGetView](itabledata-hrgetview.md) para criar uma exibição de somente leitura e classificação da tabela. A chamada para **HrGetView** passa um ponteiro para uma função de retorno de chamada baseada em **CALLERRELEASE** e também um contexto a ser salvo com o exibição de tabela. Quando a contagem de referência do exibição de tabela retorna para zero e o exibição está sendo liberado, a implementação **IMAPITable** chama a função de retorno de chamada, passando o contexto no _parâmetro ulCallerData._ 
   
-Um uso comum de uma função de retorno de chamada baseada em **CALLERRELEASE** é liberar o objeto de dados da tabela subjacente e não ter que controlá-lo durante o processamento subsequente. 
+Um uso comum de uma função de retorno de chamada baseada em **CALLERRELEASE** é liberar o objeto de dados da tabela subjacente e não precisa rastreá-lo durante o processamento subsequente. 
   
 

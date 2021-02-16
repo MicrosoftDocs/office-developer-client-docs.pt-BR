@@ -25,26 +25,26 @@ ms.locfileid: "32356977"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Acessa recursos de um provedor de repositório de arquivos de pastas particulares (PST).
+Acessa recursos de um provedor de armazenamento de pastas particulares (PST).
   
 |||
 |:-----|:-----|
 |Herda de:  <br/> |IUnknown  <br/> |
-|Implementado por:  <br/> |Provedor de repositório PST  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Implementado por:  <br/> |Provedor de armazenamento PST  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Inicia o procedimento de desbloqueio para um arquivo de pastas particulares (. pst).  <br/> |
+|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Inicia o procedimento de desbloqueio para um arquivo de Pastas Particulares (.pst).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Os identificadores de interface do manipulador de substituição de PST podem não ser definidos no arquivo de cabeçalho que pode ser baixado e, nesse caso, você irá encontrá-los no tópico de [constantes de MAPI](mapi-constants.md) e pode copiá-los e adicioná-los ao seu código. Use a macro DEFINE_GUID definida no arquivo de cabeçalho do Microsoft Windows Software Development Kit (SDK) guiddef. h para associar nomes simbólicos de identificador global exclusivo (GUID) a seus valores. 
+Os Identificadores da Interface do Manipulador de Substituição de PST podem não estar definidos no arquivo de header baixável que você tem atualmente, nesse caso, você os encontrará no tópico Constantes de [MAPI](mapi-constants.md) e poderá copiá-los e adicioná-los ao seu código. Use a DEFINE_GUID macro definida no arquivo de título guiddef.h do Microsoft Software Development Kit do Windows (SDK) para associar nomes simbólicos de identificador global exclusivo (GUID) a seus valores. 
   
-Para obter mais informações, consulte [como implementar um manipulador de substituição de PST para ignorar a política PSTDisableGrow no Outlook 2007](https://support.microsoft.com/kb/956070).
+For more information see [How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Confira também
 

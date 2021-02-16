@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- expressão de avaliação [Excel 2007], planilhas [Excel 2007], avaliação de nomes, avaliando expressões [Excel 2007], avaliando nomes de planilhas [Excel 2007], expressões [Excel 2007], avaliando, nomes [Excel 2007], avaliando, avaliação de nomes [Excel 2007] , cadeias de caracteres [Excel 2007], convertendo em valores, função xlfEvaluate [Excel 2007], planilhas [Excel 2007], avaliação de expressões
+- avaliação de expressão [excel 2007],planilhas [Excel 2007], avaliação de nome, avaliação de expressões [Excel 2007], avaliação de nomes de planilha [Excel 2007],expressões [Excel 2007], avaliação, nomes [Excel 2007], avaliação, avaliação de nome [Excel 2007],cadeias de caracteres [Excel 2007], conversão em valores,função xlfEvaluate [Excel 2007],planilhas [Excel 2007], avaliação de expressão
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,7 +20,7 @@ ms.locfileid: "33406861"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Um dos recursos mais importantes que o Excel expõe por meio da API C é a capacidade de converter qualquer fórmula de cadeia de caracteres que possa ser inserida legalmente em uma planilha para um valor ou uma matriz de valores. Isso é essencial para funções e comandos XLL que devem ler o conteúdo de nomes definidos, por exemplo. Essa capacidade é exposta através da [função xlfEvaluate](xlfevaluate.md), conforme mostrado neste exemplo.
+Um dos recursos mais importantes que o Excel expõe por meio da API de C é a capacidade de converter qualquer fórmula de cadeia de caracteres que possa ser inserida legalmente em uma planilha em um valor ou em uma matriz de valores. Isso é essencial para funções e comandos XLL que devem ler o conteúdo de nomes definidos, por exemplo. Essa capacidade é exposta por meio [da função xlfEvaluate](xlfevaluate.md), conforme mostrado neste exemplo.
   
 ```C
 int WINAPI evaluate_name_example(void)
@@ -41,25 +41,25 @@ int WINAPI evaluate_name_example(void)
 }
 ```
 
-Observe que, quando você estiver avaliando um nome de planilha, seja por sua própria ou em uma fórmula, você deve prefixar o nome com '! ', pelo menos. Caso contrário, o Excel tentará encontrar o nome em um namespace oculto reservado para DLLs. Você pode criar e excluir nomes de DLL ocultos usando a [função xlfSetName](xlfsetname.md). Você pode obter a definição de qualquer nome definido, seja um nome de DLL ou um nome de planilha oculto, usando a função **xlfGetDef** . 
+Observe que, ao avaliar um nome de planilha, por conta própria ou em uma fórmula, você deve prefixar o nome com '!', pelo menos. Caso contrário, o Excel tentará encontrar o nome em um namespace oculto reservado para DLLs. Você pode criar e excluir nomes DLL ocultos usando a [função xlfSetName](xlfsetname.md). Você pode obter a definição de qualquer nome definido, seja um nome DLL oculto ou um nome de planilha, usando a função **xlfGetDef.** 
   
-A especificação completa para um nome de planilha tem o seguinte formato:
+A especificação completa de um nome de planilha tem o seguinte formato:
   
 `='C:\example folder\[Book1.xls]Sheet1'!Name`
   
-Observe que o Excel 2007 introduziu várias extensões de arquivo novas. Você pode omitir o caminho, o nome da pasta de trabalho e o nome da planilha onde não há ambigüidade entre as pastas de trabalho abertas nesta sessão do Excel. 
+Observe que o Excel 2007 introduziu várias novas extensões de arquivo. Você pode omitir o caminho, o nome da pasta de trabalho e o nome da planilha onde não há ambiguidade entre as planilhas abertas nesta sessão do Excel. 
   
-O próximo exemplo avalia a fórmula `COUNT(A1:IV65536)` da planilha ativa e exibe o resultado. Observe a necessidade de prefixar o endereço do intervalo com '! ', que é consistente com a Convenção de referência de intervalo nas folhas de macro XLM. O XLM da API de C segue esta Convenção: 
+O próximo exemplo avalia a fórmula  `COUNT(A1:IV65536)` da planilha ativa e exibe o resultado. Observe a necessidade de prefixar o endereço do intervalo com '!', que é consistente com a convenção de referência de intervalo em folhas de macro XLM. O XLM da API de C segue esta convenção: 
   
-- `=A1`Uma referência à célula a1 na folha de macro atual. (Não definido para XLLs). 
+- `=A1` Uma referência à célula A1 na folha de macro atual. (Não definido para XLLs). 
   
-- `=!A1`Uma referência à célula a1 na planilha ativa (que pode ser uma planilha ou planilha de macro) 
+- `=!A1` Uma referência à célula A1 da planilha ativa (que pode ser uma planilha ou uma folha de macro) 
   
-- `=Sheet1!A1`Uma referência à célula a1 na planilha especificada, neste caso, Planilha1. 
+- `=Sheet1!A1` Uma referência à célula A1 na planilha especificada, Sheet1 neste caso. 
   
-- `=[Book1.xls]Sheet1!A1`Uma referência à célula a1 na planilha especificada na pasta de trabalho especificada. 
+- `=[Book1.xls]Sheet1!A1` Uma referência à célula A1 na planilha especificada na pasta de trabalho especificada. 
   
-Em um XLL, uma referência sem um ponto de exclamação (**!**) inicial não pode ser convertida em um valor. Não tem nenhum significado porque não há folha de macros atual. Observe que um sinal de igual (**=**) inicial é opcional e é omitido no próximo exemplo.
+Em um XLL, uma referência sem um ponto de exclamação à frente (**!**) não pode ser convertida em um valor. Isso não tem significado porque não há uma folha de macro atual. Observe que um sinal de igual à parte ( ) é **=** opcional e é omitido no próximo exemplo.
   
 ```C
 int WINAPI evaluate_expression_example(void)
@@ -80,10 +80,10 @@ int WINAPI evaluate_expression_example(void)
 }
 ```
 
-Você também pode usar a função **xlfEvaluate** para recuperar a ID de registro de uma função XLL do seu nome registrado, que pode ser usado para chamar essa função usando a [função xlUDF](xludf.md).
+Você também pode usar a função **xlfEvaluate** para recuperar a ID de registro de uma função XLL de seu nome registrado, que pode ser usado para chamar essa função usando a função [xlUDF](xludf.md).
   
 > [!NOTE]
-> O nome registrado pode ser passado diretamente para a função **xlUDF** . Isso significa que você pode evitar ter que avaliar o nome para obter a ID antes de chamar **xlUDF**. No enTanto, se a função for chamada várias vezes, chamá-la usando a ID de registro será mais rápida. 
+> O nome registrado pode ser passado diretamente para a **função xlUDF.** Isso significa que você pode evitar ter que avaliar o nome para obter a ID antes de chamar **xlUDF**. No entanto, se a função for chamada várias vezes, chamá-la usando a ID de registro será mais rápida. 
   
 ## <a name="see-also"></a>Confira também
 

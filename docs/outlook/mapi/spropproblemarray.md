@@ -25,11 +25,11 @@ ms.locfileid: "33406854"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de uma ou mais estruturas [SPropProblem](spropproblem.md) . 
+Contém uma matriz de uma ou mais [estruturas SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
@@ -45,11 +45,11 @@ typedef struct _SPropProblemArray
 
  **cProblem**
   
-> Contagem de estruturas [SPropProblem](spropproblem.md) na matriz indicada pelo membro **aproblem** . 
+> Contagem de [estruturas SPropProblem](spropproblem.md) na matriz indicada pelo **membro aProblem.** 
     
  **aProblem**
   
-> Matriz de estruturas **SPropProblem** , cada uma descrevendo um erro de propriedade. 
+> Matriz de **estruturas SPropProblem,** cada uma descrevendo um erro de propriedade. 
     
 ## <a name="remarks"></a>Comentários
 

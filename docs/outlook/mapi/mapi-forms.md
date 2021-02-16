@@ -21,11 +21,11 @@ ms.locfileid: "33409969"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Após ler esta visão geral da arquitetura de formulários MAPI, você terá uma compreensão do que são formulários MAPI e como eles interagem com outros componentes do subsistema MAPI. O objetivo desta seção é fornecer o conhecimento conceitual de que você precisa para implementar seus próprios servidores de formulário MAPI.
+Depois de ler essa visão geral da arquitetura de formulário MAPI, você terá uma compreensão do que são os formulários MAPI e como eles interagem com outros componentes do subsistema MAPI. O objetivo desta seção é lhe dar o conhecimento conceitual necessário para implementar seus próprios servidores de formulário MAPI.
   
-Antes de ler esta seção, familiarize-se com o material no tópico [visão geral de formulários MAPI](mapi-forms-overview.md) . 
+Antes de ler esta seção, você deve se familiarizar com o material no tópico [visão geral dos formulários MAPI.](mapi-forms-overview.md) 
   
 > [!NOTE]
-> Como a arquitetura de formulário MAPI é baseada no modelo de objeto de componente (COM), o desenvolvimento de aplicativos de servidor de formulário exige conhecimento de programação COM. Para obter mais informações sobre COM, consulte a seção de serviços de objeto COM e ActiveX no Windows SDK. 
+> Como a arquitetura de formulário MAPI é baseada no Com (Component Object Model), o desenvolvimento de aplicativos de servidor de formulário requer conhecimento de programação COM. Para obter mais informações sobre COM, consulte a seção COM e ActiveX Object Services no SDK do Windows. 
   
 

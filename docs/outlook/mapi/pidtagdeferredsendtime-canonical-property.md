@@ -25,7 +25,7 @@ ms.locfileid: "32359875"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica uma hora em que um cliente gostaria de adiar o envio de uma mensagem.
+Indica um horário em que um cliente gostaria de adiar o envio de uma mensagem.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Indica uma hora em que um cliente gostaria de adiar o envio de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Se as propriedades **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) e **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) estiverem presentes, o valor dessa propriedade será recalculado usando a fórmula a seguir e o valor antigo é ignorado.
+Se as propriedades **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) e **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) estão presentes, o valor dessa propriedade é recomputado usando a fórmula a seguir e o valor antigo é ignorado.
   
- **PR_DEFERRED_SEND_TIME** = **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * TimeOf (**PR_DEFERRED_SEND_UNITS**)
+ **PR_DEFERRED_SEND_TIME**  =  **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * TimeOf(**PR_DEFERRED_SEND_UNITS**)
   
-Se o valor **PR_DEFERRED_SEND_TIME** for anterior à hora atual (em UTC), a mensagem será enviada imediatamente. 
+Se **PR_DEFERRED_SEND_TIME** valor for anterior à hora atual (em UTC), a mensagem será enviada imediatamente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

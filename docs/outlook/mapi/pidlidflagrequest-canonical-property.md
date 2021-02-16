@@ -39,23 +39,23 @@ Representa o status de uma solicitação de reunião.
 
 No Microsoft Office Outlook, uma solicitação de reunião é um item de compromisso.
   
-Essa propriedade contém um texto que pode ser definido pelo usuário para ser associado ao sinalizador e deve ser definido se o objeto Message estiver sinalizado ou concluído, mas não deve existir para um objeto relacionado à reunião. Os clientes podem optar por não oferecer suporte a essa propriedade e sempre escrever "acompanhamento" (convertido no idioma do usuário, se apropriado) como o valor da cadeia de caracteres quando essa propriedade deve ser definida. Essa propriedade deve ser condicionalmente ignorada com base nos valores das propriedades **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).
+Essa propriedade contém texto especificado pelo usuário a ser associado ao sinalizador e deve ser definida se o objeto de mensagem estiver sinalizado ou concluído, mas não deve existir para um objeto relacionado à reunião. Os clientes podem optar por não dar suporte a essa propriedade e sempre escrever "Acompanhamento" (traduzido para o idioma do usuário, se apropriado) como o valor da cadeia de caracteres quando essa propriedade deve ser definida. Essa propriedade deve ser ignorada condicionalmente com base nos valores das propriedades **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -67,7 +67,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

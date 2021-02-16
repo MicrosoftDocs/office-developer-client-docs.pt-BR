@@ -25,7 +25,7 @@ ms.locfileid: "33409255"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém informações sobre o que um repositório pode suportar com base no seletor especificado.
+Obtém informações sobre o que um armazenamento pode suportar com base no seletor especificado.
   
 ```cpp
 ULONG GetCapabilities( 
@@ -37,20 +37,20 @@ MSCAP_SELECTOR mscapSelector
 
  *mscapSelector* 
   
-> no Seletor que indica quais recursos serão retornados.
+> [in] Seletor indicando quais recursos retornar.
     
 ## <a name="return-value"></a>Valor de retorno
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Suporte para home pages de pastas em um repositório não padrão. Isso pode ser retornado se **MSCAP_SEL_FOLDER** for especificado em *mscapSelector* . 
+> Suporte para homepages de pasta em um armazenamento não padrão. Isso pode ser retornado **se MSCAP_SEL_FOLDER** especificado em  *mscapSelector*  . 
     
 MSCAP_RES_ANNOTATION
   
-> Se uma restrição contiver argumentos inválidos como propriedades inválidas, o repositório ignorará os argumentos inválidos e processará apenas os argumentos válidos. Isso pode ser retornado se **MSCAP_SEL_RESTRICTION** for especificado em *mscapSelector* . 
+> Se uma restrição contiver argumentos inválidos, como propriedades inválidas, o armazenamento ignorará os argumentos inválidos e processa apenas os argumentos válidos. Isso pode ser retornado **se MSCAP_SEL_RESTRICTION** especificado em  *mscapSelector*  . 
     
 NULL
   
-> O repositório não dá suporte a qualquer recurso com base no seletor especificado.
+> O armazenamento não dá suporte a nenhum recurso com base no seletor determinado.
     
 

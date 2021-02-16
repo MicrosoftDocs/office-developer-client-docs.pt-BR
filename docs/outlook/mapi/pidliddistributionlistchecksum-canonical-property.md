@@ -25,7 +25,7 @@ ms.locfileid: "32357607"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a verificação de redundância cíclica de 32 bits (CRC-32) para uma lista de distribuição pessoal.
+Especifica a verificação polinomial de verificação de redundância cíclica (CRC-32) de 32 bits para uma lista de distribuição pessoal.
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Especifica a verificação de redundância cíclica de 32 bits (CRC-32) para uma
    
 ## <a name="remarks"></a>Comentários
 
-O valor dessa propriedade pode ser usado para detectar quando a propriedade **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) foi atualizada sem Atualizar as outras propriedades de membros da lista de distribuição pessoal comparando o CRC-32 no existente valor de **dispidDLMembers** e comparando-o com o valor da propriedade **dispidDLChecksum** . 
+O valor dessa propriedade pode ser usado para detectar quando a propriedade **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) foi atualizada sem atualizar as outras propriedades de membro da lista de distribuição pessoal calculando o CRC-32 no valor existente de **dispidDLMembers** e comparando-o com o valor da propriedade **dispidDLChecksum.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas para contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

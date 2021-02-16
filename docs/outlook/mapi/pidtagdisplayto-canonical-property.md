@@ -25,7 +25,7 @@ ms.locfileid: "32360785"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de nomes de exibição dos destinatários de mensagens primárias (para), separados por ponto e vírgula (;). 
+Contém uma lista dos nomes para exibição dos destinatários de mensagem principal (Para), separados por ponto-e-vírgula (;). 
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contém uma lista de nomes de exibição dos destinatários de mensagens primár
    
 ## <a name="remarks"></a>Comentários
 
-O repositório de mensagens computa essas propriedades em objetos de mensagem usando o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . O repositório de mensagens também mantém essas propriedades para que ela sempre reflita o último estado salvo de uma mensagem. O valor é sincronizado no momento de cada chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+O armazenamento de mensagens calcula essas propriedades em objetos de mensagem usando o [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) O armazenamento de mensagens também mantém essas propriedades para que ela sempre reflita o último estado salvo de uma mensagem. O valor é sincronizado no momento de cada chamada para o [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
-Se uma mensagem não tiver destinatários primários, o repositório de mensagens deverá responder a uma chamada a [IMAPIProp::](imapiprop-getprops.md) GetProps com um valor de retorno de S_OK e uma cadeia de caracteres vazia para o **PR_DISPLAY_TO**. 
+Se uma mensagem não tiver destinatários primários, o armazenamento de mensagens deverá responder a uma chamada [IMAPIProp::GetProps](imapiprop-getprops.md) com um valor de retorno de S_OK e uma cadeia de caracteres vazia para **PR_DISPLAY_TO**. 
   
-Devido à possível necessidade de localização, a MAPI fornece essas diretrizes para todos os nomes de destinatários:
+Devido à possível necessidade de localização, o MAPI fornece estas diretrizes para todos os nomes de destinatários:
   
-- Todos os nomes devem ser capazes de ser localizados. 
+- Todos os nomes devem ser localizados. 
     
-- O ponto e vírgula deve ser o caractere usado para separar nomes nas propriedades **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) e **PR_DISPLAY_TO** . Pontos-e-vírgulas não são permitidos em nomes de destinatários no MAPI. 
+- O ponto-e-vírgula deve ser o caractere usado para separar nomes no **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) e PR_DISPLAY_TO **propriedades.** Pontos-e-vírgulas não são permitidos em nomes de destinatários em MAPI. 
     
-- Os clientes devem traduzir cada ponto-e-vírgula encontrado no **PR_DISPLAY_TO** e as propriedades relacionadas para um caractere separador localizado antes de tornar as informações visíveis na interface do usuário. 
+- Os clientes devem traduzir cada ponto-e-vírgula encontrado no **PR_DISPLAY_TO** propriedades relacionadas para um caractere separador localizado antes de tornar as informações visíveis na interface do usuário. 
     
 - Ao encaminhar mensagens, os clientes não precisam traduzir os caracteres separadores na linha de destinatário principal. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

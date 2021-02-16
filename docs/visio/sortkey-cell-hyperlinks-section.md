@@ -28,14 +28,14 @@ Para obter uma referência para a célula SortKey pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hiperlink. *nome* . SortKey onde Hyperlink *. Name* é o nome da linha  <br/> |
+|Nome da célula:  <br/> |Hiperlink. *nome*  . SortKey onde Hyperlink  *.name é*  o nome da linha  <br/> |
    
 Para obter uma referência para a célula SortKey pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
-|Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visHLinkSortKey** <br/> |
+|Índice de linha:  <br/> |**visRow1stHyperlink**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visHLinkSortKey** <br/> |
    
 

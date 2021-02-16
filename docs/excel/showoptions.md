@@ -18,7 +18,7 @@ ms.locfileid: "33407694"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Mostra uma caixa de diálogo modal para coletar informações do usuário. Este ponto de entrada é chamado quando um usuário clica no botão **Opções** ao lado da caixa **tipo de cluster** para o conector de cluster selecionado na caixa de diálogo **Opções do Excel** (na categoria **avançado** abaixo da seção **fórmulas** ). Os conectores de cluster são responsáveis por implementar sua própria interface de caixa de diálogo de opções e para armazenar os dados relacionados no registro ou em qualquer outro lugar. As opções são internas do conector de cluster. O Excel não está ciente delas. 
+Mostra uma caixa de diálogo modal para coletar informações do usuário. Esse ponto de entrada é chamado  quando um  usuário clica no botão Opções ao lado da caixa  de tipo cluster para o conector de cluster selecionado na caixa de diálogo Opções do **Excel** (na categoria Avançado na seção **Fórmulas).** Os conectores de cluster são responsáveis por implementar sua própria interface de diálogo de opções e por armazenar os dados relacionados no Registro ou em outro lugar. As opções são internas ao conector do cluster. O Excel não está ciente deles. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -28,11 +28,11 @@ int ShowOptions(HWND hWndParent)
 
 _hWndParent_
   
-> Uma alça para a janela do Excel.
+> Um alça para a janela do Excel.
     
 ## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se a caixa de diálogo foi exibida; **xlHpcRetCallFailed** se não foi exibido. 
+**xlHpcRetSuccess** se a caixa de diálogo foi mostrada; **xlHpcRetCallFailed** se não foi mostrado. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -25,17 +25,17 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-MSOTINT (* * *cor* * *, * * *deltaLum* * *) 
+MSOTINT(** *color* **, ** *deltaLum* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obrigatório  <br/> |**RGB** <br/> |O valor de cor RGB (vermelho, verde, azul) padrão ou a referência a uma cor.  <br/> |
-| _deltaLum_ <br/> |Obrigatório  <br/> |**Integer** <br/> |A alteração percentual em direção ao branco (-100%) ou preto (100%) do valor de _cor_ .  <br/> |
+| _deltaLum_ <br/> |Obrigatório  <br/> |**Integer** <br/> |A porcentagem de alteração em relação ao branco (-100%) ou preto (100%) do valor  _de_ cor.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quanto mais próximo o valor de _cor_ for branco ou preto, menor será a alteração na tonalidade produzida por um valor _deltaLum_ específico. 
+Quanto mais próximo  _o valor_ de cor for branco ou preto, menor será a alteração na tonalidade produzida por um valor  _deltaLum_ específico. 
   
 

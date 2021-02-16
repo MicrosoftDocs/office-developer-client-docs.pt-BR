@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408618"
 ---
-# <a name="changeproptype"></a>CHANGE_PROP_TYPE
+# <a name="change_prop_type"></a>CHANGE_PROP_TYPE
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Atualiza o tipo de propriedade de uma marca de propriedade para um valor especificado. O identificador de propriedade não é alterado. 
+Atualiza o tipo de propriedade de uma marca de propriedade para um valor especificado. O identificador da propriedade não foi alterado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp

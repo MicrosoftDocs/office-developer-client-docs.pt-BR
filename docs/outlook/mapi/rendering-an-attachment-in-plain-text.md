@@ -1,5 +1,5 @@
 ---
-title: Renderizar um anexo em texto sem formatação
+title: Renderização de um anexo em texto sem texto simples
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,28 +15,28 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410872"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>Renderizar um anexo em texto sem formatação
+# <a name="rendering-an-attachment-in-plain-text"></a>Renderização de um anexo em texto sem texto simples
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para renderizar um anexo em uma mensagem com texto sem formatação, recupere a propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) do anexo e aplique-a aos dados no **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) Propriedades. Há duas maneiras de recuperar o **PR_RENDERING_POSITION**:
+Para renderizar um anexo em uma mensagem com texto sem texto, recupere a propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) do anexo e aplique-o aos dados na propriedade **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)). Há duas maneiras de **recuperar** PR_RENDERING_POSITION:
   
-- Abra o anexo chamando o método **IMessage:: OpenAttach** da mensagem e, em seguida, solicite a propriedade **PR_RENDERING_POSITION** chamando o método **IMAPIProp::** GetProps do anexo. Para obter mais informações, consulte [IMessage:: OpenAttach](imessage-openattach.md) e [IMAPIProp::](imapiprop-getprops.md)GetProps.
+- Abra o anexo chamando o método **IMessage::OpenAttach** da mensagem e, em **seguida,** peça a propriedade PR_RENDERING_POSITION chamando o método **IMAPIProp::GetProps** do anexo. Para obter mais informações, consulte [IMessage::OpenAttach](imessage-openattach.md) e [IMAPIProp::GetProps](imapiprop-getprops.md).
     
-- Chame o método **IMessage::** GetAttachmentTable da mensagem para acessar sua tabela de anexos e recuperar a coluna que contém a propriedade **PR_RENDERING_POSITION** . Dessa forma é sempre preferível. Para obter mais informações, consulte [IMessage::](imessage-getattachmenttable.md)GetAttachmentTable.
+- Chame o método **IMessage::GetAttachmentTable** da mensagem para acessar sua tabela de anexos e recuperar a coluna que contém a **PR_RENDERING_POSITION** propriedade. Dessa forma, é sempre preferível. Para obter mais informações, consulte [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-Tenha em mente que muitos repositórios de mensagens com reconhecimento de RTF não calculam **PR_RENDERING_POSITION** até que um cliente solicite a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de uma mensagem. Até esse momento, **PR_RENDERING_POSITION** geralmente representa um valor aproximado. Os provedores de repositórios de mensagens têm permissão para fornecer aos clientes um valor aproximado para melhorar o desempenho. 
+Tenha em mente que muitos armazenamentos de  mensagens com conhecimento de RTF não calculam PR_RENDERING_POSITION até que um cliente solicita a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de uma mensagem. Até esse momento, **PR_RENDERING_POSITION** geralmente representa um valor aproximado. Os provedores de armazenamento de mensagens têm permissão para fornecer aos clientes um valor aproximado para melhorar o desempenho. 
   
-O processamento para um arquivo ou anexo binário é armazenado em sua propriedade **PR_ATTACH_RENDERING** . Você tem a opção de recuperar o **PR_ATTACH_RENDERING** da mesma maneira que você recuperou **PR_RENDERING_POSITION**: diretamente do anexo ou da tabela de anexos. Para o **PR_ATTACH_RENDERING**, a primeira estratégia, embora mais demorada, é mais segura. Como alguns provedores de repositório de mensagens truncam suas colunas da tabela para 255 bytes, ou em alguns casos 510 bytes, é difícil garantir que a coluna **PR_ATTACH_RENDERING** contenha a renderização completa. Ao recuperar a propriedade diretamente do anexo, ela sempre estará concluída. 
+A renderização de um arquivo ou anexo binário é armazenada em sua **PR_ATTACH_RENDERING** propriedade. Você tem a opção de  recuperar PR_ATTACH_RENDERING da mesma maneira que recuperou PR_RENDERING_POSITION **:** diretamente do anexo ou da tabela de anexos. Por **PR_ATTACH_RENDERING**, a primeira estratégia, embora mais demorada, é mais segura. Como alguns provedores de armazenamento de mensagens truncam suas colunas de tabela em 255 bytes ou, em alguns casos, 510 bytes, é difícil ter certeza de que a coluna **PR_ATTACH_RENDERING** contém a renderização completa. Ao recuperar a propriedade diretamente do anexo, ela sempre será concluída. 
   
-Nenhum anexo OLE e de mensagem definiu **PR_ATTACH_RENDERING**. Em vez disso, as informações de renderização de anexos OLE 1 são armazenadas no fluxo de texto da mensagem. Para anexos OLE 2, ele é armazenado em um fluxo de filho especial do objeto de armazenamento. As informações de renderização para anexos de mensagens estão disponíveis por meio do Gerenciador de formulários. 
+Nem anexos de mensagem nem OLE definidos **PR_ATTACH_RENDERING**. Em vez disso, as informações de renderização para anexos OLE 1 são armazenadas no fluxo de texto da mensagem. Para anexos OLE 2, ele é armazenado em um fluxo filho especial do objeto de armazenamento. Informações de renderização para anexos de mensagens estão disponíveis por meio do gerenciador de formulário. 
   
- **Para recuperar o processamento de um anexo de mensagem**
+ **Para recuperar a renderização de um anexo de mensagem**
   
-1. Use a classe de mensagem da mensagem para acessar o Gerenciador de formulários.
+1. Use a classe de mensagem da mensagem para acessar o gerenciador de formulário.
     
-2. Acessar a propriedade **PR_MINI_ICON** do Gerenciador de formulários. Para obter mais informações, consulte **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).
+2. Acessar a propriedade de PR_MINI_ICON do gerenciador **de** formulário. Para obter mais informações, **consulte PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).
     
 
