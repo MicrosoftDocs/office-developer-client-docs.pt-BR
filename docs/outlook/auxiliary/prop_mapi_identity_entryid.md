@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326429"
 ---
-# <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
+# <a name="prop_mapi_identity_entryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 
 Recupera ou define a ID de entrada do catálogo de endereços da conta.
   

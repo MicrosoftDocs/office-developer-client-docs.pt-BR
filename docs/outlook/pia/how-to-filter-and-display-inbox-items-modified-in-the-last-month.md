@@ -1,5 +1,5 @@
 ---
-title: Filtrar e exibir itens da Caixa de entrada modificados no último mês
+title: Filtro e exibir os itens de caixa de entrada modificados no mês passado
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
@@ -25,9 +25,9 @@ Este exemplo mostra como filtrar e exibir os itens de caixa de entrada que foram
 
 A linguagem de consulta DAV Searching and Locating (DASL) se baseia na implementação do Microsoft Exchange do DASL no Outlook. Pode ser usada para retornar resultados com base em propriedades para pesquisas em nível de item nos dados de pastas, como os representados por um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). Os filtros DASL suportam comparações de cadeias de caracteres, incluindo equivalência, prefixo, frase e correspondência de subcadeias, usando o operado igual (=). É possível usar consultas DASL para executar comparações e filtragens de data-hora.
 
-Como as consultas DASL sempre executam comparações **DateTime** em Tempo Universal Coordenado (UTC), é necessário converter o valor da hora local para UTC para que a consulta funcione corretamente. Você também deve converter o valor de **DateTime** em uma representação de cadeia de caracteres, pois os filtros DASL suportam comparações de cadeias. Você pode fazer a conversão **Date Time** de duas maneiras: usando o método [LocalTimeToUTC(Object)](https://msdn.microsoft.com/library/bb645832\(v=office.15\)) do objeto [Row](https://msdn.microsoft.com/library/bb610126\(v=office.15\)), ou usando as macros **DateTime**do Outlook para fazer a conversão.
+Como as consultas DASL sempre executam comparações **DateTime** em Tempo Universal Coordenado (UTC), é necessário converter o valor da hora local para UTC para que a consulta funcione corretamente. Você também deve converter o valor de **DateTime** em uma representação de cadeia de caracteres, pois os filtros DASL suportam comparações de cadeias. Você pode fazer a conversão **Date Time** de duas maneiras: usando o método [LocalTimeToUTC(Object)](https://msdn.microsoft.com/library/bb645832\(v=office.15\)) do objeto [Row](https://msdn.microsoft.com/library/bb610126\(v=office.15\)), ou usando as macros **DateTime** do Outlook para fazer a conversão.
 
-A seguinte linha de código mostra como usar o método**LocalTimeToUTC** para converter o valor da propriedade **LastModificationTime** (que é uma coluna padrão em todos os objetos **Item**) para UTC.
+A seguinte linha de código mostra como usar o método **LocalTimeToUTC** para converter o valor da propriedade **LastModificationTime** (que é uma coluna padrão em todos os objetos **Item**) para UTC.
 
 ```csharp
 DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
@@ -110,7 +110,7 @@ A tabela seguinte lista as macros **DateTime** que você pode usar para retornar
 
 No exemplo a seguir DemoDASLDateMacro cria uma consulta DASL que usa a macro **lastmonthDateTime** para filtrar os itens na caixa de entrada do usuário que foram modificados no mês passado. Em seguida, cria um objeto **Table** com esse filtro, e enumera e exibe as linhas no objeto **Table** restrito.
 
-Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

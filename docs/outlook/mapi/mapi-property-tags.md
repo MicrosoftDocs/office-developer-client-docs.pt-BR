@@ -19,17 +19,17 @@ ms.locfileid: "32328229"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma marca de propriedade é um número de bits de 32 que contém um identificador de propriedade exclusivo em bits 16 a 31 e um tipo de propriedade em bits 0 a 15, conforme mostrado na ilustração a seguir. 
+A property tag is a 32-bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15 as shown in the following illustration. 
   
 **Property tag elements**
   
-![Elementos de marca de propriedade] (media/amapi_10.gif "Elementos de marca de propriedade")
+![Elementos de marca de propriedade]Elementos de marca de(media/amapi_10.gif "propriedade")
   
-As marcas de propriedade são usadas para identificar propriedades MAPI e cada propriedade deve ter um, independentemente de a propriedade ser definida por MAPI, um cliente ou um provedor de serviços. MAPI define um conjunto de constantes de marca de propriedade para suas propriedades no arquivo de cabeçalho Mapitags. h; essas propriedades são referidas como "Propriedades definidas por MAPI". 
+As marcas de propriedade são usadas para identificar propriedades MAPI e cada propriedade deve ter uma, independentemente de a propriedade ser definida por MAPI, um cliente ou um provedor de serviços. MAPI define um conjunto de constantes de marca de propriedade para suas propriedades no arquivo de título Mapitags.h; essas propriedades são conhecidas como "propriedades definidas por MAPI". 
   
-As constantes de marca de propriedade seguem uma Convenção de nomenclatura para consistência e facilidade de uso. Há duas partes para o nome de cada marca de propriedade: um prefixo PR_ e uma ou mais cadeias de caracteres que descrevem o conteúdo da propriedade. Várias cadeias de caracteres são separadas por sublinhados. Por exemplo, a marca de propriedade para o tipo de endereço de um destinatário de mensagem é **PR\_ADDRTYPE** ([PidTagOrgAddrtype](https://msdn.microsoft.com/library/d40b5707-e4d5-4746-88d4-8616a3789789%28Office.15%29.aspx)) e o identificador de entrada da pasta designada para receber uma cópia de todas as mensagens de saída é **PR_IPM_SENTMAIL_ ENTRYid** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+As constantes de marca de propriedade seguem uma convenção de nomen por consistência e facilidade de uso. Há duas partes no nome de cada marca de propriedade: um prefixo PR_ e uma ou mais cadeias de caracteres que descrevem o conteúdo da propriedade. Várias cadeias de caracteres são separadas por sublinhados. Por exemplo, a marca de propriedade para o tipo de endereço de um destinatário de mensagem é **PR \_ ADDRTYPE** ([PidTagOrgAddrtype](https://msdn.microsoft.com/library/d40b5707-e4d5-4746-88d4-8616a3789789%28Office.15%29.aspx)) e o identificador de entrada para a pasta designada para receber uma cópia de cada mensagem de saída é **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
   
-Algumas macros estão disponíveis para ajudar a trabalhar com marcas de propriedade, entre elas [PROP_TYPE](prop_type.md), [PROP_ID](prop_id.md)e [PROP_TAG](prop_tag.md). **O\_tipo prop** extrai o tipo de propriedade da marca de propriedade; **A\_ID de prop** extrai o identificador. **PROP_TAG** cria uma marca de propriedade a partir de um tipo de propriedade e identificador. 
+Algumas macros estão disponíveis para ajudar a trabalhar com marcas de propriedade, entre [elas PROP_TYPE,](prop_type.md) [PROP_ID](prop_id.md)e [PROP_TAG](prop_tag.md). **PROP \_ TYPE** extrai o tipo de propriedade da marca de propriedade; **PROP \_ A ID** extrai o identificador. **PROP_TAG** cria uma marca de propriedade de um tipo de propriedade e identificador. 
   
 ## <a name="see-also"></a>Confira também
 

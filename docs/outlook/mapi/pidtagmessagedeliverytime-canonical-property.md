@@ -25,7 +25,7 @@ ms.locfileid: "32325610"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e hora da entrega de uma mensagem. 
+Contém a data e a hora em que uma mensagem foi entregue. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contém a data e hora da entrega de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade descreve a hora em que a mensagem foi armazenada no servidor, em vez do tempo de download quando o provedor de transporte copiou a mensagem do servidor para o repositório local.
+Essa propriedade descreve a hora em que a mensagem foi armazenada no servidor, em vez da hora de download quando o provedor de transporte copiou a mensagem do servidor para o armazenamento local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32315936"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Representa definições de campos definidos pelo usuário e configurações de associação de dados de campos internos de uma mensagem.
+Representa definições de campos definidos pelo usuário e configurações de vinculação de dados de campos integrados de uma mensagem.
   
 |||
 |:-----|:-----|
@@ -33,25 +33,25 @@ Representa definições de campos definidos pelo usuário e configurações de a
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x00008540  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Configuração de tempo de execução  <br/> |
+|Área:  <br/> |Configuração em tempo de execução  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor da propriedade **PidLidPropertyDefinitionStream** é salvo como parte da definição de formulário personalizada para a mensagem. 
+O valor da **propriedade PidLidPropertyDefinitionStream** é salvo como parte da definição de formulário personalizado para a mensagem. 
   
 O valor dessa propriedade é um fluxo binário. Para obter informações sobre a estrutura desse fluxo, consulte [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -61,15 +61,15 @@ Mapidefs. h
 
 [Campos e itens do Outlook](outlook-items-and-fields.md)
   
-[Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Adicionar uma definição para um novo User-Defined campo](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Exemplo de fluxo PropertyDefinition](propertydefinition-stream-sample.md)
+[Exemplo de fluxo propertyDefinition](propertydefinition-stream-sample.md)
   
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

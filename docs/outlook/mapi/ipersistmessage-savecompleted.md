@@ -23,7 +23,7 @@ ms.locfileid: "32317133"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o formulário de que uma operação de salvamento foi concluída. 
+Notifica o formulário de que uma operação de salvar foi concluída. 
   
 ```cpp
 HRESULT SaveCompleted(
@@ -35,7 +35,7 @@ HRESULT SaveCompleted(
 
 _pMessage_
   
-> no Um ponteiro para a mensagem recentemente salva.
+> [in] Um ponteiro para a mensagem recém-salva.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -45,11 +45,11 @@ S_OK
     
 E_INVALIDARG 
   
-> O parâmetro _PMessage_ é nulo e o formulário é no estado [HandsOffFromNormal](handsofffromnormal-state.md) ou [HandsOffAfterSave](handsoffaftersave-state.md) . 
+> O _parâmetro pMessage_ é NULL e o formulário está no estado [HandsOffFromNormal](handsofffromnormal-state.md) ou [HandsOffAfterSave.](handsoffaftersave-state.md) 
     
 E_UNEXPECTED 
   
-> O formulário não está em um dos seguintes Estados:
+> O formulário não está em um dos seguintes estados:
     
    - HandsOffFromNormal
     
@@ -59,7 +59,7 @@ E_UNEXPECTED
     
 ## <a name="remarks"></a>Comentários
 
-O método **IPersistMessage:: SaveCompleted** é chamado por um visualizador de formulários para notificar o formulário de que todas as alterações pendentes foram salvas. **SaveCompleted** deve ser chamado somente quando o formulário estiver em um dos seguintes Estados: 
+O **método IPersistMessage::SaveCompleted** é chamado por um visualizador de formulário para notificar o formulário de que todas as alterações pendentes foram salvas. **SaveCompleted** deve ser chamado somente quando o formulário estiver em um dos seguintes estados: 
   
 - HandsOffFromNormal
     
@@ -69,23 +69,23 @@ O método **IPersistMessage:: SaveCompleted** é chamado por um visualizador de 
     
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Há várias ações possíveis que o método **SaveCompleted** pode executar, dependendo do que o parâmetro de ponteiro de mensagem contém e o estado em que a mensagem está. No enTanto, quando uma ação for bem-sucedida, sempre salve o estado atual da mensagem de que o parâmetro _PMessage_ aponta para e migre o formulário para seu estado [normal](normal-state.md) . 
+Há várias ações possíveis que o **método SaveCompleted** pode executar, dependendo do parâmetro do ponteiro da mensagem e do estado em que a mensagem está. No entanto, quando uma ação for bem-sucedida, salve sempre o estado atual da mensagem que o parâmetro _pMessage_ aponta e transirá o formulário para seu [estado Normal.](normal-state.md) 
   
-A tabela a seguir descreve as condições que afetam as ações que você deve executar na sua implementação do **SaveCompleted**.
+A tabela a seguir descreve as condições que afetam as ações que você deve tomar na implementação **de SaveCompleted**.
   
-|**Condition**|**Action**|
+|**Condition**|**Ação**|
 |:-----|:-----|
-|O parâmetro _PMessage_ é nulo e o parâmetro _FSameAsLoad_ do método [IPersistMessage:: Save](ipersistmessage-save.md) é definido como true.  <br/> |Chame o método [IMAPIViewAdviseSink::](imapiviewadvisesink-onsaved.md) onsaved de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
-|O parâmetro _PMessage_ é nulo e o parâmetro _FSameAsLoad_ do método **IPersistMessage:: Save** é definido como false.  <br/> |Retorne S_OK.  <br/> |
-|O formulário está no estado HandsOffFromNormal.  <br/> |Liberar a mensagem atual e substituí-la pela mensagem indicada pelo parâmetro _PMessage_ . Chame o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) da mensagem de substituição e retorne S_OK.  <br/> |
-|O formulário está no estado HandsOffAfterSave.  <br/> |Chame o método **IMAPIViewAdviseSink::** onsaved de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
-|O formulário está no estado [norabisco](noscribble-state.md) .  <br/> |Liberar a mensagem atual e substituí-la pela mensagem indicada por _PMessage_. Chame o método **IUnknown:: AddRef** da mensagem de substituição. Chame o método **IMAPIViewAdviseSink::** onsaved de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
-|O formulário está em um dos Estados HandsOff e o parâmetro _PMessage_ está definido como nulo.  <br/> |Retornar E_INVALIDARG.  <br/> |
-|O formulário está em um estado diferente de um dos Estados HandsOff ou no estado noRabisco.  <br/> |Retornar E_UNEXPECTED.  <br/> |
+|O  _parâmetro pMessage_ é NULL e  _o parâmetro fSameAsLoad_ do método [IPersistMessage::Save](ipersistmessage-save.md) é definido como TRUE.  <br/> |Chame o [método IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
+|O  _parâmetro pMessage_ é NULL e  _o parâmetro fSameAsLoad_ do método **IPersistMessage::Save** é definido como FALSE.  <br/> |Retorne S_OK.  <br/> |
+|O formulário está no estado HandsOffFromNormal.  <br/> |Libere a mensagem atual e substitua-a pela mensagem apontada pelo _parâmetro pMessage._ Chame o método [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) da mensagem de substituição e retorne S_OK.  <br/> |
+|O formulário está no estado HandsOffAfterSave.  <br/> |Chame o **método IMAPIViewAdviseSink::OnSaved** de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
+|O formulário está no [estado NoScribble.](noscribble-state.md)  <br/> |Libere a mensagem atual e substitua-a pela mensagem apontada por  _pMessage_. Chame o método **IUnknown::AddRef** da mensagem de substituição. Chame o **método IMAPIViewAdviseSink::OnSaved** de todos os visualizadores registrados, marque o formulário como limpo e retorne S_OK.  <br/> |
+|O formulário está em um dos estados HandsOff e o  _parâmetro pMessage_ está definido como NULL.  <br/> |Retornar E_INVALIDARG.  <br/> |
+|The form is in a state other than one of the HandsOff states or the NoScribble state.  <br/> |Retornar E_UNEXPECTED.  <br/> |
    
-Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação dos métodos [IPersistStorage:: SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) ou [IPersistFile:: SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) . 
+Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação dos métodos [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) ou [IPersistFile::SaveCompleted.](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) 
   
 ## <a name="see-also"></a>Confira também
 
 - [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-- [Estados de formulário](form-states.md)
+- [Estados do formulário](form-states.md)

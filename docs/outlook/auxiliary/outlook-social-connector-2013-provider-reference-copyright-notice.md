@@ -17,11 +17,11 @@ ms.locfileid: "32327689"
 ---
 # <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de direitos autorais da referência do provedor do Outlook Social Connector 2013
 
-Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco inerente à sua utilização.
+Este documento é fornecido "na forma em que se encontra". As informações e os pontos de vista expressos neste documento, incluindo URLs e outras referências a sites na Internet, estão sujeitos a alteração sem aviso prévio. Você assume o risco de usá-lo.
   
-Alguns exemplos citados neste documento são fornecidos somente como ilustração e são fictícios. Não há nenhuma intenção, nem por dedução, de qualquer associação ou conexão real.
+Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício. Não existe associação real ou qualquer ligação é intencionada ou deve ser inferida.
   
-Este documento não oferece a você quaisquer direitos legais sobre propriedade intelectual em qualquer produto da Microsoft. Este documento pode ser copiado e usado para fins internos e de referência. Você pode modificar este documento para fins de referência internos. Este documento é confidencial e propriedade do Microsoft. Ele é divulgado e pode ser usado apenas de acordo com um acordo de confidencialidade.
+Este documento não lhe dá nenhum direito legal a qualquer propriedade intelectual de qualquer produto Microsoft. Você pode copiar e usar este documento para fins de referência, internos. Você pode modificar este documento para fins de referência internos. Este documento é confidencial e exclusivo da Microsoft. Ele é divulgado e pode ser usado mediante um acordo de confidencialidade.
   
 © 2013 Microsoft Corporation. Todos os direitos reservados.
   

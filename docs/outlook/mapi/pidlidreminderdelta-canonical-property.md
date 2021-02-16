@@ -25,7 +25,7 @@ ms.locfileid: "32315887"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o intervalo, em minutos, entre o momento em que o lembrete fica atrasado e a hora de início do objeto Calendar.
+Especifica o intervalo, em minutos, entre a hora em que o lembrete se torna vencida pela primeira vez e a hora de início do objeto calendário.
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Especifica o intervalo, em minutos, entre o momento em que o lembrete fica atras
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade deve ser definida em objetos Calendar. Para todos os objetos que não sejam de calendário, essa propriedade deve ser definida como "0x00000000" e ignorada. Quando um lembrete é Descartado para uma instância de um objeto Calendar recorrente, o valor dessa propriedade é usado no cálculo do tempo de sinal da próxima instância. Consulte [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) para obter detalhes sobre a criação de objetos de calendário. 
+Essa propriedade deve ser definida em objetos de calendário. Para todos os objetos que não sejam de calendário, essa propriedade deve ser definida como "0x00000000" e será ignorada. Quando um lembrete é ignorado para uma instância de um objeto de calendário recorrente, o valor dessa propriedade é usado no cálculo da hora de sinal para a próxima instância. Consulte [[MS- OXOCAL] para](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) obter detalhes sobre a criação de objetos de calendário. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

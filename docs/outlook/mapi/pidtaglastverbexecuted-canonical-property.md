@@ -47,82 +47,82 @@ Essa propriedade pode ter um dos seguintes valores:
 |Email enviado  <br/> |0x00000102  <br/> |
 |Email não enviado  <br/> |0x00000103  <br/> |
 |Email de recebimento  <br/> |0x00000104  <br/> |
-|Emails respondidos  <br/> |0x00000105  <br/> |
+|Email respondido  <br/> |0x00000105  <br/> |
 |Email encaminhado  <br/> |0x00000106  <br/> |
 |Email remoto  <br/> |0x00000107  <br/> |
 |Confirmação de entrega  <br/> |0x00000108  <br/> |
-|Confirmação de leitura  <br/> |0x00000109  <br/> |
-|Confirmação de não entrega  <br/> |0x0000010A  <br/> |
-|Confirmação não lida  <br/> |0x0000010B  <br/> |
+|Confirmação de Leitura  <br/> |0x00000109  <br/> |
+|Nondelivery Receipt  <br/> |0x0000010A  <br/> |
+|Recibo não lido  <br/> |0x0000010B  <br/> |
 |Recall_S email  <br/> |0x0000010C  <br/> |
 |Recall_F email  <br/> |0x0000010D  <br/> |
-|Controle de email  <br/> |0x0000010E  <br/> |
-|Email de ausência temporária  <br/> |0x0000011B  <br/> |
-|Cancelar email  <br/> |0x0000011C  <br/> |
-|Email controlado  <br/> |0x00000139  <br/> |
+|Acompanhar emails  <br/> |0x0000010E  <br/> |
+|Email de fora do Escritório  <br/> |0x0000011B  <br/> |
+|Recall mail  <br/> |0x0000011C  <br/> |
+|Email rastreado  <br/> |0x00000139  <br/> |
 |Contato  <br/> |0x00000200  <br/> |
 |Lista de distribuição  <br/> |0x00000201  <br/> |
-|Nota auto-adesiva, azul  <br/> |0x00000300  <br/> |
-|Nota auto-adesiva, verde  <br/> |0x00000301  <br/> |
-|Nota auto-adesiva, rosa  <br/> |0x00000302  <br/> |
-|Nota auto-adesiva, amarelo  <br/> |0x00000303  <br/> |
-|Nota auto-adesiva, branco  <br/> |0x00000304  <br/> |
-|Compromisso de instância única  <br/> |0x00000400  <br/> |
-|Compromisso recorrente  <br/> |0x00000401  <br/> |
-|Reunião de instância única  <br/> |0x00000402  <br/> |
+|Observação Sticky, Blue  <br/> |0x00000300  <br/> |
+|Observação Sticky, Verde  <br/> |0x00000301  <br/> |
+|Observação Sticky, Rosa  <br/> |0x00000302  <br/> |
+|Observação Sticky, Amarelo  <br/> |0x00000303  <br/> |
+|Observação Sticky, Branco  <br/> |0x00000304  <br/> |
+|Compromisso de Instância Única  <br/> |0x00000400  <br/> |
+|Compromisso Recorrente  <br/> |0x00000401  <br/> |
+|Reunião de Instância Única  <br/> |0x00000402  <br/> |
 |Reunião recorrente  <br/> |0x00000403  <br/> |
-|Solicitação de reunião/atualização completa  <br/> |0x00000404  <br/> |
+|Solicitação de Reunião/Atualização Completa  <br/> |0x00000404  <br/> |
 |Aceitar  <br/> |0x00000405  <br/> |
-|Aceito  <br/> |0x00000406  <br/> |
-|Aceitar provisoriamente  <br/> |0x00000407  <br/> |
-|Cancelamento  <br/> |0x00000408  <br/> |
-|Atualização inFormativa  <br/> |0x00000409  <br/> |
+|Recusar  <br/> |0x00000406  <br/> |
+|Aceitar provisão  <br/> |0x00000407  <br/> |
+|Cancelation  <br/> |0x00000408  <br/> |
+|Atualização informacional  <br/> |0x00000409  <br/> |
 |Atualização de tarefa/tarefa  <br/> |0x00000500  <br/> |
-|Tarefa recorrente não atribuída  <br/> |0x00000501  <br/> |
+|Tarefa Recorrente Não Atribuída  <br/> |0x00000501  <br/> |
 |Tarefa do destinatário  <br/> |0x00000502  <br/> |
-|Tarefa do destinatário  <br/> |0x00000503  <br/> |
+|Tarefa do atribuídor  <br/> |0x00000503  <br/> |
 |Solicitação de Tarefa  <br/> |0x00000504  <br/> |
-|Aceitação de tarefas  <br/> |0x00000505  <br/> |
-|ReJeição de tarefa  <br/> |0x00000506  <br/> |
-|Conversa do diário  <br/> |0x00000601  <br/> |
-|Mensagem de email do diário  <br/> |0x00000602  <br/> |
-|Solicitação de reunião do diário  <br/> |0x00000603  <br/> |
-|Resposta de reunião do diário  <br/> |0x00000604  <br/> |
-|Solicitação de tarefa do diário  <br/> |0x00000606  <br/> |
-|Resposta de tarefa do diário  <br/> |0x00000607  <br/> |
-|Anotação do diário  <br/> |0x00000608  <br/> |
-|Fax do diário  <br/> |0x00000609  <br/> |
-|Chamada telefônica do diário  <br/> |0x0000060A  <br/> |
-|Tarefa de diário  <br/> |0x0000060B  <br/> |
-|Carta do diário  <br/> |0x0000060C  <br/> |
+|Aceitação da Tarefa  <br/> |0x00000505  <br/> |
+|Rejeição da Tarefa  <br/> |0x00000506  <br/> |
+|Conversa de diário  <br/> |0x00000601  <br/> |
+|Mensagem de Email do Diário  <br/> |0x00000602  <br/> |
+|Solicitação de Reunião no Diário  <br/> |0x00000603  <br/> |
+|Resposta de Reunião no Diário  <br/> |0x00000604  <br/> |
+|Solicitação de Tarefa de Diário  <br/> |0x00000606  <br/> |
+|Resposta de tarefa de diário  <br/> |0x00000607  <br/> |
+|Observação do Diário  <br/> |0x00000608  <br/> |
+|Fax de Diário  <br/> |0x00000609  <br/> |
+|Chamada telefônica de diário  <br/> |0x0000060A  <br/> |
+|Tarefa de Diário  <br/> |0x0000060B  <br/> |
+|Carta de Diário  <br/> |0x0000060C  <br/> |
 |Diário do Microsoft Office Word  <br/> |0x0000060D  <br/> |
 |Diário do Microsoft Office Excel  <br/> |0x0000060E  <br/> |
-|Registrar em diário o Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
+|Diário do Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
 |Diário do Microsoft Office Access  <br/> |0x00000610  <br/> |
-|Documento de diário  <br/> |0x00000612  <br/> |
-|Reunião de diário  <br/> |0x00000613  <br/> |
-|Cancelamento de reunião do diário  <br/> |0x00000614  <br/> |
-|Sessão remota do diário  <br/> |0x00000615  <br/> |
+|Documento do Diário  <br/> |0x00000612  <br/> |
+|Reunião no Diário  <br/> |0x00000613  <br/> |
+|Cancelamento de reunião no diário  <br/> |0x00000614  <br/> |
+|Sessão remota de diário  <br/> |0x00000615  <br/> |
 |Novo email  <br/> |0xFFFFFFFF  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -134,7 +134,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
-description: Este tópico contém definições constantes para APIs exportadas pelo Outlook.
+description: Este tópico contém definições constantes para APIs que o Outlook exporta.
 ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.locfileid: "32319870"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (Outlook exportados APIs)
 
-Este tópico contém definições constantes para APIs exportadas pelo Outlook.
+Este tópico contém definições constantes para APIs que o Outlook exporta.
   
-## <a name="definitions-for-time-zone-support"></a>Definições para suporte de fuso horário
+## <a name="definitions-for-time-zone-support"></a>Definições para suporte a fuso horário
 
 ```cpp
 const ULONG TZ_MAX_RULES                    = 0x00000001;  
@@ -29,7 +29,7 @@ const WORD  TZRULE_FLAG_EFFECTIVE_TZREG     = 0x0002;
 const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
 ```
 
-## <a name="definitions-for-category-support"></a>Definições para suporte a categorias
+## <a name="definitions-for-category-support"></a>Definições para suporte a categoria
 
 |**Constante**|**Definição**|
 |:-----|:-----|
@@ -37,14 +37,14 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificadores de expedição diversos
 
-O Outlook expõe os seguintes identificadores de expedição (DispIds) para que os desenvolvedores possam usar o [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para acessar a propriedade ou o método correspondente ou ouvir o evento correspondente. 
+Outlook exposes the following dispatch identifiers (dispids) so that developers can use [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) to access the corresponding property or method, or listen to the corresponding event. 
   
-|**Constante associada**|**Valor de DISPID**|**Descrição**|**Interface aplicável**|
+|**Constante associada**|**Valor de dispid**|**Descrição**|**Interface aplicável**|
 |:-----|:-----|:-----|:-----|
-|**dispidFDirty** <br/> |0xF024  <br/> |Usado para invocar a propriedade correspondente em um item para verificar se o item foi modificado, mas não foi salvo.  <br/> |Objetos de nível de item  <br/> |
-|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Usado para invocar o método correspondente no Explorer ou no Inspetor para especificar se deseja exibir a imagem de um contato, com base em um determinado argumento.  <br/> |Explorer ou Inspetor  <br/> |
-|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Usado para manipular o evento da função **IDispatch:: Invoke** que é acionada antes de uma operação de impressão.  <br/> |Aplicativo  <br/> |
-|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Usado para manipular o evento da função **IDispatch:: Invoke** que é acionada quando o Outlook conclui a leitura das propriedades do item.  <br/> |Objetos de nível de item  <br/> |
+|**dispidFDirty** <br/> |0xF024  <br/> |Usado para invocar a propriedade correspondente em um item para verificar se o item foi modificado, mas não foi salvo.  <br/> |Objetos no nível do item  <br/> |
+|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Usado para invocar o método correspondente no explorer ou inspetor para especificar se a imagem de um contato deve ser exibida, com base em um determinado argumento.  <br/> |Explorer ou inspector  <br/> |
+|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Usado para manipular o evento da **função IDispatch::Invoke** que é ativas antes de uma operação de impressão.  <br/> |Application  <br/> |
+|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Usado para manipular o evento da **função IDispatch::Invoke** que é ativas quando o Outlook concluiu a leitura das propriedades do item.  <br/> |Objetos no nível do item  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

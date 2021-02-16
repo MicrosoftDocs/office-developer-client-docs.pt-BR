@@ -25,7 +25,7 @@ ms.locfileid: "32316531"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o estado de atribuição atual da tarefa.
+Indica o estado atual da atribuição da tarefa.
   
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ Indica o estado de atribuição atual da tarefa.
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008113  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -41,19 +41,19 @@ O valor dessa propriedade deve ser um dos seguintes.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0x00000000  <br/> |Esta tarefa foi criada para corresponder a uma tarefa que foi incorporada a rejeição de tarefa, mas que não pôde ser encontrada localmente.  <br/> |
-|0x00000001  <br/> |A tarefa não foi atribuída.  <br/> |
-|0x00000002  <br/> |A tarefa é a cópia de uma tarefa atribuída do destinatário da tarefa.  <br/> |
-|0x00000003  <br/> |A tarefa é a cópia de uma tarefa atribuída do destinatário da tarefa.  <br/> |
-|0x00000004  <br/> |A tarefa é a cópia de uma tarefa rejeitada do destinatário da tarefa.  <br/> |
+|0x00000000  <br/> |Essa tarefa foi criada para corresponder a uma tarefa que foi incorporada a uma rejeição de tarefa, mas não pôde ser encontrada localmente.  <br/> |
+|0x00000001  <br/> |A tarefa não é atribuída.  <br/> |
+|0x00000002  <br/> |A tarefa é a cópia do destinatário da tarefa de uma tarefa atribuída.  <br/> |
+|0x00000003  <br/> |A tarefa é a cópia do atribuídor de uma tarefa atribuída.  <br/> |
+|0x00000004  <br/> |A tarefa é a cópia do atribuídor de uma tarefa rejeitada.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -65,15 +65,15 @@ O valor dessa propriedade deve ser um dos seguintes.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
+> Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -85,7 +85,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

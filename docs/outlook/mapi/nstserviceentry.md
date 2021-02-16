@@ -21,7 +21,7 @@ ms.locfileid: "32280051"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Função de ponto de entrada de serviço de mensagem para um provedor de repositório MAPI para encapsular um repositório local baseado em PST como um repositório NST. 
+Função de ponto de entrada do serviço de mensagens para um provedor de armazenamento MAPI quebrar um armazenamento local baseado em PST como um armazenamento NST. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -47,7 +47,7 @@ HRESULT NSTServiceEntry(
 
 ## <a name="parameters"></a>Parâmetros
 
- **NSTServiceEntry** usa o protótipo de função **[MSGSERVICEENTRY](msgserviceentry.md)** . Para obter informações sobre seus parâmetros, consulte **[MSGSERVICEENTRY](msgserviceentry.md)**. 
+ **NSTServiceEntry** usa o protótipo **[de função MSGSERVICEENTRY.](msgserviceentry.md)** Para obter informações sobre seus parâmetros, consulte **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
 ## <a name="return-values"></a>Valor de retorno
 
@@ -55,29 +55,29 @@ Para obter informações sobre valores de retorno, consulte **[MSGSERVICEENTRY](
   
 ## <a name="remarks"></a>Comentários
 
-Ao usar **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** para procurar o endereço dessa função em Msmapi32. dll, especifique "NSTServiceEntry" como o nome do procedimento. 
+Ao usar **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** para procurar o endereço dessa função no msmapi32.dll, especifique "NSTServiceEntry" como o nome do procedimento. 
   
-Para usar a API de replicação, um provedor de repositório MAPI deve primeiro abrir e encapsular um repositório local baseado em PST chamando **[NSTServiceEntry](nstserviceentry.md)**. O provedor pode usar as principais interfaces da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)**, para realizar a replicação. 
+Para usar a API de replicação, um provedor de armazenamento MAPI deve primeiro abrir e quebrar um armazenamento local baseado em PST chamando **[NSTServiceEntry](nstserviceentry.md)**. Em seguida, o provedor pode usar as principais interfaces da API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)** para realizar a replicação. 
   
-Os comentários a seguir se aplicam a um repositório NST:
+Os comentários a seguir se aplicam a um armazenamento NST:
   
-- Não armazene nenhuma informação na seção perfil global ao implementar um provedor MAPI que usa o **NSTServiceEntry**. A seção de perfil global é compartilhada por vários provedores e dados armazenados nesse perfil podem ser substituídos. 
+- Não armazene nenhuma informação na seção de perfil global ao implementar um provedor MAPI que usa **NSTServiceEntry**. A seção de perfil global é compartilhada por muitos provedores e os dados armazenados nesse perfil podem ser substituídos. 
     
-- Somente os itens com carimbos de data/hora de modificação existentes recebem seus carimbos atualizados quando são salvos. 
+- Somente os itens com carimbos de data/hora de modificação existentes têm seus carimbos atualizados quando são salvos. 
     
 - A verificação de conflitos não ocorre automaticamente quando os itens são salvos.
     
--  A detecção de duplicidades não ocorre quando os itens são salvos. 
+-  A detecção duplicada não ocorre quando os itens são salvos. 
     
--  O arquivo que representa a versão em cache do servidor é anexado. NST. 
+-  O arquivo que representa a versão em cache do servidor é anexado a . NST. 
     
-- Para obter um ponteiro para a seção de perfil global, um serviço de mensagens chama **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** no objeto support usando **pbNSTGlobalProfileSectionGuid** conforme definido abaixo: 
+- Para obter um ponteiro para a seção de perfil global, um serviço de mensagens chama **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** no objeto de suporte usando **pbNSTGlobalProfileSectionGuid** conforme definido abaixo: 
     
   ```
   #define  pbNSTGlobalProfileSectionGuid "\x85\xED\x14\x23\x9D\xF7\x42\x66\x8B\xF2\xFB\xD4\xA5\x21\x29\x41"
   ```
 
-- Nesse caso, o objeto support do serviço de mensagens deve garantir que **IMAPISupport:: OpenProfileSection** retorna a seção de perfil identificada pela propriedade **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** na seção de perfil padrão. Para obter esta seção de perfil, o objeto de suporte pode abrir a seção de perfil padrão, recuperar **PR_SERVICE_UID**e passar o resultado para **IMAPISupport:: OpenProfileSection** para recuperar a seção de perfil global correta. O objeto support, por sua vez, retorna um ponteiro para esta seção de perfil global para o serviço de mensagens. 
+- Nesse caso, o objeto de suporte do serviço de mensagens deve garantir que **IMAPISupport::OpenProfileSection** retorne a seção de perfil identificada pela propriedade **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** na seção de perfil padrão. Para obter esta seção de perfil, o objeto de suporte pode abrir a seção de perfil padrão, recuperar **PR_SERVICE_UID** e passar o resultado para **IMAPISupport::OpenProfileSection** para recuperar a seção de perfil global correta. O objeto de suporte, por sua vez, retorna um ponteiro para essa seção de perfil global para o serviço de mensagens. 
     
 ## <a name="see-also"></a>Confira também
 

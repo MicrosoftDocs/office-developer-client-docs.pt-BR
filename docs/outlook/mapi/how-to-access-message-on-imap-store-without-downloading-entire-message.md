@@ -17,9 +17,9 @@ ms.locfileid: "32299073"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico mostra um exemplo de código em C++ que consulta um repositório de mensagens para a interface **[IProxyStoreObject](iproxystoreobject.md)** e usa o ponteiro retornado e a função **[IProxyStoreObject:: UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obter um ponteiro para um objeto de repositório IMAP que tenha sido Não ajustado. Usar esse repositório desempacotado permite o acesso a uma mensagem em seu estado atual sem chamar um download de toda a mensagem. 
+Este tópico mostra um exemplo de código em C++ que consulta um repositório de mensagens para a interface **[IProxyStoreObject](iproxystoreobject.md)** e usa o ponteiro retornado e a função **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obter um ponteiro para um objeto de repositório IMAP que não foi mapeado. O uso desse armazenamento não mapeado permite o acesso a uma mensagem em seu estado atual sem invocar um download da mensagem inteira. 
   
-Como o **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de repositório não empacotado, após chamar **UnwrapNoRef**com êxito, você deve chamar [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para manter a contagem de referência. 
+Como **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de armazenamento não mapeado, depois de chamar **UnwrapNoRef** com êxito, você deve chamar [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para manter a contagem de referência. 
   
 ```cpp
 HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut) 

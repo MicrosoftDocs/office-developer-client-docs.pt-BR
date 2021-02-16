@@ -34,7 +34,7 @@ Para obter histórico de download de mensagem para a caixa de entrada:
 
 ## <a name="pop-blob-structure"></a>Estrutura de BLOB POP
 
-Estrutura POP BLOBs, conforme descrito na tabela 1, comece com dois campos **versão** e **contagem**seguido pelo número de**contagem**das marcas de recurso, cada uma delas é terminada por caractere nulo. 
+Estrutura POP BLOBs, conforme descrito na tabela 1, comece com dois campos **versão** e **contagem** seguido pelo número de **contagem** das marcas de recurso, cada uma delas é terminada por caractere nulo. 
   
 **Tabela 1. Estrutura de BLOBs que representa o histórico de download de mensagem de uma conta POP3**
 

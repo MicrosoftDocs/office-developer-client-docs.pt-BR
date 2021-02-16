@@ -36,45 +36,45 @@ Contém o nome e a extensão do arquivo base de um anexo, excluindo o caminho.
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os objetos Attachment exponham essas propriedades que pertencem aos valores de **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**e **ATTACH_BY_REF_ONLY** do **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) propriedade. **PR_ATTACH_FILENAME** e as propriedades associadas são necessárias quando qualquer um desses valores é usado. 
+É recomendável que os objetos anexos exponham essas propriedades que pertencem aos valores **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** e **ATTACH_BY_REF_ONLY** da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** e as propriedades associadas são necessárias quando qualquer um desses valores é usado. 
   
-Essas propriedades podem ser usadas como um nome de arquivo sugerido para salvar o anexo e para fornecer a extensão de nome de arquivo se a propriedade **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) não for fornecida. 
+Essas propriedades podem ser usadas como um nome de arquivo sugerido para salvar o anexo e fornecer a extensão de nome de arquivo se a propriedade **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) não for fornecida. 
   
-O nome do arquivo é restrito a oito caracteres mais uma extensão de três caracteres. Para uma plataforma que suporte nomes de arquivo longos, defina essa propriedade e a propriedade **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+O nome do arquivo é restrito a oito caracteres, além de uma extensão de três caracteres. Para uma plataforma que oferece suporte a nomes de arquivo longos, de definir essa propriedade e a propriedade **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) . 
   
-O MAPI funciona somente com nomes de arquivo e outras cadeias de caracteres passadas para ele, no conjunto de caracteres ANSI (American National Standards Institute). Os aplicativos clientes que usam nomes de arquivo em um conjunto de caracteres OEM (fabricante original de equipamento) devem convertê-los para ANSI antes de chamar MAPI. 
+O MAPI funciona apenas com nomes de arquivo e outras cadeias de caracteres passadas para ele, no conjunto de caracteres do American National Standards Institute (ANSI). Os aplicativos cliente que usam nomes de arquivo em um conjunto de caracteres OEM (fabricante de equipamento original) devem convertê-los em ANSI antes de chamar o MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas gerenciadas por direitos.
     
 [[MS-OXOSMIME]](https://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
   
-> Especifica propriedades de mensagens assinadas e criptografadas S/MIME.
+> Especifica as propriedades de mensagem assinada e criptografada S/MIME.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
+> Codifica e decodifica objetos de mensagem e anexo para uma representação eficiente do fluxo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

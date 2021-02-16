@@ -36,15 +36,15 @@ Contém uma representação ASCII de 7 bits do nome de um usuário de mensagens.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades mapeiam a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) para um conjunto de caracteres de 7 bits. Alguns sistemas de mensagens, como Internet e determinados links X. 400, estão limitados ao conjunto de códigos ASCII de 7 bits de 128 caracteres. Os gateways para sistemas de mensagens podem melhorar seu desempenho chamando o método [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) diretamente para recuperar a propriedade, evitando assim o processamento adicional para a conversão de código. 
+Essas propriedades mapeiam **a PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) em um conjunto de caracteres de 7 bits. Alguns sistemas de mensagens, como a Internet e determinados links X.400, estão limitados ao conjunto de códigos ASCII de 7 bits de 128 caracteres. Gateways para esses sistemas de mensagens podem melhorar seu desempenho chamando o [método IAddrBook::P repareRecips](iaddrbook-preparerecips.md) diretamente para recuperar essa propriedade, evitando, assim, processamento extra para conversão de código. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -56,23 +56,23 @@ Essas propriedades mapeiam a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo de dados usados para transferir dados entre o cliente e o servidor.
+> Lida com a ordem e o fluxo de dados usado para transferir dados entre cliente e servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em mensagens de email.
+> Especifica as propriedades e operações permitidas em mensagens de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -84,7 +84,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

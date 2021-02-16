@@ -35,19 +35,19 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> O comprimento da ID de entrada do usuário de email conforme representado pela interface [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
+> O comprimento da ID de entrada do usuário de email, conforme representado pela interface [IMailUser.](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) 
     
 _m_lpEid_
   
-> A identificação de entrada do usuário de email conforme representado pela interface **IMailUser** . 
+> A ID de entrada do usuário de email, conforme representado pela interface **IMailUser.** 
     
 _m_ulReserved_
   
-> Este parâmetro é reservado para uso interno do Outlook e não tem suporte.
+> Esse parâmetro é reservado para uso interno do Outlook e não tem suporte.
     
 _m_pwszReserved_
   
-> Este parâmetro é reservado para uso interno do Outlook e não tem suporte.
+> Esse parâmetro é reservado para uso interno do Outlook e não tem suporte.
     
 ## <a name="see-also"></a>Confira também
 

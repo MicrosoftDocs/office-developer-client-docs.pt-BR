@@ -36,19 +36,19 @@ Contém o nome de arquivo base da biblioteca de vínculo dinâmico (DLL) do prov
    
 ## <a name="remarks"></a>Comentários
 
-MAPI usa uma Convenção de nomenclatura de arquivo DLL. Ele acrescenta a cadeia de caracteres 32 ao nome da DLL base para identificar a versão que é executada em plataformas de 32 bits. Por exemplo, quando o nome MAPI. DLL for especificado, MAPI cria o nome MAPI32. DLL para representar a versão correspondente de 32 bits da DLL.
+MAPI uses a DLL file naming convention. Ele anexa a cadeia de caracteres 32 ao nome base da DLL para identificar a versão que é executado em plataformas de 32 bits. Por exemplo, quando o nome MAPI.DLL especificado, MAPI constrói o nome MAPI32.DLL para representar a versão de 32 bits correspondente da DLL.
   
-Essas propriedades devem especificar o nome base. O MAPI anexa a cadeia de caracteres 32 conforme apropriado. Incluir a cadeia de caracteres 32 como parte dessa propriedade resulta em um erro.
+Essas propriedades devem especificar o nome base. MAPI anexa a cadeia de caracteres 32 conforme apropriado. Incluir a cadeia de caracteres 32 como parte dessa propriedade resulta em um erro.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

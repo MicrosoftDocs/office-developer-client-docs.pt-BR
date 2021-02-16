@@ -57,7 +57,7 @@ Além disso, há duas interfaces específicas do InfoPath COM que fornecem uma i
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Adicionar um controle ActiveX para o ambiente de Design do InfoPath
 
-O comando**adicionar ou remover controles personalizados** no **painel de tarefas** controles permite que você use o **Assistente para adicionar controle personalizado** para adicionar um controle personalizado. Usando o assistente, você pode selecionar um controle ActiveX que já foi registrado ou localizar mais controles personalizados no Marketplace do Office. Depois de selecionar um controle, você pode especificar os itens a seguir. 
+O comando **adicionar ou remover controles personalizados** no **painel de tarefas** controles permite que você use o **Assistente para adicionar controle personalizado** para adicionar um controle personalizado. Usando o assistente, você pode selecionar um controle ActiveX que já foi registrado ou localizar mais controles personalizados no Marketplace do Office. Depois de selecionar um controle, você pode especificar os itens a seguir. 
   
 - Especifique um gabinete para instalar o controle ActiveX com seu modelo de formulário.
     

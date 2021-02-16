@@ -21,7 +21,7 @@ ms.locfileid: "32279750"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fila de estruturas de ID de longo prazo usadas pelo provedor de repositório de arquivos de pastas particulares (PST) para atribuir uma ID de entrada para uma nova mensagem ou pasta no modo offline.
+Fila de estruturas de ID de longo prazo usadas pelo provedor de armazenamento do arquivo de Pastas Particulares (PST) para atribuir uma ID de entrada para uma nova mensagem ou pasta no modo offline.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -41,7 +41,7 @@ typedef struct {
 
  _ulVersion_
   
-- Número de versão da estrutura. 
+- Número da versão da estrutura. 
     
  _muidReserved_
   
@@ -57,11 +57,11 @@ typedef struct {
     
  _dwNextAlloc_
   
-- O número de entradas disponíveis ao lado da alocação. Essas entradas compartilham o mesmo GUID.
+- O número de entradas disponíveis em seguida para alocação. Essas entradas compartilham o mesmo GUID.
     
  _ltidAlloc_
   
-- A estrutura de ID de longo prazo, **[ltid](ltid.md)**, identificando a entrada atualmente disponível para alocação. A estrutura de ID de longo prazo contém um GUID e um índice que identifica um objeto no repositório. Juntos, o GUID e o índice podem formar uma ID de entrada exclusiva para um objeto. 
+- A estrutura de ID de longo prazo, **[LTID](ltid.md)**, identificando a entrada atualmente disponível para alocação. A estrutura de ID de longo prazo contém um GUID e um índice que identifica um objeto no armazenamento. Juntos, o GUID e o índice podem formar uma ID de entrada exclusiva para um objeto. 
     
  _ltidNextAlloc_
   
@@ -69,17 +69,17 @@ typedef struct {
     
 ## <a name="remarks"></a>Comentários
 
-Uma ID de entrada é um identificador de entrada MAPI de 4 bytes para uma pasta ou uma mensagem. Para obter mais informações, [](https://msdn.microsoft.com/library/ms836424)consulte EntryID.
+Uma identificação de entrada é um identificador de entrada MAPI de 4 byte para uma pasta ou uma mensagem. Para obter mais informações, consulte [ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
-Quando um provedor de repositório PST atribui uma ID de entrada a um novo objeto, ele primeiro precisa de um GUID que identifique o servidor e um índice que identifique o objeto no repositório. Mesmo que o GUID não seja exclusivo em todas as IDs de entrada, o GUID e o índice combinados fornecem uma entrada exclusiva. Este par de GUIDs e de índice é rastreado por uma estrutura de ID de longo prazo, **ltid**, que é parte da estrutura **OLFI** . 
+Quando um provedor de armazenamento PST atribui uma identificação de entrada a um novo objeto, ele primeiro precisa de um GUID que identifica o servidor e um índice que identifica o objeto no armazenamento. Embora o GUID não seja exclusivo em todas as IDs de entrada, o GUID e o índice combinados fornecem uma entrada exclusiva. Esse GUID e par de índices são acompanhados por uma estrutura de ID de longo prazo, **LTID**, que faz parte da **estrutura OLFI.** 
   
-O provedor de repositório PST não mantém fisicamente no **OLFI** uma estrutura **ltid** para cada par GUID-index. Ele mantém uma estrutura **ltid** , *ltidAlloc* , para o primeiro par de índice GUID disponível no momento; uma contagem, *dwAlloc* , do número de entradas disponíveis que compartilham esse mesmo GUID; e uma segunda estrutura **ltid** , *ltidNextAlloc* , para o próximo par de índice GUID disponível que tem um GUID diferente. O provedor de repositório PST usa a estrutura **OLFI** para controlar os GUIDs e índices que ele colocou. Em um nível virtual, o provedor mantém uma reserva de várias estruturas do **ltid** que estão prontas para serem alocadas.  *dwAlloc* mantém uma contagem das estruturas **ltid** disponíveis. 
+O provedor de armazenamento PST não mantém fisicamente em **OLFI** uma estrutura **LTID** para cada par guid-índice. Ele mantém uma **estrutura LTID,**  *ltidAlloc*  , para o primeiro par de guid-índice disponível no momento; uma contagem,  *dwAlloc*  , do número de entradas disponíveis que compartilham esse mesmo GUID; e uma segunda **estrutura LTID,**  *ltidNextAlloc*  , para o próximo par de índice GUID disponível que tem um GUID diferente. O provedor de armazenamento PST usa a estrutura **OLFI** para controlar os GUIDs e índices que ele distribuiu. Em um nível virtual, o provedor mantém uma reserva de várias estruturas **LTID** que estão prontas para serem alocadas.  *dwAlloc*  mantém uma contagem das estruturas **LTID** disponíveis. 
   
-As solicitações de IDs de entrada são incluídas em blocos. Quando houver uma solicitação para um bloco, o provedor do repositório PST verificará se há reserva suficiente à mão comparando o tamanho solicitado com *dwAlloc* . Se houver uma reserva suficiente, ela retornará o GUID e o índice em *ltidAlloc* para alocação. Em seguida, ele diminui *dwAlloc* pelo tamanho solicitado e incrementa o índice em *ltidAlloc* pelo tamanho solicitado. Isso prepara o provedor do repositório PST para alocar *ltidAlloc* na próxima solicitação para outro bloco de IDs de entrada. Observe que o GUID permanece o mesmo para a próxima solicitação. 
+As solicitações de IDs de entrada vêm em blocos. Quando há uma solicitação de bloqueio, o provedor de armazenamento PST verifica se há reserva suficiente disponível comparando o tamanho solicitado com  *dwAlloc*  . Se houver reserva suficiente, ele retornará o GUID e o índice em  *ltidAlloc*  para alocação. Em seguida, diminui  *dwAlloc*  pelo tamanho solicitado e incrementa o índice em  *ltidAlloc*  pelo tamanho solicitado. Isso prepara o provedor de armazenamento PST para alocar  *ltidAlloc*  na próxima solicitação para outro bloco de IDs de entrada. Observe que o GUID permanece o mesmo para a próxima solicitação. 
   
-Se o tamanho de uma solicitação for maior do que *dwAlloc* , o provedor do repositório PST tentará usar o próximo na reserva, conforme especificado por *dwNextAlloc* e *ltidNextAlloc* . Ele copia *dwNextAlloc* e *LtidNextAlloc* para o *dwAlloc* e o *ltidAlloc* respectivamente e define *dwNextAlloc* e *ltidNextAlloc* como nulo. 
+Se o tamanho de uma solicitação for maior que  *dwAlloc*  , o provedor de armazenamento PST tenta usar o que tem em seguida na reserva, conforme especificado por  *dwNextAlloc*  e  *ltidNextAlloc*  . Ela copia  *dwNextAlloc*  e  *ltidNextAlloc*  *para dwAlloc*  e  *ltidAlloc,*  respectivamente, e define  *dwNextAlloc*  e  *ltidNextAlloc*  como NULL. 
   
-Um provedor que encapsula o provedor de repositório PST deve verificar periodicamente o *ltidNextAlloc* para ver se ele é nulo. Se for, o provedor deverá preenchê-lo com um novo GUID e redefinir *dwNextAlloc* para que mais IDs de entrada possam ser alocadas. 
+Um provedor que envolve o provedor de armazenamento PST deve verificar  *periodicamente ltidNextAlloc*  para ver se ele é NULL. Se estiver, o provedor deve preencher com um novo GUID e redefinir  *dwNextAlloc*  para que mais IDs de entrada possam ser alocadas. 
   
 ## <a name="see-also"></a>Confira também
 

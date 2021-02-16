@@ -25,7 +25,7 @@ ms.locfileid: "32316286"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a data e a hora no UTC (tempo Universal Coordenado) em que o objeto Message foi marcado como concluído.
+Especifica a data e a hora em UTC (Tempo Universal Coordenado) em que o objeto da mensagem foi sinalizado como concluído.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Especifica a data e a hora no UTC (tempo Universal Coordenado) em que o objeto M
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade será excluída se o objeto Message não for marcado como concluído. A menor resolução do tempo deve ser de minutos (o valor deve ser um múltiplo de 600 milhões). Esta propriedade não deve existir se o objeto for um objeto relacionado à reunião e não existir em um objeto Task.
+Essa propriedade será excluída se o objeto de mensagem não estiver sinalizado como concluído. A menor resolução do tempo deve ser minutos (o valor deve ser múltiplo de 600.000.000). Essa propriedade não deve existir se o objeto for um objeto relacionado à reunião e não deve existir em um objeto de tarefa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

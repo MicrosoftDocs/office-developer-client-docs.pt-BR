@@ -25,22 +25,22 @@ ms.locfileid: "32316188"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor para calcular as datas de início e término do intervalo de dados de disponibilidade a serem publicados em pastas públicas.
+Contém o valor para calcular as datas de início e término do intervalo de dados de livre/ocupado a serem publicados em pastas públicas.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificador:  <br/> |0x6869  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Transmissão definida pela classe da mensagem-transmittable  <br/> |
+|Área:  <br/> |Message class-defined transmitable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor desta propriedade deve ser maior ou igual a 0 e menor ou igual a 36. Essa não é uma propriedade obrigatória.
+O valor dessa propriedade deve ser maior ou igual a 0 e menor ou igual a 36. Esta não é uma propriedade necessária.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -48,15 +48,15 @@ O valor desta propriedade deve ser maior ou igual a 0 e menor ou igual a 36. Ess
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

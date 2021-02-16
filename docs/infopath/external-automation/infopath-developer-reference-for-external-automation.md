@@ -19,13 +19,13 @@ ms.locfileid: "32310140"
 
 Bem-vindo à referência do desenvolvedor do InfoPath 2013 para automação externa. Esta documentação fornece visões gerais, tarefas de programação e informações de referência da biblioteca de classes que foram concebidas para ajudar você a criar soluções de código gerenciado que automatizam o InfoPath em aplicativos externos ou suplementos.
   
-Para obter mais informações sobre como trabalhar com modelos de formulário do InfoPath que contenham lógica de negócios escrita em código gerenciado, consulte a [referência do desenvolvedor do infopath 2013 para modelos de formulário](https://go.microsoft.com/fwlink/?LinkId=159764).
+Para obter mais informações sobre como trabalhar com modelos de formulário do InfoPath que contenham lógica comercial escrita em código gerenciado, consulte a referência de desenvolvedor do [InfoPath 2013](https://go.microsoft.com/fwlink/?LinkId=159764)para modelos de formulário.
   
 Data de publicação desta referência: Outubro 2012
   
 ## <a name="see-also"></a>Confira também
 
-- [Centro de desenvolvedores do InfoPath](https://msdn.microsoft.com/office/aa905434.aspx)  
+- [Central de Desenvolvedores do InfoPath](https://msdn.microsoft.com/office/aa905434.aspx)  
 - [Centro de Desenvolvimento do Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
 - [Convenções de Documentos na Documentação dos Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905365.aspx)
 - [Acessibilidade da Microsoft](https://www.microsoft.com/ENABLE/)

@@ -20,7 +20,7 @@ Este tópico resume as recomendações de encerramento dos suplementos para dese
 
 ## <a name="add-in-shutdown-changes-in-outlook"></a>Alterações de encerramento dos suplementos no Outlook
 
-A partir do Outlook 2010, o Outlook, por padrão, não sinaliza suplementos que estão sendo encerrados. Especificamente, o Outlook não aciona mais os métodos **OnBeginShutdown(Array)** e **OnDisconnection (ext\_DisconnectMode, matriz)** e a interface**IDTExtensibility2** durante o encerramento rápido. Da mesma forma, um suplemento do Outlook, escrito com as ferramentas de desenvolvimento do Office no Visual Studio 2010 ou em versões posteriores, não aciona o método ThisAddin\_desligamento quando o Outlook está sendo desligado. 
+A partir do Outlook 2010, o Outlook, por padrão, não sinaliza suplementos que estão sendo encerrados. Especificamente, o Outlook não aciona mais os métodos **OnBeginShutdown(Array)** e **OnDisconnection (ext\_DisconnectMode, matriz)** e a interface **IDTExtensibility2** durante o encerramento rápido. Da mesma forma, um suplemento do Outlook, escrito com as ferramentas de desenvolvimento do Office no Visual Studio 2010 ou em versões posteriores, não aciona o método ThisAddin\_desligamento quando o Outlook está sendo desligado. 
 
 O motivo para não acionar esses métodos é que, embora a maioria dos suplementos realize tarefas simples como o lançamento de referências, alguns suplementos fazem chamadas de serviço da Web ou outras operações de longa duração sincronicamente durante esses eventos, isso atrasa significativamente o desligamento do Outlook. Como essa alteração, o Outlook funciona melhor do que anteriormente quando está desligando.
 

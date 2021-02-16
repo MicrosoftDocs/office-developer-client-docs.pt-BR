@@ -25,14 +25,14 @@ ms.locfileid: "32309601"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que visualizadores de formulários manipulem o armazenamento de um formulário e a transição entre os vários Estados.
+Permite que os visualizadores de formulário manipular o armazenamento de um formulário e fazer a transição entre os vários estados.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Exposto por:  <br/> |Persistir objetos de mensagem  <br/> |
 |Implementado por:  <br/> |Objetos de formulário  <br/> |
-|Chamado por:  <br/> |Visualizadores de formulários  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IPersistMessage  <br/> |
 |Tipo de ponteiro:  <br/> |LPPERSISTMESSAGE  <br/> |
    
@@ -40,20 +40,20 @@ Permite que visualizadores de formulários manipulem o armazenamento de um formu
 
 |||
 |:-----|:-----|
-|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior no objeto Form.  <br/> |
-|[GetClassid](ipersistmessage-getclassid.md) <br/> |Retorna um identificador que representa o servidor de formulário que pode gerenciar o formulário.  <br/> |
-|[IsDirty](ipersistmessage-isdirty.md) <br/> |Verifica se há alterações feitas desde o último salvamento no formulário.  <br/> |
+|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior no objeto form.  <br/> |
+|[GetClassID](ipersistmessage-getclassid.md) <br/> |Retorna um identificador que representa o servidor de formulário que pode gerenciar o formulário.  <br/> |
+|[IsDirty](ipersistmessage-isdirty.md) <br/> |Verifica o formulário em busca de alterações feitas desde o último salvar.  <br/> |
 |[InitNew](ipersistmessage-initnew.md) <br/> |Inicializa uma nova mensagem.  <br/> |
 |[Load](ipersistmessage-load.md) <br/> |Carrega o formulário para uma mensagem especificada.  <br/> |
-|[Save](ipersistmessage-save.md) <br/> |Salva um formulário revisado de volta para a mensagem a partir da qual foi carregado ou criado.  <br/> |
-|[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Notifica o formulário de que uma operação de salvamento foi concluída.  <br/> |
-|[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Faz com que o formulário libere a mensagem atual.  <br/> |
+|[Save](ipersistmessage-save.md) <br/> |Salva um formulário revisado de volta à mensagem a partir da qual ele foi carregado ou criado.  <br/> |
+|[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Notifica o formulário de que uma operação de salvar foi concluída.  <br/> |
+|[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Faz com que o formulário libere sua mensagem atual.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Todos os formulários são necessários para implementar a interface **IPersistMessage** . 
+Todos os formulários são necessários para implementar a interface **IPersistMessage.** 
   
- **IPersistMessage** funciona de forma semelhante à interface [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) OLE. Para obter mais informações, consulte os métodos **IPersistStorage** . 
+ **IPersistMessage** funciona da mesma forma que a interface [IPersistStorage OLE.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Para obter mais informações, consulte os **métodos IPersistStorage.** 
   
 ## <a name="see-also"></a>Confira também
 

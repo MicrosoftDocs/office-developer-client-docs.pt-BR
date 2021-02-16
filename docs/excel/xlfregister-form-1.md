@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (Formulário 1)
+title: xlfRegister (Formato 1)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -78,7 +78,7 @@ Um argumento opcional que indica o tipo do ponto de entrada XLL. Em caso de omis
   
 |||||
 |:-----|:-----|:-----|:-----|
-| _Valor de pxMacroType_ <br/> |,0  <br/> |1  <br/> |duas  <br/> |
+| _Valor de pxMacroType_ <br/> |0  <br/> |1   <br/> |2   <br/> |
 |Pode ser chamada de uma planilha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Pode ser chamada de uma planilha de macro  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Pode ser chamada de uma definição de nome definido  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
@@ -135,7 +135,7 @@ A primeira tabela lista os tipos que têm suporte em todas as versões do Excel.
 |[signed] short [int]  <br/> |I  <br/> |M  <br/> |Inteiro assinado de 16 bits  <br/> |
 |[signed long] int  <br/> |J  <br/> |N  <br/> |Inteiro assinado de 32 bits  <br/> |
 |FP  <br/> ||K  <br/> |Estrutura de matriz do ponto flutuante  <br/> |
-|Matriz  <br/> ||O  <br/> |São passados três argumentos:<br/>– unsigned short int \*<br/>– unsigned short int \*<br/>– double []  <br/> |
+|Array  <br/> ||O  <br/> |São passados três argumentos:<br/>– unsigned short int \*<br/>– unsigned short int \*<br/>– double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
 |||R  <br/> |Referências de valores, matrizes e intervalos  <br/> |
    
@@ -147,7 +147,7 @@ No Excel 2007, os seguintes tipos de dados foram introduzidos para dar suporte �
 |unsigned short \*  <br/> ||D%, G%  <br/> |Cadeia de caracteres largos Unicode contada  <br/> |
 |FP12  <br/> ||K%  <br/> |Estrutura de matriz do ponto flutuante de grade maior  <br/> |
 |Array  <br/> ||O%  <br/> |São passados três argumentos:<br/>– signed int \* / RW \*<br/>– signed int \* / COL \*<br/>– double []  <br/> |
-|XLOPER12  <br/> ||Q  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
+|XLOPER12  <br/> ||I  <br/> |Valores e matrizes de planilha de tipo variável  <br/> |
 |||U  <br/> |Referências de valores, matrizes e intervalos  <br/> |
    
 Desde o Excel 2010, foram introduzidos os seguintes tipos de dados:
@@ -206,7 +206,7 @@ O **O%** tem suporte a partir do Excel 2007 e acomoda o maior número de linhas 
   
 ### <a name="p-and-q-data-types"></a>Tipos de dados P e Q
 
-Quando o registro dos argumentos da função DLL usa o tipo XLOPERs**P** ou o tipo XLOPER12s **Q**, o Excel converte as referências de célula única para valores simples e as referências de várias células para matrizes na preparação destes argumentos. Ou seja, os tipos **P** e **Q** sempre chegarão à sua função como um destes tipos: **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing** ou **xltypeNil**, exceto **xltypeRef** ou **xltypeSRef**, visto que estes são sempre desreferenciados. **XLOPER12**s e, portanto, os argumentos do tipo **Q**, têm suporte apenas no Excel 2007 e versões posteriores. 
+Quando o registro dos argumentos da função DLL usa o tipo XLOPERs **P** ou o tipo XLOPER12s **Q**, o Excel converte as referências de célula única para valores simples e as referências de várias células para matrizes na preparação destes argumentos. Ou seja, os tipos **P** e **Q** sempre chegarão à sua função como um destes tipos: **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing** ou **xltypeNil**, exceto **xltypeRef** ou **xltypeSRef**, visto que estes são sempre desreferenciados. **XLOPER12** s e, portanto, os argumentos do tipo **Q**, têm suporte apenas no Excel 2007 e versões posteriores. 
   
 Se os tipos **xltypeMissing** ou **xltypeNil** forem usados para valores de retorno, serão interpretados pelo Excel como zero numérico. **xltypeMissing** é passado quando o chamador omite um argumento. **xltypeNil** é passado quando o chamador passa uma referência a uma célula vazia. Quando um intervalo de células é convertido para **xltypeMulti** para ser passado como tipo **P** ou **Q**, toda célula em branco dentro do intervalo será convertida para elementos de matriz **xltypeNil**. Os elementos ausentes em uma matriz literal serão passados da mesma forma que elementos **xltypeNil**. 
   
@@ -227,7 +227,7 @@ Você pode usar um único dígito _n_ para o código do tipo de retorno em _pxTy
   
 Por exemplo, uma função DLL que usa como argumentos uma cadeia terminada por caractere nulo e dois ponteiros para inteiros pode modificar a cadeia no local. Use “1FMM” como argumento _pxTypeText_ e declare a função como nula. 
   
-Versões anteriores do Excel usavam**\>** no início de _pxTypeText_ para indicar que a função tinha sido declarada como nula e que o primeiro argumento devia ser modificado no local; só era possível modificar o primeiro argumento. O **\>** equivale a _n_ = 1 em versões atuais do Excel e este uso de **\>** em funções síncronas tem suporte apenas para compatibilidade com versões anteriores. 
+Versões anteriores do Excel usavam **\>** no início de _pxTypeText_ para indicar que a função tinha sido declarada como nula e que o primeiro argumento devia ser modificado no local; só era possível modificar o primeiro argumento. O **\>** equivale a _n_ = 1 em versões atuais do Excel e este uso de **\>** em funções síncronas tem suporte apenas para compatibilidade com versões anteriores. 
   
 #### <a name="asynchronous-functions"></a>Funções assíncronas
 
@@ -248,7 +248,7 @@ Colocar um caractere **#** após o último código de parâmetro em _pxTypeText_
 Desde o Excel 2007, o Excel pode fazer o recálculo de vários threads de pasta de trabalho. Isso significa que ele pode atribuir diferentes instâncias de uma função livre de threads a threads concorrentes para reavaliação. Desde o Excel 2007, a maioria das funções internas da planilha são livres de threads. Desde o Excel 2007, o Excel também permite que XLLs registrem funções de planilha como livres de threads. Para fazer isso, inclua um caractere **$** após o último código de parâmetro em _pxTypeText_. 
   
 > [!NOTE]
-> Apenas as funções de planilha podem ser declaradas como livres de threads. O Excel não considera livre de threads uma função equivalente de planilha de macro, para que você não possa acrescentar os caracteres **#** e **$** ao argumento _pxTypeText _. 
+> Apenas as funções de planilha podem ser declaradas como livres de threads. O Excel não considera livre de threads uma função equivalente de planilha de macro, para que você não possa acrescentar os caracteres **#** e **$** ao argumento _pxTypeText_. 
   
 Se você registrou uma função como livre de threads, garanta que ela se comportará como tal, embora o Excel recuse toda chamada não livre de threads por meio da API C. Por exemplo, se uma função livre de threads tentar chamar **xlfGetCell**, a chamada falhará com o erro **xlretNotThreadSafe**. 
   
@@ -259,7 +259,7 @@ Desde o Excel 2010, o Excel pode descarregar chamadas de função para um proved
 Se você tiver registrado uma função como livre de cluster, garanta que ela se comportará como tal. Confira mais informações em [Funções livres de cluster](cluster-safe-functions.md).
   
 > [!NOTE]
-> Apenas as funções de planilha podem ser declaradas como livres de cluster. O Excel não considera livre de cluster uma função equivalente de planilha de macro, para que você não possa acrescentar os caracteres **#** e **&amp;** ao argumento _pxTypeText _. As funções de planilha podem ser declaradas como livres de cluster e livres de threads ao mesmo tempo. Nesse caso, o Excel permitirá que essas funções participem do recálculo de vários threads quando a descarga de cluster estiver desabilitada. 
+> Apenas as funções de planilha podem ser declaradas como livres de cluster. O Excel não considera livre de cluster uma função equivalente de planilha de macro, para que você não possa acrescentar os caracteres **#** e **&amp;** ao argumento _pxTypeText_. As funções de planilha podem ser declaradas como livres de cluster e livres de threads ao mesmo tempo. Nesse caso, o Excel permitirá que essas funções participem do recálculo de vários threads quando a descarga de cluster estiver desabilitada. 
   
 ### <a name="category-names"></a>Nomes de categoria
 
@@ -277,16 +277,16 @@ A tabela a seguir lista as categorias padrão que ficam visíveis quando você e
   
 |**Número**|**Texto**|
 |:-----|:-----|
-|1  <br/> |Financeiro  <br/> |
-|duas  <br/> |Data e Hora  <br/> |
-|3D  <br/> |Matemática e Trigonometria  <br/> |
-|quatro  <br/> |Texto  <br/> |
-|0,5  <br/> |Lógica  <br/> |
-|6  <br/> |Procura e Referência  <br/> |
-|178  <br/> |Banco de dados  <br/> |
-|8  <br/> |Estatística  <br/> |
-|241  <br/> |Informações  <br/> |
-|14  <br/> |Definido pelo Usuário  <br/> |
+|1   <br/> |Financeiro  <br/> |
+|2   <br/> |Data e Hora  <br/> |
+|3   <br/> |Matemática e Trigonometria  <br/> |
+|4   <br/> |Texto  <br/> |
+|5   <br/> |Lógica  <br/> |
+|6   <br/> |Procura e Referência  <br/> |
+|7   <br/> |Banco de dados  <br/> |
+|8   <br/> |Estatística  <br/> |
+|9   <br/> |Informações  <br/> |
+|14   <br/> |Definido pelo Usuário  <br/> |
 ||Engenharia (a partir do Excel 2007)  <br/> |
 ||Cubo (a partir do Excel 2007)  <br/> |
    
@@ -294,10 +294,10 @@ Além disso, essas categorias também ficam visíveis quando você exibe a caixa
   
 |**Número**|**Texto**|
 |:-----|:-----|
-|254  <br/> |Comandos  <br/> |
+|10   <br/> |Comandos  <br/> |
 |11  <br/> |DDE/Externo  <br/> |
-|3,6  <br/> |Personalização  <br/> |
-|Treze  <br/> |Controle de macro  <br/> |
+|12   <br/> |Personalização  <br/> |
+|13   <br/> |Controle de macro  <br/> |
    
 ### <a name="example"></a>Exemplo
 

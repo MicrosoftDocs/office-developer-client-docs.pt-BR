@@ -39,39 +39,39 @@ HRESULT MoveMessage(
 
  _pFolderDestination_
   
-> no Um ponteiro para a pasta onde a mensagem deve ser movida.
+> [in] Um ponteiro para a pasta para a qual a mensagem deve ser movida.
     
  _pViewContext_
   
-> no Um ponteiro para um objeto de contexto de exibição.
+> [in] Um ponteiro para um objeto de contexto de exibição.
     
  _prcPosRect_
   
-> no Um ponteiro para uma estrutura de [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário atual. O próximo formulário também usa este retângulo de janela. 
+> [in] Um ponteiro para uma [estrutura RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário atual. O próximo formulário exibido também usa esse retângulo de janela. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
-> A operação não é suportada por este site de mensagem.
+> A operação não é suportada por este site de mensagens.
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIMessageSite:: MoveMessage** para mover a mensagem atual para uma nova pasta. 
+Os objetos de formulário chamam o método **IMAPIMessageSite::MoveMessage** para mover a mensagem atual para uma nova pasta. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação de um visualizador de formulários do **MoveMessage** deve chamar o método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) , passando o sinalizador VCDIR_MOVE, antes de mover a mensagem para uma nova pasta. Para obter a estrutura do **Rect** usada pela janela de um formulário, chame a função [GetWindowRect](https://msdn.microsoft.com/library/ms633519) do Windows. 
+A implementação de **MoveMessage** de um visualizador de formulário deve chamar o método [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) passando o sinalizador VCDIR_MOVE, antes de realmente mover a mensagem para uma nova pasta. Para obter a **estrutura RECT** usada pela janela de um formulário, chame a função [Windows GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Após o retorno de **MoveMessage**, os formulários devem verificar uma mensagem atual e, em seguida, descartar-se não existir nenhum. 
+Após o retorno de **MoveMessage**, os formulários devem verificar se há uma mensagem atual e, em seguida, descartar a si mesmos se não existe. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -79,7 +79,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: MoveMessage  <br/> |Não implementado.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Não implementado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

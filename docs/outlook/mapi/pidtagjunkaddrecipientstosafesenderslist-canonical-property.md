@@ -25,7 +25,7 @@ ms.locfileid: "32282365"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se os destinatários de email devem ser adicionados à lista de remetentes confiáveis.
+Indica se os destinatários de email devem ou não ser adicionados à lista de destinatários seguros.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Indica se os destinatários de email devem ser adicionados à lista de remetente
    
 ## <a name="remarks"></a>Comentários
 
-Se presente, essa propriedade deve ser definida como 0 ou 1. Um valor 1 indica que os destinatários de email devem ser adicionados à lista de remetentes confiáveis. O valor 0 indica que os destinatários de email não devem ser adicionados à lista de remetentes confiáveis.
+Se presente, essa propriedade deve ser definida como 0 ou 1. Um valor 1 indica que os destinatários de email devem ser adicionados à lista de destinatários seguros. Um valor 0 indica que os destinatários de email não devem ser adicionados à lista de destinatários seguros.
   
-Se essa propriedade estiver presente com um valor de 1, os endereços SMTP dos destinatários de email devem ser adicionados à cláusula de remetentes confiáveis da condição de regra de lixo eletrônico. Se essa propriedade for 0, nenhuma ação será necessária.
+Se essa propriedade estiver presente com um valor de 1, os endereços SMTP dos destinatários de email deverão ser adicionados à cláusula de envios confiáveis da condição Regra de Lixo Eletrônico. Se essa propriedade for 0, nenhuma ação será necessária.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
+> Permite a manipulação de listas de bloqueio/autorização e a determinação de mensagens de lixo eletrônico.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

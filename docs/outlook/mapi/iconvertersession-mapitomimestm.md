@@ -35,25 +35,25 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 
 ## <a name="parameters"></a>Parâmetros
 
- _pMsg_
+ _pmsg_
   
-> no Ponteiro para a mensagem a ser convertida. Consulte mapidefs. h para a definição de tipo de **lpMessage**.
+> [in] Ponteiro para a mensagem a ser convertida. Consulte mapidefs.h para a definição de tipo de **LPMESSAGE**.
     
- _pStm_
+ _pstm_
   
-> bota Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para saída do Stream. 
+> [out] [Interface IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para saída do fluxo. 
     
  _ulFlags_
   
->  no Sinalizadores que indicam ações específicas para o conversor: 
+>  [in] Sinalizadores que indicam ações específicas para o conversor: 
     
 CCSF_8BITHEADERS
   
-> O conversor deve permitir cabeçalhos de 8 bits.
+> O conversor deve permitir os headers de 8 bits.
     
 CCSF_EMBEDDED_MESSAGE
   
-> As informações enviadas/não enviadas são mantidas em X-não enviadas.
+> As informações enviadas/não enviadas são persistentes em X-Unsent.
     
 CCSF_GLOBAL_MESSAGE
   
@@ -61,41 +61,41 @@ CCSF_GLOBAL_MESSAGE
     
 CCSF_INCLUDE_BCC
   
-> Os destinatários Cco da mensagem MAPI devem ser incluídos no fluxo MIME.
+> Os destinatários Cc da mensagem MAPI devem ser incluídos no fluxo MIME.
     
 CCSF_NO_MSGID
   
-> Não inclua o campo Message-ID em mensagens de saída.
+> Não inclua Message-Id campo em mensagens de saída.
     
 CCSF_NOHEADERS
   
-> O conversor deve ignorar os cabeçalhos da mensagem externa.
+> O conversor deve ignorar os headers da mensagem externa.
     
 CCSF_PLAIN_TEXT_ONLY
   
-> O conversor deve apenas enviar texto sem formatação.
+> O conversor deve apenas enviar texto sem texto.
     
 CCSF_SMTP
   
-> O conversor é passado uma mensagem SMTP. Esse sinalizador deve sempre ser definido.
+> O conversor está sendo passado uma mensagem SMTP. Esse sinalizador sempre deve ser definido.
     
 CCSF_USE_RTF
   
-> O conversor deve converter HTML em formato RTF na mensagem MIME.
+> O conversor deve converter de formato HTML para RTF na mensagem MIME.
     
 CCSF_USE_TNEF
   
-> O conversor deve usar o formato TNEF (Transport neutral Encapsulation Format) na mensagem MIME.
+> O conversor deve usar o formato TNEF (Transport Neutral Encapsulation Format) na mensagem MIME.
     
 ## <a name="return-values"></a>Valor de retorno
 
 E_INVALIDARG
   
-> Sinalizadores inVálidos foram passados ou *pMsg* ou *pStm* é nulo. 
+> Sinalizadores inválidos foram passados,  *ou pmsg*  ou  *pstm*  é NULL. 
     
 ## <a name="remarks"></a>Comentários
 
-Com suporte apenas para tipos de mensagem padrão do Outlook.
+Suportado apenas para tipos de mensagem padrão do Outlook.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -103,8 +103,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

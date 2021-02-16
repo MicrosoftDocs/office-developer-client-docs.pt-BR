@@ -44,7 +44,7 @@ O procedimento a seguir criará um grupo de códigos que não concede permissõe
     
 4. Defina o tipo de condição para o grupo de códigos como **Todo o Código** e clique em **Avançar**.
     
-5. Clique em **Usar conjunto de permissões existente**, atribua o conjunto de permissões **Nada** ao grupo de códigos, clique em **Avançar ** e depois em **Concluir**.
+5. Clique em **Usar conjunto de permissões existente**, atribua o conjunto de permissões **Nada** ao grupo de códigos, clique em **Avançar** e depois em **Concluir**.
     
 6. Para aplicar as novas configurações, feche e reinicie o InfoPath.
     

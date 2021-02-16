@@ -25,7 +25,7 @@ ms.locfileid: "32279706"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a data e a hora da última modificação do objeto ou subobjeto. 
+Contém a data e a hora em que o objeto ou subobjeto foi modificado pela última vez. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contém a data e a hora da última modificação do objeto ou subobjeto.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é definida inicialmente como o mesmo valor que a propriedade **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Os subobjetos de anexo podem atualizá-lo conforme necessário, copiando o horário da última modificação mantido pelo sistema de arquivos nativo. Um aplicativo cliente pode definir essa propriedade até a primeira chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . De então no provedor deve atualizar o **PR_LAST_MODIFICATION_TIME** durante cada **IMAPIProp:: SaveChanges** . 
+Esta propriedade é inicialmente definida com o mesmo valor que a propriedade **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Os subobjetos de anexo podem atualizá-lo conforme necessário copiando o tempo da última modificação mantido pelo sistema de arquivos nativo. Um aplicativo cliente pode definir essa propriedade até a primeira chamada para o [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) A partir daí, o provedor deve atualizar **PR_LAST_MODIFICATION_TIME** durante cada chamada **IMAPIProp::SaveChanges.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
+> Lida com a sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

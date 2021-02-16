@@ -1,5 +1,5 @@
 ---
-title: InfoPath 2003 compatível com modelos de objeto
+title: Modelos de objeto compatíveis com o InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,7 +35,7 @@ Para saber mais sobre os assemblies Microsoft.Office.Interop.InfoPath e Microsof
 
 Por padrão, a opção de instalação **Típica** do programa de instalação do InfoPath instala cópias dos assemblies Microsoft.Office.Interop.InfoPath.SemiTrust e Microsoft.Office.Interop.InfoPath.Xml na pasta C:\Program Files\Microsoft Office\Office14. Os assemblies Microsoft.Office.Interop.InfoPath e Microsoft.Office.Interop.InfoPath.Xml também são instalados no Cache de Assembly Global (GAC), cujo conteúdo pode ser visto na pasta C:\WINDOWS\Assembly. 
   
-Se esses assemblies não estiverem instalados, confirme que o Microsoft InfoPath foi instalado corretamente. Desde que o .NET Framework 2.0 ou posterior esteja instalado antes de executar a instalação, a opção de **Suporte de Programação do .NET** no programa de instalação do InfoPath é definida como **Executar do Meu Computador** para uma instalação ** Típica** do InfoPath. Se esses assemblies de interoperabilidade não estiverem disponíveis em seu computador, você deve confirmar se o .NET Framework 2.0 ou posterior está instalado e, em seguida, executar **Adicionar ou Remover Programas** no **Painel de Controle** e definir a opção de **.Suporte de Programação do . NET** para **Executar do Meu Computador**.
+Se esses assemblies não estiverem instalados, confirme que o Microsoft InfoPath foi instalado corretamente. Desde que o .NET Framework 2.0 ou posterior esteja instalado antes de executar a instalação, a opção de **Suporte de Programação do .NET** no programa de instalação do InfoPath é definida como **Executar do Meu Computador** para uma instalação **Típica** do InfoPath. Se esses assemblies de interoperabilidade não estiverem disponíveis em seu computador, você deve confirmar se o .NET Framework 2.0 ou posterior está instalado e, em seguida, executar **Adicionar ou Remover Programas** no **Painel de Controle** e definir a opção de **.Suporte de Programação do . NET** para **Executar do Meu Computador**.
   
 Para saber mais sobre como baixar o .NET Framework 2.0 Redistribuível, consulte [NET Framework 2.0 Redistribuível. ](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
@@ -45,7 +45,7 @@ Antes do lançamento do Microsoft Office InfoPath 2003 Service Pack 1 e do kit d
   
 Para dar suporte à criação de modelos de formulário com linguagens de código gerenciado como Visual C# e o Visual Basic para lógica de programação, uma funcionalidade foi adicionada ao InfoPath para habilitar hospedagem a Common Language Runtime (CLR), enquanto o assembly de interoperabilidade Microsoft.Office.Interop.InfoPath.SemiTrust foi criado para permitir que um código gerenciado tenha interoperabilidade com o modelo de objeto COM exposto pelo InfoPath de maneira segura. Para saber mais sobre o modelo de segurança que se aplica aos modelos de formulário de código gerenciado do InfoPath, consulte [Sobre o modelo de segurança para modelos de formulário com código](about-the-security-model-for-form-templates-with-code.md). 
   
-Embora o processo de escrever códigos gerenciados para uma determinada tarefa em um modelo de formulário do InfoPath seja muito semelhante a executar a mesma tarefa de programação escrevendo script, o modelo de objeto compatível com InfoPath 2003 exposto ao exibir o namespace ** Microsoft.Office.Interop.InfoPath.SemiTrust** no **Pesquisador de Objetos** do Visual Studio 2012 parece muito mais complexo. Isso ocorre porque a tecnologia de interoperabilidade do .NET Framework usada para dar suporte ao modelo de objeto compatível com InfoPath 2003 requer um servidor COM para expor todas as suas interfaces públicas, bem como algumas construções adicionais exigidas pelo próprio .NET Framework. 
+Embora o processo de escrever códigos gerenciados para uma determinada tarefa em um modelo de formulário do InfoPath seja muito semelhante a executar a mesma tarefa de programação escrevendo script, o modelo de objeto compatível com InfoPath 2003 exposto ao exibir o namespace **Microsoft.Office.Interop.InfoPath.SemiTrust** no **Pesquisador de Objetos** do Visual Studio 2012 parece muito mais complexo. Isso ocorre porque a tecnologia de interoperabilidade do .NET Framework usada para dar suporte ao modelo de objeto compatível com InfoPath 2003 requer um servidor COM para expor todas as suas interfaces públicas, bem como algumas construções adicionais exigidas pelo próprio .NET Framework. 
   
 ### <a name="how-com-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Como os objetos COM são expostos para o modelo de objeto compatível com InfoPath 2003
 

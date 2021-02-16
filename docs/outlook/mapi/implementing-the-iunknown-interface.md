@@ -1,5 +1,5 @@
 ---
-title: Implementar a interface IUnknown
+title: Implementando a interface IUnknown
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310042"
 ---
-# <a name="implementing-the-iunknown-interface"></a>Implementar a interface IUnknown
+# <a name="implementing-the-iunknown-interface"></a>Implementando a interface IUnknown
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os métodos da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , implementados em todos os objetos MAPI, dão suporte ao gerenciamento de objeto e comunicação entre objetos. 
+Os métodos da interface [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) implementados em cada objeto MAPI, suportam comunicação interobjeto e gerenciamento de objetos. 
   
- **IUnknown** tem três métodos: [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx), [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** habilita um objeto para determinar se outro objeto oferece suporte a uma interface específica. Com **QueryInterface**, dois objetos sem conhecimento prévio da funcionalidade de cada um podem interagir. Se o objeto que implementa **QueryInterface** não oferecer suporte à interface em questão, ele retornará um ponteiro para a implementação da interface. Se o objeto não oferecer suporte à interface solicitada, ele retornará o valor MAPI_E_INTERFACE_NOT_SUPPORTED. 
+ **IUnknown** tem três métodos: [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx), [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)e [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** permite que um objeto determine se outro objeto oferece suporte a uma interface específica. Com **QueryInterface**, dois objetos sem conhecimento prévio sobre a funcionalidade uns dos outros podem interagir. Se o objeto que implementa **QueryInterface** suporta a interface em questão, ele retorna um ponteiro para a implementação da interface. Se o objeto não suportar a interface solicitada, ele retornará o MAPI_E_INTERFACE_NOT_SUPPORTED valor. 
   
-Quando **QueryInterface** retorna um ponteiro de interface solicitado, ele também deve aumentar a contagem de referência do novo objeto. A contagem de referência de um objeto é um valor numérico usado para gerenciar o ciclo de vida do objeto. Quando a contagem de referência é maior que 1, a memória do objeto não pode ser liberada porque está sendo usado ativamente. Só é quando a contagem de referência é descartada para 0 que o objeto pode ser liberado com segurança. 
+Quando **QueryInterface** retorna um ponteiro de interface solicitado, ele também deve aumentar a contagem de referência do novo objeto. A contagem de referência de um objeto é um valor numérico usado para gerenciar o tempo de vida do objeto. Quando a contagem de referência é maior que 1, a memória do objeto não pode ser liberada porque está sendo usada ativamente. É apenas quando a contagem de referência cai para 0 que o objeto pode ser liberado com segurança. 
   
-Os outros dois métodos **IUnknown** , **AddRef** e **Release**, gerenciam a contagem de referência. **AddRef** incrementa a contagem de referência, enquanto a **versão** diminui. Todos os métodos ou funções de API que retornam ponteiros de interface, como **QueryInterface**, devem chamar **AddRef** para incrementar a contagem de referência. Todas as implementações de métodos que recebem ponteiros de interface devem chamar **Release** para decrementar a contagem quando o ponteiro não for mais necessário. **Release** verifica se há uma contagem de referência existente, liberando a memória associada à interface somente se a contagem for 0. 
+Os outros dois **métodos IUnknown,** **AddRef** e **Release,** gerenciam a contagem de referência. **AddRef** incrementa a contagem de referência, enquanto **Release** a diminui. Todos os métodos ou funções de API que retornam ponteiros de interface, como **QueryInterface,** devem chamar **AddRef** para incrementar a contagem de referência. Todas as implementações de métodos que recebem ponteiros de interface devem chamar **Release** para rebaixar a contagem quando o ponteiro não for mais necessário. **Verificações** de versão para uma contagem de referência existente, liberando a memória associada à interface somente se a contagem for 0. 
   
 > [!NOTE]
 > Como **AddRef** e **Release** não são necessários para retornar valores precisos, os chamadores desses métodos não devem usar os valores de retorno para determinar se um objeto ainda é válido ou foi destruído. 
@@ -36,5 +36,5 @@ Os outros dois métodos **IUnknown** , **AddRef** e **Release**, gerenciam a con
 
 
 
-[Implementar objetos MAPI](implementing-mapi-objects.md)
+[Implementando objetos MAPI](implementing-mapi-objects.md)
 

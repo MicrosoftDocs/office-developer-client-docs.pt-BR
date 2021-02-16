@@ -18,7 +18,7 @@ ms.locfileid: "32317672"
 
 Esta seção descreve as funções que o Outlook exporta.
   
-|**Função**|**Descrição**|
+|**Function**|**Description**|
 |:-----|:-----|
 |[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Inicializa um objeto [IOlkApptRebaser](iolkapptrebaser.md) para uso em alteração programática de compromissos em calendários do Outlook.  <br/> |
 |[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Executa a categorização pós-envio em um item de email com base na sua [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |

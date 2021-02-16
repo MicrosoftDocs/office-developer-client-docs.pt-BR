@@ -25,7 +25,7 @@ ms.locfileid: "32309713"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Faz com que o formulário libere a mensagem atual.
+Faz com que o formulário libere sua mensagem atual.
   
 ```cpp
 HRESULT HandsOffMessage( void );
@@ -33,7 +33,7 @@ HRESULT HandsOffMessage( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-Nenhuma
+Nenhum
   
 ## <a name="return-value"></a>Valor de retorno
 
@@ -43,21 +43,21 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Transição de formulários para dois Estados do HandsOff:
+Os formulários são transições para dois estados handsoff:
   
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Quando um formulário está em um desses Estados, ele está no processo de ser armazenado permanentemente. 
+Quando um formulário está em qualquer um desses estados, ele está em processo de ser armazenado permanentemente. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando um visualizador de formulários chama o método **IPersistMessage:: HandsOffMessage** enquanto o formulário está no estado [normal](normal-state.md) ou norabisco, chame recursivamente **HandsOffMessage** em cada mensagem inserida na mensagem atual e na [](noscribble-state.md) [ IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) método em cada objeto OLE incorporado na mensagem atual. Em seguida, libere a mensagem atual e todas as mensagens inseridas e objetos OLE. Se o formulário estava no estado normal, transição para o estado HandsOffFromNormal. Se o formulário estava no estado noRabisco, transição para o estado HandsOffAfterSave. Após uma transição bem-sucedida, chame o método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) do Message e retorne S_OK. 
+Quando um visualizador de formulário chama o método **IPersistMessage::HandsOffMessage** enquanto o formulário está no estado [Normal](normal-state.md) ou [NoScribble,](noscribble-state.md) chame recursivamente **HandsOffMessage** em cada mensagem incorporada na mensagem atual e no método [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) em cada objeto OLE incorporado na mensagem atual. Em seguida, libere a mensagem atual e todas as mensagens e objetos OLE incorporados. Se o formulário estiver no estado Normal, transição para o estado HandsOffFromNormal. Se o formulário estava no estado NoScribble, transição para o estado HandsOffAfterSave. Após uma transição bem-sucedida, chame o [método IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) da mensagem e retorne S_OK. 
   
-Quando um visualizador de formulários chama **HandsOffMessage** enquanto o formulário está em um dos Estados HandsOff, retorne E_UNEXPECTED. 
+Quando um visualizador de formulário chamar **HandsOffMessage** enquanto o formulário estiver em um dos estados HandsOff, retorne E_UNEXPECTED. 
   
-Para obter mais informações sobre os diferentes Estados de um formulário, confira [Estados de formulário](form-states.md). Para obter mais informações sobre como trabalhar com o estado HandsOff de objetos de armazenamento, consulte o método [IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
+For more information about the different states of a form, see [Form States](form-states.md). Para obter mais informações sobre como trabalhar com o estado HandsOff de objetos de armazenamento, consulte o método [IPersistStorage::HandsOffStorage.](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) 
   
 ## <a name="see-also"></a>Confira também
 
@@ -66,5 +66,5 @@ Para obter mais informações sobre os diferentes Estados de um formulário, con
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulário](form-states.md)
+[Estados do formulário](form-states.md)
 

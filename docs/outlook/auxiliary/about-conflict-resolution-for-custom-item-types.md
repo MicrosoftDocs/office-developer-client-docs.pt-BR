@@ -53,15 +53,15 @@ Definir a resolução de conflitos por meio de uma Política de Grupo terá prec
   
 |Data  | Descrição  |
 |:-----|:-----|
-|,0  <br/> |Resolução de item comum que exige uma decisão de usuário, conforme usado no Outlook 2002 e em versões anteriores.  <br/> |
-|1  <br/> |Resolução de item comum que exige intervenção mínima do usuário, conforme usado no Outlook desde o Outlook 2003.  <br/> |
-|duas  <br/> |Resolução específica para itens de email.  <br/> |
-|3D  <br/> |Resolução específica para itens de reunião.  <br/> |
-|quatro  <br/> |Resolução específica para itens de compromisso.  <br/> |
-|0,5  <br/> |Resolução específica para itens de contato.  <br/> |
-|6  <br/> |Resolução específica para itens de tarefas.  <br/> |
-|178  <br/> |Resolução específica para itens de notas autoadesivas.  <br/> |
-|8  <br/> |Resolução específica para itens de diário.  <br/> |
+|0  <br/> |Resolução de item comum que exige uma decisão de usuário, conforme usado no Outlook 2002 e em versões anteriores.  <br/> |
+|1   <br/> |Resolução de item comum que exige intervenção mínima do usuário, conforme usado no Outlook desde o Outlook 2003.  <br/> |
+|2   <br/> |Resolução específica para itens de email.  <br/> |
+|3   <br/> |Resolução específica para itens de reunião.  <br/> |
+|4   <br/> |Resolução específica para itens de compromisso.  <br/> |
+|5   <br/> |Resolução específica para itens de contato.  <br/> |
+|6   <br/> |Resolução específica para itens de tarefas.  <br/> |
+|7   <br/> |Resolução específica para itens de notas autoadesivas.  <br/> |
+|8   <br/> |Resolução específica para itens de diário.  <br/> |
    
 Se você especificar um dos esquemas de resolução específicos de itens (dados de chave de 2 a 8), o Outlook tentará resolver conflitos em campos específicos de item (por exemplo, campos **Início** e **Fim** de um item de compromisso) automaticamente sem intervenção do usuário. Se o Outlook considerar que a resolução pode resultar em perda de dados essenciais, ele manterá cópias conflitantes na pasta Conflitos, e os usuários poderão escolher ir para a pasta Conflitos para resolver novamente esses itens de forma manual e substituir a resolução automática. 
   

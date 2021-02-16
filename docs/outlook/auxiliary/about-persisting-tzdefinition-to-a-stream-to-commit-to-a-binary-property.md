@@ -18,7 +18,7 @@ ms.locfileid: "32316972"
 
 As propriedades de fuso horário, [PidLidAppointmentTimeZoneDefinitionEndDisplay](https://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](https://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx) e [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) são propriedades nomeadas como binárias, cada uma contem um fluxo de mapas para o formato persistente de uma estrutura [TZDEFINITION](tzdefinition.md). 
   
-Este tópico descreve um pouco formato little endian que pode ser usado na persistência do fluxo **TZDEFINITION**para confirmar uma das três propriedades binárias. Usar o mesmo formato endian em um analisador para interpretar um valor de fluxo obtido a partir de uma dessas propriedades. 
+Este tópico descreve um pouco formato little endian que pode ser usado na persistência do fluxo **TZDEFINITION** para confirmar uma das três propriedades binárias. Usar o mesmo formato endian em um analisador para interpretar um valor de fluxo obtido a partir de uma dessas propriedades. 
   
 ```cpp
 BYTE  bMajorVersion;    // breaking change
@@ -49,9 +49,9 @@ O número de versão principal é usado para alterar uma quebra. Clientes que n�
   
 O número da versão secundária é usado para extensibilidade. Clientes que não são familiarizados com o número de versão secundária devem ler os dados que eles compreendem, e ignorar os dados que podem estar anexados a cada regra do fluxo atual. Clientes escrevendo a estrutura devem especificar a constante **TZ_BIN_VERSION_MINOR**. 
   
-Se uma analisador não entende a versão principal do cabeçalho, ele não deve ler o restante da estrutura e se comportar como se os dados estivessem ausentes. Se uma analisador não entende a versão secundária de cabeçalho, deverá usar **cbHeader**para ignorar partes que não entende e avançar para ler as partes do fluxo que ele entende. 
+Se uma analisador não entende a versão principal do cabeçalho, ele não deve ler o restante da estrutura e se comportar como se os dados estivessem ausentes. Se uma analisador não entende a versão secundária de cabeçalho, deverá usar **cbHeader** para ignorar partes que não entende e avançar para ler as partes do fluxo que ele entende. 
   
-O valor de **wFlags** sempre é**TZDEFINITION_FLAG_VALID_KEYNAME**. O nome da chave tem um limite de tamanho de **MAX_PATH**. 
+O valor de **wFlags** sempre é **TZDEFINITION_FLAG_VALID_KEYNAME**. O nome da chave tem um limite de tamanho de **MAX_PATH**. 
   
 Se uma analisador não reconhecer a versão principal de uma regra, o cliente deve ignorar a regra e usar **cbRule** para avançar para a regra seguinte. Se uma analisador não reconhecer a versão secundária de uma regra, o cliente só deve analisar as partes compreensíveis da regra. 
   

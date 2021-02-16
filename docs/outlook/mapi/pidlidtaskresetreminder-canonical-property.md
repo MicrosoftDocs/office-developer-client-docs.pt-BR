@@ -25,7 +25,7 @@ ms.locfileid: "32316615"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se futuras instâncias de tarefas recorrentes precisam de lembretes, mesmo que **dispidReminderSet** ([PIDLIDREMINDERSET](pidlidreminderset-canonical-property.md)) seja falso.
+Indica se instâncias futuras de tarefas recorrentes precisam de lembretes, mesmo que **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) seja FALSO.
   
 |||
 |:-----|:-----|
@@ -33,21 +33,21 @@ Indica se futuras instâncias de tarefas recorrentes precisam de lembretes, mesm
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008107  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse valor é definido como TRUE quando o lembrete da tarefa é ignorado e, caso contrário, é definido como FALSE. Se a redefinição à esquerda, um padrão FALSE será adotado.
+Esse valor é definido como TRUE quando o lembrete da tarefa é ignorado e definido como FALSE caso contrário. Se não for desa soterado, será assumido o padrão FALSE.
   
-Conforme especificado em [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), a propriedade **dispidReminderSet** indica se um lembrete está definido na tarefa. No enTanto, essa propriedade indica apenas a presença de um lembrete em uma única tarefa. Ele não pode ser usado sozinho para determinar se uma instância futura de uma tarefa recorrente precisa de um lembrete. 
+Conforme especificado em [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), a **propriedade dispidReminderSet** indica se um lembrete está definido na tarefa. No entanto, essa propriedade só indica a presença de um lembrete em uma única tarefa. Ele não pode ser usado sozinho para determinar se uma instância futura de uma tarefa recorrente precisa de um lembrete. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -57,9 +57,9 @@ Conforme especificado em [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454e
   
 > Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -32,33 +32,33 @@ Contém o nome do aplicativo que define uma regra.
 |Propriedades associadas:  <br/> |PR_RULE_PROVIDER, PR_RULE_PROVIDER_A, PR_RULE_PROVIDER_W  <br/> |
 |Identificador:  <br/> |0x6681  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Regras no servidor  <br/> |
+|Área:  <br/> |Regras do lado do servidor  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-As ações adiadas precisam dessas propriedades para identificar o código que deve interpretar e executar a ação de regra.
+Ações adiadas precisam dessas propriedades para identificar o código que deve interpretar e executar a ação de regra.
   
-As regras armazenadas em caixas de correio e pastas são associadas ao aplicativo que as detém por uma cadeia de caracteres de provedor de regras. Um provedor de regras define e manipula regras em uma tabela de regras. Ele também fornece um meio de lidar com quaisquer ações adiadas se essas regras forem definidas. As ações adiadas são criadas implicitamente pelo armazenamento de informações. Para operações de movimentação ou cópia para um repositório diferente, se um provedor definir uma regra de ação adiada, deve fornecer um manipulador para executar a ação quando a regra é disparada e uma ação adiada é criada.
+As regras armazenadas em caixas de correio e pastas são associadas ao aplicativo que as possui por uma cadeia de caracteres de provedor de regras. Um provedor de regras define e lida com regras em uma tabela de regras. Ele também fornece um meio de lidar com quaisquer ações adiadas se essas regras são definidas. Ações adiadas são criadas implicitamente pelo armazenamento de informações. Para mover ou copiar operações para um armazenamento diferente, se um provedor define uma regra de ação adiada, ele deve fornecer um manipulador para executar a ação quando a regra é acionada e uma ação adiada é criada.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

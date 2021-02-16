@@ -25,7 +25,7 @@ ms.locfileid: "32316510"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask de sinalizadores que indicam as operações que estão disponíveis para o cliente para o objeto.
+Contém uma máscara de bits de sinalizadores indicando as operações que estão disponíveis para o cliente para o objeto.
   
 |||
 |:-----|:-----|
@@ -36,38 +36,38 @@ Contém uma bitmask de sinalizadores que indicam as operações que estão dispo
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é somente leitura para o cliente. Ele deve ser um **ou** mais bits ou valores da tabela a seguir. 
+Essa propriedade é somente leitura para o cliente. Ela deve ser um bit a bit **OR** de zero ou mais valores da tabela a seguir. 
   
 |**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
 |MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Gravar  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Leitura  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Ler  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Excluir  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Criar subpastas na hierarquia de pastas  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Criar mensagens de conteúdo  <br/> |
 |MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Criar mensagens de conteúdo associadas  <br/> |
    
-Os sinalizadores MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados nos objetos Folder e Message e na coluna **PR_ACCESS** nas tabelas de conteúdo e tabelas de conteúdo associadas. Os sinalizadores MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados somente nos objetos Folder. 
+Os MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY e MAPI_ACCESS_READ são encontrados em objetos de pasta e mensagem e na coluna **PR_ACCESS** em tabelas de conteúdo e tabelas de conteúdo associadas. Os MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS e MAPI_ACCESS_CREATE_HIERARCHY são encontrados somente em objetos de pasta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

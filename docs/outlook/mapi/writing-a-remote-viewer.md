@@ -19,51 +19,51 @@ ms.locfileid: "32325659"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um visualizador remoto é uma janela em um aplicativo cliente que fornece acesso controlado a mensagens armazenadas em outro computador. Esse acesso controlado pode funcionar em um link de comunicação lento. Em vez de recuperar uma seleção completa de mensagens disponíveis toda vez que um usuário abre uma pasta, o visualizador remoto exibe primeiro apenas os cabeçalhos. O usuário, em seguida, seleciona a partir dos cabeçalhos que as mensagens exibir no completo. Os clientes de visualizadores remotos podem permitir que os usuários excluam mensagens antes de serem baixadas. 
+Um visualizador remoto é uma janela em um aplicativo cliente que fornece acesso controlado a mensagens armazenadas em outro computador. Esse acesso controlado pode operar em um link de comunicações lentas. Em vez de recuperar uma seleção completa de mensagens disponíveis sempre que um usuário abre uma pasta, o visualizador remoto exibe primeiro apenas os títulos. Em seguida, o usuário seleciona entre os headers qual das mensagens exibir na íntegra. Os clientes do visualizador remoto podem permitir que seus usuários excluam mensagens antes que sejam baixados. 
   
-## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Para recuperar os cabeçalhos de mensagens armazenadas remotamente
+## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Para recuperar os headers das mensagens armazenadas remotamente
   
-1. Chame [IMAPISession::](imapisession-getstatustable.md) getstatustable para acessar a tabela status. 
+1. Chame [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para acessar a tabela de status. 
     
-2. Call [IMAPITable:: Restrict](imapitable-restrict.md) para limitar a tabela de status apenas às linhas que têm sua coluna **tipo de recurso\_\_Pr** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) definida como provedor de transporte\_\_MAPI. 
+2. Chame [IMAPITable::Restrict](imapitable-restrict.md) para limitar a tabela de status apenas às linhas que têm sua coluna TIPO de RECURSO PR ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) definida como MAPI TRANSPORT **\_ \_** \_ \_ PROVIDER. 
     
-3. Call [IMAPITable::](imapitable-setcolumns.md) SetColumns para incluir as seguintes colunas na tabela status: 
-   - **PR\_EntryID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
-   - **Métodos\_de\_recurso PR** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))
-   - **Tipo\_de\_recurso PR**, **exibição\_do provedor PR\_** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
-   - **PR\_código\_de status** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)).
+3. Chame [IMAPITable::SetColumns](imapitable-setcolumns.md) para incluir as seguintes colunas na tabela de status: 
+   - **PR \_ ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+   - **PR \_ RESOURCE \_ METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))
+   - **PR \_ TIPO \_ DE RECURSO**, **\_ \_ EXIBIÇÃO DO PROVEDOR DE** PR ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+   - **PR \_ CÓDIGO \_ DE STATUS** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)).
     
-4. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas na tabela status. 
+4. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas na tabela de status. 
     
-5. Passe o identificador de entrada para cada linha na tabela em uma chamada para [IMAPISession:: OpenEntry](imapisession-openentry.md). Como essa interface é empacotada do contexto de processo do spooler MAPI para o contexto de processo do cliente, diferentemente das interfaces normalmente obtidas do catálogo de endereços ou de provedores de repositório de mensagens, problemas relacionados a multithreading são mais importantes. 
+5. Passe o identificador de entrada para cada linha na tabela em uma chamada para [IMAPISession::OpenEntry](imapisession-openentry.md). Como essa interface é empacotada do contexto de processo do spooler MAPI para o contexto de processo do cliente — ao contrário das interfaces normalmente obtidas do livro de endereços ou dos provedores de armazenamento de mensagens — questões referentes a multithreading são mais importantes. 
     
-6. Chame o método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) do objeto status, passando IID_IMAPIFolder como o identificador de interface, para recuperar a pasta remota. A pasta remota não é uma implementação completa da pasta; Ele oferece suporte somente a um subconjunto de métodos e propriedades de pasta. Um dos métodos necessários, [IMAPIProp::](imapiprop-getprops.md)GetProps, oferece suporte à recuperação das seguintes propriedades:
+6. Chame o método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) do objeto de status, passando IID_IMAPIFolder como o identificador da interface, para recuperar a pasta remota. A pasta remota não é uma implementação de pasta completa; ele dá suporte apenas a um subconjunto de métodos e propriedades de pasta. Um dos métodos necessários, [IMAPIProp::GetProps](imapiprop-getprops.md), oferece suporte à recuperação das seguintes propriedades:
     
     |||
     |:-----|:-----|
-    |**PR\_Access** ([PidTagAccess](pidtagaccess-canonical-property.md))  <br/> |**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))  <br/> |
+    |**PR \_ ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md))  <br/> |**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))  <br/> |
     |**PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |**PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md))  <br/> |
     |**PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
-    |**PR\_** subpastas ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))  <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
+    |**PR \_ SUBPASTAS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))  <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
     |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
     
-    As pastas remotas também devem oferecer suporte aos métodos [IMAPIProp::](imapiprop-getproplist.md)getproplist, [IMAPIContainer::](imapicontainer-getcontentstable.md)getcontenttable e [IMAPIFolder:: SetMessageStatus](imapifolder-setmessagestatus.md) . As tabelas de conteúdo da pasta remota normalmente dão suporte às seguintes colunas: 
+    As pastas remotas também devem dar suporte aos métodos [IMAPIProp::GetPropList](imapiprop-getproplist.md), [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)e [IMAPIFolder::SetMessageStatus.](imapifolder-setmessagestatus.md) As tabelas de conteúdo de pastas remotas normalmente suportam as seguintes colunas: 
         
     |||
     |:-----|:-----|
-    |**PR\_exibir\_para** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |**PR\_EntryID** <br/> |
-    |**PR\_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |
+    |**PR \_ DISPLAY \_ TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |**PR \_ ENTRYID** <br/> |
+    |**PR \_ HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |
     |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
-    |**PR\_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-    |**PR\_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |
+    |**PR \_ MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
+    |**PR \_ MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |
     |**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** <br/> |
     |**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
     |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |
-    |**PR\_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
+    |**PR \_ SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-7. Chame o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) do provedor de transporte pela primeira vez que uma das opções de transferência é separada. O sinalizador de processo REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE deve ser definido, bem como o sinalizador SHOW_XP_SSESSION_UI, para permitir a exibição da interface do usuário. 
+7. Chame o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) do provedor de transporte na primeira vez que uma das opções de transferência for escolhida. O sinalizador REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE processo deve ser definido, bem como o sinalizador SHOW_XP_SSESSION_UI para permitir que a interface do usuário seja mostrada. 
     
    > [!NOTE]
-   > Para marcar um determinado cabeçalho de mensagem para download ou exclusão, um cliente chama [IMAPIFolder:: SetMessageStatus](imapifolder-setmessagestatus.md) e define o sinalizador MSGSTATUS_REMOTE_DOWNLOAD ou MSGSTATUS_REMOTE_DELETE. 
+   > Para marcar um determinado header de mensagem para download ou exclusão, um cliente chama [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) e define o sinalizador MSGSTATUS_REMOTE_DOWNLOAD ou MSGSTATUS_REMOTE_DELETE. 
   
 

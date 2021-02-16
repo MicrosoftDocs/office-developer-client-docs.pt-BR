@@ -25,7 +25,7 @@ ms.locfileid: "32320150"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém um ponteiro para um objeto de armazenamento IMAP (Internet Message Access Protocol) que fornece acesso ao arquivo de pastas particulares (PST) subjacente sem chamar a sincronização e baixar os itens.
+Obtém um ponteiro para um objeto de armazenamento IMAP (Internet Message Access Protocol) não mapeado que fornece acesso ao arquivo de Pastas Particulares (PST) subjacente sem invocar a sincronização e baixar os itens.
   
 ```cpp
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
@@ -35,19 +35,19 @@ HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject );
 
  _ppvObject_
   
-> bota Ponteiro para um objeto de repositório [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) que está desempacotado. 
+> [out] Ponteiro para um [IMsgStore : objeto de repositório IMAPIProp](imsgstoreimapiprop.md) que não está mapeado. 
     
 ## <a name="return-values"></a>Valor de retorno
 
 S_OK
   
-- A chamada foi bem-sucedida e um ponteiro para uma interface não Wrapped foi retornado no _ppvObject_.
+- A chamada foi bem-sucedida e um ponteiro para uma interface não mapeada foi retornado em  _ppvObject_.
     
 ## <a name="remarks"></a>Comentários
 
-Sem antes desenvolver um repositório IMAP, acessar uma mensagem no repositório pode forçar uma sincronização que tenta baixar toda a mensagem. O uso do repositório desempacotado permite o acesso à mensagem em seu estado atual sem disparar um download.
+Sem primeiro desempacar um armazenamento IMAP, acessar uma mensagem no armazenamento pode forçar uma sincronização que tenta baixar a mensagem inteira. O uso do armazenamento não mapeado permite o acesso à mensagem em seu estado atual sem acionar um download.
   
-Como o **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de repositório não empacotado, após chamar **UnwrapNoRef**com êxito, você deve chamar [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
+Como **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de armazenamento não mapeado, depois de chamar **UnwrapNoRef** com êxito, você deve chamar [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
   
 ## <a name="see-also"></a>Confira também
 

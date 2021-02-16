@@ -25,11 +25,11 @@ ms.locfileid: "32327283"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve as informações de configuração de impressão para o objeto Form. 
+Descreve as informações de configuração de impressão para o objeto de formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,19 +47,19 @@ typedef struct
 
  **ulFlags**
   
-> Bitmask de sinalizadores que controla o tipo de cadeia de caracteres. O seguinte sinalizador pode ser usado:
+> Máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres. O sinalizador a seguir pode ser usado:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  **hDevmode**
   
-> Identificador para o modo da impressora.
+> Alça para o modo da impressora.
     
  **hDevnames**
   
-> Identificador para o caminho da impressora.
+> Alça para o caminho da impressora.
     
  **ulFirstPageNumber**
   
@@ -67,15 +67,15 @@ MAPI_UNICODE
     
  **ulFPrintAttachments**
   
-> Sinalizador que indica se há anexos a serem impressos. Se houver anexos para impressão, o membro **ulFPrintAttachments** será definido como 1. Se não houver anexos a serem impressos, será definido como 0. 
+> Sinalizador que indica se há anexos a serem impressos. Se houver anexos para imprimir, o **membro ulFPrintAttachments** será definido como 1. Se não houver anexos para imprimir, ele será definido como 0. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **FORMPRINTSETUP** é usada para descrever as informações de configuração de impressão de um objeto Form. Implementações de [IMAPIViewContext:: GetPrintSetup](imapiviewcontext-getprintsetup.md) preencher a estrutura **FORMPRINTSETUP** e retorná-lo no conteúdo do parâmetro de saída _lppFormPrintSetup_ de **GetPrintSetup**.
+A **estrutura FORMPRINTSETUP** é usada para descrever as informações de configuração de impressão de um objeto de formulário. Implementações de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) preenchem a estrutura **FORMPRINTSETUP** e o retornam no conteúdo do parâmetro de saída  _lppFormPrintSetup_ de **GetPrintSetup**.
   
-Se o sinalizador MAPI_UNICODE for passado no parâmetro _parâmetroulflags_ de **GetPrintSetup**, as cadeias de caracteres referenciadas pelos membros **hDevmode** e **hDevnames** devem estar no formato Unicode. Caso contrário, as cadeias de caracteres devem estar no formato ANSI. 
+Se o sinalizador MAPI_UNICODE for passado no parâmetro  _ulFlags_ de **GetPrintSetup**, as cadeias de caracteres referenciadas pelos membros **hDevmode** e **hDevnames** deverão estar no formato Unicode. Caso contrário, as cadeias de caracteres devem estar no formato ANSI. 
   
-Os visualizadores de formulários que implementam o **IMAPIViewContext** devem alocar a estrutura **FORMPRINTSETUP** usando a função de alocador MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), mas alocar os membros individuais, **hDevMode** e **hDevNames**, com a função [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110)do Windows. O lançamento da memória é tratado de forma semelhante. Os membros **hDevMode** e **hDevNames** devem ser liberados usando a função [GlobalFree](https://go.microsoft.com/fwlink/?LinkId=132108) do Windows, enquanto a estrutura **FORMPRINTSETUP** deve ser liberada com a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Visualizadores de formulário implementando **IMAPIViewContext** devem alocar a estrutura **FORMPRINTSETUP** usando a função de alocador [MAPIAllocateBuffer](mapiallocatebuffer.md), mas alocar os membros individuais, **hDevMode** e **hDevNames**, com a função [Windows GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). A liberação de memória é tratada da mesma forma. Os **membros hDevMode** e **hDevNames** devem ser liberados usando a função [Windows GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) enquanto a estrutura **FORMPRINTSETUP** deve ser liberada com a função [MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>Confira também
 

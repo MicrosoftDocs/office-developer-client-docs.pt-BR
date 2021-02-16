@@ -21,11 +21,11 @@ ms.locfileid: "32299423"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina a página de código para um fluxo TNEF (Transport-neutral Encapsulation Format).
+Determina a página de código de um fluxo Transport-Neutral TNEF (Encapsulation Format).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |TNEF. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |tnef.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços.  <br/> |
    
@@ -41,21 +41,21 @@ HRESULT GetTnefStreamCodepage(
 
  _lpStream_
   
-> no Ponteiro para um objeto de fluxo de armazenamento interface **IStream** de OLE, fornecendo uma fonte para uma mensagem de fluxo TNEF. 
+> [in] Ponteiro para uma interface OLE **IStream** do objeto de fluxo de armazenamento fornecendo uma fonte para uma mensagem de fluxo TNEF. 
     
  _lpulCodepage_
   
-> bota Ponteiro para a página de código do Stream.
+> [out] Ponteiro para a página de código do fluxo.
     
  _lpulSubCodepage_
   
-> bota Ponteiro para a página de subcódigo do Stream.
+> [out] Ponteiro para a página de subcódigo do fluxo.
     
 ## <a name="return-value"></a>Valor de retorno
 
  **S_OK**
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
@@ -63,11 +63,11 @@ HRESULT GetTnefStreamCodepage(
     
  **MAPI_E_CORRUPT_DATA**
   
-> O Stream não era um fluxo TNEF ou houve um erro ao ler o atributo attOemCodepage.
+> O fluxo não era um fluxo TNEF ou houve um erro ao ler o atributo attOemCodepage.
     
 ## <a name="remarks"></a>Comentários
 
-Use a função **GetTnefStreamCodepage** para ler o atributo **ATTOEMCODEPAGE** do fluxo TNEF para determinar a página de código e a página de subcódigo. Se **attOemCodepage** não for encontrado, **GetTnefStreamCodepage** retornará uma página de código de 437 e uma página de subcódigo 0. 
+Use a **função GetTnefStreamCodepage** para ler o atributo **attOemCodepage** do fluxo TNEF para determinar a página de código e a página de subcódigo. Se **attOemCodepage** não for encontrado, **GetTnefStreamCodepage** retornará uma página de código 437 e uma página de subcódigo 0. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,28 +25,28 @@ ms.locfileid: "32315516"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece um objeto de repositório IMAP (Internet Message Access Protocol) que foi desempacotado e permite o acesso a itens no arquivo de pastas particulares (PST) sem chamar a sincronização e baixar os itens.
+Fornece um objeto de armazenamento IMAP (Internet Message Access Protocol) que foi deswrapped e que permite o acesso a itens no arquivo de Pastas Particulares (PST) sem invocar a sincronização e baixar os itens.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
 |Herdado de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
-|Fornecido por:  <br/> |Provedor de repositório de mensagens  <br/> |
+|Fornecido por:  <br/> |Provedor de armazenamento de mensagens  <br/> |
 |Identificador de interface:  <br/> |**IID_IProxyStoreObject** <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtém um ponteiro para um repositório IMAP não empacotado.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtém um ponteiro para um armazenamento IMAP não mapeado.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Chame [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) no repositório de mensagens de origem para obter a interface **IProxyStoreObject** . Em seguida, chame **IProxyStoreObject:: UnwrapNoRef** para obter o objeto de repositório não ajustado. Se **QueryInterface** retornar o erro **MAPI_E_INTERFACE_NOT_SUPPORTED**, o repositório não foi quebrado. 
+Chame [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) no repositório de mensagens de origem para obter a interface **IProxyStoreObject.** Em seguida, **chame IProxyStoreObject::UnwrapNoRef** para obter o objeto de repositório não mapeado. Se **QueryInterface** retornar o erro **MAPI_E_INTERFACE_NOT_SUPPORTED**, o armazenamento não foi empacotado. 
   
-Como o **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de repositório não empacotado, após chamar **UnwrapNoRef**com êxito, você deve chamar [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
+Como **UnwrapNoRef** não incrementa a contagem de referência desse novo ponteiro para o objeto de armazenamento não mapeado, depois de chamar **UnwrapNoRef** com êxito, você deve chamar [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
   
 

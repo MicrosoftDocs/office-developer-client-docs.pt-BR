@@ -44,37 +44,37 @@ FOLDER_GENERIC
     
 FOLDER_ROOT 
   
-> A pasta raiz da tabela de hierarquia de pastas, ou seja, uma pasta que não tem uma pasta pai.
+> A pasta raiz da tabela de hierarquia de pastas, ou seja, uma pasta que não tem pasta pai.
     
 FOLDER_SEARCH 
   
 > Uma pasta que contém os resultados de uma pesquisa, na forma de links para mensagens que atendem aos critérios de pesquisa.
     
-A raiz de um repositório de mensagens não deve ser confundida com a raiz da sub-árvore da mensagem interpessoal (IPM) nesse repositório. A pasta raiz do repositório, que não tem um pai, é obtida chamando o método [IMsgStore:: OpenEntry](imsgstore-openentry.md) com um identificador de entrada nulo. A pasta raiz da sub-árvore IPM, que tem um pai, é obtida usando o valor da propriedade **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para a chamada **OpenEntry** . 
+A raiz de um armazenamento de mensagens não deve ser confundida com a raiz da subárvore de mensagem interpersonal (IPM) nesse armazenamento. A pasta raiz do repositório, que não tem pai, é obtida chamando o método [IMsgStore::OpenEntry](imsgstore-openentry.md) com um identificador de entrada nulo. A pasta raiz da subárvore do IPM, que tem um pai, é obtida usando o valor da propriedade **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para a chamada **OpenEntry.** 
   
-MAPI permite apenas uma pasta raiz por repositório de mensagens. Esta pasta contém mensagens e outras pastas. A propriedade **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) da pasta raiz contém o próprio identificador de entrada da pasta.
+MAPI allows only one root folder per message store. Essa pasta contém mensagens e outras pastas. A propriedade PR_PARENT_ENTRYID **(** [PidTagParentEntryId](pidtagparententryid-canonical-property.md)) da pasta raiz contém o próprio identificador de entrada da pasta.
   
-As informações em uma pasta de resultados de pesquisa são principalmente armazenadas na tabela de conteúdo, que contém as mesmas colunas de uma tabela de conteúdo típica, bem como duas colunas extras que identificam a pasta na qual cada mensagem foi encontrada: **PR_PARENT_DISPLAY** ([ PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nome para exibição, obrigatório) e essa propriedade (identificador de entrada, opcional).
+As informações em uma pasta de resultados de pesquisa são armazenadas principalmente em sua tabela de conteúdo, que contém as mesmas colunas de uma tabela de conteúdo típica, bem como duas colunas extras identificando a pasta na qual cada mensagem foi encontrada: **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nome de exibição, obrigatório) e essa propriedade (identificador de entrada, opcional).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

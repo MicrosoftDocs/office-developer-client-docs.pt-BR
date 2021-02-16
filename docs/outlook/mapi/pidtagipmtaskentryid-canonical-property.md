@@ -25,26 +25,26 @@ ms.locfileid: "32327838"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a **EntryID** da pasta tarefas do Outlook. 
+Contém a **EntryID** da pasta Tarefas do Outlook. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_IPM_TASK_ENTRYID  <br/> |
 |Identificador:  <br/> |0x36D4  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é lida ou gravada usando o protocolo de objeto Property e Stream. Ele é lido e gravado na caixa de entrada ou na pasta raiz. A implementação deve usar a pasta caixa de entrada quando o repositório é o do principal usuário de mensagens e deve usar a pasta raiz quando o repositório é o de um usuário delegado.
+Essa propriedade é lida ou escrita usando o protocolo Property e Stream Object. Ela é lida e escrita na pasta Caixa de Entrada ou Raiz. A implementação deve usar a pasta Caixa de Entrada quando o armazenamento for o do usuário de mensagens principal e deve usar a pasta Raiz quando o armazenamento for de um usuário representante.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
@@ -52,15 +52,15 @@ Essa propriedade é lida ou gravada usando o protocolo de objeto Property e Stre
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectar e configurar caixas de correio como delegados e interações com objetos de mensagem e calendário quando eles atuam em nome de outro usuário.
+> Especifica métodos para conectar e configurar caixas de correio como representantes e interações com objetos de mensagem e calendário quando eles agem em nome de outro usuário.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

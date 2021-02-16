@@ -36,29 +36,29 @@ Contém informações de formatação sobre um anexo MIME (Multipurpose Internet
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiver o valor **OID_MIMETAG**, o provedor de transporte deverá examinar essas propriedades para determinar como o anexo será formatado. 
+Se a **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiver o valor **OID_MIMETAG**, o provedor de transporte deverá olhar para essas propriedades para determinar como o anexo é formatado. 
   
-Essas propriedades são copiadas do parâmetro Content-Type do cabeçalho MIME de entrada. A composição da cadeia de caracteres é definida no documento RFC 1521. O formato é Type/SubType, como Application/Binary ou text/plain. 
+Essas propriedades são copiadas do parâmetro Content-type do header MIME de entrada. A composição da cadeia de caracteres é definida no documento RFC 1521. O formato é tipo/subtipo, como aplicativo/binário ou texto/sem formatação. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas gerenciadas por direitos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

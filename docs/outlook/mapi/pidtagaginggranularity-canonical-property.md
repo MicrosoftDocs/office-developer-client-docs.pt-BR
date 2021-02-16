@@ -25,7 +25,7 @@ ms.locfileid: "32325582"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Representa a unidade de tempo usada para determinar o período de tempo que um item permanece em uma pasta antes de o item ser arquivado.
+Representa a unidade de tempo usada para determinar o período de tempo que um item permanece em uma pasta antes de ser arquivado.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Representa a unidade de tempo usada para determinar o período de tempo que um i
    
 ## <a name="remarks"></a>Comentários
 
-Os valores possíveis para **PR_AGING_GRANULARITY** podem ser um dos seguintes. 
+Os valores possíveis **para PR_AGING_GRANULARITY** podem ser um dos seguintes. 
   
 |**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|**AG_MONTHS** <br/> |,0  <br/> |**PR_AGING_PERIOD** é definido em número de meses.  <br/> |
-|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** é definido em número de semanas.  <br/> |
-|**AG_DAYS** <br/> |duas  <br/> |**PR_AGING_PERIOD** é definido em número de dias.  <br/> |
+|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** é definido em número de meses.  <br/> |
+|**AG_WEEKS** <br/> |1   <br/> |**PR_AGING_PERIOD** é definido em número de semanas.  <br/> |
+|**AG_DAYS** <br/> |2   <br/> |**PR_AGING_PERIOD** é definido em número de dias.  <br/> |
    
-O período de tempo em que um item permanece em uma pasta antes de o item ser arquivado é determinado por duas propriedades, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) e **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** representa o número de unidades de tempo que o item permanece na pasta antes de ser arquivado. 
+O período de tempo que um item permanece em uma pasta antes que o item seja arquivado é determinado por duas propriedades, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) e **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** representa o número de unidades de tempo que o item permanece na pasta antes de ser arquivado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -60,15 +60,15 @@ O período de tempo em que um item permanece em uma pasta antes de o item ser ar
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -80,7 +80,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

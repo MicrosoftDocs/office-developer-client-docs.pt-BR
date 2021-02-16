@@ -36,27 +36,27 @@ Contém um número que identifica exclusivamente o anexo dentro de sua mensagem 
    
 ## <a name="remarks"></a>Comentários
 
-Os repositórios de mensagens geram e mantêm essa propriedade. O número de anexo é a chave de classificação secundária, após a posição de renderização, na tabela de anexos. 
+Os armazenamentos de mensagens geram e mantêm essa propriedade. O número do anexo é a chave de classificação secundária, após a posição de renderização, na tabela de anexos. 
   
- **PR_ATTACH_NUM** é usado para abrir o anexo com o método [IMessage:: OpenAttach](imessage-openattach.md) . Dentro da sessão de um aplicativo cliente, a propriedade **PR_ATTACH_NUM** de um anexo de mensagem permanece constante, desde que a tabela de anexos esteja aberta. 
+ **PR_ATTACH_NUM** é usado para abrir o anexo com o [método IMessage::OpenAttach.](imessage-openattach.md) Dentro da sessão de um aplicativo cliente, a PR_ATTACH_NUM **propriedade** de um anexo de mensagem permanece constante enquanto a tabela de anexos está aberta. 
   
-O repositório de mensagens propaga as alterações para a tabela usando os métodos **IMessage:: CreateAttach** e **IMessage::D eleteattach** . Na sua opção, o repositório de mensagens pode gerar notificações de tabela em tabelas de anexo abertas para que os clientes possam sincronizar novamente com essas alterações. 
+O armazenamento de mensagens propaga alterações na tabela usando os métodos **IMessage::CreateAttach** e **IMessage::D eleteAttach.** Em sua opção, o armazenamento de mensagens pode gerar notificações de tabela em tabelas de anexo abertas para que os clientes possam sincronizar de forma ressincroniza para essas alterações. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

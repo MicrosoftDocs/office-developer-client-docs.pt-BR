@@ -25,7 +25,7 @@ ms.locfileid: "32279532"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicia o procedimento de desbloqueio para um arquivo de pastas particulares (. pst).
+Inicia o procedimento de desbloqueio para um arquivo de Pastas Particulares (.pst).
   
 ```cpp
 HRESULT RegisterTrustedPSTOverrideHandler (
@@ -39,11 +39,11 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
  _pwzDllPath_
   
-> no Um ponteiro para o caminho de uma biblioteca de vínculo dinâmico (DLL) de terceiros.
+> [in] Um ponteiro para o caminho de uma biblioteca de vínculo dinâmico (DLL) de terceiros.
     
  _pvClientData_
   
-> no Um ponteiro para dados do cliente, que serão passados pelo provedor PST para chamadas subsequentes para a função HrTrustedPSTOverrideHandlerCallback da DLL. Esses dados de cliente podem ser usados pela DLL para ajudar a verificar se o PST deve ser desbloqueado.
+> [in] Um ponteiro para os dados do cliente, que será passado pelo provedor PST para chamadas subsequentes para a função HrTrustedPSTOverrideHandlerCallback da DLL. Esses dados de cliente podem ser usados pela DLL para ajudar a verificar se o PST deve ser desbloqueado.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -59,9 +59,9 @@ A DLL especificada pelo parâmetro wzDllPath deve ser assinada usando um certifi
 extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstore, IUnknown *pOverride, LPVOID pvClientData)
 ```
 
-Essa função será chamada com um ponteiro para o objeto IMsgStore para o PST, um ponteiro para um objeto IUnknown que implementa a interface IPSTOVERRIDE1 e um ponteiro para os dados originalmente fornecidos pelo pvClientData.
+Essa função será chamada com um ponteiro para o objeto IMsgStore para o PST, um ponteiro para um objeto IUnknown que implementa a interface IPSTOVERRIDE1 e um ponteiro para os dados originalmente fornecidos por meio de pvClientData.
   
-Para obter mais informações, consulte [como implementar um manipulador de substituição de PST para ignorar a política PSTDisableGrow no Outlook 2007](https://support.microsoft.com/kb/956070).
+For more information see [How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Confira também
 

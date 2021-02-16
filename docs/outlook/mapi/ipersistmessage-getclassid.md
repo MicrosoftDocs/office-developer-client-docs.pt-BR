@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IPersistMessge::** GetClassID define o conteúdo do parâmetro _lpClassID_ para o identificador de classe do servidor de formulário e retorna S_OK. Quando um visualizador de formulários **** chama GetClassID e retorna com êxito, o formulário é colocado no estado [](uninitialized-state.md) Uninitialized. 
+O **método IPersistMessge::GetClassID** define o conteúdo do parâmetro  _lpClassID_ para o identificador de classe do servidor de formulário e retorna S_OK. Quando um visualizador de formulário chama **GetClassID** e retorna com êxito, o formulário é colocado no estado [Não reinicializado.](uninitialized-state.md) 
   
-Para obter mais informações sobre como os identificadores de classe são usados com objetos de armazenamento estruturados, consulte a documentação do método [IPersist::](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) GetClassID. 
+Para obter mais informações sobre como os identificadores de classe são usados com objetos de armazenamento estruturados, consulte a documentação do método [IPersist::GetClassID.](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) 
   
 ## <a name="see-also"></a>Confira também
 

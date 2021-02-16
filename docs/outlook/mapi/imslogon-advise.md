@@ -25,7 +25,7 @@ ms.locfileid: "32317308"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um objeto com um provedor de repositório de mensagens para notificações sobre alterações no repositório de mensagens. O repositório de mensagens enviará notificações sobre alterações no objeto registrado.
+Registra um objeto com um provedor de armazenamento de mensagens para notificações sobre alterações no armazenamento de mensagens. Em seguida, o armazenamento de mensagens enviará notificações sobre alterações no objeto registrado.
   
 ```cpp
 HRESULT Advise(
@@ -41,15 +41,15 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do objeto sobre quais notificações devem ser geradas. Este objeto pode ser uma pasta, uma mensagem ou qualquer outro objeto no repositório de mensagens. Como alternativa, se MAPI define o parâmetro _cbEntryID_ como 0 e passa **NULL** para _lpEntryID_, o coletor de avisos fornece notificações sobre alterações em todo o repositório de mensagens.
+> [in] Um ponteiro para o identificador de entrada do objeto sobre o qual as notificações devem ser geradas. Esse objeto pode ser uma pasta, uma mensagem ou qualquer outro objeto no armazenamento de mensagens. Como alternativa, se MAPI define o parâmetro _cbEntryID_ como 0 e passa nulo para  _lpEntryID_, o sink de aviso fornece notificações sobre alterações em todo o armazenamento de mensagens.
     
  _ulEventMask_
   
-> no Uma máscara de evento dos tipos de eventos de notificação que ocorrem para o objeto sobre o qual o MAPI irá gerar notificações. A máscara filtra casos específicos. Cada tipo de evento tem uma estrutura associada a ele que contém informações adicionais sobre o evento. A tabela a seguir lista os possíveis tipos de evento juntamente com suas estruturas correspondentes.
+> [in] Uma máscara de evento dos tipos de eventos de notificação que ocorrem para o objeto sobre o qual o MAPI gerará notificações. A máscara filtra casos específicos. Cada tipo de evento tem uma estrutura associada a ela que contém informações adicionais sobre o evento. A tabela a seguir lista os possíveis tipos de eventos juntamente com suas estruturas correspondentes.
     
 |**Tipo de evento de notificação**|**Estrutura correspondente**|
 |:-----|:-----|
@@ -65,33 +65,33 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> no Um ponteiro para um objeto de coletor de aviso a ser chamado quando ocorre um evento para o objeto Session sobre o qual a notificação foi solicitada. Este objeto de coletor de aviso já deve existir.
+> [in] Um ponteiro para um objeto sink de aviso a ser chamado quando ocorre um evento para o objeto de sessão sobre o qual a notificação foi solicitada. Esse objeto de pia de aconselhmento já deve existir.
     
  _lpulConnection_
   
-> bota Um ponteiro para uma variável que em um retorno bem-sucedido contém o número de conexão para o registro de notificação. O número de conexão deve ser diferente de zero.
+> [out] Um ponteiro para uma variável que, após um retorno bem-sucedido, contém o número de conexão para o registro de notificação. O número da conexão deve ser não zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
-> A operação não é suportada pelo MAPI ou por um ou mais provedores de serviços.
+> A operação não é suportada por MAPI ou por um ou mais provedores de serviços.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de repositórios de mensagens implementam o método **IMSLogon:: Advise** para registrar um objeto para retornos de chamada de notificação. Sempre que uma alteração ocorre no objeto indicado, o provedor verifica se o bit de máscara de evento foi definido no parâmetro _ulEventMask_ e, portanto, que tipo de alteração ocorreu. Se um bit for definido, o provedor chamará o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) para o objeto de coletor de aviso indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a **** rotina OnNotify descreve o evento. 
+Os provedores de armazenamento de mensagens implementam o **método IMSLogon::Advise** para registrar um objeto para retornos de chamada de notificação. Sempre que ocorre uma alteração no objeto indicado, o provedor verifica qual bit da máscara de eventos foi definido no parâmetro  _ulEventMask_ e, portanto, qual tipo de alteração ocorreu. Se um bit for definido, o provedor chamará o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto sink advise indicado pelo parâmetro  _lpAdviseSink_ para relatar o evento. Os dados passados na estrutura de notificação para a **rotina OnNotify** descrevem o evento. 
   
-A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou em qualquer momento posterior. Em sistemas que oferecem suporte a vários threads de execução, **** a chamada para OnNotify pode ocorrer em qualquer thread. Para lidar com segurança uma chamada para **** onnotificar que pode ocorrer em um momento de inopportune, um aplicativo cliente deve usar a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou a qualquer momento posterior. Em sistemas que suportam vários threads de execução, a chamada para **OnNotify** pode ocorrer em qualquer thread. Para manipular com segurança uma chamada para **OnNotify** que pode acontecer em um momento inoportuno, um aplicativo cliente deve usar a função [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) 
   
-Para fornecer notificações, o provedor de repositório de mensagens que implementa o **aviso** precisa manter uma cópia do ponteiro para o objeto de coletor de aviso _lpAdviseSink_ ; para fazer isso, o provedor chama o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para o coletor de avisos para manter seu ponteiro de objeto até que o registro de notificação seja cancelado com uma chamada para o método [IMSLogon:: Unadvise](imslogon-unadvise.md) . A implementação de **aviso** deve atribuir um número de conexão ao registro de notificação e chamar **AddRef** nesse número de conexão antes de devolvê-lo no parâmetro _lpulConnection_ . Os provedores de serviços podem liberar o objeto de coletor de aviso antes de o registro ser cancelado, mas não devem liberar o número de conexão até que **Unadvise** seja chamado. 
+Para fornecer notificações, o provedor de armazenamento de mensagens que implementa **Advise** precisa manter uma cópia do ponteiro para o objeto _sink de aviso lpAdviseSink;_ para fazer isso, o provedor chama o método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para o sink de aviso manter seu ponteiro de objeto até que o registro de notificação seja cancelado com uma chamada para o método [IMSLogon::Unadvise.](imslogon-unadvise.md) A **implementação de** Aviso deve atribuir um número de conexão ao registro de notificação e chamar **AddRef** nesse número de conexão antes de reenvolvê-lo no parâmetro _lpulConnection._ Os provedores de serviços podem liberar o objeto de cliente de alerta antes que o registro seja cancelado, mas não devem liberar o número de conexão até que **Unadvise** seja chamado. 
   
-Após uma chamada a **Advise** ter sido bem-sucedida e antes que **Unadvise** seja chamado, os provedores devem estar preparados para que o objeto de coletor de aviso seja liberado. Portanto, um provedor deve liberar seu objeto de coletor de aviso depois que **Advise** retornar, a menos que tenha um uso específico de longo prazo para ele. 
+Depois que uma chamada para **o Advise** tiver sido bem-sucedida e antes de **Unadvise** ter sido chamada, os provedores devem estar preparados para que o objeto de sink de aconselhá-lo seja liberado. Portanto, um provedor deve liberar seu objeto de aconselhá-lo depois que **Advise** retornar, a menos que ele tenha um uso específico a longo prazo para ele. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). 
+Para obter mais informações sobre o processo de notificação, consulte [Notificação de Evento em MAPI](event-notification-in-mapi.md). 
   
 ## <a name="see-also"></a>Confira também
 
@@ -103,7 +103,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Event
   
 [IMSLogon::Unadvise](imslogon-unadvise.md)
   
-[NOTIFICATION](notification.md)
+[NOTIFICAÇÃO](notification.md)
   
 [IMSLogon : IUnknown](imslogoniunknown.md)
 

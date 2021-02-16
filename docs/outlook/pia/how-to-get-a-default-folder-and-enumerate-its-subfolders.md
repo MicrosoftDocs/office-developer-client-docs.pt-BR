@@ -1,5 +1,5 @@
 ---
-title: Obter uma pasta padrão e enumerar suas subpastas
+title: Obter uma pasta padrão e enumerar as subpastas dela
 TOCTitle: Get a default folder and enumerate its subfolders
 ms:assetid: 587e8392-cb03-442c-9058-1282f36dabdb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184610(v=office.15)
@@ -25,7 +25,7 @@ Este exemplo mostra como obter uma pasta padrão no repositório padrão do usu�
 
 No exemplo de código a seguir, GetRSSFeeds usa o método [GetDefaultFolder(OlDefaultFolders)](https://msdn.microsoft.com/library/bb646473\(v=office.15\)) do objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) para obter a pasta raiz RSS Feeds. GetRSSFeeds exibe uma caixa de mensagem que contém os nomes de pasta de todos os RSS feeds da pasta RSS Feeds.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

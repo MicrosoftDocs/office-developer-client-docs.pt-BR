@@ -31,7 +31,7 @@ string filter = "[Start] >= '"
     + endTime.ToString("g") + "'";
 ```
 
-Antes de chamar o método **Items.Restrict**Procurar compromissos, o GetAppointmentsInRange faz duas outras coisas para incluir compromissos recorrentes no intervalo de tempo especificado:
+Antes de chamar o método **Items.Restrict** Procurar compromissos, o GetAppointmentsInRange faz duas outras coisas para incluir compromissos recorrentes no intervalo de tempo especificado:
 
 - Defina a propriedade [IncludeRecurrences](https://msdn.microsoft.com/library/bb646522\(v=office.15\)) do conjunto de[itens](https://msdn.microsoft.com/library/bb645287\(v=office.15\)).
 
@@ -63,7 +63,7 @@ string filter = "[Start] <= '"
     + startTime.ToString("g") + "'";
 ```
 
-O código a seguir mostra o exemplo completo. Se você usar o Visual Studio para testar este exemplo de código, primeiro você deve adicionar uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável Outlook quando você importa a namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+O código a seguir mostra o exemplo completo. Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

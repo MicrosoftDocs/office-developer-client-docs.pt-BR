@@ -21,7 +21,7 @@ O Microsoft InfoPath oferece suporte à migração de modelos de formulário de 
 
 Os modelos de formulário podem ter um destes três níveis de segurança, dependendo de onde o formulário está localizado. Esses três níveis de segurança são descritos em detalhes nas seções a seguir. 
   
-### <a name="restricted"></a>Restricted
+### <a name="restricted"></a>Restrito
 
 O modo de segurança restrito não permite a comunicação fora do modelo de formulário. Este nível de segurança destina-se a evitar que formulários prejudiciais transmitam dados do seu computador para um invasor mal-intencionado. Ao executar neste modo de segurança, os seguintes recursos não funcionarão:
   

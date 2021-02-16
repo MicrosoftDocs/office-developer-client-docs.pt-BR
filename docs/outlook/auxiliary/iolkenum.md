@@ -15,7 +15,7 @@ ms.locfileid: "32322096"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Oferece suporte à enumeração de contas como objetos [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Dá suporte à enumeração de contas [como objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -38,7 +38,7 @@ Oferece suporte à enumeração de contas como objetos [IUnknown](https://docs.m
    
 ## <a name="remarks"></a>Comentários
 
-Essa interface é retornada por **IOlkAccountManager:: EnumerateAccounts** ao obter um enumerador de contas. 
+Essa interface é retornada por **IOlkAccountManager::EnumerateAccounts** ao obter um enumerador de contas. 
   
 ## <a name="see-also"></a>Confira também
 

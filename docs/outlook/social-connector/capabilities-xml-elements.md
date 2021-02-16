@@ -1,5 +1,5 @@
 ---
-title: Elementos de XML de recursos
+title: Elementos XML de recursos
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

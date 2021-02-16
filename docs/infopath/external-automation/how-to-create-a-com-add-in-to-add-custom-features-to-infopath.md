@@ -47,7 +47,7 @@ O nome da chave do registro corresponde ao **ProgIdAttribute** do suplemento e c
   
 |**Nome**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|**FriendlyName** <br/> |**String** <br/> |O nome é exibido na caixa de diálogo **Suplementos de COM** e listado na página **Suplementos** da **Central de Confiabilidade**.  <br/> |
+|**FriendlyName** <br/> |**Cadeia de caracteres** <br/> |O nome é exibido na caixa de diálogo **Suplementos de COM** e listado na página **Suplementos** da **Central de Confiabilidade**.  <br/> |
 |**Descrição** <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres exibida quando o suplemento é selecionado na **Central de Confiabilidade**.  <br/> |
 |**LoadBehavior** <br/> |**DWORD** <br/> |Especifica a maneira de carregamento do suplemento de COM. O valor pode ser uma combinação de 0, 1, 2, 8 e 16. Consulte a tabela abaixo para saber mais.  <br/> |
    
@@ -55,11 +55,11 @@ O valor **DWORD** para **LoadBehavior** deve conter um valor que descreve como o
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Desconectado. O suplemento é exibido como Inativo na caixa de diálogo **Suplemento de COM**.  <br/> |
-|1  <br/> |Conectado. O suplemento é exibido como Ativo na caixa de diálogo **Suplemento de COM**.  <br/> |
-|duas  <br/> |Carrega na Inicialização. O suplemento é carregado e conectado quando o aplicativo host inicia.  <br/> |
-|8  <br/> |Carrega por Demanda. O suplemento é carregado e conectado quando o aplicativo host exige, por exemplo, quando um usuário clica em um botão que utiliza a funcionalidade do suplemento.  <br/> |
-|dezesseis  <br/> |Conectar na primeira vez. O suplemento será carregado e conectado na primeira vez que o usuário executar o aplicativo host após registrar o suplemento.  <br/> |
+|0  <br/> |Desconectado. O suplemento é exibido como Inativo na caixa de diálogo **Suplemento de COM**.  <br/> |
+|1   <br/> |Conectado. O suplemento é exibido como Ativo na caixa de diálogo **Suplemento de COM**.  <br/> |
+|2   <br/> |Carrega na Inicialização. O suplemento é carregado e conectado quando o aplicativo host inicia.  <br/> |
+|8   <br/> |Carrega por Demanda. O suplemento é carregado e conectado quando o aplicativo host exige, por exemplo, quando um usuário clica em um botão que utiliza a funcionalidade do suplemento.  <br/> |
+|16   <br/> |Conectar na primeira vez. O suplemento será carregado e conectado na primeira vez que o usuário executar o aplicativo host após registrar o suplemento.  <br/> |
    
 ## <a name="creating-a-managed-com-add-in-with-visual-studio-2005-or-visual-studio-2008"></a>Criar um suplemento de COM gerenciado com o Visual Studio 2005 ou Visual Studio 2008
 

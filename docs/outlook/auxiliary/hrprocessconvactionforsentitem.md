@@ -65,7 +65,7 @@ _dwFlags_
    
 ## <a name="remarks"></a>Comentários
 
-As categorias são consideradas informações pessoais e não devem ser transmitidas fora da caixa de correio do usuário. Portanto, não chame **HrProcessConvActionForSentItem** em um item de email não enviado. Em vez disso, envie o item e, em seguida, chame** HrProcessConvActionForSentItem** na cópia arquivada. A cópia arquivada pode ser armazenada na pasta Itens enviados ou em um local equivalente. 
+As categorias são consideradas informações pessoais e não devem ser transmitidas fora da caixa de correio do usuário. Portanto, não chame **HrProcessConvActionForSentItem** em um item de email não enviado. Em vez disso, envie o item e, em seguida, chame **HrProcessConvActionForSentItem** na cópia arquivada. A cópia arquivada pode ser armazenada na pasta Itens enviados ou em um local equivalente. 
   
 Seu aplicativo deve estar em processo com o Outlook.exe, como de um suplemento COM, para chamar **HrProcessConvActionForSentItem**. Se você tentar chamar **HrProcessConvActionForSentItem** fora do processo, **HrProcessConvActionForSentItem** lançará uma exceção de violação de acesso. 
   

@@ -25,7 +25,7 @@ ms.locfileid: "32278712"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um modo de exibição de tabela, retornando [](imapitableiunknown.md) um ponteiro para uma implementação IMAPITable. 
+Cria um exibição de tabela, retornando um ponteiro para uma [implementação IMAPITable.](imapitableiunknown.md) 
   
 ```cpp
 HRESULT HrGetView(
@@ -40,33 +40,33 @@ HRESULT HrGetView(
 
  _lpSSortOrderSet_
   
-> no Um ponteiro para uma estrutura de ordem de classificação que descreve a ordem de classificação para o modo de exibição de tabela. Se NULL é passado no parâmetro _lpSSortOrderSet_ , o modo de exibição não é classificado. 
+> [in] Um ponteiro para uma estrutura de ordem de classificação que descreve a ordem de classificação para o modo de exibição de tabela. Se NULL for passado no  _parâmetro lpSSortOrderSet,_ a exibição não será ordenada. 
     
  _lpfCallerRelease_
   
-> no Um ponteiro para uma função de retorno de chamada com base no protótipo [CALLERRELEASE](callerrelease.md) que MAPI chama quando libera o modo de exibição. Se NULL for passado no parâmetro _lpfCallerRelease_ , nenhuma função será chamada no lançamento do modo de exibição. 
+> [in] Um ponteiro para uma função de retorno de chamada com base no protótipo [CALLERRELEASE](callerrelease.md) que o MAPI chama quando libera a exibição. Se NULL for passado no parâmetro  _lpfCallerRelease,_ nenhuma função será chamada na versão do exibição. 
     
  _ulCallerData_
   
-> no Os dados que devem ser salvos com o novo modo de exibição e passados para a função de retorno de chamada indicada por _lpfCallerRelease_.
+> [in] Os dados que devem ser salvos com o novo ponto de vista e passados para a função de retorno de chamada apontado por  _lpfCallerRelease_.
     
  _lppMAPITable_
   
-> bota Um ponteiro para um ponteiro para o modo de exibição recém-criado.
+> [out] Um ponteiro para um ponteiro para o exibição recém-criado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O modo de exibição foi criado com êxito.
+> A exibição foi criada com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrGetView** cria um modo de exibição somente leitura dos dados na tabela, classificados na ordem indicada pelo parâmetro _lpSSortOrderSet_ . O cursor é colocado no início da primeira linha no modo de exibição. Uma **** implementação de interface imapitada para acessar o modo de exibição é retornada. 
+O **método ITableData::HrGetView** cria um modo de exibição somente leitura dos dados na tabela, na ordem apontada pelo parâmetro _lpSSortOrderSet._ O cursor é colocado no início da primeira linha no ponto de vista. Uma implementação de interface **IMAPITable** para acessar o exibição é retornada. 
   
-Os provedores de serviços chamam o **HrGetView** quando precisam dar acesso ao cliente a uma tabela. **HrGetView** cria o modo de exibição e **** retorna o ponteiro IMAPITable. Os provedores de serviços, por sua vez, passam o ponteiro para o cliente. Quando o cliente termina de usar a tabela e chama seu método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** chama a função de retorno de chamada apontada pelo parâmetro _lpfCallerRelease_ . 
+Os provedores de serviços **chamam HrGetView** quando precisam dar a um cliente acesso a uma tabela. **HrGetView** cria o ponto de vista e retorna o **ponteiro IMAPITable.** Os provedores de serviços, por sua vez, passam o ponteiro para o cliente. Quando o cliente terminar de usar a tabela e chamar seu método [IUnknown::Release,](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) **HrGetView** chamará a função de retorno de chamada apontada pelo parâmetro _lpfCallerRelease._ 
   
-Se um provedor de serviços precisar retornar a um cliente um modo de exibição que tenha um conjunto de colunas ou uma restrição personalizada, o provedor poderá chamar o [método IMAPITable::](imapitable-setcolumns.md) SetColumns e IMAPITable [:: Restrict](imapitable-restrict.md) Methods antes de permitir o acesso do cliente. 
+Se um provedor de serviços precisar retornar a um cliente um modo de exibição que tenha um conjunto de colunas personalizado ou uma restrição, o provedor poderá chamar os métodos [IMAPITable::SetColumns](imapitable-setcolumns.md) e [IMAPITable::Restrict](imapitable-restrict.md) do modo de exibição antes de permitir o acesso do cliente. 
   
 ## <a name="see-also"></a>Confira também
 

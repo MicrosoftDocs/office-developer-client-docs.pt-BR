@@ -25,7 +25,7 @@ ms.locfileid: "32329264"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Representa um valor nulo ou configuração de uma propriedade ou reserva espaço de matriz.
+Representa um valor nulo ou uma configuração de uma propriedade ou reserva espaço de matriz.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Representa um valor nulo ou configuração de uma propriedade ou reserva espaço
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para reservar espaço em matrizes de estruturas [SPropValue](spropvalue.md) . Ele é usado em uma matriz de estruturas [SPropTagArray](sproptagarray.md) para dizer ao método para reservar espaço na matriz retornada de estruturas **SPropValue** . Isso permite que as propriedades calculadas sejam preenchidas de forma barata. 
+Essa propriedade é usada para reservar espaço em matrizes de [estruturas SPropValue.](spropvalue.md) Ele é usado em uma matriz de [estruturas SPropTagArray](sproptagarray.md) para dizer ao método para reservar espaço na matriz retornada de **estruturas SPropValue.** Isso permite que as propriedades computadas sejam preenchidas de maneira barata. 
   
-Para obter mais informações, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+Para obter mais informações, consulte [Visão geral do tipo de propriedade MAPI.](mapi-property-type-overview.md)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas em contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas em contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

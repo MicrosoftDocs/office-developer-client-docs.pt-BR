@@ -25,7 +25,7 @@ ms.locfileid: "32316405"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve a unidade de tempo quando a propriedade **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplica.
+Descreve a unidade de tempo quando a **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) se multiplica.
   
 |||
 |:-----|:-----|
@@ -40,27 +40,27 @@ Essa propriedade, se definida, deve ser um dos seguintes valores:
   
 |||
 |:-----|:-----|
-|PidTagExpiryUnits  <br/> |Descrição (TimeOf)  <br/> |
+|PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
 |0x00000000  <br/> |Minutos, por exemplo, 60 segundos  <br/> |
-|0x00000001  <br/> |Horas, por exemplo 60x60 segundos  <br/> |
-|0x00000002  <br/> |Dia, por exemplo, 24x60x60 segundos  <br/> |
+|0x00000001  <br/> |Horas, por exemplo, 60 x 60 segundos  <br/> |
+|0x00000002  <br/> |Day, for example 24x60x60 seconds  <br/> |
 |0x00000003  <br/> |Semana, por exemplo, 7x24x60x60 segundos  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

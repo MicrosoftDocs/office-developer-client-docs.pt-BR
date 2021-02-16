@@ -1,5 +1,5 @@
 ---
-title: Implementar o logon do provedor de serviços
+title: Implementando o logon do provedor de serviços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310084"
 ---
-# <a name="implementing-service-provider-logon"></a>Implementar o logon do provedor de serviços
+# <a name="implementing-service-provider-logon"></a>Implementando o logon do provedor de serviços
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O MAPI chama um método no seu objeto Provider para começar o processo de logon usando o ponteiro retornado da função de ponto de entrada. O método varia conforme a seguir, dependendo do tipo de seu provedor de serviços:
+MAPI calls a method in your provider object to begin the logon process by using the pointer that you return from your entry point function. O método varia da seguinte forma, dependendo do tipo de seu provedor de serviços:
   
-- [IABProvider:: logon](iabprovider-logon.md) para provedores de catálogo de endereços 
+- [IABProvider::Logon para](iabprovider-logon.md) provedores de agendas 
     
-- [IMSProvider:: logon](imsprovider-logon.md) para provedores de repositórios de mensagens 
+- [IMSProvider::Logon para](imsprovider-logon.md) provedores de armazenamento de mensagens 
     
-- [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) para provedores de transporte 
+- [IXPProvider::TransportLogon para](ixpprovider-transportlogon.md) provedores de transporte 
     
-Execute as seguintes tarefas em qualquer método de logon que você implementar:
+Execute as seguintes tarefas em qualquer método de logon implementado:
   
-1. Incrementa a contagem de referência no objeto support que é passado como um parâmetro de entrada chamando seu método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) . 
+1. Incremente a contagem de referência no objeto de suporte que é passado como um parâmetro de entrada chamando seu [método IUnknown::AddRef.](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) 
     
-2. Chame o método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) do objeto support para acessar sua seção de perfil. 
+2. Chame o método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) do objeto de suporte para acessar sua seção de perfil. 
     
-3. Chame o método [IMAPIProp::](imapiprop-setprops.md) SetProps da seção de perfil para definir as seguintes propriedades: 
+3. Chame o método [IMAPIProp::SetProps](imapiprop-setprops.md) da seção de perfil para definir as seguintes propriedades: 
     
   - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
@@ -44,28 +44,28 @@ Execute as seguintes tarefas em qualquer método de logon que você implementar:
   - **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
   > [!NOTE]
-  > Não tente definir as propriedades **PR_RESOURCE_FLAGS** ou **PR_PROVIDER_DLL_NAME** da seção de perfil. No momento do logon, essas propriedades são somente leitura. 
+  > Não tente definir as propriedades de PR_RESOURCE_FLAGS **ou** PR_PROVIDER_DLL_NAME **perfil.** No momento do logon, essas propriedades são somente leitura. 
   
-4. Verifique se as propriedades necessárias para a configuração estão armazenadas no perfil ou estão disponíveis a partir do usuário. Para obter mais informações sobre como verificar sua configuração, consulte [verifyIng Service Provider Configuration](verifying-service-provider-configuration.md).
+4. Verifique se as propriedades que você precisa para a configuração estão armazenadas no perfil ou estão disponíveis para o usuário. Para obter mais informações sobre como verificar sua configuração, consulte [Verificando a configuração do provedor de serviços.](verifying-service-provider-configuration.md)
     
-5. Chame o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) do objeto support para registrar um identificador exclusivo ou [MAPIUID](mapiuid.md), se seu provedor for um catálogo de endereços ou um provedor de repositório de mensagens. Provedores de transporte registram estruturas **MAPIUID** quando MAPI chama o método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . Para obter mais informações sobre como registrar um **MAPIUID**, consulte [registro de identificadorEs exclusivos do provedor de serviços](registering-service-provider-unique-identifiers.md).
+5. Chame o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) do objeto de suporte para registrar um identificador exclusivo, ou [MAPIUID,](mapiuid.md)se seu provedor for um provedor de armazenamento de mensagens ou de um address book. Os provedores de transporte **registram estruturas MAPIUID** quando o MAPI chama seu [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) Para obter mais informações sobre como registrar um **MAPIUID,** consulte Registro de identificadores exclusivos do [provedor de serviços.](registering-service-provider-unique-identifiers.md)
     
-6. Crie uma instância de um objeto de logon e retorne com um dos seguintes valores:
+6. Insinue um objeto de logon e retorne com um dos seguintes valores:
     
   - S_OK para indicar um logon bem-sucedido.
     
   - MAPI_E_UNCONFIGURED para indicar que uma ou mais das propriedades de configuração não estavam disponíveis.
     
-  - MAPI_E_USER_CANCEL para indicar que o usuário cancelou a caixa de diálogo de configuração, fazendo com que as propriedades de configuração não estejam disponíveis.
+  - MAPI_E_USER_CANCEL para indicar que o usuário cancelou a caixa de diálogo de configuração, causando a indisponibilidade das propriedades de configuração.
     
-  - MAPI_E_FAILONEPROVIDER para indicar que o provedor não pôde ser configurado, mas esse MAPI deve permitir que ele seja usado independentemente. Os métodos de logon devem retornar esse valor para relatar um erro não fatal, como quando o provedor requer uma senha e não pode solicitar ao usuário porque a interface do usuário está desabilitada. 
+  - MAPI_E_FAILONEPROVIDER para indicar que seu provedor não pôde ser configurado, mas que o MAPI deve permitir que ele seja usado independentemente. Os métodos de logon devem retornar esse valor para relatar um erro não funcional, como quando o provedor exige uma senha e não pode solicitar ao usuário porque a interface do usuário está desabilitada. 
     
-A lista anterior de tarefas descreve uma implementação mínima para um método de logon do provedor de serviços. Você pode incluir funcionalidade adicional, se necessário. Por exemplo, alguns provedores chamam [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) para atualizar a tabela status no seu método de logon. 
+A lista anterior de tarefas descreve uma implementação mínima para um método de logon do provedor de serviços. Você pode incluir funcionalidade adicional, se necessário. Por exemplo, alguns provedores chamam [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para atualizar a tabela de status no método de logon. 
   
 > [!NOTE]
-> Para obter o melhor desempenho no momento do logon, evite chamar o [IMAPISupport::P reparesubmit](imapisupport-preparesubmit.md) ou [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md). Antes que essas chamadas possam concluir e retornar o controle para seu método de logon, o spooler MAPI deve ser iniciado. 
+> Para obter o melhor desempenho no momento do logon, evite chamar [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md) ou [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md). Antes que essas chamadas possam ser concluídas e retornem o controle ao método de logon, o spooler MAPI deve ser iniciado. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Iniciar um provedor de serviços](starting-a-service-provider.md)
+- [Iniciando um provedor de serviços](starting-a-service-provider.md)
 

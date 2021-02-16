@@ -25,7 +25,7 @@ ms.locfileid: "32315019"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Armazena em cache a licença de uso da mensagem de email gerenciada por direitos.
+Armazena em cache a licença de uso para a mensagem de email com direitos gerenciados.
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Armazena em cache a licença de uso da mensagem de email gerenciada por direitos
    
 ## <a name="remarks"></a>Comentários
 
-Se a propriedade estiver presente em uma mensagem de email gerenciada por direitos, o primeiro valor dessa propriedade Binary Multiple deverá conter o ZLIB (conforme especificado em [RFC1950]) licença de uso compactada para a mensagem de email gerenciada por direitos.
+Se a propriedade estiver presente em uma mensagem de email com direitos gerenciados, o primeiro valor dessa propriedade binária múltipla deverá conter a licença de uso compactada ZLIB (conforme especificado em [RFC1950]) para a mensagem de email gerenciada por direitos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas gerenciadas por direitos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

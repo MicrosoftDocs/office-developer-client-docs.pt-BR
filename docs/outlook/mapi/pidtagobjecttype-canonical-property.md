@@ -36,21 +36,21 @@ Contém o tipo de um objeto.
    
 ## <a name="remarks"></a>Comentários
 
-O tipo de objeto contido nessa propriedade corresponde à interface primária disponível para um objeto acessível através da interface **OpenEntry** . Normalmente, é obtido consultando o parâmetro _lpulObjType_ retornado pelo método **OpenEntry** apropriado. Quando a interface é Obtida de outras maneiras, chame [IMAPIProp::](imapiprop-getprops.md) GetProps para obter o valor dessa propriedade. 
+O tipo de objeto contido nessa propriedade corresponde à interface principal disponível para um objeto acessível por meio da interface **OpenEntry.** Geralmente, ele é obtido consultando o parâmetro  _lpulObjType_ retornado pelo **método OpenEntry** apropriado. Quando a interface for obtida de outras maneiras, chame [IMAPIProp::GetProps](imapiprop-getprops.md) para obter o valor dessa propriedade. 
   
 Essa propriedade pode ter exatamente um dos seguintes valores:
   
 MAPI_ABCONT 
   
-> Objeto contêiner de catálogo de endereços 
+> Objeto de contêiner do livro de endereços 
     
 MAPI_ADDRBOOK 
   
-> Objeto do catálogo de endereços 
+> Objeto address book 
     
 MAPI_ATTACH 
   
-> Objeto Attachment de mensagem 
+> Objeto message attachment 
     
 MAPI_DISTLIST 
   
@@ -74,7 +74,7 @@ MAPI_MESSAGE
     
 MAPI_PROFSECT 
   
-> Objeto seção de perfil 
+> Objeto da seção Profile 
     
 MAPI_SESSION 
   
@@ -82,63 +82,63 @@ MAPI_SESSION
     
 MAPI_STATUS 
   
-> Objeto status 
+> Objeto Status 
     
 MAPI_STORE 
   
-> Objeto do repositório de mensagens
+> Objeto de armazenamento de mensagens
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Lida com as comunicações de um cliente com um servidor de interface de provedor de serviços de nome (NSPI).
+> Lida com as comunicações de um cliente com um servidor NSPI (Name Service Provider Interface).
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte as convenções de email padrão da Internet em objetos de mensagem.
+> Converte de convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
-> Especifica os formatos de arquivo do catálogo de endereços offline (OAB) para o cache de objetos do catálogo de endereços local.
+> Especifica os formatos de arquivo do OAB (address book) offline para o cache de objetos do livro de endereços local.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para manipular uma configuração de lista de pastas de pesquisa.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -150,7 +150,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

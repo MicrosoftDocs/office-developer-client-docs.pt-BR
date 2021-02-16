@@ -25,7 +25,7 @@ ms.locfileid: "32316307"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a URL da Home Page de uma pasta no Microsoft Outlook. Esta propriedade contém um fluxo binário chamado **WebViewPersistenceObject**.
+Contém a URL da home page de uma pasta no Microsoft Outlook. Essa propriedade contém um fluxo binário chamado **WebViewPersistenceObject**.
   
 |||
 |:-----|:-----|
@@ -36,22 +36,22 @@ Contém a URL da Home Page de uma pasta no Microsoft Outlook. Esta propriedade c
    
 ## <a name="remarks"></a>Comentários
 
-Uma URL de página inicial pode ser especificada para qualquer pasta do Outlook. Essas informações podem ser acessadas no Outlook na guia **página inicial** da caixa de diálogo Propriedades de uma pasta. 
+Uma URL da home page pode ser especificada para qualquer pasta do Outlook. Essas informações podem ser acessadas no Outlook a partir da guia **Página** Inicial da caixa de diálogo Propriedades de uma pasta. 
   
-Dependendo de determinadas configurações de política, a Home Page poderá ser ignorada pelo Outlook se o repositório MAPI que contém essa pasta não relatar MSCAP_SECURE_FOLDER_HOMEPAGES em sua implementação do [IMSCapabilities:: GetCapabilities](pidtagfolderwebviewinfo-cannonical-property.md) . 
+Dependendo de certas configurações de política, a home page poderá ser ignorada pelo Outlook se o armazenamento MAPI que contém essa pasta não relatar MSCAP_SECURE_FOLDER_HOMEPAGES em sua implementação [IMSCapabilities::GetCapabilities.](pidtagfolderwebviewinfo-cannonical-property.md) 
   
-A pasta **Outlook hoje** e uma pasta pública podem ter URLs de Home Page. No enTanto, a pasta **Outlook hoje** usa um mecanismo diferente para gerenciar a URL da Home Page; Esse mecanismo não é abordado neste tópico. Uma pasta pública também pode ter uma URL de home page definida no que é específica de um usuário. No enTanto, esse recurso não é descrito neste tópico. 
+Tanto a **pasta Outlook Today** quanto uma pasta pública podem ter URLs da página inicial. No **entanto, a pasta Outlook Today** usa um mecanismo diferente para gerenciar sua URL da home page; esse mecanismo não é abordado neste tópico. Uma pasta pública também pode ter uma URL da home page definida que seja específica para um usuário. No entanto, essa funcionalidade não está descrita neste tópico. 
   
 O valor dessa propriedade é um fluxo binário chamado **WebViewPersistenceObject**.
   
-### <a name="webviewpersistenceobject-stream-structure"></a>Estrutura de fluxo WebViewPersistenceObject
+### <a name="webviewpersistenceobject-stream-structure"></a>Estrutura de Fluxo de WebViewPersistenceObject
 
-A estrutura de fluxo **WebViewPersistenceObject** contém informações sobre uma URL de página inicial de uma pasta. 
+A **estrutura de fluxo WebViewPersistenceObject** contém informações sobre uma URL da home page para uma pasta. 
   
-Os elementos de dados nessa estrutura são armazenados em uma ordem de byte little-endian, imediatamente após um outro na seguinte ordem especificada. 
+Os elementos de dados nessa estrutura são armazenados em ordem de byte little-endian, imediatamente após um ao outro na seguinte ordem especificada. 
   
 > [!NOTE]
-> A descrição a seguir pode não listar todos os valores de campo suportados pelo Outlook; Portanto, quando o código lê um fluxo existente, alguns sinalizadores que não estão listados aqui também podem ser encontrados. No enTanto, você pode usar essa descrição para criar programaticamente valores para a propriedade **PidTagFolderWebViewInfo** que o Outlook entenderá. 
+> A descrição a seguir pode não listar todos os valores de campo suportados pelo Outlook; portanto, quando seu código lê um fluxo existente, alguns sinalizadores que não estão listados aqui também podem ser encontrados. No entanto, você pode usar essa descrição para criar de forma programática valores para a propriedade **PidTagFolderWebViewInfo** que o Outlook compreenderá. 
   
  _dwVersion_
   
@@ -63,7 +63,7 @@ Os elementos de dados nessa estrutura são armazenados em uma ordem de byte litt
    
  _dwType_
   
-> DWORD (4 bytes). O tipo das informações da Home Page. A partir do Microsoft Office Outlook 2007, o único valor com suporte para esse campo é o seguinte.
+> DWORD (4 bytes). O tipo das informações da home page. A partir do Microsoft Office Outlook 2007, o único valor com suporte para esse campo é o seguinte.
     
 |**Value name**|**Valor**|
 |:-----|:-----|
@@ -73,29 +73,29 @@ Os elementos de dados nessa estrutura são armazenados em uma ordem de byte litt
   
 > DWORD (4 bytes). Uma combinação de zero ou mais sinalizadores cujos valores e significados estão listados na tabela a seguir.
     
-|Nome do sinalizador * * * *|****Valor****|****Descrição****|
+|Nome do sinalizador****|****Valor****|****Descrição****|
 |:-----|:-----|:-----|
-|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |A caixa de seleção **mostrar página inicial por padrão para esta pasta** foi selecionada na guia **página inicial** da caixa de diálogo Propriedades de uma pasta.  <br/> |
+|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |Por **padrão, a** caixa de seleção Mostrar home page dessa pasta foi marcada na guia **Home Page** da caixa de diálogo Propriedades de uma pasta.  <br/> |
    
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> Uma matriz de sete elementos DWORD (total de 28 bytes). Não usados.
+> Uma matriz de sete elementos DWORD (total de 28 bytes). Não éusado.
     
 cbData
   
-> Um ULONG (4 bytes). O tamanho, em bytes, do elemento de dados _wzURL_ . 
+> Um ULONG (4 bytes). O tamanho, em bytes, do _elemento de dados wzURL._ 
     
  _wzURL_
   
-> Uma matriz de elementos WCHAR. A representação UTF-16 da cadeia de URL da Home Page terminada em zero.
+> Uma matriz de elementos WCHAR. A representação UTF-16 da cadeia de caracteres da URL da página inicial terminada por zero.
     
-### <a name="webviewpersistenceobject-stream-sample"></a>Exemplo de fluxo WebViewPersistenceObject
+### <a name="webviewpersistenceobject-stream-sample"></a>Exemplo de fluxo de WebViewPersistenceObject
 
-Esta seção descreve um exemplo de um fluxo do **WebViewPersistenceObject** . O Stream especifica a URL da Home Pagehttps://www.microsoft.com"". 
+Esta seção descreve um exemplo de um **fluxo WebViewPersistenceObject.** O fluxo especifica a URL da página inicial " https://www.microsoft.com ". 
   
  **Despejo de dados**
   
-O seguinte é um despejo de dados do Stream como seria exibido em um editor binário.
+A seguir está um despejo de dados do fluxo, como seria exibido em um editor binário.
   
 |**Deslocamento de fluxo**|**Bytes de dados**|**Dados ASCII**|
 |:-----|:-----|:-----|
@@ -106,30 +106,30 @@ O seguinte é um despejo de dados do Stream como seria exibido em um editor bin�
 |0000000040  <br/> | `2E 00 6D 00 69 00 63 00 72 00 6F 00 73 00 6F 00` <br/> | `..m.i.c.r.o.s.o.` <br/> |
 |0000000050  <br/> | `66 00 74 00 2E 00 63 00 6F 00 6D 00 00 00` <br/> | `f.t...c.o.m...` <br/> |
    
-Veja a seguir uma análise dos dados de exemplo para o fluxo do **WebViewPersistenceObject** . 
+A seguir está uma análise dos dados de amostra para o **fluxo WebViewPersistenceObject.** 
   
  _dwVersion_
   
-> Offset 0x0, 4 bytes: 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
+> Deslocamento 0x0, 4 bytes: 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
     
  _dwType_
   
-> Offset 0x4, 4 bytes: 0x00000001 (WEBVIEWURL).
+> Deslocamento 0x4, 4 bytes: 0x00000001 (WEBVIEWURL).
     
  _dwFlags_
   
-> Offset 0x8, 4 bytes: 0x00000001 (WEBVIEW_FLAGS_SHOWBYDEFAULT).
+> Deslocamento 0x8, 4 bytes: 0x00000001 (WEBVIEW_FLAGS_SHOWBYDEFAULT).
     
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> Offset 0xC, 28 bytes: todos os zeros.
+> Deslocamento 0xC, 28 bytes: todos os zeros.
     
  _cbData_
   
-> Offset 0x28, 4 bytes: 0x00000032.
+> Deslocamento 0x28, 4 bytes: 0x00000032.
     
  _wzURL_
   
-> Offset 0x2C, 0x32 bytes: matriz de 25 WCHAR. Um valor de cadeia de caracteres Unicode terminadahttps://www.microsoft.comem zero: "".
+> Deslocamento 0x2C, 0x32 bytes: matriz de 25 WCHARs. Um valor de cadeia de caracteres terminada em zero Unicode: " https://www.microsoft.com ".
     
 

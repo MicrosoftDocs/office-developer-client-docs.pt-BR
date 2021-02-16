@@ -25,7 +25,7 @@ ms.locfileid: "32316583"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Implementa um objeto de armazenamento para acessar um Stream.
+Implementa um objeto de armazenamento para acessar um fluxo.
   
 ```cpp
 HRESULT IStorageFromStream(
@@ -40,23 +40,23 @@ HRESULT IStorageFromStream(
 
  _lpUnkIn_
   
-> no Um ponteiro para um objeto Stream.
+> [in] Um ponteiro para um objeto stream.
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o fluxo apontado pelo _lpUnkIn_. Qualquer um dos seguintes valores é válido: IID_IStream, IID_ILockBytes ou **NULL**, que indica que a interface de [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) deve ser usada para acessar o Stream. 
+> [in] Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o fluxo apontado por  _lpUnkIn_. Qualquer um dos seguintes valores são válidos: IID_IStream, IID_ILockBytes ou **nulo**, o que indica que a interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) deve ser usada para acessar o fluxo. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto de armazenamento deve ser criado em relação ao objeto Stream. Por padrão, o armazenamento é criado com acesso somente leitura e o fluxo começa na posição zero no armazenamento. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma bitmask de sinalizadores que controla como o objeto de armazenamento deve ser criado em relação ao objeto stream. Por padrão, o armazenamento é criado com acesso somente leitura e o fluxo começa na posição zero no armazenamento. Os sinalizadores a seguir podem ser definidos:
     
 STGSTRM_CREATE 
   
-> Um novo objeto de armazenamento deve ser criado para o objeto Stream.
+> Um novo objeto de armazenamento deve ser criado para o objeto stream.
     
 STGSTRM_CURRENT 
   
-> O objeto de armazenamento deve começar na posição atual do Stream.
+> O objeto de armazenamento deve iniciar na posição atual do fluxo.
     
 STGSTRM_MODIFY 
   
@@ -68,7 +68,7 @@ STGSTRM_RESET
     
  _lppStorageOut_
   
-> bota Um ponteiro para um ponteiro para o objeto de armazenamento.
+> [out] Um ponteiro para um ponteiro para o objeto de armazenamento.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -78,27 +78,27 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: IStorageFromStream** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços chamam o **IStorageFromStream** para criar um objeto de armazenamento a ser usado para abrir propriedades específicas. Os provedores de serviços que têm sua própria implementação da interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) não precisam chamar **IStorageFromStream**. 
+O **método IMAPISupport::IStorageFromStream** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços **chamam IStorageFromStream para** criar um objeto de armazenamento a ser usado para abrir propriedades específicas. Os provedores de serviços que têm sua própria implementação da interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) não precisam chamar **IStorageFromStream**. 
   
-O objeto de armazenamento criado por **IStorageFromStream** chama o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) do fluxo para incrementar sua contagem de referência e, em seguida, decrementa a contagem quando o armazenamento é liberado. 
+O objeto de armazenamento criado por **IStorageFromStream** chama o método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) do fluxo para incrementar sua contagem de referência e diminui a contagem quando o armazenamento é liberado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) de um de seus objetos é chamado para abrir uma propriedade com a interface **IStorage** , execute as seguintes tarefas: 
+Quando o [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) de um de seus objetos for chamado para abrir uma propriedade com a interface **IStorage,** execute as seguintes tarefas: 
   
-1. Abra um objeto Stream com permissão de leitura/gravação para a propriedade.
+1. Abra um objeto stream com permissão de leitura/gravação para a propriedade.
     
-2. Marcar internamente o fluxo de propriedade como um objeto de armazenamento.
+2. Marcar internamente o fluxo de propriedades como um objeto de armazenamento.
     
-3. Chamar **IStorageFromStream** para gerar um objeto de armazenamento. 
+3. Chame **IStorageFromStream para** gerar um objeto de armazenamento. 
     
-4. Retornar um ponteiro para este objeto de armazenamento.
+4. Retorne um ponteiro para esse objeto de armazenamento.
     
-Se você implementar interfaces adicionais que usem o objeto de armazenamento, crie um objeto que encapsula o objeto de armazenamento e implemente um método de nível mais alto [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) . 
+Se você implementar interfaces adicionais que usam o objeto de armazenamento, crie um objeto que envolva o objeto de armazenamento e implemente um método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de nível superior. 
   
-Não permite que uma propriedade seja aberta com a interface **IStream** se ela tiver sido criada com **IStorage**. Por outro lado, não permita que uma propriedade seja aberta com a interface **IStorage** se tiver sido criada com **IStream**. 
+Não permita que uma propriedade seja aberta com a interface **IStream** se ela tiver sido criada com **IStorage**. Por outro lado, não permita que uma propriedade seja aberta com a interface **IStorage** se ela tiver sido criada com **IStream**. 
   
-Com uma exceção, é aceitável usar a interface **IStreamDocfile** para transmitir um objeto de armazenamento de um contêiner para outro, mas o identificador de interface IID_IStreamDocfile deve ser passado no lpInterface do método **OpenProperty** . _ _parâmetro. 
+Com uma exceção, é aceitável usar a interface **IStreamDocfile** para transmitir um objeto de armazenamento de um contêiner para outro, mas o identificador da interface IID_IStreamDocfile deve ser passado no parâmetro _lpInterface_ do método **OpenProperty.** 
   
 ## <a name="see-also"></a>Confira também
 

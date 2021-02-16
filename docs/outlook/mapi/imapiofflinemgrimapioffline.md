@@ -25,7 +25,7 @@ ms.locfileid: "32270088"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Oferece suporte ao registro de retornos de chamada de notificação sobre alterações de estado de conexão de uma conta de usuário.
+Oferece suporte ao registro para retornos de chamada de notificação sobre alterações de estado de conexão de uma conta de usuário.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Oferece suporte ao registro de retornos de chamada de notificação sobre altera
 
 |||
 |:-----|:-----|
-|[Utilizar](imapiofflinemgr-advise.md) <br/> |Registra para retornos de chamada de notificação sobre alterações de conexão.  <br/> |
-|[Cancelar](imapiofflinemgr-unadvise.md) <br/> |Remove um determinado registro para retornos de chamada de notificação.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+|[Advise](imapiofflinemgr-advise.md) <br/> |Registra retornos de chamada de notificação sobre alterações de conexão.  <br/> |
+|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Remove um determinado registro para retornos de chamada de notificação.  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+| *Membro placeholder*  <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Ao abrir um objeto offline para um perfil de conta de usuário usando o **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente obtém um objeto offline que oferece suporte a **IMAPIOfflineMgr**. 
+Ao abrir um objeto offline para um perfil de conta de usuário usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente obtém um objeto offline que dá suporte a **IMAPIOfflineMgr**. 
   
-Como esta interface herda de **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, o cliente pode consultar esta interface (usando **[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) para obter um objeto que suporte o **[IMAPIOffline](imapiofflineiunknown.md)**. Em seguida, o cliente pode saber mais sobre os recursos de retorno de chamada do objeto offline (chamando **[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)** ) e optar por configurar os retornos de chamada (usando **IMAPIOfflineMgr:: Advise** ). 
+Como essa interface herda de **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, o cliente pode consultar essa interface (usando **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) para obter um objeto que dá suporte a **[IMAPIOffline](imapiofflineiunknown.md)**. Em seguida, o cliente pode descobrir os recursos de retorno de chamada do objeto offline (chamando **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** ) e optar por configurar retornos de chamada (usando **IMAPIOfflineMgr::Advise** ). 
   
-A maioria dos membros dessa interface consiste em espaços reservados para uso interno do Outlook e está sujeita a alterações. Os chamadores desta interface devem usar membros sem espaço reservado conforme documentado.
+A maioria dos membros dessa interface consiste em espaços reservados para uso interno do Outlook e está sujeita a alterações. Os chamadores desta interface devem usar membros que não são de espaço reservado somente conforme documentado.
   
 ## <a name="see-also"></a>Confira também
 

@@ -43,7 +43,7 @@ MessageBox.Show("Main data source XML: " &amp; _
 ```
 
 > [!NOTE]
-> Chamar o método [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) diretamente da palavra-chave **this** ou **Me** equivale a chamar o método [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) usando a propriedade [MainDataSource ](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) (`this.MainDataSource.CreateNavigator()`) ou transmitindo uma cadeia vazia para a propriedade [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) da classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (`this.DataSources[""].CreateNavigator()`). 
+> Chamar o método [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) diretamente da palavra-chave **this** ou **Me** equivale a chamar o método [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) usando a propriedade [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) (`this.MainDataSource.CreateNavigator()`) ou transmitindo uma cadeia vazia para a propriedade [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) da classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (`this.DataSources[""].CreateNavigator()`). 
   
 ## <a name="selecting-and-setting-the-xml-nodes-for-fields-in-the-main-data-source"></a>Seleção e definição dos nós XML para campos na fonte de dados principal
 <a name="InfoPath2007XPathNavigatorClassFormTemplates_SelectingXMLNodes"> </a>
@@ -274,7 +274,7 @@ Além dos membros do modelo de objeto do InfoPath que retornam ou aceitam um obj
 ## <a name="using-the-xpathnavigator-and-xpathnodeiterator-classes-to-work-with-data-selected-in-a-view"></a>Uso das classes XPathNavigator e XPathNodeIterator para trabalhar com dados selecionados em uma exibição
 <a name="InfoPath2007XPathNavigatorClassFormTemplates_SelectingXMLNodes"> </a>
 
-O exemplo a seguir usa membros das classes **XPathNavigator** e **XPathNodeIterator **para trabalhar com dados de formulário na seguinte sequência: 
+O exemplo a seguir usa membros das classes **XPathNavigator** e **XPathNodeIterator** para trabalhar com dados de formulário na seguinte sequência: 
   
 1. O método **CreateNavigator** da classe **DataSource** é usado para criar uma variável de objeto **XPathNavigator** denominada repeatingTableRow1, que, por padrão, é posicionada na raiz do documento XML subjacente do formulário (a principal fonte de dados).
     

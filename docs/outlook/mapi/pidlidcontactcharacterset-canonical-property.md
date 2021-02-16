@@ -37,23 +37,23 @@ Especifica o conjunto de caracteres usado para este contato.
    
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos podem usar essa propriedade para ajudar a gerar uma lista de opções dependentes de conjuntos de caracteres para o **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **DispidFileUnderList** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) e **dispidFileUnderId **Propriedades de ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)). Se o valor da propriedade for "0x00000000" ou "0x00000001", os aplicativos devem tratar a propriedade como não sendo definida.
+Os aplicativos podem usar essa propriedade para auxiliar na geração de uma lista dependente de caracteres de opções para as propriedades **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **dispidFileUnderList** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) e **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)). Se o valor da propriedade for "0x00000000" ou "0x00000001", os aplicativos deverão tratar a propriedade como não sendo definida.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas para contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

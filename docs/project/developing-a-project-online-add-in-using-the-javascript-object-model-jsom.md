@@ -1,11 +1,11 @@
 ---
-title: Desenvolver um suplemento do Project online usando o modelo de objeto do JavaScript (JSOM)
+title: Desenvolver um complemento do Project Online usando o Modelo de Objeto do JavaScript (JSOM)
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
-description: Este artigo descreve o desenvolvimento de suplementos do Microsoft Project online para aprimorar sua experiência com o Project online. O projeto de desenvolvimento é implementado como um passo a passo. O suplemento usado neste artigo lê e exibe os nomes de projeto e as IDs dos projetos publicados da sua conta do Project online e permite que você faça uma busca detalhada para recuperar tarefas associadas a projetos individuais.
+description: Este artigo descreve o desenvolvimento do Microsoft Project Online Add-in para aprimorar sua experiência com o Project Online. O projeto de desenvolvimento é implementado como um passo a passo. O complemento usado neste artigo lê e exibe os nomes e as IDs de projeto dos projetos publicados da sua conta do Project Online e permite que você faça buscas em busca de tarefas associadas a projetos individuais.
 ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,72 +13,72 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322679"
 ---
-# <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Desenvolver um suplemento do Project online usando o modelo de objeto do JavaScript (JSOM)
+# <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Desenvolver um complemento do Project Online usando o Modelo de Objeto do JavaScript (JSOM)
 
-Este artigo descreve o desenvolvimento de suplementos do Microsoft Project online para aprimorar sua experiência com o Project online. O projeto de desenvolvimento é implementado como um passo a passo. O suplemento usado neste artigo lê e exibe os nomes de projeto e as IDs dos projetos publicados da sua conta do Project online e permite que você faça uma busca detalhada para recuperar tarefas associadas a projetos individuais.
+Este artigo descreve o desenvolvimento do Microsoft Project Online Add-in para aprimorar sua experiência com o Project Online. O projeto de desenvolvimento é implementado como um passo a passo. O complemento usado neste artigo lê e exibe os nomes e as IDs de projeto dos projetos publicados da sua conta do Project Online e permite que você faça buscas mais precisas para recuperar tarefas associadas a projetos individuais.
   
-Em tempo de execução, a lista de suplementos é semelhante à ilustração a seguir:
+Em tempo de executar, a listagem do complemento é semelhante à ilustração a seguir:
   
-![Captura de tela mostrando uma listagem de projetos e tarefas do JSOM] (media/766e5914-f048-48f4-9282-291f55e6e90d.png "Captura de tela mostrando uma listagem de projetos e tarefas do JSOM")
+![Screen shot showing a listing of JSOM projects and tasks Screen]shot showing a(media/766e5914-f048-48f4-9282-291f55e6e90d.png "listing of JSOM projects and tasks")
   
-O foco do exemplo é a interação com o Project online, fazendo consultas e Configurando o contexto de cada solicitação do serviço. Os elementos da interface do usuário (UI) recebem o mínimo de atenção. Em vez disso, as listagens de origem fornecem comentários sobre a interface do usuário.
+O foco do exemplo é a interação com o Project Online, fazendo consultas e definindo o contexto de cada solicitação do serviço. Os elementos da interface do usuário (UI) recebem atenção mínima. Em vez disso, as listagem de origem fornecem comentários sobre a interface do usuário.
   
 > [!NOTE]
-> Os arquivos de origem do suplemento de exemplo, um projeto do Visual Studio, estão disponíveis em: https://github.com/OfficeDev/Project-JSOM-List-Projects-Tasks..... Mantenha os arquivos de origem úteis como referência enquanto você lê o artigo, como cada um complementa o outro. Os arquivos na compilação do projeto do Visual Studio e são executáveis com alterações mínimas, substituindo a URL para o locatário do Project online até a pasta do PWA. 
+> Os arquivos de origem para o exemplo de complemento, um projeto do Visual Studio, estão disponíveis em: https://github.com/OfficeDev/Project-JSOM-List-Projects-Tasks.... . Mantenha os arquivos de origem úteis como referência enquanto você lê o artigo, pois cada um complementa o outro. Os arquivos na com build do projeto do Visual Studio e são executáveis com alterações mínimas substituindo a URL do locatário do Project Online na pasta do PWA. 
   
-## <a name="background"></a>Background
+## <a name="background"></a>Histórico
 
-O Project online é um serviço do Office 365 que oferece às empresas uma solução de gerenciamento de portfólio de projetos (PPM) e de gerenciamento de projetos (PMO) para coordenar e gerenciar portfólios, programas e projetos. O Project online é uma oferta diferente da do Project desktop Editions; no entanto, o Project online ainda contém a funcionalidade para manter e acompanhar detalhes do projeto durante toda a vida de um projeto. O Project online é criado no SharePoint Online.
+O Project Online é um serviço do Office 365 que fornece às empresas um PPM (gerenciamento de portfólio de projetos) e uma solução de PMO (escritório de gerenciamento de projetos) para coordenar e gerenciar portfólios, programas e projetos. O Project Online é uma oferta diferente das edições da área de trabalho do Project; ainda assim, o Project Online ainda contém a funcionalidade para manter e acompanhar detalhes do projeto durante toda a vida de um projeto. O Project Online foi criado no SharePoint Online.
   
-Um suplemento hospedado no Project online consiste em arquivos de recurso e JavaScript que interagem com a API de modelo de objeto do lado do cliente. Quando o usuário visita o suplemento, o JavaScript e os recursos são baixados e executados no navegador. O suplemento faz chamadas assíncronas para o Project online para interagir com o serviço, seja criando, recuperando, atualizando ou excluindo dados. 
+Um complemento hospedado do Project Online consiste em JavaScript e arquivos de recursos que interagem com a API de Modelo de Objeto do Lado do Cliente. Quando o usuário visita o complemento, o JavaScript e os recursos são baixados e executados no navegador. O complemento faz chamadas assíncronas ao Project Online para interagir com o serviço, seja criando, recuperando, atualizando ou excluindo dados. 
   
-O Project online executa mais uma ação para proteger informações que pertencem a outros locatários do suplemento; especificamente, o Project online cria um site isolado para interagir com as solicitações do suplemento. Nenhum código personalizado é executado no host do Project online. 
+O Project Online executa mais uma ação para proteger informações que pertencem a outros locatários do complemento; ou seja, o Project Online cria um site isolado para interagir com as solicitações do complemento. Nenhum código personalizado é executado no host do Project Online. 
   
-A configuração de desenvolvimento para suplementos do Project online usa o tipo de projeto de suplemento do Visual Studio SharePoint. O suplemento é escrito em JavaScript e usa o modelo de objeto JavaScript (JSOM) do Project para interagir com o serviço do Project online. O JSOM herda grande parte de sua funcionalidade do JSOM do SharePoint.
+A configuração de desenvolvimento para os complementos do Project Online usa o tipo de projeto do Visual Studio SharePoint Add-in. O complemento é escrito em JavaScript e usa o modelo de objeto do JavaScript do Project (JSOM) para interagir com o serviço do Project Online. O JSOM herda grande parte de sua funcionalidade do JSOM do SharePoint.
   
 > [!NOTE]
-> Os suplementos podem ser publicados e vendidos na Office Store ou implantados em um catálogo de aplicativos particulares no SharePoint. Para obter mais informações, consulte [implantar e publicar seu suplemento do Office](https://docs.microsoft.com/office/dev/add-ins/publish/publish).
+> Os complementos podem ser publicados e vendidos na Office Store ou implantados em um catálogo de aplicativos privado no SharePoint. Para saber mais, [confira Implantar e publicar o Seu Complemento do Office.](https://docs.microsoft.com/office/dev/add-ins/publish/publish)
 > 
-> O suplemento usado neste artigo é um exemplo para desenvolvedores; Ele não se destina ao uso em um ambiente de produção. O principal objetivo é mostrar um exemplo de desenvolvimento de aplicativos para o Project online. 
+> O complemento usado neste artigo é um exemplo para desenvolvedores; não se destina ao uso em um ambiente de produção. O objetivo principal é mostrar um exemplo de desenvolvimento de aplicativos para o Project Online. 
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Adicione os seguintes itens a um ambiente do Windows compatível:
+Adicione os seguintes itens a um ambiente do Windows com suporte:
   
-- **.NET Framework 4,0 ou posterior**: as versões completas da estrutura da versão 4,0 são compatíveis. O site de download é https://msdn.microsoft.com/vstudio/aa496123.aspx.
+- **.NET Framework 4.0 ou posterior:** Versões completas da estrutura da versão 4.0 são compatíveis. O site de download é https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
-- **Visual Studio 2013 ou posterior**:  
+- **Visual Studio 2013 ou posterior:**  
     
-   - A edição profissional do Visual Studio 2015 está pronta para ser acessada e está disponível em https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx.
+   - A edição profissional do Visual Studio 2015 está pronta para ser pronta para uso e está disponível em https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx .
     
-   - A edição da Comunidade do Visual Studio 2015 está disponível https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspxem. Esta edição requer a instalação manual do Microsoft Office Developer Tools para Visual Studio.
+   - A edição da comunidade do Visual Studio 2015 está disponível em https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx . Esta edição requer a instalação manual do Microsoft Office Developer Tools para Visual Studio.
     
-   As ferramentas de desenvolvedor do Microsoft Office para Visual Studio estão https://www.visualstudio.com/en-us/features/office-tools-vs.aspxdisponíveis em.
+   As Ferramentas de Desenvolvedor do Microsoft Office para Visual Studio estão disponíveis em https://www.visualstudio.com/en-us/features/office-tools-vs.aspx .
     
-- **Uma conta do Project online**: fornece acesso ao serviço de hospedagem. Confira mais informações sobre como obter uma conta do Project Online em https://products.office.com/en-us/Project/project-online-portfolio-management.
+- **Uma conta do Project Online:** fornece acesso ao serviço de hospedagem. Confira mais informações sobre como obter uma conta do Project Online em https://products.office.com/en-us/Project/project-online-portfolio-management.
     
-   Certifique-se de que o usuário do suplemento tenha autorização suficiente para acessar alguns projetos no locatário do Project online. 
+   Verifique se o usuário do complemento tem autorização suficiente para acessar alguns projetos no locatário do Project Online. 
     
-- **Projetos no site de hospedagem** que são preenchidos com informações.
+- **Projetos no site de hospedagem** preenchidos com informações.
     
 > [!NOTE]
-> O .NET Framework padrão é a estrutura correta a ser usada. Não use o ".NET Framework 4 Client Profile". 
+> O .NET Framework padrão é a estrutura correta a ser usada. Não use o "Perfil de Cliente do .NET Framework 4". 
   
 ### <a name="set-up-the-visual-studio-project"></a>Configurar o projeto do Visual Studio
 
-A instalação do aplicativo consiste em criar um novo projeto, vincular as bibliotecas apropriadas e declarar os namespaces necessários. O Visual Studio apresenta vários tipos de projetos de desenvolvimento. A seção é breve e muito básica. O valor tem as informações são agrupadas em um só lugar.
+A configuração do aplicativo consiste em criar um novo projeto, vincular as bibliotecas apropriadas e declarar os namespaces necessários. O Visual Studio apresenta vários tipos de projetos de desenvolvimento. A seção é breve e muito básica. O valor que tem as informações é agregado em um só lugar.
   
 #### <a name="select-a-visual-studio-project"></a>Selecionar um projeto do Visual Studio
 
-Para criar um projeto do tipo apropriado para o suplemento, você deve executar as etapas a seguir. Palavras-chave encontradas na tela têm um atributo **negrito** : 
+Para criar um projeto do tipo apropriado para o complemento, você deve seguir as etapas a seguir. As palavras-chave encontradas na tela têm um **atributo em** negrito: 
   
-1. No menu arquivo, escolha **arquivo** > **novo** > **projeto**. 
+1. No menu Arquivo, escolha **Arquivo**  >  **Novo**  >  **Projeto.** 
     
-2. Nos modelos instalados no painel esquerdo, selecione**suplementos da Web****do Office/SharePoint do** >  **C#** > . 
+2. Nos modelos instalados no painel esquerdo, selecione **C#**  >  **Office/SharePoint**  >  **Web Add-ins**. 
     
-3. Na parte superior do painel central, selecione **.NET Framework 4** ou posterior; a versão atual é 4,6. 
+3. Na parte superior do painel central, selecione **.NET Framework 4** ou posterior; a versão atual é 4.6. 
     
-4. Nos tipos de aplicativos no painel central, escolha **suplemento do SharePoint**. 
+4. Nos tipos de aplicativos no painel central, escolha **o SharePoint Add-in.** 
     
 5. Na seção inferior, especifique o nome e o local do projeto e o nome da solução. 
     
@@ -86,107 +86,107 @@ Para criar um projeto do tipo apropriado para o suplemento, você deve executar 
     
 7. Clique em **OK** para criar o projeto inicial. 
     
-O assistente do Visual Studio faz algumas perguntas de acompanhamento sobre o site de configurações do Project online (chamado de configurações do SharePoint nas caixas de diálogo) em algumas caixas de diálogo que se seguem. Aqui estão as perguntas:
+O Assistente do Visual Studio faz algumas perguntas de acompanhamento sobre o site de configurações do Project Online (chamado de configurações do SharePoint nas caixas de diálogo) em algumas caixas de diálogo a seguir. Aqui estão as perguntas:
   
-1. Qual site do SharePoint você deseja usar para depurar seu suplemento? Especifique a URL para o site do PWA, como https://contoso.sharepoint.com/sites/pwa.
+1. Qual site do SharePoint você deseja usar para depurar seu complemento? Especifique a URL para seu site do PWA, como https://contoso.sharepoint.com/sites/pwa .
     
-2. Como você deseja hospedar seu suplemento do SharePoint? Escolha [X] **hospedado pelo SharePoint**.
+2. Como você deseja hospedar seu Add-in do SharePoint? Escolha [X] **Hospedado pelo SharePoint.**
     
-   Para obter mais informações sobre os suplementos do SharePoint, incluindo opções de hospedagem, confira [suplementos do SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+   Para saber mais sobre os Complementos do SharePoint, incluindo opções de hospedagem, confira [Os Complementos do SharePoint.](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
     
 3. Clique em **Avançar**. 
     
-A segunda caixa de diálogo adicional solicita que você especifique a versão do SharePoint Online para o suplemento: 
+A segunda caixa de diálogo adicional solicita que você especifique a versão do SharePoint Online para o complemento: 
   
-1. Qual é a versão mais antiga do SharePoint para a qual você deseja que o suplemento direcione? Escolha [X] S **harePoint-online**. 
+1. Qual é a versão mais antiga do SharePoint para a qual você deseja direcionar o seu complemento? Escolha [X] S **harePoint-Online**. 
     
 2. Clique em **Concluir**. 
     
-O Visual Studio cria o projeto e acessa o site do Project online. 
+O Visual Studio cria o projeto e acessa o site do Project Online. 
   
-### <a name="enable-sideloading-on-the-project-online-site"></a>Habilitar o Sideload no site do Project online
+### <a name="enable-sideloading-on-the-project-online-site"></a>Habilitar sideload no site do Project Online
 
-O Sideload é o mecanismo para testar e depurar os suplementos do Project online. Você precisa de dois scripts para o Sideload: um para habilitar o Sideload no site do Project online e outro para desabilitar o Sideload depois que você terminar de testar e depurar o suplemento.
+Sideload é o mecanismo para testar e depurar os complementos do Project Online. Você precisa de dois scripts para sideload: um para habilitar o sideload em seu site do Project Online e outro para desabilitar o sideload depois de concluir o teste e a depuração do complemento.
   
-Para obter mais informações sobre como configurar o Sideload, consulte [habilitar o aplicativo Sideload em seu conjunto de sites não desenvolvedor](https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/).
+Para obter mais informações sobre como configurar o sideload, consulte [Habilitar SideLoading](https://blogs.msdn.microsoft.com/officeapps/2013/12/10/enable-app-sideloading-in-your-non-developer-site-collection/)do aplicativo em seu conjunto de sites não desenvolvedor.
   
 > [!NOTE]
-> Aplicativos de Sideload é um recurso de desenvolvedor/teste. Não se **destina ao uso de produção**. Não Sideload aplicativos regularmente ou mantenha o aplicativo Sideload habilitado por mais tempo do que você está usando ativamente o recurso. 
+> O sideload de aplicativos é um recurso de desenvolvedor/teste. Ele não **se destina ao uso de produção.** Não faça sideload de aplicativos regularmente ou mantenha o sideload de aplicativo habilitado por mais tempo do que você está usando ativamente o recurso. 
   
-## <a name="add-content-to-the-add-in-project"></a>Adicionar conteúdo ao projeto do suplemento
+## <a name="add-content-to-the-add-in-project"></a>Adicionar conteúdo ao projeto do complemento
 
-Após criar um projeto e configurar o mecanismo de depuração, adicionar conteúdo ao aplicativo inclui as seguintes tarefas:
+Depois de criar um projeto e configurar o mecanismo de depuração, adicionar conteúdo ao aplicativo inclui as seguintes tarefas:
   
 - Definindo o escopo do aplicativo
     
 - Vinculando a biblioteca JSOM
     
-- Adicionando elementos de interface do usuário ao suplemento
+- Adicionando elementos de interface do usuário ao add-in
     
-- Inicializando e conectando-se ao serviço do Project online
+- Inicializando e conectando-se ao serviço do Project Online
     
-- Recuperando projetos e detalhes/Propriedades
+- Recuperar projetos e detalhes/propriedades
     
 - Exibindo projetos
     
 - Exibindo tarefas para um projeto
     
-O projeto do suplemento consiste em vários arquivos. Neste exemplo, você precisará editar os seguintes arquivos: 
+O projeto do complemento consiste em muitos arquivos. Neste exemplo, você precisará editar os seguintes arquivos: 
   
-- Arquivo AppManifest. xml
+- AppManifest.xml
     
-- Default. aspx
+- Default.aspx
     
-- App. js
+- App.js
     
-- App. css-opcional; contém definições de estilo desenvolvidas para o suplemento
+- App.css - opcional; contém definições de estilo desenvolvidas para o complemento
     
-Se o locatário do Project online for alterado, como mover de uma versão de avaliação para um site de assinatura, você poderá atualizar as propriedades do projeto, incluindo a conexão do servidor e a URL do site, usando a janela Propriedades disponível através das propriedades do **modo de exibição** > ** Comando Window** . 
+Se o locatário do Project Online mudar, como mudar de uma avaliação para um site de assinatura, você poderá atualizar as propriedades do projeto, incluindo a Conexão do Servidor e a URL do Site, usando a Janela Propriedades disponível por meio do comando Exibir Janela  >   Propriedades. 
   
-Você também pode adicionar arquivos ao projeto. Em caso afirmativo, você precisará atualizar o arquivo elements. xml localizado no mesmo grupo (conteúdo, imagens, páginas ou scripts) para incluir os novos arquivos. Para obter mais informações sobre os arquivos de projeto, consulte [explorar a estrutura do manifesto do aplicativo e o pacote de um suplemento do SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
+Você também pode adicionar arquivos ao projeto. Nesse caso, você precisará atualizar o arquivo Elements.xml localizado no mesmo grupo (Conteúdo, Imagens, Páginas ou Scripts) para incluir os novos arquivos. Para saber mais sobre os arquivos de projeto, confira Explorar a estrutura do manifesto do aplicativo e [o pacote de um SharePoint Add-in.](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in)
   
-### <a name="set-application-scope"></a>Definir o escopo do aplicativo
+### <a name="set-application-scope"></a>Definir escopo do aplicativo
 
-O suplemento precisa de níveis de escopo ou permissão definidos antes que o serviço retorne informações nos resultados da consulta. Para este suplemento, use o escopo a seguir para o projeto do Visual Studio. Essa alteração é feita no arquivo arquivo AppManifest. xml na guia permissões:
+O complemento precisa de níveis de escopo ou permissão definidos antes que o serviço retorne informações nos resultados da consulta. Para este complemento, use o escopo a seguir para o projeto do Visual Studio. Essa alteração é feita no AppManifest.xml na guia Permissões:
 
 |Escopo|Permissão|
 |:-----|:-----|
-|Vários projetos (Project Server)  <br/> |Leitura  <br/> |
+|Vários Projetos (Project Server)  <br/> |Ler  <br/> |
    
-Salve o arquivo após definir o escopo do aplicativo. Caso contrário, nenhum dado será retornado do serviço. 
+Salve o arquivo depois de definir o escopo do aplicativo. Caso contrário, nenhum dado será retornado do serviço. 
   
 ### <a name="link-the-jsom-library"></a>Vincular a biblioteca JSOM
 
-As bibliotecas do Project online de tempo de execução, PS. js e PS. Debug. js, são fornecidas pelo Project online e são sempre a versão mais recente. Suplementos JavaScript que usam JSOM devem ser vinculados a uma dessas bibliotecas. As definições de vínculo são adicionadas ao arquivo default. aspx. Os comandos para usar o PS. js e/ou PS. Debug. js fazem parte do código localizado no arquivo app. js.
+As bibliotecas do Project Online em tempo de execução, PS.js e PS.debug.js, são fornecidas pelo Project Online e são sempre a versão mais recente. Os complementos JavaScript que usam O JSOM devem se vincular a uma dessas bibliotecas. As definições de vinculação são adicionadas ao arquivo Default.aspx. Os comandos para usar o PS.js e/ou PS.debug.js são parte do código localizado no arquivo App.js arquivo.
   
-Adicione o seguinte comando à definição PS. js ou PS. Debug. js no `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` elemento após o "SharePoint: ScriptLink" para SP. js. 
+Adicione o seguinte comando para PS.js ou PS.debug.js no elemento após  `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` o "SharePoint:ScriptLink" para sp.js. 
   
 ```js
 <SharePoint:ScriptLink name="PS.js" runat="server" OnDemand="false" LoadAfterUI="true" Localizable="false" />
 ```
 
 > [!NOTE]
-> O **** atributo OnDemand para PS. js ou PS. Debug. js definido como **false**. 
+> O **atributo OnDemand** para PS.js ou PS.debug.js definido como **falso**. 
   
-### <a name="add-ui-elements-to-the-add-in"></a>Adicionar elementos de interface do usuário ao suplemento
+### <a name="add-ui-elements-to-the-add-in"></a>Adicionar elementos de interface do usuário ao add-in
 
-O suplemento de exemplo consiste em alguns componentes. As descrições de elementos estáticos estão localizadas no arquivo default. aspx. As descrições de elemento dinâmico e o código para todos os componentes estão localizados no arquivo app. js. Para obter comentários sobre os componentes, consulte as listagens de código-fonte. Veja a seguir uma lista de componentes da interface do usuário no suplemento:
+O exemplo de um complemento consiste em alguns componentes. As descrições de elementos estáticos estão localizadas no arquivo Default.aspx. As descrições de elementos dinâmicos e o código para todos os componentes estão localizados App.js arquivo. Para comentários sobre os componentes, consulte as listagem do código-fonte. Aqui está uma lista dos componentes da interface do usuário no complemento:
   
 - Título
     
-- Introdução argumentação
+- Verbiage introdutório
     
 - Botão para remover tarefas da tabela
     
-- Tabela que lista o nome e a ID do projeto e as informações sobre a tarefa.
+- Tabela que lista a ID e o nome do projeto e as informações da tarefa.
     
-- Botão tarefas (clonado uma vez para cada projeto) que importa dados de tarefa para a tabela.
+- Botão Tarefas (clonado uma vez para cada projeto) que importa dados de tarefa para a tabela.
     
-Para obter detalhes sobre a interface do usuário, como o título e a parte do cabeçalho da tabela do projeto, consulte o arquivo de projeto default. aspx.
+Para obter detalhes da interface do usuário, como o título e a parte de título da tabela do projeto, consulte o arquivo de projeto Default.aspx.
   
 ### <a name="initialize-and-connect-to-the-host-system"></a>Inicializar e conectar-se ao sistema host
 
-O arquivo app. js contém o código JavaScript. O suplemento carrega PS. js no navegador e, em seguida, chama a função initializePage. InitializePage recupera um contexto para o ponto de extremidade do Project online e inicia a função loadProjects.
+O App.js arquivo contém o código JavaScript. O complemento é carregado PS.js no navegador e chama a função initializePage. InitializePage recupera um contexto para o ponto de extremidade do Project Online e inicia a função loadProjects.
   
 ```js
     'use strict';
@@ -210,11 +210,11 @@ O arquivo app. js contém o código JavaScript. O suplemento carrega PS. js no n
 
 ### <a name="retrieve-the-projects"></a>Recuperar os projetos
 
-A função loadProjects consulta o serviço para os nomes de projeto e IDs. 
+A função loadProjects consulta o serviço para os nomes e IDs do projeto. 
   
-O aplicativo recupera o nome do projeto e a ID do projeto. Outras informações sobre o projeto estão disponíveis e podem ser acessadas modificando o método Load para identificar explicitamente as propriedades a serem recuperadas. Um exemplo é fornecido no código como um comentário. 
+O aplicativo recupera o nome do projeto e a ID do projeto. Outras informações sobre o projeto estão disponíveis e podem ser acessadas modificando o método de carregamento para identificar explicitamente as propriedades a serem recuperadas. Um exemplo é fornecido no código como um comentário. 
   
-Se a consulta for bem-sucedida, o suplemento continuará chamando displayProjects. 
+Se a consulta for bem-sucedida, o complemento continuará chamando displayProjects. 
   
 ```js
     //Query CSOM and get the list of projects in PWA
@@ -260,13 +260,13 @@ A função displayProjects cria uma tabela, uma linha por projeto e um botão pa
 ```
 
 > [!NOTE]
-> O loop while acessa as propriedades ID e Name. Isso é um pouco diferente do projeto de código-fonte que chama uma função que, por sua vez, acessa as mesmas propriedades. 
+> O loop while acessa as propriedades de ID e nome. Isso é um pouco diferente do projeto do código-fonte que chama uma função que, por sua vez, acessa as mesmas propriedades. 
   
 ### <a name="display-the-tasks-for-a-project"></a>Exibir as tarefas de um projeto
 
-As tarefas, enquanto fazem parte do suplemento, não fazem parte do carregamento inicial. Se o usuário estiver interessado nas tarefas associadas a um projeto, clicar no botão "Mostrar tarefas" fará com que as tarefas sejam exibidas na lista usando o manipulador de eventos btnLoadTasks. 
+As tarefas, enquanto fazem parte do complemento, não fazem parte do carregamento inicial. Se o usuário estiver interessado nas tarefas associadas a um projeto, clicar no botão "Mostrar Tarefas" faz com que as tarefas sejam exibidas na lista usando o manipulador de eventos btnLoadTasks. 
   
-O manipulador de eventos btnLoadTasks, com a ID de projeto apropriada, solicita as tarefas para o projeto especificado do servidor. Após a recuperação, o btnLoadTasks passa a lista de tarefas para o displayTasks para apresentar as tarefas na tela.
+O manipulador de eventos btnLoadTasks, com a ID de projeto apropriada, solicita as tarefas para o projeto especificado do servidor. Depois de recuperado, btnLoadTasks passa a lista de tarefas para displayTasks para apresentar as tarefas na tela.
   
 ```js
     //Query CSOM and get the list of tasks for a specific project
@@ -295,7 +295,7 @@ O manipulador de eventos btnLoadTasks, com a ID de projeto apropriada, solicita 
 
 ```
 
-A função displayTasks exibe as tarefas associadas a um projeto específico imediatamente abaixo da entrada do projeto.
+A função displayTasks exibe as tarefas associadas a um projeto especificado imediatamente abaixo da entrada do projeto.
   
 ```js
     //Insert tasks for the specified project immediately underneath the project entry 
@@ -325,11 +325,11 @@ A função displayTasks exibe as tarefas associadas a um projeto específico ime
 ```
 
 > [!NOTE]
-> O loop while acessa as propriedades ID da tarefa e nome. Isso é um pouco diferente do projeto de código-fonte que chama uma função que, por sua vez, acessa as mesmas propriedades. 
+> O loop while acessa a ID da tarefa e as propriedades do nome. Isso é um pouco diferente do projeto do código-fonte que chama uma função que, por sua vez, acessa as mesmas propriedades. 
   
-Segue um exemplo de saída das tarefas de um projeto único.
+Exemplo de saída para as tarefas de um único projeto a seguir.
   
-![Captura de tela mostrando o resultado de uma tarefa de projeto] (media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "Captura de tela mostrando o resultado de uma tarefa de projeto")
+![Captura de tela mostrando a saída de uma captura de tela de tarefa]do projeto mostrando a saída de uma tarefa do(media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "projeto")
   
 ## <a name="see-also"></a>Confira também
 

@@ -94,7 +94,7 @@ _pftInstallDateUTC_
     
 _IExpansionDepth_
   
-> [in] Opcional. A profundidade de expansão quando se está expandindo a listas de distribuição para excluir os destinatários conectados ao servidor Exchange. Usada apenas se o sinalizador**REBASE_FLAG_FORCE_NO_EX_UPDATES** sinalizador estiver definido. 
+> [in] Opcional. A profundidade de expansão quando se está expandindo a listas de distribuição para excluir os destinatários conectados ao servidor Exchange. Usada apenas se o sinalizador **REBASE_FLAG_FORCE_NO_EX_UPDATES** sinalizador estiver definido. 
     
 _pTZTo_
   
@@ -106,7 +106,7 @@ pTZMissing
     
 _ppError_
   
-> [out] Um ponteiro para um ponteiro para uma estrutura**MAPIERROR** contendo informações de versão, componente e informações de contexto para o erro. Pode ser nulo se nenhuma informação estendida de erro for desejada. Gratuito com [MAPIFreeBuffer](https://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
+> [out] Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** contendo informações de versão, componente e informações de contexto para o erro. Pode ser nulo se nenhuma informação estendida de erro for desejada. Gratuito com [MAPIFreeBuffer](https://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
     
 _ppApptRebase_
   

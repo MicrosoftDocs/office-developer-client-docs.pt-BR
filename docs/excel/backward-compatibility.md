@@ -39,7 +39,7 @@ Considere incluir definições semelhantes a esses elementos no seu código do p
 
 ## <a name="getting-the-running-version"></a>Obter a versão em execução
 
-Você deve detectar qual versão está sendo executada usando `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, que é `arg` uma definição numérico **XLOPER** como o 2. A versão é uma cadeia de caracteres **XLOPER** que pode ser forçada a um numérico inteiro. Para o Microsoft Excel 2013, ele é 15.0. Fazer isso em ou a partir da função, [xlAutoOpen](xlautoopen.md). Em seguida, você pode definir uma variável global que informe todos os módulos do seu projeto em que a versão do Excel está em execução. O código pode decidir se vai acionar usando a API C **Excel12** e **XLOPER12**s ou usando **Excel4** usando **XLOPER**s.
+Você deve detectar qual versão está sendo executada usando `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, que é `arg` uma definição numérico **XLOPER** como o 2. A versão é uma cadeia de caracteres **XLOPER** que pode ser forçada a um numérico inteiro. Para o Microsoft Excel 2013, ele é 15.0. Fazer isso em ou a partir da função, [xlAutoOpen](xlautoopen.md). Em seguida, você pode definir uma variável global que informe todos os módulos do seu projeto em que a versão do Excel está em execução. O código pode decidir se vai acionar usando a API C **Excel12** e **XLOPER12** s ou usando **Excel4** usando **XLOPER** s.
   
 Você pode acionar **XLCallVer** para descobrir a versão API C, mas isso não indica qual das versões anteriores do Excel 2007 você está executando. 
   
@@ -53,7 +53,7 @@ Embora isso funcione muito bem, há vários motivos para que ela não seja a int
   
 - Ele está sujeito às limitações de cadeias de caracteres de bytes C API e não é possível acessar as longas cadeias de caracteres Unicode com suporte a partir do Excel 2007.
     
-- No entanto, a partir do Excel 2007, o Excel pode passar e aceitar o **XLOPER**s. Internamente ele os converte para **XLOPER12**s. Portanto, há uma conversão implícita de sobrecarga a partir do Excel 2007 que não estará lá quando o código for executado em versões anteriores do Excel.
+- No entanto, a partir do Excel 2007, o Excel pode passar e aceitar o **XLOPER** s. Internamente ele os converte para **XLOPER12** s. Portanto, há uma conversão implícita de sobrecarga a partir do Excel 2007 que não estará lá quando o código for executado em versões anteriores do Excel.
     
 - Talvez esta função possa ser feita com thread de segurança, mas se a cadeia de caracteres é alterada para `PD$`, o registro falhará em Iniciar antes do Excel 2007.
     

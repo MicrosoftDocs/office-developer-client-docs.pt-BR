@@ -1,5 +1,5 @@
 ---
-title: Como configurar o Outlook PIA
+title: Como realizar a configuração para usar o PIA do Outlook
 TOCTitle: Setting up to use the Outlook PIA
 ms:assetid: 4b3935ea-b584-41cb-ad40-b4f4c4bc378d
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610102(v=office.15)

@@ -1,5 +1,5 @@
 ---
-title: Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications
+title: Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications (VSTA)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

@@ -24,23 +24,23 @@ No entanto, a maioria dos outros objetos têm um mapeamento de um para muitos no
 
 ## <a name="helper-objects"></a>Objetos de ajuda
 
-Esta seção ilustra as típicas classes auxiliares de um objeto no Outlook PIA usando o objeto **FormRegion**como um exemplo. O objeto **FormRegion** foi adicionado ao modelo de objeto do Outlook 2007. Relacionados para o objeto**FormRegion** no PIA são representantes ilustrados na Figura 1, interfaces e classes.
+Esta seção ilustra as típicas classes auxiliares de um objeto no Outlook PIA usando o objeto **FormRegion** como um exemplo. O objeto **FormRegion** foi adicionado ao modelo de objeto do Outlook 2007. Relacionados para o objeto **FormRegion** no PIA são representantes ilustrados na Figura 1, interfaces e classes.
 
 **Figura 1. O objeto FormRegion representado no modelo de objeto do Outlook e no PIA Outlook**
 
 ![O objeto FormRegion representado no modelo de objeto do Outlook e no PIA Outlook](media/pia-outlook-object-model.gif)
 
-Uma interface que você pode acessar com mais frequência é o **FormRegion** e os membros de método, propriedade e evento do objeto é a interface[FormRegion](https://msdn.microsoft.com/library/bb652633\(v=office.15\)). No entanto, você não deve considerar a interface **FormRegion** .NET como uma imagem espelhada exata do objeto **FormRegion** COM; se examinar o Pesquisador de Objetos no Visual Studio, você descobrirá que a interface **FormRegion** é herdada de outra interface, a interface [ \_FormRegion](https://msdn.microsoft.com/library/bb645761\(v=office.15\)). Na verdade, a interface**FormRegion** é apenas uma das seguintes interfaces e classes que resultam da criação do PIA Outlook baseiam-se a biblioteca COM.
+Uma interface que você pode acessar com mais frequência é o **FormRegion** e os membros de método, propriedade e evento do objeto é a interface [FormRegion](https://msdn.microsoft.com/library/bb652633\(v=office.15\)). No entanto, você não deve considerar a interface **FormRegion** .NET como uma imagem espelhada exata do objeto **FormRegion** COM; se examinar o Pesquisador de Objetos no Visual Studio, você descobrirá que a interface **FormRegion** é herdada de outra interface, a interface [ \_FormRegion](https://msdn.microsoft.com/library/bb645761\(v=office.15\)). Na verdade, a interface **FormRegion** é apenas uma das seguintes interfaces e classes que resultam da criação do PIA Outlook baseiam-se a biblioteca COM.
 
-Para criar o Outlook PIA, o Outlook usa o Importador de Bibliotecas de Tipos (TLBIMP) no .NET Framework para converter definições de tipos da biblioteca de tipos COM em definições equivalentes em um assembly de tempo de execução em linguagem comum. Na COM, o objeto **FormRegion** é realmente um coclass que consiste em duas interfaces a seguir, definindo as interfaces que o objeto**FormRegion** implementa:
+Para criar o Outlook PIA, o Outlook usa o Importador de Bibliotecas de Tipos (TLBIMP) no .NET Framework para converter definições de tipos da biblioteca de tipos COM em definições equivalentes em um assembly de tempo de execução em linguagem comum. Na COM, o objeto **FormRegion** é realmente um coclass que consiste em duas interfaces a seguir, definindo as interfaces que o objeto **FormRegion** implementa:
 
-- A interface principal ** \_FormRegion**
+- A interface principal **\_FormRegion**
 
 - A interface do evento [FormRegionEvents](https://msdn.microsoft.com/library/bb611940\(v=office.15\))
 
-TLBIMP diretamente importa ** \_FormRegion** e **FormRegionEvents** da biblioteca.
+TLBIMP diretamente importa **\_FormRegion** e **FormRegionEvents** da biblioteca.
 
-Além de importar a interface principal e a interface do evento, o TLBIMP cria uma interface .NET com o mesmo nome de objeto COM e uma classe .NET que usa o nome do objeto e acrescentado de "Classe". No caso do objeto**FormRegion**, o TLBIMP cria o seguinte:
+Além de importar a interface principal e a interface do evento, o TLBIMP cria uma interface .NET com o mesmo nome de objeto COM e uma classe .NET que usa o nome do objeto e acrescentado de "Classe". No caso do objeto **FormRegion**, o TLBIMP cria o seguinte:
 
 - A interface do .NET **FormRegion**
 
@@ -71,9 +71,9 @@ Para informações sobre a finalidade da interface principal e da classe .NET qu
 
 ## <a name="deprecated-objects"></a>Objetos preteridos
 
-Objetos substituídos na biblioteca de tipos de objetos são expostos no PIA Outlook. Por exemplo, os objetos** \_DDocSiteControl** e ** \_DRecipientControl** estão ocultos na biblioteca de tipos, mas exibidos no PIA.
+Objetos substituídos na biblioteca de tipos de objetos são expostos no PIA Outlook. Por exemplo, os objetos **\_DDocSiteControl** e **\_DRecipientControl** estão ocultos na biblioteca de tipos, mas exibidos no PIA.
 
-Outro exemplo de um objeto obsoletos é o objeto **MAPIFolder**. Iniciando no Outlook 2007,a **pasta** objeto substituiu o objeto **MAPIFolder** no modelo de objeto. Soluções existentes devem substituir as referências a **MAPIFolder** pela **pasta**, e todas as soluções de novas a partir do Outlook 2007 devem usar somente o objeto**pasta**. Para obter soluções não gerenciadas, pesquisador de objetos do Editor do Visual Basic não lista os objetos**MAPIFolder** nem como um objeto oculto. 
+Outro exemplo de um objeto obsoletos é o objeto **MAPIFolder**. Iniciando no Outlook 2007,a **pasta** objeto substituiu o objeto **MAPIFolder** no modelo de objeto. Soluções existentes devem substituir as referências a **MAPIFolder** pela **pasta**, e todas as soluções de novas a partir do Outlook 2007 devem usar somente o objeto **pasta**. Para obter soluções não gerenciadas, pesquisador de objetos do Editor do Visual Basic não lista os objetos **MAPIFolder** nem como um objeto oculto. 
 
 Para obter soluções gerenciadas, mesmo que o Outlook PIA exponha uma interface de [pasta](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) na qual você possa acessar o objeto **pasta** e seus membros, o Outlook PIA também expõe o [MAPIFolder](https://msdn.microsoft.com/library/bb624369\(v=office.15\)) como uma interface que define os membros do **objeto** pasta.
 

@@ -58,7 +58,7 @@ A lista a seguir mostra as APIs de alteração programática de calendários:
     
 Para escrever uma ferramenta de alteração programática de compromissos usado as APIs de alteração programática de calendários, você pode usar o seguinte procedimento:
   
-1. Use **IOlkApptRebaser::BeginEnumerateAppointments** e **IOlkApptRebaser::EndEnumerateAppointments**para localizar compromissos que são candidatos à alteração programática. Se necessário, apresente informações para habilitar o usuário a decidir em quais compromissos fazer a alteração programática. Alternativamente, use o MAPI ou o Modelo de Objeto do Outlook para examinar as informações de hora e recorrência de um compromisso analisando as propriedades **PidLidAppointmentTimeZoneDefinitionStartDisplay**, **PidLidAppointmentTimeZoneDefinitionEndDisplay** e **PidLidAppointmentTimeZoneDefinitionRecur**. 
+1. Use **IOlkApptRebaser::BeginEnumerateAppointments** e **IOlkApptRebaser::EndEnumerateAppointments** para localizar compromissos que são candidatos à alteração programática. Se necessário, apresente informações para habilitar o usuário a decidir em quais compromissos fazer a alteração programática. Alternativamente, use o MAPI ou o Modelo de Objeto do Outlook para examinar as informações de hora e recorrência de um compromisso analisando as propriedades **PidLidAppointmentTimeZoneDefinitionStartDisplay**, **PidLidAppointmentTimeZoneDefinitionEndDisplay** e **PidLidAppointmentTimeZoneDefinitionRecur**. 
     
 2. Use **HrCreateApptRebaser**, **IOlkApptRebaser::BeginRebaseAppointments** e **IOlkApptRebaser::EndRebaseAppointments** para alterar o compromisso. 
     

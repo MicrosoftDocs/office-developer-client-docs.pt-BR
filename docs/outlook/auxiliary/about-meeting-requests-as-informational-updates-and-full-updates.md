@@ -20,7 +20,7 @@ Uma solicitação de reunião é um email com **IPM. Schedule.Meeting.Request** 
   
 ## <a name="recipients-without-delegates"></a>Destinatários sem representantes
 
-Quando o Outlook recebe uma nova solicitação de reunião, o Outlook configura a propriedade **PidLidMeetingType** da solicitação de reunião para **mtgRequest**. Qualquer atualização subsequente dessa reunião está em **mtgFullUpdate** (atualização completa) ou **mtgInfoUpdate** (atualização informativa), dependendo da causa da atualização, com a configuração do Outlook ** PidLidMeetingType** adequadamente. Uma atualização completa requer que um participante explicitamente responda à solicitação de reunião e uma atualização informativa não. 
+Quando o Outlook recebe uma nova solicitação de reunião, o Outlook configura a propriedade **PidLidMeetingType** da solicitação de reunião para **mtgRequest**. Qualquer atualização subsequente dessa reunião está em **mtgFullUpdate** (atualização completa) ou **mtgInfoUpdate** (atualização informativa), dependendo da causa da atualização, com a configuração do Outlook **PidLidMeetingType** adequadamente. Uma atualização completa requer que um participante explicitamente responda à solicitação de reunião e uma atualização informativa não. 
   
 ## <a name="full-updates"></a>Atualizações completas
 

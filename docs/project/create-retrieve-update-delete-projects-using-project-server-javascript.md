@@ -63,7 +63,7 @@ As etapas a seguir criam uma solução do Visual Studio 2012 com um projeto do S
     
 3. Abra o menu de atalho da página **ProjectsList.aspx** e escolha **Set as Startup Item**.
     
-4. Na marcação da página**ProjectsList.aspx**, defina os controles de interface de usuário dentro das marcas "Main" **asp:Content**, da forma seguinte. 
+4. Na marcação da página **ProjectsList.aspx**, defina os controles de interface de usuário dentro das marcas "Main" **asp:Content**, da forma seguinte. 
     
    ```HTML
     <table width="100%" id="tblProjects">
@@ -92,7 +92,7 @@ As etapas a seguir criam uma solução do Visual Studio 2012 com um projeto do S
     </script>
    ```
 
-   A marca**SharePoint:ScriptLink** faz referência ao arquivo PS.js, que define o modelo de objeto do JavaScript do Project Server 2013. A marca **SharePoint:FormDigest** gerará uma compilação de mensagem para validação de segurança, quando isso for solicitado pelas operações que atualizam o conteúdo do servidor. 
+   A marca **SharePoint:ScriptLink** faz referência ao arquivo PS.js, que define o modelo de objeto do JavaScript do Project Server 2013. A marca **SharePoint:FormDigest** gerará uma compilação de mensagem para validação de segurança, quando isso for solicitado pelas operações que atualizam o conteúdo do servidor. 
     
 6. Substitua o comentário de espaço reservado pelo código de um dos seguintes procedimentos:
     

@@ -25,7 +25,7 @@ Verifica se o processo de chamada tem acesso de leitura ao intervalo de memória
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |mapiwin. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |mapiwin.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços.  <br/> |
    
@@ -40,21 +40,21 @@ BOOL IsBadBoundedStringPtr(
 
  _lpsz_
   
-> no Ponteiro para uma cadeia de caracteres ASCII terminada em nulo.
+> [in] Ponteiro para uma cadeia de caracteres ASCII terminada em nulo.
     
  _cchMax_
   
-> no O tamanho máximo da cadeia de caracteres, em caracteres. A função verifica o acesso de leitura em todos os caracteres até o caractere nulo de terminação da cadeia de caracteres ou até o número de caracteres especificado por esse parâmetro, o que for menor. Se esse parâmetro for zero, o valor de retorno será zero.
+> [in] O tamanho máximo da cadeia de caracteres, em CHARs. A função verifica se há acesso de leitura em todos os caracteres até o caractere nulo final da cadeia de caracteres ou até o número de caracteres especificado por esse parâmetro, o que for menor. Se esse parâmetro for zero, o valor de retorno será zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
-O valor de retorno é zero quando o processo de chamada tem acesso de leitura a todos os caracteres até o caractere nulo de terminação da cadeia de caracteres ou acesso de leitura até o número de caracteres especificado por _cchMax_.
+O valor de retorno é zero quando o processo de chamada tem acesso de leitura a todos os caracteres até o caractere nulo final da cadeia de caracteres ou acesso de leitura até o número de caracteres especificado por  _cchMax_.
   
-O valor de retorno é diferente de zero quando o processo de chamada não tem acesso de leitura a todos os caracteres até o caractere nulo de terminação da cadeia de caracteres ou acesso de leitura até o número de caracteres especificado por _cchMax_.
+O valor de retorno é diferente de zero quando o processo de chamada não tem acesso de leitura a todos os caracteres até o caractere nulo final da cadeia de caracteres ou acesso de leitura até o número de caracteres especificado por  _cchMax_.
   
 ## <a name="remarks"></a>Comentários
 
-A função **IsBadBoundedStringPtr** é equivalente ao uso de **IsBadStringPtr**.
+A **função IsBadBoundedStringPtr** é equivalente a usar **IsBadStringPtr**.
   
 ## <a name="see-also"></a>Confira também
 

@@ -46,7 +46,7 @@ O intervalo padrão para o OSC atualizar a pasta de contatos de informações do
   
 Se ocorrer um erro durante uma atualização, o OSC tentará novamente em um intervalo especificado pelo elemento **contactSyncRestartInterval** no XML de **capabilities**. Esse intervalo de repetição tem um valor padrão de 30 minutos e também pode ser definido por uma política de grupo. 
   
-Quando um usuário abre um Cartão de Visita e seleciona a guia **Novidades**, essa guia**** é atualizada. Da mesma forma, quando um usuário do Outlook seleciona novamente um item no Outlook ou seleciona novamente uma pessoa no Painel de Pessoas, esse painel é atualizado. Se o intervalo de atualização de cache não tiver expirado, o OSC acessará o cache para saber mais sobre o usuário selecionado. Isso evita a sobrecarga de usar a extensibilidade do provedor OSC para acessar a rede social. Se o intervalo de atualização tiver expirado, o OSC chamará o método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para saber mais sobre os amigos atuais para o usuário conectado e atualizará o cache na pasta de contatos. 
+Quando um usuário abre um Cartão de Visita e seleciona a guia **Novidades**, essa guia é atualizada. Da mesma forma, quando um usuário do Outlook seleciona novamente um item no Outlook ou seleciona novamente uma pessoa no Painel de Pessoas, esse painel é atualizado. Se o intervalo de atualização de cache não tiver expirado, o OSC acessará o cache para saber mais sobre o usuário selecionado. Isso evita a sobrecarga de usar a extensibilidade do provedor OSC para acessar a rede social. Se o intervalo de atualização tiver expirado, o OSC chamará o método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para saber mais sobre os amigos atuais para o usuário conectado e atualizará o cache na pasta de contatos. 
   
 O provedor OSC informa ao OSC que aceita a sincronização em cache de amigos, especificando os seguintes elementos no XML de **recursos**: 
   
@@ -119,7 +119,7 @@ A tabela a seguir resume os intervalos de sincronização para informações de 
   
 |**Modo de sincronização para pessoas**|**Onde o intervalo de atualização é definido**|**Tempo mínimo padrão antes da atualização**|**Substituição da política de grupo**|
 |:-----|:-----|:-----|:-----|
-|Cache  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **NetContactSyncInterval** <br/> |
+|Em cache  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **NetContactSyncInterval** <br/> |
 |Em cache  <br/> |Elemento **contactSyncRestartInterval** no XML de **recursos**  <br/> |30 minutos se **contactSyncRestartInterval** não estiver definido  <br/> |Valor do Registro do Windows **contactSyncRestartInterval** <br/> |
 |Sob demanda  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **OnlineSearchExpiryTime** <br/> |
    

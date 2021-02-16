@@ -35,7 +35,7 @@ A tabela a seguir descreve as propriedades que seu aplicativo precisa fornecer a
   
 Configure essas propriedades no conjunto de propriedades **System.ExpandoProperties**. 
   
-|**Property**|**Descrição**|**Tipo**|**Exemplo**|
+|**Propriedade**|**Descrição**|**Tipo**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |**AppDisplayName** <br/> |Nome do provedor a ser exibido para o usuário. Aparece em vários locais no Office, como na lista de documentos recentes.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |Para licenciamento, indique se o documento/local é Pessoal/Consumidor ou Trabalho/Negócios. Os valores permitidos são (pessoal) 1 e 2 (comercial). Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, use o valor "2" para comercial.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, o arquivo deverá ser marcado como 2, para comercial.  <br/> |

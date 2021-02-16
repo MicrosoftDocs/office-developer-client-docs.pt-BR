@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327633"
 ---
-# <a name="propacctpreferencesuid"></a>PROP_ACCT_PREFERENCES_UID
+# <a name="prop_acct_preferences_uid"></a>PROP_ACCT_PREFERENCES_UID
 
 Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta. 
   

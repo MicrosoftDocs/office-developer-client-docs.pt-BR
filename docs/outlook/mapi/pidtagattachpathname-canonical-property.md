@@ -36,33 +36,33 @@ Contém o caminho e o nome de arquivo totalmente qualificados de um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os subobjetos de anexo exponham essas propriedades. Configurá-los indica que os dados de anexo não estão incluídos na mensagem, mas estão disponíveis em um servidor de arquivos comum. Essas propriedades são necessárias em conjunto com qualquer um dos sinalizadores **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam o anexo por referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY_REF_ SOMENTE**. 
+É recomendável que os subobjetos de anexo exponham essas propriedades. Defini-los indica que os dados do anexo não estão incluídos na mensagem, mas estão disponíveis em um servidor de arquivos comum. Essas propriedades são necessárias em conjunto com qualquer um dos sinalizadores **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam anexo por referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. 
   
-Cada diretório ou nome de arquivo é restrito a um nome de oito caracteres mais uma extensão de três caracteres. O caminho geral é restrito a 256 caracteres. Para uma plataforma que suporte nomes de filelong, defina essas propriedades e **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Cada diretório ou nome de arquivo é restrito a um nome de oito caracteres mais uma extensão de três caracteres. O caminho geral é restrito a 256 caracteres. Para uma plataforma que dá suporte a nomes de arquivo longos, de definir essas propriedades e **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
-Os aplicativos cliente devem usar uma Convenção de nomenclatura universal (UNC) na maioria dos casos em que o arquivo é compartilhado e deve usar um caminho absoluto quando o arquivo é local.
+Os aplicativos cliente devem usar uma convenção de nomenização universal (UNC) na maioria dos casos quando o arquivo é compartilhado e devem usar um caminho absoluto quando o arquivo for local.
   
-O MAPI funciona somente com caminhos e nomes de fileset no conjunto de caracteres ANSI. Os clientes que usam caminhos e nomes de nome em um conjunto de caracteres OEM devem convertê-los para ANSI antes de chamar MAPI. 
+MAPI funciona somente com caminhos e nomes de arquivo no conjunto de caracteres ANSI. Clientes que usam caminhos e nomes de arquivo em um conjunto de caracteres OEM devem convertê-los em ANSI antes de chamar o MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas gerenciadas por direitos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

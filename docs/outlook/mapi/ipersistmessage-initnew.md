@@ -38,11 +38,11 @@ HRESULT InitNew(
 
  _pMessageSite_
   
-> no Um ponteiro para o site de mensagens que o formulário usará para trabalhar com a mensagem no visualizador.
+> [in] Um ponteiro para o site de mensagens que o formulário usará para trabalhar com a mensagem no visualizador.
     
  _pMessage_
   
-> no Um ponteiro para a nova mensagem.
+> [in] Um ponteiro para a nova mensagem.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,25 +52,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IPersistMessage:: InitNew** quando o usuário grava uma nova mensagem que pertence a uma classe de mensagem que o formulário manipula. Se o objeto Form tiver um ponteiro de interface do usuário válido, a interface do usuário para o objeto Message deverá ser exibida. 
+Visualizadores de formulário chamam o método **IPersistMessage::InitNew** quando o usuário escreve uma nova mensagem que pertence a uma classe de mensagem que o formulário trata. Se o objeto de formulário tiver um ponteiro de interface do usuário válido, a interface do usuário do objeto de mensagem deverá ser exibida. 
   
- **InitNew** não deve ser chamado quando o formulário está em qualquer Estado, exceto [](uninitialized-state.md) o estado não inicializado. Se o formulário estiver em um dos outros Estados quando **InitNew** for chamado, retorne E_UNEXPECTED. 
+ **InitNew** não deve ser chamado quando o formulário está em qualquer estado, exceto [o estado Não reinicializado.](uninitialized-state.md) Se o formulário estiver em um dos outros estados quando **InitNew** for chamado, retorne E_UNEXPECTED. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Normalmente, as mensagens que têm propriedades não salvas são marcadas como modificadas para que o cliente possa exibir uma caixa de diálogo solicitando ao usuário se essas propriedades devem ser salvas. Se o usuário indicar que uma mensagem deve ser salva, salve os dados, marque a mensagem como limpa e saia normalmente.
+Normalmente, as mensagens com propriedades não salvas são marcadas como modificadas para que o cliente possa exibir uma caixa de diálogo que solicita ao usuário se essas propriedades devem ser salvas. Se o usuário indicar que uma mensagem deve ser salva, salve os dados, marque a mensagem como limpa e saia normalmente.
   
-No enTanto, se o processamento de suas mensagens recentemente inicializadas incluir a configuração de uma ou mais propriedades computadas, e for importante que essas propriedades sejam salvas, não marque as mensagens como modificadas. Como as propriedades computadas devem ser invisíveis aos usuários, nenhuma caixa de diálogo deve ser exibida.
+No entanto, se o processamento das suas mensagens recém-inicializadas incluir a definição de uma ou mais propriedades computadas, e for importante que essas propriedades sejam salvas, não marque as mensagens como modificadas. Como as propriedades calculadas devem ser invisíveis para os usuários, nenhuma caixa de diálogo deve ser exibida.
   
-Se o formulário tiver uma referência a um site de mensagem ativo diferente daquele que é passado no **InitNew**, libere o site original porque ele não será mais usado. Armazene os ponteiros no site da mensagem e a mensagem dos parâmetros _pMessageSite_ e _PMessage_ e chame os métodos [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) dos dois objetos para incrementar suas contagens de referência. 
+Se o seu formulário tiver uma referência a um site de mensagem ativo diferente do que é passado para **InitNew**, libere o site original porque ele não será mais usado. Armazene os ponteiros para o site de mensagens e a mensagem dos parâmetros  _pMessageSite_ e  _pMessage_ e chame os métodos [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) dos dois objetos para incrementar suas contagens de referência. 
   
-Defina as propriedades **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) e **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para a nova mensagem para algo apropriado para sua classe de mensagem. Muitas classes de mensagens, por exemplo, define **PR_MESSAGE_FLAGS** como MSGFLAG_UNSENT para novas mensagens. 
+Defina as propriedades **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) e **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para a nova mensagem como algo apropriado para sua classe de mensagem. Muitas classes de mensagens, por exemplo, **PR_MESSAGE_FLAGS** como MSGFLAG_UNSENT para novas mensagens. 
   
-Antes de retornar, migre o formulário para o estado [normal](normal-state.md) se nenhum erro tiver ocorrido. Envie uma nova notificação de mensagem para todos os visualizadores registrados chamando seus métodos [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) e retorne S_OK. 
+Antes de retornar, transição do formulário para o estado [Normal](normal-state.md) se nenhum erro tiver ocorrido. Envie uma nova notificação de mensagem para todos os visualizadores registrados chamando seus métodos [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) e retorne S_OK. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Depois de fazer uma chamada bem-sucedida para o **InitNew**, você pode supor que as seguintes propriedades obrigatórias e nenhuma outra tenham sido definidas para o formulário:
+Depois de fazer uma chamada bem-sucedida para **InitNew**, você pode presumir que as seguintes propriedades necessárias e nenhuma outra foram definidas para o formulário:
   
  **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
@@ -86,7 +86,7 @@ Depois de fazer uma chamada bem-sucedida para o **InitNew**, você pode supor qu
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Para obter mais informações sobre os Estados dos formulários, confira [Estados de formulário](form-states.md). Para obter mais informações sobre como os objetos de armazenamento são inicializados, consulte o método [IPersistStorage:: InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
+Para obter mais informações sobre os estados dos formulários, consulte [Estados do Formulário.](form-states.md) Para obter mais informações sobre como os objetos de armazenamento são inicializados, consulte o [método IPersistStorage::InitNew.](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) 
   
 ## <a name="see-also"></a>Confira também
 

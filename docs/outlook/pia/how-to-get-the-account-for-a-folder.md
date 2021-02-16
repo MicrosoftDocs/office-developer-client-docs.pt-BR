@@ -23,7 +23,7 @@ No exemplo de código a seguir, a função DisplayAccountForCurrentFolder chama 
 
 Em uma sessão do Microsoft Outlook com várias contas definidas no perfil, a pasta exibida no Explorer ativo não reside necessariamente no repositório padrão dessa sessão; em vez disso, ela pode residir em um dos vários repositórios associados às várias contas. Este tópico mostra como identificar a conta cujo repositório de entrega padrão é o mesmo repositório que hospeda a pasta.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

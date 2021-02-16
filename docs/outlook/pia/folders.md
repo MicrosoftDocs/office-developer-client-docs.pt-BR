@@ -1,5 +1,5 @@
 ---
-title: Pastas
+title: Folders
 TOCTitle: Folders
 ms:assetid: b72b5705-d77a-4cad-873d-457b9fb6553e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184634(v=office.15)
@@ -34,7 +34,7 @@ Esta seção fornece tarefas de exemplo que envolvem pastas. Objetos [Folder](ht
 ## <a name="see-also"></a>Confira também
 
 - [Calendar](calendar.md)
-- [Contacts](contacts.md)
+- [Contatos](contacts.md)
 - [Email](mail.md)
 - [Como faço para... (Referência do PIA do Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

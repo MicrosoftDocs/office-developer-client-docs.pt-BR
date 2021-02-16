@@ -25,7 +25,7 @@ ms.locfileid: "32283146"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma cadeia de caracteres de texto que descreve o tipo de uma pasta. Embora essa propriedade seja geralmente ignorada, as versões do Microsoft ® Exchange Server anteriores ao Gerenciador de caixa de correio do Exchange Server 2003 esperam que essa propriedade esteja presente.
+Contém uma cadeia de caracteres de texto que descreve o tipo de uma pasta. Embora essa propriedade seja geralmente ignorada, as versões do Microsoft® Exchange Server anteriores ao Gerenciador de Caixa de Correio do Exchange Server 2003 esperam que essa propriedade estará presente.
   
 |||
 |:-----|:-----|
@@ -36,28 +36,28 @@ Contém uma cadeia de caracteres de texto que descreve o tipo de uma pasta. Embo
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades normalmente não são usadas pelo Exchange Server. No enTanto, o Microsoft Office Outlook ® os anexa às pastas da caixa de correio. Além disso, as versões do Exchange Server anteriores ao Gerenciador de caixa de correio do Exchange Server 2003 podem manipular incorretamente pastas que não têm essas propriedades.
+Essas propriedades normalmente não são usadas pelo Exchange Server. No entanto, o Microsoft Office Outlook ® anexa-os a pastas de caixa de correio. Além disso, as versões do Exchange Server anteriores ao Gerenciador de Caixa de Correio do Exchange Server 2003 podem lidar incorretamente com pastas que não têm essas propriedades.
   
-Essas propriedades podem ser atribuídas aos valores da cadeia de caracteres na tabela a seguir.
+Essas propriedades podem ser atribuídas aos valores de cadeia de caracteres na tabela a seguir.
   
 |**Valor**|**Conteúdo da pasta**|
 |:-----|:-----|
 |IPF. Compromisso  <br/> |Compromissos  <br/> |
-|IPF. Amostra  <br/> |Contatos  <br/> |
-|IPF. Diário  <br/> |Entradas de diário do Outlook  <br/> |
-|IPF. Observação  <br/> |Mensagens de email e anotações  <br/> |
-|IPF. StickyNote  <br/> |Notas auto-adesivas do Outlook  <br/> |
+|IPF. Contato  <br/> |Contatos  <br/> |
+|IPF. Diário  <br/> |Entradas de Diário do Outlook  <br/> |
+|IPF. Observação  <br/> |Mensagens de Email e anotações  <br/> |
+|IPF. StickyNote  <br/> |Observações Desaderentadas do Outlook  <br/> |
 |IPF. Tarefa  <br/> |Tarefas do Outlook  <br/> |
    
 Para pastas que contêm mensagens de email, essas propriedades devem ser definidas como IPF. Observação.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
@@ -65,19 +65,19 @@ Para pastas que contêm mensagens de email, essas propriedades devem ser definid
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de contato e lista de distribuição pessoal.
+> Especifica as propriedades e operações que são permitidas para contatos e objetos de lista de distribuição pessoal.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -89,7 +89,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

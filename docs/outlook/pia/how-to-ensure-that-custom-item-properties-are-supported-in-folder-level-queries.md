@@ -1,5 +1,5 @@
 ---
-title: Certificar-se de que as propriedades de item personalizado têm suporte em consultas ao nível de pasta
+title: Certifique-se de que as propriedades de item personalizado têm suporte em consultas ao nível de pasta
 TOCTitle: Ensure that custom item properties are supported in folder-level queries
 ms:assetid: 02cf14c6-ee1b-4e04-a865-32adaac13f9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb608929(v=office.15)

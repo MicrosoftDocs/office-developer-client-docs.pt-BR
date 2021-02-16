@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326548"
 ---
-# <a name="propmapiemsmdbuid"></a>PROP_MAPI_EMSMDB_UID
+# <a name="prop_mapi_emsmdb_uid"></a>PROP_MAPI_EMSMDB_UID
 
 Representa uma estrutura [ACCT_BIN](acct_bin.md) que contém a UID de uma conta do Exchange. 
   

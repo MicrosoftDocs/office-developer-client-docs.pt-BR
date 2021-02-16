@@ -20,11 +20,11 @@ Este tópico obtém como argumento de entrada um objeto [Application](https://ms
 ## <a name="example"></a>Exemplo
 
 > [!NOTE] 
-> Helmut Obertanner forneceu os exemplos de código a seguir. A experiência de Helmut é em Office Developer Tools para Visual Studio e Outlook. 
+> Helmut Obertanner forneceu os exemplos de código a seguir. A experiência de Helmut é em Ferramentas de Desenvolvedor do Office para Visual Studio e Outlook. 
 
 Os exemplos de código a seguir contêm o método DisplayAccountInformation da classe Sample, implementados como parte de um projeto de suplemento do Outlook. Cada projeto adiciona uma referência para o Outlook PIA, que se baseia no namespace [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As seguintes linhas de código mostram como fazer a importação e atribuição de tarefas em Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 
 ```vb

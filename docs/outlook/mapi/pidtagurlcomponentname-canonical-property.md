@@ -25,7 +25,7 @@ ms.locfileid: "32320423"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O nome do componente da URL de uma mensagem. 
+O nome do componente url para uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ O nome do componente da URL de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser exclusivas em uma pasta. Se não for definido quando a mensagem for criada, o repositório de mensagens deverá definir essas propriedades com base em várias propriedades de mensagem, dependendo da classe de mensagem. Por exemplo, **IPM. Note** e **IPM. **As mensagens de compromisso devem ter essa propriedade definida com base na propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) e **IPM. **As mensagens de contato devem ter essa propriedade definida com base na propriedade **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para a maioria das outras classes de mensagens, essa propriedade deve ser baseada na propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Essas propriedades devem ser exclusivas em uma pasta. Se não for definida quando a mensagem for criada, o armazenamento de mensagens deverá definir essas propriedades com base em várias propriedades da mensagem, dependendo da classe da mensagem. Por exemplo, o **IPM. Observação** e **IPM. As** mensagens de compromisso devem ter essa propriedade definida com **base na propriedade PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) e no **IPM. As** mensagens de contato devem ter essa propriedade definida com base na **propriedade dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para a maioria das outras classes de mensagem, essa propriedade deve ser baseada na **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) .
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica e decodifica objetos Message e Attachment para uma representação de fluxo eficiente.
+> Codifica e decodifica objetos de mensagem e anexo para uma representação eficiente do fluxo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

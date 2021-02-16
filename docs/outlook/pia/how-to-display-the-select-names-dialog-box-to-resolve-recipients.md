@@ -1,5 +1,5 @@
 ---
-title: Exibir a caixa de diálogo Selecionar Nomes para resolver destinatários
+title: Exibir a caixa de diálogo Escolher Nomes para resolver os destinatários
 TOCTitle: Display the Select Names dialog box to resolve recipients
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646055(v=office.15)
@@ -22,7 +22,7 @@ Este exemplo tenta resolver os destinatários fornecidos pelo parâmetro *recips
 
 Este exemplo de código chama o objeto [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) para exibir a caixa de diálogo **Selecionar Nomes**, que mostra o catálogo de endereços do Outlook. Por meio dessa caixa de diálogo, o usuário pode selecionar um nome do catálogo de endereços. Se o nome não for resolvido, o destinatário será removido de recips. Se o nome for resolvido, o exemplo de código retornará o objeto [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) do destinatário para recips.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

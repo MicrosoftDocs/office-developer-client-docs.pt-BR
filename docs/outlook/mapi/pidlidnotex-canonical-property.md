@@ -25,7 +25,7 @@ ms.locfileid: "32326107"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a distância, em pixels, da borda esquerda da tela em que uma interface do usuário exibe uma nota.
+Especifica a distância, em pixels, da borda esquerda da tela onde uma interface do usuário exibe uma anotação.
   
 |||
 |:-----|:-----|
@@ -33,23 +33,23 @@ Especifica a distância, em pixels, da borda esquerda da tela em que uma interfa
 |Conjunto de propriedades:  <br/> |PSETID_Note  <br/> |
 |Long ID (LID):  <br/> |0x00008B04  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Nota auto-adesiva  <br/> |
+|Área:  <br/> |Observação Sobre o uso de sticky  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas nas anotações.
+> Especifica as propriedades e operações que são permitidas em anotações.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

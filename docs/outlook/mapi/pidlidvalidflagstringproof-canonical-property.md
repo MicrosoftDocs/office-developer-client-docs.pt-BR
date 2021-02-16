@@ -33,29 +33,29 @@ Valida se o valor da propriedade **dispidRequest** ([PidLidFlagRequest](pidlidfl
 |Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
 |Long ID (LID):  <br/> |0x000085BF  <br/> |
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Em objetos que não podem ser enviados (objetos de email e de não-email), os clientes devem definir esse valor como o valor de **PR_MESSAGE_DELIVERY_TIME** ao modificar **dispidRequest**.
+Em objetos não enviáveis (emails recebidos e objetos que não são  de email), os clientes devem definir esse valor como o valor de PR_MESSAGE_DELIVERY_TIME ao modificar **dispidRequest**.
   
-Como o valor de **PR_MESSAGE_DELIVERY_TIME** não pode ser previsto pelo remetente, se o valor dessa propriedade for igual ao valor de **PR_MESSAGE_DELIVERY_TIME**, é razoavelmente certo de que o valor de **dispidRequest** não seja proveniente do remetente da mensagem. Um cliente pode decidir como apresentar o valor de **dispidRequest** para o usuário final com base no resultado dessa comparação, de acordo com a política de segurança específica do cliente. Se o valor de **dispidRequest** for ignorado devido à presença de um valor de **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), essa propriedade deve ser ignorada.
+Como o valor de **PR_MESSAGE_DELIVERY_TIME** não pode ser previsto pelo remetente, se o valor dessa propriedade for igual ao valor de **PR_MESSAGE_DELIVERY_TIME**, é razoavelmente certo que o valor de **dispidRequest** não se originou do remetente da mensagem. Um cliente pode decidir como apresentar o valor de **dispidRequest** para o usuário final com base no resultado dessa comparação, de acordo com a política de segurança específica do cliente. Se o valor de **dispidRequest** for ignorado devido à presença de um valor para **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), essa propriedade deverá ser ignorada.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -70,7 +70,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

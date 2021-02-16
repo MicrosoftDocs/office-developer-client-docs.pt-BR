@@ -1,5 +1,5 @@
 ---
-title: Gerenciando memória no MAPI
+title: Gerenciando memória em MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -21,7 +21,7 @@ ms.locfileid: "32298093"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Saber como e quando alocar e liberar memória é uma parte importante da programação com MAPI. O MAPI fornece funções e macros que o cliente ou provedor de serviços pode usar para gerenciar a memória de forma consistente. As três funções são as seguintes:
+Saber como e quando alocar e liberar memória é uma parte importante da programação com MAPI. MAPI provides both functions and macros that your client or service provider can use to manage memory in a consistent way. As três funções são as seguinte:
   
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
@@ -29,9 +29,9 @@ Saber como e quando alocar e liberar memória é uma parte importante da program
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-Quando os clientes e provedores de serviços usam essas funções, o problema de quem "é proprietário", ou seja, é o que sabe como liberar — um bloco específico de memória é eliminado. Um cliente que chama um método de provedor de serviços não precisa passar um buffer grande o suficiente para conter um valor de retorno de qualquer tamanho. O provedor de serviços pode simplesmente alocar a quantidade apropriada de memória usando o **MAPIAllocateBuffer** e, se necessário, **MAPIAllocateMore**e o cliente pode liberá-lo mais tarde, usando o **MAPIFreeBuffer**, independentemente do serviço provedor. 
+Quando os clientes e provedores de serviços usam essas funções, o problema de quem "possui" — ou seja, sabe como liberar — um determinado bloco de memória é eliminado. Um cliente que chama um método de provedor de serviços não precisa passar um buffer grande o suficiente para manter um valor de retorno de qualquer tamanho. O provedor de serviços pode simplesmente alocar a quantidade adequada de memória usando **MAPIAllocateBuffer** e, se necessário, **MAPIAllocateMore**, e o cliente pode liberá-lo posteriormente usando **MAPIFreeBuffer**, independentemente do provedor de serviços. 
   
-As macros de memória são usadas para alocar estruturas ou matrizes de estruturas de um tamanho específico. Os clientes e provedores de serviços devem usar essas macros em vez de alocar a memória manualmente. Por exemplo, se um cliente precisar executar o processamento de resolução de nome em uma lista de destinatários com três entradas, a macro **SizedADRLIST** poderá ser usada para criar uma estrutura **das ADRLIST** para passar para **IAddrBook:: ResolveName** com o número correto de Membros **ADRENTRY** . Todas as macros de memória são definidas no MAPIDEFS. Arquivo de cabeçalho H. Essas macros são: 
+As macros de memória são usadas para alocar estruturas ou matrizes de estruturas de um tamanho específico. Os clientes e provedores de serviços devem usar essas macros em vez de alocar a memória manualmente. Por exemplo, se um cliente precisar executar o processamento de resolução de nomes em uma lista de destinatários com três entradas, a macro **SizedADRLIST** poderá ser usada para criar uma estrutura **ADRLIST** para passar para **IAddrBook::ResolveName** com o número correto de membros **ADRENTRY.** Todas as macros de memória são definidas em MAPIDEFS. Arquivo de header H. Essas macros são: 
   
 |||
 |:-----|:-----|
@@ -43,6 +43,6 @@ As macros de memória são usadas para alocar estruturas ou matrizes de estrutur
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-MAPI também suporta o uso da interface COM [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) para gerenciamento de memória. Os provedores de serviço recebem um ponteiro de interface **IMalloc** por MAPI no momento da inicialização e também podem recuperar um por meio da função [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . A principal vantagem de usar os métodos **IMalloc** para gerenciar a memória sobre as funções MAPI é que, com os métodos com, é possível realocar um buffer existente. As funções de memória MAPI não oferecem suporte à realocação. 
+MAPI also supports the use of the COM interface [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) for memory management. Os provedores de serviços receberão um ponteiro de interface **IMalloc** por MAPI no momento da inicialização e também podem recuperar um por meio da função [MAPIGetDefaultMalloc.](mapigetdefaultmalloc.md) A principal vantagem de usar os métodos **IMalloc** para gerenciar memória sobre as funções MAPI é que, com os métodos COM, é possível realocar um buffer existente. As funções de memória MAPI não suportam realocação. 
   
 

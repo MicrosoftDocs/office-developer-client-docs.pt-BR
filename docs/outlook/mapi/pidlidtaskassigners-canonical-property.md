@@ -25,7 +25,7 @@ ms.locfileid: "32303061"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma pilha de entradas que representam os destinatários da tarefa. O destinatário da tarefa mais recente aparece na parte superior da pilha.
+Contém uma pilha de entradas que representam os atribuídores de tarefa. O atribuídor de tarefa mais recente aparece na parte superior da pilha.
   
 |||
 |:-----|:-----|
@@ -33,27 +33,27 @@ Contém uma pilha de entradas que representam os destinatários da tarefa. O des
 |Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
 |Long ID (LID):  <br/> |0x00008117  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Tarefas  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando o cliente recebe uma solicitação de tarefa, ele é anexado a essa propriedade, que estrutura é definida em [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), uma entrada que representa o remetente da tarefa. Quando o cliente recebe uma rejeição de tarefa, o cliente remove a última entrada do destinatário da tarefa dessa propriedade. Quando o cliente envia uma resposta de tarefa, o cliente a envia para o último destinatário de tarefa listado no valor dessa propriedade.
+Quando o cliente recebe uma solicitação de tarefa, ele anexa a essa propriedade, que estrutura é definida em [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), uma entrada que representa o remetente da tarefa. Quando o cliente recebe uma rejeição de tarefa, o cliente remove a última entrada do atribuídor de tarefa dessa propriedade. Quando o cliente envia uma resposta de tarefa, o cliente a envia para o último atribuídor de tarefas listado no valor dessa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas 
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Pesquisar uma frase no corpo dos itens em uma pasta
+title: Procurar uma frase no corpo dos itens em uma pasta
 TOCTitle: Search for a phrase in the body of items in a folder
 ms:assetid: 2c9f3b5f-ed91-4a07-b247-8f89f00cbc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb644806(v=office.15)
@@ -36,7 +36,7 @@ A sintaxe para usar a palavra-chave **like** para qualquer correspondência de s
 
 `<PropertySchemaName> like %<Token>%`
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

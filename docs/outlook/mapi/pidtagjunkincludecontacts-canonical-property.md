@@ -25,7 +25,7 @@ ms.locfileid: "32328711"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica se os endereços de email dos contatos na pasta contatos são tratados especialmente em relação ao filtro spam.
+Indica se os endereços de email dos contatos na pasta Contatos são tratados especialmente em relação ao filtro de spam.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Indica se os endereços de email dos contatos na pasta contatos são tratados es
    
 ## <a name="remarks"></a>Comentários
 
-Se definido como "0x00000001", esses endereços de email devem preencher a parte de endereço de email de contato "confiável" da restrição de regra de lixo eletrônico, de forma que os emails desses endereços sejam tratados como "não é lixo eletrônico". Se definido como "0x00000000", os endereços de email da pasta contatos não devem ser adicionados à regra de lixo eletrônico e a seção da regra deve ser nula.
+Se definido como "0x00000001", esses endereços de email deverão preencher a parte do endereço de email de contato "confiável" da Restrição de Regra de Lixo Eletrônico de forma que os emails desses endereços seja tratados como "não é lixo eletrônico". Se definido como "0x00000000", os endereços de email da pasta Contatos não devem ser adicionados à Regra de Lixo Eletrônico e a seção da regra deve ser NULL.
   
-Se essa propriedade estiver presente com um valor de "0x00000001" e se o contato adicionado tiver endereços de email que ainda não estão incluídos na seção contatos confiáveis da regra de lixo eletrônico, esses endereços de email devem ser adicionados à restrição. Se essa propriedade for "0x00000000", nenhuma ação será necessária.
+Se essa propriedade estiver presente com um valor de "0x00000001" e se o contato adicionado tiver endereços de email que ainda não estão incluídos na seção contatos confiáveis da Regra de Lixo Eletrônico, esses endereços de email deverão ser adicionados à restrição. Se essa propriedade for "0x00000000", nenhuma ação será necessária.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
+> Permite a manipulação de listas de bloqueio/autorização e a determinação de mensagens de lixo eletrônico.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

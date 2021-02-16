@@ -25,14 +25,14 @@ ms.locfileid: "32286601"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que os servidores de formulário recebam notificações de visualizadores de formulários. 
+Permite que os servidores de formulário recebam notificações de visualizadores de formulário. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
-|Exposto por:  <br/> |Objetos de coletor de aviso de formulário  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
+|Exposto por:  <br/> |Form advise sink objects  <br/> |
 |Implementado por:  <br/> |Servidores de formulário  <br/> |
-|Chamado por:  <br/> |Visualizadores de formulários  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFormAdviseSink  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORMADVISESINK  <br/> |
    
@@ -40,14 +40,14 @@ Permite que os servidores de formulário recebam notificações de visualizadore
 
 |||
 |:-----|:-----|
-|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indica que uma alteração ocorreu no status do Visualizador de formulários.  <br/> |
+|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indica que ocorreu uma alteração no status do visualizador de formulário.  <br/> |
 |[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indica se o formulário pode manipular a classe de mensagem da próxima mensagem a ser exibida.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Os servidores de formulário usam um objeto de coletor de aviso de formulário para implementar o **IMAPIFormAdviseSink** em vez de incluí-lo com o objeto Form. Portanto, os visualizadores de formulário devem esperar uma chamada com falha para o método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de um formulário para obter um ponteiro para esta interface. 
+Os servidores de formulário usam um objeto sink de consultoria de formulário para implementar **IMAPIFormAdviseSink** em vez de incluí-lo com seu objeto de formulário. Portanto, os visualizadores de formulário devem esperar uma chamada com falha para o método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de um formulário para obter um ponteiro para essa interface. 
   
-Os servidores de formulário chamam o método [IMAPIViewContext:: SetAdviseSink](imapiviewcontext-setadvisesink.md) de um visualizador para registrar notificações. Um ponteiro para a implementação do **IMAPIFormAdviseSink** está incluído como um parâmetro. 
+Os servidores de formulário chamam o método [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) de um visualizador para registrar as notificações. Um ponteiro para a **implementação de IMAPIFormAdviseSink** é incluído como um parâmetro. 
   
 ## <a name="see-also"></a>Confira também
 

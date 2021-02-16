@@ -19,16 +19,16 @@ ms.locfileid: "32279782"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Todos os objetos que o MAPI define se enquadram em uma ou mais camadas na arquitetura MAPI. A camada de interface de cliente contém todos os objetos que um aplicativo cliente, visualizador de formulários ou servidor de formulário pode implementar. A camada de interface do provedor de serviços contém os objetos que um provedor de serviços de qualquer tipo pode implementar. Esta camada inclui objetos implementados por catálogos de endereços, repositórios de mensagens, provedores de transporte e bibliotecas de formulários. A camada que representa o subsistema MAPI está posicionada entre as camadas de interface de cliente e de provedor de serviço. A camada MAPI contém todos os objetos que o MAPI implementa para clientes ou provedores de serviço a serem usados. 
+Todos os objetos que MAPI define se enquadram em uma ou mais camadas na arquitetura MAPI. A camada da interface do cliente contém todos os objetos que um aplicativo cliente, visualizador de formulário ou servidor de formulário pode implementar. A camada de interface do provedor de serviços contém os objetos que um provedor de serviços de qualquer tipo pode implementar. Essa camada inclui objetos implementados por livros de endereços, armazenamentos de mensagens, provedores de transporte e bibliotecas de formulário. A camada que representa o subsistema MAPI é posicionada entre as camadas de interface do cliente e do provedor de serviços. A camada MAPI contém todos os objetos que o MAPI implementa para os clientes ou provedores de serviços usarem. 
   
-A ilustração a seguir mostra onde cada um dos objetos MAPI se ajusta à arquitetura MAPI. Os objetos são representados com os nomes de suas interfaces derivadas. Por exemplo, um objeto de coletor de aviso é mostrado como [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md), a interface derivada de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) e que cada objeto de coletor de aviso é implementado. As interfaces que as camadas de ponte são usadas ou implementadas por vários componentes. Embora a camada MAPI pareça separar as camadas de cliente e provedor, indicando que toda a comunicação deve fluir por MAPI, esse não é o caso. Os clientes podem e se comunicam diretamente com os objetos do provedor de serviços. 
+A ilustração a seguir mostra onde cada um dos objetos MAPI se encaixa na arquitetura MAPI. Os objetos são representados com os nomes de suas interfaces derivadas. Por exemplo, um objeto sink de aconselhe é mostrado como [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md), a interface que deriva de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) e que cada objeto de evento de aconselhe implementa. As interfaces que as camadas de ponte são usadas ou implementadas por vários componentes. Embora a camada MAPI pareça separar as camadas do cliente e do provedor, indicando que toda a comunicação deve fluir através de MAPI, esse não é o caso. Os clientes podem se comunicar diretamente com objetos do provedor de serviços. 
   
 **Object layers in MAPI**
   
-![Camadas de objeto no MAPI] (media/amapi_38.gif "Camadas de objeto no MAPI")
+![Camadas de objeto em camadas](media/amapi_38.gif "de objeto MAPI em MAPI")
   
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
-- [Visão geral de interface e objeto MAPI](mapi-object-and-interface-overview.md)
+- [Visão geral de objetos e interface MAPI](mapi-object-and-interface-overview.md)
 

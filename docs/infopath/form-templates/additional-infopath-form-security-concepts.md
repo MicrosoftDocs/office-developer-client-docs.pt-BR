@@ -19,7 +19,7 @@ O modelo de segurança do Microsoft InfoPath baseia-se no modelo de segurança i
   
 - **Formulários baseados em URL** Esse método de implantação é o padrão quando um formulário é publicado do InfoPath para um servidor Web, uma biblioteca de formulários do SharePoint Foundation ou um compartilhamento de arquivos. Esses formulários são conhecidos como formulários baseados em URL, pois um usuário normalmente abre o formulário na URL em que ele é publicado. Essa URL é especificada no atributo **publishUrl** do elemento **xDocumentClass** no arquivo de definição de formulário (. xsf). Formulários baseados em URL são de área restrita, pois eles têm acesso restrito a recursos de sistema e outras possíveis áreas de risco. Um formulário baseado em URL tem o mesmo nível de permissões que uma página da Web aberta do mesmo local que o arquivo de modelo de formulário (. xsn).
     
-- **Formulários baseados em URN** Esse método de implantação é para formulários que exigem acesso a recursos do sistema e outros recursos externos, como controles ActiveX e outros componentes de software. Você pode implantar formulários do InfoPath como formulários totalmente confiáveis. Esses formulários também são conhecidos como formulários baseados em URN porque, em vez de especificar o atributo **publishUrl**, eles especificam um Uniform Resource Name (URN) no atributo **nome** do elemento ** xDocumentClass** no arquivo de definição de formulário (. xsf). Essa classe de formulário pode solicitar confiança total se o atributo **requireFullTrust** do elemento **xDocumentClass** for definido como `"yes"` no arquivo de definição de formulário (. xsf). Os formulários de URN devem ser registrados no computador cliente por um programa ou script.de instalação. Nesse caso, o formulário recebe as mesmas permissões que um aplicativo que está em execução no computador local. 
+- **Formulários baseados em URN** Esse método de implantação é para formulários que exigem acesso a recursos do sistema e outros recursos externos, como controles ActiveX e outros componentes de software. Você pode implantar formulários do InfoPath como formulários totalmente confiáveis. Esses formulários também são conhecidos como formulários baseados em URN porque, em vez de especificar o atributo **publishUrl**, eles especificam um Uniform Resource Name (URN) no atributo **nome** do elemento **xDocumentClass** no arquivo de definição de formulário (. xsf). Essa classe de formulário pode solicitar confiança total se o atributo **requireFullTrust** do elemento **xDocumentClass** for definido como `"yes"` no arquivo de definição de formulário (. xsf). Os formulários de URN devem ser registrados no computador cliente por um programa ou script.de instalação. Nesse caso, o formulário recebe as mesmas permissões que um aplicativo que está em execução no computador local. 
     
 Juntamente com esses dois métodos de implantação de formulário, cada método e propriedade no modelo de objeto do InfoPath tem um nível de segurança que controla quando esse método ou propriedade pode ser chamado pelo script executado pelo formulário.
   
@@ -37,7 +37,7 @@ Para um discussão detalhada sobre como funcionam os formulários totalmente con
 
 A capacidade de usar formulários confiáveis pode ser habilitada ou desabilitada em computadores individuais. Quando um computador está configurado para confiar nos formulários instalados, os usuários podem preencher formulários que exigem acesso a recursos do seu computador.
   
-No editor do InfoPath, você pode configurar um computador para confiar em formulários instalados no modo de exibição Backstage clicando em **Opções**, **Central de Confiabilidade**, **configurações da Central de Confiabilidade**e marcando a caixa de seleção **Permitir que formulários totalmente confiáveis seja executados no meu computador** na aba **Fornecedores confiáveis** da caixa de diálogo **Central de Confiabilidade**. 
+No editor do InfoPath, você pode configurar um computador para confiar em formulários instalados no modo de exibição Backstage clicando em **Opções**, **Central de Confiabilidade**, **configurações da Central de Confiabilidade** e marcando a caixa de seleção **Permitir que formulários totalmente confiáveis seja executados no meu computador** na aba **Fornecedores confiáveis** da caixa de diálogo **Central de Confiabilidade**. 
   
 ## <a name="using-security-features-in-infopath"></a>Usando recursos de segurança no InfoPath
 
@@ -53,7 +53,7 @@ O modelo de segurança do InfoPath ajuda a proteger os usuários contra as segui
 
 Esta classe de cenários de risco de segurança é chamada de acesso de dados entre domínios.
   
-O modelo de segurança do Internet Explorer que serve de base para o InfoPath oferece uma configuração chamada **Acessar fontes de dados entre domínios**. Por padrão, essa configuração desabilita o acesso entre domínios para formulários do InfoPath que residem na Internet e em Zonas de segurança de sites restritos. Ela solicita que o usuário permita ou não o acesso entre domínios para formulários do InfoPath que residem na zona de segurança da Intranet local e permite acesso entre domínios para formulários do InfoPath que residem nas zonas de **Sites confiáveis** ou da ** Máquina Local**. 
+O modelo de segurança do Internet Explorer que serve de base para o InfoPath oferece uma configuração chamada **Acessar fontes de dados entre domínios**. Por padrão, essa configuração desabilita o acesso entre domínios para formulários do InfoPath que residem na Internet e em Zonas de segurança de sites restritos. Ela solicita que o usuário permita ou não o acesso entre domínios para formulários do InfoPath que residem na zona de segurança da Intranet local e permite acesso entre domínios para formulários do InfoPath que residem nas zonas de **Sites confiáveis** ou da **Máquina Local**. 
   
 ## <a name="use-of-the-infopath-html-task-pane"></a>Uso do painel de tarefas HTML do InfoPath
 
@@ -108,15 +108,15 @@ A tabela a seguir resume as permissões padrão para cada método de implantaç�
 |:-----|:-----|:-----|
 ||**Baseado em URL** <br/> |**Baseado em URN** <br/> |**ActiveX marcado como não seguro para execução de script** <br/> |**Acesso de dados entre domínios** <br/> |**Nível de segurança do modelo de objeto** <br/> |
 |Sites restritos  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |
-|Internet  <br/> |X  <br/> ||Desabilitar  <br/> |Desabilitar  <br/> |duas  <br/> |
-|Intranet local  <br/> |X  <br/> ||Desabilitar  <br/> |Prompt  <br/> |duas  <br/> |
-|Sites confiáveis  <br/> |X  <br/> ||Prompt  <br/> |Habilitar  <br/> |duas  <br/> |
-|Máquina Local  <br/> |X  <br/> |X  <br/> |Desabilitar  <br/> |Prompt  <br/> |duas  <br/> |
-|Formulário totalmente confiável  <br/> |X (assinado por um Fornecedor Confiável)  <br/> |X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3D  <br/> |
-|Formulário totalmente confiável  <br/> ||X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3D  <br/> |
-|Restrito  <br/> ||X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
-|Restrito  <br/> |X  <br/> ||Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
-|Restrito  <br/> |X  <br/> |X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |duas  <br/> |
+|Internet  <br/> |X  <br/> ||Desabilitar  <br/> |Desabilitar  <br/> |2   <br/> |
+|Intranet local  <br/> |X  <br/> ||Desabilitar  <br/> |Prompt  <br/> |2   <br/> |
+|Sites confiáveis  <br/> |X  <br/> ||Prompt  <br/> |Habilitar  <br/> |2   <br/> |
+|Máquina Local  <br/> |X  <br/> |X  <br/> |Desabilitar  <br/> |Prompt  <br/> |2   <br/> |
+|Formulário totalmente confiável  <br/> |X (assinado por um Fornecedor Confiável)  <br/> |X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3   <br/> |
+|Formulário totalmente confiável  <br/> ||X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3   <br/> |
+|Restrito  <br/> ||X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2   <br/> |
+|Restrito  <br/> |X  <br/> ||Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2   <br/> |
+|Restrito  <br/> |X  <br/> |X  <br/> |Não ActiveX (exceto uma lista embutida em código limitada)  <br/> |Desabilitar  <br/> |2   <br/> |
    
 Para saber mais sobre as diretrizes gerais de segurança ao desenvolver formulários, confira [Diretrizes de segurança para desenvolver formulários do InfoPath](security-guidelines-for-developing-infopath-forms.md).
   
@@ -173,7 +173,7 @@ Observe que a segurança do .NET concede o conjunto de permissões de Internet s
 
 Você pode desativar o recurso de mesclagem de formulários para impedir que usuários importem dados de vários formulários para um único formulário.
   
-Para habilitar ou desabilitar a mesclagem de formulários, use a caixa de seleção **Habilitar a mesclagem de formulários** na seção **Avançado** da caixa de diálogo **Opções de formulário**, disponível na guia ** Informações** do Microsoft Office Backstage quando você cria o formulário. Quando a mesclagem de formulários está desabilitada, usuários não podem clicar em **Mesclar formulários** na guia **Compartilhar** do Microsoft Office Backstage ao preencherem um formulário. 
+Para habilitar ou desabilitar a mesclagem de formulários, use a caixa de seleção **Habilitar a mesclagem de formulários** na seção **Avançado** da caixa de diálogo **Opções de formulário**, disponível na guia **Informações** do Microsoft Office Backstage quando você cria o formulário. Quando a mesclagem de formulários está desabilitada, usuários não podem clicar em **Mesclar formulários** na guia **Compartilhar** do Microsoft Office Backstage ao preencherem um formulário. 
   
 ## <a name="submitting-forms"></a>Envio de formulários
 

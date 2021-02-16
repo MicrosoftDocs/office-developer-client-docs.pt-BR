@@ -33,7 +33,7 @@ Fornece informações extras sobre o último erro.
    
 ## <a name="remarks"></a>Comentários
 
-Esta interface fornece informações extras sobre um erro no [IOlkAccountManager](iolkaccountmanager.md), no [IOlkAccountNotify](iolkaccountnotify.md)e no [IOlkAccount](iolkaccount.md). Também é a interface base para **IOlkAccountManager**, **IOlkAccountNotify**e **IOlkAccount**. 
+Esta interface fornece informações extras sobre um erro [em IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)e [IOlkAccount](iolkaccount.md). Também é a interface base para **IOlkAccountManager**, **IOlkAccountNotify** e **IOlkAccount**. 
   
 ## <a name="see-also"></a>Confira também
 

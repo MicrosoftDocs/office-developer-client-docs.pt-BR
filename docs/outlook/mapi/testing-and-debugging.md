@@ -21,9 +21,9 @@ ms.locfileid: "32316476"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As estratégias de teste diferem dependendo se você está desenvolvendo um cliente ou provedor de serviços. Como um aplicativo cliente exige que um ou mais provedores de serviço operem, os clientes devem ser testados em um ambiente com diferentes conjuntos de provedores de serviços.
+As estratégias de teste diferem dependendo se você está desenvolvendo um cliente ou provedor de serviços. Como um aplicativo cliente requer um ou mais provedores de serviços para operar, os clientes devem ser testados em um ambiente com conjuntos diferentes de provedores de serviços.
   
-No entanto, os provedores de serviços devem ser testados isoladamente antes de serem integrados a outros provedores. O MAPI fornece ferramentas destinadas a testar os recursos de um provedor de serviços de um tipo específico. O aplicativo de exemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de catálogo de endereços e funciona com um provedor de armazenamento de mensagens. 
+No entanto, os provedores de serviços devem ser testados isoladamente antes de serem integrados a outros provedores. O MAPI fornece ferramentas destinadas a testar os recursos de um provedor de serviços de um tipo específico. O [aplicativo de exemplo MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de agendas de endereços e funciona com um provedor de armazenamento de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 

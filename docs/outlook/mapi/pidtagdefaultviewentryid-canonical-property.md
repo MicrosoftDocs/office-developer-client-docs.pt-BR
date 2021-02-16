@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica Pidtagdefaultviewentryid Canonical
+title: Propriedade canônica PidTagDefaultViewEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32270011"
 ---
-# <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriedade canônica Pidtagdefaultviewentryid Canonical
+# <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriedade canônica PidTagDefaultViewEntryId
 
   
   
@@ -36,27 +36,27 @@ Contém o identificador de entrada do modo de exibição padrão de uma pasta.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é o identificador de entrada do modo de exibição de pasta que deve ser definido como o modo de exibição inicial. A propriedade não precisará ser definida se o modo de exibição "normal" for usado como o modo de exibição inicial.
+Essa propriedade é o identificador de entrada do exibição de pasta que deve ser definido como o exibição inicial. A propriedade não precisa ser definida se o modo de exibição "Normal" deve ser usado como o modo de exibição inicial.
   
-Um aplicativo cliente pode obter essa propriedade no momento em que abre a pasta e obter ganhos significativos de desempenho. Essa propriedade pode ser usada como um atalho para obter o modo de exibição padrão, em vez de abrir a tabela de conteúdo associada e enviar uma restrição.
+Um aplicativo cliente pode obter essa propriedade no momento em que abre a pasta e obtém ganhos significativos de desempenho. Essa propriedade pode ser usada como um atalho para obter o modo de exibição padrão, em vez de abrir a tabela de conteúdo associada e enviar uma restrição.
   
-Uma implementação de provedor de serviços do método [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) pode copiar essa propriedade quando ele copia pastas. 
+Uma implementação de provedor de serviços do [método IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) pode copiar essa propriedade ao copiar pastas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla as operações da pasta.
+> Lida com operações de pasta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

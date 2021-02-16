@@ -25,48 +25,48 @@ ms.locfileid: "32316279"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a cor do sinalizador do objeto Message.
+Especifica a cor do sinalizador do objeto message.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FOLLOWUP_ICON  <br/> |
 |Identificador:  <br/> |0x1095  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |ReNomear pasta de mensagens  <br/> |
+|Área:  <br/> |Renomear pasta de mensagens  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade não deve existir, a menos que o valor da propriedade **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) seja definido como "followupFlagged" ou o objeto Message seja um objeto relacionado à reunião. Esta propriedade não deve existir em um objeto Task. Quando definido em outros objetos de mensagem, essa propriedade deve ser definida como um dos valores a seguir.
+Essa propriedade não deve existir, a menos que o valor da propriedade **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) seja definido como "followupFlagged" ou o objeto message seja um objeto relacionado à reunião. Essa propriedade não deve existir em um objeto task. Quando definida em outros objetos de mensagem, essa propriedade deve ser definida como um dos seguintes valores.
   
 |**Valor numérico**|**Nome**|**Descrição**|
 |:-----|:-----|:-----|
-|Não está presente  <br/> |N/D  <br/> |Sem cor  <br/> |
-|1  <br/> |followupIcon1  <br/> |Sinalizador roxo  <br/> |
-|duas  <br/> |followupIcon2  <br/> |Sinalizador laranja  <br/> |
-|3D  <br/> |followupIcon3  <br/> |Sinalizador verde  <br/> |
-|quatro  <br/> |followupIcon4  <br/> |Sinalizador amarelo  <br/> |
-|0,5  <br/> |followupIcon5  <br/> |Sinalizador azul  <br/> |
-|6  <br/> |followupIcon6  <br/> |Sinalizador vermelho  <br/> |
+|Não presente  <br/> |N/D  <br/> |Sem cor  <br/> |
+|1   <br/> |followupIcon1  <br/> |Sinalizador Roxo  <br/> |
+|2   <br/> |followupIcon2  <br/> |Sinalizador laranja  <br/> |
+|3   <br/> |followupIcon3  <br/> |Sinalizador verde  <br/> |
+|4   <br/> |followupIcon4  <br/> |Sinalizador amarelo  <br/> |
+|5   <br/> |followupIcon5  <br/> |Sinalizador azul  <br/> |
+|6   <br/> |followupIcon6  <br/> |Sinalizador vermelho  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações relacionadas à sinalização.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -78,7 +78,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

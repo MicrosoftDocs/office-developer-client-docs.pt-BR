@@ -45,10 +45,10 @@ InfoPath fornece opções para o programa em quatro versões do modelo de objeto
 
 1. Com um projeto de modelo de formulário aberto no InfoPath designer, clique em **idioma** no **guia** do desenvolvedor. 
     
-2. Na categoria **programação** das **opções de formulário** na caixa de diálogo, selecione o idioma que deseja para trabalhar com**a lista suspensa** no código de linguagem do modelo de formulário. Em seguida, selecione a versão do modelo de objeto da **versão de destino** na lista suspensa. A opção **versão de destino** compatível com o InfoPath 2013 não tem a versão do ano seguinte no**nome** Infopath. 
+2. Na categoria **programação** das **opções de formulário** na caixa de diálogo, selecione o idioma que deseja para trabalhar com **a lista suspensa** no código de linguagem do modelo de formulário. Em seguida, selecione a versão do modelo de objeto da **versão de destino** na lista suspensa. A opção **versão de destino** compatível com o InfoPath 2013 não tem a versão do ano seguinte no **nome** Infopath. 
     
     > [!NOTE]
-    > Nem todos os tipos de modelo de formulário suportam código. Por exemplo, na **lista do SharePoint** o tipo de modelo de formulário e as **partes de modelo** não suportam código do formulário. Ao criar um tipo de modelo de formulário que não suporte código, o guia**desenvolvedor** não estará disponível. Além disso, alguns tipos de modelos formulário suportam todas as quatro versões do modelo de objeto. Por exemplo, o modelo**formulário em branco (InfoPath Filler)** oferece suporte a todas as quatro versões do modelo de objeto (e cria um modelo de formulário compatíveis com o InfoPath Filler nessas versões), mas o **Formulário** modelo em branco suporta apenas o InfoPath 2013 e o InfoPath (e cria modelos de formulário compatíveis com o InfoPath Filler e navegador). 
+    > Nem todos os tipos de modelo de formulário suportam código. Por exemplo, na **lista do SharePoint** o tipo de modelo de formulário e as **partes de modelo** não suportam código do formulário. Ao criar um tipo de modelo de formulário que não suporte código, o guia **desenvolvedor** não estará disponível. Além disso, alguns tipos de modelos formulário suportam todas as quatro versões do modelo de objeto. Por exemplo, o modelo **formulário em branco (InfoPath Filler)** oferece suporte a todas as quatro versões do modelo de objeto (e cria um modelo de formulário compatíveis com o InfoPath Filler nessas versões), mas o **Formulário** modelo em branco suporta apenas o InfoPath 2013 e o InfoPath (e cria modelos de formulário compatíveis com o InfoPath Filler e navegador). 
   
     Você pode definir um padrão de linguagem de programação para que o designer de formulário do InfoPath sempre comece com a versão de idioma e o objeto de modelo de sua escolha.
     
@@ -56,9 +56,9 @@ InfoPath fornece opções para o programa em quatro versões do modelo de objeto
 
 1. Clique na guia **Arquivo** e, em seguida, em **Opções**.
     
-2. Na **seção** geral** da caixa de diálogo** do InfoPath, clique em **mais opções**.
+2. Na **seção** geral **da caixa de diálogo** do InfoPath, clique em **mais opções**.
     
-3. No guia **Design ** nas **opções** da caixa de diálogo, escolha a programação de idioma padrão na seção**programação padrões**. 
+3. No guia **Design** nas **opções** da caixa de diálogo, escolha a programação de idioma padrão na seção **programação padrões**. 
     
 ### <a name="writing-code"></a>Escrever códigos
 
@@ -71,6 +71,6 @@ Agora você pode começar desenvolver com o InfoPath 2013 e o Visual Studio 2012
 2. Clique em **Editor de código** no **guia** desenvolvedor. 
     
 > [!TIP]
-> Você também pode iniciar o editor de código e adicionar automaticamente manipuladores de eventos para eventos de formulário e controle usando comandos na guia**desenvolvedor** menus de contexto e outros métodos de interface do usuário. Para saber mais, confira [adicionar um manipulador de eventos](how-to-add-an-event-handler.md)
+> Você também pode iniciar o editor de código e adicionar automaticamente manipuladores de eventos para eventos de formulário e controle usando comandos na guia **desenvolvedor** menus de contexto e outros métodos de interface do usuário. Para saber mais, confira [adicionar um manipulador de eventos](how-to-add-an-event-handler.md)
   
 

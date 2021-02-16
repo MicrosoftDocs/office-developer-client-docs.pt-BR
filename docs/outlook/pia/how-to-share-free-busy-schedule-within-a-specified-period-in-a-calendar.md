@@ -22,7 +22,7 @@ Este exemplo obtém o cronograma de disponibilidade de determinada semana e exib
 
 Este exemplo de código usa o método [GetCalendarExporter](https://msdn.microsoft.com/library/bb610021\(v=office.15\)) do objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) para obter um objeto [CalendarSharing](https://msdn.microsoft.com/library/bb624344\(v=office.15\)) para a pasta padrão Calendário em um período específico de uma semana. Em seguida, chama o método [ForwardAsICal](https://msdn.microsoft.com/library/bb652866\(v=office.15\)) no objeto **CalendarSharing** e exibe a mensagem com uma carga iCalendar.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública. As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
