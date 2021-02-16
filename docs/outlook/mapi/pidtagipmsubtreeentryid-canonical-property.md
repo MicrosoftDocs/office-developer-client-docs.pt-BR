@@ -25,7 +25,7 @@ ms.locfileid: "33412727"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da raiz da subárvore da pasta de mensagens interpessoais (IPM) na árvore de pastas do repositório de mensagens. 
+Contém o identificador de entrada da raiz da subárvore da pasta de mensagens interpersonalas (IPM) na árvore de pastas do armazenamento de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o identificador de entrada da raiz da subárvore da pasta de mensagens i
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade representa a raiz da hierarquia IPM. Os clientes IPM não devem exibir pastas que não sejam subpastas da pasta representada por essa propriedade.
+Essa propriedade representa a raiz da hierarquia do IPM. Os clientes IPM não devem exibir pastas que não sejam subpastas da pasta representada por essa propriedade.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

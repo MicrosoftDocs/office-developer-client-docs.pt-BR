@@ -39,35 +39,35 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClassArray_
   
-> no Um ponteiro para uma matriz que contém os nomes das classes de mensagens a serem resolvidas. Os nomes de classe de mensagem são sempre cadeias de caracteres ANSI, nunca Unicode.
+> [in] Um ponteiro para uma matriz que contém os nomes das classes de mensagem a resolver. Os nomes de classe de mensagem são sempre cadeias de caracteres ANSI, nunca Unicode.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como as classes de mensagem são resolvidas. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla como as classes de mensagem são resolvidas. O sinalizador a seguir pode ser definido:
     
 MAPIFORM_EXACTMATCH 
   
-> Somente as cadeias de caracteres de classe de mensagem que têm uma correspondência exata devem ser resolvidas.
+> Somente cadeias de caracteres de classe de mensagem que sejam uma combinação exata devem ser resolvidas.
     
  _ppfrminfoarray_
   
-> bota Um ponteiro para um ponteiro para uma matriz de objetos de informação do formulário. Se um aplicativo cliente passar nulo no parâmetro _pMsgClassArray_ , o parâmetro _ppfrminfoarray_ conterá objetos de informações de formulário para todos os formulários no contêiner. 
+> [out] Um ponteiro para um ponteiro para uma matriz de objetos de informações de formulário. Se um aplicativo cliente passar NULL no parâmetro  _pMsgClassArray,_ o parâmetro  _ppfrminfoarray_ conterá objetos de informações de formulário para todos os formulários no contêiner. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos cliente chamam o método **IMAPIFormContainer:: ResolveMultipleMessageClasses** para resolver um grupo de classes de mensagem para formulários dentro de um contêiner de formulários. A matriz de objetos de informações de formulário retornada no parâmetro _ppfrminfoarray_ fornece acesso adicional a cada uma das propriedades de formulários. 
+Os aplicativos cliente chamam o método **IMAPIFormContainer::ResolveMultipleMessageClasses** para resolver um grupo de classes de mensagens para formulários dentro de um contêiner de formulário. A matriz de objetos de informações de formulário retornados no  _parâmetro ppfrminfoarray_ fornece mais acesso a cada uma das propriedades dos formulários. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para resolver um grupo de classes de mensagem para formulários, passe uma matriz de nomes de classe de mensagem a ser resolvida. Para forçar a resolução a ser exata (ou seja, para impedir a resolução de uma classe base da classe Message), o sinalizador MAPIFORM_EXACTMATCH pode ser passado no parâmetro _parâmetroulflags_ . 
+Para resolver um grupo de classes de mensagens para formulários, passe uma matriz de nomes de classe de mensagem a serem resolvidos. Para forçar a resolução a ser exata (ou seja, para evitar a resolução para uma classe base da classe de mensagem), o sinalizador MAPIFORM_EXACTMATCH pode ser passado no _parâmetro ulFlags._ 
   
-Se uma classe de mensagem não puder ser resolvida para um formulário, NULL será retornado para essa classe de mensagem na matriz de informações do formulário. Portanto, mesmo que o método retorne S_OK, não presuma que todas as classes de mensagem tenham sido resolvidas com êxito. Em vez disso, verifique os valores na matriz retornada.
+Se uma classe de mensagem não puder ser resolvida para um formulário, NULL será retornado para essa classe de mensagem na matriz de informações do formulário. Portanto, mesmo que o método retorne S_OK, não suponha que todas as classes de mensagens foram resolvidas com êxito. Em vez disso, verifique os valores na matriz retornada.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -75,7 +75,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnResolveMultipleMessageClasses  <br/> |MFCMAPI usa o método **IMAPIFormContainer:: ResolveMultipleMessageClasses** para localizar um formulário que é associado a um conjunto de classes de mensagem.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI uses the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to locate a form that is associated with a set of message classes.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

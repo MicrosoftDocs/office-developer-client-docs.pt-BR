@@ -22,18 +22,18 @@ Repete um texto um determinado número de vezes.
   
 ## <a name="syntax"></a>Sintaxe
 
-REPT (* * *texto* * *, * * *number_times* * *) 
+REPT (** *texto* **, ** *number_times* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O texto a ser repetido.  <br/> |
+| _text_ <br/> |Obrigatório  <br/> |**String** <br/> | O texto a ser repetido.  <br/> |
 | _number_times_ <br/> |Obrigatório  <br/> |**Número** <br/> |Um número positivo que especifica o número de vezes que o texto será repetido.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se *number_times* for: 
+Se  *number_times*  for: 
   
 - For zero (0), REPT retornará "" (texto vazio).
     
@@ -41,8 +41,8 @@ Se *number_times* for:
     
 ## <a name="example"></a>Exemplo
 
-REPT ("\*", 5) 
+REPT (" \* ", 5) 
   
-\* \*Retorna \*. \* \* 
+Retorna \* \* \* \* \* . 
   
 

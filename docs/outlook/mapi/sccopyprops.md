@@ -25,11 +25,11 @@ ms.locfileid: "33411005"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia as propriedades definidas por uma matriz de estruturas [SPropValue](spropvalue.md) para um novo destino. 
+Copia as propriedades definidas por uma matriz de [estruturas SPropValue](spropvalue.md) para um novo destino. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,21 +44,21 @@ SCODE ScCopyProps(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cProp_
+ _cprop_
   
-> no Contagem de propriedades a serem copiadas. 
+> [in] Contagem de propriedades a serem copiadas. 
     
  _rgprop_
   
-> no Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que definem as propriedades a serem copiadas. O parâmetro _rgprop_ não tem que apontar para o início da matriz, mas deve apontar para o início de uma das estruturas **SPropValue** na matriz. 
+> [in] Ponteiro para uma matriz de [estruturas SPropValue](spropvalue.md) que definem as propriedades a serem copiadas. O  _parâmetro rgprop_ não precisa apontar para o início da matriz, mas deve apontar para o início de uma das estruturas **SPropValue** na matriz. 
     
  _pvDst_
   
-> no Ponteiro para a posição inicial na memória para a qual essa função copia as propriedades. 
+> [in] Ponteiro para a posição inicial na memória para a qual essa função copia as propriedades. 
     
- _PCB_
+ _pcb_
   
-> bota Ponteiro opcional para o tamanho, em bytes, do bloco de memória apontado pelo parâmetro _pvDst_ . 
+> [out] Ponteiro opcional para o tamanho, em bytes, do bloco de memória apontado pelo _parâmetro pvDst._ 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -68,15 +68,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER
   
-> Um tipo de propriedade desconhecida foi encontrado.
+> Um tipo de propriedade desconhecido foi encontrado.
     
 ## <a name="remarks"></a>Comentários
 
-A nova matriz e seus dados residem em um buffer criado com uma única alocação, e a função [ScRelocProps](screlocprops.md) pode ser usada para ajustar os ponteiros nas estruturas individuais do [SPropValue](spropvalue.md) . Antes desse ajuste, os ponteiros são válidos. 
+A nova matriz e seus dados residem em um buffer criado com uma única alocação, e a função [ScRelocProps](screlocprops.md) pode ser usada para ajustar os ponteiros nas estruturas [SPropValue](spropvalue.md) individuais. Antes desse ajuste, os ponteiros são válidos. 
   
  **ScCopyProps** mantém a ordem de propriedade original para a matriz de propriedades copiada. 
   
-O parâmetro _PCB_ é opcional; Se não for nulo, será definido como o número de bytes armazenados no parâmetro _pvDst_ . 
+O _parâmetro pcb_ é opcional; se não for NULL, será definido como o número de bytes armazenados no _parâmetro pvDst._ 
   
 ## <a name="see-also"></a>Confira também
 

@@ -18,7 +18,7 @@ ms.locfileid: "33411859"
 ---
 # <a name="piny-cell-shape-transform-section"></a>Célula PinY (Seção Shape Transform)
 
-Representa a coordenada *y* do pino da forma (centro de rotação) em relação à origem de seu pai. 
+Representa a  *coordenada y*  do pino da forma (centro de rotação) em relação à origem de seu pai. 
   
 ## <a name="remarks"></a>Comentários
 

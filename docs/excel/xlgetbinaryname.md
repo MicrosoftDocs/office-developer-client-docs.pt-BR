@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetBinaryName
 keywords:
-- função xlgetbinaryname [Excel 2007]
+- Função xlgetbinaryname [excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33412461"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para retornar um identificador para dados salvos pela [função xlDefineBinaryName](xldefinebinaryname.md). Os dados com um nome binário definido são salvos com a pasta de trabalho e podem ser acessados pelo nome a qualquer momento. Para saber mais, confira "limitação de escopo de nome binário" em [problemas conhecidos no desenvolvimento XLL do Excel](known-issues-in-excel-xll-development.md).
+Usado para retornar um alça para dados salvos pela [função xlDefineBinaryName](xldefinebinaryname.md). Os dados com um nome binário definido são salvos com a agenda e podem ser acessados por nome a qualquer momento. Para obter mais informações, consulte "Limitação de escopo de nome binário" em [Problemas conhecidos no desenvolvimento de XLL do Excel.](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
@@ -32,7 +32,7 @@ Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 
 _pxRes_ (**xltypeBigData** ou **xltypeErr**)
   
-A estrutura bigdata que especifica os dados recuperados ou um erro é que os dados não podem ser recuperados ou o nome não está definido. Quando a função retorna, o membro **hData** do **XLOPER**/ **XLOPER12** contém um identificador para os dados nomeados.  _pxRes_ deve ser liberado em uma chamada para **xlFree** quando não for mais necessário. 
+A estrutura bigdata especificando os dados recuperados ou um erro é que os dados não puderam ser recuperados ou o nome não foi definido. Quando a função retorna, o **membro hdata** do **XLOPER** /  **XLOPER12** contém um identificador para os dados nomeados.  _PxRes_ devem ser liberados em uma chamada **para xlFree** quando não for mais necessário. 
   
 _pxName_ (**xltypeStr**)
   
@@ -40,7 +40,7 @@ Uma cadeia de caracteres especificando o nome dos dados.
   
 ## <a name="remarks"></a>Comentários
 
-O Microsoft Excel é proprietário do identificador de memória retornado em **hData**. No Windows, a alça é um identificador de memória global (alocado pela função **GlobalAlloc** ). 
+O Microsoft Excel possui o alça de memória retornado em **hdata.** No Windows, o alça é um alça de memória global (alocado pela **função GlobalAlloc).** 
   
 ## <a name="see-also"></a>Confira também
 

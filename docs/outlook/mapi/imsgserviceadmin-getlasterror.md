@@ -25,7 +25,7 @@ ms.locfileid: "33412139"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para um objeto de administração de serviço de mensagens. 
+Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para um objeto de administração de serviço de mensagens. 
   
 ```cpp
 HRESULT GetLastError(
@@ -37,41 +37,41 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _And_
+ _hResult_
   
-> no Um tipo de dados HRESULT que contém o valor de erro gerado pela chamada de método anterior.
+> [in] Um tipo de dados HRESULT que contém o valor de erro gerado pela chamada do método anterior.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo de cadeia de caracteres retornada. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres na estrutura **MAPIERROR** retornada no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> As cadeias de caracteres na **estrutura MAPIERROR** retornadas no parâmetro  _lppMAPIError_ estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
  _lppMAPIError_
   
-> bota Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhuma estrutura **MAPIERROR** a ser retornada. 
+> [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém informações de versão, componente e contexto do erro. O  _parâmetro lppMAPIError_ pode ser definido como NULL se não houver **estrutura MAPIERROR** a ser retornada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e o objeto de administração do serviço de mensagens não tem suporte para Unicode.
+> O MAPI_UNICODE sinalizador foi definido e o objeto de administração do serviço de mensagens não dá suporte a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin:: GetLastError** recupera informações sobre o último erro retornado por uma chamada de método [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Os clientes podem fornecer a seus usuários informações detalhadas sobre o erro, incluindo essa informação em uma caixa de diálogo. 
+O **método IMsgServiceAdmin::GetLastError** recupera informações sobre o último erro retornado por uma chamada de método [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Os clientes podem fornecer aos usuários informações detalhadas sobre o erro incluindo essas informações em uma caixa de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar a estrutura **MAPIERROR** , se o MAPI fornecer um, indicado pelo parâmetro _lppMAPIError_ somente se GetLastError retornar **** S_OK. Às vezes, o MAPI não pode determinar o que foi o último erro ou não faz mais para relatar o erro. Nessa situação, **GetLastError** retorna um ponteiro para nulo em _lppMAPIError_ em vez disso. 
+Você pode fazer uso da estrutura **MAPIERROR,** se MAPI fornece uma, apontado pelo parâmetro  _lppMAPIError_ somente se **GetLastError** retornar S_OK. Às vezes, o MAPI não pode determinar qual foi o último erro ou não tem mais nada a relatar sobre o erro. Nesta situação, **GetLastError** retorna um ponteiro para NULL em _lppMAPIError._ 
   
-Para obter mais informações sobre **** o método GetLastError, consulte [usando erros estendidos](mapi-extended-errors.md).
+Para obter mais informações sobre **o método GetLastError,** consulte [Usando erros estendidos.](mapi-extended-errors.md)
   
 ## <a name="see-also"></a>Confira também
 

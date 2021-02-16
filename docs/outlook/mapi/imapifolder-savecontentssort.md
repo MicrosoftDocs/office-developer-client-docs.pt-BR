@@ -38,11 +38,11 @@ HRESULT SaveContentsSort(
 
  _lpSortCriteria_
   
-> no Um ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) que contém a ordem de classificação padrão. 
+> [in] Um ponteiro para uma [estrutura SSortOrderSet](ssortorderset.md) que contém a ordem de classificação padrão. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a ordem de classificação padrão é definida. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla como a ordem de classificação padrão é definida. O sinalizador a seguir pode ser definido:
     
 RECURSIVE_SORT 
   
@@ -56,13 +56,13 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor de repositório de mensagens não oferece suporte para salvar uma ordem de classificação para suas tabelas de conteúdo da pasta.
+> O provedor de armazenamento de mensagens não dá suporte ao salvar uma ordem de classificação para suas tabelas de conteúdo de pasta.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIFolder:: SaveContentsSort** estabelece uma ordem de classificação padrão para a tabela de conteúdo de uma pasta. Ou seja, quando um cliente chama o método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable da pasta após o código chamar **SaveContentsSort**, as linhas na tabela de conteúdo retornada aparecerão na ordem estabelecida por **SaveContentsSort**.
+O **método IMAPIFolder::SaveContentsSort** estabelece uma ordem de classificação padrão para a tabela de conteúdo de uma pasta. Ou seja, quando um cliente chama o método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) da pasta após o código chamar **SaveContentsSort**, as linhas na tabela de conteúdo retornado aparecerão na ordem estabelecida por **SaveContentsSort**.
   
-Nem todos os provedores de repositório de mensagens dão suporte a **SaveContentsSort**; é aceitável que os provedores de repositórios de mensagens retornem MAPI_E_NO_SUPPORT do método **SaveContentsSort** . 
+Nem todos os provedores de armazenamento de mensagens **suportam SaveContentsSort**; é aceitável que provedores de armazenamento de mensagens retornem MAPI_E_NO_SUPPORT do **método SaveContentsSort.** 
   
 ## <a name="see-also"></a>Confira também
 

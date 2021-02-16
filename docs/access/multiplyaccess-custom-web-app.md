@@ -27,10 +27,10 @@ Multiplica duas expressões.
 
 *expression*  \*  *expression* 
   
-*expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico. 
+*expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérica. 
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna o tipo de dados do argumento com maior precedência.
+Retorna o tipo de dados do argumento com a precedência mais alta.
   
 

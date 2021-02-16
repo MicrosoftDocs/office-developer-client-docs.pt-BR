@@ -40,49 +40,49 @@ HRESULT OnActivateNext(
 
  _lpszMessageClass_
   
-> no Um ponteiro para a classe de mensagem da próxima mensagem.
+> [in] Um ponteiro para a classe de mensagem da próxima mensagem.
     
  _ulMessageStatus_
   
-> no Uma bitmask de sinalizadores definidos pelo cliente ou definidos pelo provedor, copiados da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da próxima mensagem a ser exibida, que fornece informações de status sobre a tabela de conteúdo que a mensagem está incluída no.
+> [in] Uma bitmask de sinalizadores definidos pelo cliente ou definidos pelo provedor, copiada da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da próxima mensagem a ser exibida, que fornece informações de status relacionadas ao índice de conteúdo em que a mensagem está incluída.
     
  _ulMessageFlags_
   
-> no Um ponteiro para uma bitmask de sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da próxima mensagem a ser exibida, indicando o estado atual da mensagem.
+> [in] Um ponteiro para uma máscara de bits de sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da próxima mensagem a ser exibida que indica o estado atual da mensagem.
     
  _ppPersistMessage_
   
-> bota Um ponteiro para um ponteiro para a implementação do [IPersistMessage](ipersistmessageiunknown.md) do objeto Form usado para o novo formulário, se um novo formulário for necessário. Um ponteiro para nulo pode ser retornado se o objeto Form atual puder ser usado para exibir e salvar a próxima mensagem. 
+> [out] Um ponteiro para um ponteiro para a implementação [de IPersistMessage](ipersistmessageiunknown.md) para o objeto de formulário usado para o novo formulário, se um novo formulário for necessário. Um ponteiro para NULL poderá ser retornado se o objeto de formulário atual puder ser usado para exibir e salvar a próxima mensagem. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A notificação foi bem-sucedida e o formulário pode lidar com a próxima mensagem.
+> A notificação foi bem-sucedida e o formulário pode manipular a próxima mensagem.
     
 S_FALSE 
   
-> O formulário não manipula a classe de mensagem da mensagem seguinte.
+> O formulário não trata a classe de mensagem da próxima mensagem.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormAdviseSink:: OnActivateNext** para ajudar o formulário a determinar se pode exibir a próxima mensagem em uma pasta. A próxima mensagem pode ser uma mensagem de qualquer classe, mas geralmente é da mesma classe ou de uma classe relacionada. Isso torna mais eficiente o processo de leitura de várias mensagens da mesma classe, permitindo que os aplicativos cliente reutilizem objetos de formulário sempre que possível. 
+Visualizadores de formulário chamam o método **IMAPIFormAdviseSink::OnActivateNext** para ajudar o formulário a determinar se ele pode exibir a próxima mensagem em uma pasta. A próxima mensagem pode ser uma mensagem de qualquer classe, mas normalmente é da mesma classe ou de uma classe relacionada. Isso torna o processo de leitura de várias mensagens da mesma classe mais eficiente, permitindo que os aplicativos clientes reutilizar objetos de formulário sempre que possível. 
   
-A maioria dos objetos de formulário usará a classe de mensagem apontada pelo parâmetro _lpszMessageClass_ para determinar se eles podem manipular a próxima mensagem. Geralmente, um formulário pode lidar com mensagens que pertencem a classes das quais a classe padrão do formulário é uma subclasse, além de mensagens que pertencem à classe padrão. No enTanto, um formulário pode usar outros fatores para determinar sem dúvida se uma mensagem pode ser tratada, como o status enviado ou não enviado da mensagem seguinte. 
+A maioria dos objetos de formulário usará a classe de mensagem apontada pelo parâmetro  _lpszMessageClass_ para determinar se eles podem manipular a próxima mensagem. Normalmente, um formulário pode manipular mensagens que pertencem a classes das quais a classe padrão do formulário é uma subclasse, além de mensagens que pertencem à classe padrão. However, a form can use other factors to determine without question whether a message can be handled, such as the sent or unsent status of the next message. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Retornar S_OK e NULL no parâmetro _ppPersistMessage_ se o formulário puder manipular a classe de mensagem. Se o formulário puder criar um novo formulário que possa lidar com a mensagem de que o formulário não pode lidar, siga estas etapas: 
+Retornar S_OK e NULL no  _parâmetro ppPersistMessage_ se o formulário puder manipular a classe de mensagem. Se o formulário puder criar um novo formulário que possa manipular a mensagem que o formulário não pode manipular, siga estas etapas: 
   
-1. Chame o alocador de classe do formulário para criar uma instância de um novo objeto Form.
+1. Chame a fábrica de classe do formulário para criar uma instância de um novo objeto de formulário.
     
-2. Armazene essa instância no conteúdo do parâmetro de ponteiro _ppPersistMessage_ . 
+2. Armazene essa instância no conteúdo do parâmetro _de ponteiro ppPersistMessage._ 
     
 3. Retorne S_OK.
     
-O Visualizador de formulários carregará a mensagem usando o método [IPersistMessage:: Load](ipersistmessage-load.md) que pertence ao objeto apontado por _ppPersistMessage_.
+O visualizador de formulário carregará a mensagem usando o método [IPersistMessage::Load](ipersistmessage-load.md) que pertence ao objeto apontado pelo  _ppPersistMessage_.
   
-Se nem o formulário nem um formulário que você pode criar podem manipular a próxima mensagem, retorne S_FALSE. No enTanto, em geral, os formulários não devem retornar esse valor porque causa uma redução no desempenho no Visualizador de formulários.
+Se nem o formulário nem um formulário que você pode criar podem manipular a próxima mensagem, retorne S_FALSE. However, in general, forms should not return this value because it causes decreased performance in the form viewer.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -90,7 +90,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |CMyMAPIFormViewer:: ActivateNext  <br/> |MFCMAPI usa o método **IMAPIFormAdviseSink:: OnActivateNext** para implementar o método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI usa o método **IMAPIFormAdviseSink::OnActivateNext** para implementar o método [IMAPIViewContext::ActivateNext.](imapiviewcontext-activatenext.md)  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -22,6 +22,6 @@ Contém as células que controlam os atributos de página, como a escala, a altu
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir os valores das propriedades de página fazendo uma entrada na célula de seção **Propriedades da página** ou usando a caixa de diálogo **Configurar página** (na guia **design** , clique no iniciador da caixa de diálogo no grupo **Configurar página** ). 
+Você pode definir os valores das propriedades de página fazendo uma entrada  na célula da seção **Page Properties** ou usando a  caixa de diálogo Configurar Página (na guia **Design,** clique no início da caixa de diálogo no grupo Configurar Página). 
   
 

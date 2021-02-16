@@ -22,7 +22,7 @@ Converte o valor de um ângulo de graus em radianos.
   
 ## <a name="syntax"></a>Sintaxe
 
-RAD (* * *ângulo* * *) 
+RAD(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ RAD (* * *ângulo* * *)
    
 ## <a name="example"></a>Exemplo
 
-RAD (45) 
+RAD(45) 
   
 Retornará 0,7854. 
   

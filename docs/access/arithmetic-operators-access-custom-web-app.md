@@ -1,5 +1,5 @@
 ---
-title: Operadores aritméticos (aplicativo Web personalizado do Access)
+title: Operadores Aritméticos (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,18 +13,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411838"
 ---
-# <a name="arithmetic-operators-access-custom-web-app"></a>Operadores aritméticos (aplicativo Web personalizado do Access)
+# <a name="arithmetic-operators-access-custom-web-app"></a>Operadores Aritméticos (aplicativo Web personalizado do Access)
 
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [-(SubTrair) (aplicativo Web personalizado do Access)](subtractaccess-custom-web-app.md)
+- [- (Subtrair) (aplicativo Web personalizado do Access)](subtractaccess-custom-web-app.md)
     
-- [\*Plicá (Aplicativo Web personalizado do Access)](multiplyaccess-custom-web-app.md)
+- [\* (Multiplicar) (Aplicativo Web personalizado do Access)](multiplyaccess-custom-web-app.md)
     
-- [/(Divisão) (aplicativo Web personalizado do Access)](divideaccess-custom-web-app.md)
+- [/ (Dividir) (aplicativo Web personalizado do Access)](divideaccess-custom-web-app.md)
     
 - [+ (Adicionar) (aplicativo Web personalizado do Access)](plusaddaccess-custom-web-app.md)
     

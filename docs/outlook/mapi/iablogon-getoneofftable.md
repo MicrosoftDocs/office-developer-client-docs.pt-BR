@@ -25,7 +25,7 @@ ms.locfileid: "33411873"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma tabela de modelos únicos para a criação de destinatários a serem adicionados à lista de destinatários de uma mensagem de saída.
+Retorna uma tabela de modelos one-off para a criação de destinatários a serem adicionados à lista de destinatários de uma mensagem de saída.
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,15 +38,15 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de colunas de cadeia de caracteres incluído na tabela. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla o tipo de colunas de cadeia de caracteres incluídas na tabela. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela única.
+> [out] Um ponteiro para um ponteiro para a tabela um-off.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,19 +56,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e o provedor de catálogo de endereços não é compatível com Unicode, ou o MAPI_UNICODE não foi definido e o provedor de catálogo de endereços oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE de endereços foi definido e o provedor de agendas não oferece suporte a Unicode ou MAPI_UNICODE não foi definido e o provedor de livro de endereços oferece suporte apenas a Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor de catálogo de endereços não fornece modelos únicos.
+> O provedor de agendas não fornece modelos one-off.
     
 ## <a name="remarks"></a>Comentários
 
-O MAPI chama o método **GetOneOffTable** para tornar os modelos one-off disponíveis para criar destinatários. Os novos destinatários são adicionados à lista de destinatários de uma mensagem de saída. Os provedores de catálogo de endereços devem dar suporte à notificação em sua tabela única para informar a MAPI de modificações de modelo. O MAPI mantém a tabela única aberta para habilitar a atualização dinâmica. 
+O MAPI chama **o método GetOneOffTable** para disponibilizar modelos one-off para criar destinatários. Os novos destinatários são adicionados à lista de destinatários de uma mensagem de saída. Os provedores de agenda devem dar suporte à notificação em sua tabela única para informar o MAPI sobre modificações de modelo. O MAPI mantém a tabela única aberta para habilitar a atualização dinâmica. 
   
-Os provedores de catálogos de endereços também podem oferecer suporte a uma tabela única para cada um de seus contêineres. Os chamadores recuperam essa tabela única chamando o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do contêiner e solicitando a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Os modelos disponíveis nesta tabela são usados para adicionar destinatários ao contêiner. Para obter uma discussão sobre as diferenças entre os dois tipos de tabelas individuais, consulte [implementIng one-off Tables](implementing-one-off-tables.md).
+Os provedores de agendas também podem dar suporte a uma tabela única para cada um de seus contêineres. Os chamadores recuperam essa tabela única chamando o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do contêiner e solicitando a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Os modelos disponíveis por meio desta tabela são usados para adicionar destinatários ao contêiner. Para uma discussão sobre as diferenças entre os dois tipos de tabelas um-off, consulte Implementando One-Off [tabelas](implementing-one-off-tables.md).
   
-Para obter uma lista das colunas obrigatórias em uma tabela de um provedor de catálogo de endereços, consulte [one-off Tables](one-off-tables.md).
+Para uma lista das colunas necessárias na tabela única de um provedor de agendas, consulte [Tabelas One-Off.](one-off-tables.md)
   
 ## <a name="see-also"></a>Confira também
 

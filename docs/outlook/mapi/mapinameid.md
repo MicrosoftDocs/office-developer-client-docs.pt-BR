@@ -29,7 +29,7 @@ Descreve uma propriedade nomeada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _MAPINAMEID
@@ -49,7 +49,7 @@ typedef struct _MAPINAMEID
 
  **lpguid**
   
-> Ponteiro para uma estrutura [GUID](guid.md) que define um determinado conjunto de propriedades; Este membro não pode ser nulo. Os valores válidos são os seguintes: 
+> Ponteiro para uma [estrutura GUID](guid.md) definindo um conjunto de propriedades específico; este membro não pode ser NULL. Os valores válidos são: 
     
 PS_PUBLIC_STRINGS
   
@@ -63,29 +63,29 @@ Um valor definido pelo cliente
   
 > 
     
- **Uikindda**
+ **ulKind**
   
-> Valor que descreve o tipo de valor no membro do **tipo** . Os valores válidos são os seguintes: 
+> Valor que descreve o tipo de valor no **membro Kind.** Os valores válidos são os seguinte: 
     
 MNID_ID 
   
-> O **tipo** membro contém um valor inteiro que representa o nome da propriedade. 
+> O **membro Kind** contém um valor inteiro que representa o nome da propriedade. 
     
 MNID_STRING 
   
-> O **tipo** member contém uma cadeia de caracteres Unicode que representa o nome da propriedade. 
+> O **membro Kind** contém uma cadeia de caracteres Unicode que representa o nome da propriedade. 
     
  **Tipo**
   
-> União descrevendo o nome da propriedade nomeada. O nome pode ser um valor inteiro, armazenado em **tampa**ou uma cadeia de caracteres Unicode, armazenado em **lpwstrName**.
+> União que descreve o nome da propriedade nomeada. O nome pode ser um valor inteiro, armazenado em **lID** ou uma cadeia de caracteres Unicode, armazenado em **lpwstrName**.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MAPINAMEID** é usada para descrever propriedades nomeadas propriedades que têm identificadores sobre 0x8000. Um conjunto de propriedades é uma parte importante de uma propriedade nomeada. Por exemplo, PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE são conjuntos de propriedades definidos por MAPI. 
+A **estrutura MAPINAMEID** é usada para descrever propriedades nomeadas com identificadores sobre 0x8000. Um conjunto de propriedades é uma parte importante de uma propriedade nomeada. Por exemplo, PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE são conjuntos de propriedades definidos por MAPI. 
   
-As propriedades nomeadas permitem que os clientes definam Propriedades personalizadas em um namespace maior do que o disponível no intervalo de identificador de propriedade definida por MAPI. Os nomes de propriedade não podem ser usados para obter valores de propriedade diretamente; Eles devem ser mapeados primeiro para os identificadores de propriedade por meio do método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Para determinados objetos como mensagens, MAPI reserva um intervalo de identificadores de propriedade para propriedades personalizadas. Portanto, para esses objetos, os clientes não precisam usar propriedades nomeadas e podem salvar a sobrecarga associada. 
+As propriedades nomeadas permitem que os clientes definam propriedades personalizadas em um namespace maior do que o disponível no intervalo de identificadores de propriedade definidos por MAPI. Os nomes de propriedade não podem ser usados para obter valores de propriedade diretamente; eles devem primeiro ser mapeados para identificadores de propriedade por meio do [método IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Para objetos específicos, como mensagens, o MAPI reserva um intervalo de identificadores de propriedade para propriedades personalizadas. Portanto, para esses objetos, os clientes não têm que usar propriedades nomeadas e podem economizar a sobrecarga associada. 
   
-Para obter mais informações sobre propriedades nomeadas, consulte [propriedades nomeadas](mapi-named-properties.md).
+Para obter mais informações sobre propriedades nomeadas, consulte [Propriedades Nomeadas.](mapi-named-properties.md)
   
 ## <a name="see-also"></a>Confira também
 

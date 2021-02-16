@@ -21,11 +21,11 @@ ms.locfileid: "33411278"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo cliente MAPI é qualquer aplicativo que usa a interface de programação MAPI. Os aplicativos cliente implementam tarefas de mensagens como o foco principal ou secundário. Aplicativos clientes de mensagens, como aplicativos que enviam e recebem emails, implementam mensagens como foco principal. Para aplicativos cliente que não são de mensagens, como aplicativos de inventário ou configuração, o sistema de mensagens é um recurso secundário.
+Um aplicativo cliente MAPI é qualquer aplicativo que usa a interface de programação MAPI. Os aplicativos cliente implementam tarefas de mensagens como seu foco principal ou secundário. Aplicativos cliente de mensagens, como aplicativos que enviam e recebem emails, implementam mensagens como seu foco principal. Para aplicativos cliente que não são de mensagens, como aplicativos de inventário ou configuração, as mensagens são um recurso secundário.
   
-As atividades de mensagens podem incluir, por exemplo, um aplicativo de processamento de texto que tenha um comando **Enviar** no menu de **arquivo** para permitir que documentos sejam enviados, email do Microsoft Office Outlook, programas de automação de fluxo de trabalho e serviços de BBS. 
+As atividades de mensagens podem incluir, por exemplo, um aplicativo de processamento de texto que tem um comando **Enviar** em seu **menu** Arquivo para habilitar o envio de documentos, email do Microsoft Office Outlook, programas de automação de fluxo de trabalho e serviços de quadro de boletim. 
   
-Os aplicativos cliente podem incluir o usuário para criar um ambiente interativo ou operar sem um usuário em um ambiente automatizado. Embora o MAPI forneça um conjunto de caixas de diálogo comuns com sua interface de usuário padrão, os aplicativos cliente não precisam apresentar uma interface de usuário. Na verdade, todo o processamento pode ser tratado no aplicativo, se você quiser. Um exemplo de um aplicativo cliente automatizado seria um aplicativo de gerenciamento de inventário programado para rotear itens de um tipo específico para os destinatários padrão regularmente.
+Os aplicativos cliente podem incluir o usuário para criar um ambiente interativo ou operar sem um usuário em um ambiente automatizado. Embora o MAPI fornece um conjunto de caixas de diálogo comuns com sua interface de usuário padrão, os aplicativos cliente não são necessários para apresentar uma interface do usuário. Na verdade, todo o processamento pode ser manipulado no aplicativo, se você quiser. Um exemplo de um aplicativo cliente automatizado seria um aplicativo de gerenciamento de inventário programado para rotear itens de um tipo específico para destinatários padrão regularmente.
   
 ## <a name="see-also"></a>Confira também
 

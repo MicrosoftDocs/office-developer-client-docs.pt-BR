@@ -19,9 +19,9 @@ ms.locfileid: "33411012"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O código de exemplo a seguir mostra como criar uma restrição que filtra todas as mensagens que não contêm a palavra "Volleyball" na linha de assunto e não foram enviadas à Suzana do Sam. Uma árvore de estruturas [SRestriction](srestriction.md) é necessária, com o nó superior sendo uma restrição **e** implementada com uma estrutura [SAndRestriction](sandrestriction.md) . As três restrições Unidas pela operação **and** são uma restrição de subobjeto que procura mensagens enviadas à Suzana, uma restrição de conteúdo que procura mensagens de Sam e outra **e** restrição que procura por mensagens que têm um assunto contendo "Volleyball". Como **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) não é uma propriedade obrigatória, uma restrição **exist** deve ser incluída. 
+O código de exemplo a seguir mostra como criar uma restrição que filtra todas as mensagens que não contêm a palavra "edulário" na linha de assunto e não foram enviadas para Sue de Sam. Uma árvore de [estruturas SRestriction](srestriction.md) é necessária, com o nó superior sendo uma restrição **AND** implementada com uma [estrutura SAndRestriction.](sandrestriction.md) As três restrições ingressadas na operação **AND** são uma restrição de subobjeto que procura por mensagens enviadas para Sue, uma restrição de conteúdo que procura mensagens de Sam e outra restrição **AND** que procura por mensagens que tenham um assunto que contenha "insupo". Como **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) não é uma propriedade necessária, uma restrição **Exist** deve ser incluída. 
   
-Este código usa alocação dinâmica e inicialização; também é possível alocar e inicializar de forma estática. Com o intuito de concisão, a verificação de erros que deve ocorrer seguindo as chamadas de alocação não está incluída no exemplo. 
+Este código usa alocação dinâmica e inicialização; também é possível alocar e inicializar estaticamente. Para brevidade, a verificação de erros que deve ocorrer após as chamadas de alocação não está incluída no exemplo. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,

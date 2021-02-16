@@ -27,15 +27,15 @@ HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] S
 
 _userIds_
   
-> no Uma estrutura que especifica uma matriz de valores de ID de usuário que correspondem a um conjunto de pessoas na rede social.
+> [in] Uma estrutura que especifica uma matriz de valores de ID de usuário que correspondem a um conjunto de pessoas na rede social.
     
 _resultados_
   
-> bota Um ponteiro para estrutura que especifica uma matriz de valores Boolean, indicando se a pessoa correspondente na matriz _userids_ é um amigo. 
+> [out] Um ponteiro para a estrutura que especifica uma matriz de valores booleano, indicando se a pessoa correspondente na matriz  _userIds_ é um amigo. 
     
 ## <a name="remarks"></a>Comentários
 
-Para cada pessoa representada na matriz de entrada do parâmetro _userids_ , esse método define o elemento correspondente na matriz de saída do parâmetro _Results_ . **true** indica que a pessoa é um amigo e **false** indica que a pessoa não é um amigo. 
+Para cada pessoa representada na matriz de entrada do  _parâmetro userIds,_ esse método define o elemento correspondente na matriz de saída do parâmetro  _de_ resultados. **true** indica que a pessoa é um amigo, e **false** indica que a pessoa não é um amigo. 
   
 ## <a name="see-also"></a>Confira também
 

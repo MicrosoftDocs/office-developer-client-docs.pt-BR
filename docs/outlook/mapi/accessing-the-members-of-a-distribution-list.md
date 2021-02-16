@@ -1,5 +1,5 @@
 ---
-title: Acessar os membros de uma lista de distribuição
+title: Acessando os membros de uma lista de distribuição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412384"
 ---
-# <a name="accessing-the-members-of-a-distribution-list"></a>Acessar os membros de uma lista de distribuição
+# <a name="accessing-the-members-of-a-distribution-list"></a>Acessando os membros de uma lista de distribuição
 
   
   
@@ -23,11 +23,11 @@ ms.locfileid: "33412384"
   
  **Para obter os membros de uma lista de distribuição**
   
-1. Crie uma matriz de marca de propriedade dimensionada com as propriedades dos membros que você deseja recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e **PR_DISPLAY_TYPE** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+1. Crie uma matriz de marca de propriedade dimensionada com as propriedades dos membros que você gostaria de recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
-2. Chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md) para abrir a lista de distribuição. 
+2. Chame [IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir a lista de distribuição. 
     
-3. Chame o método **IABContainer::** getcontenttable da lista de distribuição para acessar sua tabela de conteúdo. 
+3. Chame o método **IABContainer::GetContentsTable** da lista de distribuição para acessar sua tabela de conteúdo. 
     
 4. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas da tabela que representam os membros da lista de distribuição. 
     

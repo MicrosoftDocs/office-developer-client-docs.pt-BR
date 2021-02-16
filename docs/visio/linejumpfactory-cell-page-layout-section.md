@@ -36,6 +36,6 @@ Para obter uma referência para a célula LineJumpFactorY pelo índice a partir 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOJumpFactorY** <br/> |
+|Índice de célula:  <br/> |**visPLOJumpFactorY** <br/> |
    
 

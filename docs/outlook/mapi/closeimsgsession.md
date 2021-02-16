@@ -25,11 +25,11 @@ ms.locfileid: "33412034"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fecha uma sessão de mensagem e todas as mensagens criadas nessa sessão. 
+Fecha uma sessão de mensagens e todas as mensagens criadas nessa sessão. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,7 +43,7 @@ VOID CloseIMsgSession(
 
  _lpMsgSess_
   
-> no Ponteiro para o objeto de sessão de mensagem obtido usando a função [OpenIMsgSession](openimsgsession.md) no início da sessão de mensagem. 
+> [in] Ponteiro para o objeto de sessão de mensagem obtido usando a [função OpenIMsgSession](openimsgsession.md) no início da sessão de mensagem. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -51,8 +51,8 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Uma sessão de mensagem é usada por aplicativos cliente e provedores de serviços que desejam lidar com vários objetos MAPI **IMessage** relacionados criados na parte superior dos objetos OLE **IStorage** subjacentes. O cliente ou provedor usa as funções [OpenIMsgSession](openimsgsession.md) e **CloseIMsgSession** para quebrar a criação dessas mensagens dentro de uma sessão de mensagem. Depois que a sessão de mensagem é aberta, o cliente ou o provedor passa um ponteiro para ele em uma chamada para [OpenIMsgOnIStg](openimsgonistg.md) para criar um novo objeto **IMessage**-on- **IStorage** . 
+Uma sessão de mensagem é usada por aplicativos cliente e provedores de serviços que querem lidar com vários objetos **IMessage MAPI** relacionados, construídos com base em objetos **OLE IStorage** subjacentes. O cliente ou provedor usa as funções [OpenIMsgSession](openimsgsession.md) e **CloseIMsgSession** para quebrar a criação dessas mensagens dentro de uma sessão de mensagem. Depois que a sessão de mensagem é aberta, o cliente ou provedor passa um ponteiro para ela em uma chamada para [OpenIMsgOnIStg](openimsgonistg.md) para criar um novo objeto **IMessage**-on-IStorage.  
   
-Uma sessão de mensagem mantém o controle de todos os objetos **IMessage**-on- **IStorage** abertos durante a duração da sessão, além de todos os anexos e outras propriedades das mensagens. Quando um cliente ou provedor chama **CloseIMsgSession**, ele fecha todos esses objetos. Chamar **CloseIMsgSession** é a única maneira de fechar os objetos **IMessage**-on- **IStorage** . 
+Uma sessão de mensagem mantém o controle de todos os objetos **IMessage** **-on-IStorage** abertos durante a sessão, além de todos os anexos e outras propriedades das mensagens. Quando um cliente ou provedor chama **CloseIMsgSession**, ele fecha todos esses objetos. Chamar **CloseIMsgSession** é a única maneira de fechar objetos **IMessage**-on-IStorage.  
   
 

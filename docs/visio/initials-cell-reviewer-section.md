@@ -22,20 +22,20 @@ Contém as iniciais do revisor de um documento.
   
 ## <a name="remarks"></a>Comentários
 
-Este valor assume como padrão as iniciais na caixa **iniciais** da guia **geral** da caixa de diálogo opções do **Visio** (clique na guia **arquivo** , em **Opções**e em **geral** ). 
+Esse valor assume como padrão as iniciais  na caixa Iniciais da guia Geral  da caixa de diálogo Opções do **Visio** (clique na guia Arquivo, em Opções e em  **Geral).** 
   
 Para fazer referência à célula Initials pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Reviewer. Initials [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Reviewer.Initials [  *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Initials pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionReviewer** <br/> |
-| Índice de linha:  <br/> |**visRowReviewer** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visReviewerInitials** <br/> |
+| Índice de linha:  <br/> |**visRowReviewer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visReviewerInitials** <br/> |
    
 

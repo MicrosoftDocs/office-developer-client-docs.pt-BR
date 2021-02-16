@@ -22,31 +22,31 @@ Retorna um valor numérico que representa a parte de data especificada da data e
   
 ## <a name="syntax"></a>Sintaxe
 
-**Datepart** (*Datepart*, *Data*) 
+**DatePart** (*DatePart*, *Date*) 
   
-A função **PartData** contém os seguintes argumentos. 
+A **função DatePart** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *DatePart*  <br/> |A parte da *Data* (um valor de data ou hora) para a qual um inteiro será retornado. Consulte a seção comentários para obter a lista de abreviações válidas.  <br/> |
-| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
+| *DatePart*  <br/> |A parte de  *Data*  (um valor de data ou hora) para a qual um inteiro será retornado. Consulte a seção Comentários para ver a lista de abreviaturas válidas.  <br/> |
+| *Date*  <br/> |Uma expressão que pode ser resolvida para um valor de Data/Hora. A  *expressão do argumento Date,*  a expressão de coluna, a variável definida pelo usuário ou a cadeia de caracteres literal.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A tabela a seguir lista todos os argumentos de *datepart* válidos. 
+A tabela a seguir lista todos os  *argumentos DatePart*  válidos. 
   
 |***DatePart***|
 |:-----|
-|**year** <br/> |
-|**trimestre** <br/> |
+|**ano** <br/> |
+|**quarter** <br/> |
 |**Mês** <br/> |
-|**DayOfYear** <br/> |
-|**day** <br/> |
-|**útil** <br/> |
-|**Weekday** <br/> |
-|**hora** <br/> |
-|**inclusões** <br/> |
-|**secundária** <br/> |
-|**milissegundo** <br/> |
+|**dayofyear** <br/> |
+|**dia** <br/> |
+|**semana** <br/> |
+|**weekday** <br/> |
+|**hour** <br/> |
+|**minuto** <br/> |
+|**segundo** <br/> |
+|**milissegundos** <br/> |
    
 

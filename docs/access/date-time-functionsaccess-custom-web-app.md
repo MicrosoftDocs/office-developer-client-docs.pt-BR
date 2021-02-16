@@ -29,13 +29,13 @@ ms.locfileid: "33411481"
     
 - [Função Day (aplicativo Web personalizado do Access)](day-function-access-custom-web-app.md)
     
-- [Função FIMMÊS (aplicativo Web personalizado do Access)](eomonth-function-access-custom-web-app.md)
+- [Função EOMonth (aplicativo Web personalizado do Access)](eomonth-function-access-custom-web-app.md)
     
-- [Função month (aplicativo Web personalizado do Access)](month-function-access-custom-web-app.md)
+- [Função Month (aplicativo Web personalizado do Access)](month-function-access-custom-web-app.md)
     
 - [Função Now (aplicativo Web personalizado do Access)](now-function-access-custom-web-app.md)
     
-- [Função hoje (aplicativo Web personalizado do Access)](today-function-access-custom-web-app.md)
+- [Função Hoje (aplicativo Web personalizado do Access)](today-function-access-custom-web-app.md)
     
 - [Função Year (aplicativo Web personalizado do Access)](year-function-access-custom-web-app.md)
     

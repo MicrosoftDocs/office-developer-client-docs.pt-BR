@@ -1,5 +1,5 @@
 ---
-title: Ação de macro Cancelaralteraçãoderegistro (aplicativo Web personalizado do Access)
+title: Ação de macro CancelarAlterarAlterar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411824"
 ---
-# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>Ação de macro Cancelaralteraçãoderegistro (aplicativo Web personalizado do Access)
+# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>Ação de macro CancelarAlterarAlterar (aplicativo Web personalizado do Access)
 
 Você pode usar a ação **CancelarAlteraçãodeRegistro** para cancelar alterações aplicadas a um registro em um bloco de dados **[CriarRegistro](createrecord-data-block-access-custom-web-app.md)** ou **[EditarRegistro](editrecord-data-block-access-custom-web-app.md)** antes que as alterações sejam submetidas. 
   

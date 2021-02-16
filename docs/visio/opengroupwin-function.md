@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251472
 localization_priority: Normal
 ms.assetid: 856ece39-18a4-766a-0dd9-7e888b8b78a5
-description: Abre o grupo na janela de grupo. Se o objeto não for um grupo, essa função não fará nada.
+description: Abre o grupo na janela do grupo. Se o objeto não for um grupo, essa função não faz nada.
 ms.openlocfilehash: 67d5f055408d5dd887a6bbf052b34726986a1220
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33412111"
 ---
 # <a name="opengroupwin-function"></a>Função OPENGROUPWIN
 
-Abre o grupo na janela de grupo. Se o objeto não for um grupo, essa função não fará nada.
+Abre o grupo na janela do grupo. Se o objeto não for um grupo, essa função não faz nada.
   
 ## <a name="syntax"></a>Sintaxe
 

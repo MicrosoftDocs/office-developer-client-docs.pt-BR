@@ -38,19 +38,19 @@ HRESULT ExpandRecips(
 
  _lpMessage_
   
-> no Um ponteiro para a mensagem que tem a lista de destinatários a ser processada.
+> [in] Um ponteiro para a mensagem que tem a lista de destinatários a ser processada.
     
  _lpulFlags_
   
-> bota Um ponteiro para uma bitmask de sinalizadores que controla o tipo de processamento que ocorre. Os seguintes sinalizadores podem ser definidos:
+> [out] Um ponteiro para uma máscara de bits de sinalizadores que controla o tipo de processamento que ocorre. Os sinalizadores a seguir podem ser definidos:
     
 NEEDS_PREPROCESSING 
   
-> A mensagem precisa ser preprocessada antes de ser enviada.
+> A mensagem precisa ser pré-processada antes de ser enviada.
     
 NEEDS_SPOOLER 
   
-> O spooler MAPI (em vez do provedor de transporte ao qual o chamador está rigidamente acoplado) deve enviar a mensagem.
+> O spooler MAPI (em vez do provedor de transporte ao qual o chamador está fortemente próximo) deve enviar a mensagem.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -60,23 +60,23 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: ExpandRecips** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam o **ExpandRecips** para solicitar MAPI para executar as seguintes tarefas: 
+O **método IMAPISupport::ExpandRecips** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens **chamam ExpandRecips** para solicitar que o MAPI execute as seguintes tarefas: 
   
-- Expanda determinadas listas de distribuição pessoais para seus destinatários do componente.
+- Expanda determinadas listas de distribuição pessoais para seus destinatários de componentes.
     
-- Substitua todos os nomes para exibição que foram alterados com os nomes originais.
+- Substitua todos os nomes de exibição que foram alterados com os nomes originais.
     
-- Marque as entradas duplicadas.
+- Marque qualquer entrada duplicada.
     
-- Resolva todos os endereços únicos. 
+- Resolver todos os endereços one-off. 
     
-- Verifique se a mensagem precisa de pré-processamento e, em caso afirmativo, defina o sinalizador apontado por _lpulFlags_ para NEEDS_PREPROCESSING. 
+- Verifique se a mensagem precisa de pré-processamento e, se precisar, defina o sinalizador apontado por  _lpulFlags_ como NEEDS_PREPROCESSING. 
     
- **ExpandRecips** expande qualquer lista de distribuição que tenha o tipo de endereço de mensagem de MAPIPDL. 
+ **ExpandRecips** expande todas as listas de distribuição que tenham o tipo de endereço de mensagens de MAPIPDL. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Sempre chame **ExpandRecips** como parte do seu processamento de mensagens. Faça uma chamada para **ExpandRecips** uma das primeiras chamadas em sua implementação do método [IMessage: SubmitMessage](imessage-submitmessage.md) . 
+Sempre chame **ExpandRecips** como parte do processamento de mensagens. Faça uma chamada para **ExpandRecips** uma das primeiras chamadas na implementação do método [IMessage::SubmitMessage.](imessage-submitmessage.md) 
   
 ## <a name="see-also"></a>Confira também
 

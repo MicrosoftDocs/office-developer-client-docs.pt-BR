@@ -43,7 +43,7 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> no Ponteiro para uma estrutura [SRowSet](srowset.md) identificando o conjunto de linhas a ser validado. Se o ponteiro for NULL, a estrutura é inválida. 
+> [in] Ponteiro para uma [estrutura SRowSet](srowset.md) identificando o conjunto de linhas a ser validado. Se o ponteiro for NULL, a estrutura será inválida. 
     
 ## <a name="return-value"></a>Valor de retorno
 

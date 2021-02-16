@@ -22,13 +22,13 @@ Determina o tamanho da ponta de seta no início da linha.
   
 |**Valor**|**Tamanho**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
-| 1  <br/> | Pequeno  <br/> |**visArrowSizeSmall** <br/> |
-| duas  <br/> | Média  <br/> |**visArrowSizeMedium** <br/> |
-| 3D  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
+| 0  <br/> | Muito pequeno  <br/> |**visArrowSizeVerySmall** <br/> |
+| 1   <br/> | Pequeno  <br/> |**visArrowSizeSmall** <br/> |
+| 2   <br/> | Média  <br/> |**visArrowSizeMedium** <br/> |
+| 3   <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
 | 4   <br/> | Muito grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5   <br/> | Empréstimo  <br/> |**visArrowSizeJumbo** <br/> |
-| 6   <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
+| 5   <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+| 6   <br/> | PauloA  <br/> |**visArrowSizeColssal** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

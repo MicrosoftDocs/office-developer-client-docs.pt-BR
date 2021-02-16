@@ -40,23 +40,23 @@ HRESULT CreateEntry(
 
  _cbEntryID_
   
-> no A contagem dos bytes no identificador de entrada apontados pelo parâmetro _lpEntryID_ . 
+> [in] A contagem dos bytes no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada de um modelo para a criação de novas entradas de um determinado tipo. 
+> [in] Um ponteiro para o identificador de entrada de um modelo para criar novas entradas de um tipo específico. 
     
  _ulCreateFlags_
   
-> no Uma bitmask de sinalizadores que controla como a criação de entrada é realizada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a criação de entrada é realizada. Os sinalizadores a seguir podem ser definidos:
     
 CREATE_CHECK_DUP_LOOSE 
   
-> Um nível flexível de verificação de entrada duplicada deve ser executado. A implementação da verificação de entrada duplicada resolta é específica do provedor. Por exemplo, um provedor pode definir uma correspondência frouxa como qualquer duas entradas com o mesmo nome de exibição.
+> Um nível solto de verificação de entrada duplicada deve ser executado. A implementação da verificação de entrada com duplicação livre é específica do provedor. Por exemplo, um provedor pode definir uma combinação livre como qualquer uma das duas entradas que tenham o mesmo nome de exibição.
     
 CREATE_CHECK_DUP_STRICT 
   
-> Um nível estrito de verificação de entrada duplicada deve ser executado. A implementação de verificação de entrada duplicada estrita é específica do provedor. Por exemplo, um provedor pode definir uma correspondência estrita como qualquer duas entradas que tenham o mesmo nome de exibição e endereço de mensagens.
+> Um nível estrito de verificação de entrada duplicada deve ser executado. A implementação da verificação de entrada duplicada estrita é específica do provedor. Por exemplo, um provedor pode definir uma combinação estrita como qualquer uma das duas entradas que tenham o mesmo nome de exibição e endereço de mensagens.
     
 CREATE_REPLACE 
   
@@ -64,7 +64,7 @@ CREATE_REPLACE
     
  _lppMAPIPropEntry_
   
-> bota Um ponteiro para um ponteiro para a entrada recém-criada.
+> [out] Um ponteiro para um ponteiro para a entrada recém-criada.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -74,35 +74,35 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IABContainer:: createentry** cria uma nova entrada de um tipo específico no contêiner especificado, retornando um ponteiro para uma implementação de interface para acesso adicional à entrada. A nova entrada é criada usando um modelo que foi selecionado na lista de modelos disponíveis do contêiner publicada em sua tabela única. Os chamadores acessam a tabela única de um contêiner chamando o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) e solicitando a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
+O **método IABContainer::CreateEntry** cria uma nova entrada de um tipo específico no contêiner especificado, retornando um ponteiro para uma implementação de interface para mais acesso à entrada. A nova entrada é criada usando um modelo que foi selecionado na lista de modelos disponíveis do contêiner publicada em sua tabela única. Os chamadores acessam a tabela única de um contêiner chamando seu método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) e solicitando a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Todos os contêineres compatíveis com o método **IABContainer:: createentry** devem ser modificáveis. Defina o sinalizador AB_MODIFIABLE de seu contêiner em sua propriedade **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que ele é modificável. 
+Todos os contêineres que suportam **o método IABContainer::CreateEntry** devem ser modificáveis. Defina o sinalizador de AB_MODIFIABLE contêiner em sua **propriedade PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que ele é modificável. 
   
-Você deve dar suporte a todos os sinalizadores _ulCreateFlags_ . No enTanto, a interpretação e o uso desses sinalizadores são específicos de implementação, ou seja, você pode determinar quais são as semânticas de CREATE_CHECK_DUP_LOOSE e CREATE_CHECK_DUP_STRICT no contexto da sua implementação. Se você não puder ou não determinar se uma entrada é uma duplicata, sempre permita que a entrada seja criada. 
+Você deve dar suporte a todos os _sinalizadores ulCreateFlags._ No entanto, a interpretação e o uso desses sinalizadores são específicos de implementação— ou seja, você pode determinar o que a semântica de CREATE_CHECK_DUP_LOOSE e CREATE_CHECK_DUP_STRICT significa no contexto de sua implementação. Se você não puder ou não determinar se uma entrada é uma duplicata, sempre permita que a entrada seja criada. 
   
-Alguns provedores implementam a verificação de entrada estrita, combinando o nome para exibição, o endereço de mensagens e a chave de pesquisa em uma entrada; outros provedores limitam a correspondência para exibir o nome e o endereço. A verificação de entrada flexível geralmente é implementada verificando apenas o nome de exibição. 
+Alguns provedores implementam verificação estrita de entrada, correspondendo ao nome para exibição, endereço de mensagens e chave de pesquisa em uma entrada; outros provedores limitam a corresponder ao nome de exibição e ao endereço. A verificação de entrada solta geralmente é implementada verificando apenas o nome de exibição. 
   
-## <a name="notes-to-host-address-book-provider-implementers"></a>Observações para implementadores do provedor de catálogo de endereços do host
+## <a name="notes-to-host-address-book-provider-implementers"></a>Observações para implementadores do provedor de agendamento de endereço de host
 
-Se o seu contêiner pode criar entradas dos modelos de outros provedores, sua implementação de **createentry** deve fornecer armazenamento para algumas ou todas as propriedades associadas às entradas criadas. Por exemplo, se você fornecer armazenamento para a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) de uma entrada, poderá gerar sua caixa de diálogo detalhes sem precisar depender do provedor estrangeiro. 
+Se o contêiner puder criar entradas a partir dos modelos de outros provedores, sua implementação de **CreateEntry** deverá fornecer armazenamento para algumas ou todas as propriedades associadas às entradas criadas. Por exemplo, se você fornecer armazenamento para a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) de uma entrada, poderá gerar sua caixa de diálogo de detalhes sem precisar depender do provedor estrangeiro. 
   
-Se o seu contêiner pode criar entradas que suportam a propriedade **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)), sua implementação de createentry deve fazer o seguinte: **** 
+Se o contêiner puder criar entradas que deem suporte **à PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)), sua implementação de **CreateEntry** deverá fazer o seguinte: 
   
-1. Chame o método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) . **OpenTemplateID** habilita o código do provedor estrangeiro para a entrada vincular à nova entrada que está sendo criada. Os provedores estrangeiros dão suporte a esse processo de associação para manter o controle sobre as entradas criadas de seus modelos nos contêineres de provedores de catálogo de endereços de host. 
+1. Chame o [método IMAPISupport::OpenTemplateID.](imapisupport-opentemplateid.md) **OpenTemplateID** permite que o código do provedor externo para a entrada se a bind à nova entrada que está sendo criada. Provedores externos suportam esse processo de associação para manter o controle sobre entradas criadas a partir de seus modelos para os contêineres de provedores de agendamento de endereço host. 
     
-2. Execute qualquer inicialização necessária e preencha o novo objeto com todas as propriedades da entrada no provedor estrangeiro que o objeto retornou no parâmetro _lppMAPIPropNew_ de **OpenTemplateID**.
+2. Execute qualquer inicialização necessária e preencha o novo objeto com todas as propriedades da entrada no provedor estrangeiro que o objeto retornou no parâmetro  _lppMAPIPropNew_ de **OpenTemplateID**.
     
-Se o **OpenTemplateID** tiver êxito, copie as propriedades para a implementação indicada pelo parâmetro _lppMAPIPropNew_ , em vez de diretamente na implementação indicada pelo parâmetro _lpMAPIPropData_ . Inicialize a nova entrada para uso offline como faria com qualquer outra entrada de um provedor estrangeiro. 
+Se **OpenTemplateID** for bem-sucedido, copie as propriedades para a implementação apontada pelo parâmetro _lppMAPIPropNew_ em vez de diretamente para a implementação apontada pelo parâmetro _lpMAPIPropData._ Inicialize a nova entrada para uso offline como faria com qualquer outra entrada de um provedor estrangeiro. 
   
-Se **OpenTemplateID** retornar um erro, **createentry** deverá falhar. Não permite que a entrada seja criada. Como o provedor estrangeiro pode fazer suposições sobre os dados no seu provedor, não crie uma entrada com um identificador de modelo que não tenha sido vinculado com êxito ao provedor estrangeiro. 
+Se **OpenTemplateID** retornar um erro, **CreateEntry** deve falhar. Não permitir que a entrada seja criada. Como o provedor externo pode fazer suposições sobre os dados em seu provedor, não crie uma entrada com um identificador de modelo que não tenha sido vinculado com êxito ao provedor estrangeiro. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Quando **createentry** retornar, você poderá ou não conseguir acessar imediatamente o identificador de entrada para a nova entrada. Alguns provedores do catálogo de endereços não o disponibilizam até depois de chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da nova entrada. 
+Quando **CreateEntry** retorna, você pode ou não ser capaz de acessar imediatamente o identificador de entrada para a nova entrada. Alguns provedores de agendas não o disponibilizam até que você tenha chamado o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da nova entrada. 
   
-Embora os sinalizadores de verificação duplicados sejam passados **** como parâmetros para createentry, a operação de verificação de duplicatas não ocorre até que **SaveChanges** seja chamado. Portanto, erros relacionados como MAPI_E_COLLISION, que indicam que uma tentativa foi feita para criar uma entrada já existente, são retornados por **SaveChanges** , e não **** por createentry.
+Embora sinalizadores de verificação duplicados sejam passados como parâmetros para **CreateEntry**, a operação de verificação duplicada não ocorrerá **até que SaveChanges** seja chamado. Portanto, erros relacionados, como MAPI_E_COLLISION, que indica que foi feita uma tentativa de criar uma entrada já existente, são retornados por **SaveChanges** em vez de **CreateEntry**.
   
 ## <a name="see-also"></a>Confira também
 

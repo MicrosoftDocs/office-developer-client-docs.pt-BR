@@ -1,5 +1,5 @@
 ---
-title: Função month (aplicativo Web personalizado do Access)
+title: Função Month (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411488"
 ---
-# <a name="month-function-access-custom-web-app"></a>Função month (aplicativo Web personalizado do Access)
+# <a name="month-function-access-custom-web-app"></a>Função Month (aplicativo Web personalizado do Access)
 
 Retorna um inteiro que representa o mês da data especificada.
   
@@ -25,16 +25,16 @@ Retorna um inteiro que representa o mês da data especificada.
 
  **Mês** (*Data*) 
   
-A função **month** contém o argumento a seguir. 
+A **função Month** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora.  <br/> |
+| *Date*  <br/> |Uma expressão que pode ser resolvida para um valor de Data/Hora.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
- **Month** retorna o mesmo valor que **datepart** (mês, Data). 
+ **Month** retorna o mesmo valor que **DatePart** (mês, data). 
   
-Se *Date* contiver apenas uma parte de hora, o valor de retorno será 1, o mês base. 
+Se  *Data*  contiver apenas uma parte de hora, o valor de retorno será 1, o mês base. 
   
 

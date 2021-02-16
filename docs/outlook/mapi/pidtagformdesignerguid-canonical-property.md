@@ -25,7 +25,7 @@ ms.locfileid: "33412237"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador exclusivo do objeto que é usado para criar um formulário.
+Contém o identificador exclusivo do objeto usado para criar um formulário.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o identificador exclusivo do objeto que é usado para criar um formulár
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade normalmente contém o identificador global exclusivo (GUID) do programa de design que é usado para criar o formulário. Essa propriedade pode estar vazia. 
+Essa propriedade geralmente contém o identificador global exclusivo (GUID) do programa de design usado para criar o formulário. Essa propriedade pode estar vazia. 
   
-A estrutura [MAPIUID](mapiuid.md) contém a definição do identificador exclusivo. 
+A [estrutura MAPIUID](mapiuid.md) contém a definição do identificador exclusivo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

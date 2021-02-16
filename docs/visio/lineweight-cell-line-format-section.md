@@ -24,7 +24,7 @@ Determina a espessura da linha de uma forma. Defina a espessura inserindo um nú
 
 Você também pode definir o valor da célula LineWeight na caixa de diálogo **Linha** (na guia **Página Inicial**, no grupo **Forma**, clique em **Linha**, aponte para **Espessura** e clique em **Mais Linhas**).
   
-Se a unidade de medida não for inserida, a unidade de medida do texto especificado na caixa de diálogo **Opções do Visio** será usada (clique na guia **arquivo** e em **Opções**). A espessura da linha não depende da escala do desenho. Se o desenho estiver dimensionado, a espessura será a mesma. 
+Se a unidade de medida não for inserida, a unidade de medida do texto especificado  na caixa de diálogo Opções do **Visio** será usada (clique na guia Arquivo e em **Opções).** A espessura da linha não depende da escala do desenho. Se o desenho estiver dimensionado, a espessura será a mesma. 
   
 Para fazer referência à célula IsDropSource pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

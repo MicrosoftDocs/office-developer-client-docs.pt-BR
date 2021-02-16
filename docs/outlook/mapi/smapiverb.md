@@ -29,7 +29,7 @@ Descreve um verbo MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,11 +47,11 @@ typedef struct
 
  **lVerb**
   
-> Código que representa o verbo que é passado para [IMAPIForm::D overb](imapiform-doverb.md). Os verbos padrão são definidos no arquivo de cabeçalho Exchform. h.
+> Código que representa o verbo que é passado para [IMAPIForm::D oVerb](imapiform-doverb.md). Os verbos padrão são definidos no arquivo de header Exchform.h.
     
  **szVerbname**
   
-> Exibe o nome do verbo como ele aparece no menu formulário.
+> Exibe o nome do verbo como ele aparece no menu de formulário.
     
  **fuFlags**
   
@@ -63,15 +63,15 @@ typedef struct
     
  **ulFlags**
   
-> Sinalizador que indica o formato do nome de exibição do verbo. O seguinte sinalizador pode ser definido:
+> Sinalizador indicando o formato do nome de exibição do verbo. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> O nome para exibição está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome de exibição estará no formato ANSI.
+> O nome de exibição está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o nome de exibição está no formato ANSI.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SMAPIVerb** é passada como um parâmetro nos seguintes métodos: 
+A **estrutura SMAPIVerb** é passada como um parâmetro nos seguintes métodos: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

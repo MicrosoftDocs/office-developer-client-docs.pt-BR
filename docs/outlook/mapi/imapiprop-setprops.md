@@ -39,15 +39,15 @@ HRESULT SetProps(
 
  _cValues_
   
-> no A contagem de valores de propriedade apontados pelo parâmetro _lpPropArray_ . O parâmetro _cValues_ não deve ser 0. 
+> [in] A contagem de valores de propriedade apontados pelo _parâmetro lpPropArray._ O  _parâmetro cValues_ não deve ser 0. 
     
  _lpPropArray_
   
-> no Um ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que contêm valores de propriedade a serem atualizados. 
+> [in] Um ponteiro para uma matriz de [estruturas SPropValue](spropvalue.md) que contêm valores de propriedade a serem atualizados. 
     
  _lppProblems_
   
-> [in, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; caso contrário, NULL, indicando que não há necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **** SetProps retornará informações detalhadas sobre erros na atualização de uma ou mais propriedades. 
+> [in, out] Na entrada, um ponteiro para um ponteiro para uma [estrutura SPropProblemArray;](spropproblemarray.md) caso contrário, NULL, indicando que não há necessidade de informações de erro. Se  _lppProblems_ for um ponteiro válido na entrada, **SetProps** retornará informações detalhadas sobre erros na atualização de uma ou mais propriedades. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -55,11 +55,11 @@ S_OK
   
 > As propriedades foram atualizadas com êxito.
     
-Os valores a seguir podem ser retornados na estrutura **SPropProblemArray** , mas não como valores de retorno **** para SetProps:
+Os seguintes valores podem ser retornados na **estrutura SPropProblemArray,** mas não como valores de retorno **para SetProps**:
   
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 MAPI_E_COMPUTED 
   
@@ -71,37 +71,37 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_NO_ACCESS 
   
-> Foi feita uma tentativa de modificar um objeto somente leitura ou para acessar um objeto para o qual o usuário tem permissões insuficientes.
+> Foi feita uma tentativa de modificar um objeto somente leitura ou acessar um objeto para o qual o usuário tem permissões insuficientes.
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> A propriedade não pode ser atualizada porque é maior do que o tamanho do buffer RPC (chamada de procedimento remoto).
+> A propriedade não pode ser atualizada porque é maior do que o tamanho do buffer de chamada de procedimento remoto (RPC).
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> O tipo de propriedade não é o tipo esperado pela implementação de chamada.
+> O tipo de propriedade não é o tipo esperado pela implementação da chamada.
     
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Ignorar a marca de propriedade **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) e todas as propriedades com um tipo de **PT_ERROR**. Não fazer alterações ou relatar problemas na estrutura **SPropProblemArray** . 
+Ignore a **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) e todas as propriedades com um tipo de **PT_ERROR**. Não faça alterações ou reporte problemas na **estrutura SPropProblemArray.** 
   
-Retornar MAPI_E_INVALID_PARAMETER se uma propriedade do tipo **PT_OBJECT** estiver incluída na matriz de valor da propriedade. Também retorna esse erro se uma propriedade de vários valores estiver incluída na matriz e seu membro **cValues** estiver definido como 0. 
+Retornar MAPI_E_INVALID_PARAMETER se uma propriedade do tipo **PT_OBJECT** for incluída na matriz de valores de propriedade. Também retornará esse erro se uma propriedade de vários valores estiver incluída na matriz e seu membro **cValues** estiver definido como 0. 
   
-Se a chamada tiver êxito geral, mas houver problemas com a definição de algumas das propriedades, retorne S_OK e coloque informações sobre os problemas na entrada apropriada da estrutura **SPropProblemArray** à qual o parâmetro _lppProblems_ aponta. 
+Se a chamada for bem-sucedida em geral, mas houver problemas com a definição de algumas das propriedades, retorne S_OK e coloque informações sobre os problemas na entrada apropriada da estrutura **SPropProblemArray** para a que o parâmetro  _lppProblems_ aponta. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Dependendo do provedor de serviços, você também pode ser capaz de alterar o tipo de propriedade passando uma marca de propriedade que contenha um tipo diferente do que foi usado anteriormente com um determinado identificador de propriedade.
+Dependendo do provedor de serviços, você também pode alterar o tipo de propriedade passando uma marca de propriedade que contém um tipo diferente do usado anteriormente com um determinado identificador de propriedade.
   
-Se você incluir uma marca de propriedade para uma propriedade que não é suportada pelo objeto e a implementação **** de SetProps permitirá a criação de novas propriedades, a propriedade será adicionada ao objeto. Qualquer valor anterior armazenado com o identificador de propriedade que foi usado para a nova propriedade é Descartado. 
+Se você incluir uma marca de propriedade para uma propriedade sem suporte pelo objeto e a implementação de **SetProps** permitir a criação de novas propriedades, a propriedade será adicionada ao objeto. Qualquer valor anterior armazenado com o identificador de propriedade que foi usado para a nova propriedade é descartado. 
   
-Observe que o valor de retorno de S_OK não garante que todas as propriedades foram atualizadas com êxito. Algumas chamadas de **** cache de provedores do SetProps até receber uma chamada que requer intervenção do provedor, como [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) ou [IMAPIProp::](imapiprop-getprops.md)GetProps. Portanto, é possível receber valores de erro relacionados à chamada setProps com as chamadas posteriores. **** 
+Observe que o S_OK de retorno não garante que todas as propriedades foram atualizadas com êxito. Alguns provedores armazenam em cache chamadas **SetProps** até receberem uma chamada que exija intervenção do provedor, como [IMAPIProp::SaveChanges](imapiprop-savechanges.md) ou [IMAPIProp::GetProps](imapiprop-getprops.md). Portanto, é possível receber valores de erro relacionados à chamada **SetProps** com as chamadas posteriores. 
   
-Se **** SetProps retornar S_OK, verifique a estrutura **SPropProblemArray** indicada por _lppProblems_ para problemas de atualização de propriedades individuais. Se **** SetProps retornar um erro, não verifique a matriz do problema da propriedade. Em vez disso, chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . 
+Se **SetProps** retornar S_OK, verifique a estrutura **SPropProblemArray** apontada por  _lppProblems_ para problemas de atualização de propriedades individuais. Se **SetProps** retornar um erro, não verifique a matriz do problema de propriedade. Em vez disso, chame o método [IMAPIProp::GetLastError do](imapiprop-getlasterror.md) objeto. 
   
-Ao atualizar as propriedades grandes **** , SetProps pode falhar e retornar MAPI_E_NOT_ENOUGH_MEMORY. Não há um tamanho máximo para as propriedades, e diferentes objetos podem ter diferentes limites. Se você lidar com propriedades possivelmente grandes, esteja preparado para chamar o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) com IID_IStream como o identificador de interface se SetProps retornar esse valor de erro. **** 
+Ao atualizar propriedades grandes, **SetProps** pode falhar e retornar MAPI_E_NOT_ENOUGH_MEMORY. Não há um tamanho máximo para propriedades, e objetos diferentes podem ter limites diferentes. Se você lidar com propriedades potencialmente grandes, esteja preparado para chamar o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) com IID_IStream como o identificador de interface se **SetProps** retornar esse valor de erro. 
   
-Chame a função [MAPIFreeBuffer](mapifreebuffer.md) para liberar a estrutura **SPropProblemArray** . 
+Chame a [função MAPIFreeBuffer](mapifreebuffer.md) para liberar **a estrutura SPropProblemArray.** 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -109,7 +109,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|PropertyEditor. cpp  <br/> |CPropertyEditor:: WriteSPropValueToObject  <br/> |MFCMAPI usa o método **IMAPIProp::** SetProps para gravar uma propriedade novamente em um objeto após a propriedade ter sido editada.  <br/> |
+|PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |MFCMAPI usa o **método IMAPIProp::SetProps** para gravar uma propriedade de volta em um objeto após a propriedade ter sido editada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

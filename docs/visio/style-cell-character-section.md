@@ -20,10 +20,10 @@ ms.locfileid: "33411425"
 
 Mostra a formatação de caracteres aplicada a um intervalo de texto no bloco de texto da forma.
   
-|**Style**|**Valor**|**Constante de automação**|
+|**Estilo**|**Valor**|**Constante de automação**|
 |:-----|:-----|:-----|
-| Negrito  <br/> | &amp;Semestre  <br/> |**visBold** <br/> |
-| Itálico  <br/> | &amp;S2  <br/> |**visItalic** <br/> |
+| Negrito  <br/> | &amp;H1  <br/> |**visBold** <br/> |
+| Itálico  <br/> | &amp;H2  <br/> |**visItalic** <br/> |
 | Sublinhado  <br/> | &amp;H4  <br/> |**visUnderLine** <br/> |
 | Caixa alta  <br/> | &amp;H8  <br/> |**visSmallCaps** <br/> |
    
@@ -31,27 +31,27 @@ Mostra a formatação de caracteres aplicada a um intervalo de texto no bloco de
 
 A célula Style conterá informações de formatação aplicada a um subintervalo de texto de uma forma se a seção Characters contiver diversas linhas. Caso contrário, ela conterá informações de formatação para todo o texto da forma.
   
-O valor representa um número binário no qual cada bit indica um estilo de caractere. Por exemplo, um valor de 3 representa o texto formatado em itálico e negrito. Se o valor da célula Style for 0, o texto não terá formatação. Você pode testar um formato específico usando funções de BIT\* Boolean. Consulte a documentação de programação para obter detalhes sobre essas funções.
+O valor representa um número binário no qual cada bit indica um estilo de caractere. Por exemplo, um valor de 3 representa o texto formatado em itálico e negrito. Se o valor da célula Style for 0, o texto não terá formatação. Você pode testar um formato específico usando funções BIT \* booleanas. Consulte a documentação de programação para obter detalhes sobre essas funções.
   
 Para fazer referência à célula Style pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char. Style [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char.Style[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Style pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-| Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCharacterStyle** <br/> |
+| Índice de linha:  <br/> |**visRowCharacter** +  *i*            onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCharacterStyle** <br/> |
    
  *Exemplo* 
   
 Suponha que a célula Color na primeira linha da seção Character de uma forma esteja definida para esta fórmula:
   
-= SE (BITAND (Char. Style, 1) = 1, 4, 3)
+= IF(BITAND(Char.Style,1)=1,4,3)
   
 Então, se o primeiro caractere do texto da forma for negrito, o texto abrangido pela primeira linha de propriedades da seção Character será azul (4); caso contrário, ele será verde (3). Esse exemplo supõe que as cores padrão estejam sendo usadas.
   

@@ -1,5 +1,5 @@
 ---
-title: Função replicar (aplicativo Web personalizado do Access)
+title: Função Replicar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411061"
 ---
-# <a name="replicate-function-access-custom-web-app"></a>Função replicar (aplicativo Web personalizado do Access)
+# <a name="replicate-function-access-custom-web-app"></a>Função Replicar (aplicativo Web personalizado do Access)
 
 Repete um valor de texto um número especificado de vezes.
   
@@ -23,13 +23,13 @@ Repete um valor de texto um número especificado de vezes.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Replicar** (*Texté*, *NumberOfTimes*) 
+ **Replicate** (*TextExpression*, *NumberOfTimes*) 
   
-A **** função replicate contém os seguintes argumentos. 
+A **função** Replicar contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
-| *NumberOfTimes*  <br/> |Um inteiro que especifica o número de vezes que o *texto* é repetido.  <br/> |
+| *NumberOfTimes*  <br/> |Um inteiro que especifica o número de vezes para repetir  *o TextExpression*  .  <br/> |
    
 

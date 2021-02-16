@@ -21,6 +21,6 @@ ms.locfileid: "33411607"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [+ (Operador de concatenação de cadeia de caracteres) (aplicativo Web personalizado do Access)](plusstring-concatenation-operatoraccess-custom-web-app.md)
+- [+ (Operador de Concatenação de Cadeia de Caracteres) (aplicativo Web personalizado do Access)](plusstring-concatenation-operatoraccess-custom-web-app.md)
     
 

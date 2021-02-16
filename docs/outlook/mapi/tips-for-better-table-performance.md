@@ -21,29 +21,29 @@ ms.locfileid: "33412510"
   
 Como muitas das operações de tabela podem ser demoradas e não há como indicar o progresso, é útil usar as seguintes técnicas para melhorar o desempenho:
   
-- **Tornar [IMAPITable:](imapitableiunknown.md) as chamadas IUnknown na ordem correta**
+- **Fazer [chamadas IMAPITable : IUnknown](imapitableiunknown.md) na ordem correta**
     
-   Os clientes e provedores de serviços podem trabalhar com tabelas de várias maneiras. Eles podem abrir a tabela e recuperar os dados de todas as linhas usando o conjunto de colunas padrão e a ordem de classificação. Como alternativa, eles podem modificar esse modo de exibição padrão da tabela alterando o conjunto de colunas, alterando a ordem de classificação ou estabelecendo uma restrição para restringir o escopo da tabela. Os usuários de tabela que pretendem executar uma ou mais dessas operações antes de recuperar quaisquer dados devem executá-los na seguinte ordem:
+   Clientes e provedores de serviços podem trabalhar com tabelas de várias maneiras. Eles podem abrir a tabela e recuperar os dados de todas as linhas usando o conjunto de colunas padrão e a ordem de classificação. Como alternativa, eles podem modificar esse modo de exibição padrão da tabela alterando o conjunto de colunas, alterando a ordem de classificação ou estabelecendo uma restrição para restringir o escopo da tabela. Os usuários de tabela que pretendem executar uma ou mais dessas operações antes de recuperar dados devem es performá-los na seguinte ordem:
     
-    1. Defina um conjunto de colunas com imApitable [::](imapitable-setcolumns.md)SetColumns.
+    1. Defina um conjunto de colunas [com IMAPITable::SetColumns](imapitable-setcolumns.md).
         
-    2. Estabeleça uma restrição com [IMAPITable:: Restrict](imapitable-restrict.md).
+    2. Estabeleça uma [restrição com IMAPITable::Restrict](imapitable-restrict.md).
         
-    3. Definir uma ordem de classificação com imApitable [:: SortTable](imapitable-sorttable.md).
+    3. Defina uma ordem de classificação com [IMAPITable::SortTable](imapitable-sorttable.md).
     
-    A execução dessas tarefas nesta ordem limita o número de linhas e colunas que serão classificadas, melhorando assim o desempenho.
+    A execução dessas tarefas nesta ordem limita o número de linhas e colunas que serão ordenadas, melhorando assim o desempenho.
     
-- **Retardar uma operação usando o sinalizador TBL_BATCH, se possível**
+- **Atrasar uma operação usando o sinalizador de TBL_BATCH, se possível**
     
-    Definir o sinalizador\_de lote tbl em um método permite que o implementador de tabelas colete várias chamadas antes de agir em qualquer uma delas. Em vez de fazer muitas chamadas para um servidor remoto; um implementador de tabela pode fazer um, realizando todas as operações de uma só vez. Os resultados das operações não são avaliados até que sejam necessários. 
+    Definir o sinalizador BATCH TBL em um método permite que o implementador de tabela colete várias chamadas antes de \_ agir em qualquer uma delas. Em vez de fazer potencialmente muitas chamadas para um servidor remoto; um implementador de tabela pode fazer uma, executando todas as operações de uma só vez. Os resultados das operações não são avaliados até que sejam necessários. 
     
-    Por exemplo, quando um cliente chama [IMAPITable:: Restrict](imapitable-restrict.md) para especificar uma restrição\_com o sinalizador de lote tbl definido, a restrição não precisa entrar em vigor até que o cliente chame IMAPITable [:: QueryRows](imapitable-queryrows.md) para recuperar os dados. Isso permite que o implementador de tabela Combine o trabalho de duas chamadas em uma. Os usuários de tabela que aproveitam o\_sinalizador de lote tbl devem estar cientes de que o tratamento de erros nessas condições pode ser mais complexo. 
+    Por exemplo, quando um cliente chama [IMAPITable::Restrict](imapitable-restrict.md) para especificar uma restrição com o sinalizador BATCH TBL definido, a restrição não precisa entrar em vigor até que o cliente chama \_ [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar os dados. Isso permite que o implementador de tabela combine o trabalho de duas chamadas em uma. Os usuários de tabela que aproveitam o sinalizador batch TBL devem estar cientes de que o tratamento de erros \_ sob essas condições pode ser mais complexo. 
     
-    Como manipular os erros de uma operação atrasada é semelhante a lidar com os erros quando o\_sinalizador MAPI DEFERRED_ERRORS é definido, confira a [referência de erros MAPI](deferring-mapi-errors.md) para obter mais informações. 
+    Como a manipulação dos erros de uma operação atrasada é semelhante a lidar com os erros quando o sinalizador mapi DEFERRED_ERRORS está definido, consulte Adiar erros mapi para obter \_ mais informações. [](deferring-mapi-errors.md) 
     
 - **Manter um cache de propriedades comumente usadas**
     
-    Os provedores de serviços que implementam tabelas podem reduzir o tempo de criação de um modo de exibição por meio de cache de cópias de propriedades de objeto comumente usadas. Manter uma cópia dessas propriedades na memória salva ter que recuperá-las do objeto cada vez que o modo de exibição deve ser recriado.
+    Os provedores de serviços que implementam tabelas podem diminuir o tempo necessário para criar uma exibição armazenando cópias em cache das propriedades de objeto comumente usadas. Manter uma cópia dessas propriedades na memória economiza ter que recuperá-las do objeto sempre que o ponto de vista precisar ser reconstruído.
     
 ## <a name="see-also"></a>Confira também
 

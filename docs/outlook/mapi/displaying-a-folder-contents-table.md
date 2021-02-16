@@ -19,26 +19,26 @@ ms.locfileid: "33412391"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A tabela de conteúdo de uma pasta contém informações resumidas sobre todas as suas mensagens. Informações de resumo sobre novas mensagens de entrada são exibidas na tabela de conteúdo da pasta de recebimento da classe de mensagem. Para disponibilizar essas informações aos usuários, recupere a tabela e exiba as colunas e linhas conforme apropriado.
+O sumário de uma pasta contém informações resumidas sobre todas as suas mensagens. Informações de resumo sobre novas mensagens de entrada são exibidas no sumário da pasta de recebimento da classe de mensagem. Para disponibilizar essas informações aos usuários, recupere a tabela e exibe as colunas e linhas conforme apropriado.
   
-**Para exibir uma tabela de conteúdo da pasta**
+**Para exibir uma tabela de conteúdo de pasta**
   
-1. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md), passando o identificador de entrada da pasta que contém a tabela.
+1. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md), passando o identificador de entrada da pasta que contém a tabela.
     
-2. Chame o método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable da pasta para abrir sua tabela de conteúdo. 
+2. Chame o método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) da pasta para abrir sua tabela de conteúdo. 
     
-3. Limite o modo de exibição da tabela de conteúdo se quiser chamar o método [IMAPITable::](imapitable-setcolumns.md) SetColumns para especificar colunas específicas. 
+3. Limite seu modo de exibição da tabela de conteúdo, se desejado, chamando o método [IMAPITable::SetColumns](imapitable-setcolumns.md) da tabela para especificar colunas específicas. 
     
-4. Limite a exibição da tabela de conteúdo, se desejado, chamando o método [IMAPITable:: Restrict](imapitable-restrict.md) da tabela para filtrar linhas específicas. Se, por exemplo, você quiser mostrar apenas as mensagens com uma classe de mensagem específica que ainda devem ser lidas: 
+4. Limite seu modo de exibição da tabela de conteúdo, se desejado, chamando o método [IMAPITable::Restrict](imapitable-restrict.md) da tabela para filtrar linhas específicas. Se, por exemplo, você quiser mostrar apenas mensagens com uma classe de mensagem específica que ainda precisa ser lida: 
     
-    1. Crie uma restrição de propriedade em uma estrutura [SPropertyRestriction](spropertyrestriction.md) que coincida com a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) com a classe de mensagem desejada. 
+    1. Crie uma restrição de propriedade em uma estrutura [SPropertyRestriction](spropertyrestriction.md) que corresponde à propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) com a classe de mensagem desejada. 
         
-    2. Crie uma restrição de bitmask em uma estrutura [SBitMaskRestriction](sbitmaskrestriction.md) que usa **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como a marca de propriedade e o valor de MSGFLAG_UNREAD como máscara.
+    2. Crie uma restrição de bitmask em uma estrutura [SBitMaskRestriction](sbitmaskrestriction.md) que usa **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como a marca de propriedade e o valor MSGFLAG_UNREAD como a máscara.
         
-    3. Criar uma restrição em uma estrutura [SAndRestriction](sandrestriction.md) que une as restrições de propriedade e bitmask. 
+    3. Crie uma restrição em uma [estrutura SAndRestriction](sandrestriction.md) que une as restrições de propriedade e bitmask. 
     
-5. Classifique a tabela de conteúdo se desejar chamando o método imApitable [:: SortTable](imapitable-sorttable.md) da tabela. 
+5. Classificar a tabela de conteúdo, se desejado, chamando o [método IMAPITable::SortTable da](imapitable-sorttable.md) tabela. 
     
-6. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela de conteúdo para processamento. 
+6. Chame [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela de conteúdo para processamento. 
     
 

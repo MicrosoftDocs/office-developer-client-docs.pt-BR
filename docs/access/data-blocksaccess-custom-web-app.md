@@ -20,12 +20,12 @@ ms.locfileid: "33411327"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Bloco de dados CriarRegistro (aplicativo Web personalizado do Access)](createrecord-data-block-access-custom-web-app.md)
+- [Bloco de Dados CriarRegiscord (aplicativo Web personalizado do Access)](createrecord-data-block-access-custom-web-app.md)
     
-- [Bloco de dados Editarregistro (aplicativo Web personalizado do Access)](editrecord-data-block-access-custom-web-app.md)
+- [Bloco de Dados EditarRegiscord (aplicativo Web personalizado do Access)](editrecord-data-block-access-custom-web-app.md)
     
-- [Bloco de dados ParaCadaRegistro (aplicativo Web personalizado do Access)](foreachrecord-data-block-access-custom-web-app.md)
+- [Bloco de dados ForEachRecord (aplicativo Web personalizado do Access)](foreachrecord-data-block-access-custom-web-app.md)
     
-- [Bloco de dados Pesquisarregistro (aplicativo Web personalizado do Access)](lookuprecord-data-block-access-custom-web-app.md)
+- [Bloco de dados LookupRecord (aplicativo Web personalizado do Access)](lookuprecord-data-block-access-custom-web-app.md)
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33410858"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta propriedade contém o tipo de um destinatário de mensagem para uso em um relatório.
+Essa propriedade contém o tipo de um destinatário de mensagem para uso em um relatório.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Esta propriedade contém o tipo de um destinatário de mensagem para uso em um r
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -29,7 +29,7 @@ Converte um número binário em uma representação de cadeia de caracteres de u
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,15 +45,15 @@ void HexFromBin(
 
  _pb_
   
-> no Ponteiro para os dados binários a serem convertidos. 
+> [in] Ponteiro para os dados binários a serem convertidos. 
     
  _cb_
   
-> no Tamanho, em bytes, dos dados binários apontados pelo parâmetro _PB_ . 
+> [in] Tamanho, em bytes, dos dados binários apontados pelo _parâmetro pb._ 
     
- _v_
+ _sz_
   
-> bota Ponteiro para uma cadeia de caracteres ASCII terminada em nulo que representa os dados binários em dígitos hexadecimais.
+> [out] Ponteiro para uma cadeia de caracteres ASCII terminada em nulo representando os dados binários em dígitos hexadecimais.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -61,6 +61,6 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A função **HexFromBin** usa um ponteiro para uma unidade de dados binários cujo tamanho é indicado pelo parâmetro _CB_ . Ele retorna na cadeia de caracteres _sz_ , dentro (2 * _CB_) + 1 bytes de memória, uma representação dessas informações binárias em números hexadecimais. Se o valor de byte for Decimal 10, por exemplo, a cadeia de caracteres hexadecimal será 0A, então um byte é convertido em dois bytes na cadeia de caracteres. 
+A **função HexFromBin** leva um ponteiro para uma unidade de dados binários cujo tamanho é indicado pelo  _parâmetro_ cb. Ele retorna na cadeia de caracteres  _sz,_ dentro de (2*  _cb_)+1 bytes de memória, uma representação dessas informações binárias em números hexadecimais. Se o valor de byte for decimal 10, por exemplo, a cadeia de caracteres hexadecimal será 0A, então um byte é convertido em dois bytes na cadeia de caracteres. 
   
 

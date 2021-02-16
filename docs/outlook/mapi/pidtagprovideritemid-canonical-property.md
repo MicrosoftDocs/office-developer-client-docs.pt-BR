@@ -25,7 +25,7 @@ ms.locfileid: "33412118"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica um identificador para uma pasta ou um item em um repositório.
+Especifica um identificador para uma pasta ou um item em um armazenamento.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Especifica um identificador para uma pasta ou um item em um repositório.
    
 ## <a name="remarks"></a>Comentários
 
-Os provedores de repositório podem especificar um valor para essa propriedade para uma pasta ou um item, mas devem manter o valor o mesmo entre as sessões. Provedores de repositório Use essa propriedade para identificar os resultados de pesquisa retornados de um mecanismo de pesquisa.
+Os provedores de armazenamento podem especificar um valor para essa propriedade para uma pasta ou um item, mas devem manter o mesmo valor entre sessões. Os provedores de armazenamento usam essa propriedade para identificar resultados de pesquisa retornados de um mecanismo de pesquisa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

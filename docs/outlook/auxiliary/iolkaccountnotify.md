@@ -29,11 +29,11 @@ Fornece um retorno de chamada para o cliente para alterações em uma conta.
 
 |||
 |:-----|:-----|
-|[Notify](iolkaccountnotify-notify.md) <br/> |Notifica o cliente sobre as alterações na conta especificada.  <br/> |
+|[Notify](iolkaccountnotify-notify.md) <br/> |Notifica o cliente sobre alterações na conta especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta interface é passada para [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) ao configurar notificações. 
+Essa interface é passada para [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) ao configurar notificações. 
   
 ## <a name="see-also"></a>Confira também
 

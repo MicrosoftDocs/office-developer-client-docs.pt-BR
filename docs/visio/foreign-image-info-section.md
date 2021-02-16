@@ -22,6 +22,6 @@ Contém a largura e a altura de um objeto de um outro programa usado em um desen
   
 ## <a name="remarks"></a>Comentários
 
-Nas versões do Visio anteriores à versão 2000, esta seção recebeu o nome **informações da imagem**.
+Em versões dos produtos Visio anteriores à versão 2000, esta seção era denominada **Informações de Imagem.**
   
 

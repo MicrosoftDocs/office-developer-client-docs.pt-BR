@@ -25,7 +25,7 @@ ms.locfileid: "33411411"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que as soluções do Microsoft Outlook 2010 e do Microsoft Outlook 2013 descubram se um anexo é considerado não seguro e bloqueado para visualização e indexação.
+Permite que as soluções do Microsoft Outlook 2010 e do Microsoft Outlook 2013 descubram se um anexo é considerado não seguro e bloqueado para exibição e indexação.
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ Permite que as soluções do Microsoft Outlook 2010 e do Microsoft Outlook 2013 
    
 ## <a name="remarks"></a>Comentários
 
-As soluções do Outlook 2010 e do Outlook 2013 podem consultar essa interface para ver se um anexo está bloqueado. Os anexos bloqueados pelo Outlook 2010 ou o Outlook 2013 variam de acordo com o modo como o Outlook 2010 ou o Outlook 2013 foi configurado e as políticas aplicadas por um administrador.
+As soluções do Outlook 2010 e do Outlook 2013 podem consultar essa interface para ver se um anexo está bloqueado. Os anexos bloqueados pelo Outlook 2010 ou pelo Outlook 2013 variam dependendo de como o Outlook 2010 ou o Outlook 2013 foi configurado e as políticas que um administrador aplicou.
   
 ## <a name="see-also"></a>Confira também
 

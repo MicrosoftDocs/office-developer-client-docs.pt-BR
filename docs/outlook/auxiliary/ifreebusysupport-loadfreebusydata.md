@@ -36,26 +36,26 @@ HRESULT LoadFreeBusyData(
 
 _cMax_
   
-> no O número de interfaces [IFreeBusyData](ifreebusydata.md) a serem retornadas. 
+> [in] O número de interfaces [IFreeBusyData](ifreebusydata.md) a retornar. 
     
 _rgfbuser_
   
-> no A matriz de usuários de disponibilidade para os quais recuperar dados.
+> [in] A matriz de usuários de livre/ocupado para recuperar dados.
     
 _prgfbdata_
   
-> no bota A matriz de interfaces **IFreeBusyData** que correspondem à matriz _Rgfbuser_ de estruturas [FBUser](fbuser.md) . 
+> [in] [out] A matriz de interfaces **IFreeBusyData** que correspondem à matriz _rgfbuser_ de [estruturas FBUser.](fbuser.md) 
     
    > [!NOTE]
-   > Essa matriz de ponteiros é alocada pelo chamador e liberada pelo chamador. As interfaces reais apontadas são lançadas quando o chamador é feito com elas. 
+   > Essa matriz de ponteiros é alocada pelo chamador e liberada pelo chamador. As interfaces reais apontadas são liberadas quando o chamador é feito com eles. 
   
 _phrStatus_
   
-> bota A matriz de resultados **HRESULT** para recuperar cada interface **IFreeBusyData** correspondente. O valor pode ser nulo. Um resultado é definido como S_OK se _prgfbdata_ correspondente for válido. 
+> [out] A matriz de **resultados HRESULT** para recuperar cada interface **IFreeBusyData** correspondente. O valor pode ser NULL. Um resultado será definido como S_OK se  _prgfbdata correspondente_ for válido. 
     
 _pcRead_
   
->  bota O número real de usuários para os quais uma interface **IFreeBusyData** foi encontrada. 
+>  [out] O número real de usuários para os quais uma interface **IFreeBusyData** foi encontrada. 
     
 ## <a name="return-values"></a>Valores de retorno
 

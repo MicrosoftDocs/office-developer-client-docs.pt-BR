@@ -29,9 +29,9 @@ Codifica um identificador de entrada em uma cadeia de caracteres ASCII.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HrSzFromEntryID(
@@ -45,15 +45,15 @@ HrSzFromEntryID(
 
  _cb_
   
-> no Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _pentry_ . 
+> [in] Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _pentry._ 
     
  _pentry_
   
-> no Ponteiro para uma [](entryid.md) estrutura ENTRYID que contém o identificador de entrada a ser codificado. 
+> [in] Ponteiro para uma [estrutura ENTRYID](entryid.md) que contém o identificador de entrada a ser codificado. 
     
  _psz_
   
-> bota Ponteiro para a cadeia de caracteres ASCII retornada.
+> [out] Ponteiro para a cadeia de caracteres ASCII retornada.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -61,10 +61,10 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-As funções [HrEntryIDFromSz](hrentryidfromsz.md) e **HrSzFromEntryID** fornecem conversão entre a cadeia de caracteres e os formatos binários de identificadores de entrada. Com o MAPI, você deve usar estruturas com dados binários. 
+As [funções HrEntryIDFromSz](hrentryidfromsz.md) e **HrSzFromEntryID** fornecem conversão entre a cadeia de caracteres e os formatos binários dos identificadores de entrada. Com o MAPI, você deve usar estruturas com dados binários. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A função **HrSzFromEntryID** aloca memória para a cadeia de caracteres ASCII usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+A **função HrSzFromEntryID** aloca memória para a cadeia de caracteres ASCII usando a [função MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 
