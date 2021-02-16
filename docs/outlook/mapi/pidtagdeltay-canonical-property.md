@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagDeltaY
+title: Propriedade canônica PidTagDeltay
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434785"
 ---
-# <a name="pidtagdeltay-canonical-property"></a>Propriedade canônica PidTagDeltaY
+# <a name="pidtagdeltay-canonical-property"></a>Propriedade canônica PidTagDeltay
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a altura de um controle de caixa de diálogo em unidades de caixa de diálogo padrão do Windows. 
+Contém a altura de um controle de caixa de diálogo em unidades de diálogo padrão do Windows. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém a altura de um controle de caixa de diálogo em unidades de caixa de di�
    
 ## <a name="remarks"></a>Comentários
 
-A **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) e essa propriedade controlam a posição e o tamanho do controle da caixa de diálogo. 
+The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), and this property control the position and size the dialog box control. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

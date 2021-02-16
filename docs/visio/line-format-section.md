@@ -22,6 +22,6 @@ Contém as células que controlam os atributos de linha de uma forma, como padr�
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir formatos de linha usando o painel **Formatar forma** (na guia **página inicial** , no grupo **estilos de forma** , clique em **linha**, **Opções de linha**), aplicando um estilo de linha ou inserindo uma fórmula em uma célula de formato de linha.
+Você pode definir formatos de linha usando o  painel Formatar  Forma (na guia Página Home, no grupo Estilos de Forma, clique em **Linha,** em Opções de Linha **),** aplicando um estilo de linha ou inserindo uma fórmula em uma célula Line Format. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Suporte a propriedades nomeadas em repositórios de mensagens
+title: Suporte a propriedades nomeadas em armazenamentos de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434918"
 ---
-# <a name="supporting-named-properties-in-message-stores"></a>Suporte a propriedades nomeadas em repositórios de mensagens
+# <a name="supporting-named-properties-in-message-stores"></a>Suporte a propriedades nomeadas em armazenamentos de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os objetos Message podem ter propriedades no conjunto de propriedades definidas por MAPI. Essas propriedades podem ser não nomeadas ou nomeadas. As propriedades sem nome devem residir em um intervalo de identificadores de propriedade definido por MAPI. As propriedades personalizadas nomeadas residem em um intervalo diferente de identificadores de propriedade definidos por MAPI. Normalmente, eles são usados por tipos de mensagem personalizados. Seu provedor de repositório de mensagens deve oferecer suporte a propriedades nomeadas se for usado como o repositório de mensagens padrão. O suporte a propriedades nomeadas significa implementar os métodos [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) e implementar uma ou mais assinaturas de mapeamento que identifiquem quais nomes são usados em quais identificadores de propriedade. Para obter mais informações, consulte [definindo novas propriedades MAPI](defining-new-mapi-properties.md) e [propriedades nomeadas de suporte](supporting-named-properties.md).
+Objetos message podem ter propriedades neles que não estão no conjunto de propriedades definido por MAPI. Essas propriedades podem ser nomeadas ou não. Propriedades não nomeadas devem residir em um intervalo de identificadores de propriedade definidos por MAPI. Propriedades personalizadas nomeadas residem em um intervalo diferente de identificadores de propriedade definidos por MAPI. Eles geralmente são usados por tipos de mensagem personalizados. Seu provedor de armazenamento de mensagens deve dar suporte a propriedades nomeadas se ela for usada como o armazenamento de mensagens padrão. O suporte a propriedades nomeadas significa implementar os métodos [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e implementar uma ou mais assinaturas de mapeamento que identificam quais nomes vão com quais identificadores de propriedade. Para obter mais informações, consulte [Definindo novas propriedades MAPI](defining-new-mapi-properties.md) e [dando suporte a propriedades nomeadas.](supporting-named-properties.md)
   
-A maioria dos provedores de repositórios de mensagens que oferecem suporte a propriedades nomeadas usam uma única assinatura de mapeamento para todos os objetos no repositório de mensagens. Isso tem dois benefícios. Primeiro, é mais simples implementar assinaturas de mapeamento se houver apenas uma para acompanhar. Em segundo lugar, se todos os objetos no repositório de mensagens usarem a mesma assinatura de mapeamento, os aplicativos cliente serão garantidos que todos os identificadores de propriedade nas mensagens no repositório de mensagens realmente se referem à mesma propriedade nomeada. Isso permite que os aplicativos cliente exibam colunas para propriedades nomeadas na interface de exibição de pastas.
+A maioria dos provedores de armazenamento de mensagens que suportam propriedades nomeadas usa uma única assinatura de mapeamento para todos os objetos no armazenamento de mensagens. Isso tem dois benefícios. Primeiro, é mais simples implementar assinaturas de mapeamento se houver apenas uma para acompanhar. Segundo, se todos os objetos no armazenamento de mensagens usarem a mesma assinatura de mapeamento, os aplicativos cliente têm certeza de que todos os identificadores de propriedade em mensagens no armazenamento de mensagens realmente se referem à mesma propriedade nomeada. Isso permite que aplicativos cliente exibem colunas para propriedades nomeadas em sua interface de exibição de pasta.
   
 ## <a name="see-also"></a>Confira também
 

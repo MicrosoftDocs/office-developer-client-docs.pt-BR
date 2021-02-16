@@ -30,7 +30,7 @@ BOOL Placeholder11(
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre **false**, porque esse membro é um espaço reservado e não tem suporte.
+Sempre **falso**, porque esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 

@@ -25,32 +25,32 @@ ms.locfileid: "33435142"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece a capacidade de recuperar e alterar o acesso para as propriedades de um objeto. 
+Fornece a capacidade de recuperar e alterar o acesso das propriedades de um objeto. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Exposto por:  <br/> |Objeto de dados de propriedade  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIPropData  <br/> |
 |Tipo de ponteiro:  <br/> |LPPROPDATA  <br/> |
-|Modelo de transação:  <br/> |Não-Transacted  <br/> |
+|Modelo de transação:  <br/> |Não traduzido  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
 |[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Define o n�vel de acesso para o objeto.  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Define o nível de acesso e o status de uma ou mais propriedades do objeto.  <br/> |
+|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Define o nível de acesso e o status de uma ou mais das propriedades do objeto.  <br/> |
 |[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Recupera o n�vel de acesso e o status de uma ou mais das propriedades do objeto.  <br/> |
 |[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A interface **IPropData:: IMAPIProp** é implementada pelo MAPI e é usada principalmente por provedores de serviços que acessam essa implementação chamando a função [CreateIProp](createiprop.md) . 
+A interface **IPropData::IMAPIProp** é implementada pelo MAPI e usada principalmente por provedores de serviços que acessam essa implementação chamando a [função CreateIProp.](createiprop.md) 
   
-Para obter mais informações sobre níveis de acesso em objetos e propriedades, consulte [permissões para objetos e propriedades](permissions-for-mapi-objects-and-properties.md).
+Para obter mais informações sobre níveis de acesso em objetos e propriedades, [consulte Permissões para objetos e propriedades.](permissions-for-mapi-objects-and-properties.md)
   
 ## <a name="see-also"></a>Confira também
 

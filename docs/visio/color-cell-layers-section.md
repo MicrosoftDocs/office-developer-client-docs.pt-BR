@@ -24,9 +24,9 @@ Especifica a cor usada para exibir a camada.
 
 Para definir a cor, insira um número de 0 a 23.
   
-O valor da célula corresponde à **configuração cor da camada** na caixa de diálogo Propriedades da **camada** (no grupo **edição** na guia **página inicial** , clique em **camadas** e em **Propriedades da camada**).
+Esse valor de célula corresponde à  configuração de cor  camada na caixa de diálogo  Propriedades da camada (no grupo edição na guia Página Início, clique em Camadas e em Propriedades **da camada**).  
   
-Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. O valor 255 indica que a camada está sem cor. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB, e RGB( *r, g, b*), em vez de um número, será mostrado na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. O valor 255 indica que a camada está sem cor. 
   
 É possível definir a transparência da cor da camada na célula Transparency.
   
@@ -34,14 +34,14 @@ Para fazer referência à célula Color pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers. Color [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Layers.Color[ *i*  ] onde i =  *<*  1>, 2, 3, ...  <br/> |
    
 Para fazer referência à célula Color pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visLayerColor** <br/> |
+|Índice de linha:  <br/> |**visRowLayer**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visLayerColor** <br/> |
    
 

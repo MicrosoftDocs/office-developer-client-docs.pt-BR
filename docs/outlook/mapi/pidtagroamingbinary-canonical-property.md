@@ -21,7 +21,7 @@ ms.locfileid: "32359560"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um fluxo de mensagens associado a uma subclasse de **IPM. **Classe de configuração. 
+Contém um fluxo de mensagens associado a uma subclasse **da classeIPM.Configuration.** 
   
 |||
 |:-----|:-----|
@@ -32,27 +32,27 @@ Contém um fluxo de mensagens associado a uma subclasse de **IPM. **Classe de co
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade contém o fluxo de dados associado a um **IPM. **Mensagem de classe da mensagem de configuração. O formato do fluxo depende da classe da mensagem. Por exemplo, uma mensagem de tipo de classe **IPM. A configuração. AutoComplete** será formatada como um [fluxo de preenchimento automático](autocomplete-stream.md).
+Essa propriedade contém o fluxo de dados associado a uma mensagemIPM.Configde mensagem de **uration.** O formato do fluxo depende da classe de mensagem. Por exemplo, uma mensagem de tipo de **classeIPM.Configuration. O preenchimento automático** seria formatado como um [Fluxo de Preenchimento Automático.](autocomplete-stream.md)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências para as especificações de protocolo do Microsoft Exchange Server relacionadas.
+> Fornece referências a especificações de protocolo do Microsoft Exchange Server relacionadas.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica o local e as propriedades dos dados de configuração de cliente e de servidor, como listas de categorias compartilhadas e horários de trabalho.
+> Especifica o local e as propriedades dos dados de configuração do cliente e do servidor, como listas de categorias compartilhadas e horas de trabalho.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,7 +22,7 @@ Retorna a soma de uma lista de números.
   
 ## <a name="syntax"></a>Sintaxe
 
-SUM (* * *número1* * *, * * *núm2* * *,..., * * *[numbern]* * *) 
+SUM(** *number1* **, ** *number2* **,..., ** *[numberN]* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -30,7 +30,7 @@ SUM (* * *número1* * *, * * *núm2* * *,..., * * *[numbern]* * *)
 |:-----|:-----|:-----|:-----|
 | _número1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro número.  <br/> |
 | _número2_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O segundo número.  <br/> |
-| _numerada_ <br/> |Opcional  <br/> |**Numérica** <br/> |O enésimo número.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Numérica** <br/> |O enésimo número.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -38,7 +38,7 @@ Numeric
   
 ## <a name="example"></a>Exemplo
 
-SOMA (5, 7, 12)
+SUM(5,7,12)
   
 Retornará 24.
   

@@ -23,7 +23,7 @@ ms.locfileid: "32359546"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um documento XML que descreve o dicionário de roaming.
+Contém um documento XML que descreve o dicionário em roaming.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Contém um documento XML que descreve o dicionário de roaming.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade contém um documento XML UNICODE que está usando a codificação UTF8. Uma mensagem com um fluxo de dicionário deve definir essa propriedade com o seguinte esquema:
+Essa propriedade contém um documento XML UNICODE que está usando a codificação UTF8. Uma mensagem com um fluxo de dicionário deve definir essa propriedade com o seguinte esquema:
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -50,7 +50,7 @@ Esta propriedade contém um documento XML UNICODE que está usando a codificaç�
    </xs:complexType>
 ```
 
-A seguir está um exemplo de documento XML armazenado nesta propriedade em uma mensagem de dados de configuração: 
+A seguir está um documento XML de exemplo armazenado nessa propriedade em uma mensagem de Dados de Configuração: 
   
 ```xml
 <?xml version="1.0"?> 
@@ -66,23 +66,23 @@ A seguir está um exemplo de documento XML armazenado nesta propriedade em uma m
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica o local e as propriedades dos dados de configuração de cliente e de servidor, como listas de categorias compartilhadas e horários de trabalho.
+> Especifica o local e as propriedades dos dados de configuração do cliente e do servidor, como listas de categorias compartilhadas e horas de trabalho.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -94,7 +94,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

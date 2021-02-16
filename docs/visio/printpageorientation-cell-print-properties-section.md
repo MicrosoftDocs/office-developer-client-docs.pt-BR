@@ -22,9 +22,9 @@ Determina se a página será impressa na orientação retrato ou paisagem.
   
 |**Valor**|**Orientation**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Mesmo que a impressora  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
-|duas  <br/> |Paisagens  <br/> |**visPPOLandscape** <br/> |
+| 0  <br/> | Mesmo que a impressora  <br/> |**visPPOSameAsPrinter** <br/> |
+| 1   <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|2   <br/> |Paisagem  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

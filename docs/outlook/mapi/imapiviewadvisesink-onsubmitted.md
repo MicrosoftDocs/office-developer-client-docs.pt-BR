@@ -25,7 +25,7 @@ ms.locfileid: "33433980"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulários que a mensagem atual foi enviada ao spooler MAPI.
+Notifica o visualizador de formulário de que a mensagem atual foi enviada para o spooler MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Um objeto Form chama o método **IMAPIViewAdviseSink:: onenviar** após uma chamada para [IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md) foi retornada com êxito. 
+Um objeto de formulário chama o método **IMAPIViewAdviseSink::OnSubmitted** após uma chamada para [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) ter retornado com êxito. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Após o cancelamento de **envio** ser chamado, você pode continuar supondo que a mensagem tenha sido atualizada. Atualize o Windows para refletir as alterações que ocorreram. 
+Depois **que OnSubmitted** for chamado, você poderá continuar a suposição de que a mensagem foi atualizada. Atualize suas janelas para refletir as alterações que ocorreram. 
   
-Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [Enviando e recebendo notificações de formulário.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>Confira também
 

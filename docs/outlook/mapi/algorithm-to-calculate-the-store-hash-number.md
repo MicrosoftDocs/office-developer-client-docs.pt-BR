@@ -1,5 +1,5 @@
 ---
-title: Algoritmo para calcular o número de hash do repositório
+title: Algoritmo para calcular o número de hash do armazenamento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,22 +13,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436304"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de hash do repositório
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de hash do armazenamento
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Como parte de uma URL MAPI, um provedor de armazenamento envia um número de hash do repositório para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O manipulador de protocolo MAPI usa esse número de hash do repositório para identificar um repositório. Em geral, um provedor de repositório calcula o número de hash do repositório com base na assinatura de mapeamento de repositório, se o repositório tiver a propriedade **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida na seção global Profile. Caso contrário, o provedor da loja usará a ID de entrada da loja. O algoritmo para calcular o número de hash do repositório deve minimizar as ambigüidades que identificam os repositórios. 
+Como parte de uma URL (Uniform Resource Locator) MAPI, um provedor de armazenamento envia um número de hash do armazenamento para o Manipulador de Protocolo MAPI para identificar um objeto que está pronto para indexação. O Manipulador de Protocolo MAPI usa esse número de hash do armazenamento para identificar um armazenamento. Em geral, um provedor de armazenamento calcula o número de hash do armazenamento com base na assinatura de mapeamento do armazenamento, se o armazenamento tiver a propriedade **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida na seção de perfil global. Caso contrário, o provedor do armazenamento usará a ID de entrada do armazenamento. O algoritmo para calcular o número de hash do armazenamento deve minimizar ambiguidades na identificação de armazenamentos. 
   
-Este tópico descreve um algoritmo que o Microsoft Office Outlook usa para calcular um número de hash do repositório com base na assinatura de mapeamento de repositório ou na ID de entrada e no nome do arquivo de repositório. 
+Este tópico descreve um algoritmo que o Microsoft Office Outlook usa para calcular um número de hash do armazenamento com base na assinatura de mapeamento da loja ou na ID de entrada e no nome do arquivo do armazenamento. 
   
-O blob binário a ser codificado é o PR_ENTRYID da loja na maioria dos casos, mas para repositórios do Exchange em cache, público e privado, o blob binário deve ser o PR_MAPPING_SIGNATURE, encontrado no perfil.
+O blob binário a ser codificado é o PR_ENTRYID do armazenamento na maioria dos casos, mas para armazenamentos em cache do Exchange, públicos e privados, o blob binário deve ser o PR_MAPPING_SIGNATURE, encontrado no perfil.
   
-Após calcular o hash para o blob binário de um armazenamento de pasta pública, mas antes de hash-no caminho do OST, a constante 0x2E505542, que representa a cadeia de caracteres ". PUB ", é codificada para garantir que seja exclusiva, ou seja, distinta do hash do armazenamento particular.
+Depois de calcular o hash do blob binário de um armazenamento de pastas públicas, mas antes de fazer hash no caminho OST, a constante 0x2E505542, que representa a cadeia de caracteres ". PUB", é hash para garantir que ele é exclusivo, ou seja, diferente do hash do armazenamento particular.
   
-O código de suporte escolhe os bits relevantes do perfil, que podem ser usados para determinar se um repositório é público ou privado, se estiver armazenado em cache, e o caminho para o OST. Para incorporar esse código em um projeto, chame a função ComputeStoreHash, que usa como a entrada do ponteiro de sessão, bem como\_PR EntryID,\_PR SERVICE_UID e PR\_MDB_PROVIDER da tabela do repositório de mensagens. O restante das informações necessárias é do perfil. Para saída, essa função retorna o hash como calculado a partir de\_PR MAPPING_SIGNATURE se o repositório for um repositório do Exchange em cache ou o hash como computado\_de PR EntryID.
+O código de suporte seleciona os bits relevantes do perfil, que podem ser usados para determinar se um armazenamento é público ou privado, se ele está armazenado em cache e o caminho para o OST. Para incorporar esse código em um projeto, chame a função ComputeStoreHash, que recebe como entrada o ponteiro da sessão, bem como PR ENTRYID, PR SERVICE_UID e pr MDB_PROVIDER da tabela do repositório de \_ \_ \_ mensagens. O restante das informações necessárias obtém do perfil. Para saída, essa função retornará o hash conforme calculado a partir de pr MAPPING_SIGNATURE se o armazenamento for um armazenamento em cache do Exchange ou o hash conforme calculado de \_ PR \_ ENTRYID.
   
 > [!NOTE]
-> A função de suporte do HrEmsmdbUIDFromStore é uma substituição com reconhecimento de [contas do Exchange](using-multiple-exchange-accounts.md)para usar o pbGlobalProfileSectionGuid para abrir a seção de perfil de uma caixa de correio do Exchange. 
+> A função de suporte HrEmsmdbUIDFromStore é uma substituição com suporte para várias contas do [Exchange](using-multiple-exchange-accounts.md)por usar pbGlobalProfileSectionGuid para abrir a seção de perfil de uma caixa de correio do Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> A função HrEmsmdbUIDFromStore funciona sem realmente abrir o repositório, portanto, é uma boa abordagem de uso geral. No enTanto, se você já tiver um ponteiro para o objeto Store, também poderá recuperar o GUID da seção de perfil diretamente do repositório de mensagens lendo a propriedade PR_EMSMDB_SECTION_UID. 
+> A função HrEmsmdbUIDFromStore funciona sem abrir o repositório, portanto, é uma boa abordagem de finalidade geral. No entanto, se você já tiver um ponteiro para o objeto de armazenamento, também poderá recuperar o GUID da seção de perfil diretamente do armazenamento de mensagens lendo a PR_EMSMDB_SECTION_UID propriedade. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
-- [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
+- [Sobre Notification-Based Store Indexação](about-notification-based-store-indexing.md)
+- [Sobre URLs MAPI para Notification-Based indexação](about-mapi-urls-for-notification-based-indexing.md)
 

@@ -28,7 +28,7 @@ Um objeto [MeetingItem](https://msdn.microsoft.com/library/bb645703\(v=office.15
 
 O parâmetro *Response* indica se a resposta é aceitar, recusar ou provisório. Os parâmetros fNoUI e fAdditionalTextDialog são valores **bool** que indicam se a resposta será enviada e se o usuário pode ou não editar a resposta, respectivamente. No exemplo de código a seguir, AutoAcceptMeetingRequests enumera todos os objetos **MeetingItem** para obter o **AppointmentItem** associado. Em seguida, AutoAcceptMeetingRequests usa o método **Respond** com o parâmetro *fNoUI* definido como **true** para indicar que uma resposta será enviada automaticamente para aceitar a solicitação de reunião.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

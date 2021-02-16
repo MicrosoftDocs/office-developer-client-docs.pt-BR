@@ -33,14 +33,14 @@ Para obter uma referência para a célula Snap pelo nome a partir de outra fórm
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers. snap [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers.Snap[ *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Snap pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionLayer** <br/> |
-|Índice de linha:  <br/> |**visRowLayer** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visLayerSnap** <br/> |
+|Índice de linha:  <br/> |**visRowLayer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visLayerSnap** <br/> |
    
 

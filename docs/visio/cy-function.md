@@ -22,30 +22,30 @@ Retorna um valor de moeda.
   
 ## <a name="syntax"></a>Sintaxe
 
-CY (* * *valor* * *, * * *cyID* * *) 
+CY(** *value* **, ** *cyID* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Opcional  <br/> |**Número ou Cadeia de caracteres** <br/> |Um número ou uma cadeia de caracteres que inclui formatação específica da moeda. Se não for especificado, o valor de moeda é formatado de acordo com o estilo de moeda nas configurações de idioma e região do sistema.  <br/> |
+| _value_ <br/> |Opcional  <br/> |**Número ou Cadeia de caracteres** <br/> |Um número ou uma cadeia de caracteres que inclui formatação específica de moeda. Se não for especificado, o valor de moeda será formatado de acordo com o estilo de moeda nas configurações de Região e Idioma do sistema.  <br/> |
 | _cyID_ <br/> |Opcional  <br/> |**Número** <br/> |Uma ID de moeda numérica ou uma cadeia de caracteres entre aspas de três caracteres para a abreviação ISO 4217.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para especificar uma moeda diferente, você deve incluir um _cyID_válido. Para obter uma lista, consulte [Sobre constantes de moeda](about-currency-constants.md).
+Para especificar uma moeda diferente, você deve incluir uma _cyID válida._ Para obter uma lista, consulte [Sobre constantes de moeda](about-currency-constants.md).
   
-Se o _valor_ for incompatível com o tipo de moeda designada ou se um argumento inválido, como "não um número", for especificado, um #VALUE! será retornado. Se o _valor_ for maior que 922337203685477,5807 ou menor que-922337203685477,5808, um #VALUE! será retornado. 
+Se  _o_ valor for incompatível com o tipo de moeda designado ou se um argumento inválido como "não for um número" for especificado, uma #VALUE! será retornado. Se  o valor for maior que 922.337.203.685.477.5807 ou menor que -922.337.203.685.477.5808, um #VALUE! será retornado. 
   
-Para maior precisão com valores de moeda muito grandes que incluem frações de uma unidade, como 3.600.000.000.000, use argumentos de cadeia de caracteres para _Value_.
+Para melhor precisão com valores monetários muito grandes que incluem frações de uma unidade, como 3,6 trilhões, use argumentos de cadeia de caracteres como _valor._
   
-A especificação de um _cyID_ inválido retorna um erro. 
+Especificar uma  _cyID inválida_ retorna um erro. 
   
 ## <a name="example-1"></a>Exemplo 1
 
 No caso das configurações de Região e Idioma do usuário, especifique dólares dos Estados Unidos:
   
-CY (999998.993)
+CY(999998,993)
   
 Retornará $999.998,99
   

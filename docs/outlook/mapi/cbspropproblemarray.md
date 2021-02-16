@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [SPropProblemArray](spropproblemarra
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __LPArray_
+ _ _lparray_
   
 > Ponteiro para a estrutura **SPropProblemArray** existente. 
     

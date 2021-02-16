@@ -25,7 +25,7 @@ ms.locfileid: "33434715"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Testa a validade de um conjunto de colunas da tabela para uso por um provedor de serviços em uma chamada subsequente para o método imApitable [::](imapitable-setcolumns.md) SetColumns. 
+Testa a validade de uma coluna de tabela definida para uso por um provedor de serviços em uma chamada subsequente para o método [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> no Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que definem as colunas da tabela a serem validadas. 
+> [in] Ponteiro para uma [estrutura SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade definindo as colunas da tabela a validar. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadColumnSet** trata as colunas do tipo PT_ERROR como inválidas e as colunas do tipo PT_NULL como válidas. 
+A **função FBadColumnSet** trata colunas do tipo PT_ERROR como inválidas e colunas do tipo PT_NULL como válidas. 
   
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251594
 localization_priority: Normal
 ms.assetid: 9587283b-4f4d-0ad6-34aa-58e2001f085e
-description: Retorna a data e a hora em que um documento foi impresso pela última vez, como um valor serial.
+description: Retorna a data e a hora em que um documento foi impresso pela última vez, como um valor de série.
 ms.openlocfilehash: 3198b98b58e2b68e58ae16643e396e1a91635940
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33433637"
 ---
 # <a name="doclastprint-function"></a>Função DOCLASTPRINT
 
-Retorna a data e a hora em que um documento foi impresso pela última vez, como um valor serial.
+Retorna a data e a hora em que um documento foi impresso pela última vez, como um valor de série.
   
 ## <a name="syntax"></a>Sintaxe
 
