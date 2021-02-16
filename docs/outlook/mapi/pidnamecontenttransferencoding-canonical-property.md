@@ -19,49 +19,49 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356319"
 ---
-# <a name="pidnamecontenttransferencoding-canonical-property"></a><span data-ttu-id="4c859-103">Propriedade canônica PidNameContentTransferEncoding</span><span class="sxs-lookup"><span data-stu-id="4c859-103">PidNameContentTransferEncoding Canonical Property</span></span>
+# <a name="pidnamecontenttransferencoding-canonical-property"></a><span data-ttu-id="60372-103">Propriedade canônica PidNameContentTransferEncoding</span><span class="sxs-lookup"><span data-stu-id="60372-103">PidNameContentTransferEncoding Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4c859-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4c859-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="60372-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="60372-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4c859-105">Contém um valor de campo de cabeçalho Content-Transfer-Encoding de [RFC3282].</span><span class="sxs-lookup"><span data-stu-id="4c859-105">Contains an [RFC3282] Content-Transfer-Encoding header field value.</span></span>
+<span data-ttu-id="60372-105">Contém um valor de campo de título [RFC3282] Content-Transfer-Encoding.</span><span class="sxs-lookup"><span data-stu-id="60372-105">Contains an [RFC3282] Content-Transfer-Encoding header field value.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4c859-106">Nomes amigáveis:</span><span class="sxs-lookup"><span data-stu-id="4c859-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="4c859-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="4c859-107">None</span></span>  <br/> |
-|<span data-ttu-id="4c859-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="4c859-108">Property set:</span></span>  <br/> |<span data-ttu-id="4c859-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="4c859-109">PS_INTERNET_HEADERS</span></span>  <br/> |
-|<span data-ttu-id="4c859-110">Nome da propriedade:</span><span class="sxs-lookup"><span data-stu-id="4c859-110">Property name:</span></span>  <br/> |<span data-ttu-id="4c859-111">Conteúdo-transferência-codificação</span><span class="sxs-lookup"><span data-stu-id="4c859-111">Content-Transfer-Encoding</span></span>  <br/> |
-|<span data-ttu-id="4c859-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="4c859-112">Data type:</span></span>  <br/> |<span data-ttu-id="4c859-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="4c859-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="4c859-114">Área:</span><span class="sxs-lookup"><span data-stu-id="4c859-114">Area:</span></span>  <br/> |<span data-ttu-id="4c859-115">Email</span><span class="sxs-lookup"><span data-stu-id="4c859-115">Email</span></span>  <br/> |
+|<span data-ttu-id="60372-106">Nomes amigáveis:</span><span class="sxs-lookup"><span data-stu-id="60372-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="60372-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="60372-107">None</span></span>  <br/> |
+|<span data-ttu-id="60372-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="60372-108">Property set:</span></span>  <br/> |<span data-ttu-id="60372-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="60372-109">PS_INTERNET_HEADERS</span></span>  <br/> |
+|<span data-ttu-id="60372-110">Nome da propriedade:</span><span class="sxs-lookup"><span data-stu-id="60372-110">Property name:</span></span>  <br/> |<span data-ttu-id="60372-111">Content-Transfer-Encoding</span><span class="sxs-lookup"><span data-stu-id="60372-111">Content-Transfer-Encoding</span></span>  <br/> |
+|<span data-ttu-id="60372-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="60372-112">Data type:</span></span>  <br/> |<span data-ttu-id="60372-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="60372-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="60372-114">Área:</span><span class="sxs-lookup"><span data-stu-id="60372-114">Area:</span></span>  <br/> |<span data-ttu-id="60372-115">Email</span><span class="sxs-lookup"><span data-stu-id="60372-115">Email</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="4c859-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="4c859-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="60372-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="60372-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4c859-117">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="4c859-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="60372-117">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="60372-117">Protocol specifications</span></span>
 
-<span data-ttu-id="4c859-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4c859-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="60372-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="60372-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4c859-119">Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="4c859-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="60372-119">Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="60372-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4c859-120">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4c859-120">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="60372-120">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="60372-120">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4c859-121">Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.</span><span class="sxs-lookup"><span data-stu-id="4c859-121">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="60372-121">Converte entre IETF RFC2445, RFC2446 e RFC2447 e objetos de compromisso e reunião.</span><span class="sxs-lookup"><span data-stu-id="60372-121">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4c859-122">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="4c859-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="60372-122">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="60372-122">Header files</span></span>
 
-<span data-ttu-id="4c859-123">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4c859-123">Mapidefs.h</span></span>
+<span data-ttu-id="60372-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="60372-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4c859-124">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="4c859-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="60372-124">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="60372-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4c859-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="4c859-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60372-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="60372-125">See also</span></span>
 
 
 
-[<span data-ttu-id="4c859-126">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="4c859-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="60372-126">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="60372-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4c859-127">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="4c859-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="60372-127">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="60372-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4c859-128">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="4c859-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="60372-128">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="60372-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4c859-129">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="4c859-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="60372-129">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="60372-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,53 +19,53 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32344937"
 ---
-# <a name="pidlidchangehighlight-canonical-property"></a><span data-ttu-id="ed908-103">Propriedade canônica PidLidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="ed908-103">PidLidChangeHighlight Canonical Property</span></span>
+# <a name="pidlidchangehighlight-canonical-property"></a><span data-ttu-id="cb2e7-103">Propriedade canônica PidLidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="cb2e7-103">PidLidChangeHighlight Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ed908-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ed908-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cb2e7-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cb2e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ed908-105">Especifica um campo de bits que indica como o objeto de reunião foi alterado.</span><span class="sxs-lookup"><span data-stu-id="ed908-105">Specifies a bit field that indicates how the meeting object changed.</span></span>
+<span data-ttu-id="cb2e7-105">Especifica um campo de bits que indica como o objeto de reunião foi alterado.</span><span class="sxs-lookup"><span data-stu-id="cb2e7-105">Specifies a bit field that indicates how the meeting object changed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ed908-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="ed908-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ed908-107">dispidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="ed908-107">dispidChangeHighlight</span></span>  <br/> |
-|<span data-ttu-id="ed908-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="ed908-108">Property set:</span></span>  <br/> |<span data-ttu-id="ed908-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="ed908-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="ed908-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="ed908-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="ed908-111">0x00008204</span><span class="sxs-lookup"><span data-stu-id="ed908-111">0x00008204</span></span>  <br/> |
-|<span data-ttu-id="ed908-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="ed908-112">Data type:</span></span>  <br/> |<span data-ttu-id="ed908-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="ed908-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="ed908-114">Área:</span><span class="sxs-lookup"><span data-stu-id="ed908-114">Area:</span></span>  <br/> |<span data-ttu-id="ed908-115">Meetings</span><span class="sxs-lookup"><span data-stu-id="ed908-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="cb2e7-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="cb2e7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cb2e7-107">dispidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="cb2e7-107">dispidChangeHighlight</span></span>  <br/> |
+|<span data-ttu-id="cb2e7-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="cb2e7-108">Property set:</span></span>  <br/> |<span data-ttu-id="cb2e7-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="cb2e7-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="cb2e7-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="cb2e7-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="cb2e7-111">0x00008204</span><span class="sxs-lookup"><span data-stu-id="cb2e7-111">0x00008204</span></span>  <br/> |
+|<span data-ttu-id="cb2e7-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="cb2e7-112">Data type:</span></span>  <br/> |<span data-ttu-id="cb2e7-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="cb2e7-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="cb2e7-114">Área:</span><span class="sxs-lookup"><span data-stu-id="cb2e7-114">Area:</span></span>  <br/> |<span data-ttu-id="cb2e7-115">Reuniões</span><span class="sxs-lookup"><span data-stu-id="cb2e7-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ed908-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="ed908-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb2e7-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="cb2e7-116">Remarks</span></span>
 
-<span data-ttu-id="ed908-117">Esta propriedade não é obrigatória.</span><span class="sxs-lookup"><span data-stu-id="ed908-117">This property is not required.</span></span> <span data-ttu-id="ed908-118">Os sinalizadores individuais que podem ser definidos são detalhados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ed908-118">The individual flags that can be set are detailed in [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="cb2e7-117">Essa propriedade não é necessária.</span><span class="sxs-lookup"><span data-stu-id="cb2e7-117">This property is not required.</span></span> <span data-ttu-id="cb2e7-118">Os sinalizadores individuais que podem ser definidos são detalhados [em [MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="cb2e7-118">The individual flags that can be set are detailed in [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="ed908-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ed908-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cb2e7-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="cb2e7-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="ed908-120">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="ed908-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="cb2e7-120">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="cb2e7-120">Protocol specifications</span></span>
 
-<span data-ttu-id="ed908-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed908-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb2e7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb2e7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ed908-122">Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="ed908-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="cb2e7-122">Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="cb2e7-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="ed908-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ed908-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb2e7-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb2e7-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ed908-124">Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.</span><span class="sxs-lookup"><span data-stu-id="ed908-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="cb2e7-124">Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.</span><span class="sxs-lookup"><span data-stu-id="cb2e7-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="ed908-125">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="ed908-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cb2e7-125">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="cb2e7-125">Header files</span></span>
 
-<span data-ttu-id="ed908-126">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="ed908-126">Mapidefs.h</span></span>
+<span data-ttu-id="cb2e7-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cb2e7-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ed908-127">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="ed908-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="cb2e7-127">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="cb2e7-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ed908-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="ed908-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb2e7-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="cb2e7-128">See also</span></span>
 
 
 
-[<span data-ttu-id="ed908-129">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ed908-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cb2e7-129">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="cb2e7-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ed908-130">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="ed908-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cb2e7-130">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="cb2e7-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ed908-131">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="ed908-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cb2e7-131">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="cb2e7-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ed908-132">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="ed908-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cb2e7-132">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="cb2e7-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

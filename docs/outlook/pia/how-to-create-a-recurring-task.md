@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32349522"
 ---
-# <a name="create-a-recurring-task"></a><span data-ttu-id="89533-102">Criar uma tarefa recorrente</span><span class="sxs-lookup"><span data-stu-id="89533-102">Create a recurring task</span></span>
+# <a name="create-a-recurring-task"></a><span data-ttu-id="aa855-102">Criar uma tarefa recorrente</span><span class="sxs-lookup"><span data-stu-id="aa855-102">Create a recurring task</span></span>
 
-<span data-ttu-id="89533-103">Este exemplo cria uma tarefa recorrente.</span><span class="sxs-lookup"><span data-stu-id="89533-103">This example creates a recurrent task.</span></span>
+<span data-ttu-id="aa855-103">Este exemplo cria uma tarefa recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa855-103">This example creates a recurrent task.</span></span>
 
-## <a name="example"></a><span data-ttu-id="89533-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="89533-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="aa855-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="aa855-104">Example</span></span>
 
-<span data-ttu-id="89533-105">Este código cria um objeto [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)) e usa o método [GetRecurrencePattern](https://msdn.microsoft.com/library/bb647080\(v=office.15\)) de **TaskItem** para transformar a tarefa em recorrente.</span><span class="sxs-lookup"><span data-stu-id="89533-105">This code sample creates a [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)) object and uses the [GetRecurrencePattern](https://msdn.microsoft.com/library/bb647080\(v=office.15\)) method of the **TaskItem** to make the task a recurrent task.</span></span>
+<span data-ttu-id="aa855-105">Este código cria um objeto [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)) e usa o método [GetRecurrencePattern](https://msdn.microsoft.com/library/bb647080\(v=office.15\)) de **TaskItem** para transformar a tarefa em recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa855-105">This code sample creates a [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)) object and uses the [GetRecurrencePattern](https://msdn.microsoft.com/library/bb647080\(v=office.15\)) method of the **TaskItem** to make the task a recurrent task.</span></span>
 
-<span data-ttu-id="89533-106">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="89533-106">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="89533-107">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="89533-107">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="89533-108">As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="89533-108">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="aa855-106">Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="aa855-106">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="aa855-107">A instrução **Imports** ou **using** não deve vir diretamente antes de funções no exemplo de código, mas deve ser adicionada antes da declaração Class pública.</span><span class="sxs-lookup"><span data-stu-id="aa855-107">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="aa855-108">As linhas de código seguintes mostram como fazer a importação e a tarefa no Visual Basic e C\#.</span><span class="sxs-lookup"><span data-stu-id="aa855-108">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -72,7 +72,7 @@ private void CreateRecurringTask()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="89533-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="89533-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa855-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="aa855-109">See also</span></span>
 
-- [<span data-ttu-id="89533-110">Tarefas</span><span class="sxs-lookup"><span data-stu-id="89533-110">Tasks</span></span>](tasks.md)
+- [<span data-ttu-id="aa855-110">Tarefas</span><span class="sxs-lookup"><span data-stu-id="aa855-110">Tasks</span></span>](tasks.md)
 

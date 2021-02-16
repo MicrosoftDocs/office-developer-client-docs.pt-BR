@@ -13,36 +13,36 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32355024"
 ---
-# <a name="powerpoint"></a><span data-ttu-id="2d72c-103">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="2d72c-103">PowerPoint</span></span>
+# <a name="powerpoint"></a><span data-ttu-id="9631f-103">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="9631f-103">PowerPoint</span></span>
 
-<span data-ttu-id="2d72c-104">Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="2d72c-104">Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint.</span></span>
+<span data-ttu-id="9631f-104">Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="9631f-104">Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="2d72c-p101">Interessado em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/).</span><span class="sxs-lookup"><span data-stu-id="2d72c-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/).</span></span> 
+> <span data-ttu-id="9631f-p101">Deseja desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/).</span><span class="sxs-lookup"><span data-stu-id="9631f-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/).</span></span> 
   
-### <a name="viewed-most"></a><span data-ttu-id="2d72c-107">Mais vistos</span><span class="sxs-lookup"><span data-stu-id="2d72c-107">Viewed most</span></span>
+### <a name="viewed-most"></a><span data-ttu-id="9631f-107">Mais vistos</span><span class="sxs-lookup"><span data-stu-id="9631f-107">Viewed most</span></span>
   
-- [<span data-ttu-id="2d72c-108">Referência do VBA do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="2d72c-108">PowerPoint VBA reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/powerpoint)
+- [<span data-ttu-id="9631f-108">Referência do VBA do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="9631f-108">PowerPoint VBA reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/powerpoint)
   
-- <span data-ttu-id="2d72c-109">[PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))</span><span class="sxs-lookup"><span data-stu-id="2d72c-109">[PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))</span></span>
+- <span data-ttu-id="9631f-109">[PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))</span><span class="sxs-lookup"><span data-stu-id="9631f-109">[PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))</span></span>
   
-### <a name="office-add-ins"></a><span data-ttu-id="2d72c-110">Suplementos do Office</span><span class="sxs-lookup"><span data-stu-id="2d72c-110">Office Add-ins</span></span>
+### <a name="office-add-ins"></a><span data-ttu-id="9631f-110">Suplementos do Office</span><span class="sxs-lookup"><span data-stu-id="9631f-110">Office Add-ins</span></span>
   
-- [<span data-ttu-id="2d72c-111">Introdução aos suplementos do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="2d72c-111">Get started with PowerPoint add-ins</span></span>](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart?tabs=visual-studio)
+- [<span data-ttu-id="9631f-111">Introdução aos suplementos do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="9631f-111">Get started with PowerPoint add-ins</span></span>](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart?tabs=visual-studio)
   
-- [<span data-ttu-id="2d72c-112">Visão geral da plataforma</span><span class="sxs-lookup"><span data-stu-id="2d72c-112">Platform overview</span></span>](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [<span data-ttu-id="9631f-112">Visão geral da plataforma</span><span class="sxs-lookup"><span data-stu-id="9631f-112">Platform overview</span></span>](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
-### <a name="code-samples"></a><span data-ttu-id="2d72c-113">Exemplos de código</span><span class="sxs-lookup"><span data-stu-id="2d72c-113">Code samples</span></span>
+### <a name="code-samples"></a><span data-ttu-id="9631f-113">Exemplos de código</span><span class="sxs-lookup"><span data-stu-id="9631f-113">Code samples</span></span>
   
-- [<span data-ttu-id="2d72c-114">Exemplos de código do PowerPoint no Centro de Desenvolvimento do Office</span><span class="sxs-lookup"><span data-stu-id="2d72c-114">PowerPoint code samples in the Office Dev Center</span></span>](https://developer.microsoft.com/office/gallery/?filterBy=Samples,PowerPoint)
+- [<span data-ttu-id="9631f-114">Exemplos de código do PowerPoint no Centro de Desenvolvimento do Office</span><span class="sxs-lookup"><span data-stu-id="9631f-114">PowerPoint code samples in the Office Dev Center</span></span>](https://developer.microsoft.com/office/gallery/?filterBy=Samples,PowerPoint)
   
-### <a name="other-resources"></a><span data-ttu-id="2d72c-115">Outros recursos</span><span class="sxs-lookup"><span data-stu-id="2d72c-115">Other resources</span></span>
+### <a name="other-resources"></a><span data-ttu-id="9631f-115">Outros recursos</span><span class="sxs-lookup"><span data-stu-id="9631f-115">Other resources</span></span>
 
-- [<span data-ttu-id="2d72c-116">Referência da biblioteca de Objetos do VBA do Office</span><span class="sxs-lookup"><span data-stu-id="2d72c-116">Office VBA Object library reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [<span data-ttu-id="9631f-116">Referência da biblioteca de Objetos do VBA do Office</span><span class="sxs-lookup"><span data-stu-id="9631f-116">Office VBA Object library reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [<span data-ttu-id="2d72c-117">Referência de linguagem do VBA do Office</span><span class="sxs-lookup"><span data-stu-id="2d72c-117">Office VBA language reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
+- [<span data-ttu-id="9631f-117">Referência de linguagem do VBA do Office</span><span class="sxs-lookup"><span data-stu-id="9631f-117">Office VBA language reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [<span data-ttu-id="2d72c-118">SDK do Open XML</span><span class="sxs-lookup"><span data-stu-id="2d72c-118">Open XML SDK</span></span>](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
+- [<span data-ttu-id="9631f-118">SDK do Open XML</span><span class="sxs-lookup"><span data-stu-id="9631f-118">Open XML SDK</span></span>](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [<span data-ttu-id="2d72c-119">Suplementos do VSTO para Office</span><span class="sxs-lookup"><span data-stu-id="2d72c-119">VSTO Add-ins for Office</span></span>](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [<span data-ttu-id="9631f-119">Suplementos do VSTO para Office</span><span class="sxs-lookup"><span data-stu-id="9631f-119">VSTO Add-ins for Office</span></span>](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
