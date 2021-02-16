@@ -1,5 +1,5 @@
 ---
-title: Receber tabelas de pastas
+title: Tabelas de Pastas de Recebimento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417347"
 ---
-# <a name="receive-folder-tables"></a><span data-ttu-id="afb13-103">Receber tabelas de pastas</span><span class="sxs-lookup"><span data-stu-id="afb13-103">Receive Folder Tables</span></span>
+# <a name="receive-folder-tables"></a><span data-ttu-id="3ce14-103">Tabelas de Pastas de Recebimento</span><span class="sxs-lookup"><span data-stu-id="3ce14-103">Receive Folder Tables</span></span>
 
   
   
-<span data-ttu-id="afb13-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="afb13-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3ce14-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ce14-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="afb13-105">Uma tabela de pastas de recebimento contém informações para todas as pastas designadas como receber pastas para um repositório de mensagens.</span><span class="sxs-lookup"><span data-stu-id="afb13-105">A receive folder table contains information for all the folders designated as receive folders for a message store.</span></span> <span data-ttu-id="afb13-106">Uma pasta de recebimento é uma pasta onde as mensagens de entrada de uma determinada classe de mensagem são colocadas.</span><span class="sxs-lookup"><span data-stu-id="afb13-106">A receive folder is a folder where incoming messages of a particular message class are placed.</span></span> <span data-ttu-id="afb13-107">Os provedores de repositório de mensagens implementam tabelas de pastas de recebimento e aplicativos clientes as usam fazendo uma chamada para o método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) .</span><span class="sxs-lookup"><span data-stu-id="afb13-107">Message store providers implement receive folder tables and client applications use them by making a call to the [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) method.</span></span> 
+<span data-ttu-id="3ce14-105">Uma tabela de pastas de recebimento contém informações para todas as pastas designadas como pastas de recebimento para um armazenamento de mensagens.</span><span class="sxs-lookup"><span data-stu-id="3ce14-105">A receive folder table contains information for all the folders designated as receive folders for a message store.</span></span> <span data-ttu-id="3ce14-106">Uma pasta de recebimento é uma pasta onde as mensagens de entrada de uma classe de mensagem específica são colocadas.</span><span class="sxs-lookup"><span data-stu-id="3ce14-106">A receive folder is a folder where incoming messages of a particular message class are placed.</span></span> <span data-ttu-id="3ce14-107">Os provedores de repositório de mensagens implementam tabelas de pastas de recebimento e os aplicativos cliente os usam fazendo uma chamada para o método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md)</span><span class="sxs-lookup"><span data-stu-id="3ce14-107">Message store providers implement receive folder tables and client applications use them by making a call to the [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) method.</span></span> 
   
-<span data-ttu-id="afb13-108">As propriedades a seguir compõem o conjunto de colunas obrigatórios em receber tabelas de pastas:</span><span class="sxs-lookup"><span data-stu-id="afb13-108">The following properties make up the required column set in receive folder tables:</span></span>
+<span data-ttu-id="3ce14-108">As propriedades a seguir compom o conjunto de colunas necessário nas tabelas da pasta de recebimento:</span><span class="sxs-lookup"><span data-stu-id="3ce14-108">The following properties make up the required column set in receive folder tables:</span></span>
   
- <span data-ttu-id="afb13-109">**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="afb13-109">**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))</span></span> 
+ <span data-ttu-id="3ce14-109">**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3ce14-109">**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))</span></span> 
   
- <span data-ttu-id="afb13-110">**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="afb13-110">**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))</span></span> 
+ <span data-ttu-id="3ce14-110">**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3ce14-110">**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))</span></span> 
   
- <span data-ttu-id="afb13-111">**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="afb13-111">**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))</span></span> 
+ <span data-ttu-id="3ce14-111">**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="3ce14-111">**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="afb13-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="afb13-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ce14-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="3ce14-112">See also</span></span>
 
 
 
-[<span data-ttu-id="afb13-113">Tabelas MAPI</span><span class="sxs-lookup"><span data-stu-id="afb13-113">MAPI Tables</span></span>](mapi-tables.md)
+[<span data-ttu-id="3ce14-113">Tabelas MAPI</span><span class="sxs-lookup"><span data-stu-id="3ce14-113">MAPI Tables</span></span>](mapi-tables.md)
 

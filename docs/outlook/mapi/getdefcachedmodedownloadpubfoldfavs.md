@@ -15,46 +15,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417704"
 ---
-# <a name="getdefcachedmodedownloadpubfoldfavs"></a><span data-ttu-id="99b32-103">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="99b32-103">GetDefCachedModeDownloadPubFoldFavs</span></span>
+# <a name="getdefcachedmodedownloadpubfoldfavs"></a><span data-ttu-id="29203-103">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="29203-103">GetDefCachedModeDownloadPubFoldFavs</span></span>
 
   
   
-<span data-ttu-id="99b32-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="99b32-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="29203-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="29203-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="99b32-105">Indica se o modo cache do Exchange para a pasta **favoritos da pasta pública** está habilitado e se isso é imposto pela política.</span><span class="sxs-lookup"><span data-stu-id="99b32-105">Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy.</span></span> 
+<span data-ttu-id="29203-105">Indica se o Modo Cache do Exchange para a **pasta Favoritos** da Pasta Pública está habilitado e se isso é imposto pela política.</span><span class="sxs-lookup"><span data-stu-id="29203-105">Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folder is enabled, and whether this is enforced by policy.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="99b32-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="99b32-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="29203-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="29203-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="99b32-107">Exportado por:</span><span class="sxs-lookup"><span data-stu-id="99b32-107">Exported by:</span></span>  <br/> |<span data-ttu-id="99b32-108">msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="99b32-108">msmapi32.dll</span></span>  <br/> |
-|<span data-ttu-id="99b32-109">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="99b32-109">Called by:</span></span>  <br/> |<span data-ttu-id="99b32-110">Cliente</span><span class="sxs-lookup"><span data-stu-id="99b32-110">Client</span></span>  <br/> |
-|<span data-ttu-id="99b32-111">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="99b32-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="99b32-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="99b32-112">Outlook</span></span>  <br/> |
+|<span data-ttu-id="29203-107">Exportado por:</span><span class="sxs-lookup"><span data-stu-id="29203-107">Exported by:</span></span>  <br/> |<span data-ttu-id="29203-108">msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="29203-108">msmapi32.dll</span></span>  <br/> |
+|<span data-ttu-id="29203-109">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="29203-109">Called by:</span></span>  <br/> |<span data-ttu-id="29203-110">Cliente</span><span class="sxs-lookup"><span data-stu-id="29203-110">Client</span></span>  <br/> |
+|<span data-ttu-id="29203-111">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="29203-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="29203-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="29203-112">Outlook</span></span>  <br/> |
    
 ```cpp
 BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy); 
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="99b32-113">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="99b32-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="29203-113">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="29203-113">Parameters</span></span>
 
- <span data-ttu-id="99b32-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="99b32-114">_pfPolicy_</span></span>
+ <span data-ttu-id="29203-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="29203-114">_pfPolicy_</span></span>
   
-> <span data-ttu-id="99b32-115">bota **true** se o valor de retorno é imposto por política, **false** se não for.</span><span class="sxs-lookup"><span data-stu-id="99b32-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
+> <span data-ttu-id="29203-115">[out] **true** se o valor de retorno for imposto pela política, **false** se não for.</span><span class="sxs-lookup"><span data-stu-id="29203-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="99b32-116">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="99b32-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="29203-116">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="29203-116">Return values</span></span>
 
- <span data-ttu-id="99b32-117">**verdadeiro**</span><span class="sxs-lookup"><span data-stu-id="99b32-117">**true**</span></span>
+ <span data-ttu-id="29203-117">**verdadeiro**</span><span class="sxs-lookup"><span data-stu-id="29203-117">**true**</span></span>
   
-- <span data-ttu-id="99b32-118">O cache está habilitado.</span><span class="sxs-lookup"><span data-stu-id="99b32-118">Caching is enabled.</span></span>
+- <span data-ttu-id="29203-118">O cache está habilitado.</span><span class="sxs-lookup"><span data-stu-id="29203-118">Caching is enabled.</span></span>
     
- <span data-ttu-id="99b32-119">**false**</span><span class="sxs-lookup"><span data-stu-id="99b32-119">**false**</span></span>
+ <span data-ttu-id="29203-119">**falso**</span><span class="sxs-lookup"><span data-stu-id="29203-119">**false**</span></span>
   
-- <span data-ttu-id="99b32-120">O armazenamento em cache está desabilitado.</span><span class="sxs-lookup"><span data-stu-id="99b32-120">Caching is disabled.</span></span>
+- <span data-ttu-id="29203-120">O cache está desabilitado.</span><span class="sxs-lookup"><span data-stu-id="29203-120">Caching is disabled.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="99b32-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="99b32-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="29203-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="29203-121">See also</span></span>
 
 
 
-[<span data-ttu-id="99b32-122">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="99b32-122">GetDefCachedMode</span></span>](getdefcachedmode.md)
+[<span data-ttu-id="29203-122">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="29203-122">GetDefCachedMode</span></span>](getdefcachedmode.md)
 

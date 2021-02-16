@@ -14,19 +14,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32359126"
 ---
-# <a name="attachments"></a><span data-ttu-id="9a944-102">Anexos</span><span class="sxs-lookup"><span data-stu-id="9a944-102">Attachments</span></span>
+# <a name="attachments"></a><span data-ttu-id="5ade2-102">Anexos</span><span class="sxs-lookup"><span data-stu-id="5ade2-102">Attachments</span></span>
 
-<span data-ttu-id="9a944-103">Esta seção fornece um exemplo de tarefa que envolve anexos de email.</span><span class="sxs-lookup"><span data-stu-id="9a944-103">This section provides a sample task that involves email attachments.</span></span>
+<span data-ttu-id="5ade2-103">Esta seção fornece um exemplo de tarefa que envolve anexos de email.</span><span class="sxs-lookup"><span data-stu-id="5ade2-103">This section provides a sample task that involves email attachments.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="9a944-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="9a944-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5ade2-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="5ade2-104">In this section</span></span>
 
-|<span data-ttu-id="9a944-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="9a944-105">Topic</span></span>|<span data-ttu-id="9a944-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="9a944-106">Description</span></span>|
+|<span data-ttu-id="5ade2-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="5ade2-105">Topic</span></span>|<span data-ttu-id="5ade2-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="5ade2-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="9a944-107">Remover os anexos de nível 2 de segurança de mensagens e salvá-los no disco por programação</span><span class="sxs-lookup"><span data-stu-id="9a944-107">Programmatically remove security level 2 attachments from messages and save them to disk</span></span>](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  |<span data-ttu-id="9a944-108">Remove os anexos de nível 2 de segurança de mensagens de email e os salva em um disco de onde possam ser abertos.</span><span class="sxs-lookup"><span data-stu-id="9a944-108">Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.</span></span>|
+|[<span data-ttu-id="5ade2-107">Remover os anexos de nível 2 de segurança de mensagens e salvá-los no disco por programação</span><span class="sxs-lookup"><span data-stu-id="5ade2-107">Programmatically remove security level 2 attachments from messages and save them to disk</span></span>](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  |<span data-ttu-id="5ade2-108">Remove os anexos de nível 2 de segurança de mensagens de email e os salva em um disco de onde possam ser abertos.</span><span class="sxs-lookup"><span data-stu-id="5ade2-108">Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="9a944-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="9a944-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ade2-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="5ade2-109">See also</span></span>
 
-- [<span data-ttu-id="9a944-110">Email</span><span class="sxs-lookup"><span data-stu-id="9a944-110">Mail</span></span>](mail.md)
-- [<span data-ttu-id="9a944-111">Pesquisar e filtrar</span><span class="sxs-lookup"><span data-stu-id="9a944-111">Search and filter</span></span>](search-and-filter.md)
-- [<span data-ttu-id="9a944-112">Como faço para... (Referência do PIA do Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="9a944-112">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="5ade2-110">Email</span><span class="sxs-lookup"><span data-stu-id="5ade2-110">Mail</span></span>](mail.md)
+- [<span data-ttu-id="5ade2-111">Pesquisar e filtrar</span><span class="sxs-lookup"><span data-stu-id="5ade2-111">Search and filter</span></span>](search-and-filter.md)
+- [<span data-ttu-id="5ade2-112">Como faço para... (Referência do PIA do Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="5ade2-112">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 
