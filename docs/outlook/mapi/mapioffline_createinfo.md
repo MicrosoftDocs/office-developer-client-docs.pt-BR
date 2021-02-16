@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429562"
 ---
-# <a name="mapiofflinecreateinfo"></a><span data-ttu-id="8e1d9-103">MAPIOFFLINE_CREATEINFO</span><span class="sxs-lookup"><span data-stu-id="8e1d9-103">MAPIOFFLINE_CREATEINFO</span></span>
+# <a name="mapioffline_createinfo"></a><span data-ttu-id="aa7be-103">MAPIOFFLINE_CREATEINFO</span><span class="sxs-lookup"><span data-stu-id="aa7be-103">MAPIOFFLINE_CREATEINFO</span></span>
 
   
   
-<span data-ttu-id="8e1d9-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e1d9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="aa7be-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aa7be-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8e1d9-105">Essa estrutura é usada com o [HrCreateOfflineObj](hrcreateofflineobj.md).</span><span class="sxs-lookup"><span data-stu-id="8e1d9-105">This structure is used with [HrCreateOfflineObj](hrcreateofflineobj.md).</span></span>
+<span data-ttu-id="aa7be-105">Essa estrutura é usada com [HrCreateOfflineObj](hrcreateofflineobj.md).</span><span class="sxs-lookup"><span data-stu-id="aa7be-105">This structure is used with [HrCreateOfflineObj](hrcreateofflineobj.md).</span></span>
   
 ```cpp
 typedef struct
@@ -39,58 +39,58 @@ typedef struct
 } MAPIOFFLINE_CREATEINFO;
 ```
 
-## <a name="members"></a><span data-ttu-id="8e1d9-106">Members</span><span class="sxs-lookup"><span data-stu-id="8e1d9-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="aa7be-106">Members</span><span class="sxs-lookup"><span data-stu-id="aa7be-106">Members</span></span>
 
- <span data-ttu-id="8e1d9-107">**ulSize**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-107">**ulSize**</span></span>
+ <span data-ttu-id="aa7be-107">**ulSize**</span><span class="sxs-lookup"><span data-stu-id="aa7be-107">**ulSize**</span></span>
   
-> <span data-ttu-id="8e1d9-108">O tamanho da estrutura.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-108">The size of structure.</span></span>
+> <span data-ttu-id="aa7be-108">O tamanho da estrutura.</span><span class="sxs-lookup"><span data-stu-id="aa7be-108">The size of structure.</span></span>
     
- <span data-ttu-id="8e1d9-109">**ulCreateFlags**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-109">**ulCreateFlags**</span></span>
+ <span data-ttu-id="aa7be-109">**ulCreateFlags**</span><span class="sxs-lookup"><span data-stu-id="aa7be-109">**ulCreateFlags**</span></span>
   
-> <span data-ttu-id="8e1d9-110">Deve ser 0.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-110">It must be 0.</span></span>
+> <span data-ttu-id="aa7be-110">Deve ser 0.</span><span class="sxs-lookup"><span data-stu-id="aa7be-110">It must be 0.</span></span>
     
- <span data-ttu-id="8e1d9-111">**pwszProfileName**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-111">**pwszProfileName**</span></span>
+ <span data-ttu-id="aa7be-111">**pwszProfileName**</span><span class="sxs-lookup"><span data-stu-id="aa7be-111">**pwszProfileName**</span></span>
   
-> <span data-ttu-id="8e1d9-112">O nome do perfil.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-112">The name of the profile.</span></span>
+> <span data-ttu-id="aa7be-112">O nome do perfil.</span><span class="sxs-lookup"><span data-stu-id="aa7be-112">The name of the profile.</span></span>
     
- <span data-ttu-id="8e1d9-113">**ulCapabilities**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-113">**ulCapabilities**</span></span>
+ <span data-ttu-id="aa7be-113">**ulCapabilities**</span><span class="sxs-lookup"><span data-stu-id="aa7be-113">**ulCapabilities**</span></span>
   
-> <span data-ttu-id="8e1d9-114">Uma máscara de bits dos seguintes sinalizadores de recurso.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-114">A bit mask of the following capability flags.</span></span>
+> <span data-ttu-id="aa7be-114">Uma máscara de bits dos sinalizadores de funcionalidade a seguir.</span><span class="sxs-lookup"><span data-stu-id="aa7be-114">A bit mask of the following capability flags.</span></span>
     
 |||
 |:-----|:-----|
-|<span data-ttu-id="8e1d9-115">MAPIOFFLINE_CAPABILITY_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="8e1d9-115">MAPIOFFLINE_CAPABILITY_OFFLINE</span></span>  <br/> |<span data-ttu-id="8e1d9-116">O objeto offline é capaz de ficar offline.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-116">The offline object is capable of going offline.</span></span>  <br/> |
-|<span data-ttu-id="8e1d9-117">MAPIOFFLINE_CAPABILITY_ONLINE</span><span class="sxs-lookup"><span data-stu-id="8e1d9-117">MAPIOFFLINE_CAPABILITY_ONLINE</span></span>  <br/> |<span data-ttu-id="8e1d9-118">O objeto offline é capaz de entrar online.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-118">The offline object is capable of going online.</span></span>  <br/> |
+|<span data-ttu-id="aa7be-115">MAPIOFFLINE_CAPABILITY_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="aa7be-115">MAPIOFFLINE_CAPABILITY_OFFLINE</span></span>  <br/> |<span data-ttu-id="aa7be-116">O objeto offline é capaz de ficar offline.</span><span class="sxs-lookup"><span data-stu-id="aa7be-116">The offline object is capable of going offline.</span></span>  <br/> |
+|<span data-ttu-id="aa7be-117">MAPIOFFLINE_CAPABILITY_ONLINE</span><span class="sxs-lookup"><span data-stu-id="aa7be-117">MAPIOFFLINE_CAPABILITY_ONLINE</span></span>  <br/> |<span data-ttu-id="aa7be-118">O objeto offline é capaz de ficar online.</span><span class="sxs-lookup"><span data-stu-id="aa7be-118">The offline object is capable of going online.</span></span>  <br/> |
    
- <span data-ttu-id="8e1d9-119">**pGUID**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-119">**pGUID**</span></span>
+ <span data-ttu-id="aa7be-119">**pGUID**</span><span class="sxs-lookup"><span data-stu-id="aa7be-119">**pGUID**</span></span>
   
-> <span data-ttu-id="8e1d9-120">Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline de outros objetos offline.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-120">Pointer to a GUID that is used to uniquely identify this type of offline object from other offline objects.</span></span> <span data-ttu-id="8e1d9-121">GUID_GlobalState refere-se ao objeto offline global que os objetos podem usar como um objeto pai.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-121">GUID_GlobalState refers to the global offline object that objects can use as a parent object.</span></span>
+> <span data-ttu-id="aa7be-120">Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline de outros objetos offline.</span><span class="sxs-lookup"><span data-stu-id="aa7be-120">Pointer to a GUID that is used to uniquely identify this type of offline object from other offline objects.</span></span> <span data-ttu-id="aa7be-121">GUID_GlobalState se refere ao objeto offline global que os objetos podem usar como um objeto pai.</span><span class="sxs-lookup"><span data-stu-id="aa7be-121">GUID_GlobalState refers to the global offline object that objects can use as a parent object.</span></span>
     
- <span data-ttu-id="8e1d9-122">**pInstance**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-122">**pInstance**</span></span>
+ <span data-ttu-id="aa7be-122">**pInstance**</span><span class="sxs-lookup"><span data-stu-id="aa7be-122">**pInstance**</span></span>
   
-> <span data-ttu-id="8e1d9-123">Ponteiro para o GUID que identifica exclusivamente este objeto offline.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-123">Pointer to GUID that uniquely identifies this offline object.</span></span> <span data-ttu-id="8e1d9-124">Ela é usada para desambiguar esses objetos offline de outros objetos.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-124">It is used to disambiguate this offline objects from other objects.</span></span>
+> <span data-ttu-id="aa7be-123">Ponteiro para GUID que identifica exclusivamente esse objeto offline.</span><span class="sxs-lookup"><span data-stu-id="aa7be-123">Pointer to GUID that uniquely identifies this offline object.</span></span> <span data-ttu-id="aa7be-124">Ele é usado para desambiguar esses objetos offline de outros objetos.</span><span class="sxs-lookup"><span data-stu-id="aa7be-124">It is used to disambiguate this offline objects from other objects.</span></span>
     
- <span data-ttu-id="8e1d9-125">**pParent**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-125">**pParent**</span></span>
+ <span data-ttu-id="aa7be-125">**pParent**</span><span class="sxs-lookup"><span data-stu-id="aa7be-125">**pParent**</span></span>
   
-> <span data-ttu-id="8e1d9-126">Ponteiro para objeto offline que é o pai deste objeto offline e cujas alterações esse objeto offline herdará.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-126">Pointer to offline object that is the parent of this offline object and whose changes this offline object will inherit.</span></span>
+> <span data-ttu-id="aa7be-126">Ponteiro para objeto offline que é o pai deste objeto offline e cujas alterações esse objeto offline herdará.</span><span class="sxs-lookup"><span data-stu-id="aa7be-126">Pointer to offline object that is the parent of this offline object and whose changes this offline object will inherit.</span></span>
     
- <span data-ttu-id="8e1d9-127">**pMAPISupport**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-127">**pMAPISupport**</span></span>
+ <span data-ttu-id="aa7be-127">**pMAPISupport**</span><span class="sxs-lookup"><span data-stu-id="aa7be-127">**pMAPISupport**</span></span>
   
->  <span data-ttu-id="8e1d9-128">Identifica o objeto de suporte MAPI que usará este objeto offline.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-128">Identifies the MAPI support object that that will use this offline object.</span></span> <span data-ttu-id="8e1d9-129">Por exemplo, se este objeto offline é usado para controlar o estado offline e online de um repositório, este é o objeto de suporte de armazenamento.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-129">For example, if this offline object is used to keep track of a store's offline and online state, then this is the stores support object.</span></span> <span data-ttu-id="8e1d9-130">No enTanto, se este for um objeto offline para um objeto sem nenhum objeto support, ele poderá ser nulo.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-130">However, if this is an offline object for an object with no support object then it can be NULL.</span></span> 
+>  <span data-ttu-id="aa7be-128">Identifica o objeto de suporte MAPI que usará esse objeto offline.</span><span class="sxs-lookup"><span data-stu-id="aa7be-128">Identifies the MAPI support object that that will use this offline object.</span></span> <span data-ttu-id="aa7be-129">Por exemplo, se esse objeto offline for usado para controlar o estado offline e online de um armazenamento, esse será o objeto de suporte aos armazenamentos.</span><span class="sxs-lookup"><span data-stu-id="aa7be-129">For example, if this offline object is used to keep track of a store's offline and online state, then this is the stores support object.</span></span> <span data-ttu-id="aa7be-130">No entanto, se for um objeto offline para um objeto sem suporte, ele poderá ser NULL.</span><span class="sxs-lookup"><span data-stu-id="aa7be-130">However, if this is an offline object for an object with no support object then it can be NULL.</span></span> 
     
- <span data-ttu-id="8e1d9-131">**pAggregateInfo**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-131">**pAggregateInfo**</span></span>
+ <span data-ttu-id="aa7be-131">**pAggregateInfo**</span><span class="sxs-lookup"><span data-stu-id="aa7be-131">**pAggregateInfo**</span></span>
   
-> <span data-ttu-id="8e1d9-132">Um ponteiro para uma estrutura MAPIOFFLINE_AGGREGATEINFO.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-132">A pointer to a MAPIOFFLINE_AGGREGATEINFO structure.</span></span> <span data-ttu-id="8e1d9-133">Para obter mais informações, consulte [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).</span><span class="sxs-lookup"><span data-stu-id="8e1d9-133">For more information, see [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).</span></span>
+> <span data-ttu-id="aa7be-132">Um ponteiro para uma MAPIOFFLINE_AGGREGATEINFO estrutura.</span><span class="sxs-lookup"><span data-stu-id="aa7be-132">A pointer to a MAPIOFFLINE_AGGREGATEINFO structure.</span></span> <span data-ttu-id="aa7be-133">Para obter mais informações, [consulte MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).</span><span class="sxs-lookup"><span data-stu-id="aa7be-133">For more information, see [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).</span></span>
     
- <span data-ttu-id="8e1d9-134">**pConnectInfo**</span><span class="sxs-lookup"><span data-stu-id="8e1d9-134">**pConnectInfo**</span></span>
+ <span data-ttu-id="aa7be-134">**pConnectInfo**</span><span class="sxs-lookup"><span data-stu-id="aa7be-134">**pConnectInfo**</span></span>
   
-> <span data-ttu-id="8e1d9-135">Deve ser nulo.</span><span class="sxs-lookup"><span data-stu-id="8e1d9-135">Must be null.</span></span>
+> <span data-ttu-id="aa7be-135">Deve ser nulo.</span><span class="sxs-lookup"><span data-stu-id="aa7be-135">Must be null.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8e1d9-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="8e1d9-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa7be-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="aa7be-136">See also</span></span>
 
 
 
-[<span data-ttu-id="8e1d9-137">HrCreateOfflineObj</span><span class="sxs-lookup"><span data-stu-id="8e1d9-137">HrCreateOfflineObj</span></span>](hrcreateofflineobj.md)
+[<span data-ttu-id="aa7be-137">HrCreateOfflineObj</span><span class="sxs-lookup"><span data-stu-id="aa7be-137">HrCreateOfflineObj</span></span>](hrcreateofflineobj.md)
   
-[<span data-ttu-id="8e1d9-138">MAPIOFFLINE_AGGREGATEINFO</span><span class="sxs-lookup"><span data-stu-id="8e1d9-138">MAPIOFFLINE_AGGREGATEINFO</span></span>](mapioffline_aggregateinfo.md)
+[<span data-ttu-id="aa7be-138">MAPIOFFLINE_AGGREGATEINFO</span><span class="sxs-lookup"><span data-stu-id="aa7be-138">MAPIOFFLINE_AGGREGATEINFO</span></span>](mapioffline_aggregateinfo.md)
 

@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430606"
 ---
-# <a name="scommentrestriction"></a><span data-ttu-id="8483c-103">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="8483c-103">SCommentRestriction</span></span>
+# <a name="scommentrestriction"></a><span data-ttu-id="ec2d2-103">SCommentRestriction</span><span class="sxs-lookup"><span data-stu-id="ec2d2-103">SCommentRestriction</span></span>
 
   
   
-<span data-ttu-id="8483c-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8483c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ec2d2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ec2d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8483c-105">Descreve uma restrição de comentário, que é usada para anotar uma restrição.</span><span class="sxs-lookup"><span data-stu-id="8483c-105">Describes a comment restriction, which is used to annotate a restriction.</span></span> 
+<span data-ttu-id="ec2d2-105">Descreve uma restrição de comentário, que é usada para anotar uma restrição.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-105">Describes a comment restriction, which is used to annotate a restriction.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8483c-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="8483c-106">Header file:</span></span>  <br/> |<span data-ttu-id="8483c-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="8483c-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="ec2d2-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="ec2d2-106">Header file:</span></span>  <br/> |<span data-ttu-id="ec2d2-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ec2d2-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -41,38 +41,38 @@ typedef struct _SCommentRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="8483c-108">Members</span><span class="sxs-lookup"><span data-stu-id="8483c-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ec2d2-108">Members</span><span class="sxs-lookup"><span data-stu-id="ec2d2-108">Members</span></span>
 
- <span data-ttu-id="8483c-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="8483c-109">**cValues**</span></span>
+ <span data-ttu-id="ec2d2-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="ec2d2-109">**cValues**</span></span>
   
-> <span data-ttu-id="8483c-110">Contagem de valores de propriedade na matriz apontada pelo membro **lpProp** .</span><span class="sxs-lookup"><span data-stu-id="8483c-110">Count of property values in the array pointed to by the **lpProp** member.</span></span> 
+> <span data-ttu-id="ec2d2-110">Contagem de valores de propriedade na matriz apontada pelo **membro lpProp.**</span><span class="sxs-lookup"><span data-stu-id="ec2d2-110">Count of property values in the array pointed to by the **lpProp** member.</span></span> 
     
- <span data-ttu-id="8483c-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="8483c-111">**lpRes**</span></span>
+ <span data-ttu-id="ec2d2-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="ec2d2-111">**lpRes**</span></span>
   
-> <span data-ttu-id="8483c-112">Ponteiro para uma estrutura [SRestriction](srestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="8483c-112">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
+> <span data-ttu-id="ec2d2-112">Ponteiro para uma [estrutura SRestriction.](srestriction.md)</span><span class="sxs-lookup"><span data-stu-id="ec2d2-112">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
     
- <span data-ttu-id="8483c-113">**lpProp**</span><span class="sxs-lookup"><span data-stu-id="8483c-113">**lpProp**</span></span>
+ <span data-ttu-id="ec2d2-113">**lpProp**</span><span class="sxs-lookup"><span data-stu-id="ec2d2-113">**lpProp**</span></span>
   
-> <span data-ttu-id="8483c-114">Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) , cada uma contendo a marca de propriedade e o valor de uma propriedade nomeada.</span><span class="sxs-lookup"><span data-stu-id="8483c-114">Pointer to an array of [SPropValue](spropvalue.md) structures, each containing the property tag and value for a named property.</span></span> 
+> <span data-ttu-id="ec2d2-114">Ponteiro para uma matriz de [estruturas SPropValue,](spropvalue.md) cada uma contendo a marca de propriedade e o valor de uma propriedade nomeada.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-114">Pointer to an array of [SPropValue](spropvalue.md) structures, each containing the property tag and value for a named property.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="8483c-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="8483c-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec2d2-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="ec2d2-115">Remarks</span></span>
 
-<span data-ttu-id="8483c-116">A estrutura **SCommentRestriction** associa um objeto junto a um conjunto de propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="8483c-116">The **SCommentRestriction** structure associates an object together with a set of named properties.</span></span> <span data-ttu-id="8483c-117">As restrições de comentário são diferentes de outras restrições porque elas não são avaliadas.</span><span class="sxs-lookup"><span data-stu-id="8483c-117">Comment restrictions are unlike other restrictions because they are not evaluated.</span></span> <span data-ttu-id="8483c-118">Ou seja, eles são ignorados pelo método imApitable [:: Restrict](imapitable-restrict.md) .</span><span class="sxs-lookup"><span data-stu-id="8483c-118">That is, they are ignored by the [IMAPITable::Restrict](imapitable-restrict.md) method.</span></span> <span data-ttu-id="8483c-119">Não há efeito nas linhas retornadas pelo método imApitable [:: QueryRows](imapitable-queryrows.md) após uma chamada IMAPITable **:: Restrict** foi feita.</span><span class="sxs-lookup"><span data-stu-id="8483c-119">There is no effect on the rows returned by the [IMAPITable::QueryRows](imapitable-queryrows.md) method after an **IMAPITable::Restrict** call has been made.</span></span> 
+<span data-ttu-id="ec2d2-116">A **estrutura SCommentRestriction** associa um objeto com um conjunto de propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-116">The **SCommentRestriction** structure associates an object together with a set of named properties.</span></span> <span data-ttu-id="ec2d2-117">Restrições de comentário são diferentes de outras restrições porque elas não são avaliadas.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-117">Comment restrictions are unlike other restrictions because they are not evaluated.</span></span> <span data-ttu-id="ec2d2-118">Ou seja, eles são ignorados pelo [método IMAPITable::Restrict.](imapitable-restrict.md)</span><span class="sxs-lookup"><span data-stu-id="ec2d2-118">That is, they are ignored by the [IMAPITable::Restrict](imapitable-restrict.md) method.</span></span> <span data-ttu-id="ec2d2-119">Não há efeito nas linhas retornadas pelo método [IMAPITable::QueryRows](imapitable-queryrows.md) após uma chamada **IMAPITable::Restrict** ter sido feita.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-119">There is no effect on the rows returned by the [IMAPITable::QueryRows](imapitable-queryrows.md) method after an **IMAPITable::Restrict** call has been made.</span></span> 
   
-<span data-ttu-id="8483c-120">A estrutura **SCommentRestriction** pode ser usada para manter as informações específicas do aplicativo com uma restrição quando salva no disco.</span><span class="sxs-lookup"><span data-stu-id="8483c-120">The **SCommentRestriction** structure can be used to keep application-specific information with a restriction when it is saved on disk.</span></span> <span data-ttu-id="8483c-121">Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazê-lo em uma estrutura **SCommentRestriction** .</span><span class="sxs-lookup"><span data-stu-id="8483c-121">For example, a client saving the name of a named property used in a property restriction can do so in an **SCommentRestriction** structure.</span></span> <span data-ttu-id="8483c-122">Não é possível salvar um nome de propriedade em uma restrição de propriedade porque a estrutura [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade.</span><span class="sxs-lookup"><span data-stu-id="8483c-122">Saving a property name is not possible in a property restriction because the associated [SPropertyRestriction](spropertyrestriction.md) structure holds only the property tag.</span></span> 
+<span data-ttu-id="ec2d2-120">A **estrutura SCommentRestriction** pode ser usada para manter informações específicas do aplicativo com uma restrição quando ela é salva no disco.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-120">The **SCommentRestriction** structure can be used to keep application-specific information with a restriction when it is saved on disk.</span></span> <span data-ttu-id="ec2d2-121">Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazer isso em uma **estrutura SCommentRestriction.**</span><span class="sxs-lookup"><span data-stu-id="ec2d2-121">For example, a client saving the name of a named property used in a property restriction can do so in an **SCommentRestriction** structure.</span></span> <span data-ttu-id="ec2d2-122">Salvar um nome de propriedade não é possível em uma restrição de propriedade porque a estrutura [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade.</span><span class="sxs-lookup"><span data-stu-id="ec2d2-122">Saving a property name is not possible in a property restriction because the associated [SPropertyRestriction](spropertyrestriction.md) structure holds only the property tag.</span></span> 
   
-<span data-ttu-id="8483c-123">Para obter mais informações sobre a estrutura e as restrições do **SCommentRestriction** em geral, consulte [about Restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="8483c-123">For more information about the **SCommentRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="ec2d2-123">Para obter mais informações sobre a **estrutura SCommentRestriction** e restrições em geral, consulte [Sobre restrições](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="ec2d2-123">For more information about the **SCommentRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="8483c-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="8483c-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ec2d2-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="ec2d2-124">See also</span></span>
 
 
 
-[<span data-ttu-id="8483c-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="8483c-125">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="ec2d2-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="ec2d2-125">SPropValue</span></span>](spropvalue.md)
   
-[<span data-ttu-id="8483c-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="8483c-126">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="ec2d2-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="ec2d2-126">SRestriction</span></span>](srestriction.md)
   
-[<span data-ttu-id="8483c-127">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="8483c-127">SPropertyRestriction</span></span>](spropertyrestriction.md)
+[<span data-ttu-id="ec2d2-127">SPropertyRestriction</span><span class="sxs-lookup"><span data-stu-id="ec2d2-127">SPropertyRestriction</span></span>](spropertyrestriction.md)
 
 
-[<span data-ttu-id="8483c-128">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="8483c-128">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="ec2d2-128">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="ec2d2-128">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -19,33 +19,33 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431467"
 ---
-# <a name="iabprovider--iunknown"></a><span data-ttu-id="88f92-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="88f92-103">IABProvider : IUnknown</span></span>
+# <a name="iabprovider--iunknown"></a><span data-ttu-id="74671-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="74671-103">IABProvider : IUnknown</span></span>
 
   
   
-<span data-ttu-id="88f92-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="88f92-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="74671-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="74671-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="88f92-105">Fornece um método para fazer logon em um objeto de provedor de catálogo de endereços e um método para invalidar um objeto de provedor de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="88f92-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
+<span data-ttu-id="74671-105">Fornece um método para fazer logoff em um objeto de provedor de agendas de endereços e um método para invalidar um objeto de provedor de agendas.</span><span class="sxs-lookup"><span data-stu-id="74671-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="88f92-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="88f92-106">Header file:</span></span>  <br/> |<span data-ttu-id="88f92-107">Mapispi. h</span><span class="sxs-lookup"><span data-stu-id="88f92-107">Mapispi.h</span></span>  <br/> |
-|<span data-ttu-id="88f92-108">Exposto por:</span><span class="sxs-lookup"><span data-stu-id="88f92-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="88f92-109">Objetos do provedor de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="88f92-109">Address book provider objects</span></span>  <br/> |
-|<span data-ttu-id="88f92-110">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="88f92-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="88f92-111">Provedores de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="88f92-111">Address book providers</span></span>  <br/> |
-|<span data-ttu-id="88f92-112">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="88f92-112">Called by:</span></span>  <br/> |<span data-ttu-id="88f92-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="88f92-113">MAPI</span></span>  <br/> |
-|<span data-ttu-id="88f92-114">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="88f92-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="88f92-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="88f92-115">IID_IABProvider</span></span>  <br/> |
-|<span data-ttu-id="88f92-116">Tipo de ponteiro:</span><span class="sxs-lookup"><span data-stu-id="88f92-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="88f92-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="88f92-117">LPABPROVIDER</span></span>  <br/> |
+|<span data-ttu-id="74671-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="74671-106">Header file:</span></span>  <br/> |<span data-ttu-id="74671-107">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="74671-107">Mapispi.h</span></span>  <br/> |
+|<span data-ttu-id="74671-108">Exposto por:</span><span class="sxs-lookup"><span data-stu-id="74671-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="74671-109">Objetos do provedor de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="74671-109">Address book provider objects</span></span>  <br/> |
+|<span data-ttu-id="74671-110">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="74671-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="74671-111">Provedores de lista de endereços</span><span class="sxs-lookup"><span data-stu-id="74671-111">Address book providers</span></span>  <br/> |
+|<span data-ttu-id="74671-112">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="74671-112">Called by:</span></span>  <br/> |<span data-ttu-id="74671-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="74671-113">MAPI</span></span>  <br/> |
+|<span data-ttu-id="74671-114">Identificador de interface:</span><span class="sxs-lookup"><span data-stu-id="74671-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="74671-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="74671-115">IID_IABProvider</span></span>  <br/> |
+|<span data-ttu-id="74671-116">Tipo de ponteiro:</span><span class="sxs-lookup"><span data-stu-id="74671-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="74671-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="74671-117">LPABPROVIDER</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="88f92-118">Vtable order</span><span class="sxs-lookup"><span data-stu-id="88f92-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="74671-118">Vtable order</span><span class="sxs-lookup"><span data-stu-id="74671-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="88f92-119">Logon</span><span class="sxs-lookup"><span data-stu-id="88f92-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="88f92-120">Estabelece uma conexão com uma sessão ativa.</span><span class="sxs-lookup"><span data-stu-id="88f92-120">Establishes a connection to an active session.</span></span>  <br/> |
-|[<span data-ttu-id="88f92-121">Shutdown</span><span class="sxs-lookup"><span data-stu-id="88f92-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="88f92-122">Cancela uma conexão com uma sessão ativa.</span><span class="sxs-lookup"><span data-stu-id="88f92-122">Cancels a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="74671-119">Logon</span><span class="sxs-lookup"><span data-stu-id="74671-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="74671-120">Estabelece uma conexão com uma sessão ativa.</span><span class="sxs-lookup"><span data-stu-id="74671-120">Establishes a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="74671-121">Break</span><span class="sxs-lookup"><span data-stu-id="74671-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="74671-122">Cancela uma conexão com uma sessão ativa.</span><span class="sxs-lookup"><span data-stu-id="74671-122">Cancels a connection to an active session.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="88f92-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="88f92-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="74671-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="74671-123">See also</span></span>
 
 
 
-[<span data-ttu-id="88f92-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="88f92-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="74671-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="74671-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

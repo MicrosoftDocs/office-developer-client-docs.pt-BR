@@ -19,18 +19,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433910"
 ---
-# <a name="smapiverbarray"></a><span data-ttu-id="99194-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="99194-103">SMAPIVerbArray</span></span>
+# <a name="smapiverbarray"></a><span data-ttu-id="2f0a4-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="2f0a4-103">SMAPIVerbArray</span></span>
 
   
   
-<span data-ttu-id="99194-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="99194-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2f0a4-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2f0a4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="99194-105">Contém uma matriz de estruturas [SMAPIVerb](smapiverb.md) que descrevem os verbos MAPI.</span><span class="sxs-lookup"><span data-stu-id="99194-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
+<span data-ttu-id="2f0a4-105">Contém uma matriz de [estruturas SMAPIVerb](smapiverb.md) que descrevem verbos MAPI.</span><span class="sxs-lookup"><span data-stu-id="2f0a4-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="99194-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="99194-106">Header file:</span></span>  <br/> |<span data-ttu-id="99194-107">Mapiform. h</span><span class="sxs-lookup"><span data-stu-id="99194-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="99194-108">Macro relacionada:</span><span class="sxs-lookup"><span data-stu-id="99194-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="99194-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="99194-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
+|<span data-ttu-id="2f0a4-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="2f0a4-106">Header file:</span></span>  <br/> |<span data-ttu-id="2f0a4-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="2f0a4-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="2f0a4-108">Macro relacionada:</span><span class="sxs-lookup"><span data-stu-id="2f0a4-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="2f0a4-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="2f0a4-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -41,26 +41,26 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="99194-110">Members</span><span class="sxs-lookup"><span data-stu-id="99194-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="2f0a4-110">Members</span><span class="sxs-lookup"><span data-stu-id="2f0a4-110">Members</span></span>
 
- <span data-ttu-id="99194-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="99194-111">**cForms**</span></span>
+ <span data-ttu-id="2f0a4-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="2f0a4-111">**cForms**</span></span>
   
-> <span data-ttu-id="99194-112">Contagem de verbos na matriz.</span><span class="sxs-lookup"><span data-stu-id="99194-112">Count of verbs in the array.</span></span>
+> <span data-ttu-id="2f0a4-112">Contagem de verbos na matriz.</span><span class="sxs-lookup"><span data-stu-id="2f0a4-112">Count of verbs in the array.</span></span>
     
- <span data-ttu-id="99194-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="99194-113">**aFormInfo**</span></span>
+ <span data-ttu-id="2f0a4-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="2f0a4-113">**aFormInfo**</span></span>
   
-> <span data-ttu-id="99194-114">Matriz de verbos MAPI.</span><span class="sxs-lookup"><span data-stu-id="99194-114">Array of MAPI verbs.</span></span>
+> <span data-ttu-id="2f0a4-114">Matriz de verbos MAPI.</span><span class="sxs-lookup"><span data-stu-id="2f0a4-114">Array of MAPI verbs.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="99194-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="99194-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f0a4-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="2f0a4-115">Remarks</span></span>
 
-<span data-ttu-id="99194-116">A estrutura **SMAPIVerbArray** é passada como um parâmetro no método [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) .</span><span class="sxs-lookup"><span data-stu-id="99194-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
+<span data-ttu-id="2f0a4-116">A **estrutura SMAPIVerbArray** é passada como um parâmetro no método [IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md)</span><span class="sxs-lookup"><span data-stu-id="2f0a4-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="99194-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="99194-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f0a4-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="2f0a4-117">See also</span></span>
 
 
 
-[<span data-ttu-id="99194-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="99194-118">SMAPIVerb</span></span>](smapiverb.md)
+[<span data-ttu-id="2f0a4-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="2f0a4-118">SMAPIVerb</span></span>](smapiverb.md)
 
 
-[<span data-ttu-id="99194-119">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="99194-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="2f0a4-119">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="2f0a4-119">MAPI Structures</span></span>](mapi-structures.md)
 

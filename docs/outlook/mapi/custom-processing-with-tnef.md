@@ -15,10 +15,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430844"
 ---
-# <a name="custom-processing-with-tnef"></a><span data-ttu-id="b8c48-103">Processamento personalizado com TNEF</span><span class="sxs-lookup"><span data-stu-id="b8c48-103">Custom processing with TNEF</span></span>
+# <a name="custom-processing-with-tnef"></a><span data-ttu-id="01f43-103">Processamento personalizado com TNEF</span><span class="sxs-lookup"><span data-stu-id="01f43-103">Custom processing with TNEF</span></span>
 
-<span data-ttu-id="b8c48-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b8c48-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="01f43-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="01f43-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b8c48-105">Os provedores de transporte podem usar o processamento personalizado para processar as propriedades em um próprio anexo, transmitir anexos separadamente ou transmiti-los por meio do modelo de anexo do sistema de mensagens.</span><span class="sxs-lookup"><span data-stu-id="b8c48-105">Transport providers can use custom processing to process the properties on an attachment itself, transmit attachments separately, or transmit them through the messaging system's attachment model.</span></span> <span data-ttu-id="b8c48-106">O TNEF usa um mecanismo que permite que o provedor de transporte envie os anexos separados da mensagem e reconecte-os ao lado do destinatário.</span><span class="sxs-lookup"><span data-stu-id="b8c48-106">TNEF uses a mechanism that enables the transport provider to send the attachments apart from the message and reconnect them on the receiving side.</span></span>
+<span data-ttu-id="01f43-105">Os provedores de transporte podem usar o processamento personalizado para processar as propriedades em um anexo em si, transmitir anexos separadamente ou transmiti-los por meio do modelo de anexo do sistema de mensagens.</span><span class="sxs-lookup"><span data-stu-id="01f43-105">Transport providers can use custom processing to process the properties on an attachment itself, transmit attachments separately, or transmit them through the messaging system's attachment model.</span></span> <span data-ttu-id="01f43-106">O TNEF usa um mecanismo que permite ao provedor de transporte enviar os anexos além da mensagem e reconectá-los no lado de recebimento.</span><span class="sxs-lookup"><span data-stu-id="01f43-106">TNEF uses a mechanism that enables the transport provider to send the attachments apart from the message and reconnect them on the receiving side.</span></span>
   
 

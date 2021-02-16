@@ -16,8 +16,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431327"
 ---
-# <a name="style-properties-section"></a><span data-ttu-id="a1975-103">Seção Style Properties</span><span class="sxs-lookup"><span data-stu-id="a1975-103">Style Properties Section</span></span>
+# <a name="style-properties-section"></a><span data-ttu-id="dda7a-103">Seção Style Properties</span><span class="sxs-lookup"><span data-stu-id="dda7a-103">Style Properties Section</span></span>
 
-<span data-ttu-id="a1975-104">Inclui as células que controlam o comportamento de estilo, como se o estilo inclui atributos de texto, de linha e de preenchimento.</span><span class="sxs-lookup"><span data-stu-id="a1975-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
+<span data-ttu-id="dda7a-104">Inclui as células que controlam o comportamento de estilo, como se o estilo inclui atributos de texto, de linha e de preenchimento.</span><span class="sxs-lookup"><span data-stu-id="dda7a-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
   
 
