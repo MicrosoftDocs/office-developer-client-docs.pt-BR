@@ -15,9 +15,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541278"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="ab165-103">Mapa de esquema (Esquema de localização do clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="ab165-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="800ad-103">Mapa de esquema (Esquema de localização do clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="800ad-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="ab165-104">Este tópico mostra a definição do esquema XML de localização do clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="ab165-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="800ad-104">Este tópico mostra a definição do esquema XML de localização do clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="800ad-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

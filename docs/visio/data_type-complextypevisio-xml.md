@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541243"
 ---
-# <a name="datatype-complextype-visio-xml"></a><span data-ttu-id="6b268-102">Data_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="6b268-102">Data_Type complexType (Visio XML)</span></span>
+# <a name="data_type-complextype-visio-xml"></a><span data-ttu-id="77985-102">Data_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="77985-102">Data_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="6b268-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="6b268-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="77985-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="77985-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6b268-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="6b268-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="6b268-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="6b268-105">**Schema file**</span></span> <br/> |<span data-ttu-id="6b268-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="6b268-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="6b268-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="6b268-107">**Extension base**</span></span> <br/> |<span data-ttu-id="6b268-108">xsd:string</span><span class="sxs-lookup"><span data-stu-id="6b268-108">xsd:string</span></span>  <br/> |
+|<span data-ttu-id="77985-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="77985-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="77985-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="77985-105">**Schema file**</span></span> <br/> |<span data-ttu-id="77985-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="77985-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="77985-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="77985-107">**Extension base**</span></span> <br/> |<span data-ttu-id="77985-108">xsd:string</span><span class="sxs-lookup"><span data-stu-id="77985-108">xsd:string</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="6b268-109">Definição</span><span class="sxs-lookup"><span data-stu-id="6b268-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="77985-109">Definição</span><span class="sxs-lookup"><span data-stu-id="77985-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="Data_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34541243"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="6b268-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="6b268-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="77985-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="77985-110">Elements and attributes</span></span>
 
-<span data-ttu-id="6b268-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="6b268-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="77985-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="77985-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="6b268-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="6b268-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="77985-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="77985-112">Child elements</span></span>
 
-<span data-ttu-id="6b268-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="6b268-113">None.</span></span>
+<span data-ttu-id="77985-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="77985-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6b268-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="6b268-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="77985-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="77985-114">Attributes</span></span>
 
-<span data-ttu-id="6b268-115">Nenhum</span><span class="sxs-lookup"><span data-stu-id="6b268-115">None.</span></span>
+<span data-ttu-id="77985-115">Nenhum</span><span class="sxs-lookup"><span data-stu-id="77985-115">None.</span></span>
   
 
