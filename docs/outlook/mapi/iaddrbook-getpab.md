@@ -25,7 +25,7 @@ ms.locfileid: "33419895"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada do contêiner designado como o catálogo de endereços pessoal (PAB).
+Retorna o identificador de entrada do contêiner designado como o pab (lista de endereços pessoal).
   
 ```cpp
 HRESULT GetPAB(
@@ -38,11 +38,11 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> [out] Um ponteiro para a contagem de byte no identificador de entrada apontado pelo _parâmetro lppEntryID._ 
     
  _lppEntryID_
   
-> bota Um ponteiro para um ponteiro para o identificador de entrada do PAB. O parâmetro _lppEntryID_ contém zero se nenhum contêiner tiver sido designado como o PAB. 
+> [out] Um ponteiro para um ponteiro para o identificador de entrada do PAB. O  _parâmetro lppEntryID_ conterá zero se nenhum contêiner tiver sido designado como PAB. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes chamam o método **GetPAB** para recuperar o identificador de entrada do contêiner designado como PAB. Se um PAB não foi estabelecido no perfil, MAPI seleciona como o PAB o primeiro contêiner na hierarquia de catálogo de endereços que permite modificações. 
+Os clientes chamam **o método GetPAB** para recuperar o identificador de entrada do contêiner designado como PAB. Se um PAB não tiver sido estabelecido no perfil, o MAPI selecionará como o PAB o primeiro contêiner na hierarquia do livro de endereços que permitirá modificações. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -60,7 +60,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI usa o método **GetPAB** para obter a ID para o catálogo de endereços pessoal do usuário.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa o **método GetPAB** para obter a ID do livro de endereços pessoal do usuário.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

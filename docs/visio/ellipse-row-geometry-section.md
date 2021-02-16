@@ -18,18 +18,18 @@ ms.locfileid: "33421827"
 ---
 # <a name="ellipse-row-geometry-section"></a>Linha Ellipse (Seção Geometry)
 
-Contém as coordenadas *x* e *y* do ponto central da elipse e dois pontos na elipse. 
+Contém as  *coordenadas x*  e  *y*  do ponto central da elipse e dois pontos na elipse. 
   
 Uma linha Ellipse contém as células a seguir.
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do ponto central.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do ponto central.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |A coordenada x de um ponto na elipse; emparelhado com a coordenada *y* representada pela célula B.  <br/> |
-|[A.b.c.](b-cell-geometry-section.md) <br/> |A coordenada *y* de um ponto na elipse; emparelhado com a coordenada x representada pela célula a.  <br/> |
-|[Unidade](c-cell-geometry-section.md) <br/> |A coordenada *x* de outro ponto na elipse; emparelhado com a coordenada *y* representada pela célula D.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |A coordenada *y* de outro ponto na elipse; emparelhado com a coordenada *y* representada pela célula C.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A  *coordenada x*  do ponto central.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A  *coordenada y*  do ponto central.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |A coordenada x de um ponto na elipse; emparelhado com uma coordenada  *y*  representada pela célula B.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |A  *coordenada y*  de um ponto na elipse; emparelhado com uma coordenada x representada pela célula A.  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |A  *coordenada x*  de outro ponto na elipse; emparelhado com uma coordenada  *y*  representada pela célula D.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |A  *coordenada y*  de outro ponto na elipse; emparelhado com uma coordenada  *y*  representada pela célula C.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

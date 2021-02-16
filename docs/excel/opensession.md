@@ -18,7 +18,7 @@ ms.locfileid: "33421834"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cria uma sessão na qual as funções definidas pelo usuário podem ser executadas.
+Cria uma sessão na qual funções definidas pelo usuário podem ser executadas.
   
 ```cpp
 int OpenSession(WCHAR *Params)
@@ -28,11 +28,11 @@ int OpenSession(WCHAR *Params)
 
 _Parâmetros_
   
-> Um ponteiro para a cadeia de caracteres UNICODE delimitada por ponto-e-vírgula de parâmetros da sessão. O Excel não usa esse argumento.
+> Um ponteiro para a cadeia de caracteres UNICODE delimitada por ponto-e-vírgula dos parâmetros da sessão. O Excel não usa esse argumento.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Uma ID de sessão para usar em outras chamadas para o conector de cluster, se a sessão foi criada com êxito; caso contrário, **xlHpcRetCallFailed**.
+Uma ID de sessão a ser usada em outras chamadas para o conector do cluster, se a sessão tiver sido criada com êxito; Caso **contrário, xlHpcRetCallFailed**.
   
 ## <a name="see-also"></a>Confira também
 

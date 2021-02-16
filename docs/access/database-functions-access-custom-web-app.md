@@ -19,9 +19,9 @@ ms.locfileid: "33418908"
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 
-- [Função userDisplayname (aplicativo Web personalizado do Access)](userdisplayname-function-access-custom-web-app.md)
+- [Função UserDisplayName (aplicativo Web personalizado do Access)](userdisplayname-function-access-custom-web-app.md)
     
-- [Função userEmailAddress (aplicativo Web personalizado do Access)](useremailaddress-function-access-custom-web-app.md)
+- [Função UserEmailAddress (aplicativo Web personalizado do Access)](useremailaddress-function-access-custom-web-app.md)
     
 - [Função Update (aplicativo Web personalizado do Access)](update-function-access-custom-web-app.md)
     

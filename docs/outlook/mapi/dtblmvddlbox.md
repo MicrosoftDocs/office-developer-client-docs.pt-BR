@@ -25,11 +25,11 @@ ms.locfileid: "33420742"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma lista suspensa que será usada em uma caixa de diálogo criada a partir de uma tabela de exibição.
+Descreve uma lista drop-down que será usada em uma caixa de diálogo criada a partir de uma tabela de exibição.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVDDLBX
@@ -44,21 +44,21 @@ typedef struct _DTBLMVDDLBX
 
  **ulFlags**
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  **ulMVPropTag**
   
-> Marca de propriedade para uma propriedade de vários valores do tipo PT_MV_TSTRING. Os valores diferentes dessa propriedade são exibidos como entradas distintas na lista suspensa.
+> Marca de propriedade para uma propriedade de vários valores do tipo PT_MV_TSTRING. Os valores diferentes dessa propriedade são exibidos como entradas distintas na lista lista listada.
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLMVDDLBOX** descreve uma lista suspensa com vários valores uma lista de itens somente leitura. Usando uma lista suspensa com vários valores, os valores são exibidos quando um usuário clica em uma barra de rolagem. 
+A **DTBLMVDDLBOX** structure describes a multi-valued drop-down list a read-only list of items. Usando uma lista de vários valores, os valores são exibidos quando um usuário clica em uma barra de rolagem. 
   
-Os dados exibidos vêm da propriedade identificada no membro **ulMVPropTag** . Não há nenhum requisito para ler a partir da interface de propriedade associada à tabela de exibição. Além disso, como os usuários não podem fazer seleções desses tipos de caixas de listagem, os dados não são gravados na interface de propriedade. 
+Os dados exibidos vêm da propriedade identificada no **membro ulMVPropTag.** Não há necessidade de ler a partir da interface de propriedade que está associada à tabela de exibição. Além disso, como os usuários não conseguem fazer seleções desses tipos de caixas de listagem, os dados não são gravados na interface de propriedades. 
   
-Somente as propriedades de cadeia de caracteres de valores múltiplos têm suporte para a lista suspensa de vários valores; Não há suporte para outros tipos de propriedades de valores múltiplos. 
+Somente propriedades de cadeia de caracteres de valores múltiplos são suportadas para a lista de lista de vários valores; outros tipos de propriedade de vários valores não são suportados. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Tabelas de Exibição.](display-tables.md) Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

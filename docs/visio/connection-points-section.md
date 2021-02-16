@@ -22,9 +22,9 @@ Contém uma linha e células para cada ponto de conexão definido para a forma.
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir pontos de conexão na seção **pontos de conexão** na janela ShapeSheet ou clicando na ferramenta **ponto de conexão** , na guia **página inicial** . 
+Você pode definir pontos de conexão na seção **Connection Points** na janela ShapeSheet ou clicando na ferramenta **Ponto** de Conexão na **guia** Página Principal. 
   
-Se a forma não tiver **pontos de conexão** , você poderá inserir uma seção de **pontos de conexão** na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e clique em ** Pontos de conexão**. Para adicionar pontos de conexão a uma seção **pontos de conexão** existentes, clique com o botão direito do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
+Se a forma não tiver **nenhuma seção Connection Points,** você poderá inserir uma **seção Connection Points** na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e clique em **Pontos de conexão**. Para adicionar pontos de conexão a uma seção **Connection Points** existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
 É possível alterar o tipo de linha de um ponto de conexão nessa seção para exibir células adicionais que podem ser usadas para cálculos transitórios. Para fazer isso, clique com o botão direito do mouse na linha e clique em **Alterar Tipo de Linha** no menu de atalho. 
   

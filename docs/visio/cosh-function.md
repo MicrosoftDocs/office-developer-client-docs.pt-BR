@@ -22,7 +22,7 @@ Retorna o cosseno hiperbólico de um ângulo.
   
 ## <a name="syntax"></a>Sintaxe
 
-COSH ( *ângulo*) 
+COSH( *angle*) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ COSH ( *ângulo*)
    
 ## <a name="remarks"></a>Comentários
 
-A função COSH usa radianos, a menos que você especifique uma unidade de medida diferente em *Angle* . 
+A função COSH usa radianos, a menos que você especifique uma unidade de medida diferente em *ângulo.* 
   
 ## <a name="example"></a>Exemplo
 

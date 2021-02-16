@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister (Form 2)
 keywords:
-- xlfunregister [Excel 2007]
+- xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,15 +22,15 @@ ms.locfileid: "33419902"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **Unregister** de uma folha de macro XLM do Excel. 
+Pode ser chamado de um comando DLL ou XLL que, por sua vez, foi chamado pelo Microsoft Excel. Isso equivale a chamar **UNREGISTER de** uma folha de macro XLM do Excel. 
   
 **xlfUnregister** pode ser chamado de duas formas: 
   
-- Formulário 1: cancela o registro de um comando ou função individual.
+- Formulário 1: Desastra o registro de um comando ou função individual.
     
-- Formulário 2: descarrega e desativa um XLL.
+- Formulário 2: Descarrega e desativa um XLL.
     
-Chamado no formato 2, essa função força uma DLL ou recurso de código a ser descarregado completamente. Ele cancela o registro de todas as funções em uma DLL, mesmo que estejam atualmente em uso por outra macro, independentemente da contagem de uso. Essa função chama **xlAutoClose**e, em seguida, cancela o registro de todas as funções na dll.
+Chamada no Formulário 2, essa função força um DLL ou recurso de código a ser descarregado completamente. Ele desastra o registro de todas as funções em uma DLL, mesmo se elas estão sendo usadas por outra macro, independentemente da contagem de uso. Essa função chama **xlAutoClose** e, em seguida, desautorna todas as funções na DLL.
   
 ```cs
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -44,16 +44,16 @@ O nome da DLL.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Se bem-sucedido, retorna **true** (**xltypeBool**). Se não tiver êxito, retornará **false**.
+Se bem-sucedido, **retorna VERDADEIRO** (**xltypeBool**). Se não tiver êxito, **retornará FALSE**.
   
 ## <a name="remarks"></a>Comentários
 
 > [!NOTE] 
-> Não chame esse formato da função de sua implementação do [xlAutoClose](xlautoclose.md) em uma tentativa de cancelar o registro de todos os recursos da dll com uma única chamada de função simples. Isso leva à chamada recursiva de **xlAutoClose** e de um estouro de pilha. 
+> Não chame essa forma da função de sua implementação do [xlAutoClose](xlautoclose.md) em uma tentativa de ressumentar todos os recursos da DLL com uma chamada de função simples. Isso leva à chamada recursiva **de xlAutoClose** e a um estouro de pilha. 
   
 ### <a name="remember-to-delete-names"></a>Lembre-se de excluir nomes
 
-Se você especificou o argumento _pxFunctionText_ como **xlfRegister**, ao registrar as funções e os comandos da dll, deverá excluir explicitamente os nomes chamando **xlfSetName** para cada um, omitindo o segundo argumento para que o a função não é mais exibida no assistente de função. Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
+Se você especificou o argumento  _pxFunctionText_ para **xlfRegister**, ao registrar as funções e comandos da DLL, exclua explicitamente os nomes chamando **xlfSetName** para cada um deles, omitindo o segundo argumento para que a função não apareça mais no Assistente de Função. Confira mais informações em [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Confira também
 

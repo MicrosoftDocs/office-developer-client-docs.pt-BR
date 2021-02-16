@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônica PidTagServiceExtraUids
+title: Propriedade canônica PidTagServiceExtrauids
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422303"
 ---
-# <a name="pidtagserviceextrauids-canonical-property"></a>Propriedade canônica PidTagServiceExtraUids
+# <a name="pidtagserviceextrauids-canonical-property"></a>Propriedade canônica PidTagServiceExtrauids
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam seções de perfil adicionais para o serviço de mensagens. 
+Contém uma lista de [estruturas MAPIUID](mapiuid.md) que identificam seções de perfil adicionais para o serviço de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém uma lista de estruturas [MAPIUID](mapiuid.md) que identificam seções d
    
 ## <a name="remarks"></a>Comentários
 
-Novas seções de perfil podem ser criadas para cada filtro de mensagem. Quando as informações sobre o serviço de mensagens são copiadas para outro perfil, é importante também copiar as seções de perfil adicionais para os filtros. Um provedor de serviços que usa seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil no **PR_SERVICE_EXTRA_UIDS**, que permite que o MAPI copie as informações adicionais do serviço de mensagens.
+Novas seções de perfil podem ser criadas para cada filtro de mensagem. Quando as informações sobre o serviço de mensagens devem ser copiadas para outro perfil, é importante copiar as seções de perfil adicionais para os filtros também. Um provedor de serviços que usa seções de perfil adicionais pode armazenar as estruturas **MAPIUID** dessas seções de perfil no **PR_SERVICE_EXTRA_UIDS**, que permite que o MAPI copie as informações adicionais do serviço de mensagens.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

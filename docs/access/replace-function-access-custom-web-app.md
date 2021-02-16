@@ -1,5 +1,5 @@
 ---
-title: Função Replace (aplicativo Web personalizado do Access)
+title: Função Substituir (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421029"
 ---
-# <a name="replace-function-access-custom-web-app"></a>Função Replace (aplicativo Web personalizado do Access)
+# <a name="replace-function-access-custom-web-app"></a>Função Substituir (aplicativo Web personalizado do Access)
 
 Substitui todas as ocorrências de um valor de cadeia de caracteres especificado por outro valor de cadeia de caracteres.
   
@@ -23,14 +23,14 @@ Substitui todas as ocorrências de um valor de cadeia de caracteres especificado
   
 ## <a name="syntax"></a>Sintaxe
 
- **Substitua** (*TextName*, *Pattern*, ** Replacement) 
+ **Replace** (*TextExpression*, *Pattern*, *Replacement*) 
   
-A função **replace** contém os seguintes argumentos. 
+A **função Substituir** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |A expressão de cadeia de caracteres a ser pesquisada.  <br/> |
-| *Padrão de*  <br/> |A subcadeia de caracteres a ser localizada.  O *padrão* não pode ser uma cadeia de caracteres vazia ("").  <br/> |
+| *Padrão de*  <br/> |A substring a ser encontrada.  *O padrão*  não pode ser uma cadeia de caracteres vazia ("").  <br/> |
 | *Replacement*  <br/> |A cadeia de caracteres de substituição.  <br/> |
    
 

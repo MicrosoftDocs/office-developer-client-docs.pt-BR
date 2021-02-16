@@ -22,14 +22,14 @@ Obtém o texto de uma forma.
   
 ## <a name="syntax"></a>Sintaxe
 
-SHAPETEXT (* * *shapename! O texto* * * * * *[, sinalizador]* * *) 
+SHAPETEXT (** *shapename! TheText* ** ** *[,flag]* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _shapename! TheText_ <br/> |Obrigatório  <br/> ||Uma referência à célula chamada TheText na forma de destino.  _Shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
-| _flag_ <br/> |Opcional  <br/> |**Numérica** <br/> |Um bit que especifica o formato do texto. O sinalizador padrão (0) mostra o texto exatamente como está na forma.  <br/> |
+| _sinalizador_ <br/> |Opcional  <br/> |**Numérica** <br/> |Um bit que especifica o formato do texto. O sinalizador padrão (0) mostra o texto exatamente como está na forma.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -41,9 +41,9 @@ Utilize a combinação de qualquer um dos sinalizadores a seguir com a função 
   
 |**Flag**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Mostrar o texto exatamente como está na forma.  <br/> |
-|1  <br/> |Incluir hífens discricionários.  <br/> |
-|duas  <br/> |Não incluir texto expandido nos campos.  <br/> |
+|0  <br/> |Mostrar o texto exatamente como está na forma.  <br/> |
+|1   <br/> |Incluir hífens discricionários.  <br/> |
+|2   <br/> |Não incluir texto expandido nos campos.  <br/> |
 |4   <br/> |Converter tabulações em espaços simples.  <br/> |
 |8   <br/> |Converter tabulações em um conjunto de espaços.  <br/> |
 |16   <br/> |Converter retornos de texto e alimentação de linhas em espaços.  <br/> |
@@ -52,13 +52,13 @@ Utilize a combinação de qualquer um dos sinalizadores a seguir com a função 
    
 ## <a name="example-1"></a>Exemplo 1
 
-SHAPETEXT (planilha! texto)
+SHAPETEXT(sheetN!theText)
   
 Retornará o texto da forma sheetN exatamente como está na forma.
   
 ## <a name="example-2"></a>Exemplo 2
 
-SHAPETEXT (o texto)
+SHAPETEXT(theText)
   
 Retornará o texto da forma atual exatamente como está na forma.
   

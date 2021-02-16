@@ -25,35 +25,35 @@ ms.locfileid: "33422324"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso a informações do repositório de mensagens e mensagens e pastas.
+Fornece acesso a informações do armazenamento de mensagens e a mensagens e pastas.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Exposto por:  <br/> |Objeto do repositório de mensagens  <br/> |
-|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente, o spooler MAPI e o MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Exposto por:  <br/> |Objeto de armazenamento de mensagens  <br/> |
+|Implementado por:  <br/> |Provedores de armazenamento de mensagens  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente, o spooler MAPI e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMsgStore  <br/> |
 |Tipo de ponteiro:  <br/> |LPMDB  <br/> |
-|Modelo de transação:  <br/> |Não-Transacted  <br/> |
+|Modelo de transação:  <br/> |Não traduzido  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Utilizar](imsgstore-advise.md) <br/> |Registra para receber notificações de eventos específicos que afetam o repositório de mensagens.  <br/> |
-|[Cancelar](imsgstore-unadvise.md) <br/> |Cancela o envio de notificações anteriormente configuradas com uma chamada para o método **IMsgStore:: Advise** .  <br/> |
-|[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compara dois identificadores de entrada para determinar se eles se referem à mesma entrada em um repositório de mensagens.  <br/> |
-|[OpenEntry](imsgstore-openentry.md) <br/> |Abre uma pasta ou mensagem e retorna um ponteiro de interface para acesso adicional.  <br/> |
-|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Estabelece uma pasta como o destino de mensagens de entrada de uma determinada classe de mensagem.  <br/> |
-|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtém a pasta que foi estabelecida como o destino para mensagens de entrada de uma classe de mensagem especificada ou como a pasta de recebimento padrão para o repositório de mensagens.  <br/> |
-|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Fornece acesso à tabela de pastas de recebimento, uma tabela com informações sobre todas as pastas de recebimento do repositório de mensagens.  <br/> |
-|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Permite o logoff ordenada do repositório de mensagens.  <br/> |
+|[Advise](imsgstore-advise.md) <br/> |Registra para receber notificação de eventos especificados que afetam o armazenamento de mensagens.  <br/> |
+|[Unadvise](imsgstore-unadvise.md) <br/> |Cancela o envio de notificações configuradas anteriormente com uma chamada para o **método IMsgStore::Advise.**  <br/> |
+|[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compara dois identificadores de entrada para determinar se eles se referem à mesma entrada em um armazenamento de mensagens.  <br/> |
+|[OpenEntry](imsgstore-openentry.md) <br/> |Abre uma pasta ou mensagem e retorna um ponteiro de interface para mais acesso.  <br/> |
+|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Estabelece uma pasta como o destino para mensagens de entrada de uma classe de mensagem específica.  <br/> |
+|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtém a pasta que foi estabelecida como o destino para mensagens de entrada de uma classe de mensagem especificada ou como a pasta de recebimento padrão para o armazenamento de mensagens.  <br/> |
+|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Fornece acesso à tabela de pastas de recebimento, uma tabela com informações sobre todas as pastas de recebimento para o armazenamento de mensagens.  <br/> |
+|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Habilita o logoff ordenar do armazenamento de mensagens.  <br/> |
 |[AbortSubmit](imsgstore-abortsubmit.md) <br/> |Tenta remover uma mensagem da fila de saída.  <br/> |
-|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Fornece acesso à tabela de fila de saída, uma tabela que tem informações sobre todas as mensagens na fila de saída do repositório de mensagens.  <br/> |
-|[SetLockstate](imsgstore-setlockstate.md) <br/> |Bloqueia ou desbloqueia uma mensagem.  <br/> |
-|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Permite que o provedor de repositório de mensagens realize o processamento em uma mensagem enviada.  <br/> |
-|[NotifyNewMail](imsgstore-notifynewmail.md) <br/> |Informa ao repositório de mensagens que uma nova mensagem chegou.  <br/> |
+|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Fornece acesso à tabela de filas de saída, uma tabela que tem informações sobre todas as mensagens na fila de saída do armazenamento de mensagens.  <br/> |
+|[SetLockState](imsgstore-setlockstate.md) <br/> |Bloqueia ou desbloqueia uma mensagem.  <br/> |
+|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Permite que o provedor de armazenamento de mensagens execute o processamento em uma mensagem enviada.  <br/> |
+|[NotifyNewMail](imsgstore-notifynewmail.md) <br/> |Informa ao armazenamento de mensagens que uma nova mensagem chegou.  <br/> |
    
 |**Propriedades necessárias**|**Nível de acesso**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ Fornece acesso a informações do repositório de mensagens e mensagens e pastas
 |**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))  <br/> |Somente leitura  <br/> |
    
-As propriedades a seguir são para repositórios de mensagens de mensagens interpessoais (IPM):
+As propriedades a seguir são para armazenamentos de mensagens interpersonal message (IPM) :
   
 - **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
     

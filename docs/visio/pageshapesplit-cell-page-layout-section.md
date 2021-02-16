@@ -22,14 +22,14 @@ Indica se as formas na página podem ser divididas automaticamente.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Não permite divisão automática de forma.  <br/> |**visPLOSplitNone** <br/> |
-|1  <br/> |Permite divisão automática de forma (padrão).  <br/> |**visPLOSplitAllow** <br/> |
+|0  <br/> |Não permite divisão automática de forma.  <br/> |**visPLOSplitNone** <br/> |
+|1   <br/> |Permite divisão automática de forma (padrão).  <br/> |**visPLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 A divisão automática de formas é habilitada ou desabilitada em três níveis diferentes: aplicativo, página e forma. Por padrão, a divisão é habilitada no aplicativo e na página. A configuração padrão para formas varia por tipo de desenho. 
   
-Para habilitar ou desabilitar a divisão no nível do aplicativo, use a **configuração Habilitar divisão de conector** na guia **avançado** da caixa de diálogo **Opções do Visio** (clique no botão **Office** , em **Opções** no **Visio** e, em seguida, clique em **avançado** . 
+Para habilitar ou desabilitar a  divisão no nível  do aplicativo, use a configuração Habilitar  divisão do conector na guia Avançado da caixa de diálogo Opções do **Visio** (clique no botão **Office,** clique em Opções na guia **Visio** e em **Avançado).** 
   
 Para habilitar ou desabilitar a divisão no nível da forma, consulte as células ShapeSplit e ShapeSplittable. 
   
@@ -45,6 +45,6 @@ Para obter uma referência para a célula PageShapeSplit pelo índice, a partir 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOSplit** <br/> |
+|Índice de célula:  <br/> |**visPLOSplit** <br/> |
    
 

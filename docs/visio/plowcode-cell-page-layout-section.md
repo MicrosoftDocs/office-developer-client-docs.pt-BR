@@ -22,12 +22,12 @@ Determina se as formas de colocação serão afastadas ao serem soltas próximas
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Não mover as formas  <br/> |**visPLOPlowNone** <br/> |
-|1  <br/> |Mover as formas  <br/> |**visPLOPlowAll** <br/> |
+|0  <br/> |Não mover as formas  <br/> |**visPLOPlowNone** <br/> |
+|1   <br/> |Mover as formas  <br/> |**visPLOPlowAll** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na guia **layout e roteamento** da caixa de diálogo **Configurar página** (na guia **design** , clique na seta **Configurar página** ) usando a caixa de seleção **afastar outras formas ao soltar** . 
+Você também pode definir o valor dessa célula na  guia **Layout** e Roteamento na  caixa de diálogo  Configurar Página (na guia **Design,** clique na seta Configurar Página) usando a caixa de seleção Mover outras formas para longe na caixa de seleção de soltar. 
   
 Para obter uma referência para a célula PlowCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -41,6 +41,6 @@ Para obter uma referência para a célula PlowCode pelo índice a partir de um p
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOPlowCode** <br/> |
+|Índice de célula:  <br/> |**visPLOPlowCode** <br/> |
    
 

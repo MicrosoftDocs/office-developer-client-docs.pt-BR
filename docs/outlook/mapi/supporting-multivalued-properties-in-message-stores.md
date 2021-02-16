@@ -1,5 +1,5 @@
 ---
-title: Suporte a propriedades com vários valores em repositórios de mensagens
+title: Suporte a propriedades de múltiplos valores em armazenamentos de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420791"
 ---
-# <a name="supporting-multivalued-properties-in-message-stores"></a>Suporte a propriedades com vários valores em repositórios de mensagens
+# <a name="supporting-multivalued-properties-in-message-stores"></a>Suporte a propriedades de múltiplos valores em armazenamentos de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os requisitos de suporte a propriedades com vários valores estão documentados na [visão geral da propriedade MAPI](mapi-property-overview.md). O suporte à propriedade de vários valores não é necessário para provedores de repositório de mensagens, mas é recomendado, particularmente para provedores de repositório de mensagens padrão. Alguns outros recursos, como bibliotecas de formulários de pastas, exigem suporte de propriedade de vários valores.
+Os requisitos para dar suporte a propriedades com vários valores estão documentados na visão [geral da propriedade MAPI.](mapi-property-overview.md) O suporte a propriedades de vários valores não é necessário para provedores de armazenamento de mensagens, mas é recomendável, especialmente para provedores de armazenamento de mensagens padrão. Alguns outros recursos, como bibliotecas de formulário de pasta, exigem suporte a propriedade de vários valores.
   
 ## <a name="see-also"></a>Confira também
 

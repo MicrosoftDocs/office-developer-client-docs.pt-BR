@@ -25,11 +25,11 @@ ms.locfileid: "33418719"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia um valor dentro de uma propriedade de vários valores para uma propriedade de valor único do mesmo tipo. 
+Copia um valor dentro de uma propriedade de múltiplos valores para uma propriedade de valor único do mesmo tipo. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIUTIL. 0  <br/> |
+|Arquivo de cabeçalho:  <br/> |MAPIUTIL. H  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,15 +45,15 @@ VOID GetInstance(
 
  _pvalMv_
   
-> no Ponteiro para uma estrutura [SPropValue](spropvalue.md) que define uma propriedade de vários valores. 
+> [in] Ponteiro para uma [estrutura SPropValue](spropvalue.md) definindo uma propriedade de múltiplos valores. 
     
  _pvalSv_
   
-> no Ponteiro para uma propriedade de valor único para receber dados. 
+> [in] Ponteiro para uma propriedade de valor único para receber dados. 
     
  _uliInst_
   
-> no O número da instância, ou seja, o elemento array, do valor que está sendo copiado da estrutura indicada pelo parâmetro _pvalMv_ . 
+> [in] O número da instância, ou seja, o elemento da matriz, do valor que está sendo copiado da estrutura indicada pelo _parâmetro pvalMv._ 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -61,6 +61,6 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se o valor copiado for muito grande para a memória alocada **** , a função getInstance só copiará os ponteiros em vez de alocar uma nova memória. 
+Se o valor copiado for muito grande para a memória alocada, a função **GetInstance** só copiará ponteiros em vez de alocar nova memória. 
   
 

@@ -28,14 +28,14 @@ Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char. LangID [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Char.LangID[  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-| Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCharacterLangID** <br/> |
+| Índice de linha:  <br/> |**visRowCharacter** +  *i*            onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCharacterLangID** <br/> |
    
 

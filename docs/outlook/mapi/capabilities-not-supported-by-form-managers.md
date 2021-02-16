@@ -21,19 +21,19 @@ ms.locfileid: "33419377"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os recursos a seguir não são suportados pelo Gerenciador de formulários padrão por motivos de desempenho, mas podem ser suportados por gerentes de formulários personalizados.
+Os seguintes recursos não são suportados pelo gerenciador de formulário padrão por motivos de desempenho, mas podem ser suportados por gerentes de formulário personalizados.
   
-- Uma hierarquia que permite que os formulários sejam agrupados ou categorizados em uma biblioteca de formulários. Uma biblioteca de formulários é um banco de dados de arquivo simples de formulários.
+- Uma hierarquia que permite que formulários sejam agrupados ou categorizados em uma biblioteca de formulários. Uma biblioteca de formulários é um banco de dados de arquivos simples de formulários.
     
-- Controle de acesso para categorias de formulários, correspondentes a classes de mensagens ou superclasses.
+- Controle de acesso para categorias de formulários, correspondente a classes de mensagens ou superclasses.
     
-- Suporte para versões de vários idiomas do mesmo formulário em uma única biblioteca de formulários.
+- Suporte para várias versões de idioma do mesmo formulário em uma única biblioteca de formulário.
     
-Estes são problemas de implementação. Não há nada para impedir que um gerente de formulário personalizado implemente esses recursos.
+Esses são os problemas de implementação. Não há nada para impedir que um gerenciador de formulário personalizado implemente esses recursos.
   
-A arquitetura de formulário MAPI não dá suporte a vários gerentes de formulários executados simultaneamente. Embora o MAPI dê suporte a vários provedores de repositório de mensagens simultâneos, provedores de transporte e provedores de catálogo de endereços, só há suporte para um único Gerenciador de formulários.
+A arquitetura de formulário MAPI não dá suporte a vários gerentes de formulário sendo executados simultaneamente. Embora o MAPI seja compatível com vários provedores simultâneos de armazenamento de mensagens, provedores de transporte e de agendas de endereços, apenas um único gerenciador de formulário é suportado.
   
-Como apenas um gerente de formulário pode ser executado ao mesmo tempo, se você implementar um gerente de formulário personalizado, será necessário reimplementar qualquer funcionalidade do Gerenciador de formulários padrão que você precisa. Como o gerente de formulário personalizado substituirá totalmente o Gerenciador de formulários padrão, os recursos do Gerenciador de formulários padrão não estarão disponíveis, a menos que sejam duplicados no seu gerente de formulário personalizado.
+Because only one form manager may be running at once, if you implement a custom form manager you will have to re-implement any functionality from the default form manager that you need. Como o gerenciador de formulário personalizado substituirá totalmente o gerenciador de formulário padrão, os recursos do gerenciador de formulário padrão estarão indisponíveis, a menos que sejam duplicados no gerenciador de formulário personalizado.
   
 ## <a name="see-also"></a>Confira também
 

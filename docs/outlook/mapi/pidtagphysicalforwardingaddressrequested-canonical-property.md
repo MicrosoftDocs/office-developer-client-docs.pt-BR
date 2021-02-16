@@ -25,7 +25,7 @@ ms.locfileid: "33419650"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se um remetente de mensagem solicitar que o agente de transferência de mensagem anexe um endereço de encaminhamento físico para um destinatário de mensagem.
+Contém TRUE se um remetente de mensagem solicita que o agente de transferência de mensagens anexe um endereço de encaminhamento físico para um destinatário da mensagem.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contém TRUE se um remetente de mensagem solicitar que o agente de transferênci
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,16 +22,16 @@ Indica se a célula referenciada contém uma fórmula.
   
 ## <a name="syntax"></a>Sintaxe
 
-FORMULAEXISTS (* * *cellref* * *) 
+FORMULAEXISTS (** *cellref* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A célula cuja presença de fórmula você deseja verificar.  <br/> |
+| _cellref_ <br/> |Obrigatório  <br/> |**String** <br/> |A célula cuja presença de fórmula você deseja verificar.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função FORMULAEXISTS retornará 1 se a célula contiver uma fórmula; Se ele não contiver uma fórmula, retornará zero (0). 
+A função FORMULAEXISTS retornará 1 se a célula contiver uma fórmula; se não tiver uma fórmula, retornará zero (0). 
   
 

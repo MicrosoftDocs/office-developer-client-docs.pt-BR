@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
-description: Especifica se é para usar a autenticação de senha segura (SPA) para a conta SMTP.
+description: Especifica se é para usar a Autenticação de Senha Segura (SPA) para a conta SMTP.
 ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418551"
 ---
-# <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
+# <a name="prop_smtp_use_spa"></a>PROP_SMTP_USE_SPA
 
-Especifica se é para usar a autenticação de senha segura (SPA) para a conta SMTP.
+Especifica se é para usar a Autenticação de Senha Segura (SPA) para a conta SMTP.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -29,7 +29,7 @@ Especifica se é para usar a autenticação de senha segura (SPA) para a conta S
    
 ## <a name="remarks"></a>Comentários
 
-Um valor zero significa não usar SPA, caso contrário, use SPA.
+Um valor zero significa não usar SPA; caso contrário, use SPA.
   
 ## <a name="see-also"></a>Confira também
 

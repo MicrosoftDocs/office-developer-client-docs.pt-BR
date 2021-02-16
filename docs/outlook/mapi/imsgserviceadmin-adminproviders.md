@@ -25,7 +25,7 @@ ms.locfileid: "33422758"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro que fornece acesso a um objeto de administração de provedor.
+Retorna um ponteiro que fornece acesso a um objeto de administração do provedor.
   
 ```cpp
 HRESULT AdminProviders(
@@ -39,43 +39,43 @@ HRESULT AdminProviders(
 
  _lpUID_
   
-> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagens a ser administrado. 
+> [in] Um ponteiro para a [estrutura MAPIUID](mapiuid.md) que contém o identificador exclusivo para o serviço de mensagens a ser administrado. 
     
  _ulFlags_
   
-> no Sempre nulo. 
+> [in] Sempre NULO. 
     
  _lppProviderAdmin_
   
-> bota Um ponteiro para um ponteiro para um objeto de administração de provedor.
+> [out] Um ponteiro para um ponteiro para um objeto de administração do provedor.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O objeto de administração de provedor foi retornado com êxito.
+> O objeto de administração do provedor foi retornado com êxito.
     
 MAPI_E_NOT_FOUND 
   
-> O **MAPIUID** apontado por _lpUID_ não existe. 
+> O **MAPIUID** apontado por  _lpUID_ não existe. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin:: AdminProviders** fornece acesso a um objeto de administração de provedor. Uma administração de provedor é um objeto que dá suporte à interface [IProviderAdmin](iprovideradminiunknown.md) e permite que os clientes façam o seguinte: 
+O **método IMsgServiceAdmin::AdminProviders** fornece acesso a um objeto de administração do provedor. A administração de um provedor é um objeto que dá suporte à interface [IProviderAdmin](iprovideradminiunknown.md) e permite que os clientes faça o seguinte: 
   
-- Adicionar provedores de serviços a um serviço de mensagens.
+- Adicione provedores de serviços a um serviço de mensagens.
     
-- Excluir provedores de serviços de um serviço de mensagens.
+- Exclua provedores de serviços de um serviço de mensagens.
     
-- Abrir seções de perfil.
+- Abra seções de perfil.
     
-- Acessar a tabela do provedor de serviço de mensagens.
+- Acessar a tabela do provedor de serviços de mensagens.
     
-Os tipos de alterações que podem ser realmente feitas em um serviço de mensagens enquanto o perfil está em uso dependem do serviço de mensagens. No enTanto, a maioria dos serviços de mensagem não oferece suporte a alterações como adicionar e excluir provedores enquanto o perfil está em uso.
+Os tipos de alterações que podem realmente ser feitas em um serviço de mensagens enquanto o perfil está em uso dependem do serviço de mensagens. No entanto, a maioria dos serviços de mensagens não suporta alterações como adicionar e excluir provedores enquanto o perfil estiver em uso.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar a estrutura **MAPIUID** do serviço de mensagens a administrar, recupere a coluna de propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar a estrutura **MAPIUID** para o serviço de mensagens administrar, recupere a coluna da propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -83,7 +83,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI usa o método **IMsgServiceAdmin:: AdminProviders** para abrir um objeto de administração de provedor para um serviço.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa o **método IMsgServiceAdmin::AdminProviders** para abrir um objeto de administração de provedor para um serviço.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

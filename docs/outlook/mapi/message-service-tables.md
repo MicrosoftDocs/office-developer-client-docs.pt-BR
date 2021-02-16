@@ -1,5 +1,5 @@
 ---
-title: Tabelas de serviço de mensagens
+title: Tabelas de Serviço de Mensagens
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422492"
 ---
-# <a name="message-service-tables"></a>Tabelas de serviço de mensagens
+# <a name="message-service-tables"></a>Tabelas de Serviço de Mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A tabela de serviço de mensagens contém informações sobre os serviços de mensagens no perfil atual. Há uma tabela de serviço de mensagens para cada sessão MAPI, implementada por MAPI e usada por aplicativos clientes de propósito especial que oferecem suporte à configuração. 
+A tabela de serviço de mensagens contém informações sobre os serviços de mensagem no perfil atual. Há uma tabela de serviço de mensagens para cada sessão MAPI, implementada pelo MAPI e usada por aplicativos cliente de finalidade especial que oferecem suporte à configuração. 
   
 A tabela de serviço de mensagens é uma tabela estática.
   
-Os clientes acessam a tabela de serviço de mensagens chamando o método [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
+Os clientes acessam a tabela de serviço de mensagens chamando o [método IMsgServiceAdmin::GetMsgServiceTable.](imsgserviceadmin-getmsgservicetable.md) 
   
-As propriedades a seguir compõem o conjunto de colunas necessárias na tabela de serviço de mensagens:
+As propriedades a seguir compom o conjunto de colunas necessários na tabela de serviço de mensagens:
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ As propriedades a seguir compõem o conjunto de colunas necessárias na tabela d
 |**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
 |**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
- **PR_DISPLAY_NAME** é o nome de exibição para o serviço de mensagem e a coluna de chave de classificação padrão. 
+ **PR_DISPLAY_NAME** é o nome para exibição do serviço de mensagens e a coluna de chave de classificação padrão. 
   
- **PR_INSTANCE_KEY** serve como a coluna de índice para a tabela, identificando exclusivamente uma linha. 
+ **PR_INSTANCE_KEY** serve como coluna de índice para a tabela, identificando exclusivamente uma linha. 
   
  **PR_RESOURCE_FLAGS** descreve os recursos do serviço de mensagens. 
   
- **PR_SERVICE_DLL_NAME** é o nome da dll que contém a implementação do serviço de mensagens. 
+ **PR_SERVICE_DLL_NAME** é o nome da DLL que contém a implementação do serviço de mensagens. 
   
- **PR_SERVICE_ENTRY_NAME** é o nome da função de ponto de entrada do serviço de mensagens que está de acordo com o protótipo do [MSGSERVICEENTRY](msgserviceentry.md) . 
+ **PR_SERVICE_ENTRY_NAME** é o nome da função de ponto de entrada do serviço de mensagens que está em conformidade com o protótipo [MSGSERVICEENTRY.](msgserviceentry.md) 
   
- **PR_SERVICE_NAME** é uma entrada necessária na seção **[serviços]** no MAPISVC. inf. O valor dessa propriedade nunca será alterado ou localizado. O **PR_SERVICE_NAME** pode ser usado para identificar programaticamente o serviço de mensagens. 
+ **PR_SERVICE_NAME** é uma entrada necessária na seção **[Serviços]** em MAPISVC.INF. O valor dessa propriedade nunca será alterado ou localizado. **PR_SERVICE_NAME** pode ser usado para identificar programaticamente o serviço de mensagens. 
   
  **PR_SERVICE_SUPPORT_FILES** é uma lista de arquivos que devem ser instalados com o serviço de mensagens. 
   

@@ -39,33 +39,33 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> no A contagem de identificadores exclusivos no parâmetro _lpUIDList_ . 
+> [in] A contagem de identificadores exclusivos no _parâmetro lpUIDList._ 
     
  _lpUIDList_
   
-> no Um ponteiro para uma matriz de identificadores exclusivos que representam provedores de transporte. A matriz contém um identificador para cada provedor de transporte configurado no perfil atual.
+> [in] Um ponteiro para uma matriz de identificadores exclusivos que representam provedores de transporte. A matriz contém um identificador para cada provedor de transporte configurado no perfil atual.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A ordem de transporte foi definida com êxito.
+> O pedido de transporte foi definido com êxito.
     
 MAPI_E_BUSY 
   
-> O valor no parâmetro _cUID_ difere do número de provedores de transporte realmente no perfil. 
+> O valor no parâmetro  _cUID_ difere do número de provedores de transporte no perfil. 
     
 MAPI_E_NOT_FOUND 
   
-> Uma ou mais das estruturas [MAPIUID](mapiuid.md) passadas no parâmetro _lpUIDList_ não se referem a um provedor de transporte atualmente no perfil. 
+> Uma ou mais das estruturas [MAPIUID](mapiuid.md) passadas no parâmetro  _lpUIDList_ não se referem a um provedor de transporte atualmente no perfil. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin:: MsgServiceTransportOrder** define a ordem de entrega de provedores de transporte em um perfil. O parâmetro _lpUIDList_ deve conter uma lista classificada de identificadores de entrada do provedor de transporte obtidos na propriedade **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) da tabela retornada do [IMsgServiceAdmin:: ](imsgserviceadmin-getprovidertable.md)Método Getprovidertable. Um aplicativo cliente deve passar a lista completa no _lpUIDList_.
+O **método IMsgServiceAdmin::MsgServiceTransportOrder** define a ordem de entrega dos provedores de transporte em um perfil. O _parâmetro lpUIDList_ deve conter uma lista ordenada de identificadores de entrada de provedor de transporte obtidos da propriedade **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) da tabela retornada do método [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Um aplicativo cliente deve passar a lista completa em  _lpUIDList_.
   
  **SetTransportOrder** substitui as preferências do provedor de transporte, como o sinalizador STATUS_XP_PREFER_LAST definido na propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   

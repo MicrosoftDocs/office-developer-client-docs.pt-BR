@@ -42,53 +42,53 @@ HRESULT SelectMultipleForms(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo exibida. 
+> [in] Um alça para a janela pai da caixa de diálogo exibida. 
     
  _ulFlags_
   
-> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _pszTitle_
   
-> no Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulários que fornecerá os formulários fornecerá uma legenda padrão. 
+> [in] Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o  _parâmetro pszTitle_ for NULL, o provedor da biblioteca de formulários que fornece os formulários fornece uma legenda padrão. 
     
  _pfld_
   
-> no Um ponteiro para a pasta da qual os formulários serão selecionados. Se o parâmetro _pfld_ for NULL, os formulários serão selecionados do contêiner de formulário local, pessoal ou organização. 
+> [in] Um ponteiro para a pasta a partir da qual os formulários são selecionados. Se o  _parâmetro pfld_ for NULL, os formulários serão selecionados no contêiner de formulário local, pessoal ou da organização. 
     
  _pfrminfoarray_
   
-> no Um ponteiro para uma matriz de objetos de informações de formulário que são preselecionadas para o usuário.
+> [in] Um ponteiro para uma matriz de objetos de informações de formulário que são pré-selecionados para o usuário.
     
  _ppfrminfoarray_
   
-> bota Um ponteiro para um ponteiro para a matriz retornada de objetos de informação do formulário.
+> [out] Um ponteiro para um ponteiro para a matriz retornada de objetos de informações de formulário.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> O usuário cancelou a operação, geralmente clicando no botão **Cancelar** na caixa de diálogo. 
+> O usuário cancelou a operação, normalmente clicando no botão **Cancelar** na caixa de diálogo. 
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectMultipleForms** para primeiro apresentar uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, recuperar uma matriz de objetos de informações de formulário que descrevem os formulários selecionados. A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, independentemente de estarem ou não ocultos (ou seja, se suas propriedades ocultas estão desmarcadas ou não). 
+Visualizadores de formulário chamam o método **IMAPIFormMgr::SelectMultipleForms** para apresentar primeiro uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, recuperar uma matriz de objetos de informações de formulário que descrevem os formulários selecionados. A **caixa de diálogo SelectMultipleForms** exibe todos os formulários, se eles estão ocultos ou não (ou seja, se suas propriedades ocultas são claras ou não). 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres serão Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+Se um visualizador de formulário passar o sinalizador MAPI_UNICODE no  _parâmetro ulFlags,_ todas as cadeias de caracteres serão Unicode. Provedores de biblioteca de formulário que não suportam cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE for passado. 
   
 ## <a name="see-also"></a>Confira também
 

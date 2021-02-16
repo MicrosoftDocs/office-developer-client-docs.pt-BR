@@ -19,7 +19,7 @@ ms.locfileid: "33420133"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de repositório pode enviar como parte de uma URL de MAPI (Uniform Resource Locator) de MAPI uma ID de entrada e uma ID de anexo para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O provedor de repositório codifica a ID de entrada e a ID de anexo como cadeias de caracteres Unicode. Este tópico mostra um algoritmo que gera uma representação compacta da ID de entrada ou ID de anexo.
+Um provedor de armazenamento pode enviar como parte de uma URL (Uniform Resource Locator) de MAPI uma ID de entrada e uma ID de anexo para o Manipulador de Protocolo MAPI para identificar um objeto que está pronto para indexação. O provedor do armazenamento codifica a ID de entrada e a ID do anexo como cadeias de caracteres Unicode. Este tópico mostra um algoritmo que gera uma representação compacta da ID de entrada ou da ID do anexo.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
+[Sobre Notification-Based Store Indexação](about-notification-based-store-indexing.md)
   
-[Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
+[Sobre URLs MAPI para Notification-Based indexação](about-mapi-urls-for-notification-based-indexing.md)
 

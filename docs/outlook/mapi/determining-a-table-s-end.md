@@ -1,5 +1,5 @@
 ---
-title: Determinando o fim de uma tabela
+title: Determinando o final de uma tabela
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420084"
 ---
-# <a name="determining-a-tables-end"></a>Determinando o fim de uma tabela
+# <a name="determining-a-tables-end"></a>Determinando o final de uma tabela
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Um erro comum é supor que o final da tabela tenha sido alcançado quando: 
+ Um erro comum é presumir que o final da tabela foi atingido quando: 
   
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) foi chamado em um loop, com o final do loop determinado pela contagem de linhas retornado por [IMAPITable:: GetRowCount](imapitable-getrowcount.md). A contagem que **** o GetRowCount retorna nem sempre representa o número exato de linhas na tabela; é uma contagem aproximada. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) foi chamado em um loop, com o final do loop determinado pela contagem de linhas retornada por [IMAPITable::GetRowCount](imapitable-getrowcount.md). A contagem **retornada por GetRowCount** nem sempre representa o número exato de linhas na tabela; é uma contagem aproximada. 
     
-- **QueryRows** foi chamado com um número fixo de linhas e menos linhas são retornadas. Não é até que **QueryRows** retorna um conjunto de linhas com uma contagem de linha igual a zero que não há mais linhas a serem recuperadas. 
+- **QueryRows** foi chamado com um número fixo de linhas e menos linhas são retornadas. It is not until **QueryRows** returns a row set with a row count equal to zero that there are no more rows to retrieve. 
     
 > [!IMPORTANT]
-> O único momento em que um chamador pode supor que o cursor está posicionado no final da tabela para uma contagem de linha positiva ou no início da tabela para uma contagem de linhas negativas é quando o valor S_OK e as linhas zero são retornados. O valor MAPI_E_NOT_FOUND nunca é retornado. 
+> A única vez que um chamador pode assumir que o cursor está posicionado no final da tabela para uma contagem de linhas positiva ou no início da tabela para uma contagem de linhas negativas é quando o valor S_OK e zero linhas são retornadas. O valor MAPI_E_NOT_FOUND é retornado. 
   
 ## <a name="see-also"></a>Confira também
 

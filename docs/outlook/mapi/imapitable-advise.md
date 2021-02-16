@@ -25,7 +25,7 @@ ms.locfileid: "33418810"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um objeto de coletor de aviso para receber notificações de eventos especificados que afetam a tabela.
+Registra um objeto sink de aviso para receber notificação de eventos especificados que afetam a tabela.
   
 ```cpp
 HRESULT Advise(
@@ -39,17 +39,17 @@ ULONG_PTR FAR * lpulConnection
 
  _ulEventMask_
   
-> no O valor que indica o tipo de evento que gerará a notificação. Apenas o seguinte valor é válido:
+> [in] Valor que indica o tipo de evento que gerará a notificação. Somente o seguinte valor é válido:
     
  `fnevTableModified`
   
  _lpAdviseSink_
   
-> no Ponteiro para um objeto de coletor de aviso para receber as notificações subsequentes. Este objeto de coletor de aviso deve já ter sido alocado.
+> [in] Ponteiro para um objeto sink de aviso para receber as notificações subsequentes. Esse objeto sink de aconselhmento já deve ter sido alocado.
     
  _lpulConnection_
   
-> bota Ponteiro para um valor diferente de zero que representa o registro de notificação bem-sucedido.
+> [out] Ponteiro para um valor que não seja zero que representa o registro de notificação bem-sucedido.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -59,21 +59,21 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> A implementação de tabela não oferece suporte a alterações em suas linhas e colunas ou não oferece suporte a notificações.
+> A implementação da tabela não dá suporte a alterações em suas linhas e colunas ou não dá suporte à notificação.
     
 ## <a name="remarks"></a>Comentários
 
-Use o método imApitable **:: Advise** para registrar um objeto Table implementado no provedor para retornos de chamada de notificação. Sempre que uma alteração ocorre no objeto Table, o provedor verifica se o bit de máscara de evento foi definido no parâmetro _ulEventMask_ e, portanto, que tipo de alteração ocorreu. Se um bit for definido, o provedor chamará o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) para o objeto de coletor de aviso indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a **** rotina OnNotify descreve o evento. 
+Use o **método IMAPITable::Advise** para registrar um objeto de tabela implementado no provedor para retornos de chamada de notificação. Sempre que ocorre uma alteração no objeto table, o provedor verifica qual bit da máscara de eventos foi definido no parâmetro  _ulEventMask_ e, portanto, qual tipo de alteração ocorreu. Se um bit for definido, o provedor chamará o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto sink advise indicado pelo parâmetro  _lpAdviseSink_ para relatar o evento. Os dados passados na estrutura de notificação para a **rotina OnNotify** descrevem o evento. 
   
-A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou no momento seguinte. Em sistemas que oferecem suporte a vários threads de execução, **** a chamada para OnNotify pode ocorrer em qualquer thread. Para obter uma chamada para onNotificar **** que pode ocorrer em um horário do inopportune em um que seja mais seguro para lidar, um provedor deve usar a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou a qualquer momento seguinte. Em sistemas que suportam vários threads de execução, a chamada para **OnNotify** pode ocorrer em qualquer thread. Para uma maneira de transformar uma chamada para **OnNotify** que pode acontecer em um momento inoportuno em um que seja mais seguro de manipular, um provedor deve usar a função [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) 
   
-Para fornecer notificações, a **recomendação** de provedor de implementação precisa manter uma cópia do ponteiro para o objeto do coletor de aviso _lpAdviseSink_ ; para fazer isso, ele chama o método **IUnknown:: AddRef** para o coletor de avisos para manter seu ponteiro de objeto até que o registro de notificação seja cancelado com uma chamada para o método IMAPITable [:: Unadvise](imapitable-unadvise.md) . A implementação de **aviso** deve atribuir um número de conexão ao registro de notificação e chamar **AddRef** nesse número de conexão antes de devolvê-lo no parâmetro _lpulConnection_ . Os provedores de serviços podem liberar o objeto de coletor de aviso antes de o registro ser cancelado, mas não devem liberar o número de conexão até que * * Unadvise * * tenha sido chamado. 
+Para fornecer notificações, o provedor que implementa **o Advise** precisa manter uma cópia do ponteiro para o objeto sink de _aviso lpAdviseSink;_ para fazer isso, ele chama o método **IUnknown::AddRef** para o sink de aviso manter seu ponteiro de objeto até que o registro de notificação seja cancelado com uma chamada para o método [IMAPITable::Unadvise.](imapitable-unadvise.md) A **implementação de** Aviso deve atribuir um número de conexão ao registro de notificação e chamar **AddRef** nesse número de conexão antes de reenvolvê-lo no parâmetro _lpulConnection._ Os provedores de serviços podem liberar o objeto sink de avisar antes que o registro seja cancelado, mas eles não devem liberar o número de conexão até que ** Unadvise ** tenha sido chamado. 
   
-Após uma chamada a **Advise** ter sido bem-sucedida e antes de * * Unadvise * * ter sido chamado, os clientes devem estar preparados para que o objeto de coletor de aviso seja liberado. No entanto, um cliente deve liberar seu objeto **** de coletor de aviso após a revisor, a menos que tenha um uso específico de longo prazo para ele. 
+Depois que uma chamada para **o Advise** tiver sido bem-sucedida e antes de ** Unadvise ** ter sido chamado, os clientes devem estar preparados para que o objeto de cliente aconselhado seja liberado. Um cliente deve, portanto, liberar seu objeto de cliente de aconselhá-lo após o retorno de **Advise,** a menos que tenha um uso específico a longo prazo para ele. 
   
-Devido ao comportamento assíncrono da notificação, as implementações que alteram as configurações de coluna da tabela podem receber notificações com informações organizadas em uma ordem de coluna anterior. Por exemplo, uma linha de tabela pode ser retornada para uma mensagem que acabou de ser excluída do contêiner. Tal notificação é enviada quando a alteração da configuração da coluna tiver sido feita e informações sobre ela enviadas, mas a exibição da tabela de notificação ainda não tiver sido atualizada com essas informações.
+Devido ao comportamento assíncrono da notificação, implementações que alteram as configurações de coluna da tabela podem receber notificações com informações organizadas em uma ordem de coluna anterior. Por exemplo, uma linha de tabela pode ser retornada para uma mensagem que acabou de ser excluída do contêiner. Essa notificação é enviada quando a alteração na configuração da coluna é feita e as informações sobre ela são enviadas, mas a exibição da tabela de notificação ainda não foi atualizada com essas informações.
   
-Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). Para obter informações específicas sobre a notificação de tabela, consulte [about Table Notifications](about-table-notifications.md). Para obter informações sobre como usar os métodos **IMAPISupport** para dar suporte à notificação, consulte [support Event Notification](supporting-event-notification.md).
+Para obter mais informações sobre o processo de notificação, consulte [Notificação de evento em MAPI](event-notification-in-mapi.md). Para obter informações específicas sobre a notificação de tabela, consulte [Sobre notificações de tabela.](about-table-notifications.md) Para obter informações sobre como usar os **métodos IMAPISupport** para dar suporte à notificação, consulte [Notificação de Evento de Suporte.](supporting-event-notification.md)
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -81,7 +81,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContestTableListCtrl:: notificação  <br/> |MFCMAPI usa o método imApitable **:: Advise** para registrar notificações para permitir que o modo de exibição de tabela permaneça atualizado.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI usa o **método IMAPITable::Advise** para registrar notificações para permitir que o modo de exibição de tabela permaneça atualizado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

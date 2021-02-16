@@ -1,5 +1,5 @@
 ---
-title: Função hoje (aplicativo Web personalizado do Access)
+title: Função Hoje (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422121"
 ---
-# <a name="today-function-access-custom-web-app"></a>Função hoje (aplicativo Web personalizado do Access)
+# <a name="today-function-access-custom-web-app"></a>Função Hoje (aplicativo Web personalizado do Access)
 
 Retorna o valor de data atual no fuso horário definido pelo aplicativo
   
@@ -23,10 +23,10 @@ Retorna o valor de data atual no fuso horário definido pelo aplicativo
   
 ## <a name="syntax"></a>Sintaxe
 
- **Hoje** () 
+ **Today** () 
   
 ## <a name="remarks"></a>Comentários
 
-A função **Now** é semelhante, mas retorna o tempo exato, enquanto **hoje** retorna o valor de hora 12:00:00 PM para todas as datas. 
+A **função Now** é semelhante, mas retorna a hora exata, enquanto **Hoje** retorna o valor de hora 12:00:00 PM para todas as datas. 
   
 

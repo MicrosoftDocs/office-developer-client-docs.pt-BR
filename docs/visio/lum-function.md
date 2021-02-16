@@ -22,13 +22,13 @@ Retorna o valor do componente de luminosidade de uma cor.
   
 ## <a name="syntax"></a>Sintaxe
 
-LUM (* * *expressão* * *) 
+Expressão LUM(**  ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de uma cor na tabela de cores do documento ou uma referência a uma célula que contenha um índice de cores.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O índice de uma cor na tabela de cores do documento ou uma referência a uma célula que contenha um índice de cores.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -40,13 +40,13 @@ O valor retornado é um número no intervalo de 0 a 240, inclusive. A função r
   
 ## <a name="example-1"></a>Exemplo 1
 
-LUM (planilha. 4! FillForegnd
+LUM(Sheet.4! FillForegnd)
   
 Retornará a luminosidade da cor de preenchimento de primeiro plano de Sheet.4.
   
 ## <a name="example-2"></a>Exemplo 2
 
-LUM (6)
+LUM(6)
   
 Retornará 120 se o documento utilizar a paleta de cores padrão do Visio, sendo magenta a cor do índice 6.
   

@@ -1,5 +1,5 @@
 ---
-title: Preparar um destinatário
+title: Preparando um destinatário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419874"
 ---
-# <a name="preparing-a-recipient"></a>Preparar um destinatário
+# <a name="preparing-a-recipient"></a>Preparando um destinatário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um aplicativo cliente prepara os destinatários convertendo seus identificadores de entrada de curto prazo para identificadores de entrada de longo prazo e possivelmente adicionando, alterando ou reordenando Propriedades. Você pode preparar destinatários que fazem parte de uma lista de destinatários para uma ou mais mensagens que não estão relacionadas a uma mensagem. Normalmente, os clientes chamam [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) diretamente para converter identificadores de entrada de curto prazo em identificadores de entrada de longo prazo para destinatários incluídos na caixa de diálogo endereço comum. Para destinatários associados a uma mensagem de saída, a preparação do destinatário é tratada pelo processo de resolução de nomes. 
+Um aplicativo cliente prepara destinatários convertendo seus identificadores de entrada de curto prazo em identificadores de entrada de longo prazo e possivelmente adicionando, alterando ou reordenando propriedades. Você pode preparar destinatários que fazem parte de uma lista de destinatários para uma mensagem ou destinatários que não estão relacionados a uma mensagem. Normalmente, os clientes chamam [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) diretamente para converter identificadores de entrada de curto prazo em identificadores de entrada de longo prazo para destinatários incluídos na caixa de diálogo de endereço comum. Para destinatários associados a uma mensagem de saída, a preparação do destinatário é manipulada pelo processo de resolução de nomes. 
   
-Para preparar uma lista de destinatários, chame **IAddrBook::P reparerecips**. **PrepareRecips** aceita uma estrutura [das ADRLIST](adrlist.md) e uma lista de marcas de propriedade. A estrutura **das ADRLIST** contém os destinatários a serem preparados enquanto a lista de marcas de propriedade representa propriedades às quais cada destinatário deve suportar. **PrepareRecips** tenta colocar as propriedades incluídas na lista de marcas de propriedade no início da estrutura **das ADRLIST** . Se qualquer uma das propriedades na lista estiver ausente da estrutura **das ADRLIST** , o MAPI chamará o provedor de catálogo de endereços para fornecê-las. Se você precisar verificar identificadores de entrada de longo prazo, passe NULL para o parâmetro _lpSPropTagArray_ . 
+Para preparar uma lista de destinatários, chame **IAddrBook::P repareRecips**. **PrepareRecips** aceita uma estrutura [ADRLIST](adrlist.md) e uma lista de marcas de propriedade. A **estrutura ADRLIST** contém os destinatários a serem preparados, enquanto a lista de marca de propriedade representa as propriedades que cada destinatário deve suportar. **PrepareRecips** tenta colocar as propriedades incluídas na lista de marca de propriedade no início da estrutura **ADRLIST.** Se alguma das propriedades na lista estiver ausente da estrutura **ADRLIST,** o MAPI chamará o provedor de agendas para fornerí-las. Se você só precisar verificar se há identificadores de entrada de longo prazo, passe NULL para _o parâmetro lpSPropTagArray._ 
   
-Por exemplo, suponha que você está trabalhando com cinco destinatários. Todos os cinco destinatários aparecem na estrutura **das ADRLIST** com as seguintes propriedades na seguinte ordem: 
+Por exemplo, suponha que você está trabalhando com cinco destinatários. Todos os cinco destinatários aparecem na estrutura **ADRLIST** com as seguintes propriedades na seguinte ordem: 
   
 1. **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
@@ -37,7 +37,7 @@ Por exemplo, suponha que você está trabalhando com cinco destinatários. Todos
     
 5. **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-Três outras propriedades estão incluídas na estrutura **das ADRLIST** para os primeiros dois destinatários. 
+Três outras propriedades estão incluídas na **estrutura ADRLIST** para os dois primeiros destinatários. 
   
 1. **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))
     
@@ -45,9 +45,9 @@ Três outras propriedades estão incluídas na estrutura **das ADRLIST** para os
     
 3. **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md))
     
-Como todos os destinatários precisam ter suas primeiras três propriedades **PR_ADDRTYPE**, **PR_ENTRYID**e **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), crie uma matriz de marca de propriedade com essas propriedades e passe e a estrutura **das ADRLIST** como **PrepareRecips**. **PrepareRecips** chama o método **IMAPIProp::** GetProps de cada destinatário para recuperar o **PR_HOME_TELEPHONE_NUMBER** porque ele não faz parte da estrutura do **das ADRLIST** . Quando **PrepareRecips** retorna, a lista de destinatários representa uma lista mesclada de destinatários com as propriedades incluídas na estrutura **das ADRLIST** que aparecem primeiro para cada destinatário. 
+Como todos os destinatários precisam ter como suas três primeiras propriedades **PR_ADDRTYPE**, **PR_ENTRYID** e **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), crie uma matriz de marca de propriedade com essas propriedades e passe-a e a estrutura **ADRLIST** para **PrepareRecips**. **PrepareRecips** chama o método **IMAPIProp::GetProps**  de cada destinatário para recuperar PR_HOME_TELEPHONE_NUMBER porque ele não faz parte da estrutura **ADRLIST** no momento. Quando **PrepareRecips** retorna, a lista de destinatários representa uma lista mesclada de destinatários com as propriedades incluídas na estrutura **ADRLIST** que aparecem primeiro para cada destinatário. 
   
-A lista de destinatários para os destinatários 1 e 2 inclui propriedades na seguinte ordem:
+A lista de destinatários dos destinatários 1 e 2 inclui propriedades na seguinte ordem:
   
 1. **PR_ADDRTYPE**
     
@@ -69,7 +69,7 @@ A lista de destinatários para os destinatários 1 e 2 inclui propriedades na se
     
 10. **PR_SURNAME**
     
-A lista de destinatários para os destinatários 3, 4 e 5 inclui propriedades na seguinte ordem:
+A lista de destinatários dos destinatários 3, 4 e 5 inclui propriedades na seguinte ordem:
   
 1. **PR_ADDRTYPE**
     
@@ -85,6 +85,6 @@ A lista de destinatários para os destinatários 3, 4 e 5 inclui propriedades na
     
 7. **PR_ADDRTYPE**
     
-Como alternativa para chamar **IAddrBook::P reparerecips** para trabalhar com propriedades, chame o método [IMAPIProp:](imapiprop-getprops.md) : GetProps de cada destinatário e, se necessário, o método [IMAPIProp::](imapiprop-setprops.md) SetProps. Quando somente um destinatário está envolvido, qualquer técnica é satisfatória. No enTanto, quando vários destinatários estão envolvidos, chamar **PrepareRecips** em vez dos métodos **IMAPIProp** poupa tempo e, se você estiver operando remotamente, várias chamadas de procedimento remoto. O **PrepareRecips** processa todos os destinatários em uma única chamada enquanto GetProps e SetProps fazem uma chamada para cada destinatário. **** **** 
+Como alternativa à chamada **de IAddrBook::P repareRecips** para trabalhar com propriedades, chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) de cada destinatário e, se necessário, seu método [IMAPIProp::SetProps.](imapiprop-setprops.md) Quando apenas um destinatário está envolvido, qualquer técnica é satisfatória. No entanto, quando vários destinatários estão envolvidos, chamar **PrepareRecips** em vez dos métodos **IMAPIProp** economiza tempo e, se você estiver operando remotamente, muitas chamadas de procedimento remoto. **PrepareRecips** processa todos os destinatários em uma única chamada, enquanto **GetProps** e **SetProps** fazem uma chamada para cada destinatário. 
   
 

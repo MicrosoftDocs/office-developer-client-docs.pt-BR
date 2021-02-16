@@ -1,5 +1,5 @@
 ---
-title: Célula YRulerOrigin (seção &amp; Ruler Grid)
+title: Célula YRulerOrigin (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420413"
 ---
-# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Célula YRulerOrigin (seção &amp; Ruler Grid)
+# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Célula YRulerOrigin (Seção Ruler &amp; Grid)
 
 Especifica o ponto zero na régua do eixo y da página.
   
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção de **zero da régua** vertical na caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Essa célula corresponde à opção de régua **zero** vertical  na caixa de diálogo Grade de Régua (na guia Exibir, clique na **seta** Mostrar). **&amp;** 
   
 Para obter uma referência para a célula YRulerOrigin pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -36,6 +36,6 @@ Para obter uma referência para a célula YRulerOrigin pelo índice, a partir de
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visYRulerOrigin** <br/> |
+|Índice de célula:  <br/> |**visYRulerOrigin** <br/> |
    
 

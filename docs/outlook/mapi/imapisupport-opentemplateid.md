@@ -25,7 +25,7 @@ ms.locfileid: "33418502"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre uma entrada de destinatário em um provedor de catálogo de endereços externo.
+Abre uma entrada de destinatário em um provedor de agendas externas.
   
 ```cpp
 HRESULT OpenTemplateID(
@@ -43,35 +43,35 @@ LPMAPIPROP lpMAPIPropSibling
 
  _cbTemplateID_
   
-> no A contagem de bytes no identificador de modelo apontado por _lpTemplateID_. 
+> [in] A contagem de byte no identificador de modelo apontado por  _lpTemplateID_. 
     
  _lpTemplateID_
   
-> no Um ponteiro para a propriedade de identificador de **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) da entrada de destinatário a ser aberta.
+> [in] Um ponteiro para o identificador **de PR_TEMPLATEID** propriedade ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) da entrada do destinatário a ser aberta.
     
  _ulTemplateFlags_
   
-> no Uma bitmask de sinalizadores usados para descrever como abrir a entrada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores usada para descrever como abrir a entrada. O sinalizador a seguir pode ser definido:
     
 FILL_ENTRY 
   
-> Uma nova entrada está sendo criada. Quando o provedor estrangeiro recebe a chamada [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) subsequente de MAPI, ele pode controlar como a entrada é criada modificando as propriedades apontadas pelo parâmetro _lpMAPIPropData_ ou retornando uma interface específica implementação no _lppMAPIPropNew_ para controlar como as propriedades da nova entrada são definidas. 
+> Uma nova entrada está sendo criada. Quando o provedor estrangeiro recebe a chamada [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) subsequente do MAPI, ele pode controlar como a entrada é criada modificando as propriedades apontadas pelo parâmetro  _lpMAPIPropData_ ou retornando uma implementação de interface específica em  _lppMAPIPropNew_ para controlar como as propriedades da nova entrada são definidas. 
     
  _lpMAPIPropData_
   
-> no Um ponteiro para a implementação de interface que o chamador usa para acessar a entrada. Esta é a implementação que o provedor externo pode quebrar com sua própria implementação e retornar no parâmetro _lppMAPIPropNew_ . O parâmetro _lpMAPIPropData_ deve apontar para uma implementação de interface de leitura/gravação que deriva de [IMAPIProp: IUnknown](imapipropiunknown.md) e dá suporte à interface que está sendo solicitada no parâmetro _lpInterface_ . 
+> [in] Um ponteiro para a implementação da interface que o chamador usa para acessar a entrada. Esta é a implementação que o provedor externo pode quebrar com sua própria implementação e retornar no _parâmetro lppMAPIPropNew._ O _parâmetro lpMAPIPropData_ deve apontar para uma implementação de interface de leitura/gravação derivada de [IMAPIProp : IUnknown](imapipropiunknown.md) e dá suporte à interface que está sendo solicitada no parâmetro _lpInterface._ 
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a entrada. O parâmetro _lppMAPIPropNew_ aponta para uma interface do tipo especificado por _lpInterface_. Passar nulo retorna a interface padrão de um usuário de mensagens, IID_IMailUser. 
+> [in] Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a entrada. O  _parâmetro lppMAPIPropNew_ aponta para uma interface do tipo especificado por  _lpInterface_. Passar NULL retorna a interface padrão para um usuário de mensagens, IID_IMailUser. 
     
  _lppMAPIPropNew_
   
-> bota Um ponteiro para a implementação de interface que o provedor externo fornece para acessar a entrada.
+> [out] Um ponteiro para a implementação da interface que o provedor estrangeiro fornece para acessar a entrada.
     
  _lpMAPIPropSibling_
   
-> Serve deve ser nulo.
+> Reservado; deve ser NULL.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -81,19 +81,19 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O provedor do catálogo de endereços externo não existe.
+> O provedor de agendas externas não existe.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: OpenTemplateID** é implementado apenas para objetos de suporte do provedor de catálogo de endereços. **OpenTemplateID** é chamado apenas por provedores de catálogo de endereços que podem atuar como hosts para entradas que pertencem a outros provedores de catálogo de endereços, também conhecidos como provedores estrangeiros. Os provedores de host chamam **OpenTemplateID** para abrir uma entrada externa, que ocorre quando os dados no provedor de host estão vinculados ao código no provedor estrangeiro. 
+O **método IMAPISupport::OpenTemplateID** é implementado somente para objetos de suporte do provedor de agendas de endereços. **OpenTemplateID** é chamado apenas por provedores de agendas que podem atuar como hosts para entradas que pertencem a outros provedores de agendas, também conhecidos como provedores externos. Os provedores de host chamam **OpenTemplateID** para abrir uma entrada externa, que ocorre quando os dados no provedor host estão vinculados ao código no provedor estrangeiro. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Chame **OpenTemplateID** somente se você oferecer suporte ao armazenamento de entradas com identificadores de modelo de provedores de catálogos de endereços externos. Esse suporte impõe requisitos adicionais em suas implementações [IABContainer:: createentry](iabcontainer-createentry.md) e [IABLogon:: OpenEntry](iablogon-openentry.md) . Para obter mais informações, consulte as descrições desses métodos e [atuando como um provedor de catálogo de endereços de host](acting-as-a-host-address-book-provider.md).
+Chame **OpenTemplateID** somente se você suportar o armazenamento de entradas com identificadores de modelo de provedores de agendamento externo. Esse suporte coloca requisitos adicionais nas implementações [IABContainer::CreateEntry](iabcontainer-createentry.md) e [IABLogon::OpenEntry.](iablogon-openentry.md) Para obter mais informações, consulte as descrições desses métodos e agindo como um provedor de [agenda de endereços de host.](acting-as-a-host-address-book-provider.md)
   
-Se a chamada **OpenTemplateID** retornar como interface associada à mesma implementação do objeto Property que você aprovou, você pode liberar sua referência para o objeto Property. Isso ocorre porque o provedor estrangeiro chamou o método **AddRef** do objeto para manter sua própria referência. Se o provedor estrangeiro não precisar manter uma referência ao objeto Property, **OpenTemplateID** retornará o objeto Property não associado. 
+Se a **chamada OpenTemplateID** retornar como a interface vinculada da mesma implementação de objeto de propriedade que você passou, você poderá liberar sua referência ao objeto property. Isso porque o provedor externo chamou o método **AddRef** do objeto para manter sua própria referência. Se o provedor externo não precisar manter uma referência para o objeto de propriedade, **OpenTemplateID** retornará o objeto de propriedade não abound. 
   
-Se o **OpenTemplateID** falhar com o MAPI_E_UNKNOWN_ENTRYID, tente continuar tratando a entrada como somente leitura. 
+Se **OpenTemplateID** falhar com MAPI_E_UNKNOWN_ENTRYID, tente continuar tratando a entrada como somente leitura. 
   
 ## <a name="see-also"></a>Confira também
 

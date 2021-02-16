@@ -38,17 +38,17 @@ HRESULT Done(
 
  **hThreadDoneEvent**
   
-> Um evento que é passado de volta para permitir que o Microsoft Outlook feche a alça. Pode ser nulo.
+> Um evento que é passado de volta para permitir que o Microsoft Outlook feche o alça. Pode ser NULL.
     
- **And**
+ **hResult**
   
-> Um HRESULT que indica o status final do progresso.
+> Um HRESULT indicando o status final do progresso.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

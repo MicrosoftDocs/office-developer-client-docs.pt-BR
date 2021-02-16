@@ -25,7 +25,7 @@ ms.locfileid: "33420882"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia ou move uma pasta da pasta pai atual para outra pasta pai.
+Copia ou move uma pasta de sua pasta pai atual para outra pasta pai.
   
 ```cpp
 HRESULT CopyFolder(
@@ -46,47 +46,47 @@ HRESULT CopyFolder(
 
  _lpSrcInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta pai da pasta a ser copiada ou movida.
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a pasta pai da pasta a ser copiada ou movida.
     
  _lpSrcFolder_
   
-> no Um ponteiro para a pasta pai da pasta a ser copiada ou movida. 
+> [in] Um ponteiro para a pasta pai da pasta a ser copiada ou movida. 
     
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado por _lpEntryID_.
+> [in] A contagem de byte no identificador de entrada apontado por  _lpEntryID_.
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada da pasta a ser copiado ou movido. 
+> [in] Um ponteiro para o identificador de entrada da pasta a ser copiada ou movida. 
     
  _lpInterface_
   
-> no Serve deve ser nulo.
+> [in] Reservado; deve ser NULL.
     
  _lpDestFolder_
   
-> no Um ponteiro para a pasta que receberá a pasta a ser copiada ou movida.
+> [in] Um ponteiro para a pasta que deve receber a pasta a ser copiada ou movida.
     
  _lpszNewFolderName_
   
-> no Um ponteiro para o nome da pasta copiada ou movida; caso contrário, NULL, que indica que a pasta copiada ou movida deverá ter o mesmo nome da pasta de origem (a pasta apontada por _lpEntryID_).
+> [in] Um ponteiro para o nome da pasta copiada ou movida; caso contrário, NULL, que indica que a pasta copiada ou movida deve ter o mesmo nome da pasta de origem (a pasta apontada por  _lpEntryID_).
     
  _ulUIParam_
   
-> no Uma alça da janela da caixa de diálogo indicador de progresso e janelas relacionadas. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um alça da janela para a caixa de diálogo do indicador de progresso e janelas relacionadas. O _parâmetro ulUIParam é_ ignorado, a menos que o FOLDER_DIALOG padrão seja definido no parâmetro _ulFlags._ 
     
  _lpProgress_
   
-> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG esteja definido em _parâmetroulflags_.
+> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O  _parâmetro lpProgress_ é ignorado, a menos que o sinalizador FOLDER_DIALOG seja definido em  _ulFlags_.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como a operação de cópia ou movimentação é realizada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a operação de cópia ou movimentação é realizada. Os sinalizadores a seguir podem ser definidos:
     
 COPY_SUBFOLDERS 
   
-> Todas as subpastas da pasta devem ser copiadas ou movidas. Quando o COPY_SUBFOLDERS não está definido para uma operação de cópia, somente a pasta identificada por _lpEntryID_ é copiada. Com uma operação de movimentação, o comportamento COPY_SUBFOLDERS é o padrão, independentemente de o sinalizador ser definido. 
+> Todas as subpastas da pasta devem ser copiadas ou movidas. Quando COPY_SUBFOLDERS não estiver definida para uma operação de cópia, somente a pasta identificada por  _lpEntryID_ será copiada. Com uma operação de movimentação, o COPY_SUBFOLDERS padrão é o padrão, independentemente de o sinalizador ser definido. 
     
 FOLDER_DIALOG 
   
@@ -94,11 +94,11 @@ FOLDER_DIALOG
     
 FOLDER_MOVE 
   
-> A pasta deve ser movida ao invés de ser copiada. Se FOLDER_MOVE não for definido, a pasta será copiada.
+> A pasta deve ser movida em vez de copiada. Se FOLDER_MOVE não estiver definida, a pasta será copiada.
     
 MAPI_UNICODE 
   
-> O nome da pasta está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome da pasta estará no formato ANSI.
+> O nome da pasta está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o nome da pasta está no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -108,31 +108,31 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> O nome da pasta que está sendo movida ou copiada é o mesmo que o de uma subpasta na pasta de destino. O provedor de repositório de mensagens exige que os nomes das pastas sejam exclusivos. A operação é interrompida sem conclusão.
+> O nome da pasta que está sendo movida ou copiada é igual ao de uma subpasta na pasta de destino. O provedor de armazenamento de mensagens exige que os nomes das pastas sejam exclusivos. A operação é interrompida sem concluir.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada teve êxito, mas nem todas as entradas foram copiadas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas nem todas as entradas foram copiadas com êxito. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: CopyFolder** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens podem chamar **IMAPISupport:: CopyFolder** em sua implementação de [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) para copiar ou mover uma única pasta de uma pasta pai para outra. 
+O **método IMAPISupport::CopyFolder** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens podem chamar **IMAPISupport::CopyFolder** na implementação de [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) para copiar ou mover uma única pasta de uma pasta pai para outra. 
   
- **IMAPISupport:: CopyFolder** adiciona a pasta copiada ou movida como uma subpasta da pasta de destino. 
+ **IMAPISupport::CopyFolder** adiciona a pasta copiada ou movida como uma subpasta da pasta de destino. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **IMAPISupport:: CopyFolder** permite renomear e mover simultaneamente pastas e a cópia ou movimentação de subpastas da pasta afetada. Para copiar ou mover todas as subpastas aninhadas na pasta copiada ou movida, passe o sinalizador COPY_SUBFOLDERS no _parâmetroulflags_. 
+ **IMAPISupport::CopyFolder** permite renomeação e movimentação simultâneas de pastas e a cópia ou movimentação de subpastas da pasta afetada. Para copiar ou mover todas as subpastas aninhadas na pasta copiada ou movida, passe o sinalizador COPY_SUBFOLDERS em  _ulFlags_. 
   
 Espere os seguintes valores de retorno sob as seguintes condições:
   
 |**Condition**|**Valor de retorno**|
 |:-----|:-----|
 |**CopyFolder** copiou ou moveu com êxito a pasta e todas as suas subpastas, se aplicável.  <br/> |S_OK  <br/> |
-|O **CopyFolder** não pôde copiar ou mover com êxito todas as pastas.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**CopyFolder** não pôde copiar ou mover todas as pastas com êxito.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**CopyFolder** não pôde ser concluída.  <br/> |Qualquer valor de erro  <br/> |
    
-Se **CopyFolder** retornar um valor de erro, não prossiga com a suposição de que nenhum trabalho foi realizado. Uma ou mais pastas podem ter sido copiadas ou movidas antes do **CopyFolder** ter falhado. 
+Se **CopyFolder** retornar um valor de erro, não prossiga com a suposição de que nenhum trabalho foi feito. Uma ou mais pastas podem ter sido copiadas ou movidas antes da falha do **CopyFolder.** 
   
 ## <a name="see-also"></a>Confira também
 

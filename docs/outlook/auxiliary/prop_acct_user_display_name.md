@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419468"
 ---
-# <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
+# <a name="prop_acct_user_display_name"></a>PROP_ACCT_USER_DISPLAY_NAME
 
 Retorna ou define o nome de exibição do usuário.
   
@@ -31,7 +31,7 @@ Confira [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Comentários
 
-Obter ou definir essa propriedade usando [IOlkAccount:: GetProp](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
+Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
   
 ## <a name="see-also"></a>Confira também
 

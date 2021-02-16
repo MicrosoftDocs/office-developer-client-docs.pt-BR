@@ -25,11 +25,11 @@ ms.locfileid: "33420063"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [SMAPIFormProp](smapiformprop.md) . 
+Contém uma matriz de [estruturas SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
@@ -46,19 +46,19 @@ typedef struct
 
  **cProps**
   
-> Contagem de propriedades nomeadas na matriz no membro **aFormProp** . 
+> Contagem de propriedades nomeadas na matriz no **membro aFormProp.** 
     
  **ulPad**
   
->  Oito bytes de preenchimento usados para garantir alinhamento correto. 
+>  Oito bytes de preenchimento usados para garantir o alinhamento correto. 
     
  **aFormProp**
   
-> Matriz de propriedades do formulário.
+> Matriz de propriedades de formulário.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SMAPIFormPropArray** é passada como um parâmetro para os seguintes métodos: 
+A **estrutura SMAPIFormPropArray** é passada como um parâmetro para os seguintes métodos: 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

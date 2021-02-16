@@ -1,5 +1,5 @@
 ---
-title: Excluir um destinatário
+title: Excluindo um destinatário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421043"
 ---
-# <a name="deleting-a-recipient"></a>Excluir um destinatário
+# <a name="deleting-a-recipient"></a>Excluindo um destinatário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para remover uma ou mais entradas do catálogo de endereços de um contêiner modificável**
+ **Para remover uma ou mais entradas do livro de endereços de um contêiner modificável**
   
-- Chame o método [IABContainer::D eleteentries](iabcontainer-deleteentries.md) , passando uma matriz de identificadores de entrada que representam as entradas do catálogo de endereços a serem excluídas. **DeleteEntries** pode retornar um aviso, MAPI_W_PARTIAL_COMPLETION, para indicar que não foi possível excluir uma ou mais das entradas. Teste para esse valor de retorno com a macro **HR_FAILED** e chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) do contêiner se mais informações sobre o problema forem necessárias. 
+- Chame o [método IABContainer::D eleteEntries,](iabcontainer-deleteentries.md) passando uma matriz de identificadores de entrada que representam as entradas do livro de endereços a serem excluídas. **DeleteEntries** pode retornar um aviso, MAPI_W_PARTIAL_COMPLETION, para indicar que não foi possível excluir uma ou mais entradas. Teste esse valor de retorno com a macro **HR_FAILED** e chame o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) do contêiner se mais informações sobre o problema for necessária. 
     
-Quando você mantiver um ponteiro para uma estrutura [ADRENTRY](adrentry.md) de uma entrada excluída no seu cache, você ainda poderá recuperar as propriedades usando seu identificador de entrada. Isso ocorre porque a entrada só é marcada para exclusão. O MAPI mantém um nível de acesso a essas entradas marcadas por design. 
+Quando você mantém um ponteiro para a estrutura [ADRENTRY](adrentry.md) de uma entrada excluída em seu cache, você ainda poderá recuperar propriedades usando seu identificador de entrada. Isso porque a entrada só é marcada para exclusão. O MAPI mantém um nível de acesso a essas entradas marcadas por design. 
   
 

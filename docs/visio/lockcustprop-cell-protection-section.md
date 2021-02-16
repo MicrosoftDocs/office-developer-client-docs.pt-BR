@@ -41,6 +41,6 @@ Para obter uma referência para a célula LockCustProp pelo índice, a partir de
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockCustProp** <br/> |
+|Índice de célula:  <br/> |**visLockCustProp** <br/> |
    
 

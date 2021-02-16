@@ -21,7 +21,7 @@ ms.locfileid: "33418278"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O Messaging API (MAPI) é composto por um conjunto de interfaces de programação de aplicativos comuns e um componente de biblioteca de vínculo dinâmico (DLL). As interfaces são usadas para criar e acessar vários aplicativos de mensagens e sistemas de mensagens, oferecendo um ambiente uniforme para desenvolvimento e uso, além de fornecer uma independência real para ambos. A DLL contém o subsistema MAPI, que gerencia a interação entre aplicativos de mensagens front-end e sistemas de mensagens de back-end e fornece uma interface de usuário comum para tarefas frequentes. O subsistema MAPI atua como uma compensação central para unificar os vários sistemas de mensagens e clientes blindados de suas diferenças.
+A API de mensagens (MAPI) é composta por um conjunto de interfaces de programação de aplicativos comuns e um componente DLL (biblioteca de vínculo dinâmico). As interfaces são usadas para criar e acessar diversos aplicativos de mensagens e sistemas de mensagens, oferecendo um ambiente uniforme para desenvolvimento e uso e fornecendo independência verdadeira para ambos. A DLL contém o subsistema MAPI, que gerencia a interação entre aplicativos de mensagens front-end e sistemas de mensagens back-end e fornece uma interface de usuário comum para tarefas frequentes. O subsistema MAPI atua como uma central de limpeza para unificar os vários sistemas de mensagens e os clientes de defesa de suas diferenças.
   
 ## <a name="see-also"></a>Confira também
 

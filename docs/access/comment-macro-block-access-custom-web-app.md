@@ -1,5 +1,5 @@
 ---
-title: Bloco de macro de comentário (aplicativo Web personalizado do Access)
+title: Bloco de Macros comentário (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418922"
 ---
-# <a name="comment-macro-block-access-custom-web-app"></a>Bloco de macro de comentário (aplicativo Web personalizado do Access)
+# <a name="comment-macro-block-access-custom-web-app"></a>Bloco de Macros comentário (aplicativo Web personalizado do Access)
 
 A instrução **Comentário** pode ser usada para fornecer explicações em uma macro. 
   

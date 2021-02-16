@@ -20,7 +20,7 @@ ms.locfileid: "33418285"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Retorna um valor que indica se a função definida pelo usuário está sendo executada em um cluster. 
+Retorna um valor que indica se a função definida pelo usuário está sendo executado em um cluster. 
   
 ```cpp
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
@@ -32,11 +32,11 @@ Esta função não tem argumentos.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Se a função estiver em execução em um processo do Excel, retornará 0 em um **XLOPER12** do tipo **xlTypeInt**. Se a função estiver em execução em um cluster, o tipo de retorno e o valor serão determinados pelo provedor do conector de cluster.
+Se a função estiver sendo executado em um processo do Excel, retornará 0 em um **XLOPER12** do tipo **xlTypeInt**. Se a função estiver sendo executado em um cluster, o tipo de retorno e o valor são determinados pelo provedor do conector de cluster.
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
-Essa função é definida no arquivo de cabeçalho xlcall. h.
+Esta função é definida no arquivo de header Xlcall.h.
   
 ## <a name="see-also"></a>Confira também
 

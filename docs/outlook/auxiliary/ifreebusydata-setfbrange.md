@@ -33,11 +33,11 @@ HRESULT SetFBRange(
 
 _rtmStart_
   
-> no Um valor de tempo relativo para o início das informações de disponibilidade. Este valor é o número de minutos desde 1º de janeiro de 1601.
+> [in] Um valor de tempo relativo para o início das informações de livre/ocupado. Esse valor é o número de minutos desde 1º de janeiro de 1601.
     
 _rtmEnd_
   
-> no Um valor de tempo relativo para o final das informações de disponibilidade. Este valor é o número de minutos desde 1º de janeiro de 1601.
+> [in] Um valor de tempo relativo para o final das informações de livre/ocupado. Esse valor é o número de minutos desde 1º de janeiro de 1601.
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -45,7 +45,7 @@ S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Esse método é usado para indicar o intervalo de tempo de itens de calendário para os quais recuperar detalhes. Os valores de *ftmStart* e *ftmEnd* são armazenados em cache e retornados em uma chamada subsequente de [IFreeBusyData:: GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Esse método é usado para indicar o intervalo de tempo de itens de calendário para os quais recuperar detalhes. Os valores de  *ftmStart*  e  *ftmEnd*  são armazenados em cache e retornados em uma chamada subsequente de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 ## <a name="see-also"></a>Confira também
 

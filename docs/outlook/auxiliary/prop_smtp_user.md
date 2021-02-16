@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420315"
 ---
-# <a name="propsmtpuser"></a>PROP_SMTP_USER
+# <a name="prop_smtp_user"></a>PROP_SMTP_USER
 
 Representa o nome de usuário da conta SMTP.
   

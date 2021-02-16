@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRegister
 keywords:
-- função xlAutoRegister [Excel 2007]
+- Função xlautoregister [excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,14 +22,14 @@ ms.locfileid: "33421162"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-O Excel chama a [função xlAutoRegister](xlautoregister-xlautoregister12.md) sempre que uma chamada foi feita ao registrador **** de função XLM ou à [função xlfRegister](xlfregister-form-1.md)equivalente da API C, com os tipos de argumento e de retorno da função que está sendo registrada ausente. Permite que o XLL pesquise suas listas internas de funções e comandos exportados para registrar a função com os tipos de argumento e de retorno especificados.
+O Excel chama a função [xlAutoRegister](xlautoregister-xlautoregister12.md) sempre que uma chamada é feita para a função XLM **REGISTER** ou a função [equivalente xlfRegister](xlfregister-form-1.md)da API C, com os tipos de retorno e argumento da função sendo registrada ausentes. Ele permite que o XLL pesquise suas listas internas de funções e comandos exportados para registrar a função com o argumento e os tipos de retorno especificados.
   
-A partir do Excel 2007, o Excel chama a função **xlAutoRegister12** em preferência para a função **xlAutoRegister** se ela for exportada pelo XLL. 
+A partir do Excel 2007, o Excel chama a função **xlAutoRegister12** de preferência para a função **xlAutoRegister** se ela for exportada pelo XLL. 
   
-O Excel não requer que um XLL implemente e exporte uma dessas funções.
+O Excel não exige um XLL para implementar e exportar qualquer uma dessas funções.
   
 > [!NOTE]
-> Se **xlAutoRegister**/ **xlAutoRegister12** tentar registrar a função sem fornecer os tipos de argumento e de retorno, ocorrerá um loop de chamada recursiva, que eventualmente estourará a pilha de chamadas e travará o Excel. 
+> Se **xlAutoRegister** /  **xlAutoRegister12** tentar registrar a função sem fornecer o argumento e os tipos de retorno, ocorrerá um loop de chamada recursiva que eventualmente exceda a pilha de chamada e trava o Excel. 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
@@ -44,21 +44,21 @@ O nome da função XLL que está sendo registrada.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-A função deve retornar o resultado da tentativa de registrar a função XLL _pxName_ usando a função **xlfRegister** . Se a função especificada não for uma das exportações do XLL, ela deverá retornar o **#VALUE!** erro ou **nulo** que o Excel irá interpretar em **#VALUE!**.
+A função deve retornar o resultado da tentativa de registrar a função _PXName_ XLL usando a **função xlfRegister.** Se a função especificada não for uma das exportações do XLL, ela deverá retornar o **#VALUE!** ou **NULL** que o Excel interpretará em **#VALUE!**.
   
 ## <a name="remarks"></a>Comentários
 
-Sua implementação do **xlAutoRegister** deve realizar uma pesquisa que não diferencia maiúsculas de minúsculas nas listas internas de funções e comandos que ele exporta procurando por uma correspondência com o nome aprovado. Se a função ou o comando for encontrado, **xlAutoRegister** deve tentar registrá-lo, usando a função **xlfRegister** , certificando-se de fornecer a cadeia de caracteres que informa ao Excel os tipos de argumento e de retorno da função, bem como qualquer outro necessário informações sobre a função. Em seguida, ele deve retornar ao Excel, qualquer que seja a chamada para **xlfRegister** retornada. Se a função foi registrada com êxito, **xlfRegister** retorna um valor **xltypeNum** que contém a ID de registro da função. 
+Sua implementação do **xlAutoRegister** deve realizar uma pesquisa que não faça maiúsculas de minúsculas nas listas internas de funções e comandos do XLL que ele exporta procurando uma combinação com o nome passado. Se a função ou o comando for encontrado, **xlAutoRegister** deverá tentar registrá-lo, usando a função **xlfRegister,** fornecendo a cadeia de caracteres que informa ao Excel os tipos de retorno e argumento da função, bem como quaisquer outras informações necessárias sobre a função. Em seguida, ele deve retornar ao Excel independentemente da chamada para **xlfRegister** retornada. Se a função tiver sido registrada com êxito, **xlfRegister** retornará um valor **xltypeNum** contendo a ID do Registro da função. 
   
 ### <a name="example"></a>Exemplo
 
-ConFira o `SAMPLES\EXAMPLE\EXAMPLE.C` arquivo para obter um exemplo de implementação dessa função. 
+Consulte o arquivo  `SAMPLES\EXAMPLE\EXAMPLE.C` para ver um exemplo de implementação dessa função. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[REMOVER](xlfregister-form-1.md)
+[REGISTER](xlfregister-form-1.md)
   
 [UNREGISTER](xlfunregister-form-1.md)
 

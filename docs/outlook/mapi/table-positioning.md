@@ -1,5 +1,5 @@
 ---
-title: Posicionamento de tabelas
+title: Posicionamento de tabela
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418586"
 ---
-# <a name="table-positioning"></a>Posicionamento de tabelas
+# <a name="table-positioning"></a>Posicionamento de tabela
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A posição atual dentro de uma tabela é sempre indicada por um cursor. Há um cursor para cada modo de exibição de uma tabela; o valor é definido pelo implementador da tabela. Quando um cliente ou provedor de serviço que usa a tabela faz uma chamada para alterar a posição da tabela, o valor do cursor é redefinido. A posição de uma tabela pode ser alterada com:
+A posição atual em uma tabela é sempre indicada por um cursor. Há um cursor para cada exibição de uma tabela; seu valor é definido pelo implementador da tabela. Quando um cliente ou provedor de serviços usando a tabela faz uma chamada para alterar a posição da tabela, o valor do cursor é redefinido. A posição de uma tabela pode ser alterada com:
   
 - Um indicador.
     
-- Um valor fracionário.
+- Um valor fracionado.
     
 - Um filtro.
     

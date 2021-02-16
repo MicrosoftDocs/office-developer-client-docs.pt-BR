@@ -38,11 +38,11 @@ HRESULT GetState(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpulState_
   
-> bota Um ponteiro para um valor que indica o estado do controle de botão. Um dos valores a seguir pode ser retornado:
+> [out] Um ponteiro para um valor que indica o estado do controle de botão. Um dos seguintes valores pode ser retornado:
     
 MAPI_DISABLED 
   
@@ -60,9 +60,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de serviços implementam o método **IMAPIControl:: GetState** para fornecer MAPI com o estado de um controle de botão. Se o botão estiver habilitado, ele poderá responder a um clique do mouse ou pressionar tecla. Se estiver desabilitada, o botão aparecerá esmaecido e não responderá a um clique do mouse ou a um pressionamento de tecla. 
+Os provedores de serviços implementam **o método IMAPIControl::GetState** para fornecer MAPI com o estado de um controle de botão. Se o botão estiver habilitado, ele poderá responder a um clique do mouse ou pressionar tecla. Se estiver desabilitado, o botão aparecerá esmaecida e não responderá a um clique do mouse ou pressionada por tecla. 
   
-Para obter mais informações sobre como implementar **GetState** e outros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , consulte [Control Object Implementation](control-object-implementation.md).
+For more information about how to implement **GetState** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

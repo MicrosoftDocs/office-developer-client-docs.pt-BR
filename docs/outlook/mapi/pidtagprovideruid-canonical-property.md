@@ -25,7 +25,7 @@ ms.locfileid: "33422772"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma estrutura **MAPIUID** do provedor de serviços que está tratando de uma mensagem. 
+Contém uma **estrutura MAPIUID** do provedor de serviços que está manipulando uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém uma estrutura **MAPIUID** do provedor de serviços que está tratando de
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é calculada por todos os provedores de serviços. Ele contém uma estrutura [MAPIUID](mapiuid.md) associada e, em geral, embutida em código, o provedor. Geralmente, ele é usado por um aplicativo cliente que está interessado apenas nos contêineres do catálogo de endereços fornecidos por um determinado provedor. 
+Essa propriedade é calculada por todos os provedores de serviços. Ele contém uma [estrutura MAPIUID](mapiuid.md) associada e geralmente codificada pelo provedor. Normalmente, ele é usado por um aplicativo cliente que está interessado apenas nos contêineres do livro de endereços fornecidos por um provedor específico. 
   
-Essa propriedade aparece somente como uma entrada de coluna na tabela do provedor.
+Essa propriedade aparece apenas como uma entrada de coluna na tabela do provedor.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

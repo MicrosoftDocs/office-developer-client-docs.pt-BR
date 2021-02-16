@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm70
 localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
-description: Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+description: Determina a quantidade de espaço vertical entre as formas na página de desenho quando você formate formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Re-Layout Página e em Mais Opções de Layout).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33420203"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>Célula AvenueSizeY (Seção Page Layout)
 
-Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout** da página e clique em **mais Opções de layout**).
+Determina a quantidade de espaço vertical entre as formas na página de desenho quando você formate formas usando a caixa de diálogo Configurar **Layout** (na guia **Design,** no grupo **Layout,** clique em **Re-Layout** page e em Mais Opções de **Layout).**
   
 ## <a name="remarks"></a>Comentários
 
@@ -38,6 +38,6 @@ Para obter uma referência para a célula AvenueSizeY pelo índice a partir de u
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-| Índice da célula:  <br/> |**visPLOAvenueSizeY** <br/> |
+| Índice de célula:  <br/> |**visPLOAvenueSizeY** <br/> |
    
 

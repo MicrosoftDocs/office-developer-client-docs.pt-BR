@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421281"
 ---
-# <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
+# <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 
 Especifica o tipo de conexão criptografada a ser usada para uma conta SMTP.
   
@@ -29,13 +29,13 @@ Especifica o tipo de conexão criptografada a ser usada para uma conta SMTP.
    
 ## <a name="remarks"></a>Comentários
 
-O valor pode ser uma das seguintes constantes. ConFira [constantes (API de gerenciamento de contas)](constants-account-management-api.md) para seus valores. 
+O valor pode ser uma das seguintes constantes. Consulte [Constantes (API de gerenciamento de conta)](constants-account-management-api.md) para seus valores. 
   
 |**Constants**|**Descrição**|
 |:-----|:-----|
 |**ENCRYPT_CONN_NO_SECURITY** <br/> |Não use nenhuma criptografia.  <br/> |
-|**ENCRYPT_CONN_SSL** <br/> |Use a criptografia SSL (Secure Socket Layer).  <br/> |
-|**ENCRYPT_CONN_TLS** <br/> |Use o protocolo de autenticação e criptografia TLS (Transport Layer Security).  <br/> |
+|**ENCRYPT_CONN_SSL** <br/> |Use criptografia SSL (Secure Socket Layer).  <br/> |
+|**ENCRYPT_CONN_TLS** <br/> |Use o protocolo de criptografia e autenticação TLS.  <br/> |
 |**ENCRYPT_CONN_AUTO** <br/> |Detectar e usar automaticamente o método de criptografia suportado pelo servidor de email.  <br/> |
    
 ## <a name="see-also"></a>Confira também

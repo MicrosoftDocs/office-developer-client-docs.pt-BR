@@ -25,7 +25,7 @@ ms.locfileid: "33418145"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Consulta o subsistema MAPI para obter suporte de desligamento rápido fornecido por provedores MAPI carregados.
+Consulta o subsistema mapi para suporte de desligamento rápido fornecido por provedores MAPI carregados.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> O subsistema MAPI oferece suporte ao cliente MAPI para fazer desligamento rápido.
+> O subsistema de MAPI dá suporte ao cliente MAPI para fazer o desligamento rápido.
     
 MAPI_E_NO_SUPPORT
   
-> O provedor MAPI não dá suporte ao cliente MAPI para fazer desligamento rápido.
+> O provedor de MAPI não dá suporte ao cliente MAPI para fazer o desligamento rápido.
     
 ## <a name="remarks"></a>Comentários
 
-Se o subsistema MAPI suporta o cliente MAPI para fazer o desligamento rápido depende da configuração do registro do Windows do usuário ou o comportamento padrão do cliente MAPI para o desligamento rápido. Também depende da capacidade dos provedores MAPI carregados suportar o desligamento rápido. Para obter mais informações, consulte [Opções de usuário](fast-shutdown-user-options.md)de desligamento rápido.
+Se o subsistema de MAPI dá suporte ao cliente MAPI para fazer o desligamento rápido depende da configuração do Registro do Windows do usuário ou do comportamento padrão do cliente MAPI para o desligamento rápido. Também depende da capacidade dos provedores MAPI carregados de dar suporte ao desligamento rápido. Para obter mais informações, consulte Opções [de Usuário de Desligamento Rápido.](fast-shutdown-user-options.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421232"
 ---
-# <a name="direntryid"></a>DIR_ENTRYID
+# <a name="dir_entryid"></a>DIR_ENTRYID
 
   
   
@@ -25,7 +25,7 @@ Descreve as propriedades de uma ID de entrada de diretório.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |EntryID. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |entryid.h  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -44,15 +44,15 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura [EntryID](entryid.md) . 
+> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do **campo abFlags** de uma [estrutura ENTRYID.](entryid.md) 
     
  **muid**
   
-> GUID que identifica o provedor de repositório.
+> GUID que identifica o provedor do armazenamento.
     
  **ulVersion**
   
-> O número da versão da estrutura **DIR_ENTRYID** . Deve ser definido como CONTAB_VERSION. 
+> O número da versão da **DIR_ENTRYID** estrutura. Deve ser definido como CONTAB_VERSION. 
     
  **ulType**
   
@@ -60,7 +60,7 @@ typedef struct _dir_entryid
     
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |A pasta raiz de um catálogo de endereços MAPI.  <br/> |
+|CONTAB_ROOT  <br/> |A pasta raiz de um livro de endereços MAPI.  <br/> |
 |CONTAB_SUBROOT  <br/> |Uma subpasta contida na pasta raiz do objeto de catálogos de endereços MAPI.  <br/> |
 |CONTAB_CONTAINER  <br/> |Abrir o contêiner de um objeto do catálogo de endereços.  <br/> |
    
@@ -70,7 +70,7 @@ typedef struct _dir_entryid
     
 ## <a name="remarks"></a>Comentários
 
-As estruturas **DIR_ENTRYID** e [CONTAB_ENTRYID](contab_entryid.md) são idênticas, exceto para o membro **ulType** . O conteúdo do membro **ulType** determina qual estrutura é adequada para os campos restantes. 
+As **estruturas DIR_ENTRYID** [e CONTAB_ENTRYID](contab_entryid.md) são idênticas, exceto para o **membro ulType.** O conteúdo do membro **ulType** determina qual estrutura é apropriada para os campos restantes. 
   
 ## <a name="see-also"></a>Confira também
 

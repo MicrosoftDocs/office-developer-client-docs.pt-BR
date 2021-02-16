@@ -22,18 +22,18 @@ Retorna o número de registros em uma consulta ou tabela.
   
 ## <a name="syntax"></a>Sintaxe
 
-**Contagem** (*Expressão*) 
+**Count** (*Expression*) 
   
-A função **Count** contém o argumento a seguir. 
+A **função Count** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Expressão*  <br/> |Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja contar ou uma expressão que executa um cálculo usando os dados no campo. Os operandos na *expressão* podem incluir o nome de um campo de tabela ou função (que pode ser intrínseco ou definido pelo usuário, mas não outras funções de agregação SQL). É possível contar qualquer tipo de dados, inclusive texto.  <br/> |
+| *Expressão*  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados que você deseja contar ou uma expressão que executa um cálculo usando os dados no campo. Os operadores na  *expressão*  podem incluir o nome de um campo ou função de tabela (que pode ser intrínseca ou definida pelo usuário, mas não outras funções agregadas do SQL). É possível contar qualquer tipo de dados, inclusive texto.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode usar Count para contar o número de registros em uma consulta de base. Por exemplo, você poderia usar Count para contar o número de pedidos enviados para um determinado país ou região.
+Você pode usar Count para contar o número de registros em uma consulta de base. Por exemplo, você pode usar Count para contar o número de pedidos enviados para um determinado país ou região.
   
-**Contagem** (\*) retorna o número de itens em um grupo. Isso inclui valores nulos e duplicatas. 
+**Count** ( \* ) retorna o número de itens em um grupo. Isso inclui valores NULL e duplicatas. 
   
 

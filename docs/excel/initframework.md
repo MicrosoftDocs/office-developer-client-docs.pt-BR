@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - InitFramework
 keywords:
-- função initframework [Excel 2007]
+- função initframework [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33420749"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca da estrutura que inicializa a biblioteca do Framework, que simplesmente inicializa as estruturas de dados de memória do**XLOPER12** de **XLOPER**/ temporários, liberando qualquer memória que já tenha sido alocada. 
+Função de biblioteca de estrutura que inicializa a biblioteca framework, que simplesmente inicializa as estruturas de dados de memória /  **XLOPER XLOPER12** temporárias, liberando qualquer memória que já tenha sido alocada. 
   
 ```cs
 short WINAPI InitFramework(void);
@@ -34,11 +34,11 @@ Essa função não usa argumentos.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Essa função não retorna um valor.
+Esta função não retorna um valor.
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **InitFramework** para liberar toda a memória temporária. 
+Este exemplo usa a **função InitFramework** para liberar toda a memória temporária. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

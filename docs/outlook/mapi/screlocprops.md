@@ -25,11 +25,11 @@ ms.locfileid: "33421085"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ajusta os ponteiros em uma matriz [SPropValue](spropvalue.md) após a matriz e seus dados terem sido copiados ou movidos para um novo local. 
+Ajusta os ponteiros em uma [matriz SPropValue](spropvalue.md) depois que a matriz e seus dados foram copiados ou movidos para um novo local. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,25 +45,25 @@ SCODE ScRelocProps(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cProp_
+ _cprop_
   
-> no Contagem de propriedades na matriz apontada pelo parâmetro _rgprop_ . 
+> [in] Contagem de propriedades na matriz apontada pelo _parâmetro rgprop._ 
     
  _rgprop_
   
-> no Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) para as quais os ponteiros devem ser ajustados. 
+> [in] Ponteiro para uma matriz de [estruturas SPropValue](spropvalue.md) para as quais ponteiros devem ser ajustados. 
     
  _pvBaseOld_
   
-> no Ponteiro para o endereço base original da matriz apontada pelo parâmetro _rgprop_ . 
+> [in] Ponteiro para o endereço base original da matriz apontado pelo _parâmetro rgprop._ 
     
  _pvBaseNew_
   
-> no Ponteiro para o novo endereço base da matriz apontada pelo parâmetro _rgprop_ . 
+> [in] Ponteiro para o novo endereço base da matriz apontado pelo _parâmetro rgprop._ 
     
- _PCB_
+ _pcb_
   
-> [in, out] Ponteiro opcional para o tamanho, em bytes, da matriz indicada pelo parâmetro _pvBaseNew_ . Se não for nulo, o parâmetro _PCB_ será definido como o número de bytes armazenados no parâmetro _pvD_ . 
+> [in, out] Ponteiro opcional para o tamanho, em bytes, da matriz indicada pelo _parâmetro pvBaseNew._ Se não for NULL, o _parâmetro pcb_ será definido como o número de bytes armazenados no _parâmetro pvD._ 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -77,15 +77,15 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-A função **ScRelocProps** opera na pressuposição de que a matriz de valor de propriedade para a qual os ponteiros são ajustados foi originalmente alocada em uma única chamada semelhante a uma chamada para a função **ScCopyProps** . Se um aplicativo cliente ou provedor de serviços estiver trabalhando com um valor de propriedade criado a partir de blocos de memória não conjunta, ele deverá usar o [ScCopyProps](sccopyprops.md) para copiar propriedades. 
+A **função ScRelocProps** opera na suposição de que a matriz de valores de propriedade para a qual os ponteiros são ajustados foi originalmente alocada em uma única chamada semelhante a uma chamada para a **função ScCopyProps.** Se um aplicativo cliente ou provedor de serviços estiver trabalhando com um valor de propriedade criado a partir de blocos de memória não adjacentes, ele deverá usar [ScCopyProps](sccopyprops.md) para copiar propriedades em vez disso. 
   
- **ScRelocProps** é usado para manter a validade de ponteiros em uma matriz [SPropValue](spropvalue.md) . Para manter a validade dos ponteiros ao gravar tal matriz e lê-lo em um disco, execute as seguintes operações: 
+ **ScRelocProps** é usado para manter a validade de ponteiros em uma [matriz SPropValue.](spropvalue.md) Para manter a validade dos ponteiros ao escrever essa matriz e lê-la a partir de um disco, execute as seguintes operações: 
   
-1. Antes de gravar a matriz e os dados em um disco, chame **ScRelocProps** na matriz com o parâmetro _pvBaseNew_ apontando para um valor padrão zero, por exemplo. 
+1. Antes de escrever a matriz e os dados em um disco, chame **ScRelocProps** na matriz com o parâmetro  _pvBaseNew_ apontando para algum valor padrão zero, por exemplo. 
     
-2. Após ler a matriz e os dados de um disco, chame **ScRelocProps** na matriz com o parâmetro _pvBaseOld_ igual ao mesmo valor padrão usado na etapa 1. A matriz e os dados devem ser lidos em um buffer criado com uma única alocação. 
+2. Depois de ler a matriz e os dados de um disco, chame **ScRelocProps** na matriz com o parâmetro  _pvBaseOld_ igual ao mesmo valor padrão usado na Etapa 1. A matriz e os dados devem ser lidos em um buffer criado com uma única alocação. 
     
-3. O parâmetro _PCB_ para **ScRelocProps** é opcional. 
+3. O  _parâmetro pcb_ para **ScRelocProps** é opcional. 
     
 ## <a name="see-also"></a>Confira também
 

@@ -37,7 +37,7 @@ HRESULT HrDeleteRow(
 
  _lpSPropValue_
   
-> no Um ponteiro para uma estrutura de valor de propriedade que descreve a coluna de índice da linha a ser excluída. O membro **ulPropTag** da estrutura de valor da propriedade deve conter a mesma marca de propriedade que o parâmetro _ulPropTagIndexColumn_ da chamada para a função [CreateTable](createtable.md) . 
+> [in] Um ponteiro para uma estrutura de valores de propriedade que descreve a coluna de índice para a linha a ser excluída. O **membro ulPropTag** da estrutura de valores de propriedade deve conter a mesma marca de propriedade que o _parâmetro ulPropTagIndexColumn_ da chamada para a função [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> A propriedade indicada pelo parâmetro _lpSPropValue_ não identifica uma linha na tabela. 
+> A propriedade apontada pelo parâmetro  _lpSPropValue_ não identifica uma linha na tabela. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrDeleteRow** remove a linha da tabela que contém a coluna que corresponde à propriedade indicada pelo parâmetro _lpSPropValue_ . Os dados para a linha são excluídos e a linha é removida de todos os modos de exibição abertos. 
+O **método ITableData::HrDeleteRow** remove a linha da tabela que contém a coluna que corresponde à propriedade apontada pelo _parâmetro lpSPropValue._ Os dados da linha são excluídos e a linha é removida de todos os exibições abertas. 
   
-Depois que a linha é excluída, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método imApitable [:: Advise](imapitable-advise.md) da tabela para se registrarem para notificações. 
+Depois que a linha é excluída, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que tenham chamado o método [IMAPITable::Advise](imapitable-advise.md) da tabela para registrar para notificações. 
   
-A exclusão de uma linha não reduz o conjunto de colunas que está disponível para modos de exibição existentes ou abertos subsequentemente, mesmo que a linha excluída seja a última linha que tenha um valor para uma coluna específica.
+Excluir uma linha não reduz o conjunto de colunas que está disponível para exibições existentes ou exibições abertas subsequentemente, mesmo que a linha excluída seja a última linha que tenha um valor para uma coluna específica.
   
 ## <a name="see-also"></a>Confira também
 

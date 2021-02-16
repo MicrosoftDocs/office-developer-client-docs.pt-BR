@@ -24,8 +24,8 @@ Contém diversos atributos de formas e grupos, como seleção de controle de des
 
 É possível definir o valor de diversas células desta seção na janela ShapeSheet ou na guia **Comportamento** da caixa de diálogo **Comportamento** (clique em **Comportamento** no grupo **Design da Forma** na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md)) na janela do desenho. Você pode definir outras propriedades do grupo usando células na seção Group Properties. 
   
-Nos produtos Visio versão 5,0, esta seção inclui as células **ObjInteract,** e **ObjBehavior** . O comportamento na célula **ObjInteract,** agora está mapeado para as seguintes células na seção Shape layout: **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY**e **ShapePermeablePlace**. O comportamento na célula ObjBehavior agora está mapeado para as células **ConFixedCode** e **ShapeRouteStyle** . 
+Nos produtos visio versão 5.0, esta seção incluía células **ObjInteract** e **ObjBehavior.** O comportamento na célula **ObjInteract** agora é mapeado para as seguintes células na seção Shape Layout: **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY** e **ShapePermeablePlace**. O comportamento na célula ObjBehavior agora é mapeado para as células **ConFixedCode** e **ShapeRouteStyle.** 
   
-Nos produtos japoneses da versão 5,0 do Visio, esta seção inclui uma célula **VerticalText** . Nos produtos Visio versão 2000 e posteriores, o valor dessa célula é armazenado na célula **** TextDirection na seção **Text Block Format** . 
+Nos produtos japoneses do Visio versão 5.0, esta seção incluía uma **célula VerticalText.** Nos produtos da versão Visio 2000 e posteriores, o valor dessa célula é armazenado na célula **TextDirection,** na seção **Text Block Format.** 
   
 

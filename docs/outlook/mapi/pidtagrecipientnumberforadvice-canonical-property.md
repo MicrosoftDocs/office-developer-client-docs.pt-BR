@@ -25,7 +25,7 @@ ms.locfileid: "33420637"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta propriedade contém o número de telefone do destinatário da mensagem para chamar o aviso da entrega física de uma mensagem.
+Essa propriedade contém o número de telefone de um destinatário da mensagem a ser chamada para avisar sobre a entrega física de uma mensagem.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Esta propriedade contém o número de telefone do destinatário da mensagem para
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades devem ser usadas em conjunto com a entrega para um destino físico, em vez de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega. Um exemplo é o número de telefone em uma folha de rosto de fax.
+Essas propriedades devem ser usadas em conjunto com a entrega para um destino físico, em vez de uma caixa de correio eletrônica, quando o destinatário humano não deve estar presente na entrega. Um exemplo é o número de telefone em uma folha de capa de fax.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

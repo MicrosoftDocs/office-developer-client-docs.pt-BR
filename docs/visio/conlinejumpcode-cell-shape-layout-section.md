@@ -22,10 +22,10 @@ Determina quando um conector salta.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Como especificado na página, no menu **Design**, clique na seta do grupo **Configurar Página** e na guia **Layout e Direcionamento** para ver as especificações da página.  <br/> |**visSLOJumpDefault** <br/> |
-|1  <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
-|duas  <br/> |Sempre  <br/> |**visSLOJumpAlways** <br/> |
-|3D  <br/> |Outro conector salta  <br/> |**visSLOJumpOther** <br/> |
+|0  <br/> |Como especificado na página, no menu **Design**, clique na seta do grupo **Configurar Página** e na guia **Layout e Direcionamento** para ver as especificações da página.  <br/> |**visSLOJumpDefault** <br/> |
+|1   <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
+|2   <br/> |Sempre  <br/> |**visSLOJumpAlways** <br/> |
+|3   <br/> |Outro conector salta  <br/> |**visSLOJumpOther** <br/> |
 |4   <br/> |Nenhum conector salta  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Comentários

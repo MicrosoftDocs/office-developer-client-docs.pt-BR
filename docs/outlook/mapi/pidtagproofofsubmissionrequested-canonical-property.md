@@ -25,7 +25,7 @@ ms.locfileid: "33420287"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor de envio da prova ASN. 1.
+Contém uma prova ASN.1 do valor de envio.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém um valor de envio da prova ASN. 1.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade corresponde a um envelope de envio por mensagem X. 400.
+Essa propriedade corresponde a um envelope de envio X.400 por atributo de mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -29,7 +29,7 @@ Descreve zero ou mais propriedades que pertencem a um destinatário.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _ADRENTRY
@@ -45,19 +45,19 @@ typedef struct _ADRENTRY
 
  **ulReserved1**
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  **cValues**
   
-> Contagem de propriedades na matriz de valor de propriedade apontada pelo membro **rgPropVals** . O membro **cValues** pode ser zero. 
+> Contagem de propriedades na matriz de valores de propriedade apontada pelo **membro rgPropVals.** O **membro cValues** pode ser zero. 
     
  **rgPropVals**
   
-> Ponteiro para uma matriz de valor de propriedade que descreve as propriedades do destinatário. O membro **rgPropVals** pode ser nulo. 
+> Ponteiro para uma matriz de valores de propriedade descrevendo as propriedades do destinatário. O **membro rgPropVals** pode ser NULL. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **ADRENTRY** descreve as propriedades que pertencem a um único destinatário. As propriedades que normalmente são usadas para descrever um destinatário incluem o seguinte: 
+Uma **estrutura ADRENTRY** descreve as propriedades que pertencem a um único destinatário. As propriedades que normalmente são usadas para descrever um destinatário incluem o seguinte: 
   
  **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
@@ -67,15 +67,15 @@ Uma estrutura **ADRENTRY** descreve as propriedades que pertencem a um único de
   
  **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
-Quando um identificador de entrada ou propriedade **PR_ENTRYID** aparece na matriz [SPropValue](spropvalue.md) de um destinatário, isso indica que o destinatário foi resolvido. Os clientes chamam o método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) para garantir que todos os destinatários na lista de destinatários de uma mensagem de saída foram resolvidos. Somente destinatários resolvidos podem ser enviados com mensagens. 
+Quando um identificador de entrada **ou PR_ENTRYID** propriedade aparece na matriz [SPropValue](spropvalue.md) de um destinatário, isso indica que o destinatário foi resolvido. Os clientes chamam [o método IAddrBook::ResolveName](iaddrbook-resolvename.md) para garantir que todos os destinatários na lista de destinatários de uma mensagem de saída tenham sido resolvidos. Somente destinatários resolvidos podem ser enviados com mensagens. 
   
- Estruturas **ADRENTRY** normalmente são combinadas para formar uma matriz para o membro **aEntries** de uma estrutura [das ADRLIST](adrlist.md) . 
+ **Estruturas ADRENTRY** são normalmente combinadas para formar uma matriz para o membro **aEntries** de uma [estrutura ADRLIST.](adrlist.md) 
   
- Estruturas **ADRENTRY** e estruturas [SRow](srow.md) são idênticas porque ambas contêm um membro reservado, uma matriz de valores de propriedade e uma contagem de valores na matriz. Enquanto as estruturas **ADRENTRY** são combinadas para formar o membro **aEntries** de uma estrutura **das ADRLIST** , as estruturas **SRow** são combinadas para formar o membro **aRow** de uma estrutura [SRowSet](srowset.md) . Os dois tipos de estruturas seguem as mesmas regras de alocação, indicando que uma estrutura **SRowSet** que é recuperada da tabela de conteúdo de um contêiner de catálogo de endereços pode ser convertida para uma estrutura **das ADRLIST** e usada como está. 
+ **Estruturas ADRENTRY** e [SRow](srow.md) são idênticas porque ambas contêm um membro reservado, uma matriz de valores de propriedade e uma contagem de valores na matriz. Enquanto as **estruturas ADRENTRY** são combinadas para formar o membro **aEntries** de uma estrutura **ADRLIST,** as estruturas **SRow** são combinadas para formar o membro **aRow** de uma [estrutura SRowSet.](srowset.md) Os dois tipos de estruturas seguem as mesmas regras de alocação, indicando que uma estrutura **SRowSet** recuperada do índice de um contêiner de um livro de endereços pode ser lançada em uma estrutura **ADRLIST** e usada como está. 
   
-Uma estrutura **ADRENTRY** pode estar vazia. Por exemplo, uma estrutura **ADRENTRY** que está contida na estrutura **das ADRLIST** apontada pelo parâmetro _LppAdrList_ em uma chamada para **IAddrBook:: address** pode estar vazia quando um destinatário está sendo removido. 
+Uma **estrutura ADRENTRY** pode estar vazia. Por exemplo, uma estrutura **ADRENTRY** contida na estrutura **ADRLIST** apontada pelo parâmetro  _lppAdrList_ em uma chamada para **IAddrBook::Address** pode estar vazia quando um destinatário está sendo removido. 
   
-Para obter mais informações sobre como alocar memória para estruturas **ADRENTRY** , consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obter mais informações sobre como alocar memória para estruturas **ADRENTRY,** consulte Gerenciando memória para [estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
   
 ## <a name="see-also"></a>Confira também
 

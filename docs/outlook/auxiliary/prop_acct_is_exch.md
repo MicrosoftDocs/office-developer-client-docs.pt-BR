@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418229"
 ---
-# <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
+# <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 
 True se a conta for uma conta do Exchange.
   

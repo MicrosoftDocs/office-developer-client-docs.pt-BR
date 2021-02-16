@@ -25,13 +25,13 @@ ms.locfileid: "33420588"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Substitui [MAPIInitialize](mapiinitialize.md) quando apenas as funções de utilitário são usadas. 
+Substitui [MAPIInitialize](mapiinitialize.md) quando apenas funções utilitais selecionadas estão sendo usadas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 SCODE ScInitMapiUtil(
@@ -43,19 +43,19 @@ SCODE ScInitMapiUtil(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam para chamar e liberar funções do utilitário Select, em vez de [MAPIInitialize](mapiinitialize.md), que chama o núcleo, bem como funções utilitárias. Quando o **ScInitMapiUtil** chama funções de utilitário, ele também inicializa a memória necessária. 
+As funções **ScInitMapiUtil** e [DeinitMapiUtil](deinitmapiutil.md) cooperam para chamar e liberar funções utilitais selecionadas, em oposição a [MAPIInitialize](mapiinitialize.md), que chama o núcleo, bem como funções de utilitário. Quando **ScInitMapiUtil** chama funções de utilitário, ele também inicializa a memória necessária. 
   
-Quando o uso das funções que o **ScInitMapiUtil** chamou estiver concluído, **DeinitMapiUtil** deverá ser explicitamente chamado para liberá-las. Por outro lado, **MAPIInitialize** chama implicitamente **DeinitMapiUtil**. 
+Quando o uso das funções que **ScInitMapiUtil** chamou está concluído, **DeinitMapiUtil** deve ser chamado explicitamente para liberá-las. Por outro lado, **MAPIInitialize** implicitamente chama **DeinitMapiUtil**. 
   
 ## <a name="see-also"></a>Confira também
 

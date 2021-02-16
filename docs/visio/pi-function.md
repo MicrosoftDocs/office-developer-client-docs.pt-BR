@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251478
 localization_priority: Normal
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
-description: Retorna o PI de constante matemática, que é aproximadamente 3.1415926535898.
+description: Retorna a constante matemática pi , que é de aproximadamente 3,1415926535898.
 ms.openlocfilehash: fccde47df34f3be92201427e46a2084f001e3cd1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418376"
 ---
 # <a name="pi-function"></a>Função PI
 
-Retorna o *PI* de constante matemática, que é aproximadamente 3.1415926535898. 
+Retorna a constante matemática  *pi*  , que é de aproximadamente 3,1415926535898. 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -30,7 +30,7 @@ Número
   
 ## <a name="example"></a>Exemplo
 
-(14 in/2) ^ 2 \* PI () 
+(14 in / 2)^2 \* PI( ) 
   
 Retorna 153,9380 polegadas, a área de um círculo cujo diâmetro é 14 polegadas. 
   

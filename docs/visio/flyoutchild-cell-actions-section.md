@@ -26,14 +26,14 @@ Para obter uma referência à célula FlyoutChild pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações Flyoutchildonde.  *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Ações flyoutChildwhere.  *nome*  é o nome da linha Actions  <br/> |
    
 Para obter uma referência à célula FlyoutChild pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visActionFlyoutChild** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visActionFlyoutChild** <br/> |
    
 

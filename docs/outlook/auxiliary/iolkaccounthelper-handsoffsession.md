@@ -16,7 +16,7 @@ ms.locfileid: "33418628"
 ---
 # <a name="iolkaccounthelperhandsoffsession"></a>IOlkAccountHelper::HandsOffSession
 
-Libera o objeto de sessão MAPI retornado por- [IOlkAccountHelper:: GetMapiSession](iolkaccounthelper-getmapisession.md).
+Libera o objeto de sessão MAPI retornado por - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -30,8 +30,8 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |Se sua implementação do **IOlkAccountHelper** criar sua própria sessão MAPI retornada no **IOlkAccountHelper:: GetMapiSession**, você deve liberar a sessão aqui e retornar S_OK.  <br/> |
-|E_NOTIMPL  <br/> |Se sua implementação do **IOlkAccountHelper** não criou sua própria sessão MAPI, você deve retornar apenas E_NOTIMPL. Nesse caso, esse é o único valor de retorno com suporte.  <br/> |
+|S_OK  <br/> |Se sua implementação de **IOlkAccountHelper** criar sua própria sessão MAPI retornada em **IOlkAccountHelper::GetMapiSession**, você deverá liberar a sessão aqui e retornar S_OK.  <br/> |
+|E_NOTIMPL  <br/> |Se a implementação de **IOlkAccountHelper** não tiver criado sua própria sessão MAPI, você deverá retornar somente E_NOTIMPL. Nesse caso, este é o único valor de retorno com suporte.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

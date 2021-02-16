@@ -31,9 +31,9 @@ HRESULT IOlkEnum::GetCount (
 
 ## <a name="parameters"></a>Parâmetros
 
-_pulCount_
+_porqueCount_
   
-> bota Um ponteiro para o número de objetos que estão sendo enumerados.
+> [out] Um ponteiro para o número de objetos que estão sendo enumerados.
     
 ## <a name="return-values"></a>Valores de retorno
 

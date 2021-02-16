@@ -36,19 +36,19 @@ Contém uma mensagem que indica o status atual de um recurso de sessão.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades oferecem aos provedores de serviços e MAPI a oportunidade de fornecer informações específicas sobre o status de um recurso de sessão, como o catálogo de endereços integrado ou um determinado provedor de serviços. Esta propriedade explica e fornece informações adicionais sobre um código de status ou a propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Enquanto **PR_STATUS_CODE** é necessário para todos os objetos status, **PR_STATUS_STRING** e propriedades associadas são opcionais. Quando o provedor de transporte não fornece um valor, o spooler MAPI fornece um valor padrão. 
+Essas propriedades dão aos provedores de serviços e AO MAPI a oportunidade de fornecer informações específicas sobre o status de um recurso de sessão, como o address book integrado ou um provedor de serviços específico. Essa propriedade explica e fornece informações adicionais sobre um código de status ou a **propriedade PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Enquanto **PR_STATUS_CODE** é necessário para todos os objetos de **status,** PR_STATUS_STRING propriedades e associadas são opcionais. Quando o provedor de transporte não fornece um valor, o spooler MAPI fornece um valor padrão. 
   
-A cadeia de caracteres é gerada no mesmo lado da chamada de procedimento remoto como o spooler MAPI; Ele passa por memória compartilhada, em vez de ser empacotado em um limite de processo.
+A cadeia de caracteres é gerada no mesmo lado da chamada de procedimento remoto que o spooler MAPI; ele percorre a memória compartilhada em vez de ser empacotado através de um limite de processo.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

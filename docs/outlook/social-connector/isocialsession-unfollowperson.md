@@ -17,7 +17,7 @@ ms.locfileid: "33418432"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
-Remove a pessoa identificada pelo parâmetro _userid_ como um amigo na rede social. 
+Remove a pessoa identificada pelo  _parâmetro userID_ como um amigo na rede social. 
   
 ```cpp
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
@@ -25,15 +25,15 @@ HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 
 ## <a name="parameters"></a>Parâmetros
 
-_ID_
+_userID_
   
-> no Uma cadeia de caracteres que contém uma ID de usuário de rede social para uma pessoa.
+> [in] Uma cadeia de caracteres que contém uma ID de usuário de rede social para uma pessoa.
     
 ## <a name="remarks"></a>Comentários
 
-O parâmetro _userid_ deve ser uma ID de usuário válida para a pessoa na rede social. 
+O  _parâmetro userID_ deve ser uma ID de usuário válida para a pessoa na rede social. 
   
-Se o provedor do Outlook Social Connector (OSC) tiver definido **doNotFollowPerson** como **true** no XML para **recursos**, o provedor deverá retornar o erro OSC_E_NOT_FOUND, caso o ID de usuário passado não corresponda a um usuário na rede. Se o provedor tiver definido **doNotFollowPerson** como **falso** em **recursos**, o provedor deverá retornar o erro OSC_E_FAIL. Confira informações sobre os códigos de erro em [Códigos de Erro do Provedor do Conector Social do Outlook](outlook-social-connector-provider-error-codes.md).
+Se o provedor do Outlook Social Connector (OSC) tiver definido **doNotFollowPerson** como **true** no XML para **recursos,** o provedor deverá retornar o erro OSC_E_NOT_FOUND caso a ID de usuário passada não corresponder a um usuário na rede. Se o provedor tiver definido **doNotFollowPerson** como **falso** nos **recursos,** o provedor deverá retornar o OSC_E_FAIL erro. Confira informações sobre os códigos de erro em [Códigos de Erro do Provedor do Conector Social do Outlook](outlook-social-connector-provider-error-codes.md).
   
 ## <a name="see-also"></a>Confira também
 

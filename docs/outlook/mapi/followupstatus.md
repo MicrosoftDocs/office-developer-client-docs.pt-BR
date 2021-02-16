@@ -42,7 +42,7 @@ enum FollowUpStatus {
     
  _flwupComplete_
   
-> A mensagem está concluída.
+> A mensagem foi concluída.
     
  _flwupMarked_
   
@@ -50,7 +50,7 @@ enum FollowUpStatus {
     
  _flwupMAX_
   
-> O número de status diferentes suportados para acompanhamento.
+> O número de status diferentes com suporte para acompanhamento.
     
 ## <a name="see-also"></a>Confira também
 

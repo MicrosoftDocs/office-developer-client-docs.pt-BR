@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420021"
 ---
-# <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
+# <a name="mapioffline_adviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece informações para **[IMAPIOfflineMgr:: avisar](imapiofflinemgr-advise.md)** para registrar retorno de chamada para um objeto offline. 
+Fornece informações para **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** para registrar retorno de chamada para um objeto offline. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte **IMAPIOfflineMgr:: Advise**. 
+Consulte **IMAPIOfflineMgr::Advise**. 
   
 ```cpp
 typedef struct 
@@ -39,19 +39,19 @@ typedef struct
 
 ## <a name="members"></a>Members
 
-_ulSize_: o tamanho de **MAPIOFFLINE_ADVISEINFO**. 
+_ulSize_: o tamanho da **MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken_: um token definido pelo cliente sobre um retorno de chamada. É o membro *ulClientToken* da estrutura **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** passada para **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)**. 
+_ulClientToken_: um token definido pelo cliente sobre um retorno de chamada. É o *membro ulClientToken* da estrutura **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** passada para **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
     
-_CallbackType_: tipo de retorno de chamada a ser feita.
+_CallbackType_: tipo de retorno de chamada a ser es.
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - O tipo de retorno de chamada é por notificação. Este é o único tipo de retorno de chamada com suporte.  *pCallback* deve indicar a interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+   - O tipo de retorno de chamada é por notificação. Esse é o único tipo de retorno de chamada com suporte.  *pCallback*  deve indicar a interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback_: interface a ser usada para retorno de chamada. Esta é a implementação do **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** do cliente. 
+_pCallback_: interface a ser usada para retorno de chamada. Esta é a implementação de **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** do cliente. 
     
-_ulAdviseTypes_: os tipos de aviso, conforme identificado pela condição de aconselhação. O único tipo com suporte é MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
+_ulAdviseTypes_: os tipos de orientação, conforme identificado pela condição para avisar. O único tipo com suporte é MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     
 _ulStateMask_: o único estado com suporte é MAPIOFFLINE_STATE_ALL.
     

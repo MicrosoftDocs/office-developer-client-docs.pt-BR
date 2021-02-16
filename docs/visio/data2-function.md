@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251598
 localization_priority: Normal
 ms.assetid: 1edb72af-52ce-eb21-080d-2eb516300ff7
-description: Retorna o texto da caixa dados 2 na caixa de diálogo nome da forma para uma forma (na guia desenvolvedor, clique em nome da forma), como uma cadeia de caracteres.
+description: Retorna o texto da caixa Dados 2 na caixa de diálogo Nome da Forma para uma forma (na guia Desenvolvedor, clique em Nome da Forma ), como uma cadeia de caracteres.
 ms.openlocfilehash: 6545fc285d7b70d134491620fcb763086e75195a
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33421022"
 ---
 # <a name="data2-function"></a>Função DATA2
 
-Retorna o texto da caixa **dados 2** na caixa de **diálogo nome da forma** para uma forma (na guia **desenvolvedor** , clique em **nome da forma** ), como uma cadeia de caracteres. 
+Retorna o texto da caixa **Dados 2** na caixa de  diálogo Nome da Forma para uma forma (na guia Desenvolvedor, clique em **Nome** da Forma ), como uma cadeia de caracteres.  
   
 ## <a name="syntax"></a>Sintaxe
 
-DADOS2 ()
+DATA2 ()
   
 ## <a name="remarks"></a>Comentários
 

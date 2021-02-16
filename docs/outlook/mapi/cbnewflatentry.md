@@ -29,7 +29,7 @@ Calcula o número de bytes que devem ser alocados para uma nova estrutura [FLATE
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewFLATENTRY (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CB_
+ _ _cb_
   
-> Contagem de bytes no identificador de entrada a ser incluído na nova estrutura **FLATENTRY** . 
+> Contagem de bytes no identificador de entrada a ser incluído na nova **estrutura FLATENTRY.** 
     
 ## <a name="see-also"></a>Confira também
 

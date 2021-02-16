@@ -30,14 +30,14 @@ Para obter uma referência para a célula Label pelo nome, a partir de outra fó
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hélice. *Nome* . Rótulo em que prop.  *Name* é o nome da linha  <br/> |
+|Nome da célula:  <br/> |Prop. *Nome*  . Rotule onde Prop.  *Nome*  é o nome da linha  <br/> |
    
 Para obter uma referência para a célula Label pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionProp** <br/> |
-|Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visCustPropsLabel** <br/> |
+|Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visCustPropsLabel** <br/> |
    
 

@@ -21,24 +21,24 @@ ms.locfileid: "33418544"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para mensagens de saída no modo MIME, o tipo de conteúdo depende se há anexos e a aparência do texto da mensagem. Se houver anexos, o tipo de conteúdo será _multipart/mixed;_ o texto da mensagem e cada anexo se tornará uma parte separada do conteúdo da mensagem, cada um com seu próprio Content-Type. Se não houver anexos, o tipo de conteúdo da mensagem será _text/plain_ e haverá apenas uma parte. 
+Para mensagens de saída no modo MIME, o tipo de conteúdo depende se há anexos e a aparência do texto da mensagem. Se houver anexos, o Tipo de conteúdo será com várias  _partes/misturada;_ o texto da mensagem e cada anexo se tornam uma parte separada do conteúdo da mensagem, cada um com seu próprio tipo de conteúdo. Se não houver anexos, o tipo de conteúdo da mensagem será  _texto/simples_ e haverá apenas uma parte. 
   
-O texto da mensagem não é quebrado por linha, a menos que uma linha exceda 140 caracteres de comprimento. Se houver, o texto inteiro será quebrado em 76 colunas e a codificação de _impressão entre aspas_ será usada para preservar quebras de linha. O tipo de conteúdo depende de quais caracteres são encontrados no texto da mensagem, da seguinte maneira: 
+O texto da mensagem não tem limite de linha, a menos que alguma linha exceda 140 caracteres. Se um fizer isso, todo o texto será  quebrar em 76 colunas e a codificação imprimível entre aspas será usada para preservar quebras de linha. O tipo de conteúdo depende de quais caracteres são encontrados no texto da mensagem, da seguinte forma: 
   
-- Se apenas caracteres de 7 bits forem encontrados e nenhuma linha exceder 140 caracteres de comprimento, a mensagem será texto ASCII. _Tipo de conteúdo: text/plain; charset = US-ASCII_ (Content-Transfer-Encoding = 7bit é assumido.) 
+- Se apenas caracteres de 7 bits são encontrados e nenhuma linha excede 140 caracteres de comprimento, a mensagem é texto ASCII. _Content-type: text/plain; charset=us-ascii_ (Content-Transfer-Encoding=7bit is assumed.) 
     
-- Se forem encontradas linhas longas ou caracteres de 8 bits, a mensagem será texto e o conjunto de caracteres será determinado pela localidade. Ele deve ser escolhido dos conjuntos de caracteres definidos pelo ISO Standard 8859. _Content-Type: text/plain; charset = iso-8859-1_ (ou outro charset válido) 
+- Se linhas longas ou caracteres de 8 bits são encontrados, a mensagem é texto e o conjunto de caracteres é determinado pela localidade. Ele deve ser escolhido dos conjuntos de caracteres definidos pelo padrão ISO 8859. _Content-type: text/plain; charset=iso-8859-1_ (ou outro charset válido) 
     
-     _Codificação de transferência de conteúdo: quot-imprimível_
+     _Content-Transfer-Encoding: quoted-printable_
     
-Para mensagens MIME de entrada, se a primeira parte de conteúdo da mensagem tiver _Content-Type:\* Text/_ (ou seja, qualquer tipo de texto) e seu conjunto de caracteres for reconhecido, ele será mapeado para **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Uma parte de conteúdo da primeira mensagem que não atende a esse critério se torna um anexo. Quaisquer partes subsequentes também se tornam anexos.
+Para mensagens MIME de entrada, se a primeira parte do conteúdo da mensagem tiver tipo de _conteúdo: \* texto/_ (ou seja, qualquer tipo de texto) e seu conjunto de caracteres for reconhecido, ela será mapeada para **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Uma primeira parte do conteúdo da mensagem que não atender a esse critério se torna um anexo. Todas as partes subsequentes também se tornam anexos.
   
-No modo uuencode, o texto da mensagem em mensagens de saída é quebrado em linha para 78 colunas, como para MS mail 3. x. O tipo de conteúdo é "text/plain." Para preservar as quebras de parágrafo da mensagem original sob essas circunstâncias, observe as seguintes convenções no texto quebrado. Há três razões possíveis para o término de uma linha de texto, cada uma com sua própria sequência de caracteres:
+No modo uuencode, o texto da mensagem em mensagens de saída é em forma de linha com 78 colunas, assim como no MS Mail 3.x. O tipo de conteúdo é "text/plain". Para preservar as quebras de parágrafo da mensagem original sob essas circunstâncias, observe as convenções a seguir no texto empacotado. Há três motivos possíveis para encerrar uma linha de texto, cada um com sua própria sequência de caracteres:
   
-- Quebra de linha. O texto original continha uma nova linha inserida pelo usuário (marca de parágrafo). No transporte, isso é mapeado para uma nova linha sem espaços em branco precedentes. Se o usuário inserir uma nova linha precedida por espaços em branco, os espaços em branco deverão ser removidos.
+- Quebra de linha. O texto original continha uma nova linha inserida pelo usuário (marca de parágrafo). No transporte, isso é mapeado para uma nova linha sem espaços em branco anteriores. Se o usuário inserir uma nova linha precedida por espaços em branco, os espaços em branco deverão ser removidos.
     
-- Linha-nobreak. O texto original continha uma palavra muito grande para caber em uma única linha da mensagem. No transporte, ele é mapeado para uma nova linha precedida por dois espaços em branco.
+- Line-direta. O texto original continha uma palavra muito longa para caber em uma única linha da mensagem. No transporte, isso é mapeado para uma nova linha precedida por dois espaços em branco.
     
-- Quebra de linha. O texto original não continha novas linhas, o texto é muito longo para caber em uma única linha da mensagem, mas pode ser quebrado entre duas palavras. No transporte, ele é mapeado para uma nova linha, precedida por um único em branco.
+- Quebra de linha. O texto original não continha uma nova linha, o texto é muito longo para caber em uma única linha da mensagem, mas pode ser quebrado entre duas palavras. No transporte, isso é mapeado para uma nova linha precedida por um único vazio.
     
 

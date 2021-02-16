@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7919a255-2935-4cb0-bffa-9d431d77848a
-description: Esta seção fornece informações conceituais sobre calendários e compromissos do Outlook, incluindo a API de disponibilidade, atualizações de solicitação de reunião e a alteração da base de calendários para o horário de verão.
+description: Esta seção fornece informações conceituais sobre calendários e compromissos do Outlook, incluindo a API de livre/ocupado, atualizações de solicitação de reunião e a base de calendários para o horário de verão.
 ms.openlocfilehash: 3e265ee962e6f55214e9c26978abe7496561a482
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33420266"
 ---
 # <a name="outlook-calendars-and-appointments"></a>Compromissos e calendários do Outlook
 
-Esta seção fornece informações conceituais sobre calendários e compromissos do Outlook, incluindo a API de disponibilidade, atualizações de solicitação de reunião e a alteração da base de calendários para o horário de verão. 
+Esta seção fornece informações conceituais sobre calendários e compromissos do Outlook, incluindo a API de livre/ocupado, atualizações de solicitação de reunião e a base de calendários para o horário de verão. 
 
 - [Sobre a API do serviço de disponibilidade](about-the-free-busy-api.md)
     

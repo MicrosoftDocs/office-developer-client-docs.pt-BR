@@ -23,11 +23,11 @@ ms.locfileid: "33420805"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLCHECKBOX](dtblcheckbox.md) para descrever um controle de caixa de seleção e um rótulo de um comprimento especificado. 
+Cria uma estrutura nomeada que inclui uma [estrutura DTBLCHECKBOX](dtblcheckbox.md) para descrever um controle de caixa de seleção e um rótulo de um comprimento especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
@@ -53,7 +53,7 @@ DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblCheckBox** como um ponteiro de estrutura **DTBLCHECKBOX** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblCheckBox** como um ponteiro de **estrutura DTBLCHECKBOX,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

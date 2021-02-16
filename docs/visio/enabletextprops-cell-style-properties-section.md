@@ -39,6 +39,6 @@ Para obter uma referência para a célula EnableTextProps pelo índice a partir 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowStyle** <br/> |
-|Índice da célula:  <br/> |**visStyleIncludesText** <br/> |
+|Índice de célula:  <br/> |**visStyleIncludesText** <br/> |
    
 

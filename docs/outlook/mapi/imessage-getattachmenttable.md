@@ -38,19 +38,19 @@ HRESULT GetAttachmentTable(
 
  _ulFlags_
   
-> no Bitmask de sinalizadores relacionados à criação da tabela. O seguinte sinalizador pode ser definido: 
+> [in] Bitmask de sinalizadores relacionados à criação da tabela. O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **** que GetAttachmentTable seja retornado com êxito, possivelmente antes que a tabela esteja totalmente disponível para o cliente de chamada. Se a tabela não estiver disponível, fazer uma chamada subsequente para ela pode causar um erro. 
+> Permite que **GetAttachmentTable** retorne com êxito, possivelmente antes da tabela estar totalmente disponível para o cliente de chamada. Se a tabela não estiver disponível, fazer uma chamada subsequente pode causar um erro. 
     
  _lppTable_
   
-> bota Ponteiro para um ponteiro para a tabela de anexos.
+> [out] Ponteiro para um ponteiro para a tabela de anexos.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -60,25 +60,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::** GetAttachmentTable retorna um ponteiro para a tabela de anexos da mensagem, que inclui informações sobre todos os anexos da mensagem. Os clientes podem ter acesso a um anexo apenas por meio da tabela de anexos. Ao recuperar o número de um anexo sua propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), um cliente pode usar vários dos métodos **IMessage** para trabalhar com o anexo. 
+O **método IMessage::GetAttachmentTable** retorna um ponteiro para a tabela de anexos da mensagem, que inclui informações sobre todos os anexos na mensagem. Os clientes só podem obter acesso a um anexo por meio da tabela de anexos. Ao recuperar o número de um anexo, sua propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de um cliente pode usar vários dos métodos **IMessage** para trabalhar com o anexo. 
   
-Há uma linha para cada anexo. Para obter uma lista completa das colunas em uma tabela de anexos, consulte [tabelas de anexo](attachment-tables.md).
+Há uma linha para cada anexo. Para uma lista completa das colunas em uma tabela de anexos, consulte [Attachment Tables](attachment-tables.md).
   
-Um anexo normalmente não aparece na tabela de anexos até que o anexo e a mensagem tenham sido salvos com uma chamada para [IMAPIProp:: SaveChanges](imapiprop-savechanges.md). As tabelas de anexo são dinâmicas. Se um cliente criar um novo anexo, excluir um anexo existente ou alterar uma ou mais propriedades depois que as chamadas de **SaveChanges** forem feitas no anexo da mensagem, a tabela de anexos será atualizada para refletir as novas informações. 
+Um anexo geralmente não aparece na tabela de anexos até que o anexo e a mensagem tenham sido salvos com uma chamada para [IMAPIProp::SaveChanges](imapiprop-savechanges.md). As tabelas de anexos são dinâmicas. Se um cliente cria um novo anexo, exclui um anexo existente ou altera uma ou mais propriedades depois que as chamadas **SaveChanges** são feitas no anexo na mensagem, a tabela de anexos será atualizada para refletir as novas informações. 
   
-Algumas tabelas de anexo dão suporte a uma ampla variedade de restrições; outros não. O suporte para restrições depende da implementação do provedor de repositório de mensagens. 
+Algumas tabelas de anexos suportam uma ampla variedade de restrições; outras não fazem isso. O suporte para restrições depende da implementação do provedor do armazenamento de mensagens. 
   
-Quando aberto inicialmente, as tabelas de anexos não são necessariamente classificadas em qualquer ordem específica. 
+Quando abertas inicialmente, as tabelas de anexos não são necessariamente ordenadas em uma ordem específica. 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta as seguintes chamadas para a tabela de anexos: 
+A definição MAPI_UNICODE sinalizador de configuração no  _parâmetro ulFlags_ afeta as seguintes chamadas para a tabela de anexos: 
   
-- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de colunas. 
+- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de colunas. 
     
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar linhas. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar linhas. 
     
-- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
+- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
     
-Definir o sinalizador Unicode solicita que as informações de qualquer coluna de cadeia de caracteres retornada dessas chamadas estejam no formato Unicode. No enTanto, como nem todos os provedores de repositórios de mensagens dão suporte a Unicode, a configuração desse sinalizador é apenas uma solicitação.
+A configuração do sinalizador Unicode solicita que as informações de quaisquer colunas de cadeia de caracteres retornadas dessas chamadas sejam no formato Unicode. No entanto, como nem todos os provedores de armazenamento de mensagens suportam Unicode, definir esse sinalizador é apenas uma solicitação.
   
 ## <a name="see-also"></a>Confira também
 

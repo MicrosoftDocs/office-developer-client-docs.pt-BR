@@ -38,27 +38,27 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> no O número da linha para a qual propriedades serão retornadas. O valor no parâmetro _ulRowNumber_ pode ser qualquer valor de 0, que indica a primeira linha na tabela, até n-1, que indica a última linha da tabela. 
+> [in] O número da linha para a qual as propriedades de retorno são retornadas. O valor no parâmetro  _ulRowNumber_ pode ser qualquer valor de 0, que indica a primeira linha na tabela, até n - 1, que indica a última linha na tabela. 
     
  _lppSRow_
   
-> bota Um ponteiro para um ponteiro para uma estrutura [SRow](srow.md) que descreve a linha de destino. 
+> [out] Um ponteiro para um ponteiro para uma [estrutura SRow](srow.md) que descreve a linha de destino. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A linha foi recuperada com êxito ou uma linha para o número de linha especificado pelo parâmetro _ulRowNumber_ não existe. 
+> A linha foi recuperada com êxito ou não existe uma linha para o número de linha especificado pelo _parâmetro ulRowNumber._ 
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrEnumRow** recupera uma linha com base em um número seqüencial. Esse número representa a ordem de inserção (0 indica a primeira linha e o número de linhas menos 1 indica a última linha). MAPI mantém essa ordem cronológica de inserção de linha para o tempo de vida do objeto Table Data. 
+O **método ITableData::HrEnumRow** recupera uma linha com base em um número sequencial. Esse número representa a ordem de inserção (0 indica a primeira linha e o número de linhas menos 1 indica a última linha). O MAPI mantém essa ordem cronológica de inserção de linha durante o tempo de vida do objeto de dados da tabela. 
   
-Se o número especificado em _ulRowNumber_ não corresponder a uma linha na tabela, **HrEnumRow** retornará S_OK e definirá o parâmetro _lppSRow_ como nulo. 
+Se o número especificado em  _ulRowNumber_ não corresponder a uma linha na tabela, **HrEnumRow** retornará S_OK e define o parâmetro  _lppSRow_ como NULL. 
   
-O MAPI aloca memória para a estrutura **SRow** retornada usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) quando o objeto Table Data é criado. O chamador deve liberar essa memória chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+MAPI aloca memória para a estrutura **SRow** retornada usando a função [MAPIAllocateBuffer](mapiallocatebuffer.md) quando o objeto de dados de tabela é criado. O chamador deve liberar essa memória chamando a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para recuperar linhas de uma tabela na ordem em que foram inseridas, os usuários do objeto de dados de tabela chamam o método **HrEnumRow** . 
+Para recuperar linhas de uma tabela na ordem em que foram inseridas, os usuários do objeto de dados de tabela chamam o **método HrEnumRow.** 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419867"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém o estado online ou offline atual de um objeto offline.
+Obtém o estado atual online ou offline de um objeto offline.
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -35,9 +35,9 @@ HRESULT GetCurrentState(
 
 ## <a name="parameters"></a>Parâmetros
 
- _pulState_
+ _capitalState_
   
-> bota O estado atual online ou offline de um objeto offline. Deve ser um destes dois valores:
+> [out] O estado atual online ou offline de um objeto offline. Deve ser um destes dois valores:
     
 MAPIOFFLINE_STATE_ONLINE
   

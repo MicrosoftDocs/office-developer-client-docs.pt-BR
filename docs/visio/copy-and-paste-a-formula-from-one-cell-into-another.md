@@ -20,11 +20,11 @@ ms.locfileid: "33418642"
 
 1. Selecione a célula que contém a fórmula desejada.
     
-2. Pressione CTRL + C.
+2. Pressione CTRL+C.
     
     Para substituir a fórmula inteira, selecione a célula cuja fórmula você deseja substituir.
     
-    Para colar a fórmula em uma fórmula existente, clique duas vezes na célula e, em seguida, clique em um ponto de inserção onde você deseja colar a fórmula.
+    Para colar a fórmula em uma fórmula existente, clique duas vezes na célula e clique em um ponto de inserção onde você deseja colar a fórmula.
     
 3. Pressione CTRL + V
     

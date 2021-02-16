@@ -24,7 +24,7 @@ Determina a cor utilizada para o primeiro plano (traço) do padrão de preenchim
 
 Para definir a cor, insira um número de 0 a 23, que serve como um índice para uma coleção de cores.
   
-Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB, e RGB( *r, g, b*), em vez de um número, será mostrado na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência da cor do primeiro plano do padrão de preenchimento da sombra projetada da forma na célula ShdwForegndTrans.
   
@@ -40,6 +40,6 @@ Para obter uma referência para a célula ShdwForegnd pelo índice, a partir de 
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowFill** <br/> |
-| Índice da célula:  <br/> |**visFillShdwForegnd** <br/> |
+| Índice de célula:  <br/> |**visFillShdwForegnd** <br/> |
    
 

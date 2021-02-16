@@ -22,13 +22,13 @@ Retorna uma cadeia de caracteres convertida em minúsculas.
   
 ## <a name="syntax"></a>Sintaxe
 
-INFERIOR (* * *expressão* * *) 
+Expressão LOWER(**  ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> | Uma cadeia de caracteres, uma referência de célula ou uma expressão: o resultado é convertido em uma cadeia, que é depois convertida em minúsculas.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Varia** <br/> | Uma cadeia de caracteres, uma referência de célula ou uma expressão: o resultado é convertido em uma cadeia, que é depois convertida em minúsculas.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

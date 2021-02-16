@@ -17,7 +17,7 @@ ms.locfileid: "33419545"
 ---
 # <a name="isocialprovidergetsession"></a>ISocialProvider::GetSession
 
-Obtém uma interface [ISocialSession](isocialsessioniunknown.md) . 
+Obtém uma interface [ISocialSession.](isocialsessioniunknown.md) 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);

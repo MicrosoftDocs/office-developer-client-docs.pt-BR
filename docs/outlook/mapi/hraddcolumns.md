@@ -21,11 +21,11 @@ ms.locfileid: "33422471"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Adiciona ou move colunas no início de uma tabela existente.
+Adiciona ou move colunas para o início de uma tabela existente.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços.  <br/> |
    
@@ -42,19 +42,19 @@ HRESULT HrAddColumns(
 
  _lptbl_
   
-> no Ponteiro para a tabela MAPI afetada.
+> [in] Ponteiro para a tabela MAPI afetada.
     
  _lpproptagColumnsNew_
   
-> no Ponteiro para uma estrutura **SPropTagArray** que contém uma matriz de marcas de propriedade para as propriedades a serem adicionadas ou movidas para o início da tabela. 
+> [in] Ponteiro para uma **estrutura SPropTagArray** que contém uma matriz de marcas de propriedade para as propriedades a serem adicionadas ou movidas para o início da tabela. 
     
  _lpAllocateBuffer_
   
-> no Ponteiro para a função **MAPIAllocateBuffer** . Usado para alocar memória. 
+> [in] Ponteiro para a **função MAPIAllocateBuffer.** Usado para alocar memória. 
     
  _lpFreeBuffer_
   
-> no Ponteiro para a função **MAPIFreeBuffer** . Usado para liberar memória. 
+> [in] Ponteiro para a **função MAPIFreeBuffer.** Usado para liberar memória. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -64,7 +64,7 @@ HRESULT HrAddColumns(
     
 ## <a name="remarks"></a>Comentários
 
-A função **HrAddColumns** é equivalente a usar **HrAddColumnsEx** com _lpfnFilterColumns_ definido como nulo. 
+A **função HrAddColumns** é equivalente a usar **HrAddColumnsEx** com  _lpfnFilterColumns definido_ como NULL. 
   
 ## <a name="see-also"></a>Confira também
 

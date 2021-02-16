@@ -41,45 +41,45 @@ HRESULT CreateForm(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso que é exibido enquanto o formulário é aberto. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Um alça para a janela pai do indicador de progresso que é exibido enquanto o formulário é aberto. O _parâmetro ulUIParam é_ ignorado, a menos que o MAPI_DIALOG padrão seja definido no parâmetro _ulFlags._ 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o formulário é aberto. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como o formulário é aberto. O sinalizador a seguir pode ser definido:
     
 MAPI_DIALOG 
   
-> Exibe uma interface do usuário para fornecer status ou solicitar mais informações ao usuário. Se esse sinalizador não for definido, nenhuma interface de usuário será exibida.
+> Exibe uma interface do usuário para fornecer status ou solicitar ao usuário mais informações. Se esse sinalizador não estiver definido, nenhuma interface do usuário será exibida.
     
  _pfrminfoToActivate_
   
-> no Um ponteiro para o objeto de informações do formulário que é usado para abrir o formulário.
+> [in] Um ponteiro para o objeto de informações de formulário que é usado para abrir o formulário.
     
  _refiidToAsk_
   
-> no Um ponteiro para o identificador de interface (IID) da interface a ser retornado para o objeto Form que foi criado. O parâmetro _refiidToAsk_ não deve ser nulo. 
+> [in] Um ponteiro para o identificador de interface (IID) para a interface a ser retornada para o objeto de formulário que foi criado. O  _parâmetro refiidToAsk_ não deve ser NULL. 
     
  _ppvObj_
   
-> bota Um ponteiro para um ponteiro para a interface retornada.
+> [out] Um ponteiro para um ponteiro para a interface retornada.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_NO_INTERFACE 
   
-> A interface solicitada não é suportada pelo objeto Form.
+> A interface solicitada não é suportada pelo objeto de formulário.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormMgr:: CreateForm** para abrir um formulário para criar uma nova mensagem com base na classe de mensagem do formulário. **CreateForm** abre o formulário criando uma instância do servidor de formulário para esse formulário, conforme descrito no objeto de informações do formulário determinado. Se necessário, **CreateForm** chama o método [IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md) para baixar o código do servidor de formulário no disco do usuário. 
+Visualizadores de formulário chamam o método **IMAPIFormMgr::CreateForm** para abrir um formulário e criar uma nova mensagem com base na classe de mensagens do formulário. **CreateForm** abre o formulário criando uma instância do servidor de formulário para esse formulário, conforme descrito no objeto de informações do formulário determinado. Se necessário, **CreateForm** chama o [método IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) para baixar o código do servidor de formulário no disco do usuário. 
   
-O parâmetro _pfrminfoToActivate_ deve apontar para um objeto de informações de formulário que foi resolvido corretamente. 
+O  _parâmetro pfrminfoToActivate_ deve apontar para um objeto de informação de formulário que tenha sido resolvido corretamente. 
   
-Depois que o formulário é aberto, o Visualizador de formulário de chamada deve configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, pode configurar um contexto de exibição para o formulário. Para obter mais informações, consulte [iniciando um servidor de formulários](launching-a-form-server.md). 
+Depois que o formulário tiver sido aberto, o visualizador de formulário de chamada deverá configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, poderá configurar um contexto de exibição para o formulário. Para obter mais informações, consulte [Iniciando um servidor de formulário.](launching-a-form-server.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -87,7 +87,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa o método **IMAPIFormMgr:: CreateForm** para criar um formulário antes de exibi-lo.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa o **método IMAPIFormMgr::CreateForm** para criar um formulário antes de exibi-lo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -102,5 +102,5 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
 
 [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Iniciar um servidor de formulário](launching-a-form-server.md)
+[Iniciando um servidor de formulário](launching-a-form-server.md)
 

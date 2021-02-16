@@ -34,6 +34,6 @@ Para fazer referência à célula PlaceStyle pelo índice a partir de um program
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOPlaceStyle** <br/> |
+|Índice de célula:  <br/> |**visPLOPlaceStyle** <br/> |
    
 

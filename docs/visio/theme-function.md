@@ -20,7 +20,7 @@ Obtém as configurações de formato do tema atual.
   
 ## <a name="syntax"></a>Sintaxe
 
-THEME ()
+THEME()
   
 ## <a name="example"></a>Exemplo
 

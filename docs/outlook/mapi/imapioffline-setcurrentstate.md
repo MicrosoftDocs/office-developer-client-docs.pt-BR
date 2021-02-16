@@ -25,7 +25,7 @@ ms.locfileid: "33421736"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define o estado atual de um objeto offline para online ou offline.
+Define o estado atual de um objeto offline como online ou offline.
   
 ```cpp
 HRESULT SetCurrentState( 
@@ -40,11 +40,11 @@ HRESULT SetCurrentState(
 
  _ulFlags_
   
-> no Modifica o comportamento dessa chamada. Os valores com suporte são:
+> [in] Modifica o comportamento dessa chamada. Os valores com suporte são:
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> A definição de _parâmetroulflags_ para esse valor bloqueará a chamada setcurrentstate até a alteração de Estado ser concluída. **** Por padrão, a transição ocorre de forma assíncrona. Quando a transição ocorrer de forma assíncrona, **** todas as chamadas setcurrentstate retornarão **E_PENDING** até que a alteração seja concluída. 
+> Definir  _ulFlags_ como esse valor bloqueará a **chamada SetCurrentState** até que a alteração de estado seja concluída. Por padrão, a transição ocorre de forma assíncrona. Quando a transição estiver ocorrendo de forma assíncrona, todas as chamadas **SetCurrentState** retornarão E_PENDING **até** que a alteração seja concluída. 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
@@ -52,11 +52,11 @@ MAPIOFFLINE_FLAG_DEFAULT
     
  _ulMask_
   
-> no A parte do estado a ser alterada. O único valor com suporte é MAPIOFFLINE_STATE_OFFLINE_MASK.
+> [in] A parte do estado a ser mudada. O único valor com suporte é MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulState_
   
-> no O estado para o qual mudar. Deve ser um destes dois valores:
+> [in] O estado para o que mudar. Deve ser um destes dois valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,9 +66,9 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _Enquanto_
+ _pReserved_
   
-> Este parâmetro é reservado para uso interno do Outlook e não tem suporte. 
+> Esse parâmetro é reservado para uso interno do Outlook e não tem suporte. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -78,7 +78,7 @@ S_OK
     
 E_PENDING
   
-> Isso indica que o estado do objeto offline está mudando de forma assíncrona. Isso ocorre quando o _parâmetroulflags_ é definido como MAPIOFFLINE_FLAG_BLOCK em uma **** chamada setcurrentstate anterior e qualquer chamada **** setcurrentstate subsequente retornará esse valor até que a alteração de estado assíncrona seja concluída. 
+> Isso indica que o estado do objeto offline está mudando de forma assíncrona. Isso ocorre quando  _ulFlags_ é definido como MAPIOFFLINE_FLAG_BLOCK em uma chamada **SetCurrentState** anterior e qualquer chamada **setCurrentState** subsequente retornará esse valor até que a alteração de estado assíncrona seja concluída. 
     
 ## <a name="see-also"></a>Confira também
 

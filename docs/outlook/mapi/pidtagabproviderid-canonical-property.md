@@ -25,7 +25,7 @@ ms.locfileid: "33422240"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma estrutura [MAPIUID](mapiuid.md) do provedor de catálogo de endereços. 
+Contém a estrutura [MAPIUID](mapiuid.md) de um provedor de livros de endereços. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém uma estrutura [MAPIUID](mapiuid.md) do provedor de catálogo de endereç
    
 ## <a name="remarks"></a>Comentários
 
-A estrutura **MAPIUID** identifica qual provedor de catálogo de endereços fornece esse contêiner específico na hierarquia do contêiner. O valor é exclusivo para cada provedor. 
+A **estrutura MAPIUID** identifica qual provedor de livro de endereços fornece esse contêiner específico na hierarquia do contêiner. O valor é exclusivo para cada provedor. 
   
-Um provedor de catálogo de endereços pode fornecer mais de um identificador. Por exemplo, um provedor que forneça dois contêineres diferentes pode publicar em **PR_AB_PROVIDER_ID** identificadores exclusivos para cada contêiner. 
+Um provedor de agendas pode fornecer mais de um identificador. Por exemplo, um provedor que fornece dois contêineres diferentes pode publicar **PR_AB_PROVIDER_ID** identificadores exclusivos para cada contêiner. 
   
- **PR_AB_PROVIDER_ID** é análogo à propriedade **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para repositórios de mensagens. Os aplicativos cliente podem usar o **PR_AB_PROVIDER_ID** para localizar linhas relacionadas em uma tabela de hierarquia de catálogo de endereços. 
+ **PR_AB_PROVIDER_ID** é análogo à **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para repositórios de mensagens. Os aplicativos cliente podem **usar PR_AB_PROVIDER_ID** para encontrar linhas relacionadas em uma tabela de hierarquia de um livro de endereços. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
 
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

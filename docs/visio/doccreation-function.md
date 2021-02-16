@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251604
 localization_priority: Normal
 ms.assetid: dcbc240a-e36d-b27f-02c3-fd1eac04114a
-description: Retorna a data e a hora em que um documento foi criado, como um valor serial.
+description: Retorna a data e a hora em que um documento foi criado, como um valor de série.
 ms.openlocfilehash: a1f66a8fe2561578a2b37deefcfa6556f10455a0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419965"
 ---
 # <a name="doccreation-function"></a>Função DOCCREATION
 
-Retorna a data e a hora em que um documento foi criado, como um valor serial.
+Retorna a data e a hora em que um documento foi criado, como um valor de série.
   
 ## <a name="syntax"></a>Sintaxe
 

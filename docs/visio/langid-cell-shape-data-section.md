@@ -28,14 +28,14 @@ Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *nome* . LangID onde prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Prop.  *nome*  . LangID onde Prop.  *nome*  é o nome da linha  <br/> |
    
 Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCustPropsLangID** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Objetos Progress de MAPI
+title: Objetos de progresso MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,47 +15,47 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422023"
 ---
-# <a name="mapi-progress-objects"></a>Objetos Progress de MAPI
+# <a name="mapi-progress-objects"></a>Objetos de progresso MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Com os métodos e os dados de um objeto Progress, você pode controlar como o indicador relata o progresso. Embora um cliente ou MAPI implemente o objeto Progress, a maior parte do fardo de garantir a exatidão da exibição do progresso ocorre nos provedores de serviço. Você pode garantir a precisão especificando um determinado pedido e valor para os parâmetros passados para os métodos de objeto Progress.
+Com os métodos e dados de um objeto de progresso, você pode controlar como o indicador relata o progresso. Embora um cliente ou MAPI implemente o objeto de progresso, a maior parte da carga de garantir a correção da exibição do progresso se enquadra nos provedores de serviços. Você pode garantir sua precisão especificando uma ordem e um valor específicos para os parâmetros que são passados para métodos de objeto de progresso.
   
-Os seguintes parâmetros são passados para objetos Progress:
+Os parâmetros a seguir são passados para objetos de progresso:
   
-- Uma bitmask de sinalizadores, definida com [método imapiprogress::](imapiprogress-setlimits.md) setlimits e recuperado com [método imapiprogress:: GetFlags](imapiprogress-getflags.md).
+- Uma bitmask de sinalizadores, definida com [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) e recuperada com [IMAPIProgress::GetFlags](imapiprogress-getflags.md).
     
-- Um valor mínimo (local e global), definido com **** setlimits e recuperado com [método imapiprogress:: GetMin](imapiprogress-getmin.md).
+- Um valor mínimo (local e global), definido com **SetLimits** e recuperado com [IMAPIProgress::GetMin](imapiprogress-getmin.md).
     
-- Um valor máximo (local e global), definido com **** setlimits e recuperado com [método imapiprogress:: GetMax](imapiprogress-getmax.md).
+- Um valor máximo (local e global), definido com **SetLimits** e recuperado com [IMAPIProgress::GetMax](imapiprogress-getmax.md).
     
-- Um valor que indica a porcentagem atual de conclusão da operação, passada para [método imapiprogress::P rogress](imapiprogress-progress.md).
+- Um valor que indica a porcentagem atual de conclusão da operação, passada para [IMAPIProgress::P ess](imapiprogress-progress.md).
     
-- Uma contagem do número de objetos que foram processados até o momento, passados para o **andamento**.
+- Uma contagem do número de objetos que foram processados até agora, passada para **Progress**.
     
-- Uma contagem do número total de objetos envolvidos na operação, passados para **Progress**.
+- Uma contagem do número total de objetos envolvidos na operação, passada para **Progress**.
     
-Todos os provedores de serviços começam seu processamento de exibição de progresso com uma chamada para **método imapiprogress:: GetFlags** para recuperar a configuração de sinalizadores atuais. No momento, os sinalizadores podem ser definidos somente como MAPI_TOP_LEVEL. Os clientes e o MAPI inicializam o sinalizador para o MAPI_TOP_LEVEL, confiando nos provedores de serviços para limpá-lo quando apropriado. 
+Todos os provedores de serviços iniciam seu processamento de exibição de progresso com uma chamada para **IMAPIProgress::GetFlags** para recuperar a configuração de sinalizadores presentes. Atualmente, os sinalizadores só podem ser definidos como MAPI_TOP_LEVEL. Os clientes e o MAPI inicializam o sinalizador para MAPI_TOP_LEVEL, confiando nos provedores de serviços para des limpa-lo quando apropriado. 
   
-O valor flags é definido como MAPI_TOP_LEVEL enquanto você estiver trabalhando com o objeto de nível superior na operação. O objeto de nível superior é o objeto que é chamado pelo cliente para iniciar uma operação. Em uma operação de cópia de pasta, esta é a pasta que está sendo copiada. Em uma operação de exclusão de pasta, esta é a pasta que está sendo excluída. Quando você faz uma chamada para processar um objeto de nível inferior, ou subobjeto, limpe o valor flags. Em uma operação de cópia de pasta, os subobjetos são as subpastas que estão na pasta que está sendo copiada. 
+O valor de sinalizadores é definido como MAPI_TOP_LEVEL enquanto você estiver trabalhando com o objeto de nível superior na operação. O objeto de nível superior é o objeto que é chamado pelo cliente para iniciar uma operação. Em uma operação de cópia de pasta, esta é a pasta que está sendo copiada. Em uma operação de exclusão de pasta, essa é a pasta que está sendo excluída. Ao fazer uma chamada para processar um objeto de nível inferior ou subobjeto, limpe o valor de sinalizadores. Em uma operação de cópia de pasta, os subobjetos são as subpastas que estão na pasta que está sendo copiada. 
   
-O MAPI permite que você diferencie objetos de nível superior e subobjetos com o sinalizador MAPI_TOP_LEVEL para que todos os objetos envolvidos em uma operação possam usar a mesma implementação do [método imapiprogress](imapiprogressiunknown.md) para mostrar o progresso, fazendo com que o indicador seja exibido para prosseguir sem problemas em uma única direção positiva. Se o sinalizador MAPI_TOP_LEVEL está ou não definido afeta as configurações dos outros parâmetros nas chamadas subsequentes para o objeto Progress. 
+MAPI allows you to differentiate between top-level objects and subobjects with the MAPI_TOP_LEVEL flag so that all objects involved in an operation can use the same [IMAPIProgress](imapiprogressiunknown.md) implementation to show progress, so causing the indicator display to proceed smoothly in a single positive direction. A definição MAPI_TOP_LEVEL sinalizador de MAPI_TOP_LEVEL afetará as configurações dos outros parâmetros em chamadas subsequentes para o objeto de progresso. 
   
-Como pode ser não trivial definir valores de parâmetros apropriados para uma exibição de progresso em todos os níveis de uma operação de vários níveis, alguns provedores de serviços elegem não mostrar o progresso dos subobjetos. 
+Como pode ser nãotrivial definir valores de parâmetro apropriados para uma exibição de progresso em todos os níveis de uma operação de vários níveis, alguns provedores de serviços optam por não mostrar o progresso de subobjetos. 
   
- **Para evitar a exibição do progresso de subobjetos**
+ **Para evitar mostrar o progresso de subobjetos**
   
-- Passe NULL para o parâmetro _lpProgress_ na chamada para processar um subobjeto. Por exemplo, se você estiver copiando pastas, esta é a chamada para o método [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) da subpasta. 
+- Passe NULL para  _o parâmetro lpProgress_ na chamada para processar um subobjeto. Por exemplo, se você estiver copiando pastas, essa será a chamada para o método [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) de uma subpasta. 
     
-- Escreva código especial para determinar como interpretar o parâmetro _lpProgress_ . Como um valor nulo para o parâmetro _lpProgress_ também pode significar que o cliente deve exibir o progresso usando a implementação MAPI, o código especial é necessário para determinar quando ignorar o parâmetro _lpProgress_ e quando chamar [ IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md).
+- Escreva um código especial para determinar como interpretar o _parâmetro lpProgress._ Como um valor NULL para o parâmetro  _lpProgress_ também pode significar que o cliente deve exibir o progresso usando a implementação de MAPI, um código especial é necessário para determinar quando ignorar o parâmetro  _lpProgress_ e quando chamar [IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md).
     
-Chame **método imapiprogress::** setlimits para definir ou limpar o sinalizador MAPI_TOP_LEVEL e para definir os valores globais e mínimos locais e máximos. O valor da configuração sinalizadores afeta se o objeto Progress entenderá os valores mínimo e máximo como local ou global. Quando o sinalizador MAPI_TOP_LEVEL é definido, esses valores são considerados globais e são usados para calcular o progresso de toda a operação. Os objetos Progress inicializam o valor global mínimo como 0 e o valor global máximo como 1000. 
+Chame **IMAPIProgress::SetLimits** para definir ou limpar o sinalizador MAPI_TOP_LEVEL e definir valores mínimo e máximo locais e globais. O valor da configuração de sinalizadores afeta se o objeto de progresso entende os valores mínimo e máximo para serem locais ou globais. Quando o MAPI_TOP_LEVEL sinalizador é definido, esses valores são considerados globais e usados para calcular o progresso de toda a operação. Os objetos de progresso inicializam o valor mínimo global como 0 e o valor máximo global como 1000. 
   
-Quando MAPI_TOP_LEVEL não estiver definido, os valores mínimo e máximo serão considerados locais e serão usados internamente por provedores para exibir o progresso de subobjetos de nível inferior. Os objetos Progress salvam os valores mínimo e máximo locais apenas para que eles possam ser retornados aos provedores quando **GetMin** e **GetMax** são chamados. 
+Quando MAPI_TOP_LEVEL não estiver definido, os valores mínimo e máximo serão considerados locais e usados internamente pelos provedores para exibir o progresso de subobjetos de nível inferior. Os objetos de progresso salvam os valores mínimo e máximo local apenas para que possam ser retornados aos provedores quando **GetMin** e **GetMax** são chamados. 
   
-O valor, a contagem de objetos e o total de parâmetros de objeto são entrada para o método **método imapiprogress::P rogress** . O parâmetro value, um número que indica a porcentagem de progresso, é necessário. Se o sinalizador MAPI_TOP_LEVEL estiver definido, você também pode passar uma contagem de objeto e um total de objeto. Alguns clientes usam esses valores para exibir uma frase como "5 itens concluídos de 10" com o indicador de progresso. O andamento em uma operação pode ser relatado estritamente como uma porcentagem ou como uma porcentagem e em termos do número de itens que foram processados fora do total a ser processado. Por exemplo, se você é um provedor de armazenamento de mensagens e está executando uma operação de cópia que está copiando 10 pastas, o indicador de progresso pode fornecer ao usuário informações adicionais exibindo uma frase como "1 de 10", "2 de 10", "3 de 10" e assim por diante até que a operação seja concluída. 
+O valor, a contagem de objetos e os parâmetros totais do objeto são de entrada para o **método IMAPIProgress::P ess.** O parâmetro value, um número que indica a porcentagem de progresso, é obrigatório. Se o MAPI_TOP_LEVEL sinalizador estiver definido, você também poderá passar uma contagem de objetos e um total de objetos. Alguns clientes usam esses valores para exibir uma frase como "5 itens concluídos em 10" com o indicador de progresso. O progresso de uma operação pode ser relatado estritamente como uma porcentagem ou como uma porcentagem e em termos do número de itens que foram processados fora do total a ser processado. Por exemplo, se você for um provedor de armazenamento de mensagens e estiver executando uma operação de cópia que está copiando 10 pastas, o indicador de progresso poderá fornecer ao usuário informações adicionais exibindo uma frase como "1 de 10", "2 de 10", "3 de 10" e assim por diante até que a operação seja concluída. 
   
 ## <a name="see-also"></a>Confira também
 

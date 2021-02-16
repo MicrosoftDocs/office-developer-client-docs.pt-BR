@@ -18,7 +18,7 @@ ms.locfileid: "33422534"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Finaliza uma sessão com um cluster.
+Encerra uma sessão com um cluster.
   
 ```cpp
 int CloseSession(int SessionId)
@@ -26,13 +26,13 @@ int CloseSession(int SessionId)
 
 ## <a name="parameters"></a>Parâmetros
 
-_Identificação_da_sessão_
+_SessionId_
   
-> A ID da sessão a ser fechada. Esse valor deve corresponder ao valor retornado por [OpenSession](opensession.md).
+> A ID da sessão a ser fechado. Esse valor deve corresponder ao valor retornado por [OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valor de retorno
 
-**xlHpcRetSuccess** se a sessão foi fechada; **xlHpcRetInvalidSessionId** se o argumento _SessionID_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
+**xlHpcRetSuccess** se a sessão foi fechada; **xlHpcRetInvalidSessionId** se o  _argumento SessionId_ for inválido; **xlHpcRetCallFailed** em outras falhas. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,11 +25,11 @@ ms.locfileid: "33421911"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLBUTTON](dtblbutton.md) para descrever um botão e um rótulo de um comprimento especificado. 
+Cria uma estrutura nomeada que inclui uma [estrutura DTBLBUTTON](dtblbutton.md) para descrever um botão e um rótulo de um comprimento especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp

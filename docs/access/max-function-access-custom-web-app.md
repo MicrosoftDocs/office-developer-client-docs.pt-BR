@@ -1,5 +1,5 @@
 ---
-title: Função Max (aplicativo da Web personalizado do Access)
+title: Função Max (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419734"
 ---
-# <a name="max-function-access-custom-web-app"></a>Função Max (aplicativo da Web personalizado do Access)
+# <a name="max-function-access-custom-web-app"></a>Função Max (aplicativo Web personalizado do Access)
 
 Retorna o valor máximo na expressão em uma consulta ou tabela.
   
@@ -23,12 +23,12 @@ Retorna o valor máximo na expressão em uma consulta ou tabela.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Máx** (*Expressão*) 
+ **Max** (*Expressão*) 
   
-A função **máximo** contém o argumento a seguir. 
+A **função Max** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Expressão*  <br/> |Uma expressão de cadeia de caracteres identificando o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados desse campo. Os operandos na *expressão* podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).  <br/> |
+| *Expressão*  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados que você deseja avaliar ou uma expressão que executa um cálculo usando os dados desse campo. Os operadores  na expressão podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregadas do SQL).  <br/> |
    
 

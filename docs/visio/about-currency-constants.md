@@ -26,30 +26,30 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 
 |**ID**|**Abbreviation**|**Currency**|
 |:-----|:-----|:-----|
-| ,0  <br/> | SISTEMA  <br/> | Utiliza configurações de sistema  <br/> |
-| 1  <br/> | XXX  <br/> | Formata como um número  <br/> |
+| 0  <br/> | SYS  <br/> | Utiliza configurações de sistema  <br/> |
+| 1   <br/> | XXX  <br/> | Formata como um número  <br/> |
 | 2 - 9  <br/> | Reserved  <br/> |
-| 10   <br/> | EUR  <br/> | Símbolo  <br/> |
-| 11   <br/> | AMERICANOS  <br/> | Dólar americano  <br/> |
-| 12  <br/> | ATS  <br/> | Xelim austríaco  <br/> |
+| 10   <br/> | EUR  <br/> | Euro  <br/> |
+| 11  <br/> | USD  <br/> | Dólar americano  <br/> |
+| 12   <br/> | ATS  <br/> | Xelim austríaco  <br/> |
 | 13   <br/> | AUD  <br/> | Dólar australiano  <br/> |
 | 14   <br/> | BEF  <br/> | Franco belga  <br/> |
-| 15   <br/> | PROJETOS  <br/> | Dólar canadense  <br/> |
+| 15   <br/> | CAD  <br/> | Dólar canadense  <br/> |
 | 16   <br/> | CHF  <br/> | Franco suíço  <br/> |
 | 17   <br/> | CNY  <br/> | Yuan chinês  <br/> |
 | 18   <br/> | DEM  <br/> | Marco alemão  <br/> |
 | 19  <br/> | DKK  <br/> | Coroa dinamarquesa  <br/> |
-| 508  <br/> | ESP  <br/> | Peseta espanhola  <br/> |
-| 21  <br/> | FIM  <br/> | Marco finlandês  <br/> |
+| 20  <br/> | ESP  <br/> | Peseta espanhola  <br/> |
+|  21   <br/> | FIM  <br/> | Marco finlandês  <br/> |
 | 22  <br/> | FRF  <br/> | Franco francês  <br/> |
 | 23  <br/> | GBP  <br/> | Libra esterlina britânica  <br/> |
-| dia  <br/> | GRD  <br/> | Dracma grega  <br/> |
+| 24  <br/> | GRD  <br/> | Dracma grega  <br/> |
 | 25  <br/> | HKD  <br/> | Dólar de Hong Kong R.A.E (Região Administrativa Especial)  <br/> |
-| 660  <br/> | HUF  <br/> | Florim húngaro  <br/> |
+| 26  <br/> | HUF  <br/> | Florim húngaro  <br/> |
 | 27  <br/> | IDR  <br/> | Rúpia indonésia  <br/> |
 | 28  <br/> | IEP  <br/> | Libra irlandesa  <br/> |
-| anos  <br/> | ILS  <br/> | Shekel israelense  <br/> |
-| até  <br/> | ITL  <br/> | Lira italiana  <br/> |
+| 29  <br/> | ILS  <br/> | Shekel israelense  <br/> |
+| 30  <br/> | ITL  <br/> | Lira italiana  <br/> |
 | 31  <br/> | JPY  <br/> | Iene japonês  <br/> |
 | 32  <br/> | KRW  <br/> | Won coreano  <br/> |
 | 33  <br/> | LUF  <br/> | Franco luxemburguês  <br/> |
@@ -77,7 +77,7 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 59  <br/> | BRL  <br/> | Real brasileiro  <br/> |
 | 60  <br/> | BSD  <br/> | Dólar das Bahamas  <br/> |
 | 61  <br/> | CLP  <br/> | Peso chileno  <br/> |
-| 62  <br/> | COPIAR  <br/> | Peso colombiano  <br/> |
+| 62  <br/> | COP  <br/> | Peso colombiano  <br/> |
 | 63  <br/> | CRC  <br/> | Colón da Costa Rica  <br/> |
 | 64  <br/> | CZK  <br/> | Coroa tcheca  <br/> |
 | 65  <br/> | DOP  <br/> | Peso dominicano  <br/> |
@@ -86,24 +86,24 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 68  <br/> | HNL  <br/> | Lempira hondurenha  <br/> |
 | 69  <br/> | INR  <br/> | Rúpia indiana  <br/> |
 | 70  <br/> | JMD  <br/> | Dólar jamaicano  <br/> |
-| 71  <br/> | JOD  <br/> | Dinar jordaniano  <br/> |
+| 71  <br/> | LTD  <br/> | Dinar jordaniano  <br/> |
 | 72  <br/> | KWD  <br/> | Dinar Kuwaitiano  <br/> |
-| 73  <br/> | MOP  <br/> | Pataca de Macau  <br/> |
+| 73  <br/> | 10.  <br/> | Pataca de Macau  <br/> |
 | 74  <br/> | NIO  <br/> | Córdova de ouro nicaraguense  <br/> |
 | 75  <br/> | PAB  <br/> | Balboa panamenho  <br/> |
-| 76  <br/> | CANETA  <br/> | Novo Sol peruano  <br/> |
+| 76  <br/> | PEN  <br/> | Novo Sol peruano  <br/> |
 | 77  <br/> | PKR  <br/> | Rúpia paquistanesa  <br/> |
 | 78  <br/> | PYG  <br/> | Guarani paraguaio  <br/> |
-| 79  <br/> | ESPECIAL  <br/> | Rial saudita  <br/> |
+| 79  <br/> | SAR  <br/> | Rial saudita  <br/> |
 | 80  <br/> | SIT  <br/> | Tolar esloveno  <br/> |
 | 81  <br/> | SKK  <br/> | Coroa eslovaca  <br/> |
 | 82  <br/> | SVC  <br/> | Colón salvadorenho  <br/> |
-| 83  <br/> | Utilize  <br/> | Nova Lira Turca  <br/> |
+| 83  <br/> | TRY  <br/> | Nova Lira Turca  <br/> |
 | 84  <br/> | TTD  <br/> | Dólar de Trinidad e Tobago  <br/> |
 | 85  <br/> | UYU  <br/> | Peso uruguaio  <br/> |
 | 86  <br/> | VEB  <br/> | Bolívar venezuelano  <br/> |
 | 87  <br/> | VND  <br/> | Dong vietnamita  <br/> |
-| 88  <br/> | R  <br/> | Real brasileiro  <br/> |
+| 88  <br/> | BRL  <br/> | Real brasileiro  <br/> |
 | 89  <br/> | PLN  <br/> | Zloti Polonês  <br/> |
 | 90  <br/> | RUB  <br/> | Rublo russo  <br/> |
 | 91  <br/> | YUM  <br/> | Dinar iugoslavo  <br/> |
@@ -115,7 +115,7 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 97  <br/> | ADP  <br/> | Peseta andorrana (adicionado ao Visio 2002)  <br/> |
 | 98  <br/> | AOA  <br/> | Kwanza (adicionado ao Visio 2002)  <br/> |
 | 99  <br/> | XCD  <br/> | Dólar do Caribe Oriental (adicionado ao Visio 2002)  <br/> |
-| 100  <br/> | PROCESSADORES  <br/> | Dracma armênio (adicionado ao Visio 2002)  <br/> |
+| 100  <br/> | AMD  <br/> | Dracma armênio (adicionado ao Visio 2002)  <br/> |
 | 101  <br/> | AWG  <br/> | Florim de Aruba (adicionado ao Visio 2002)  <br/> |
 | 102  <br/> | AZM  <br/> | Manat azerbaidjano (adicionado ao Visio 2002)  <br/> |
 | 103  <br/> | BHD  <br/> | Dinar bareinita (adicionado ao Visio 2002)  <br/> |
@@ -125,12 +125,12 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 107  <br/> | BZD  <br/> | Dólar belizenho (adicionado ao Visio 2002)  <br/> |
 | 108  <br/> | XOF  <br/> | Franco CFA BCEAO (adicionado ao Visio 2002)  <br/> |
 | 109  <br/> | BTN  <br/> | Ngultrum (adicionado ao Visio 2002)  <br/> |
-| 110  <br/> | BAM  <br/> | Marcos conversíveis (adicionado no Visio 2002)  <br/> |
+| 110  <br/> | QUE SEJA  <br/> | Marcos conversíveis (adicionado no Visio 2002)  <br/> |
 | 111  <br/> | BWP  <br/> | Pula (adicionado ao Visio 2002)  <br/> |
 | 112  <br/> | BND  <br/> | Dólar bruneano (adicionado ao Visio 2002)  <br/> |
 | 113  <br/> | BGL (uso histórico BGN.)  <br/> | Lev  <br/> |
 | 114  <br/> | BGN  <br/> | Lev búlgaro (adicionado ao Visio 2002)  <br/> |
-| 115  <br/> | BSE  <br/> | Franco burundinês (adicionado ao Visio 2002)  <br/> |
+| 115  <br/> | BIF  <br/> | Franco burundinês (adicionado ao Visio 2002)  <br/> |
 | 116  <br/> | KHR  <br/> | Riel (adicionado ao Visio 2002)  <br/> |
 | 117  <br/> | XAF  <br/> | Franco CFA BEAC (adicionado ao Visio 2002)  <br/> |
 | 118  <br/> | CVE  <br/> | Escudo cabo-verdiano (adicionado ao Visio 2002)  <br/> |
@@ -138,14 +138,14 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 120  <br/> | KMF  <br/> | Franco comorense (adicionado ao Visio 2002)  <br/> |
 | 121  <br/> | CDF  <br/> | Franco congolês (adicionado ao Visio 2002)  <br/> |
 | 122  <br/> | HRK  <br/> | Kuna croata (adicionado ao Visio 2002)  <br/> |
-| 123  <br/> | COPO  <br/> | Peso cubano (adicionado ao Visio 2002)  <br/> |
+| 123  <br/> | CUP  <br/> | Peso cubano (adicionado ao Visio 2002)  <br/> |
 | 124  <br/> | CYP  <br/> | Libra cipriota (adicionado ao Visio 2002)  <br/> |
 | 125  <br/> | DJF  <br/> | Franco jibutiano (adicionado ao Visio 2002)  <br/> |
 | 126  <br/> | TPE  <br/> | Escudo timorense (adicionado ao Visio 2002)  <br/> |
 | 127  <br/> | ERN  <br/> | Nakfa (adicionado ao Visio 2002)  <br/> |
 | 128  <br/> | EEK  <br/> | Coroa (adicionado no Visio 2002)  <br/> |
 | 129  <br/> | ETB  <br/> | Birr etíope (adicionado ao Visio 2002)  <br/> |
-| 130  <br/> | FKP  <br/> | Libra das Ilhas Malvinas (Ilhas Falkland) (adicionado ao Visio 2002)  <br/> |
+| 130  <br/> | GFP  <br/> | Libra das Ilhas Malvinas (Ilhas Falkland) (adicionado ao Visio 2002)  <br/> |
 | 131  <br/> | FJD  <br/> | Dólar fijiano (adicionado ao Visio 2002)  <br/> |
 | 132  <br/> | XPF  <br/> | Franco CFA (adicionado ao Visio 2002)  <br/> |
 | 133  <br/> | GMD  <br/> | Dalasi (adicionado ao Visio 2002)  <br/> |
@@ -165,7 +165,7 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 147  <br/> | KPW  <br/> | Won norte-coreano (adicionado ao Visio 2002)  <br/> |
 | 148  <br/> | KGS  <br/> | Som (adicionado ao Visio 2002)  <br/> |
 | 149  <br/> | LAK  <br/> | Kip (adicionado ao Visio 2002)  <br/> |
-| 150  <br/> | LVL (histórica. Use EUR.)  <br/> | Lats letão (adicionado ao Visio 2002)  <br/> |
+| 150  <br/> | LVL (Histórico. Use EUR.)  <br/> | Lats letão (adicionado ao Visio 2002)  <br/> |
 | 151  <br/> | LBP  <br/> | Libra libanesa (adicionado ao Visio 2002)  <br/> |
 | 152  <br/> | LSL  <br/> | Loti (adicionado ao Visio 2002)  <br/> |
 | 153  <br/> | LRD  <br/> | Dólar liberiano (adicionado ao Visio 2002)  <br/> |
@@ -180,7 +180,7 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 162  <br/> | MUR  <br/> | Rúpia mauriciana (adicionado ao Visio 2002)  <br/> |
 | 163  <br/> | MDL  <br/> | Leu moldavo (adicionado ao Visio 2002)  <br/> |
 | 164  <br/> | MNT  <br/> | Tugrik (adicionado ao Visio 2002)  <br/> |
-| 165  <br/> | MALUCO  <br/> | Dirham marroquino (adicionado ao Visio 2002)  <br/> |
+| 165  <br/> | MAD  <br/> | Dirham marroquino (adicionado ao Visio 2002)  <br/> |
 | 166  <br/> | MZM  <br/> | Metical (adicionado ao Visio 2002)  <br/> |
 | 167  <br/> | MMK  <br/> | Kyat (adicionado ao Visio 2002)  <br/> |
 | 168  <br/> | NAD  <br/> | Dólar namibiano (adicionado ao Visio 2002)  <br/> |
@@ -206,7 +206,7 @@ Se você mostrar símbolos de moeda para moedas não-locais e o sistema não rec
 | 188  <br/> | TJR (uso histórico TJS.)  <br/> | Rublo tadjique  <br/> |
 | 189  <br/> | TJS  <br/> | Somoni tadjique (adicionado ao Visio 2002)  <br/> |
 | 190  <br/> | TZS  <br/> | Xelim tanzaniano (adicionado ao Visio 2002)  <br/> |
-| 191  <br/> | Início  <br/> | Pa'anga (adicionado ao Visio 2002)  <br/> |
+| 191  <br/> | TOP  <br/> | Pa'anga (adicionado ao Visio 2002)  <br/> |
 | 192  <br/> | TND  <br/> | Dinar tunisiano (adicionado ao Visio 2002)  <br/> |
 | 193  <br/> | TMM  <br/> | Manat (adicionado ao Visio 2002)  <br/> |
 | 194  <br/> | UGX  <br/> | Xelim ugandense (adicionado ao Visio 2002)  <br/> |

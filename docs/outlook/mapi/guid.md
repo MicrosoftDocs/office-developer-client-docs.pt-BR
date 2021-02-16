@@ -29,7 +29,7 @@ Descreve um identificador global exclusivo (GUID).
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiguid. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiguid.h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -50,11 +50,11 @@ typedef struct _GUID
     
  **Data2**
   
-> Um valor de dados inteiro curto não assinado.
+> Um valor de dados de inteiro curto não assinado.
     
  **Data3**
   
-> Um valor de dados inteiro curto não assinado.
+> Um valor de dados de inteiro curto não assinado.
     
  **Data4**
   
@@ -62,19 +62,19 @@ typedef struct _GUID
     
 ## <a name="remarks"></a>Comentários
 
- Estruturas **GUID** são usadas em MAPI da seguinte maneira: 
+ **Estruturas GUID** são usadas em MAPI da seguinte forma: 
   
-- Nas estruturas [MAPIUID](mapiuid.md) que identificam exclusivamente os provedores de serviços. 
+- Nas [estruturas MAPIUID](mapiuid.md) que identificam exclusivamente provedores de serviços. 
     
 - Para identificadores de interface.
     
-- No conjunto de propriedades, os nomes das propriedades nomeadas. 
+- Nos nomes de conjunto de propriedades de propriedades nomeadas. 
     
-O repositório de mensagens e os provedores de catálogo de endereços geram uma estrutura **GUID** para usar em sua estrutura **MAPIUID** . Ao passar o **MAPIUID** resultante para [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), esses provedores de serviços informam o MAPI de seu identificador exclusivo.
+Os provedores de armazenamento de mensagens e de agendas geram uma estrutura **GUID** a ser usada em **sua estrutura MAPIUID.** Ao passar o **MAPIUID** resultante para [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), esses provedores de serviços informam AO MAPI sobre seu identificador exclusivo.
   
-Além disso, eles são usados na implementação da RPC (chamada de procedimento remoto) da Microsoft e da linguagem de descrição de objeto (ODL). Para obter mais informações sobre esses usos, confira o *guia e referência do programador RPC da Microsoft*, *referência do programador do OLE* e *dentro do OLE*, *segunda edição* . 
+Além disso, eles são usados na implementação da Chamada de Procedimento Remoto da Microsoft (RPC) e da ODL (Object Description Language). Para obter mais informações sobre esses usos, consulte o Guia e referência do programador do  *Microsoft RPC*, Referência do programador *OLE*  e  *Inside OLE*, *Segunda Edição*  . 
   
-A estrutura **GUID** é definida na *referência do programador do Win32* . Valores específicos para estruturas **GUID** usadas no MAPI são definidos no arquivo de cabeçalho MAPI Mapiguid. h. 
+A **estrutura GUID** é definida na Referência do *programador do Win32.* Valores específicos para **estruturas GUID** que são usadas em MAPI são definidos no arquivo de header MAPI Mapiguid.h. 
   
 ## <a name="see-also"></a>Confira também
 

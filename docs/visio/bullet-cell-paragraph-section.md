@@ -22,10 +22,10 @@ Determina o estilo de marcador.
   
 |**Valor**|**Estilo de marcador**|
 |:-----|:-----|
-|,0  <br/> |Nenhum  <br/> |
-|1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|duas  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|3D  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|0  <br/> |Nenhum  <br/> |
+|1   <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
+|2   <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3   <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
 |4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
 |5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
 |6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
@@ -34,8 +34,8 @@ Determina o estilo de marcador.
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionParagraph** <br/> |
-|Índice de linha:  <br/> |**visRowParagraph** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visBulletIndex** <br/> |
+|Índice de linha:  <br/> |**visRowParagraph**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visBulletIndex** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -45,8 +45,8 @@ Para obter uma referência para a célula Bullet pelo nome, a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Para. Bullet [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Para.Bullet[ *i*  ] onde  *i*  = <1>, 2, 3, ...  <br/> |
    
-Para obter uma referência para a célula Bullet pelo índice, a partir de um programa, use a propriedade  **CellsSRC**com os seguintes argumentos: 
+Para obter uma referência para a célula Bullet pelo índice, a partir de um programa, use a propriedade  **CellsSRC** com os seguintes argumentos: 
   
 

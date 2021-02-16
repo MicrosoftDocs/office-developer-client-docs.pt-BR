@@ -29,7 +29,7 @@ Procura a última ocorrência de um caractere em uma cadeia de caracteres termin
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,18 +44,18 @@ LPSTR SzFindLastCh(
 
  _lpsz_
   
-> no Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisada. 
+> [in] Ponteiro para a cadeia de caracteres terminada em nulo a ser pesquisada. 
     
- _CA_
+ _ch_
   
-> no O caractere a ser procurado.
+> [in] O caractere a ser pesquisado.
     
 ## <a name="return-value"></a>Valor de retorno
 
- **SzFindLastCh** retorna um ponteiro para a última ocorrência do caractere na cadeia de caracteres. Se o caractere não ocorrer em qualquer lugar na cadeia de caracteres ou se o parâmetro _lpsz_ for NULL, um valor NULL será retornado. 
+ **SzFindLastCh** retorna um ponteiro para a última ocorrência do caractere na cadeia de caracteres. Se o caractere não ocorrer em qualquer lugar na cadeia de caracteres ou se o parâmetro  _lpsz_ for NULL, um valor null será retornado. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **SzFindLastCh** pesquisa apenas uma correspondência exata; é sensível às diferenças de maiúsculas e minúsculas. As pesquisas nos formatos Unicode e DBCS são suportadas. 
+A **função SzFindLastCh** procura apenas uma combinação exata; é sensível a diferenças de caso e diacrítico. Há suporte para pesquisas nos formatos Unicode e DBCS. 
   
 

@@ -23,7 +23,7 @@ ms.locfileid: "33421645"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As seguintes entradas em ordem alfabética descrevem estruturas MAPI. Para obter informações mais detalhadas, referências cruzadas para outras publicações ou para outros tópicos nesta documentação também estão incluídas.
+As entradas em ordem alfabética a seguir descrevem estruturas MAPI. Para obter informações mais detalhadas, referências cruzadas a outras publicações ou a outros tópicos nesta documentação também estão incluídas.
   
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ As seguintes entradas em ordem alfabética descrevem estruturas MAPI. Para obter
 |[MAPIERROR](mapierror.md) <br/> |[MAPIINIT_0](mapiinit_0.md) <br/> |
 |[MAPINAMEID](mapinameid.md) <br/> |[MAPIUID](mapiuid.md) <br/> |
 |[MTSID](mtsid.md) <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
-|[Notifica](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
+|[NOTIFICAÇÃO](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
 |[OBJECT_NOTIFICATION](object_notification.md) <br/> |[ROWENTRY](rowentry.md) <br/> |
 |[ROWLIST](rowlist.md) <br/> |[SAndRestriction](sandrestriction.md) <br/> |
 |[SAppTimeArray](sapptimearray.md) <br/> |[SBinary](sbinary.md) <br/> |

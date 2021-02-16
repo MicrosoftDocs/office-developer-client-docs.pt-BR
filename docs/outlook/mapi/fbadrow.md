@@ -43,7 +43,7 @@ ULONG FBadRow(
 
  _lprow_
   
-> no Ponteiro para uma estrutura [SRow](srow.md) identificando a linha a ser validada. 
+> [in] Ponteiro para uma [estrutura SRow](srow.md) que identifica a linha a ser validada. 
     
 ## <a name="return-value"></a>Valor de retorno
 

@@ -20,7 +20,7 @@ ms.locfileid: "33420686"
 
 Contém o valor e o prompt descritivo para qualquer célula definida pelo usuário na solução. Uma forma contém uma linha User-defined Cells para cada par de célula Value/Prompt definida pelo usuário.
   
-As linhas User-defined Cells são denominadas User. *nome* e contém as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
+As linhas User-defined Cells são denominadas User. *e*  contenha as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
@@ -33,7 +33,7 @@ Células definidas pelo usuário podem ser usadas para inserir fórmulas ou cons
   
  É possível adicionar tantas linhas User.  *name* quantas forem necessárias, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar uma linha a uma seção User-defined Cells existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
-É possível fazer referência a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir nomes significativos às linhas User. *nomear* linhas, clique na linha e digite um nome como *deslocamento* , por exemplo, para criar o nome da linha user. Offset. Você pode fazer referência à célula Prompt usando User.Offset.Prompt. 
+É possível fazer referência a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir nomes significativos às linhas User. *name*  rows, click the row, and then type a name such as  *Offset*  , for example, to create the row name User.Offset. Você pode fazer referência à célula Prompt usando User.Offset.Prompt. 
   
 O nome de linha inserido deve ser único na seção.
   

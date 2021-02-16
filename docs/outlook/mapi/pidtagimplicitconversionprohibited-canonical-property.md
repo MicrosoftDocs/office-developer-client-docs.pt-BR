@@ -25,7 +25,7 @@ ms.locfileid: "33420665"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido de realizar conversões implícitas de texto de mensagem.
+Contém TRUE se um agente de transferência de mensagens (MTA) é proibido de fazer conversões implícitas de texto de mensagem.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido d
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for TRUE, o sistema de mensagens não deverá executar qualquer conversão de conteúdo na mensagem, a menos que seja explicitamente solicitado por destinatário com a propriedade **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Se essa propriedade for TRUE, o sistema de mensagens não deverá executar qualquer conversão de conteúdo na mensagem, a menos que seja explicitamente solicitada por destinatário com a propriedade **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

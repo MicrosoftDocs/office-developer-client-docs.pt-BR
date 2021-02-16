@@ -41,23 +41,23 @@ HRESULT RenameProfile(
 
  _lpszOldProfileName_
   
-> no Um ponteiro para o nome atual do perfil a ser renomeado.
+> [in] Um ponteiro para o nome atual do perfil a ser renomedo.
     
  _lpszOldPassword_
   
-> no Sempre nulo.
+> [in] Sempre NULO.
     
  _lpszNewProfileName_
   
-> no Um ponteiro para o novo nome do perfil a ser renomeado.
+> [in] Um ponteiro para o novo nome do perfil a ser renomedo.
     
  _ulUIParam_
   
-> no Uma alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe. 
+> [in] Um alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe. 
     
  _ulFlags_
   
-> no Sempre nulo.
+> [in] Sempre NULO.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -71,19 +71,19 @@ MAPI_E_LOGON_FAILED
     
 MAPI_E_USER_CANCEL 
   
-> O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
+> O usuário cancelou a operação, normalmente clicando no botão Cancelar **em** uma caixa de diálogo. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin:: RenameProfile** atribui um novo nome a um perfil, se ele tiver um. Se o perfil a ser renomeado estiver em uso por um cliente quando **RenameProfile** for chamado, o **RenameProfile** marcará o perfil e retornará S_OK em vez de tentar a operação de renomeação enquanto o perfil estiver em uso. Quando o perfil não está mais sendo usado, o **RenameProfile** atribui a ele o novo nome. 
+O **método IProfAdmin::RenameProfile** atribui um novo nome a um perfil, se tiver um. Se o perfil a ser renomeado estiver sendo usado por um cliente quando **RenameProfile** for chamado, **RenameProfile** marcará o perfil e retornará S_OK em vez de tentar renomear a operação enquanto o perfil estiver em uso. Quando o perfil não está mais sendo usado, **RenameProfile** atribui a ele o novo nome. 
   
-Os nomes antigo e novo do perfil podem ter até 64 caracteres de comprimento e podem incluir os seguintes caracteres:
+Os nomes antigo e novo do perfil podem ter até 64 caracteres e podem incluir os seguintes caracteres:
   
 - Todos os caracteres alfanuméricos, incluindo caracteres de ênfase e o caractere de sublinhado.
     
-- Espaços incorporados, mas não espaços à esquerda ou à direita.
+- Espaços incorporados, mas não espaços à frente ou à frente.
     
-O _lpszPassword_ deve ser sempre nulo ou um ponteiro para uma sequência de comprimento zero. 
+O  _lpszPassword_ sempre deve ser NULL ou um ponteiro para uma cadeia de caracteres de comprimento zero. 
   
 ## <a name="see-also"></a>Confira também
 

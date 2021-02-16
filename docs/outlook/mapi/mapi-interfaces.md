@@ -27,24 +27,24 @@ A documentação de cada interface consiste em uma seção introdutória que inc
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |O arquivo de cabeçalho onde a interface é definida e que deve ser incluída quando você compila o código-fonte.  <br/> |
+|Arquivo de cabeçalho:  <br/> |O arquivo de header em que a interface está definida e que deve ser incluído ao compilar o código-fonte.  <br/> |
 |Exposto por:  <br/> |O objeto que expõe a interface.  <br/> |
 |Implementado por:  <br/> |Uma lista dos componentes que fornecem uma implementação da interface.  <br/> |
 |Chamado por:  <br/> |Uma lista dos componentes que normalmente chamam os métodos da interface.  <br/> |
-|Identificador de interface:  <br/> |O GUID do identificador de interface.  <br/> |
+|Identificador de interface:  <br/> |O GUID do identificador da interface.  <br/> |
 |Tipo de ponteiro:  <br/> |O tipo de ponteiro para o objeto que expõe a interface.  <br/> |
-|Modelo de transação:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Se não realizadas, as alterações terão efeito imediatamente; se transacionado, as alterações não entrarão em vigor até que [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) seja chamado.  <br/> |
+|Modelo de transação:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Se não for traduzida, as alterações vigorarão imediatamente; se transacionado, as alterações não são efetivadas até [que IMAPIProp::SaveChanges](imapiprop-savechanges.md) seja chamado.  <br/> |
    
-A seguir, a primeira tabela é outra tabela que lista todos os métodos dessa interface em ordem vtable. Uma vtable é uma matriz de ponteiros de função criado pelo compilador que contém um ponteiro de função para cada método de um objeto MAPI. Os métodos estão listados na mesma ordem em que são declarados. Os métodos herdados de outras interfaces não são mostrados na tabela de pedidos vtable, mas podem ser usados da mesma maneira como documentados na interface que os define.
+Após a primeira tabela, há outra tabela que lista todos os métodos dessa interface em ordem vtable. Uma vtable é uma matriz de ponteiros de função criada pelo compilador contendo um ponteiro de função para cada método de um objeto MAPI. Os métodos são listados na mesma ordem em que são declarados. Os métodos herdados de outras interfaces não são mostrados na tabela Ordem da Tabela Vtable, mas podem ser usados da mesma maneira que documentados na interface que os define.
   
-Após cada tópico de interface, os métodos da interface são documentados em ordem alfabética. Para cada método, a documentação inclui uma instrução de curto objetivo, um bloco de sintaxe e as informações a seguir.
+Após cada tópico da interface, os métodos da interface são documentados em ordem alfabética. Para cada método, a documentação inclui uma breve instrução de finalidade, um bloco de sintaxe e as informações a seguir.
   
 |**Título**|**Conteúdo**|
 |:-----|:-----|
 |Parâmetros  <br/> |Uma descrição de cada parâmetro no método.  <br/> |
-|Valor de retorno  <br/> |Uma descrição dos valores exclusivos que o método pode retornar. Estes são os valores que os chamadores devem verificar no código.  <br/> |
-|Comentários  <br/> |Uma descrição do porquê e como o método é usado.  <br/> |
-|Confira também  <br/> |Referências cruzadas para outros tópicos nesta referência.  <br/> |
+|Valor de retorno  <br/> |Uma descrição dos valores exclusivos que o método pode retornar. Esses são os valores que os chamadores devem verificar em seu código.  <br/> |
+|Comentários  <br/> |Uma descrição do motivo e de como o método é usado.  <br/> |
+|Confira também  <br/> |Referências cruzadas a outros tópicos nesta referência.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

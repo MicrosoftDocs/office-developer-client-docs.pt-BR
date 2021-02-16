@@ -22,13 +22,13 @@ Mostra a definição de comportamento de redimensionamento atual da forma.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Usar configuração do grupo.  <br/> |**visXFormResizeDontCare** <br/> |
-|1  <br/> |Apenas reposicionar.  <br/> |**visXFormResizeSpread** <br/> |
-|duas  <br/> |Escala com grupo.  <br/> |**visXFormResizeScale** <br/> |
+|0  <br/> |Usar configuração do grupo.  <br/> |**visXFormResizeDontCare** <br/> |
+|1   <br/> |Apenas reposicionar.  <br/> |**visXFormResizeSpread** <br/> |
+|2   <br/> |Escala com grupo.  <br/> |**visXFormResizeScale** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na guia **comportamento** da caixa de diálogo **comportamento** (na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md), no grupo design da **forma** , clique em **comportamento**). Para obter uma referência à célula ResizeMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
+Você também pode definir esse valor  na guia Comportamento [](run-in-developer-mode-display-the-developer-tab.md)na caixa de diálogo Comportamento (na guia Desenvolvedor, no grupo **Design** da Forma, clique em **Comportamento).**  Para obter uma referência à célula ResizeMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
@@ -40,6 +40,6 @@ Para obter uma referência para a célula ResizeMode pelo índice a partir de um
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowXFormOut** <br/> |
-|Índice da célula:  <br/> |**visXFormResizeMode** <br/> |
+|Índice de célula:  <br/> |**visXFormResizeMode** <br/> |
    
 

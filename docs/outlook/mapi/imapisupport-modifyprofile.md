@@ -25,7 +25,7 @@ ms.locfileid: "33419986"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Faz alterações em uma seção de perfil do repositório de mensagens permanente.
+Faz alterações em uma seção de perfil de armazenamento de mensagens permanente.
   
 ```cpp
 HRESULT ModifyProfile(
@@ -37,25 +37,25 @@ ULONG ulFlags
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que indica o tipo de repositório de mensagens. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que indica o tipo de armazenamento de mensagens. O sinalizador a seguir pode ser definido:
     
 MDB_TEMPORARY 
   
-> O repositório de mensagens é temporário e não deve ser adicionado à tabela do repositório de mensagens. Quando MDB_TEMPORARY é definido, **ModifyProfile** retorna S_OK imediatamente. 
+> O armazenamento de mensagens é temporário e não deve ser adicionado à tabela do armazenamento de mensagens. Quando MDB_TEMPORARY é definido, **ModifyProfile** retorna S_OK imediatamente. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As alterações na seção de perfil foram bem-sucedidas.
+> As alterações feitas na seção de perfil foram bem-sucedidas.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: ModifyProfile** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam o **ModifyProfile** para solicitar que o MAPI modifique suas informações de perfil. 
+O **método IMAPISupport::ModifyProfile** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens **chamam ModifyProfile** para solicitar que o MAPI modifique suas informações de perfil. 
   
- **ModifyProfile** adiciona a seção de perfil associada ao provedor de chamadas à lista de recursos do provedor de repositório de mensagens instalado. Isso faz com que o repositório de mensagens seja listado na tabela do repositório de mensagens, que está disponível para clientes por meio do método [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) , e a ser aberto sem a exibição de uma caixa de diálogo. 
+ **ModifyProfile adiciona** a seção de perfil associada ao provedor de chamada à lista de recursos instalados do provedor de armazenamento de mensagens. Isso faz com que o armazenamento de mensagens seja listado na tabela do armazenamento de mensagens, que está disponível para clientes por meio do método [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) e ser aberto sem a exibição de uma caixa de diálogo. 
   
-Se o sinalizador MDB_TEMPORARY for definido, MAPI não fará nada e o método retornará imediatamente com S_OK.
+Se o MDB_TEMPORARY de dados estiver definido, MAPI não faz nada e o método retorna imediatamente com S_OK.
   
 ## <a name="see-also"></a>Confira também
 

@@ -19,25 +19,25 @@ ms.locfileid: "33422156"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando um cliente ou provedor solicitar que um de seus objetos seja aberto, o MAPI chamará o método [IABLogon:: OpenEntry](iablogon-openentry.md) do provedor. O MAPI determina que o identificador de entrada que representa o objeto de destino pertence ao seu provedor examinando a parte [MAPIUID](mapiuid.md) do identificador de entrada e fazendo a correspondência com o **MAPIUID** que seu provedor registrou na chamada para ** IMAPISupport:: SetProviderUID**. Em seguida, o MAPI chama o método **OpenEntry** . Seu provedor deve responder recuperando o objeto correspondente — um contêiner, uma lista de distribuição ou um usuário de mensagens. 
+Quando um cliente ou provedor solicitou que um de seus objetos seja aberto, o MAPI chama o método [IABLogon::OpenEntry do](iablogon-openentry.md) provedor. O MAPI determina que o identificador de entrada que representa o objeto de destino pertence ao seu provedor examinando a parte [MAPIUID](mapiuid.md) do identificador de entrada e correspondendo-o ao **MAPIUID** que seu provedor registrou na chamada para **IMAPISupport::SetProviderUID**. MAPI then calls your **OpenEntry** method. Seu provedor deve responder recuperando o objeto correspondente — um contêiner, uma lista de distribuição ou um usuário de mensagens. 
   
-Um identificador de entrada nulo indica uma solicitação para abrir o contêiner raiz do provedor do catálogo de endereços. Os clientes abrem o contêiner raiz para acessar sua tabela de hierarquia e seus destinatários. Os provedores de catálogo de endereços que só fornecem modelos para a criação de destinatários únicos não oferecem suporte à chamada **OpenEntry** para o contêiner raiz. 
+Um identificador de entrada NULL indica uma solicitação para abrir o contêiner raiz do provedor de agendas. Os clientes abrem o contêiner raiz para acessar sua tabela de hierarquia e seus destinatários. Os provedores de agendamento de endereços que fornecem apenas modelos para a criação de destinatários únicos não suportam a chamada **OpenEntry** para o contêiner raiz. 
   
-### <a name="to-implement-iablogonopenentry"></a>Para implementar o IABLogon:: OpenEntry
+### <a name="to-implement-iablogonopenentry"></a>Para implementar IABLogon::OpenEntry
   
-1. Verifique se o identificador de entrada é um identificador válido para o qual seu provedor oferece suporte. Se não for um identificador de entrada válido, retorne MAPI_E_INVALID_ENTRYID. 
+1. Verifique se o identificador de entrada é um identificador válido compatível com seu provedor. Se não for um identificador de entrada válido, retorne MAPI_E_INVALID_ENTRYID. 
     
-2. Verifique o sinalizador que é passado com o parâmetro _parâmetroulflags_ . Se o MAPI tiver passado no MAPI_MODIFY e seu provedor não permitir que seus objetos sejam modificados, falhará e retornará o valor de erro MAPI_E_ACCESS_DENIED. 
+2. Verifique o sinalizador que é passado com o _parâmetro ulFlags._ Se o MAPI tiver passado pelo MAPI_MODIFY e seu provedor não permitir que seus objetos sejam modificados, falhará e retornará o MAPI_E_ACCESS_DENIED de erro. 
     
-3. Verifique se a interface solicitada no parâmetro _lpInterface_ é válida para o tipo de objeto que seu provedor foi solicitado a abrir. Se um parâmetro inválido tiver sido passado, falhar e retornar o valor de erro MAPI_E_INTERFACE_NOT_SUPPORTED. 
+3. Verifique se a interface solicitada no parâmetro  _lpInterface_ é válida para o tipo de objeto que seu provedor foi solicitado a abrir. Se um parâmetro inválido tiver sido passado, falhará e retornará o valor MAPI_E_INTERFACE_NOT_SUPPORTED erro. 
     
-4. Se o parâmetro _cbEntryID_ for zero, esta é uma solicitação para abrir o contêiner raiz do provedor. Crie o contêiner raiz e retorne um ponteiro para sua implementação de interface **IABContainer** . 
+4. Se o  _parâmetro cbEntryID_ for zero, será uma solicitação para abrir o contêiner raiz do provedor. Crie o contêiner raiz e retorne um ponteiro para sua implementação de interface **IABContainer.** 
     
-5. Se seu provedor implementar vários objetos de logon, cada um com seu próprio **MAPIUID**registrado, mapeie o **MAPIUID** contido no identificador de entrada com o objeto de logon apropriado. 
+5. Se seu provedor implementa vários objetos de logon, cada um com seu próprio **MAPIUID** registrado, mapeie o **MAPIUID** contido no identificador de entrada com o objeto de logon apropriado. 
     
-6. Determine qual tipo de objeto o identificador de entrada representa: um usuário de mensagens, uma lista de distribuição ou um contêiner pertencente ao seu provedor ou um usuário de mensagens única ou uma lista de distribuição para que o valor apropriado possa ser definido para o _lpulObjectType_ Construtor. 
+6. Determine que tipo de objeto o identificador de entrada representa: um usuário de mensagens, uma lista de distribuição ou um contêiner pertencente ao seu provedor ou um usuário de mensagens único ou uma lista de distribuição para que o valor apropriado possa ser definido para o parâmetro _lpulObjectType._ 
     
-7. Crie o objeto do tipo apropriado e defina as seguintes propriedades básicas:
+7. Criar o objeto do tipo apropriado e definir as seguintes propriedades básicas:
     
     - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
@@ -46,6 +46,6 @@ Um identificador de entrada nulo indica uma solicitação para abrir o contêine
     
 8. Calcule **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) e **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de informações no identificador de entrada.
     
-9. ReTorne um ponteiro para a implementação de interface para o objeto. 
+9. Retorne um ponteiro para a implementação da interface do objeto. 
     
 

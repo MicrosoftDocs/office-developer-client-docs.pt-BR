@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251455
 localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
-description: Usa um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expresso nas coordenadas locais da forma associada à fórmula.
+description: Assume um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expressado nas coordenadas locais da forma associada à fórmula.
 ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33422422"
 ---
 # <a name="loc-function-visioshapesheet"></a>Função LOC (VisioShapeSheet)
 
-Usa um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expresso nas coordenadas locais da forma associada à fórmula. 
+Assume um ponto definido nas coordenadas locais de uma forma e retorna o ponto equivalente expressado nas coordenadas locais da forma associada à fórmula. 
   
 ## <a name="syntax"></a>Sintaxe
 
-LOC (* * *ponto* * *) 
+LOC(** *ponto* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ponto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Um ponto definido nas coordenadas locais de uma forma.  <br/> |
+| _point_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto definido nas coordenadas locais de uma forma.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -40,7 +40,7 @@ As coordenadas locais são medidas do canto inferior esquerdo do retângulo de s
   
 ## <a name="example"></a>Exemplo
 
-LOC (PNT (Sheet. 5! LocPinX, sheet. 5! LocPinY)) 
+LOC(PNT(Sheet.5! LocPinX, Sheet.5! LocPinY)) 
   
 Nesta expressão, PNT converte um conjunto de coordenadas locais em Sheet.5 para um ponto. (Sheet.5 é uma outra forma na mesma página de desenho.) Em seguida, LOC converte esse ponto para um ponto equivalente no sistema de coordenadas locais da forma atual, em relação ao canto inferior esquerdo do retângulo de seleção da forma atual. 
   

@@ -22,14 +22,14 @@ Retorna um valor que representa o sinal de um número.
   
 ## <a name="syntax"></a>Sintaxe
 
-ASSINAR (* * *número* * *, * * *difusão* * *) 
+SIGN(** *number* **, ** *fuzz* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Numérica** <br/> | O número para o qual deseja determinar o sinal.  <br/> |
-| _difusa_ <br/> |Opcional  <br/> |**Numérica** <br/> |Especifica o quanto o número deve estar próximo do zero para ser considerado igual a zero.  <br/> |
+| _fuzz_ <br/> |Opcional  <br/> |**Numérica** <br/> |Especifica o quanto o número deve estar próximo do zero para ser considerado igual a zero.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -37,31 +37,31 @@ Numeric
   
 ## <a name="remarks"></a>Comentários
 
-A função SIGN retornará 1 se _núm_ for positivo, 0 se _núm_ for zero ou-1 se _núm_ for negativo. 
+A função SIGN retornará 1 se  _o número_ for positivo, 0 se  _nº_ for zero ou -1 se  _o número_ for negativo. 
   
-Especificar um valor de _difusão_ ajuda a evitar erros de ponto flutuante roundoff quando um cálculo é quase zero. Se você não especificar um valor de _difusão_ , o Visio usará 1e-9 (0, 1). Convém fornecer um valor diferente ao colocar o desenho em escala ou quando desejar obter uma comparação exata. 
+Especificar um valor  _difuso_ ajuda a evitar erros de arredondamento de ponto flutuante quando um cálculo é quase zero. Se você não especificar um valor  _difuso,_ o Visio usará 1E-9 (0,000000001). Convém fornecer um valor diferente ao colocar o desenho em escala ou quando desejar obter uma comparação exata. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-SINAL (-5)
+SIGN(-5)
   
 Retornará -1.
   
 ## <a name="example-2"></a>Exemplo 2
 
-SINAL (0)
+SIGN(0)
   
 Retornará 0.
   
 ## <a name="example-3"></a>Exemplo 3
 
-SINAL (0.00000000001)
+SIGN(0.00000000001)
   
 Retornará 0.
   
 ## <a name="example-4"></a>Exemplo 4
 
-SINAL (0.00000000001, 0)
+SIGN(0.00000000001,0)
   
 Retornará 1.
   

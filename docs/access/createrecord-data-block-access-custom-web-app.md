@@ -1,5 +1,5 @@
 ---
-title: Bloco de dados CriarRegistro (aplicativo Web personalizado do Access)
+title: Bloco de Dados CriarRegiscord (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421372"
 ---
-# <a name="createrecord-data-block-access-custom-web-app"></a>Bloco de dados CriarRegistro (aplicativo Web personalizado do Access)
+# <a name="createrecord-data-block-access-custom-web-app"></a>Bloco de Dados CriarRegiscord (aplicativo Web personalizado do Access)
 
 Você pode usar o bloco de dados **CriarRegistro** para criar um novo registro na tabela especificada. 
   
@@ -38,7 +38,7 @@ O bloco de dados **ExcluirRegistro** tem os seguintes argumentos.
 
 O registro criado por **CriarRegistro** se torna automaticamente o registro atual. 
   
-Após **** a instrução CreateRecord, você pode inserir um bloco de comandos que será executado antes que o novo registro seja confirmado. As ações a seguir estão disponíveis em bloco de dados **CriarRegistro**. 
+Após **a instrução CreateRecord,** você pode inserir um bloco de comandos que será executado antes da confirmação do novo registro. As ações a seguir estão disponíveis em bloco de dados **CriarRegistro**. 
   
 ||
 |:-----|
@@ -51,11 +51,11 @@ Após **** a instrução CreateRecord, você pode inserir um bloco de comandos q
    
 Depois que a ação **CriarRegistro** criar um registro, use a ação **DefinirCampo** para especificar o valor de um campo no novo registro. 
   
-Você pode usar um **If... Then... Else** para executar operações com base em uma condição. 
+Você pode usar um **If... Então... Instrução Else** para executar operações com base em uma condição. 
   
 Para cancelar a criação de um registro, use a ação **CancelarAlteraçãodeRegistro**. Dessa forma, as alterações não são atribuídas e o bloco de dados **CriarRegistro** é encerrado. 
   
-Quando o novo registro for atribuído, você poderá usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o registro. Por exemplo, use a sintaxe a seguir para se referir ao campo AssignedTo do Registro criado mais recentemente. 
+Quando o novo registro for atribuído, você poderá usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o registro. Por exemplo, use a sintaxe a seguir para referir-se ao campo AtribuídoA do registro criado mais recentemente. 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

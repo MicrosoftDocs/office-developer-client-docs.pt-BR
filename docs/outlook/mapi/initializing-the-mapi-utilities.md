@@ -21,10 +21,10 @@ ms.locfileid: "33420945"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se a única parte do MAPI que você precisa usar são os utilitários, as interfaces e funções declaradas no MAPIUTIL de MAPI. Arquivo de cabeçalho H como **IPropData** e **ITableData** — você não precisa chamar o **MAPIInitialize** para inicialização. Para obter mais informações, consulte [IPropData: IMAPIProp](ipropdataimapiprop.md), [ITableData: IUnknown](itabledataiunknown.md)e [MAPIInitialize](mapiinitialize.md). Em vez disso, chame a função **ScInitMapiUtil** . Para obter mais informações, consulte [ScInitMapiUtil](scinitmapiutil.md). O **ScInitMapiUtil** permite que os aplicativos cliente usem funções e métodos de utilitários que exigem alocadores MAPI, mas que não pedem explicitamente. 
+Se a única parte de MAPI que você precisa usar são os utilitários as interfaces e funções declaradas no MAPIUTIL de MAPI. Arquivo de header H como **IPropData** e **ITableData** — você não precisa chamar **MAPIInitialize** para inicialização. Para obter mais informações, consulte [IPropData : IMAPIProp](ipropdataimapiprop.md), [ITableData : IUnknown](itabledataiunknown.md)e [MAPIInitialize](mapiinitialize.md). Em vez disso, chame **a função ScInitMapiUtil.** Para obter mais informações, [consulte ScInitMapiUtil](scinitmapiutil.md). **O ScInitMapiUtil** permite que aplicativos cliente usem funções e métodos utilitários que exigem alocadores MAPI, mas que não os solicitam explicitamente. 
   
-No momento do desligamento, faça uma chamada para **DeinitMapiUtil** para liberar recursos conectados aos utilitários. Não chame **MAPIUninitialize**. Para obter mais informações, consulte [DeinitMapiUtil](deinitmapiutil.md) e [MAPIUninitialize](mapiuninitialize.md).
+No momento do desligamento, faça uma chamada para **DeinitMapiUtil** para liberar recursos conectados aos utilitários. Não chame **MAPIUninitialize**. Para obter mais informações, [consulte DeinitMapiUtil](deinitmapiutil.md) e [MAPIUninitialize](mapiuninitialize.md).
   
-Lembre-se de que a interface **ITableData** não oferece suporte a notificações de tabela para clientes que chamaram **ScInitMapiUtil** em vez de **MAPIInitialize**. 
+Esteja ciente de que a interface **ITableData** não dá suporte a notificações de tabela para clientes que tenham chamado **ScInitMapiUtil** em vez de **MAPIInitialize**. 
   
 

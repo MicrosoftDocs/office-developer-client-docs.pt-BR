@@ -34,15 +34,15 @@ HRESULT Next(
 
 _celt_
   
-> no O número de blocos de dados de disponibilidade no *pblk* a serem recuperados. 
+> [in] O número de blocos de dados de livre/ocupado em  *pblk a*  recuperar. 
     
 _pblk_
   
-> no Um ponteiro para uma matriz de blocos de disponibilidade. A matriz é alocada com um tamanho de *celt* . Os blocos de disponibilidade solicitados são retornados nessa matriz. 
+> [in] Um ponteiro para uma matriz de blocos de ocupado/livre. A matriz é alocada em um tamanho de  *celta*  . Os blocos de livre/ocupado solicitados são retornados nessa matriz. 
     
 _pcfetch_
   
-> bota O número de blocos de disponibilidade realmente retornados no *pblk* . 
+> [out] O número de blocos de ocupado/livre retornados na  *pblk*  . 
     
 ## <a name="return-values"></a>Valores de retorno
 

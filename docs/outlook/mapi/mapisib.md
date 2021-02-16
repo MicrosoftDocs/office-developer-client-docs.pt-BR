@@ -21,7 +21,7 @@ ms.locfileid: "33418705"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura é usada com [IMAPISync:: SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
+Essa estrutura é usada com [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
 ```cpp
 typedef struct _MAPISIB
@@ -47,24 +47,24 @@ HANDLE          *phSyncDoneEvent;
 ||||
 |:-----|:-----|:-----|
 |SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envie a mensagem para o servidor (não está em uso no momento).  <br/> |
-|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Push as alterações de hierarquia para o servidor.  <br/> |
-|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Extrair alterações de hierarquia do servidor.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Alterações de mensagens por push no servidor.  <br/> |
-|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |As alterações de mensagem de recebimento do servidor.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |A sincronização foi iniciada pelo usuário e deve ser uma prioridade mais alta.  <br/> |
-|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Só deve sincronizar cabeçalhos e não corpos completos.  <br/> |
+|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Push hierarchy changes to the server.  <br/> |
+|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Pull hierarchy changes from server.  <br/> |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Enviar alterações de mensagem por push para o servidor.  <br/> |
+|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Pull message changes from server.  <br/> |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |A sincronização foi iniciada pelo usuário e deve ter uma prioridade mais alta.  <br/> |
+|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Deve sincronizar apenas os headers e não corpos completos.  <br/> |
    
  **psesSync**
   
-> NO Um ponteiro para a sessão MAPI.
+> [IN] Um ponteiro para a sessão MAPI.
     
- **punkCallBack**
+ **callBack**
   
-> NO Um ponteiro para a interface na qual fornecer progresso. Ele pode ser usado para consultar a interface para [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md).
+> [IN] Um ponteiro para a interface na qual fornecer o progresso. Ele pode ser usado para consultar a interface de [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
     
  **\*phSyncDoneEvent**
   
-> BOTA O evento que ocorrerá quando o thread que acabou de ser criado estiver concluído. O ponteiro deve ser válido, pois conterá o evento.
+> [OUT] O evento que ocorrerá quando o thread que acabou de ser criado for concluído. O ponteiro deve ser válido porque conterá o evento.
     
 ## <a name="see-also"></a>Confira também
 

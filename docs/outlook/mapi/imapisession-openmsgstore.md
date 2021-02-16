@@ -23,7 +23,7 @@ ms.locfileid: "33418019"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre um repositório de mensagens e retorna um ponteiro [IMsgStore](imsgstoreimapiprop.md) para obter mais acesso. 
+Abre um repositório de mensagens e retorna um ponteiro [IMsgStore](imsgstoreimapiprop.md) para mais acesso. 
   
 ```cpp
 HRESULT OpenMsgStore(
@@ -40,55 +40,55 @@ HRESULT OpenMsgStore(
 
 _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo endereço comum e outros vídeos relacionados.
+> [in] Um alça para a janela pai da caixa de diálogo de endereço comum e outras exibições relacionadas.
     
 _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
 _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do repositório de mensagens a ser aberto. O parâmetro _lpEntryID_ não deve ser nulo. 
+> [in] Um ponteiro para o identificador de entrada do armazenamento de mensagens a ser aberto. O  _parâmetro lpEntryID_ não deve ser NULL. 
     
 _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o repositório de mensagens. Passar NULL faz com que o parâmetro _lppMDB_ retorne um ponteiro para a interface padrão de um repositório de mensagens (**IMsgStore**).
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar o armazenamento de mensagens. Passar NULL faz com  _que o parâmetro lppMDB_ retorne um ponteiro para a interface padrão para um repositório de mensagens (**IMsgStore**).
     
 _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto é aberto. Os seguintes sinalizadores podem ser usados:
+> [in] Uma máscara de bits de sinalizadores que controla como o objeto é aberto. Os sinalizadores a seguir podem ser usados:
     
-  - MAPI_BEST_ACCESS: solicita que o repositório de mensagens seja aberto com as permissões de rede máximas permitidas para o usuário e as permissões máximas do aplicativo cliente. Por exemplo, se o cliente tiver permissão de leitura/gravação, o repositório de mensagens deverá ser aberto com permissão de leitura/gravação; Se o cliente tiver permissão somente leitura, o repositório de mensagens deverá ser aberto com permissão somente leitura. 
+  - MAPI_BEST_ACCESS: solicita que o armazenamento de mensagens seja aberto com as permissões máximas de rede permitidas para o usuário e o máximo de permissões de aplicativo cliente. Por exemplo, se o cliente tiver permissão de leitura/gravação, o armazenamento de mensagens deverá ser aberto com permissão de leitura/gravação; se o cliente tiver permissão somente leitura, o armazenamento de mensagens deverá ser aberto com permissão somente leitura. 
       
-  - MAPI_DEFERRED_ERRORS: permite que o **OpenMsgStore** seja retornado com êxito, possivelmente antes que o repositório de mensagens esteja totalmente disponível para o cliente de chamada. Se o repositório de mensagens não estiver disponível, fazer uma chamada de objeto subsequente poderá gerar um erro. 
+  - MAPI_DEFERRED_ERRORS: permite que **OpenMsgStore** retorne com êxito, possivelmente antes do repositório de mensagens estar totalmente disponível para o cliente de chamada. Se o armazenamento de mensagens não estiver disponível, fazer uma chamada de objeto subsequente poderá criar um erro. 
       
-  - MDB\_NO_DIALOG: impede a exibição de caixas de diálogo de logon. Se esse sinalizador estiver definido, e **OpenMsgStore** tiver informações de configuração insuficientes para abrir o repositório de mensagens sem a ajuda do usuário, ele retornará MAPI_E_LOGON_FAILED. Se esse sinalizador não for definido, o provedor do repositório de mensagens poderá solicitar que o usuário corrija um nome ou senha ou execute outras ações necessárias para estabelecer uma conexão com o repositório de mensagens. 
+  - MDB \_ NO_DIALOG: impede a exibição de caixas de diálogo de logon. Se esse sinalizador estiver definido e **OpenMsgStore** tiver informações de configuração insuficientes para abrir o repositório de mensagens sem a ajuda do usuário, ele retornará MAPI_E_LOGON_FAILED. Se esse sinalizador não estiver definido, o provedor do armazenamento de mensagens poderá solicitar que o usuário corrija um nome ou senha ou execute outras ações necessárias para estabelecer uma conexão com o armazenamento de mensagens. 
       
-  - MDB\_NO_MAIL: o repositório de mensagens não deve ser usado para enviar ou receber emails. Quando esse sinalizador é definido, o MAPI não notifica o spooler MAPI que este repositório de mensagens está sendo aberto.
+  - MDB \_ NO_MAIL: o armazenamento de mensagens não deve ser usado para envio ou recebimento de emails. Quando esse sinalizador é definido, o MAPI não notifica o spooler MAPI de que esse armazenamento de mensagens está sendo aberto.
       
-  - MDB\_online: no modo cache do Exchange, um cliente ou provedor de serviços pode chamar esse método com MDB_ONLINE para substituir a conexão ao repositório de mensagens local e abrir o repositório no servidor remoto. Não é possível abrir um repositório do Exchange no modo de cache e no modo não armazenado em cache ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
+  - MDB ONLINE: No Modo Cache do Exchange, um cliente ou provedor de serviços pode chamar esse método com o MDB_ONLINE para substituir a conexão com o armazenamento de mensagens local e abrir o armazenamento no servidor \_ remoto. Não é possível abrir um armazenamento do Exchange no modo em cache e no modo não armazenado em cache ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
       
-  - MDB_TEMPORARY: instrui o MAPI de que o repositório de mensagens não é permanente e não deve ser adicionado à tabela do repositório de mensagens. Esse sinalizador é usado para fazer logon no repositório de mensagens para que as informações possam ser recuperadas programaticamente da seção perfil. 
+  - MDB_TEMPORARY: instrui o MAPI de que o armazenamento de mensagens não é permanente e não deve ser adicionado à tabela do armazenamento de mensagens. Esse sinalizador é usado para fazer logoff no armazenamento de mensagens para que as informações possam ser recuperadas programaticamente na seção de perfil. 
       
-  - MDB_WRITE: solicita permissão de leitura/gravação para o repositório de mensagens.
+  - MDB_WRITE: solicita permissão de leitura/gravação para o armazenamento de mensagens.
     
 _lppMDB_
   
-> bota Ponteiro para um ponteiro do repositório de mensagens.
+> [out] Ponteiro para um ponteiro do armazenamento de mensagens.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O repositório de mensagens foi aberto com êxito.
+> O armazenamento de mensagens foi aberto com êxito.
     
 MAPI_E_NO_ACCESS 
   
-> Foi feita uma tentativa de acessar um repositório de mensagens para o qual o usuário tem permissões insuficientes.
+> Foi feita uma tentativa de acessar um armazenamento de mensagens para o qual o usuário tem permissões insuficientes.
     
 MAPI_E_NOT_FOUND 
   
-> O repositório de mensagens indicado pelo _lpEntryID_ não existe. 
+> O armazenamento de mensagens indicado  _por lpEntryID_ não existe. 
     
 MAPI_E_UNKNOWN_CPID 
   
@@ -100,23 +100,23 @@ MAPI_E_UNKNOWN_LCID
     
 MAPI_W_ERRORS_RETURNED 
   
-> A chamada teve êxito, mas o provedor do repositório de mensagens tem informações de erro disponíveis. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para obter as informações de erro do provedor, chame o método [IMAPISession:: GetLastError](imapisession-getlasterror.md) . Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas o provedor do armazenamento de mensagens tem informações de erro disponíveis. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para obter as informações de erro do provedor, chame o [método IMAPISession::GetLastError.](imapisession-getlasterror.md) Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: OpenMsgStore** abre um repositório de mensagens específico. 
+O **método IMAPISession::OpenMsgStore** abre um repositório de mensagens específico. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-O nível de permissão padrão para repositórios de mensagens é somente leitura. Se você definir o sinalizador MDB_WRITE, ainda poderá não receber permissão de leitura/gravação. O nível final de acesso que o MAPI atribui ao repositório de mensagens depende do seu nível de permissão, do próprio repositório de mensagens e do provedor de armazenamento de mensagens. 
+O nível de permissão padrão para armazenamentos de mensagens é somente leitura. Se você definir o MDB_WRITE de leitura, talvez você ainda não tenha permissão de leitura/gravação. O nível final de acesso que o MAPI atribui ao armazenamento de mensagens depende do nível de permissão, do próprio armazenamento de mensagens e do provedor do armazenamento de mensagens. 
   
 Se você chamar **OpenMsgStore** para abrir um repositório de mensagens com permissão somente leitura, ocorrerá o seguinte: 
   
-- A propriedade **PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) da loja não terá seus bits de\_armazenamento MODIFY_OK e\_Store CREATE_OK definidos. 
+- A propriedade **PR \_ STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do repositório não terá seus bits STORE \_ MODIFY_OK e STORE CREATE_OK \_ definidos. 
     
-- As chamadas para abrir uma das mensagens ou pastas do repositório de mensagens usando o [IMAPISession:: OpenEntry](imapisession-openentry.md) com o sinalizador de MAPI_MODIFY falharão. 
+- As chamadas para abrir uma das mensagens ou pastas do armazenamento de mensagens usando [IMAPISession::OpenEntry](imapisession-openentry.md) com o sinalizador MAPI_MODIFY definido falharão. 
     
-- Chamadas para abrir uma das propriedades das mensagens ou pastas do repositório de mensagens usando [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) com o sinalizador MAPI_MODIFY falharão. 
+- As chamadas para abrir uma das propriedades das mensagens ou pastas do armazenamento de mensagens usando [IMAPIProp::OpenProperty](imapiprop-openproperty.md) com o sinalizador MAPI_MODIFY falharão. 
     
 - As chamadas para qualquer um dos seguintes métodos falharão: 
     
@@ -134,7 +134,7 @@ Se você chamar **OpenMsgStore** para abrir um repositório de mensagens com per
     
   - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
   
-- As chamadas para os seguintes métodos falharão se o destino da mensagem copiada for somente leitura, se o destino for o mesmo que o repositório de mensagens de origem ou se for outro repositório somente leitura.
+- As chamadas para os métodos a seguir falharão se o destino da mensagem copiada for somente leitura, se o destino for o mesmo que o armazenamento de mensagens de origem ou se for outro armazenamento somente leitura.
     
   - [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
     
@@ -148,7 +148,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions. cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI usa o método **IMAPISession:: OpenMsgStore** para abrir um repositório de mensagens.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI usa o **método IMAPISession::OpenMsgStore** para abrir um repositório de mensagens.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

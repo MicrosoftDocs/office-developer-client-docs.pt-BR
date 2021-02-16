@@ -1,5 +1,5 @@
 ---
-title: Estado ocioso
+title: Estado Ocioso
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419475"
 ---
-# <a name="idle-state"></a>Estado ocioso
+# <a name="idle-state"></a>Estado Ocioso
 
   
   
@@ -26,16 +26,16 @@ ms.locfileid: "33419475"
 |||
 |:-----|:-----|
 |Identificador de Estado:  <br/> |**LR_SYNC_IDLE** <br/> |
-|Estrutura de dados relacionada:  <br/> | *None*  <br/> |
-|A partir deste Estado:  <br/> | *Não se aplica*  <br/> |
-|Para este Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Estrutura de dados relacionada:  <br/> | *Nenhum*  <br/> |
+|Desse estado:  <br/> | *Não aplicável*  <br/> |
+|Para esse estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
+> A máquina de estado de replicação é uma máquina de estado determinística. Um cliente que sai de um estado para outro eventualmente deve retornar ao primeiro do último. 
   
 ## <a name="description"></a>Descrição
 
-Nada acontece nesse estado. Um repositório local está nesse estado antes que A replicação seja iniciada e após a conclusão da replicação.
+Nada acontece nesse estado. Um armazenamento local está nesse estado antes do início da replicação e após a conclusão da replicação.
   
 ## <a name="see-also"></a>Confira também
 

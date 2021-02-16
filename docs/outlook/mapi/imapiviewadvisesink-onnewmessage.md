@@ -25,7 +25,7 @@ ms.locfileid: "33419601"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulários de que uma mensagem nova ou existente foi carregada em um formulário.
+Notifica o visualizador de formulário de que uma mensagem nova ou existente foi carregada em um formulário.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIViewAdviseSink:: OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) . 
+Objetos de formulário chamam o método **IMAPIViewAdviseSink::OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load.](ipersistmessage-load.md) 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Libere o ponteiro ativo para o objeto Form porque ele não aponta mais para a mensagem que seu visualizador estava exibindo anteriormente. 
+Libere seu ponteiro ativo para o objeto de formulário porque ele não aponta mais para a mensagem que seu visualizador estava visualizando anteriormente. 
   
-Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [Enviando e recebendo notificações de formulário.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>Confira também
 

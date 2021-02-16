@@ -39,33 +39,33 @@ HRESULT SetLimits(
 
  _lpulMin_
   
-> no Um ponteiro para uma variável que contém o limite inferior dos itens na operação.
+> [in] Um ponteiro para uma variável que contém o limite inferior de itens na operação.
     
  _lpulMax_
   
-> no Um ponteiro para uma variável que contém o limite superior de itens na operação.
+> [in] Um ponteiro para uma variável que contém o limite superior de itens na operação.
     
  _lpulFlags_
   
-> no Uma bitmask de sinalizadores que controla o nível de operação no qual as informações de progresso são calculadas. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla o nível de operação no qual as informações de progresso são calculadas. O sinalizador a seguir pode ser definido:
     
 MAPI_TOP_LEVEL 
   
-> Usa os valores dos parâmetros _ulCount_ e _UlTotal_ do método [método imapiprogress::P rogress](imapiprogress-progress.md) , que indicam o item processado atualmente e o total de itens, respectivamente, para incrementar o progresso na operação. Quando esse sinalizador é definido, os valores dos limites global inferior e superior precisam ser definidos. 
+> Usa os valores nos parâmetros _ulCount_ e _ulTotal_ do método [IMAPIProgress::P ess,](imapiprogress-progress.md) que indicam o item processado no momento e o total de itens, respectivamente, para incrementar o progresso da operação. Quando esse sinalizador é definido, os valores dos limites superiores e inferiores globais devem ser definidos. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de serviços chamam o método **método imapiprogress::** setlimits para definir ou limpar o sinalizador MAPI_TOP_LEVEL e para definir os valores mínimos e globais locais e máximos. O valor da configuração do sinalizador afeta se o objeto Progress entende os valores mínimo e máximo para serem local ou global. Quando o sinalizador MAPI_TOP_LEVEL é definido, esses valores são considerados globais e são usados para calcular o progresso de toda a operação. Os objetos Progress inicializam o valor mínimo global como 1 e o valor global máximo como 1000. 
+Os provedores de serviços chamam o método **IMAPIProgress::SetLimits** para definir ou limpar o sinalizador MAPI_TOP_LEVEL e definir valores mínimo e máximo locais e globais. O valor da configuração do sinalizador afeta se o objeto de progresso entende os valores mínimo e máximo para serem locais ou globais. Quando o MAPI_TOP_LEVEL sinalizador é definido, esses valores são considerados globais e usados para calcular o progresso de toda a operação. Os objetos de progresso inicializam o valor mínimo global como 1 e o valor máximo global como 1000. 
   
-Quando MAPI_TOP_LEVEL não estiver definido, os valores mínimo e máximo serão considerados locais e os provedores os usarão internamente para exibir o progresso dos subobjetos de nível inferior. Os objetos Progress salvam os valores mínimo e máximo locais apenas para que eles possam ser retornados aos provedores quando os métodos [método imapiprogress:: GetMin](imapiprogress-getmin.md) e [método imapiprogress:: GetMax](imapiprogress-getmax.md) são chamados. 
+Quando MAPI_TOP_LEVEL não está definido, os valores mínimo e máximo são considerados locais, e os provedores os usam internamente para exibir o progresso de subobjetos de nível inferior. Os objetos de progresso salvam os valores mínimo e máximo local apenas para que possam ser retornados aos provedores quando os métodos [IMAPIProgress::GetMin](imapiprogress-getmin.md) e [IMAPIProgress::GetMax](imapiprogress-getmax.md) são chamados. 
   
-Para obter mais informações sobre como implementar **** setlimits e os outros métodos do [método imapiprogress](imapiprogressiunknown.md) , consulte [implementando um indicador de progresso](implementing-a-progress-indicator.md).
+Para obter mais informações sobre como implementar **SetLimits** e outros [métodos IMAPIProgress,](imapiprogressiunknown.md) consulte [Implementando um indicador de progresso.](implementing-a-progress-indicator.md)
   
 Para saber mais sobre como e quando fazer chamadas para um objeto de progresso, confira o tópico [Exibir um indicador de progresso](how-to-display-a-progress-indicator.md).
   
@@ -75,7 +75,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress:: setLimits  <br/> |MFCMAPI usa o método **método imapiprogress::** setlimits para definir os limites máximo e mínimo e os sinalizadores para o objeto Progress.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::SetLimits  <br/> |MFCMAPI usa o método **IMAPIProgress::SetLimits** para definir os limites máximo e mínimo e sinalizadores para o objeto de progresso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

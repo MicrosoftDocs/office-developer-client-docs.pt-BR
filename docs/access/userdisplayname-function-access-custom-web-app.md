@@ -1,5 +1,5 @@
 ---
-title: Função userDisplayname (aplicativo Web personalizado do Access)
+title: Função UserDisplayName (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421575"
 ---
-# <a name="userdisplayname-function-access-custom-web-app"></a>Função userDisplayname (aplicativo Web personalizado do Access)
+# <a name="userdisplayname-function-access-custom-web-app"></a>Função UserDisplayName (aplicativo Web personalizado do Access)
 
 Retorna o nome de exibição do usuário atual.
   
@@ -23,10 +23,10 @@ Retorna o nome de exibição do usuário atual.
   
 ## <a name="syntax"></a>Sintaxe
 
- **** UserDisplayName () 
+ **UserDisplayName** () 
   
 ## <a name="remarks"></a>Comentários
 
-A **** função UserDisplayName está disponível somente em macros da interface do usuário (UI). 
+A **função UserDisplayName** só está disponível em macros de interface do usuário .. 
   
 

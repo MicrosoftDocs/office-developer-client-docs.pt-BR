@@ -1,5 +1,5 @@
 ---
-title: Ação de macro DeleteRecord (aplicativo Web personalizado do Access)
+title: Ação De excluir MacroRegistar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420987"
 ---
-# <a name="deleterecord-macro-action-access-custom-web-app"></a>Ação de macro DeleteRecord (aplicativo Web personalizado do Access)
+# <a name="deleterecord-macro-action-access-custom-web-app"></a>Ação Excluir MacroRegistar (aplicativo Web personalizado do Access)
 
 > [!IMPORTANT]
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
@@ -22,6 +22,6 @@ Você pode usar a ação **ExcluirRegistro** para excluir um registro.
   
 ## <a name="setting"></a>Setting
 
-A ação **DeleteRecord** não contém argumentos quando usados em uma macro de interface do usuário (UI). 
+A **ação ExcluirRegiscord** não contém argumentos quando usada em uma macro de interface do usuário. 
   
 

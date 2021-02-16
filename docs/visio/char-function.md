@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251406
 localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
-description: Retorna o caractere ANSI para um número.
+description: Retorna o caractere ANSI de um número.
 ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33418187"
 ---
 # <a name="char-function"></a>Função CHAR
 
-Retorna o caractere ANSI para um número.
+Retorna o caractere ANSI de um número.
   
 ## <a name="syntax"></a>Sintaxe
 
-CARACTERE (* * *número* * *) 
+CHAR(** *number* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,11 +32,11 @@ CARACTERE (* * *número* * *)
    
 ## <a name="remarks"></a>Comentários
 
-A cadeia de caracteres resultante é um caractere. O parâmetro _Number_ deve ser um inteiro entre 1 e 255 (inclusive) ou a função retorna um erro. 
+A cadeia de caracteres resultante é um caractere. O  _parâmetro_ number deve ser um número inteiro entre 1 e 255 (inclusive) ou a função retornará um erro. 
   
 ## <a name="example"></a>Exemplo
 
-CARACTERE (9) 
+CHAR(9) 
   
 Retornará o caractere de tabulação. 
   

@@ -18,7 +18,7 @@ ms.locfileid: "33418488"
 ---
 # <a name="txtpiny-cell-text-transform-section"></a>Célula TxtPinY (Seção Text Transform)
 
-Determina a coordenada *y* do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
+Determina a coordenada  *y*  do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
   
 = Altura \* 0,5
   

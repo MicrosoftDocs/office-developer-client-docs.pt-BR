@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251463
 localization_priority: Normal
 ms.assetid: b945b7c2-153f-2fc3-b768-1e975254ddf5
-description: Retorna o menor número de uma lista. O menor significa mais próximo do infinito negativo.
+description: Retorna o menor número de uma lista. Menor significa o infinito negativo mais próximo.
 ms.openlocfilehash: 7c9eb1a8d4ce30e7ab9253c2864ecd38474e8ff6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33420833"
 ---
 # <a name="min-function"></a>Função MIN
 
-Retorna o menor número de uma lista. O menor significa mais próximo do infinito negativo.
+Retorna o menor número de uma lista. Menor significa o infinito negativo mais próximo.
   
 ## <a name="syntax"></a>Sintaxe
 
-mín (* * *número1* * *, * * *núm2* * *,..., * * *numbern* * *) 
+MIN(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _número1_ <br/> |Obrigatório  <br/> |**Vai** <br/> |O primeiro número na lista.  <br/> |
-| _número2_ <br/> |Opcional  <br/> |**Vai** <br/> | O segundo número na lista.  <br/> |
-| _numerada_ <br/> |Opcional  <br/> |**Vai** <br/> |O enésimo número na lista.  <br/> |
+| _número1_ <br/> |Obrigatório  <br/> |**Varia** <br/> |O primeiro número na lista.  <br/> |
+| _número2_ <br/> |Opcional  <br/> |**Varia** <br/> | O segundo número na lista.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Varia** <br/> |O enésimo número na lista.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419923"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra um coletor de aviso para receber notificações por meio de MAPI.
+Registra um evento de aviso para receber notificações por meio de MAPI.
   
 ```cpp
 HRESULT Subscribe(
@@ -41,63 +41,63 @@ ULONG FAR * lpulConnection
 
  _lpKey_
   
-> no Um ponteiro para uma chave de notificação que representa o objeto de origem de aviso. O parâmetro _lpKey_ não pode ser nulo. 
+> [in] Um ponteiro para uma chave de notificação que representa o objeto de origem de aviso. O  _parâmetro lpKey_ não pode ser NULL. 
     
  _ulEventMask_
   
-> no Uma máscara de valores que indica os tipos de eventos de notificação nos quais o chamador está interessado e deve ser incluído no registro. Os seguintes valores são válidos:
+> [in] Uma máscara de valores que indicam os tipos de eventos de notificação nos quais o chamador está interessado e devem ser incluídos no registro. Os seguintes valores são válidos:
     
  _fnevCriticalError_
   
-> Registra para notificações sobre erros graves, como memória insuficiente.
+> Registra notificações sobre erros graves, como memória insuficiente.
     
  _fnevExtended_
   
-> Registra para notificações sobre eventos específicos para o catálogo de endereços ou o provedor de armazenamento de mensagens específico.
+> Registra notificações sobre eventos específicos para o determinado address book ou provedor de armazenamento de mensagens.
     
  _fnevNewMail_
   
-> Registra as notificações sobre a chegada de novas mensagens. 
+> Registra notificações sobre a chegada de novas mensagens. 
     
  _fnevObjectCreated_
   
-> Registra as notificações sobre a criação de um novo objeto.
+> Registra notificações sobre a criação de um novo objeto.
     
  _fnevObjectCopied_
   
-> Registra para notificações sobre um objeto que está sendo copiado.
+> Registra notificações sobre um objeto sendo copiado.
     
  _fnevObjectDeleted_
   
-> Registra as notificações sobre um objeto que está sendo excluído.
+> Registra notificações sobre um objeto que está sendo excluído.
     
  _fnevObjectModified_
   
-> Registra para notificações sobre um objeto que está sendo modificado.
+> Registra notificações sobre um objeto que está sendo modificado.
     
  _fnevObjectMoved_
   
-> Registra as notificações sobre um objeto que está sendo movido.
+> Registra notificações sobre um objeto que está sendo movido.
     
  _fnevSearchComplete_
   
-> Registra as notificações sobre a conclusão de uma operação de pesquisa.
+> Registra notificações sobre a conclusão de uma operação de pesquisa.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como a notificação ocorre. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla como a notificação ocorre. O sinalizador a seguir pode ser definido:
     
 NOTIFY_SYNC 
   
-> Quando o chamador chama o método [IMAPISupport:: Notify](imapisupport-notify.md) para gerar notificações para este coletor de aviso, **Notify** deve fazer todas as chamadas necessárias para avisar os coletores antes de retornar. Se esse sinalizador não for definido, a notificação será assíncrona e os retornos de chamada serão enfileirados para os processos que foram inscritos e iniciados quando esses processos ganharem controle da CPU. 
+> Quando o chamador chama o método [IMAPISupport::Notify](imapisupport-notify.md) para gerar notificações para esse pia de **aviso,** notificar deve fazer todas as chamadas necessárias para avisar os sinks antes de retornar. Se esse sinalizador não estiver definido, a notificação será assíncrona e os retornos de chamada serão ensuados para os processos que assinaram e iniciaram quando esses processos ganharem o controle da CPU. 
     
  _lpAdviseSink_
   
-> no Um ponteiro para um objeto de coletor de aviso. 
+> [in] Um ponteiro para um objeto de evento de aconselhá-lo. 
     
  _lpulConnection_
   
-> bota Um ponteiro para um número de conexão diferente de zero que representa o registro.
+> [out] Um ponteiro para um número de conexão que não seja zero que representa o registro.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -107,15 +107,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: Subscribe** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços chamam a **assinatura** de um dos seus métodos de **aviso** para permitir que o MAPI gerencie as notificações. 
+O **método IMAPISupport::Subscribe** é implementado para todos os objetos de suporte do provedor de serviços. Os provedores de serviços **chamam Subscribe** de um dos métodos **Advise** para permitir que o MAPI gerencie as notificações. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para usar os métodos de suporte MAPI para notificação, crie uma chave para a fonte de aviso o objeto sobre quais notificações devem ser geradas. O valor da chave deve ser exclusivo e ser facilmente regenerado a cada vez que o objeto é alterado. 
+Para usar os métodos de suporte MAPI para notificação, crie uma chave para a fonte de avisos sobre o objeto sobre o qual as notificações devem ser geradas. O valor da chave deve ser exclusivo e ser facilmente regenerado sempre que o objeto mudar. 
   
-MAPI usa a chave de notificação para procurar qualquer função de retorno de chamada registrada por meio da função [HrAllocAdviseSink](hrallocadvisesink.md) para a fonte de aviso correspondente. Passe essa chave para **IMAPISupport:: Notify** sempre que precisar gerar uma notificação para a fonte de aviso correspondente. 
+MAPI uses the notification key to search for any callback functions registered through the [HrAllocAdviseSink](hrallocadvisesink.md) function for the corresponding advise source. Passe essa chave para **IMAPISupport::Notify** sempre que precisar gerar uma notificação para a fonte de aviso correspondente. 
   
-O sinalizador NOTIFY_SYNC afeta a operação de chamadas subsequentes **** para notificar. Quando você define NOTIFY_SYNC, **Notify** não retorna até que o envio de todas as notificações necessárias seja concluído. Quando você não definir o NOTIFY_SYNC, **notificar** funciona de forma assíncrona, possivelmente retornando antes que todas as notificações tenham sido enviadas. 
+O NOTIFY_SYNC sinalizador afeta a operação de chamadas subsequentes para **Notificar.** Quando você definir NOTIFY_SYNC, o **notify** não retornará até que ele termine de enviar todas as notificações necessárias. Quando você não definir o NOTIFY_SYNC, o **notify** opera de forma assíncrona, possivelmente retornando antes que todas as notificações tenham sido enviadas. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -127,7 +127,7 @@ O sinalizador NOTIFY_SYNC afeta a operação de chamadas subsequentes **** para 
   
 [IMAPISupport::Notify](imapisupport-notify.md)
   
-[Notifica](notification.md)
+[NOTIFICAÇÃO](notification.md)
   
 [NOTIFKEY](notifkey.md)
   

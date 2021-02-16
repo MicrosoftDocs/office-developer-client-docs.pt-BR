@@ -17,22 +17,22 @@ ms.locfileid: "33422177"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção fornece um guia para compreender e programar o MAPI.
+Esta seção fornece um guia para entender e programar com MAPI.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Recursos e arquitetura MAPI](mapi-features-and-architecture.md): contém informações sobre o design e conceitos MAPI gerais.
+- [Recursos e arquitetura MAPI:](mapi-features-and-architecture.md)contém informações sobre design e conceitos gerais de MAPI.
     
-- [Desenvolvimento de aplicativos MAPI](mapi-application-development.md): fornece informações sobre o desenvolvimento de aplicativos cliente e provedores de serviço usando MAPI.
+- [Desenvolvimento de aplicativos MAPI:](mapi-application-development.md)fornece informações sobre o desenvolvimento de aplicativos cliente e provedores de serviços usando MAPI.
     
-- [Elementos de programação MAPI](mapi-programming-elements.md): contém visões gerais conceituais dos elementos de programação na [referência MAPI](mapi-reference.md).
+- [Elementos de programação MAPI:](mapi-programming-elements.md)contém visão geral conceitual dos elementos de programação na [referência de MAPI](mapi-reference.md).
     
-- [Provedores de serviços MAPI](mapi-service-providers.md): fornece informações básicas sobre provedores de serviço MAPI.
+- [Provedores de Serviços MAPI:](mapi-service-providers.md)fornece informações básicas sobre provedores de serviços MAPI.
     
 ## <a name="related-sections"></a>Seções relacionadas
 
-- [Introdução à referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
-- [Amostras de MAPI](mapi-samples.md)
+- [Getting started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
+- [Exemplos de MAPI](mapi-samples.md)
 - [Referência de MAPI](mapi-reference.md)
   
 

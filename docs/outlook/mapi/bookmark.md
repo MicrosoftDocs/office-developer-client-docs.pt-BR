@@ -25,12 +25,12 @@ ms.locfileid: "33418131"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define dados de indicadores para memorizar uma posição em uma tabela. 
+Define dados de indicadores para lembrar uma posição em uma tabela. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Métodos relacionados:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md) [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Métodos relacionados:  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,21 +38,21 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>Comentários
 
-MAPI define três indicadores, listados da seguinte maneira:
+O MAPI define três indicadores, listados da seguinte forma:
   
 BOOKMARK_BEGINNING 
   
-> Memoriza a posição inicial da tabela. 
+> Lembra a posição inicial da tabela. 
     
 BOOKMARK_CURRENT 
   
-> Memoriza a posição atual da tabela.
+> Lembra a posição atual da tabela.
     
 BOOKMARK_END 
   
-> Memoriza a posição final da tabela.
+> Lembra a posição final da tabela.
     
-Os clientes podem criar outros indicadores para lembrar outras posições da tabela. Os indicadores são válidos somente quando a tabela está aberta. Os clientes devem liberar todos os indicadores criados antes de fechar a tabela associada. 
+Os clientes podem criar outros indicadores para lembrar de outras posições de tabela. Os indicadores são válidos somente quando a tabela está aberta. Os clientes devem liberar todos os indicadores criados antes de fechar a tabela associada. 
   
 ## <a name="see-also"></a>Confira também
 
