@@ -16,29 +16,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407834"
 ---
-# <a name="begingroup-cell-actions-section"></a><span data-ttu-id="1e028-103">Célula BeginGroup (Seção Ações)</span><span class="sxs-lookup"><span data-stu-id="1e028-103">BeginGroup Cell (Actions Section)</span></span>
+# <a name="begingroup-cell-actions-section"></a><span data-ttu-id="c4134-103">Célula BeginGroup (Seção Ações)</span><span class="sxs-lookup"><span data-stu-id="c4134-103">BeginGroup Cell (Actions Section)</span></span>
 
-<span data-ttu-id="1e028-104">Indica se um separador deve ser inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="1e028-104">Indicates whether a separator is inserted into the menu above this action.</span></span> 
+<span data-ttu-id="c4134-104">Indica se um separador deve ser inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="c4134-104">Indicates whether a separator is inserted into the menu above this action.</span></span> 
   
-|<span data-ttu-id="1e028-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="1e028-105">**Value**</span></span>|<span data-ttu-id="1e028-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="1e028-106">**Description**</span></span>|
+|<span data-ttu-id="c4134-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="c4134-105">**Value**</span></span>|<span data-ttu-id="c4134-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c4134-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="1e028-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="1e028-107">TRUE</span></span>  <br/> |<span data-ttu-id="1e028-108">Um separador deve ser inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="1e028-108">A separator is inserted into the menu above this action.</span></span>  <br/> |
-|<span data-ttu-id="1e028-109">FALSO</span><span class="sxs-lookup"><span data-stu-id="1e028-109">FALSE</span></span>  <br/> |<span data-ttu-id="1e028-110">Um separador não está inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="1e028-110">A separator is not inserted into the menu above this action (the default).</span></span>  <br/> |
+|<span data-ttu-id="c4134-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="c4134-107">TRUE</span></span>  <br/> |<span data-ttu-id="c4134-108">Um separador deve ser inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="c4134-108">A separator is inserted into the menu above this action.</span></span>  <br/> |
+|<span data-ttu-id="c4134-109">FALSO</span><span class="sxs-lookup"><span data-stu-id="c4134-109">FALSE</span></span>  <br/> |<span data-ttu-id="c4134-110">Um separador não está inserido no menu acima desta ação.</span><span class="sxs-lookup"><span data-stu-id="c4134-110">A separator is not inserted into the menu above this action (the default).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="1e028-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="1e028-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c4134-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="c4134-111">Remarks</span></span>
 
-<span data-ttu-id="1e028-112">Para obter uma referência à célula BeginGroup por nome de outra fórmula ou de um programa que utiliza a propriedade **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="1e028-112">To get a reference to the BeginGroup cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="c4134-112">Para obter uma referência à célula BeginGroup por nome de outra fórmula ou de um programa que utiliza a propriedade **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="c4134-112">To get a reference to the BeginGroup cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1e028-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="1e028-113">Cell name:</span></span>  <br/> |<span data-ttu-id="1e028-114">Ações.</span><span class="sxs-lookup"><span data-stu-id="1e028-114">Actions.</span></span> <span data-ttu-id="1e028-115">*nome*.BeginGroup onde Ações.</span><span class="sxs-lookup"><span data-stu-id="1e028-115">*name*.BeginGroup where Actions.</span></span> <span data-ttu-id="1e028-116">*nome* é o nome da linha Ações</span><span class="sxs-lookup"><span data-stu-id="1e028-116">*name* is the name of the Actions row</span></span>  <br/> |
+|<span data-ttu-id="c4134-113">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="c4134-113">Cell name:</span></span>  <br/> |<span data-ttu-id="c4134-114">Ações.</span><span class="sxs-lookup"><span data-stu-id="c4134-114">Actions.</span></span> <span data-ttu-id="c4134-115">*nome*.BeginGroup onde Ações.</span><span class="sxs-lookup"><span data-stu-id="c4134-115">*name*.BeginGroup where Actions.</span></span> <span data-ttu-id="c4134-116">*nome* é o nome da linha Ações</span><span class="sxs-lookup"><span data-stu-id="c4134-116">*name* is the name of the Actions row</span></span>  <br/> |
    
-<span data-ttu-id="1e028-117">Para obter uma referência à célula BeginGroup por índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="1e028-117">To get a reference to the BeginGroup cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="c4134-117">Para obter uma referência à célula BeginGroup por índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="c4134-117">To get a reference to the BeginGroup cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1e028-118">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="1e028-118">Section index:</span></span>  <br/> |<span data-ttu-id="1e028-119">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="1e028-119">**visSectionAction**</span></span> <br/> |
-|<span data-ttu-id="1e028-120">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="1e028-120">Row index:</span></span>  <br/> |<span data-ttu-id="1e028-121">**visRowAction** +  *i*           onde  *i*  = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="1e028-121">**visRowAction** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="1e028-122">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="1e028-122">Cell index:</span></span>  <br/> |<span data-ttu-id="1e028-123">**visActionBeginGroup**</span><span class="sxs-lookup"><span data-stu-id="1e028-123">**visActionBeginGroup**</span></span> <br/> |
+|<span data-ttu-id="c4134-118">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="c4134-118">Section index:</span></span>  <br/> |<span data-ttu-id="c4134-119">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="c4134-119">**visSectionAction**</span></span> <br/> |
+|<span data-ttu-id="c4134-120">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="c4134-120">Row index:</span></span>  <br/> |<span data-ttu-id="c4134-121">**visRowAction** +  *i*           onde  *i*  = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="c4134-121">**visRowAction** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="c4134-122">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="c4134-122">Cell index:</span></span>  <br/> |<span data-ttu-id="c4134-123">**visActionBeginGroup**</span><span class="sxs-lookup"><span data-stu-id="c4134-123">**visActionBeginGroup**</span></span> <br/> |
    
 

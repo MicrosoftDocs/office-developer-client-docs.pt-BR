@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407841"
 ---
-# <a name="sbinary"></a><span data-ttu-id="c1908-103">SBinary</span><span class="sxs-lookup"><span data-stu-id="c1908-103">SBinary</span></span>
+# <a name="sbinary"></a><span data-ttu-id="e3398-103">SBinary</span><span class="sxs-lookup"><span data-stu-id="e3398-103">SBinary</span></span>
 
   
   
-<span data-ttu-id="c1908-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1908-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e3398-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e3398-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c1908-105">Descreve uma propriedade do tipo PT_BINARY.</span><span class="sxs-lookup"><span data-stu-id="c1908-105">Describes a property of type PT_BINARY.</span></span>
+<span data-ttu-id="e3398-105">Descreve uma propriedade do tipo PT_BINARY.</span><span class="sxs-lookup"><span data-stu-id="e3398-105">Describes a property of type PT_BINARY.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c1908-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="c1908-106">Header file:</span></span>  <br/> |<span data-ttu-id="c1908-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="c1908-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="e3398-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="e3398-106">Header file:</span></span>  <br/> |<span data-ttu-id="e3398-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e3398-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -40,26 +40,26 @@ typedef struct _SBinary
 
 ```
 
-## <a name="members"></a><span data-ttu-id="c1908-108">Members</span><span class="sxs-lookup"><span data-stu-id="c1908-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="e3398-108">Members</span><span class="sxs-lookup"><span data-stu-id="e3398-108">Members</span></span>
 
- <span data-ttu-id="c1908-109">**cb**</span><span class="sxs-lookup"><span data-stu-id="c1908-109">**cb**</span></span>
+ <span data-ttu-id="e3398-109">**cb**</span><span class="sxs-lookup"><span data-stu-id="e3398-109">**cb**</span></span>
   
-> <span data-ttu-id="c1908-110">Contagem de bytes no membro **lpb** .</span><span class="sxs-lookup"><span data-stu-id="c1908-110">Count of bytes in the **lpb** member.</span></span> 
+> <span data-ttu-id="e3398-110">Contagem de bytes no **membro lpb.**</span><span class="sxs-lookup"><span data-stu-id="e3398-110">Count of bytes in the **lpb** member.</span></span> 
     
- <span data-ttu-id="c1908-111">**LPB**</span><span class="sxs-lookup"><span data-stu-id="c1908-111">**lpb**</span></span>
+ <span data-ttu-id="e3398-111">**lpb**</span><span class="sxs-lookup"><span data-stu-id="e3398-111">**lpb**</span></span>
   
-> <span data-ttu-id="c1908-112">Ponteiro para o valor da propriedade PT_BINARY.</span><span class="sxs-lookup"><span data-stu-id="c1908-112">Pointer to the PT_BINARY property value.</span></span>
+> <span data-ttu-id="e3398-112">Ponteiro para o valor PT_BINARY propriedade.</span><span class="sxs-lookup"><span data-stu-id="e3398-112">Pointer to the PT_BINARY property value.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c1908-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="c1908-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e3398-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="e3398-113">Remarks</span></span>
 
-<span data-ttu-id="c1908-114">Para obter informações sobre tipos de propriedade, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).</span><span class="sxs-lookup"><span data-stu-id="c1908-114">For information about property types, see [MAPI Property Type Overview](mapi-property-type-overview.md).</span></span>
+<span data-ttu-id="e3398-114">Para obter informações sobre tipos de propriedade, consulte [Visão geral do tipo de propriedade MAPI.](mapi-property-type-overview.md)</span><span class="sxs-lookup"><span data-stu-id="e3398-114">For information about property types, see [MAPI Property Type Overview](mapi-property-type-overview.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c1908-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="c1908-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e3398-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="e3398-115">See also</span></span>
 
 
 
-[<span data-ttu-id="c1908-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="c1908-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="e3398-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="e3398-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="c1908-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="c1908-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="e3398-117">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="e3398-117">MAPI Structures</span></span>](mapi-structures.md)
 

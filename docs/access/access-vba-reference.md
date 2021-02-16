@@ -12,18 +12,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406350"
 ---
-# <a name="access-vba-reference"></a><span data-ttu-id="4e261-103">[Referência do VBA do Access]</span><span class="sxs-lookup"><span data-stu-id="4e261-103">[Access VBA reference]</span></span>
+# <a name="access-vba-reference"></a><span data-ttu-id="54146-103">[Referência do VBA do Access]</span><span class="sxs-lookup"><span data-stu-id="54146-103">[Access VBA reference]</span></span>
 
-<span data-ttu-id="4e261-104">{inserir resumo}</span><span class="sxs-lookup"><span data-stu-id="4e261-104">{insert summary}</span></span>
+<span data-ttu-id="54146-104">{inserir resumo}</span><span class="sxs-lookup"><span data-stu-id="54146-104">{insert summary}</span></span>
   
-<span data-ttu-id="4e261-105">{inserir conteúdo introdutório}</span><span class="sxs-lookup"><span data-stu-id="4e261-105">{insert introductory content}</span></span>
+<span data-ttu-id="54146-105">{inserir conteúdo introdutório}</span><span class="sxs-lookup"><span data-stu-id="54146-105">{insert introductory content}</span></span>
   
-## <a name="insert-section-title-text"></a><span data-ttu-id="4e261-106">{inserir texto do título da seção}</span><span class="sxs-lookup"><span data-stu-id="4e261-106">{insert section title text}</span></span>
+## <a name="insert-section-title-text"></a><span data-ttu-id="54146-106">{inserir texto do título da seção}</span><span class="sxs-lookup"><span data-stu-id="54146-106">{insert section title text}</span></span>
 
-<span data-ttu-id="4e261-107">{inserir corpo do texto}</span><span class="sxs-lookup"><span data-stu-id="4e261-107">{insert body text}</span></span>
+<span data-ttu-id="54146-107">{inserir corpo do texto}</span><span class="sxs-lookup"><span data-stu-id="54146-107">{insert body text}</span></span>
   
-### <a name="insert-subsection-title-text"></a><span data-ttu-id="4e261-108">{inserir texto do título de subseção}</span><span class="sxs-lookup"><span data-stu-id="4e261-108">{insert subsection title text}</span></span>
+### <a name="insert-subsection-title-text"></a><span data-ttu-id="54146-108">{inserir texto do título de subseção}</span><span class="sxs-lookup"><span data-stu-id="54146-108">{insert subsection title text}</span></span>
 
-<span data-ttu-id="4e261-109">{inserir texto do corpo}</span><span class="sxs-lookup"><span data-stu-id="4e261-109">{insert body text}</span></span>
+<span data-ttu-id="54146-109">{inserir texto do corpo}</span><span class="sxs-lookup"><span data-stu-id="54146-109">{insert body text}</span></span>
   
 

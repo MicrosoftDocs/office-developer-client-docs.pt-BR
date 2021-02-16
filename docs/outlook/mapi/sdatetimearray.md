@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406777"
 ---
-# <a name="sdatetimearray"></a><span data-ttu-id="b3552-103">SDateTimeArray</span><span class="sxs-lookup"><span data-stu-id="b3552-103">SDateTimeArray</span></span>
+# <a name="sdatetimearray"></a><span data-ttu-id="50586-103">SDateTimeArray</span><span class="sxs-lookup"><span data-stu-id="50586-103">SDateTimeArray</span></span>
 
   
   
-<span data-ttu-id="b3552-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b3552-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="50586-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50586-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b3552-105">Contém uma matriz de valores de tempo que são usados para descrever uma propriedade do tipo PT_MV_SYSTIME.</span><span class="sxs-lookup"><span data-stu-id="b3552-105">Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME.</span></span>
+<span data-ttu-id="50586-105">Contém uma matriz de valores de tempo que são usados para descrever uma propriedade do tipo PT_MV_SYSTIME.</span><span class="sxs-lookup"><span data-stu-id="50586-105">Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b3552-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="b3552-106">Header file:</span></span>  <br/> |<span data-ttu-id="b3552-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="b3552-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="50586-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="50586-106">Header file:</span></span>  <br/> |<span data-ttu-id="50586-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="50586-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -40,28 +40,28 @@ typedef struct _SDateTimeArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="b3552-108">Members</span><span class="sxs-lookup"><span data-stu-id="b3552-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="50586-108">Members</span><span class="sxs-lookup"><span data-stu-id="50586-108">Members</span></span>
 
- <span data-ttu-id="b3552-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="b3552-109">**cValues**</span></span>
+ <span data-ttu-id="50586-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="50586-109">**cValues**</span></span>
   
-> <span data-ttu-id="b3552-110">Contagem de valores na matriz apontada pelo membro **lpft** .</span><span class="sxs-lookup"><span data-stu-id="b3552-110">Count of values in the array pointed to by the **lpft** member.</span></span> 
+> <span data-ttu-id="50586-110">Contagem de valores na matriz apontada pelo membro **lpft.**</span><span class="sxs-lookup"><span data-stu-id="50586-110">Count of values in the array pointed to by the **lpft** member.</span></span> 
     
- <span data-ttu-id="b3552-111">**lpft**</span><span class="sxs-lookup"><span data-stu-id="b3552-111">**lpft**</span></span>
+ <span data-ttu-id="50586-111">**lpft**</span><span class="sxs-lookup"><span data-stu-id="50586-111">**lpft**</span></span>
   
-> <span data-ttu-id="b3552-112">Ponteiro para uma matriz de estruturas [FILETIME](filetime.md) que contêm os valores de hora.</span><span class="sxs-lookup"><span data-stu-id="b3552-112">Pointer to an array of [FILETIME](filetime.md) structures that contain the time values.</span></span> 
+> <span data-ttu-id="50586-112">Ponteiro para uma matriz de [estruturas FILETIME](filetime.md) que contêm os valores de tempo.</span><span class="sxs-lookup"><span data-stu-id="50586-112">Pointer to an array of [FILETIME](filetime.md) structures that contain the time values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="b3552-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="b3552-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50586-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="50586-113">Remarks</span></span>
 
-<span data-ttu-id="b3552-114">Para obter mais informações sobre o PT_MV_SYSTIME, confira [lista de tipos de propriedade](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="b3552-114">For more information about PT_MV_SYSTIME, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="50586-114">Para obter mais informações sobre PT_MV_SYSTIME, consulte [Lista de tipos de propriedade.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="50586-114">For more information about PT_MV_SYSTIME, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b3552-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="b3552-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50586-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="50586-115">See also</span></span>
 
 
 
-[<span data-ttu-id="b3552-116">FILETIME</span><span class="sxs-lookup"><span data-stu-id="b3552-116">FILETIME</span></span>](filetime.md)
+[<span data-ttu-id="50586-116">FILETIME</span><span class="sxs-lookup"><span data-stu-id="50586-116">FILETIME</span></span>](filetime.md)
   
-[<span data-ttu-id="b3552-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="b3552-117">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="50586-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="50586-117">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="b3552-118">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="b3552-118">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="50586-118">Estruturas MAPI</span><span class="sxs-lookup"><span data-stu-id="50586-118">MAPI Structures</span></span>](mapi-structures.md)
 

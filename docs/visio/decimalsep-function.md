@@ -16,16 +16,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360302"
 ---
-# <a name="decimalsep-function"></a><span data-ttu-id="b3a30-103">Função DECIMALSEP</span><span class="sxs-lookup"><span data-stu-id="b3a30-103">DECIMALSEP Function</span></span>
+# <a name="decimalsep-function"></a><span data-ttu-id="585c1-103">Função DECIMALSEP</span><span class="sxs-lookup"><span data-stu-id="585c1-103">DECIMALSEP Function</span></span>
 
-<span data-ttu-id="b3a30-104">Retorna a cadeia de caracteres do separador decimal para a localidade do usuário atual.</span><span class="sxs-lookup"><span data-stu-id="b3a30-104">Returns the decimal separator string for the current user locale.</span></span>
+<span data-ttu-id="585c1-104">Retorna a cadeia de caracteres do separador decimal para a localidade do usuário atual.</span><span class="sxs-lookup"><span data-stu-id="585c1-104">Returns the decimal separator string for the current user locale.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="b3a30-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b3a30-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="585c1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="585c1-105">Syntax</span></span>
 
-<span data-ttu-id="b3a30-106">DECIMALSEP( )</span><span class="sxs-lookup"><span data-stu-id="b3a30-106">DECIMALSEP( )</span></span>
+<span data-ttu-id="585c1-106">DECIMALSEP( )</span><span class="sxs-lookup"><span data-stu-id="585c1-106">DECIMALSEP( )</span></span>
   
-## <a name="example"></a><span data-ttu-id="b3a30-107">Exemplo</span><span class="sxs-lookup"><span data-stu-id="b3a30-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="585c1-107">Exemplo</span><span class="sxs-lookup"><span data-stu-id="585c1-107">Example</span></span>
 
-<span data-ttu-id="b3a30-108">SETF(GETREF(user.size), user.wholePart &amp; DECIMALSEP() &amp; user.fracPart)</span><span class="sxs-lookup"><span data-stu-id="b3a30-108">SETF(GETREF(user.size), user.wholePart & DECIMALSEP() & user.fracPart)</span></span> 
+<span data-ttu-id="585c1-108">SETF(GETREF(user.size), user.wholePart &amp; DECIMALSEP() &amp; user.fracPart)</span><span class="sxs-lookup"><span data-stu-id="585c1-108">SETF(GETREF(user.size), user.wholePart &amp; DECIMALSEP() &amp; user.fracPart)</span></span> 
   
 

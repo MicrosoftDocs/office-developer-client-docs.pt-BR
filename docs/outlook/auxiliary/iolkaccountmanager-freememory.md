@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408485"
 ---
-# <a name="iolkaccountmanagerfreememory"></a><span data-ttu-id="ef586-103">IOlkAccountManager::FreeMemory</span><span class="sxs-lookup"><span data-stu-id="ef586-103">IOlkAccountManager::FreeMemory</span></span>
+# <a name="iolkaccountmanagerfreememory"></a><span data-ttu-id="54df3-103">IOlkAccountManager::FreeMemory</span><span class="sxs-lookup"><span data-stu-id="54df3-103">IOlkAccountManager::FreeMemory</span></span>
 
-<span data-ttu-id="ef586-104">Libera memória alocada pela interface [IOlkAccountManager](iolkaccountmanager.md) .</span><span class="sxs-lookup"><span data-stu-id="ef586-104">Frees memory allocated by the [IOlkAccountManager](iolkaccountmanager.md) interface.</span></span> 
+<span data-ttu-id="54df3-104">Libera memória alocada pela interface [IOlkAccountManager.](iolkaccountmanager.md)</span><span class="sxs-lookup"><span data-stu-id="54df3-104">Frees memory allocated by the [IOlkAccountManager](iolkaccountmanager.md) interface.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="ef586-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="ef586-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="54df3-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="54df3-105">Quick info</span></span>
 
-<span data-ttu-id="ef586-106">Confira [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="ef586-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="54df3-106">Confira [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="54df3-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::FreeMemory (  
@@ -28,21 +28,21 @@ HRESULT IOlkAccountManager::FreeMemory (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ef586-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="ef586-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="54df3-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="54df3-107">Parameters</span></span>
 
-<span data-ttu-id="ef586-108">_PV_</span><span class="sxs-lookup"><span data-stu-id="ef586-108">_pv_</span></span>
+<span data-ttu-id="54df3-108">_pv_</span><span class="sxs-lookup"><span data-stu-id="54df3-108">_pv_</span></span>
   
-> <span data-ttu-id="ef586-109">no Um ponteiro para a memória a ser liberado.</span><span class="sxs-lookup"><span data-stu-id="ef586-109">[in] A pointer to the memory to free.</span></span>
+> <span data-ttu-id="54df3-109">[in] Um ponteiro para a memória a ser livre.</span><span class="sxs-lookup"><span data-stu-id="54df3-109">[in] A pointer to the memory to free.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="ef586-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ef586-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="54df3-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="54df3-110">Return values</span></span>
 
-<span data-ttu-id="ef586-111">S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="ef586-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="54df3-111">S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="54df3-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ef586-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="ef586-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="54df3-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="54df3-112">Remarks</span></span>
 
-<span data-ttu-id="ef586-113">Use este método para liberar a memória alocada por [IOlkAccountManager:: GetOrder](iolkaccountmanager-getorder.md).</span><span class="sxs-lookup"><span data-stu-id="ef586-113">Use this method to release memory allocated by [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).</span></span>
+<span data-ttu-id="54df3-113">Use este método para liberar memória alocada por [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).</span><span class="sxs-lookup"><span data-stu-id="54df3-113">Use this method to release memory allocated by [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ef586-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="ef586-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54df3-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="54df3-114">See also</span></span>
 
-- [<span data-ttu-id="ef586-115">IOlkAccountManager::GetOrder</span><span class="sxs-lookup"><span data-stu-id="ef586-115">IOlkAccountManager::GetOrder</span></span>](iolkaccountmanager-getorder.md)
+- [<span data-ttu-id="54df3-115">IOlkAccountManager::GetOrder</span><span class="sxs-lookup"><span data-stu-id="54df3-115">IOlkAccountManager::GetOrder</span></span>](iolkaccountmanager-getorder.md)
 

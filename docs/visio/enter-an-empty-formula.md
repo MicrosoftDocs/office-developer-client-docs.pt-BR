@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405678"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="3c906-102">Inserir uma fórmula vazia</span><span class="sxs-lookup"><span data-stu-id="3c906-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="58c5e-102">Inserir uma fórmula vazia</span><span class="sxs-lookup"><span data-stu-id="58c5e-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="3c906-103">Selecione a célula que irá conter a fórmula.</span><span class="sxs-lookup"><span data-stu-id="3c906-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="58c5e-103">Selecione a célula que irá conter a fórmula.</span><span class="sxs-lookup"><span data-stu-id="58c5e-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="3c906-104">Pressione DELETE e ENTER.</span><span class="sxs-lookup"><span data-stu-id="3c906-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="58c5e-104">Pressione DELETE e ENTER.</span><span class="sxs-lookup"><span data-stu-id="58c5e-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="3c906-105">Experimente isso em uma célula **Scratch** após inserir uma fórmula local.</span><span class="sxs-lookup"><span data-stu-id="3c906-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="3c906-106">A célula reverte para ' sem fórmula ', porque não há fórmulas a serem herdadas do mestre.</span><span class="sxs-lookup"><span data-stu-id="3c906-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="58c5e-105">Experimente isso em uma **célula Scratch** depois de inserir uma fórmula local.</span><span class="sxs-lookup"><span data-stu-id="58c5e-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="58c5e-106">A célula é reverteda para 'No Formula', porque não há fórmula a ser herdada do mestre.</span><span class="sxs-lookup"><span data-stu-id="58c5e-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 

@@ -16,8 +16,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410403"
 ---
-# <a name="1-d-endpoints-section"></a><span data-ttu-id="3cbac-104">Seção 1-D Endpoints</span><span class="sxs-lookup"><span data-stu-id="3cbac-104">1-D Endpoints Section</span></span>
+# <a name="1-d-endpoints-section"></a><span data-ttu-id="9e2b3-104">Seção 1-D Endpoints</span><span class="sxs-lookup"><span data-stu-id="9e2b3-104">1-D Endpoints Section</span></span>
 
-<span data-ttu-id="3cbac-105">Contém as coordenadas x e y dos pontos inicial e final de uma forma 1D.</span><span class="sxs-lookup"><span data-stu-id="3cbac-105">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape.</span></span> <span data-ttu-id="3cbac-106">Essa seção aparece somente para formas 1D.</span><span class="sxs-lookup"><span data-stu-id="3cbac-106">This section appears for 1-D shapes only.</span></span>
+<span data-ttu-id="9e2b3-105">Contém as coordenadas x e y dos pontos inicial e final de uma forma 1D.</span><span class="sxs-lookup"><span data-stu-id="9e2b3-105">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape.</span></span> <span data-ttu-id="9e2b3-106">Essa seção aparece somente para formas 1D.</span><span class="sxs-lookup"><span data-stu-id="9e2b3-106">This section appears for 1-D shapes only.</span></span>
   
 

@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407778"
 ---
-# <a name="mapiofflinecallbacktype"></a><span data-ttu-id="4236a-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="4236a-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
+# <a name="mapioffline_callback_type"></a><span data-ttu-id="d675c-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="d675c-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
 
   
   
-<span data-ttu-id="4236a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4236a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d675c-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d675c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4236a-105">Enumeração de tipos suportados de retornos de chamada.</span><span class="sxs-lookup"><span data-stu-id="4236a-105">Enumeration of supported types of callbacks.</span></span>
+<span data-ttu-id="d675c-105">Enumeração de tipos suportados de retornos de chamada.</span><span class="sxs-lookup"><span data-stu-id="d675c-105">Enumeration of supported types of callbacks.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="4236a-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="4236a-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="d675c-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="d675c-106">Quick info</span></span>
 
 ```cpp
 typedef enum  
@@ -33,13 +33,13 @@ typedef enum
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4236a-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="4236a-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d675c-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="d675c-107">See also</span></span>
 
 
 
-[<span data-ttu-id="4236a-108">Sobre a API de estado offline</span><span class="sxs-lookup"><span data-stu-id="4236a-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="d675c-108">Sobre a API de estado offline</span><span class="sxs-lookup"><span data-stu-id="d675c-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="4236a-109">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="4236a-109">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="d675c-109">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="d675c-109">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="4236a-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="4236a-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
+[<span data-ttu-id="d675c-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="d675c-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
 

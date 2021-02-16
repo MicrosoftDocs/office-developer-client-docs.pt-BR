@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406672"
 ---
-# <a name="langid-cell-miscellaneous-section"></a><span data-ttu-id="23d2b-103">Célula LangID (Seção Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="23d2b-103">LangID Cell (Miscellaneous Section)</span></span>
+# <a name="langid-cell-miscellaneous-section"></a><span data-ttu-id="28bb8-103">Célula LangID (Seção Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="28bb8-103">LangID Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="23d2b-104">Indica o idioma no qual as fórmulas das células foram criadas.</span><span class="sxs-lookup"><span data-stu-id="23d2b-104">Indicates the language in which cell formulas were created.</span></span> 
+<span data-ttu-id="28bb8-104">Indica o idioma no qual as fórmulas das células foram criadas.</span><span class="sxs-lookup"><span data-stu-id="28bb8-104">Indicates the language in which cell formulas were created.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="23d2b-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="23d2b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="28bb8-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="28bb8-105">Remarks</span></span>
 
-<span data-ttu-id="23d2b-106">Para obter uma lista de idiomas para os quais os aplicativos Microsoft Office oferecem suporte, consulte o tópico da célula [DocLangID](doclangid-cell-document-properties-section.md) (Seção Document Properties).</span><span class="sxs-lookup"><span data-stu-id="23d2b-106">For a list of languages supported by Microsoft Office applications, see the [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section) topic.</span></span> 
+<span data-ttu-id="28bb8-106">Para obter uma lista de idiomas para os quais os aplicativos Microsoft Office oferecem suporte, consulte o tópico da célula [DocLangID](doclangid-cell-document-properties-section.md) (Seção Document Properties).</span><span class="sxs-lookup"><span data-stu-id="28bb8-106">For a list of languages supported by Microsoft Office applications, see the [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section) topic.</span></span> 
   
-<span data-ttu-id="23d2b-107">Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="23d2b-107">To get a reference to the LangID cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="28bb8-107">Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="28bb8-107">To get a reference to the LangID cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="23d2b-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="23d2b-108">Cell name:</span></span>  <br/> | <span data-ttu-id="23d2b-109">LangID</span><span class="sxs-lookup"><span data-stu-id="23d2b-109">LangID</span></span>  <br/> |
+| <span data-ttu-id="28bb8-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="28bb8-108">Cell name:</span></span>  <br/> | <span data-ttu-id="28bb8-109">LangID</span><span class="sxs-lookup"><span data-stu-id="28bb8-109">LangID</span></span>  <br/> |
    
-<span data-ttu-id="23d2b-110">Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="23d2b-110">To get a reference to the LangID cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="28bb8-110">Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="28bb8-110">To get a reference to the LangID cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="23d2b-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="23d2b-111">Section index:</span></span>  <br/> |<span data-ttu-id="23d2b-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="23d2b-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="23d2b-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="23d2b-113">Row index:</span></span>  <br/> |<span data-ttu-id="23d2b-114">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="23d2b-114">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="23d2b-115">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="23d2b-115">Cell index:</span></span>  <br/> |<span data-ttu-id="23d2b-116">**visObjLangID**</span><span class="sxs-lookup"><span data-stu-id="23d2b-116">**visObjLangID**</span></span> <br/> |
+| <span data-ttu-id="28bb8-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="28bb8-111">Section index:</span></span>  <br/> |<span data-ttu-id="28bb8-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="28bb8-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="28bb8-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="28bb8-113">Row index:</span></span>  <br/> |<span data-ttu-id="28bb8-114">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="28bb8-114">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="28bb8-115">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="28bb8-115">Cell index:</span></span>  <br/> |<span data-ttu-id="28bb8-116">**visObjLangID**</span><span class="sxs-lookup"><span data-stu-id="28bb8-116">**visObjLangID**</span></span> <br/> |
    
 

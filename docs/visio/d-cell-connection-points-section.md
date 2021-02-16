@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408170"
 ---
-# <a name="d-cell-connection-points-section"></a><span data-ttu-id="c9a20-103">Célula D (Seção Connection Points)</span><span class="sxs-lookup"><span data-stu-id="c9a20-103">D Cell (Connection Points Section)</span></span>
+# <a name="d-cell-connection-points-section"></a><span data-ttu-id="ba9e0-103">Célula D (Seção Connection Points)</span><span class="sxs-lookup"><span data-stu-id="ba9e0-103">D Cell (Connection Points Section)</span></span>
 
-<span data-ttu-id="c9a20-104">Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.</span><span class="sxs-lookup"><span data-stu-id="c9a20-104">A scratch cell that you can use for entering or testing formulas.</span></span>
+<span data-ttu-id="ba9e0-104">Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.</span><span class="sxs-lookup"><span data-stu-id="ba9e0-104">A scratch cell that you can use for entering or testing formulas.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c9a20-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="c9a20-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ba9e0-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="ba9e0-105">Remarks</span></span>
 
-<span data-ttu-id="c9a20-106">Para acessar a célula D, clique com o botão direito do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho.</span><span class="sxs-lookup"><span data-stu-id="c9a20-106">To access the D cell, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
+<span data-ttu-id="ba9e0-106">Para acessar a célula D, clique com o botão direito do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho.</span><span class="sxs-lookup"><span data-stu-id="ba9e0-106">To access the D cell, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
   
-<span data-ttu-id="c9a20-107">Para fazer referência à célula D pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="c9a20-107">To get a reference to the D cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ba9e0-107">Para fazer referência à célula D pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-107">To get a reference to the D cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c9a20-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="c9a20-108">Cell name:</span></span>  <br/> | <span data-ttu-id="c9a20-109">Connections. D [ *i* ] onde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="c9a20-109">Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="ba9e0-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-108">Cell name:</span></span>  <br/> | <span data-ttu-id="ba9e0-109">Connections.D[  *i*  ] onde i =  *<*  1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="ba9e0-109">Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="c9a20-110">Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="c9a20-110">To get a reference to the D cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ba9e0-110">Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-110">To get a reference to the D cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c9a20-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="c9a20-111">Section index:</span></span>  <br/> |<span data-ttu-id="c9a20-112">**visSectionConnectionPts**</span><span class="sxs-lookup"><span data-stu-id="c9a20-112">**visSectionConnectionPts**</span></span> <br/> |
-| <span data-ttu-id="c9a20-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="c9a20-113">Row index:</span></span>  <br/> |<span data-ttu-id="c9a20-114">**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="c9a20-114">**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="c9a20-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="c9a20-115">Cell index:</span></span>  <br/> |<span data-ttu-id="c9a20-116">**visCnnctD**</span><span class="sxs-lookup"><span data-stu-id="c9a20-116">**visCnnctD**</span></span> <br/> |
+| <span data-ttu-id="ba9e0-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-111">Section index:</span></span>  <br/> |<span data-ttu-id="ba9e0-112">**visSectionConnectionPts**</span><span class="sxs-lookup"><span data-stu-id="ba9e0-112">**visSectionConnectionPts**</span></span> <br/> |
+| <span data-ttu-id="ba9e0-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-113">Row index:</span></span>  <br/> |<span data-ttu-id="ba9e0-114">**visRowConnectionPts**  +   *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="ba9e0-114">**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="ba9e0-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="ba9e0-115">Cell index:</span></span>  <br/> |<span data-ttu-id="ba9e0-116">**visCnnctD**</span><span class="sxs-lookup"><span data-stu-id="ba9e0-116">**visCnnctD**</span></span> <br/> |
    
 
