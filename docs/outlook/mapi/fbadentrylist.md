@@ -43,7 +43,7 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> no Ponteiro para uma [](entrylist.md) estrutura ENTRYLIST que contém uma matriz de identificadores de entrada a ser validada. 
+> [in] Ponteiro para uma [estrutura ENTRYLIST](entrylist.md) que contém uma matriz de identificadores de entrada a serem validados. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadEntryList** determina se a lista de identificadores de entrada foi gerada corretamente. Um exemplo de um identificador inválido é aquele para o qual a memória foi alocada incorretamente ou um identificador de tamanho incorreto. 
+A **função FBadEntryList** determina se a lista de identificadores de entrada foi gerada corretamente. Um exemplo de um identificador inválido é aquele para o qual a memória foi alocada incorretamente ou um identificador de um tamanho incorreto. 
   
 

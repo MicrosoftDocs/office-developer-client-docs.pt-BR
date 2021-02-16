@@ -38,11 +38,11 @@ HRESULT SetSearchPath(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpSearchPath_
   
-> no Um ponteiro para a estrutura [SRowSet](srowset.md) usada para manter o caminho de pesquisa. A primeira propriedade para cada membro de **aRow** em **SRowSet** deve ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] Um ponteiro para a [estrutura SRowSet](srowset.md) usada para manter o caminho de pesquisa. A primeira propriedade para cada **membro aRow** em **SRowSet** deve ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,13 +52,13 @@ S_OK
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> Um dos contêineres descritos na estrutura **SRowSet** não inclui a propriedade **PR_ENTRYID** . 
+> Um dos contêineres descritos na estrutura **SRowSet** não incluiu sua **PR_ENTRYID** propriedade. 
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes e os provedores de serviços chamam o método **SetSearchPath** para salvar as alterações feitas na ordem de pesquisa do contêiner usada para resolver nomes com o método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . O caminho de pesquisa é salvo entre as instâncias de uma sessão. 
+Os clientes e provedores de serviços chamam o método **SetSearchPath** para salvar as alterações feitas na ordem de pesquisa do contêiner usada para resolver nomes com o método [IAddrBook::ResolveName.](iaddrbook-resolvename.md) O caminho de pesquisa é salvo entre instâncias de uma sessão. 
   
-Os clientes e provedores não precisam chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para tornar as alterações no caminho de pesquisa permanentes. 
+Os clientes e provedores não têm que chamar o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para tornar o caminho de pesquisa permanente. 
   
 ## <a name="see-also"></a>Confira também
 

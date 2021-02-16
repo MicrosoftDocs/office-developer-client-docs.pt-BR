@@ -1,5 +1,5 @@
 ---
-title: Célula ReflectionTrans (seção Additional Effect Properties)
+title: Célula ReflectionTrans (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425677"
 ---
-# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Célula ReflectionTrans (seção Additional Effect Properties)
+# <a name="reflectiontrans-cell-additional-effect-properties-section"></a>Célula ReflectionTrans (Seção Additional Effect Properties)
 
 Determina a transparência da reflexão, como uma porcentagem de 0 a 100%. 
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **ReflectionTrans** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **ReflectionTrans** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ReflectionTrans  <br/> |
    
-Para obter uma referência para a célula **ReflectionTrans** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **ReflectionTrans** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Índice da célula:  <br/> |**visReflectionTrans** <br/> |
+| Índice de célula:  <br/> |**visReflectionTrans** <br/> |
    
 

@@ -25,11 +25,11 @@ ms.locfileid: "33427875"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define um protótipo para uma função de ponto de entrada de serviço de mensagem para dar suporte à configuração de serviço de mensagens. 
+Define um protótipo para uma função de ponto de entrada do serviço de mensagens para dar suporte à configuração do serviço de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Função definida implementada por:  <br/> |Serviços de mensagens  <br/> |
 |Função definida chamada por:  <br/> |MAPI  <br/> |
    
@@ -52,51 +52,51 @@ HRESULT MSGSERVICEENTRY(
 
  _hInstance_
   
-> no Identificador da instância do serviço providerDLL. Normalmente, o identificador é usado para recuperar recursos. 
+> [in] Alça da instância do provedor de serviçosDLL. O alça é normalmente usado para recuperar recursos. 
     
  _lpMalloc_
   
-> no Ponteiro para um objeto de alocador de memória expondo a interface **IMalloc** do OLE. O serviço de mensagens pode precisar usar esse método de alocação quando estiver trabalhando com determinadas interfaces, como **IStream**. 
+> [in] Ponteiro para um objeto alocador de memória expondo a interface **IMalloc OLE.** O serviço de mensagens pode precisar usar esse método de alocação ao trabalhar com determinadas interfaces, como **IStream**. 
     
  _lpMAPISup_
   
-> no Ponteiro para uma implementação de interface [IMAPISupport: IUnknown](imapisupportiunknown.md) . 
+> [in] Ponteiro para uma [implementação de interface IMAPISupport : IUnknown.](imapisupportiunknown.md) 
     
  _ulUIParam_
   
-> no Um valor específico de implementação usado para passar informações da interface do usuário para uma função ou zero. O parâmetro _ulUIParam_ é o identificador de janela pai da caixa de diálogo de configuração e é do tipo HWND (conversão em um ULONG_PTR). Um valor igual A zero indica que não há janela pai. 
+> [in] Um valor específico de implementação usado para passar informações da interface do usuário para uma função ou zero. O  _parâmetro ulUIParam_ é o identificador da janela pai da caixa de diálogo de configuração e é do tipo HWND (cast to a ULONG_PTR). Um valor zero indica que não há janela pai. 
     
  _ulFlags_
   
-> no Bitmask de sinalizadores que indicam opções para a função de entrada de serviço. Os seguintes sinalizadores podem ser definidos:
+> [in] Bitmask de sinalizadores indicando opções para a função de entrada de serviço. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> A interface de usuário da configuração do serviço deve exibir a configuração atual, mas não permitir que o usuário a altere. 
+> A interface do usuário de configuração do serviço deve exibir a configuração atual, mas não permitir que o usuário a altere. 
     
 SERVICE_UI_ALLOWED 
   
-> Permite que uma caixa de diálogo de configuração seja exibida se necessário. Quando o sinalizador SERVICE_UI_ALLOWED estiver definido, a caixa de diálogo deve ser exibida somente se a matriz de valor da propriedade _lpProps_ estiver vazia ou não contiver uma configuração válida. Se SERVICE_UI_ALLOWED não estiver definido, uma caixa de diálogo ainda poderá ser exibida se o sinalizador SERVICE_UI_ALWAYS estiver definido. 
+> Permite que uma caixa de diálogo de configuração seja exibida, se necessário. Quando o SERVICE_UI_ALLOWED de texto estiver definido, a caixa de diálogo deverá ser exibida somente se a matriz de valores da propriedade  _lpProps_ estiver vazia ou não tiver uma configuração válida. Se SERVICE_UI_ALLOWED não estiver definido, uma caixa de diálogo ainda poderá ser exibida se o sinalizador SERVICE_UI_ALWAYS estiver definido. 
     
 UI_CURRENT_PROVIDER_FIRST 
   
-> Solicita que a caixa de diálogo de configuração do provedor ativo seja exibida na parte superior de outras caixas de diálogo. 
+> Solicita que a caixa de diálogo de configuração do provedor ativo seja exibida sobre outras caixas de diálogo. 
     
 SERVICE_UI_ALWAYS 
   
-> Requer que o serviço de mensagens exiba uma caixa de diálogo de configuração. Se o sinalizador SERVICE_UI_ALWAYS não estiver definido, uma caixa de diálogo de configuração ainda poderá ser exibida se o sinalizador SERVICE_UI_ALLOWED estiver definido e as informações de configuração válidas não estiverem disponíveis na matriz de valor da propriedade _lpProps_ . O SERVICE_UI_ALLOWED ou o SERVICE_UI_ALWAYS deve ser definido para permitir que uma interface de usuário seja exibida. 
+> Requer que o serviço de mensagens exibir uma caixa de diálogo de configuração. Se o sinalizador SERVICE_UI_ALWAYS não estiver definido, uma caixa de diálogo de configuração ainda poderá ser exibida se o sinalizador SERVICE_UI_ALLOWED estiver definido e as informações de configuração válidas não estarão disponíveis na matriz de valores da propriedade _lpProps._ As SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS devem ser definidas para permitir que uma interface do usuário seja exibida. 
     
  _ulContext_
   
-> no A operação de configuração que o MAPI está executando no momento. O parâmetro _ulContext_ conterá um dos seguintes valores: 
+> [in] A operação de configuração que o MAPI está executando no momento. O  _parâmetro ulContext_ conterá um dos seguintes valores: 
     
 MSG_SERVICE_CONFIGURE 
   
-> As alterações na configuração do serviço devem ser feitas no perfil. Se o sinalizador SERVICE_UI_ALWAYS estiver definido, o serviço deverá exibir sua caixa de diálogo de configuração. A caixa de diálogo também deverá ser exibida se o sinalizador SERVICE_UI_ALLOWED estiver definido e se o parâmetro _lpProps_ estiver vazio ou não contiver dados de configuração válidos. Se _lpProps_ contiver dados válidos, nenhuma caixa de diálogo deve ser exibida e o serviço deve usar esses dados para fazer a alteração da configuração. 
+> As alterações na configuração do serviço devem ser feitas no perfil. Se o SERVICE_UI_ALWAYS sinalizador estiver definido, o serviço deverá exibir sua caixa de diálogo de configuração. A caixa de diálogo também deverá ser exibida se o sinalizador SERVICE_UI_ALLOWED estiver definido e o parâmetro  _lpProps_ estiver vazio ou não tiver dados de configuração válidos. Se  _lpProps_ contiver dados válidos, nenhuma caixa de diálogo deverá ser exibida e o serviço deverá usar esses dados para fazer a alteração na configuração. 
     
 MSG_SERVICE_CREATE 
   
@@ -108,41 +108,41 @@ MSG_SERVICE_DELETE
     
 MSG_SERVICE_INSTALL 
   
-> O serviço foi instalado na estação de trabalho do usuário a partir de uma rede, disquete ou outra mídia externa. Depois de receber esse evento, o serviço normalmente retorna S_OK. 
+> O serviço foi instalado na estação de trabalho do usuário a partir de uma rede, disquete ou outra mídia externa. Depois de receber esse evento, o serviço geralmente retorna S_OK. 
     
 MSG_SERVICE_PROVIDER_CREATE 
   
-> Solicita que o serviço crie uma instância adicional de um provedor. Se o serviço oferecer suporte a essa operação, ele deverá chamar [IProviderAdmin:: CreateProvider](iprovideradmin-createprovider.md). Se o serviço não oferecer suporte a essa operação, poderá retornar MAPI_E_NO_SUPPORT. 
+> Solicita que o serviço crie uma instância adicional de um provedor. Se o serviço suportar essa operação, ele deverá chamar [IProviderAdmin::CreateProvider](iprovideradmin-createprovider.md). Se o serviço não suportar essa operação, ele poderá retornar MAPI_E_NO_SUPPORT. 
     
 MSG_SERVICE_PROVIDER_DELETE 
   
-> Solicita que o serviço exclua uma instância de provedor. Se o serviço oferecer suporte a essa operação, ele deverá chamar [IProviderAdmin::D eleteprovider](iprovideradmin-deleteprovider.md). Se o serviço não oferecer suporte a essa operação, poderá retornar MAPI_E_NO_SUPPORT.
+> Solicita que o serviço exclua uma instância do provedor. Se o serviço suportar essa operação, ele deverá chamar [IProviderAdmin::D eleteProvider](iprovideradmin-deleteprovider.md). Se o serviço não suportar essa operação, ele poderá retornar MAPI_E_NO_SUPPORT.
     
 MSG_SERVICE_UNINSTALL 
   
-> O serviço está sendo removido. Depois de receber esse evento, o serviço pode executar qualquer tarefa de limpeza que deve ser realizada antes que o serviço seja encerrado e, em seguida, retorne com um valor de sucesso. Se o usuário cancelar a remoção, o serviço deverá retornar MAPI_E_USER_CANCEL. 
+> O serviço está sendo removido. Depois de receber esse evento, o serviço pode executar qualquer tarefa de limpeza que deve ser feita antes do serviço terminar e, em seguida, retornar com um valor de sucesso. Se o usuário cancelar a remoção, o serviço deverá retornar MAPI_E_USER_CANCEL. 
     
  _cValues_
   
-> no Contagem de valores de propriedade na matriz apontada pelo parâmetro _lpProps_ . O valor do parâmetro _cValues_ será zero se o MAPI não passar nenhum valor de propriedade. 
+> [in] Contagem de valores de propriedade na matriz apontada pelo _parâmetro lpProps._ O valor do parâmetro  _cValues_ será zero se MAPI não estiver passando valores de propriedade. 
     
  _lpProps_
   
-> no Ponteiro para uma matriz opcional de estruturas [SPropValue](spropvalue.md) indicando valores para propriedades suportadas pelo provedor que a função usará na configuração do serviço de mensagens. A função só usa esse parâmetro se o parâmetro _ulContext_ estiver definido como MSG_SERVICE_CONFIGURE. Esse parâmetro é comumente usado para passar o caminho para um arquivo de um serviço baseado em arquivo, como um serviço de catálogo de endereços pessoal. Se o sinalizador MSG_SERVICE_CONFIGURE não for passado no parâmetro _parâmetroulflags_ , o parâmetro _lpProps_ deverá ser zero. 
+> [in] Ponteiro para uma matriz opcional de [estruturas SPropValue](spropvalue.md) indicando valores para propriedades com suporte do provedor que a função usará na configuração do serviço de mensagens. A função só usará esse parâmetro se o  _parâmetro ulContext_ estiver definido como MSG_SERVICE_CONFIGURE. Esse parâmetro é normalmente usado para passar o caminho para um arquivo para um serviço baseado em arquivo, como um serviço de agenda pessoal. Se o MSG_SERVICE_CONFIGURE sinalizador não for passado no  _parâmetro ulFlags,_ o parâmetro  _lpProps_ deverá ser zero. 
     
  _lpProviderAdmin_
   
-> no Ponteiro para uma interface [IProviderAdmin: IUnknown](iprovideradminiunknown.md) que a função pode usar para localizar seções de perfil de um provedor específico no serviço de mensagens atual. 
+> [in] Ponteiro para uma interface [IProviderAdmin:IUnknown](iprovideradminiunknown.md) que a função pode usar para localizar seções de perfil para um provedor específico no serviço de mensagens atual. 
     
  _lppMapiError_
   
-> bota Ponteiro para uma estrutura [MAPIERROR](mapierror.md) . A estrutura é alocada com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) . Todos os membros são opcionais, embora a maioria das estruturas contenha uma cadeia de mensagem de erro válida no membro _lpszError_ . Se os membros _lpszComponent_ ou _lpszError_ da estrutura estiverem presentes, sua memória deverá ser liberada por uma única chamada para [MAPIFreeBuffer](mapifreebuffer.md) na estrutura base. 
+> [out] Ponteiro para uma [estrutura MAPIERROR.](mapierror.md) A estrutura é alocada com a [função MAPIAllocateBuffer.](mapiallocatebuffer.md) Todos os membros são opcionais, embora a maioria das estruturas contenha uma cadeia de caracteres de mensagem de erro válida _no membro lpszError._ Se os membros  _lpszComponent_ ou  _lpszError_ da estrutura estão presentes, sua memória eventualmente deve ser liberada por uma única chamada para [MAPIFreeBuffer](mapifreebuffer.md) na estrutura base. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_UNCONFIGURED 
   
@@ -150,30 +150,30 @@ MAPI_E_UNCONFIGURED
     
 MAPI_E_USER_CANCEL 
   
-> O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
+> O usuário cancelou a operação, normalmente clicando no botão Cancelar **em** uma caixa de diálogo. 
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor não oferece suporte a alterações em seus objetos ou não dá suporte à notificação de alterações. 
+> O provedor não suporta alterações em seus objetos ou não suporta a notificação de alterações. 
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação só oferece suporte a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação só dá suporte a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Uma função definida usando o protótipo de função **MSGSERVICEENTRY** permite que os serviços de mensagens se configurem ou realizem outras ações específicas do serviço. A função fornece principalmente uma caixa de diálogo na qual o usuário pode alterar as configurações específicas do serviço de mensagens. Também pode oferecer suporte à configuração programática usando a matriz de valor de propriedade passada no parâmetro _lpProps_ . A configuração programática é opcional, a menos que o serviço dê suporte ao assistente de perfil, para o qual é necessário. 
+Uma função definida usando o protótipo **de função MSGSERVICEENTRY** permite que os serviços de mensagens se configurem ou executem outras ações específicas do serviço. A função fornece principalmente uma caixa de diálogo na qual o usuário pode alterar configurações específicas para o serviço de mensagens. Ele também pode dar suporte à configuração programática usando a matriz de valores de propriedade passada no _parâmetro lpProps._ A configuração programática é opcional, a menos que o serviço suporte o Assistente de Perfil, para o qual ele é necessário. 
   
-MAPI chama esse ponto de entrada do aplicativo do painel de controle ou em resposta a um aplicativo cliente chamando [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) ou [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
+MAPI calls this entry point from the Control Panel application or in response to a client application calling [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) or [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-O MAPI não coloca nenhuma restrição no nome da função que um serviço de mensagem usa para o protótipo **MSGSERVICEENTRY** , mas prefere o nome de **entrada**. Não há nenhuma restrição no ordinal para a função e uma única DLL de provedor pode conter mais de uma função. No enTanto, apenas uma das funções pode ser nomeada como de **entrada**. 
+MAPI não coloca restrições no nome da função que um serviço de mensagem usa para o protótipo **MSGSERVICEENTRY,** mas prefere o nome **ServiceEntry**. Não há restrições no ordinal para a função, e um único provedor DLL pode conter mais de uma função. No entanto, apenas uma das funções pode ser chamada **de ServiceEntry**. 
   
-Um serviço de mensagens pode usar a função [BuildDisplayTable](builddisplaytable.md) e o método [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md) para simplificar a implementação da caixa de diálogo de configuração. 
+Um serviço de mensagens pode usar a [função BuildDisplayTable](builddisplaytable.md) e o [método IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) para simplificar a implementação da caixa de diálogo de configuração. 
   
-É possível que um usuário cancele uma operação MSG_SERVICE_UNINSTALL. Nesse caso, a função de serviço de **entrada** deve verificar com o usuário se o serviço não deve ser removido e retornar MAPI_E_USER_CANCEL se o serviço permanecer instalado. 
+É possível que um usuário cancele uma operação MSG_SERVICE_UNINSTALL usuário. Nesse caso, a **função ServiceEntry** deve verificar com o usuário para verificar se o serviço não deve ser removido e retornar MAPI_E_USER_CANCEL se o serviço permanece instalado. 
   
-Uma função com base no protótipo **MSGSERVICEENTRY** retorna um dos valores HRESULT listados. O MAPI encaminha esse valor ao responder à chamada de um cliente para [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
+Uma função baseada no protótipo **MSGSERVICEENTRY** retorna um dos valores HRESULT listados. MAPI forwards this value when responding to a client's call to [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-Os serviços de mensagens que exportam uma função de entrada de serviço devem incluir as propriedades **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) e **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) na seção serviço de mensagens de MAPISVC. INF. 
+Os serviços de mensagem que exportam uma função de entrada de serviço devem incluir as propriedades **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) e **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) na seção de serviço de mensagens de MAPISVC.INF. 
   
 

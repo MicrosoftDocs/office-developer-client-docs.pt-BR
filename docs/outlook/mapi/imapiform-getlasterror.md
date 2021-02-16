@@ -25,7 +25,7 @@ ms.locfileid: "33426902"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior gerado pelo objeto Form. 
+Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior gerado pelo objeto de formulário. 
   
 ```cpp
 HRESULT GetLastError(
@@ -37,41 +37,41 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _And_
+ _hResult_
   
-> no Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior.
+> [in] Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido: 
+> [in] Uma máscara de bits de sinalizadores que controla o tipo de cadeia de caracteres retornada. O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> Se definido, as cadeias de caracteres na estrutura **MAPIERROR** retornadas no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> Se definido, as cadeias de caracteres na **estrutura MAPIERROR** retornadas no parâmetro  _lppMAPIError_ estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
  _lppMAPIError_
   
-> bota Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém a versão, o componente e informações de contexto para o erro. Esse parâmetro pode ser definido como NULL se não houver nenhuma estrutura **MAPIERROR** a ser retornada. 
+> [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém informações de versão, componente e contexto para o erro. Esse parâmetro pode ser definido como NULL se não houver **estrutura MAPIERROR** a ser retornada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e getLastError não tem suporte para Unicode, ou MAPI_UNICODE não foi definido e **GetLastError** oferece suporte somente para Unicode. **** 
+> O sinalizador MAPI_UNICODE foi definido e **GetLastError** não dá suporte a Unicode ou MAPI_UNICODE não foi definido e **GetLastError** dá suporte apenas a Unicode. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIForm:: GetLastError** fornece informações sobre uma chamada de método anterior que falhou. Os chamadores podem fornecer aos usuários informações detalhadas sobre o erro incluindo os dados da estrutura **MAPIERROR** em uma caixa de diálogo. 
+O **método IMAPIForm::GetLastError** fornece informações sobre uma chamada de método anterior que falhou. Os chamadores podem fornecer aos usuários informações detalhadas sobre o erro incluindo os dados da **estrutura MAPIERROR** em uma caixa de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar a estrutura **MAPIERROR** apontada pelo parâmetro _lppMAPIError_ se MAPI fornecer um, somente se GetLastError retornar S_OK. **** Às vezes, o MAPI não pode determinar qual é o último erro ou não tem nada mais a relatar sobre o erro. Nessa situação, um ponteiro para nulo é retornado em _lppMAPIError_ em vez disso. 
+Você pode usar a **estrutura MAPIERROR** apontada pelo parâmetro  _lppMAPIError_ se MAPI fornece um, somente se **GetLastError** retornar S_OK. Às vezes, o MAPI não pode determinar qual foi o último erro ou não tem mais nada a relatar sobre o erro. Nessa situação, um ponteiro para NULL é retornado em _lppMAPIError._ 
   
-Para obter mais informações sobre **** o método GetLastError, consulte [usando erros estendidos](mapi-extended-errors.md).
+Para obter mais informações sobre **o método GetLastError,** consulte [Usando erros estendidos.](mapi-extended-errors.md)
   
 ## <a name="see-also"></a>Confira também
 

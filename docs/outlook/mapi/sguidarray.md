@@ -25,11 +25,11 @@ ms.locfileid: "33424921"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [GUID](guid.md) que são usadas para descrever uma propriedade do tipo PT_MV_CLSID. 
+Contém uma matriz de [estruturas GUID](guid.md) que são usadas para descrever uma propriedade do tipo PT_MV_CLSID. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,15 +44,15 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **lpguid** . 
+> Contagem de valores na matriz apontada pelo membro **lpguid.** 
     
  **lpguid**
   
-> Ponteiro para uma matriz de estruturas **GUID** que contém os valores de identificador de classe. 
+> Ponteiro para uma matriz de **estruturas GUID** que contém os valores de identificador de classe. 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre o PT_MV_CLSID, confira [lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre PT_MV_CLSID, consulte [Lista de tipos de propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

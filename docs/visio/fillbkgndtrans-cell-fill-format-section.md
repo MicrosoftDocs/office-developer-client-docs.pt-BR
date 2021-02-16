@@ -42,6 +42,6 @@ Para obter uma referência para a célula FillBkgndTrans pelo índice a partir d
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillBkgndTrans** <br/> |
+|Índice de célula:  <br/> |**visFillBkgndTrans** <br/> |
    
 

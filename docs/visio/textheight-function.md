@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Retorna a altura do texto redigido em uma forma onde nenhuma linha de texto excede MaximumWidth.
+description: Retorna a altura do texto composto em uma forma onde nenhuma linha de texto excede a largura máxima.
 ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33427406"
 ---
 # <a name="textheight-function"></a>Função TEXTHEIGHT
 
-Retorna a altura do texto redigido em uma forma onde nenhuma linha de texto excede _MaximumWidth_. 
+Retorna a altura do texto composto em uma forma onde nenhuma linha de texto excede _a largura máxima._ 
   
 ## <a name="syntax"></a>Sintaxe
 
-TextHEIGHT (* * *shapename! O texto* * * * * *[, MaximumWidth]* * *) 
+TEXTHEIGHT(** *shapename! TheText* ** ** *[,maximumwidth]* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _shapename! o texto_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
-| _MaximumWidth_ <br/> |Opcional  <br/> |**Numérica** <br/> |A largura máxima de um bloco de texto.  <br/> |
+| _shapename!theText_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
+| _maximumwidth_ <br/> |Opcional  <br/> |**Numérica** <br/> |A largura máxima de um bloco de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

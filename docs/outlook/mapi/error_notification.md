@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425439"
 ---
-# <a name="errornotification"></a>ERROR_NOTIFICATION
+# <a name="error_notification"></a>ERROR_NOTIFICATION
 
   
   
@@ -29,7 +29,7 @@ Descreve informações relacionadas a um erro crítico. Isso faz com que uma not
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _ERROR_NOTIFICATION
@@ -52,35 +52,35 @@ typedef struct _ERROR_NOTIFICATION
   
 > Ponteiro para o identificador de entrada do objeto que causa o erro.
     
- **SCODE**
+ **scode**
   
-> Valor de erro para o erro crítico. 
+> Valor de erro do erro crítico. 
     
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para designar o formato do texto apontado pelo membro **lpszError** na estrutura indicada por **lpMAPIError**. O seguinte sinalizador pode ser definido:
+> Bitmask de sinalizadores usados para designar o formato do texto apontado pelo membro **lpszError** na estrutura apontada por **lpMAPIError**. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  **lpMAPIError**
   
-> Ponteiro para uma estrutura [MAPIERROR](mapierror.md) descrevendo o erro. 
+> Ponteiro para uma [estrutura MAPIERROR](mapierror.md) descrevendo o erro. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **ERROR_NOTIFICATION** é um dos membros da União de estruturas incluído no membro **info** da estrutura de [notificação](notification.md) . Quando o membro **info** de uma estrutura de **notificação** contém uma estrutura **ERROR_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como _fnevCriticalError_.
+A **ERROR_NOTIFICATION** estrutura é um dos membros da união de estruturas incluídas no membro **info** da estrutura [NOTIFICATION.](notification.md) Quando o **membro de** informações de uma estrutura **NOTIFICATION** contém uma estrutura **ERROR_NOTIFICATION,** o **membro ulEventType** da estrutura **NOTIFICATION** é definido como  _fnevCriticalError_.
   
-O valor do membro **cbEntryID** e o membro **lpEntryID** podem ser nulos. 
+O valor do membro **cbEntryID** e do membro **lpEntryID** pode ser NULL. 
   
-Para obter mais informações sobre notificação, consulte os tópicos descritos na tabela a seguir.
+Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificação de evento no MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos Notification e Notification.  <br/> |
-|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
-|[Notificação de evento de suporte](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o método **IMAPISupport** para gerar notificações.  <br/> |
+|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral dos eventos de notificação e notificação.  <br/> |
+|[Manipulando notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem lidar com notificações.  <br/> |
+|[Suporte à notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como os provedores de serviços podem usar o **método IMAPISupport** para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -88,7 +88,7 @@ Para obter mais informações sobre notificação, consulte os tópicos descrito
 
 [MAPIERROR](mapierror.md)
   
-[Notifica](notification.md)
+[NOTIFICAÇÃO](notification.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

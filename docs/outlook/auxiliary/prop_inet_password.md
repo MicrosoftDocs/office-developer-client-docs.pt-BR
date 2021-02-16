@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d2e01e3c-634b-4052-8ed1-87f7863cfec5
-description: Representa a senha do usuário para uma caixa de correio de Internet geral.
+description: Representa a senha do usuário para uma caixa de correio geral da Internet.
 ms.openlocfilehash: f6f534c3bdbfef19e791edfa9be0961b682de6ac
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425397"
 ---
-# <a name="propinetpassword"></a>PROP_INET_PASSWORD
+# <a name="prop_inet_password"></a>PROP_INET_PASSWORD
 
-Representa a senha do usuário para uma caixa de correio de Internet geral.
+Representa a senha do usuário para uma caixa de correio geral da Internet.
   
 ## <a name="quick-info"></a>Informações rápidas
 

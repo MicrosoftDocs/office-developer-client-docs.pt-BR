@@ -1,5 +1,5 @@
 ---
-title: Função log10 (aplicativo Web personalizado do Access)
+title: Função Log10 (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424865"
 ---
-# <a name="log10-function-access-custom-web-app"></a>Função log10 (aplicativo Web personalizado do Access)
+# <a name="log10-function-access-custom-web-app"></a>Função Log10 (aplicativo Web personalizado do Access)
 
 Retorna o logaritmo de base 10 de um número.
   
@@ -23,16 +23,16 @@ Retorna o logaritmo de base 10 de um número.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Log10** (*Numericé*) 
+ **Log10** (*NumericExpression*) 
   
-A função **log10** contém o argumento a seguir. 
+A **função Log10** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |O número positivo cujo logaritmo de base 10 você deseja obter.  <br/> |
+| *NumericExpression*  <br/> |O número positivo para o qual você deseja o logaritmo de base 10.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função **log** permite que você altere a base do logaritmo, em vez de usar a base 10. 
+A **função Log** permite alterar a base do logaritmo, em vez de usar a base 10. 
   
 

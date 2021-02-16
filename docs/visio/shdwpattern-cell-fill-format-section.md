@@ -22,8 +22,8 @@ Determina o padrão de preenchimento da sombra de uma forma.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Nenhum (preenchimento transparente)  <br/> |
-|1  <br/> |Cor do primeiro plano sólida  <br/> |
+|0  <br/> |Nenhum (preenchimento transparente)  <br/> |
+|1   <br/> |Cor do primeiro plano sólida  <br/> |
 |2 - 40  <br/> |Padrões variados  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,6 +42,6 @@ Para obter uma referência para a célula ShdwPattern pelo índice, a partir de 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillShdwPattern** <br/> |
+|Índice de célula:  <br/> |**visFillShdwPattern** <br/> |
    
 

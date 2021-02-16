@@ -25,13 +25,13 @@ ms.locfileid: "33427723"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um coletor de aviso que quebra um coletor de aviso existente para segurança de thread. 
+Cria um sink de aconselhagem que envolve um sink de aconselhação existente para segurança de thread. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HrThisThreadAdviseSink(
@@ -44,11 +44,11 @@ HrThisThreadAdviseSink(
 
  _lpAdviseSink_
   
-> no Ponteiro para o coletor de aviso a ser quebrado. 
+> [in] Ponteiro para o sink advise a ser empacotado. 
     
  _lppAdviseSink_
   
-> bota Ponteiro para um ponteiro para um novo coletor de aviso que envolve o coletor de avisos apontado pelo parâmetro _lpAdviseSink_ . 
+> [out] Ponteiro para um ponteiro para um novo sink advise que quebra o sink advise apontado pelo parâmetro _lpAdviseSink._ 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -56,18 +56,18 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O objetivo do wrapper é certificar-se de que a notificação é chamada no mesmo thread que chamou a função **HrThisThreadAdviseSink** . Essa função é usada para proteger os retornos de chamada de notificação que devem ser executados em um thread específico. 
+O objetivo do wrapper é garantir que a notificação seja chamada no mesmo thread que chamou a **função HrThisThreadAdviseSink.** Essa função é usada para proteger retornos de chamada de notificação que devem ser executados em um thread específico. 
   
-Os aplicativos cliente devem usar **HrThisThreadAdviseSink** para restringir quando as notificações são geradas, ou seja, quando as chamadas são feitas para o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do objeto de coletor de aviso passado pelo cliente em um **aviso anterior **chamada. Se as notificações tiverem permissão para serem geradas arbitrariamente, uma implementação de notificação poderá forçar um cliente a executar uma operação multithread quando não for apropriado. Por exemplo, um cliente pode usar uma biblioteca, como uma das bibliotecas de classe Microsoft Foundation, que não oferece suporte a chamadas multi-threaded. A notificação em um thread diferente faria com que um cliente fosse difícil de testar e propenso a erros. 
+Os aplicativos cliente devem usar **HrThisThreadAdviseSink** para restringir quando as notificações são geradas, ou seja, quando as chamadas são feitas para o  método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do objeto sink de aviso passado pelo cliente em uma chamada de Aviso anterior. Se as notificações têm permissão para serem geradas arbitrariamente, uma implementação de notificação pode forçar um cliente em uma operação multithread quando isso não seria apropriado. Por exemplo, um cliente pode usar uma biblioteca, como uma das Bibliotecas de Classes do Microsoft Foundation, que não dá suporte a chamadas multithread. A notificação em um thread diferente dificulta o teste de um cliente e fica propenso a erros. 
   
- O **HrThisThreadAdviseSink** garante que as chamadas OnNotify ocorram somente nos seguintes horários apropriados: **** 
+ **HrThisThreadAdviseSink** garante que as chamadas **OnNotify** ocorram apenas nestes horários apropriados: 
   
 - Durante o processamento de uma chamada para qualquer método MAPI. 
     
 - Durante o processamento de mensagens do Windows. 
     
-Quando o **HrThisThreadAdviseSink** é implementado, todas as chamadas para o novo método **OnNotify** do coletor de avisos em qualquer thread fazem com que o método de notificação original seja executado no thread no qual o **HrThisThreadAdviseSink** foi chamado. 
+Quando **HrThisThreadAdviseSink** é implementado, todas as chamadas para o novo método **OnNotify** do sink de aviso em qualquer thread faz com que o método de notificação original seja executado no thread no qual **HrThisThreadAdviseSink** foi chamado. 
   
-Para obter mais informações sobre notificações e coletores de aviso, consulte [Event Notification in MAPI](event-notification-in-mapi.md) e [implementar um objeto de coletor de aviso](implementing-an-advise-sink-object.md). 
+For more information about notification and advise sinks, see [Event Notification in MAPI](event-notification-in-mapi.md) and [Implementing an Advise Sink Object](implementing-an-advise-sink-object.md). 
   
 

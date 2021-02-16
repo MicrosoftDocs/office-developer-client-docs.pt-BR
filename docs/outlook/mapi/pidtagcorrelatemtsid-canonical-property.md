@@ -25,7 +25,7 @@ ms.locfileid: "33426832"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador MTS (sistema de transferência de mensagens) usado na correlação de relatórios com mensagens enviadas.
+Contém o identificador do sistema de transferência de mensagens (MTS) usado na correlação de relatórios com mensagens enviadas.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o identificador MTS (sistema de transferência de mensagens) usado na co
    
 ## <a name="remarks"></a>Comentários
 
-Quando um provedor de transporte encontra uma mensagem enviada com essa propriedade definida como TRUE, ela define essa propriedade como o identificador MTS para essa mensagem. Após a transmissão, essa propriedade é armazenada com a mensagem na pasta Itens enviados da mensagem de interpessoa (IPM).
+Quando um provedor de transporte encontra uma mensagem enviada com essa propriedade definida como TRUE, ele define essa propriedade como o identificador MTS dessa mensagem. Após a transmissão, essa propriedade é armazenada com a mensagem na pasta Itens Enviados da mensagem interpersonal (IPM).
   
-Os sistemas de mensagens que dão suporte à correlação pelo identificador MTS, como X. 400, retêm o identificador como parte do envelope de transporte da mensagem original e também de quaisquer relatórios gerados em resposta a ele. Quando um relatório é entregue a partir de um sistema de mensagens, o provedor de transporte define essa propriedade para o identificador MTS original do envelope de transporte do relatório. Essa propriedade é então armazenada com o relatório.
+Sistemas de mensagens que suportam correlação por identificador MTS, como X.400, mantêm o identificador como parte do envelope de transporte da mensagem original e também de quaisquer relatórios gerados em resposta a ele. Quando um relatório é entregue desse sistema de mensagens, o provedor de transporte define essa propriedade como o identificador MTS original do envelope de transporte do relatório. Em seguida, essa propriedade é armazenada com o relatório.
   
-Um aplicativo cliente pode manter uma pasta de resultados de pesquisa de todas as mensagens com esta propriedade. Quando um relatório chega a uma mensagem, o cliente pode aplicar restrições à pasta Search-Results, localizar a versão original da mensagem e correlacionar as informações da mensagem original com as novas informações.
+Um aplicativo cliente pode manter uma pasta de resultados de pesquisa de todas as mensagens que têm essa propriedade. Quando um relatório chega para essa mensagem, o cliente pode aplicar restrições à pasta de resultados de pesquisa, encontrar a versão original da mensagem e correlacionar as informações da mensagem original com as novas informações.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

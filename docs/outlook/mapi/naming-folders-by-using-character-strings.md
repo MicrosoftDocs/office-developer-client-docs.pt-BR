@@ -1,5 +1,5 @@
 ---
-title: Nomear pastas usando cadeias de caracteres
+title: Nomeando pastas usando cadeias de caracteres
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428309"
 ---
-# <a name="naming-folders-by-using-character-strings"></a>Nomear pastas usando cadeias de caracteres
+# <a name="naming-folders-by-using-character-strings"></a>Nomeando pastas usando cadeias de caracteres
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Se você acessar uma ou mais pastas com frequência durante uma sessão, considere a atribuição de nomes às pastas com o método [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) . Embora **IMsgStore:: SetReceiveFolder** seja usado principalmente para estabelecer pastas especiais para receber mensagens de entrada para classes de mensagens específicas, ele também pode ser usado para associar qualquer pasta com um nome. O nome pode ser o mesmo que a classe de mensagem ou pode ser qualquer cadeia de caracteres, personalizada para uso do cliente. A associação de um nome a uma pasta diminui o tempo necessário para localizar e abrir a pasta. 
+Se você acessar uma ou mais pastas com frequência durante uma sessão, considere atribuir nomes às pastas com o método [IMsgStore::SetReceiveFolder.](imsgstore-setreceivefolder.md) Embora **IMsgStore::SetReceiveFolder** seja usado principalmente para estabelecer pastas especiais para receber mensagens de entrada para determinadas classes de mensagens, ele também pode ser usado para associar qualquer pasta a um nome. O nome pode ser igual à classe de mensagem ou pode ser qualquer cadeia de caracteres, personalizada para uso do cliente. Associar um nome a uma pasta diminui o tempo necessário para encontrar e abrir a pasta. 
   
 

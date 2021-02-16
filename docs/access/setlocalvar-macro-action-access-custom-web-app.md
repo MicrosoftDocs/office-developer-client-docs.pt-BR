@@ -1,5 +1,5 @@
 ---
-title: Ação de macro Definirvarlocal (aplicativo Web personalizado do Access)
+title: Ação de macro DefinirVarLocal (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428113"
 ---
-# <a name="setlocalvar-macro-action-access-custom-web-app"></a>Ação de macro Definirvarlocal (aplicativo Web personalizado do Access)
+# <a name="setlocalvar-macro-action-access-custom-web-app"></a>Ação de macro DefinirVarLocal (aplicativo Web personalizado do Access)
 
 Use a ação **DefinirVarLocal** para criar uma variável temporária e defini-la com um valor específico. 
   
@@ -22,7 +22,7 @@ Use a ação **DefinirVarLocal** para criar uma variável temporária e defini-l
 > A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
-> A ação **definirvarlocal** está disponível somente em macros de dados. 
+> A **ação DefinirVarLocal** está disponível somente em Macros de Dados. 
   
 ## <a name="setting"></a>Definição
 

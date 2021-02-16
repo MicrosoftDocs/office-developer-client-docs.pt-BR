@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: 'A API de gerenciamento de contas fornece acesso a informações de conta e dá suporte a notificações de alterações de conta. Como clientes desta API, os provedores de email fazem o seguinte:'
+description: 'A API de Gerenciamento de Conta fornece acesso às informações da conta e oferece suporte a notificações de alterações de conta. Como clientes dessa API, os provedores de email fazem o seguinte:'
 ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,23 +16,23 @@ ms.locfileid: "33426246"
 ---
 # <a name="about-the-account-management-api"></a>Sobre a API de gerenciamento de contas
 
-A API de gerenciamento de contas fornece acesso a informações de conta e dá suporte a notificações de alterações de conta. Como clientes desta API, os provedores de email fazem o seguinte:
+A API de Gerenciamento de Conta fornece acesso às informações da conta e oferece suporte a notificações de alterações de conta. Como clientes dessa API, os provedores de email fazem o seguinte:
   
-1. Use o [IOlkAccountManager](iolkaccountmanager.md) para gerenciar o acesso a contas e configurar notificações sobre alterações de conta. 
+1. Use [IOlkAccountManager](iolkaccountmanager.md) para gerenciar o acesso a contas e configurar notificações sobre alterações de conta. 
     
-2. Implementar e usar o [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificações sobre alterações de conta. 
+2. Implemente e use [IOlkAccountNotify](iolkaccountnotify.md) para enviar notificações sobre alterações de conta. 
     
 3. Use [IOlkEnum](iolkenum.md) para enumerar contas. 
     
-4. Use o [IOlkAccount](iolkaccount.md) para obter e definir propriedades e outras informações sobre uma conta. Os clientes obtêm essa interface por meio do [IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum:: GetNext](iolkenum-getnext.md) para acessar uma conta individual. 
+4. Use [IOlkAccount](iolkaccount.md) para obter e definir propriedades e outras informações sobre uma conta. Os clientes obtém essa interface por [meio de IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum::GetNext](iolkenum-getnext.md) para acessar uma conta individual. 
     
-5. Implementar e usar o [IOlkAccountHelper](iolkaccounthelper.md) para fornecer a funcionalidade auxiliar do gerente de contas, incluindo obter o nome do perfil da conta e a sessão MAPI atual. 
+5. Implemente e use [IOlkAccountHelper](iolkaccounthelper.md) para fornecer a funcionalidade auxiliar do gerenciador de contas, incluindo obter o nome de perfil de uma conta e a sessão MAPI atual. 
     
-6. Implementar e usar o [IOlkErrorUnknown](iolkerrorunknown.md) para fornecer informações adicionais sobre um erro no **IOlkAccountManager**, **IOlkAccountNotify**e **IOlkAccount**. 
+6. Implemente e use [IOlkErrorUnknown](iolkerrorunknown.md) para fornecer informações extras sobre um erro em **IOlkAccountManager**, **IOlkAccountNotify** e **IOlkAccount**. 
 
-##  <a name="account-management-api-components"></a>Componentes da API de gerenciamento de contas
+##  <a name="account-management-api-components"></a>Componentes da API de Gerenciamento de Conta
 
-A API de gerenciamento de contas fornece as seguintes definições, tipos de dados, interfaces, propriedades nomeadas e propriedades.
+A API de Gerenciamento de Conta fornece as seguintes definições, tipos de dados, interfaces, propriedades nomeadas e propriedades.
   
 ### <a name="definitions"></a>Definições
   

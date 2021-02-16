@@ -22,10 +22,10 @@ Determina o tamanho do desenho.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Mesmo que a impressora  <br/> |**visPrintSetup** <br/> |
-|1  <br/> |Ajustar página ao conteúdo do desenho  <br/> |**visTight** <br/> |
-|duas  <br/> |Standard  <br/> |**visStandard** <br/> |
-|3D  <br/> |Tamanho da página personalizada  <br/> |**visCustom** <br/> |
+|0  <br/> |Mesmo que a impressora  <br/> |**visPrintSetup** <br/> |
+|1   <br/> |Ajustar página ao conteúdo do desenho  <br/> |**visTight** <br/> |
+|2   <br/> |Padrão  <br/> |**visStandard** <br/> |
+|3   <br/> |Tamanho da página personalizada  <br/> |**visCustom** <br/> |
 |4   <br/> |Tamanho do desenho em escala personalizado  <br/> |**visLogical** <br/> |
 |5   <br/> |Métrico (ISO)  <br/> |**visDSMetric** <br/> |
 |6   <br/> |Engenharia ANSI  <br/> |**visDSEngr** <br/> |

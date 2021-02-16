@@ -43,6 +43,6 @@ Para obter uma referência para a célula EnableGrid pelo índice a partir de um
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOEnableGrid** <br/> |
+|Índice de célula:  <br/> |**visPLOEnableGrid** <br/> |
    
 

@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424081"
 ---
-# <a name="contabentryid"></a>CONTAB_ENTRYID
+# <a name="contab_entryid"></a>CONTAB_ENTRYID
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a identificação de entrada da pasta contatos.
+Contém a ID de entrada da pasta de contatos.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |msomapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |msomapiutil.h  <br/> |
    
 ```cpp
 #pragma pack(4) 
@@ -46,15 +46,15 @@ typedef struct _contab_entryid
 
  **abFlags**
   
-> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura [EntryID](entryid.md) . 
+> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do **campo abFlags** de uma [estrutura ENTRYID.](entryid.md) 
     
  **muid**
   
-> GUID que identifica o provedor de repositório.
+> GUID que identifica o provedor do armazenamento.
     
  **ulVersion**
   
-> O número da versão da estrutura **CONTAB_ENTRYID** . Deve ser definido como CONTAB_VERSION. 
+> O número da versão da **CONTAB_ENTRYID** estrutura. Deve ser definido como CONTAB_VERSION. 
     
  **ulType**
   
@@ -67,25 +67,25 @@ typedef struct _contab_entryid
    
  **ulIndex**
   
-> O índice do subconjunto de propriedades de email.
+> O índice no subconjunto de propriedades de email.
     
  **cbeid**
   
-> O tamanho do identificador de entrada da mensagem de contato associada a essa entrada no catálogo de endereços de contatos.
+> O tamanho do identificador de entrada da mensagem de contato associada a essa entrada no Address Book de Contatos.
     
- **Abeid**
+ **abeid**
   
-> O identificador de entrada da mensagem de contato associada a essa entrada no catálogo de endereços de contatos.
+> O identificador de entrada da mensagem de contato associada a essa entrada no Address Book de Contatos.
     
 ## <a name="remarks"></a>Comentários
 
-Um catálogo de endereços de contatos é um catálogo de endereços que contém todos os itens de contato em uma pasta de contatos que tem um endereço de email ou um número de fax. Cada entrada em um catálogo de endereços de contatos é associada a um endereço de email ou a um número de fax. Como um item de contato pode ter até três endereços de email e três números de fax, um item de contato pode ser representado por até seis entradas no catálogo de endereços de contatos correspondente.
+Um Address Book de Contatos é um Address Book que contém todos os itens de contato em uma pasta Contatos que têm um endereço de email ou um número de fax. Cada entrada em um Address Book de Contatos está associada a um endereço de email ou a um número de fax. Como um item de contato pode ter até três endereços de email e três números de fax, um item de contato pode ser representado por até seis entradas no Livro de Endereços de Contatos correspondente.
   
-O objetivo de um catálogo de endereços de contatos é oferecer suporte aos usuários que endereçam mensagens de email para contatos em uma pasta de contatos. O provedor de catálogo de endereços de contatos que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 oferecem suporte é contab32. dll.
+O objetivo de um Livro de Endereços de Contatos é dar suporte a usuários endereçamento de mensagens de email para contatos em uma pasta Contatos. O provedor do Livro de Endereços de Contatos com suporte do Microsoft Outlook 2010 e do Microsoft Outlook 2013 contab32.dll.
   
-A estrutura **CONTAB_ENTRYID** oferece suporte a um subconjunto das informações presentes na mensagem de contato MAPI subjacente. Ele identifica a mensagem de contato à qual uma entrada de catálogo de endereços de contatos específica está associada. 
+A **CONTAB_ENTRYID** estrutura suporta um subconjunto das informações presentes na mensagem de Contato MAPI subjacente. Ele identifica a mensagem de contato à que uma entrada específica do Livro de Endereços de Contatos está associada. 
   
-Os campos **cbeid** e **Abeid** são válidos somente quando o valor do campo **ulType** é definido como CONTAB_DISTLIST ou CONTAB_USER. Quando o valor do campo **ulType** é definido como CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, a estrutura do [DIR_ENTRYID](dir_entryid.md) deve ser usada em vez disso. 
+Os **campos cbeid** e **abeid** só são válidos quando o valor do campo **ulType** é definido como CONTAB_DISTLIST ou CONTAB_USER. Quando o **valor do campo ulType** é definido como CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, a estrutura [DIR_ENTRYID](dir_entryid.md) deve ser usada. 
   
 ## <a name="see-also"></a>Confira também
 

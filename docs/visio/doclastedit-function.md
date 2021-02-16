@@ -20,7 +20,7 @@ Retorna, como valor de série, a data e a hora em que um documento foi editado p
   
 ## <a name="syntax"></a>Sintaxe
 
-DOCLASTEDIT ()
+DOCLASTEDIT()
   
 ## <a name="remarks"></a>Comentários
 

@@ -37,7 +37,7 @@ struct SKEY
 
  _guid_
   
-> GUID do servidor que cria o objeto.
+> GUID do servidor que está criando o objeto.
     
 ## <a name="see-also"></a>Confira também
 

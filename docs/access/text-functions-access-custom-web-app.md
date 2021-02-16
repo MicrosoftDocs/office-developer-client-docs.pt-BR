@@ -1,5 +1,5 @@
 ---
-title: Funções de texto (aplicativo da Web personalizado do Access)
+title: Funções de texto (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426986"
 ---
-# <a name="text-functions-access-custom-web-app"></a>Funções de texto (aplicativo da Web personalizado do Access)
+# <a name="text-functions-access-custom-web-app"></a>Funções de texto (aplicativo Web personalizado do Access)
 
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -22,9 +22,9 @@ ms.locfileid: "33426986"
   
 - [Função CharIndex (aplicativo Web personalizado do Access)](charindex-function-access-custom-web-app.md)
     
-- [Função concat (aplicativo Web personalizado do Access)](concat-function-access-custom-web-app.md)
+- [Função Concat (aplicativo Web personalizado do Access)](concat-function-access-custom-web-app.md)
     
-- [Função Left (aplicativo da Web personalizado do Access)](left-function-access-custom-web-app.md)
+- [Função Left (aplicativo Web personalizado do Access)](left-function-access-custom-web-app.md)
     
 - [Função Len (aplicativo Web personalizado do Access)](len-function-access-custom-web-app.md)
     
@@ -32,18 +32,18 @@ ms.locfileid: "33426986"
     
 - [Função LTrim (aplicativo Web personalizado do Access)](ltrim-function-access-custom-web-app.md)
     
-- [Função Replace (aplicativo Web personalizado do Access)](replace-function-access-custom-web-app.md)
+- [Função Substituir (aplicativo Web personalizado do Access)](replace-function-access-custom-web-app.md)
     
-- [Função replicar (aplicativo Web personalizado do Access)](replicate-function-access-custom-web-app.md)
+- [Função Replicar (aplicativo Web personalizado do Access)](replicate-function-access-custom-web-app.md)
     
 - [Função Right (aplicativo Web personalizado do Access)](right-function-access-custom-web-app.md)
     
 - [Função RTrim (aplicativo Web personalizado do Access)](rtrim-function-access-custom-web-app.md)
     
-- [Função tudo (aplicativo Web personalizado do Access)](stuff-function-access-custom-web-app.md)
+- [Função Stuff (aplicativo Web personalizado do Access)](stuff-function-access-custom-web-app.md)
     
-- [Função substring (aplicativo Web personalizado do Access)](substring-function-access-custom-web-app.md)
+- [Função SubString (aplicativo Web personalizado do Access)](substring-function-access-custom-web-app.md)
     
-- [Função Upper (aplicativo da Web personalizado do Access)](upper-function-access-custom-web-app.md)
+- [Função Upper (aplicativo Web personalizado do Access)](upper-function-access-custom-web-app.md)
     
 

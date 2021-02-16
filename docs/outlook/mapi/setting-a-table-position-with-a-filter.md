@@ -1,5 +1,5 @@
 ---
-title: Definir uma posição de tabela com um filtro
+title: Definindo uma posição de tabela com um filtro
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425467"
 ---
-# <a name="setting-a-table-position-with-a-filter"></a>Definir uma posição de tabela com um filtro
+# <a name="setting-a-table-position-with-a-filter"></a>Definindo uma posição de tabela com um filtro
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Tabela os usuários podem mover o cursor para uma linha que coincida com um conjunto de critérios de filtro. Os filtros podem ser baseados em uma variedade de diretrizes, como valores de propriedade de coluna, bitmasks ou subobjetos. Os filtros são especificados em MAPI usando uma estrutura [SRestriction](srestriction.md) . 
+Os usuários da tabela podem mover o cursor para uma linha que corresponde a um conjunto de critérios de filtro. Os filtros podem ser baseados em uma variedade de diretrizes, como valores de propriedade de coluna, bitmasks ou subobjetos. Os filtros são especificados em MAPI usando [uma estrutura SRestriction.](srestriction.md) 
   
- **Para posicionar uma tabela na primeira linha que corresponda aos critérios estabelecidos em uma restrição**
+ **Para posicionar uma tabela na primeira linha que corresponde aos critérios estabelecidos em uma restrição**
   
-- Chame o método imApitable [:: FindRow](imapitable-findrow.md) . Começando com a linha representada por um indicador específico, o **FindRow** pesquisa em uma direção para a frente ou para trás para localizar uma linha que corresponda aos critérios especificados na restrição. O **FindRow** pode ser útil para implementar uma barra de rolagem baseada em cadeias de caracteres, em vez de valores fracionários. Por exemplo, um cliente pode chamar a implementação do **FindRow** de MAPI ao pesquisar o catálogo de endereços integrados para habilitar um usuário, inserindo um ou mais caracteres, para localizar o primeiro nome que começa com os caracteres especificados. 
+- Chame o [método IMAPITable::FindRow.](imapitable-findrow.md) Começando com a linha representada por um indicador específico, **FindRow** pesquisa em uma direção para frente ou para trás para localizar uma linha que corresponde aos critérios especificados na restrição. **FindRow** pode ser útil para implementar uma barra de rolagem baseada em cadeias de caracteres, em vez de valores fracionais. Por exemplo, um cliente pode chamar a implementação de **FindRow** de MAPI ao pesquisar o livro de endereços integrado para habilitar um usuário, inserindo um ou mais caracteres, para localizar o primeiro nome que começa com os caracteres especificados. 
     
 ## <a name="see-also"></a>Confira também
 

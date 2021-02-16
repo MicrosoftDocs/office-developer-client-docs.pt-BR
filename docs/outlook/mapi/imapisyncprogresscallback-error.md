@@ -25,7 +25,7 @@ ms.locfileid: "33424928"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece detalhes que são exibidos na caixa de diálogo enviar/receber. Se forem encontrados erros durante a sincronização, o provedor de repositório chamará essa função.
+Fornece detalhes que são exibidos na caixa de diálogo Enviar/Receber. Se erros são encontrados durante a sincronização, o provedor do armazenamento chama essa função.
   
 ```cpp
 HRESULT Error(
@@ -36,7 +36,7 @@ HRESULT Error(
 
 ## <a name="parameters"></a>Parâmetros
 
- **And**
+ **hResult**
   
 > O HRESULT do erro ou aviso.
     
@@ -48,7 +48,7 @@ HRESULT Error(
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

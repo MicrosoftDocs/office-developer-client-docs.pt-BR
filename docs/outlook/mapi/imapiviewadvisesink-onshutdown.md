@@ -25,7 +25,7 @@ ms.locfileid: "33428519"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Notifica o Visualizador de formulários de que um formulário está sendo fechado.
+Notifica o visualizador de formulário de que um formulário está sendo fechado.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -43,7 +43,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre notificações de formulário, consulte [envio e recebimento de notificações de formulários](sending-and-receiving-form-notifications.md).
+Para obter mais informações sobre notificações de formulário, consulte [Envio e recebimento de notificações de formulário.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>Confira também
 

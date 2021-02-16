@@ -32,6 +32,6 @@ Se uma fórmula fizer referência a uma célula que contenha um valor de erro, e
 | #REF!  <br/> | Uma referência a uma célula que não existe  <br/> | Uma célula que faz referência a uma outra célula que não existe mais  <br/> |
 | #NUM!  <br/> | Um número inválido  <br/> | Raiz quadrada de um número negativo  <br/> |
 | #N/A!  <br/> | Não é um valor disponível  <br/> | Função NA( )  <br/> |
-| #DIM!  <br/> | Um valor dimensional que excede o intervalo de dimensão (as potências válidas são \<números inteiros \<-128 = n = 127)  <br/> Um valor dimensional usado com uma operação inadequada  <br/> |1in ^ 100 \* 1in ^ 100 (o resultado é 1in ^ 200, que está além do intervalo de dimensão)  <br/> 5,2cm^1,5 (não é uma potência inteira)  <br/> |
+| #DIM!  <br/> | Um valor dimensional que excede o intervalo de dimensão (potências válidas são números inteiros -128 \< = n \< = 127)  <br/> Um valor dimensional usado com uma operação inadequada  <br/> |1in^100 \* 1in^100 (o resultado é 1in^200, que está além do intervalo de dimensão)  <br/> 5,2cm^1,5 (não é uma potência inteira)  <br/> |
    
 

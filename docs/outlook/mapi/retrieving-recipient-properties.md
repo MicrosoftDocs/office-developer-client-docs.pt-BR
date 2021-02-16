@@ -19,14 +19,14 @@ ms.locfileid: "33426671"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para acessar uma ou mais propriedades de uma entrada do catálogo de endereços
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para acessar uma ou mais propriedades de uma entrada de agenda
   
-1. Para cada entrada de catálogo de endereços de interesse, chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md), passando o identificador de entrada do usuário de mensagens de destino ou lista de distribuição.
+1. Para cada entrada de interesse do livro de endereços, chame [IAddrBook::OpenEntry](iaddrbook-openentry.md), passando o identificador de entrada do usuário de mensagens de destino ou lista de distribuição.
     
-2. Em seguida, siga um destes procedimentos:
+2. Em seguida, faça um dos seguintes:
     
-   - Chame o usuário de mensagens ou a lista de distribuição do método [IMAPIProp::](imapiprop-getprops.md) GetProps para cada entrada de catálogo de endereços de interesse, com uma lista de uma ou mais propriedades a serem recuperadas. 
+   - Chame o usuário de mensagens ou o método [IMAPIProp::GetProps](imapiprop-getprops.md) da lista de mensagens para cada entrada de interesse do livro de endereços, com uma lista de uma ou mais propriedades a recuperar. 
     
-   - Call [IAddrBook::P reparerecips](iaddrbook-preparerecips.md), passando uma estrutura [das ADRLIST](adrlist.md) que contém todas as propriedades de todas as entradas do catálogo de endereços desejado. Como uma chamada a **PrepareRecips** pode retornar informações para várias entradas do catálogo de endereços, ela é a estratégia preferida quando você está interessado em mais de um destinatário. 
+   - Chame [IAddrBook::P repareRecips](iaddrbook-preparerecips.md), passando uma estrutura [ADRLIST](adrlist.md) que contém todas as propriedades para todas as entradas do livro de endereços desejado. Como uma chamada para **PrepareRecips** pode retornar informações para várias entradas do livro de endereços, essa é a estratégia preferível quando você está interessado em mais de um destinatário. 
     
 

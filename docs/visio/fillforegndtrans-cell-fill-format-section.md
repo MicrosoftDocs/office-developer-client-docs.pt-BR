@@ -42,6 +42,6 @@ Para obter uma referência para a célula FillForegndTrans pelo índice a partir
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillForegndTrans** <br/> |
+|Índice de célula:  <br/> |**visFillForegndTrans** <br/> |
    
 

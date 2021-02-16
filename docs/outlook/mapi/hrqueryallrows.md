@@ -29,7 +29,7 @@ Recupera todas as linhas de uma tabela.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -46,29 +46,29 @@ HRESULT HrQueryAllRows(
 
 ## <a name="parameters"></a>Parâmetros
 
- _PTable_
+ _ptable_
   
-> no Ponteiro para a tabela MAPI da qual as linhas são recuperadas. 
+> [in] Ponteiro para a tabela MAPI da qual as linhas são recuperadas. 
     
  _ptaga_
   
-> no Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que indicam as colunas da tabela. Essas marcas são usadas para selecionar as colunas específicas a serem recuperadas. Se o parâmetro _ptaga_ for NULL, **HrQueryAllRows** recuperará todo o conjunto de colunas do modo de exibição de tabela atual passado no parâmetro _PTable_ . 
+> [in] Ponteiro para uma [estrutura SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que indicam colunas de tabela. Essas marcas são usadas para selecionar as colunas específicas a serem recuperadas. Se o _parâmetro ptaga_ for NULL, **HrQueryAllRows** recuperará todo o conjunto de colunas do atual exibição de tabela passado no parâmetro _ptable._ 
     
- _pré-instalação_
+ _pres_
   
-> no Ponteiro para uma estrutura [SRestriction](srestriction.md) que contém restrições de recuperação. Se o parâmetro _Pres_ for NULL, **HrQueryAllRows** não fará nenhuma restrição. 
+> [in] Ponteiro para uma [estrutura SRestriction](srestriction.md) que contém restrições de recuperação. Se o  _parâmetro pré-definido_ for NULL, **HrQueryAllRows** não fará restrições. 
     
- _PSOs_
+ _psos_
   
-> no Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) identificando a ordem de classificação das colunas a serem recuperadas. Se o parâmetro _PSOs_ for NULL, a ordem de classificação padrão para a tabela será usada. 
+> [in] Ponteiro para uma [estrutura SSortOrderSet](ssortorderset.md) que identifica a ordem de classificação das colunas a serem recuperadas. Se o  _parâmetro psos_ for NULL, a ordem de classificação padrão para a tabela será usada. 
     
- _crowsMax_
+ _aaa._
   
-> no Número máximo de linhas a serem recuperadas. Se o valor do parâmetro _crowsMax_ for zero, nenhum limite no número de linhas recuperadas será definido. 
+> [in] Número máximo de linhas a serem recuperadas. Se o valor do  _parâmetromax for_ zero, nenhum limite no número de linhas recuperadas será definido. 
     
  _pprows_
   
-> bota Ponteiro para um ponteiro para a estrutura [SRowSet](srowset.md) retornada que contém uma matriz de ponteiros para as linhas da tabela recuperadas. 
+> [out] Ponteiro para um ponteiro para a estrutura [SRowSet](srowset.md) retornada que contém uma matriz de ponteiros para as linhas recuperadas da tabela. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -78,14 +78,14 @@ S_OK
     
 MAPI_E_TABLE_TOO_BIG 
   
-> O número de linhas na tabela é maior do que o número passado para o parâmetro _crowsMax_ . 
+> O número de linhas na tabela é maior que o número passado para o _parâmetromax._ 
     
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente ou provedor de serviços não tem controle sobre o número de linhas que o **HrQueryAllRows** tenta recuperar, exceto por impor uma restrição apontada pelo parâmetro _Pres_ . O parâmetro _crowsMax_ não limita a recuperação a um determinado número de linhas de tabela, mas, em vez disso, define uma quantidade máxima de memória disponível para armazenar todas as linhas recuperadas. A única proteção contra estouro de memória maciça é o recurso stopgap fornecido pela configuração _crowsMax_. O erro de retorno MAPI_E_TABLE_TOO_BIG significa que a tabela contém muitas linhas a serem mantidas de uma só vez na memória. 
+Um aplicativo cliente ou provedor de serviços não tem controle sobre o número de linhas **que HrQueryAllRows** tenta recuperar, além de impor uma restrição apontada pelo parâmetro _pré-definido._ O  _parâmetromax não_ limita a recuperação a um determinado número de linhas de tabela, mas define uma quantidade máxima de memória disponível para manter todas as linhas recuperadas. A única proteção contra estouro de memória grande é o recurso stopgap fornecido pela configuração  _demax_. O erro retorna MAPI_E_TABLE_TOO_BIG significa que a tabela contém linhas demais para serem mantidas todas de uma vez na memória. 
   
-As tabelas que são normalmente pequenas, como uma tabela de repositório de mensagens ou uma tabela de provedor, geralmente podem ser recuperadas com segurança com o **HrQueryAllRows**. As tabelas em risco de ser muito grande, como uma tabela de conteúdo ou mesmo uma tabela de destinatários, devem ser percorridas em subseções usando o método imApitable [:: QueryRows](imapitable-queryrows.md) . 
+Tabelas que normalmente são pequenas, como uma tabela de armazenamento de mensagens ou uma tabela de provedor, geralmente podem ser recuperadas com segurança com **HrQueryAllRows**. Tabelas com risco de serem muito grandes, como uma tabela de conteúdo ou até mesmo uma tabela de destinatários, devem ser percorridas em subseções usando o método [IMAPITable::QueryRows.](imapitable-queryrows.md) 
   
-Se qualquer propriedade da tabela estiver indefinida quando **HrQueryAllRows** for chamado, elas serão retornadas com o tipo de propriedade PT_NULL e o identificador de propriedade PROP_ID_NULL 
+Se alguma propriedade de tabela for indefinida quando **HrQueryAllRows** for chamado, elas serão retornadas com o tipo de propriedade PT_NULL e o identificador de PROP_ID_NULL 
   
 

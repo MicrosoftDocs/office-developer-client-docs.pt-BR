@@ -41,49 +41,49 @@ HRESULT SelectForm(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo exibida. 
+> [in] Um alça para a janela pai da caixa de diálogo exibida. 
     
  _ulFlags_
   
-> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI.
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
  _pszTitle_
   
-> no Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o parâmetro _pszTitle_ for NULL, o provedor de biblioteca de formulários fornecerá uma legenda padrão. 
+> [in] Um ponteiro para uma cadeia de caracteres que contém a legenda da caixa de diálogo. Se o  _parâmetro pszTitle_ for NULL, o provedor da biblioteca de formulário fornece uma legenda padrão. 
     
  _pfld_
   
-> no Um ponteiro para a pasta na qual o formulário será selecionado. Se o parâmetro _pfld_ for NULL, o formulário pode ser selecionado do contêiner de formulários local, pessoal ou organização. 
+> [in] Um ponteiro para a pasta a partir da qual o formulário deve ser selecionado. Se o  _parâmetro pfld_ for NULL, o formulário poderá ser selecionado no contêiner de formulário local, pessoal ou da organização. 
     
  _ppfrminfoReturned_
   
-> bota Um ponteiro para um ponteiro para o objeto de informações do formulário retornado.
+> [out] Um ponteiro para um ponteiro para o objeto de informações de formulário retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> O usuário cancelou a operação, geralmente clicando no botão **Cancelar** na caixa de diálogo. 
+> O usuário cancelou a operação, normalmente clicando no botão **Cancelar** na caixa de diálogo. 
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectForm** para primeiro apresentar uma caixa de diálogo que permite ao usuário selecionar um formulário e, em seguida, recuperar um objeto de informações de formulário que descreve o formulário selecionado. A caixa de diálogo restringe o usuário a selecionar um único Formulário. 
+Visualizadores de formulário chamam o método **IMAPIFormMgr::SelectForm** para apresentar primeiro uma caixa de diálogo que permite ao usuário selecionar um formulário e, em seguida, recuperar um objeto de informações de formulário que descreve o formulário selecionado. A caixa de diálogo restringe o usuário a selecionar um único formulário. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-A caixa de diálogo **SelectForm** exibe somente formulários que não estão ocultos (ou seja, formulários que têm suas propriedades ocultas desmarcadas). Se um visualizador de formulários passar o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ , todas as cadeias de caracteres serão Unicode. Os provedores de biblioteca de formulários que não dão suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
+A **caixa de diálogo SelectForm** exibe somente formulários que não estão ocultos (ou seja, formulários que têm suas propriedades ocultas claras). Se um visualizador de formulário passar o sinalizador MAPI_UNICODE no  _parâmetro ulFlags,_ todas as cadeias de caracteres serão Unicode. Provedores de biblioteca de formulário que não suportam cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE for passado. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -91,7 +91,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnSelectForm  <br/> |MFCMAPI usa o método **IMAPIFormMgr:: SelectForm** para selecionar um formulário e enviar informações sobre o formulário para um ou mais logs.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI usa o **método IMAPIFormMgr::SelectForm** para selecionar um formulário e enviar informações sobre o formulário para um ou mais logs.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

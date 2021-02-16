@@ -25,7 +25,7 @@ ms.locfileid: "33426524"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a estrutura [MAPIUID](mapiuid.md) de um serviço de mensagens. 
+Contém a [estrutura MAPIUID](mapiuid.md) para um serviço de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém a estrutura [MAPIUID](mapiuid.md) de um serviço de mensagens.
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é calculada por objetos de seção de perfil MAPI em perfil. MAPI usa-o para agrupar todos os provedores que pertencem ao mesmo serviço de mensagens. Essa propriedade é fornecida como um parâmetro para a maioria dos métodos [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Ele não deve aparecer no MAPISVC. inf. 
+Essa propriedade é calculada por MAPI em objetos de seção de perfil. O MAPI o usa para agrupar todos os provedores que pertencem ao mesmo serviço de mensagens. Essa propriedade é fornecida como um parâmetro para a maioria dos [métodos IMsgServiceAdmin.](imsgserviceadminiunknown.md) Ele não deve aparecer em Mapisvc.inf. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

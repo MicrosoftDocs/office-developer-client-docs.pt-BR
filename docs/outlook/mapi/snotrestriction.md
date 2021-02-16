@@ -25,11 +25,11 @@ ms.locfileid: "33426650"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição **not** , que é usada para aplicar uma operação lógica **not** a uma restrição. 
+Descreve uma **restrição NOT,** que é usada para aplicar uma operação **LÓGICA NOT** a uma restrição. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -44,15 +44,15 @@ typedef struct _SNotRestriction
 
  **ulReserved**
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  **lpRes**
   
-> Ponteiro para uma estrutura [SRestriction](srestriction.md) descrevendo a restrição a ser associada ao operador lógico **not** . 
+> Ponteiro para uma [estrutura SRestriction](srestriction.md) que descreve a restrição a ser ingressada no operador **LÓGICO NOT.** 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre a estrutura **SNotRestriction** , consulte [about Restrictions](about-restrictions.md). 
+Para obter mais informações sobre a **estrutura SNotRestriction,** consulte [Sobre restrições.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Confira também
 

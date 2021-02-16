@@ -19,23 +19,23 @@ ms.locfileid: "33427440"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma tabela de anexo contém informações sobre todos os objetos Attachment que estão associados a uma mensagem enviada ou uma mensagem em composição. 
+Uma tabela de anexos contém informações sobre todos os objetos anexos que estão associados a uma mensagem enviada ou uma mensagem em composição. 
   
-Somente anexos que foram salvos por meio de uma chamada para o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem são incluídos na tabela. As tabelas de anexo são implementadas por provedores de repositórios de mensagens e usadas por aplicativos cliente e provedores de transporte. 
+Somente anexos que foram salvos por meio de uma chamada para o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem são incluídos na tabela. As tabelas de anexos são implementadas por provedores de armazenamento de mensagens e usadas por aplicativos cliente e provedores de transporte. 
   
-Uma tabela de anexo pode ser acessada chamando-se um dos seguintes:
+Uma tabela de anexos pode ser acessada chamando um dos seguintes:
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp:: OpenProperty](imapiprop-openproperty.md), solicitando a propriedade **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), solicitando a **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) propriedade.
     
-As tabelas de anexo são dinâmicas.
+As tabelas de anexos são dinâmicas.
   
-Os provedores de repositórios de mensagens não são necessários para dar suporte à classificação em suas tabelas de anexo. Se a classificação não for suportada, a tabela deve ser apresentada em ordem por processamento de posição, a propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+Os provedores de armazenamento de mensagens não são obrigados a dar suporte à classificação em suas tabelas de anexos. Se a classificação não for suportada, a tabela deverá ser apresentada em ordem pela posição de renderização — a propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
   
-Os provedores de repositórios de mensagens também não são necessários para dar suporte a restrições em suas tabelas de anexo. Provedores que não dão suporte a restrições retornam MAPI_E_NO_SUPPORT de suas implementações de imApitable [:: Restrict](imapitable-restrict.md) e IMAPITable [:: FindRow](imapitable-findrow.md).
+Os provedores de armazenamento de mensagens também não são obrigados a dar suporte a restrições em suas tabelas de anexos. Provedores que não suportam restrições retornam MAPI_E_NO_SUPPORT de suas implementações de [IMAPITable::Restrict](imapitable-restrict.md) e [IMAPITable::FindRow](imapitable-findrow.md).
   
-As tabelas de anexo podem ser pequenas; Há apenas quatro colunas no conjunto de colunas obrigatório:
+As tabelas de anexos podem ser pequenas; há apenas quatro colunas no conjunto de colunas necessário:
   
 - **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 
     
@@ -45,21 +45,21 @@ As tabelas de anexo podem ser pequenas; Há apenas quatro colunas no conjunto de
     
 - **PR_RENDERING_POSITION**
     
- **PR_ATTACH_NUM** é nontransmittable e contém um valor para identificar exclusivamente um anexo em uma mensagem. Essa propriedade é geralmente usada como um índice nas linhas da tabela. O **PR_ATTACH_NUM** tem uma curta duração; Ela só será válida enquanto a mensagem que contém o anexo estiver aberta. O valor é garantido para permanecer constante, desde que a tabela de anexos esteja aberta. 
+ **PR_ATTACH_NUM** não étransmitível e contém um valor para identificar exclusivamente um anexo em uma mensagem. Essa propriedade geralmente é usada como um índice nas linhas da tabela. **PR_ATTACH_NUM** tempo de vida curto; só é válida enquanto a mensagem que contém o anexo está aberta. Seu valor permanecerá constante enquanto a tabela de anexos for aberta. 
   
- **PR_INSTANCE_KEY** é necessário em quase todas as tabelas. É usado para identificar exclusivamente uma linha específica. 
+ **PR_INSTANCE_KEY** é necessário em quase todas as tabelas. Ele é usado para identificar exclusivamente uma linha específica. 
   
- **PR_RECORD_KEY** é comumente usado para identificar exclusivamente um objeto para fins de comparação. Ao contrário de **PR_ATTACH_NUM**, **PR_RECORD_KEY** tem o mesmo escopo de um identificador de entrada de longo prazo; Ele permanece disponível e é válido mesmo depois que a mensagem é fechada e reaberta. Para obter mais informações sobre o uso de chaves de registro em MAPI, consulte [MAPI Record and Search Keys](mapi-record-and-search-keys.md).
+ **PR_RECORD_KEY** é comumente usado para identificar exclusivamente um objeto para fins de comparação. Ao **PR_ATTACH_NUM**, **PR_RECORD_KEY** tem o mesmo escopo que um identificador de entrada de longo prazo; ele permanece disponível e válido mesmo depois que a mensagem é fechada e reaberta. Para obter mais informações sobre o uso de chaves de registro em MAPI, consulte [Registro MAPI e chaves de pesquisa.](mapi-record-and-search-keys.md)
   
- **PR_RENDERING_POSITION** indica como um anexo deve ser exibido em uma mensagem de Rich Text. Ele pode ser definido como um deslocamento em caracteres, com o primeiro caractere do conteúdo da mensagem, conforme armazenado na propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) deslocada 0 ou como-1 (0xFFFFFFFF), indicando que o anexo não deve ser renderizado dentro da mensagem texto. Não definir **PR_RENDERING_POSITION** também é uma opção. 
+ **PR_RENDERING_POSITION** indica como um anexo deve ser exibido em uma mensagem de rich text. Ele pode ser definido como um deslocamento em caracteres, com o primeiro caractere do conteúdo da mensagem como armazenado na propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) sendo deslocada 0 ou como -1 (0xFFFFFFFF), indicando que o anexo não deve ser renderizado dentro do texto da mensagem. Não definir **PR_RENDERING_POSITION** também é uma opção. 
   
-Quando uma tabela de anexo é classificada pela posição de renderização, o provedor do repositório de mensagens a trata como um valor assinado (PT_LONG). Portanto, os anexos com posições de renderização de-1 são classificados antes dos anexos com posições de renderização que refletem deslocamentos válidos. 
+Quando uma tabela de anexos é ordenada pela posição de renderização, o provedor de armazenamento de mensagens a trata como um valor assinado (PT_LONG). Portanto, anexos com posições de renderização de -1 são organizados antes de anexos com posições de renderização que refletem deslocamentos válidos. 
   
-Para obter mais informações sobre como renderizar um anexo em uma mensagem de texto sem formatação, consulte [renderizar um anexo em texto sem formatação](rendering-an-attachment-in-plain-text.md). 
+Para obter mais informações sobre como renderizar um anexo em uma mensagem de texto sem texto, consulte [Renderização de um anexo em texto sem texto simples.](rendering-an-attachment-in-plain-text.md) 
   
-Para obter informações sobre como renderizar um anexo em texto formatado, como Rich Text Format (RTF), confira [renderizar um anexo no texto RTF](rendering-an-attachment-in-rtf-text.md).
+Para obter informações sobre como renderizar um anexo em texto formatado, como Rich Text Format (RTF), consulte Renderização de um [anexo em texto RTF.](rendering-an-attachment-in-rtf-text.md)
   
-Algumas das propriedades dos provedores de repositório de mensagens normalmente incluem em uma tabela de anexos porque elas são fáceis de calcular ou recuperar são:
+Alguns dos provedores de armazenamento de mensagens de propriedades normalmente incluem em uma tabela de anexos porque eles são fáceis de calcular ou recuperar são:
   
 |||
 |:-----|:-----|

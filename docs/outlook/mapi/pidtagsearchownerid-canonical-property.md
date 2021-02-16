@@ -28,7 +28,7 @@ Contém a ID do processo que está enviando notificações ao indexador sobre ob
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SEARCH_OWNER_ID  <br/> |
-|Exposto por:  <br/> |Objeto do repositório de mensagens  <br/> |
+|Exposto por:  <br/> |Objeto de armazenamento de mensagens  <br/> |
 |Identificador:  <br/> |0x3419  <br/> |
 |Tipo de propriedade:  <br/> |PT_LONG  <br/> |
 |Marca de propriedade:  <br/> |0x34190003  <br/> |

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- função xlsheetid [Excel 2007]
+- função xlsheetid [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33428428"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Localiza a ID de uma folha nomeada para criar referências externas.
+Localiza a ID da planilha de uma planilha nomeada para construir referências externas.
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
@@ -32,18 +32,18 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 _pxSheetName_ (**xltypeStr**)
   
-(Opcional). O nome do livro e planilha que você deseja descobrir. Se for omitido, a função **xlSheetId** retornará a ID de planilha da planilha ativa (frontal). 
+(Opcional). O nome do livro e da planilha que você deseja descobrir. Se for omitida, **a função xlSheetId** retornará a ID da planilha ativa (frontal). 
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna o ID de planilha em _pxRes\>-Val. mref. idSheet_. 
+Retorna a ID da planilha  _em pxRes- \> val.mref.idSheet_. 
   
 > [!NOTE]
-> O ponteiro de matriz _pxRes-\>Val. mref. lpmref_ é definido como nulo após esta chamada, de modo que não haja necessidade de chamar **xlFree** para liberar a memória que esse tipo normalmente contém, embora seja totalmente seguro. 
+> O ponteiro da matriz  _pxRes- \> val.mref.lpmref_ é definido como NULL após essa chamada para que não seja necessário chamar **xlFree** para liberar a memória que esse tipo normalmente contém, embora seja completamente seguro fazer isso. 
   
 ## <a name="remarks"></a>Comentários
 
-A pasta de trabalho que contém a folha especificada deve estar aberta para usar essa função. Não há como criar uma referência a uma pasta de trabalho não aberta de uma DLL. Para obter mais informações sobre como usar o **xlSheetId** para construir referências, confira [Gerenciamento de memória no Excel](memory-management-in-excel.md) para obter exemplos de construção **xltypeRef** . 
+A pasta de trabalho que contém a planilha especificada deve estar aberta para usar essa função. Não há como construir uma referência a uma agenda não aberta a partir de uma DLL. Para obter mais informações sobre como usar **xlSheetId** para construir referências, consulte Gerenciamento de Memória no [Excel](memory-management-in-excel.md) para obter exemplos de construção **xltypeRef.** 
   
 ## <a name="example"></a>Exemplo
 

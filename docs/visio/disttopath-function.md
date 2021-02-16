@@ -25,15 +25,15 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-DISTTOPATH (* * *seção* * *, * * *x* * *, * * *y* * *) 
+DISTTOPATH(** *seção* **, ** *x* **, ** *y* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
-| _x_ <br/> |Obrigatório  <br/> |**Double** <br/> |A coordenada _x_do ponto.  <br/> |
-| _y_ <br/> |Obrigatório  <br/> |**Double** <br/> |A coordenada _y_do ponto.  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _x_ <br/> |Obrigatório  <br/> |**Double** <br/> |A  _coordenada x_ do ponto.  <br/> |
+| _y_ <br/> |Obrigatório  <br/> |**Double** <br/> |A  _coordenada y_ do ponto.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -41,7 +41,7 @@ DISTTOPATH (* * *seção* * *, * * *x* * *, * * *y* * *)
   
 ## <a name="remarks"></a>Comentários
 
-O Microsoft Visio retornará #REF! se a _seção_ não existir. 
+O Microsoft Visio retornará #REF! se  _a_ seção não existir. 
   
 O valor retornado será positivo se o ponto estiver à esquerda da direção da viagem e negativo caso esteja à direita.
   

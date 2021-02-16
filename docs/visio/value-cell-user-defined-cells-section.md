@@ -28,14 +28,14 @@ Para fazer referência à célula Value pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Utilizador.  *Nome* . Valor onde user.  *Name*  é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Usuário.  *Nome*  . Valor em que Usuário.  *Name*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionUser** <br/> |
-| Índice de linha:  <br/> |**visRowUser** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowUser**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visUserValue** <br/> |
    
 

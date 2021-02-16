@@ -28,7 +28,7 @@ HRESULT Placeholder2();
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre S_OK, porque esse membro é um espaço reservado e não tem suporte.
+Sempre S_OK, pois esse membro é um espaço reservado e não tem suporte.
   
 ## <a name="remarks"></a>Comentários
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428218"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o identificador de entrada do objeto que fornece a identidade principal da sessão.
+Retorna o identificador de entrada do objeto que fornece a identidade principal para a sessão.
   
 ```cpp
 HRESULT QueryIdentity(
@@ -38,11 +38,11 @@ HRESULT QueryIdentity(
 
  _lpcbEntryID_
   
-> bota Um ponteiro para a contagem de bytes no identificador de entrada apontado pelo parâmetro _lppEntryID_ . 
+> [out] Um ponteiro para a contagem de byte no identificador de entrada apontado pelo _parâmetro lppEntryID._ 
     
  _lppEntryID_
   
-> bota Um ponteiro para um ponteiro para o identificador de entrada do objeto que fornece a identidade principal.
+> [out] Um ponteiro para um ponteiro para o identificador de entrada do objeto que fornece a identidade principal.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,39 +52,39 @@ S_OK
     
 MAPI_W_NO_SERVICE 
   
-> A chamada teve êxito, mas não há identidade principal para a sessão. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas não há identidade principal para a sessão. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: QueryIdentity** recupera a identidade principal da sessão atual e retorna o valor através do parâmetro _lppEntryID_ . A identidade principal é um objeto, normalmente um usuário de mensagens, que representa o usuário de uma sessão.  _lppEntryID_ retorna a identidade primária para um objeto [IMailUser](imailuserimapiprop.md) , que também é armazenado como a propriedade [PidTagEntryID](pidtagentryid-canonical-property.md) . Você pode usar o valor retornado em _lppEntryID_ para abrir um objeto **IMailUser** usando [IMAPISession:: OpenEntry](imapisession-openentry.md).
+O **método IMAPISession::QueryIdentity** recupera a identidade principal da sessão atual e retorna o valor por meio do parâmetro _lppEntryID._ A identidade principal é um objeto, normalmente um usuário de mensagens, que representa o usuário de uma sessão.  _LppEntryID_ retorna a identidade principal de um objeto [IMailUser,](imailuserimapiprop.md) que também é armazenado como a [propriedade PidTagEntryID.](pidtagentryid-canonical-property.md) Você pode usar o valor retornado em  _lppEntryID_ para abrir um objeto **IMailUser** usando [IMAPISession::OpenEntry](imapisession-openentry.md).
   
-Embora muitos provedores de serviços em vários serviços de mensagens possam fornecer a identidade principal de uma sessão, o MAPI designa um único provedor de serviços. O provedor de serviços que fornece a identidade principal define os seguintes itens:
+Embora muitos provedores de serviços em vários serviços de mensagem possam fornecer a identidade principal para uma sessão, o MAPI designa um único provedor de serviços. O provedor de serviços que fornece a identidade principal define os seguintes itens:
   
-- O sinalizador STATUS_PRIMARY_IDENTITY na propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+- O STATUS_PRIMARY_IDENTITY sinalizador na **propriedade PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-- A propriedade **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)).
+- A **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) .
     
-- A propriedade **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)).
+- A **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) .
     
-- A propriedade **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)).
+- A **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) .
     
-Se o provedor de serviços que fornece a identidade principal pertencer a um serviço de mensagens, os outros provedores de serviços no serviço de mensagens também definirão as propriedades PR_IDENTITY. Essas propriedades são publicadas na tabela de status da sessão. 
+Se o provedor de serviços que fornece a identidade principal pertencer a um serviço de mensagens, os outros provedores de serviços no serviço de mensagens também definirão as PR_IDENTITY propriedades. Essas propriedades são publicadas na tabela de status da sessão. 
   
-Se possível, **QueryIdentity** retorna o valor da propriedade **PR_IDENTITY_ENTRYID** da linha de status marcada com STATUS_PRIMARY_IDENTITY. Se a propriedade **PR_IDENTITY_ENTRYID** estiver ausente na linha de identidade principal, **QueryIdentity** retornará um identificador de entrada one-off criado com outras informações dessa linha. 
+Se possível, **QueryIdentity** retorna o valor da propriedade **PR_IDENTITY_ENTRYID** da linha de status marcada com STATUS_PRIMARY_IDENTITY. Se a **PR_IDENTITY_ENTRYID** propriedade estiver ausente na linha de identidade primária, **QueryIdentity** retornará um identificador de entrada único criado com outras informações dessa linha. 
   
-Se o sinalizador STATUS_PRIMARY_IDENTITY estiver ausente de todas as colunas **PR_RESOURCE_FLAG** na tabela status, **QueryIdentity** retornará o primeiro identificador de entrada localizado. Quando não há identificador de entrada apropriado a ser retornado, **QueryIdentity** é bem-sucedido com o aviso MAPI_W_NO_SERVICE e aponta _lppEntryID_ para um identificador de entrada embutido em código. 
+Se o STATUS_PRIMARY_IDENTITY sinalizador estiver ausente em todas as colunas **PR_RESOURCE_FLAG** na tabela de status, **QueryIdentity** retornará o primeiro identificador de entrada que encontrar. Quando não há identificador de entrada apropriado para retornar, **QueryIdentity** é bem-sucedida com o MAPI_W_NO_SERVICE e aponta  _lppEntryID_ para um identificador de entrada em código. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode chamar o método [IMsgServiceAdmin:: SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) para atribuir um serviço de mensagem a tarefa de fornecer a identidade primária da sessão. 
+Você pode chamar o método [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) para atribuir a um serviço de mensagem a tarefa de fornecer a identidade principal da sessão. 
   
-Outra maneira de recuperar a identidade principal é Pesquisar a tabela de status da linha com as colunas **PR_RESOURCE_FLAGS** definidas como STATUS_PRIMARY_IDENTITY. Para obter mais informações sobre essa maneira alternativa de recuperar informações de identidade, consulte [tabela de status e objetos de status](status-table-and-status-objects.md).
+Outra maneira de recuperar a identidade principal é pesquisando  na tabela de status a linha com PR_RESOURCE_FLAGS colunas definidas como STATUS_PRIMARY_IDENTITY. Para obter mais informações sobre essa maneira alternativa de recuperar informações de identidade, consulte [Status Table and Status Objects](status-table-and-status-objects.md).
   
-Quando você terminar de usar o identificador de entrada para a identidade principal retornada por **QueryIdentity**, libere sua memória chamando a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Quando terminar de usar o identificador de entrada para a identidade principal retornada por **QueryIdentity**, livre sua memória chamando a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para obter mais informações sobre Identity em geral, consulte [MAPI Primary Identity](mapi-primary-identity.md). 
+Para obter mais informações sobre identidade em geral, consulte [MAPI Primary Identity](mapi-primary-identity.md). 
   
-Para obter mais informações sobre como recuperar a identidade da sessão MAPI, consulte Recuperando a [identidade principal e do provedor](retrieving-primary-and-provider-identity.md). 
+Para obter mais informações sobre como recuperar a identidade da sessão MAPI, consulte Recuperando a [identidade principal e do provedor.](retrieving-primary-and-provider-identity.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -92,7 +92,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnQueryIdentity  <br/> |MFCMAPI usa o método **IMAPISession:: QueryIdentity** para abrir a entrada do catálogo de endereços para a identidade principal da sessão.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |MFCMAPI usa o método **IMAPISession::QueryIdentity** para abrir a entrada do livro de endereços para a identidade principal da sessão.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -109,11 +109,11 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
 
 [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Identidade principal de MAPI](mapi-primary-identity.md)
+[Identidade Principal MAPI](mapi-primary-identity.md)
   
-[Recuperar a identidade principal e do provedor](retrieving-primary-and-provider-identity.md)
+[Recuperando a identidade principal e do provedor](retrieving-primary-and-provider-identity.md)
   
 [Usando macros para tratamento de erros](using-macros-for-error-handling.md)
   
-[Tabela de status e objetos de status](status-table-and-status-objects.md)
+[Tabela de Status e Objetos de Status](status-table-and-status-objects.md)
 

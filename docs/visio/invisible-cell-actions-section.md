@@ -34,14 +34,14 @@ Para obter uma referência para a célula Invisible pelo nome, de outra fórmula
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações Invisibleonde.  *Name* é o nome da linha de ações  <br/> |
+|Nome da célula:  <br/> |Ações. *nome*  . Ações em Outro Lugar.  *nome*  é o nome da linha Actions  <br/> |
    
 Para obter uma referência para a célula Invisible pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionAction** <br/> |
-|Índice de linha:  <br/> |**visRowAction** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visActionInvisible** <br/> |
+|Índice de linha:  <br/> |**visRowAction**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visActionInvisible** <br/> |
    
 

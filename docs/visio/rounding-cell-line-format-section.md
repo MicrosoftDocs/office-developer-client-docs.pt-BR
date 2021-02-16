@@ -22,7 +22,7 @@ Indica o raio do arco de arredondamento aplicado onde dois segmentos contíguos 
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na caixa de diálogo **linha** (na guia **página inicial** , no grupo **forma** , clique em **linha**, aponte para **espessura**e clique em **mais linhas**).
+Você também pode definir esse valor na caixa de diálogo  Linha (na guia Página Início, no grupo Forma, clique em Linha **,** aponte para Peso e clique em Mais **Linhas).**  
   
 Para obter uma referência para a célula Rounding pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

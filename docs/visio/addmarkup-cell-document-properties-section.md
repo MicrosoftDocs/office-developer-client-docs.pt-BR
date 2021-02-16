@@ -30,7 +30,7 @@ Indica se as marcações do documento estão sendo revisadas.
 Quando a célula AddMarkup está definida como VERDADEIRO, o revisor está adicionando marcações e as alterações são aplicadas às páginas de sobreposição de marcação, e não às páginas de desenho originais. Quando a célula AddMarkup está definida como FALSO, o controle de marcação está desativado e as alterações são aplicadas às páginas de desenho originais.
   
 > [!NOTE]
-> Você pode impedir a marcação em seus documentos usando a função GUARD. Se a célula addMarkup contiver a fórmula = GUARD (FALSE), o comando **rastrear marcação** será desabilitado. 
+> Você pode impedir a marcação em seus documentos usando a função GUARD. Se a célula AddMarkup contiver a fórmula =GUARD(FALSE), o comando **Rastrear Marcação** será desabilitado. 
   
 Essa configuração corresponde à configuração de comando **Rastrear Marcação** no grupo **Marcação** na guia **Revisão**. 
   
@@ -46,6 +46,6 @@ Para fazer referência à célula AddMarkup pelo índice a partir de um programa
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowDoc** <br/> |
-|Índice da célula:  <br/> |**visDocAddMarkup** <br/> |
+|Índice de célula:  <br/> |**visDocAddMarkup** <br/> |
    
 

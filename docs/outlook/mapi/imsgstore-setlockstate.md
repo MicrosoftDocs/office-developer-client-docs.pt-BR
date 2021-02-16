@@ -25,7 +25,7 @@ ms.locfileid: "33423626"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Bloqueia ou desbloqueia uma mensagem. Este método é chamado apenas pelo spooler MAPI.
+Bloqueia ou desbloqueia uma mensagem. Esse método é chamado apenas pelo spooler MAPI.
   
 ```cpp
 HRESULT SetLockState(
@@ -38,15 +38,15 @@ HRESULT SetLockState(
 
  _lpMessage_
   
-> no Um ponteiro para a mensagem a ser bloqueada ou desbloqueada.
+> [in] Um ponteiro para a mensagem para bloquear ou desbloquear.
     
  _ulLockState_
   
-> no Um valor que indica se a mensagem deve ser bloqueada ou desbloqueada. Um dos seguintes valores é válido:
+> [in] Um valor que indica se a mensagem deve ser bloqueada ou desbloqueada. Um dos seguintes valores é válido:
     
 MSG_LOCKED 
   
-> A mensagem deve ser bloqueada. 
+> A mensagem deve estar bloqueada. 
     
 MSG_UNLOCKED 
   
@@ -60,15 +60,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore::** setlockstate bloqueia ou desbloqueia uma mensagem. **** Setlockstate só pode ser chamado pelo spooler MAPI enquanto ele está enviando a mensagem. 
+O **método IMsgStore::SetLockState** bloqueia ou desbloqueia uma mensagem. **SetLockState** só pode ser chamado pelo spooler MAPI enquanto está enviando a mensagem. 
   
-Normalmente, quando o spooler MAPI chama setLockstate para bloquear uma mensagem, ele bloqueia somente a mensagem mais antiga (ou seja, a próxima mensagem enfileirada para o spooler MAPI a ser enviado). **** Se a mensagem mais antiga na fila estiver aguardando um provedor de transporte temporariamente indisponível e a próxima mensagem na fila usar um provedor de transporte diferente, o spooler MAPI poderá começar a processar a mensagem mais tarde. Ele começa o processamento bloqueando essa mensagem usando **** setlockstate.
+Normalmente, quando o spooler MAPI chama **SetLockState** para bloquear uma mensagem, ele bloqueia apenas a mensagem mais antiga (ou seja, a próxima mensagem na fila para o spooler MAPI enviar). Se a mensagem mais antiga na fila estiver aguardando um provedor de transporte temporariamente indisponível e a próxima mensagem na fila usar um provedor de transporte diferente, o spooler MAPI poderá começar a processar a mensagem posterior. Ele começa o processamento, locking essa mensagem usando **SetLockState**.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Após o spooler MAPI ter chamado setLockstate com o parâmetro _ulLockState_ definido como MSG_LOCKED, as chamadas para o método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para cancelar a transmissão da mensagem devem falhar. **** 
+Depois que o spooler MAPI tiver chamado **SetLockState** com o parâmetro  _ulLockState_ definido como MSG_LOCKED, as chamadas para o método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para cancelar a transmissão da mensagem deverão falhar. 
   
-Chame o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem em sua **** implementação setlockstate para que quaisquer alterações feitas à mensagem antes da chamada setlockstate sejam salvas. **** 
+Chame o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem na implementação de **SetLockState** para que todas as alterações feitas na mensagem antes da chamada **SetLockState** sejam salvas. 
   
 ## <a name="see-also"></a>Confira também
 

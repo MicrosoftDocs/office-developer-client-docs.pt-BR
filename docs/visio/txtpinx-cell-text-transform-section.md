@@ -18,7 +18,7 @@ ms.locfileid: "33423493"
 ---
 # <a name="txtpinx-cell-text-transform-section"></a>Célula TxtPinX (Seção Text Transform)
 
-Determina a coordenada *x* do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
+Determina a coordenada  *x*  do centro de rotação do bloco de texto em relação à origem da forma. A fórmula padrão é: 
   
 = Largura \* 0,5
   

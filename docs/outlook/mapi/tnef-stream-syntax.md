@@ -21,19 +21,19 @@ ms.locfileid: "33423024"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico apresenta um Bakus-Nauer como a descrição da sintaxe de fluxo TNEF. Nesta descrição, os elementos não terminais que têm uma definição adicional estão em itálico. Constantes e itens literais estão em negrito. As sequências de elementos são listadas em ordem em uma única linha. Por exemplo, o item _Stream_ consiste na constante **TNEF_SIGNATURE**, seguida por uma _chave_, seguida por um _objeto_. Quando um item tem mais de uma implementação possível, as alternativas são listadas em linhas consecutivas. Por exemplo, um _objeto_ pode consistir em um _Message_Seq_, um _Message_Seq_ seguido por um _Attach_Seq_ou apenas um _Attach_Seq_.
+Este tópico apresenta uma Bakus-Nauer como a descrição da sintaxe de fluxo TNEF. Nesta descrição, os elementos não modernos que têm uma definição posterior estão em itálico. Constantes e itens literais estão em negrito. Sequências de elementos são listadas em ordem em uma única linha. For example, the  _Stream_ item consists of the constant **TNEF_SIGNATURE**, followed by a  _Key_, followed by an  _Object_. Quando um item tem mais de uma implementação possível, as alternativas são listadas em linhas consecutivas. Por exemplo, um  _objeto_ pode consistir em um  _Message_Seq_, um  _Message_Seq_ seguido por um  _Attach_Seq_ ou apenas um  _Attach_Seq_.
   
  _TNEF_Stream:_
   
-> **TNEF_SIGNATURE** _Chave_ _Objeto_
+> **TNEF_SIGNATURE** _chave do_ _objeto_
     
- _Chaves_
+ _Chave:_
   
 > um inteiro não assinado de 16 bits diferente de zero
     
-Os transportes habilitados para TNEF geram esse valor antes de usar a implementação TNEF para gerar um fluxo TNEF.
+Os transporte habilitados para TNEF geram esse valor antes de usar a implementação do TNEF para gerar um fluxo TNEF.
   
- _Objeções_
+ _Objeto:_
   
 >  _Message_Seq Message_Seq Attach_Seq Attach_Seq_
     
@@ -43,11 +43,11 @@ Os transportes habilitados para TNEF geram esse valor antes de usar a implementa
     
  _attTnefVersion:_
   
-> **LVL_MESSAGE attTnefVersion sizeof (ULong)** soma de verificação **0x00010000** 
+> **LVL_MESSAGE tamanho de attTnefVersion (ULONG)** 0x00010000 **verificação** 
     
  _attMessageClass:_
   
-> **LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ de soma de verificação 
+> **LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ verificação 
     
  _Msg_Attribute_Seq:_
   
@@ -55,9 +55,9 @@ Os transportes habilitados para TNEF geram esse valor antes de usar a implementa
     
  _Msg_Attribute:_
   
-> Atributo **LVL_MESSAGE** -atributo de ID-soma de verificação de dados 
+> **LVL_MESSAGE** verificação atributo-ID atributo-length attribute-data 
     
-Attribute-ID é um dos identificadores de atributo TNEF, como **attSubject**. Attribute-length é o tamanho em bytes dos dados de atributo. O atributo-data é os dados associados ao atributo.
+Attribute-ID é um dos identificadores de atributo TNEF, como **attSubject**. Comprimento do atributo é o comprimento em bytes dos dados do atributo. Dados de atributo são os dados associados ao atributo.
   
  _Attach_Seq:_
   
@@ -65,9 +65,9 @@ Attribute-ID é um dos identificadores de atributo TNEF, como **attSubject**. At
     
  _attRenddata:_
   
-> **LVL_ATTACHMENT attRenddata** RENDDATA **de soma de verificação de sizeof (RENDDATA)** 
+> **LVL_ATTACHMENT verificação de renddata attRenddata** **sizeof (RENDDATA)** 
     
-Renddata é os dados associados à estrutura **Renddata** que contém as informações de renderização para o anexo correspondente. A estrutura **RENDDATA** é definida no TNEF. Arquivo de cabeçalho H. 
+Os renddata são os dados associados à estrutura **RENDDATA** que contém as informações de renderização do anexo correspondente. A **estrutura RENDDATA** é definida no TNEF. Arquivo de header H. 
   
  _Att_Attribute_Seq:_
   
@@ -75,8 +75,8 @@ Renddata é os dados associados à estrutura **Renddata** que contém as informa
     
  _Att_Attribute:_
   
-> Atributo **LVL_ATTACHMENT** -atributo de ID-soma de verificação de dados 
+> **LVL_ATTACHMENT** verificação atributo-ID atributo-length attribute-data 
     
-O atributo-ID, o tamanho do atributo e o atributo-dados têm as mesmas médias para o item Msg_Attribute.
+Attribute-ID, attribute-length, and attribute-data have the same meanings as for the Msg_Attribute item.
   
 

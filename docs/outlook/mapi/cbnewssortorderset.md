@@ -25,11 +25,11 @@ ms.locfileid: "33423710"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes a serem alocados para uma nova estrutura [SizedSSortOrderSet](sizedssortorderset.md) que contém um número especificado de ordens de classificação representadas por estruturas [SSortOrder](ssortorder.md) . 
+Calcula o número de bytes a serem alocados para uma nova estrutura [SizedSSortOrderSet](sizedssortorderset.md) que contém um número especificado de ordens de classificação representadas por [estruturas SSortOrder.](ssortorder.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewSSortOrderSet (_csort)
 
 ## <a name="parameters"></a>Parâmetros
 
- __csort_
+ _ _csort_
   
-> Contagem de estruturas **SSortOrder** a serem incluídas na estrutura **SSortOrderSet** . 
+> Contagem de **estruturas SSortOrder** a serem incluídas na **estrutura SSortOrderSet.** 
     
 ## <a name="see-also"></a>Confira também
 

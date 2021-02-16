@@ -23,11 +23,11 @@ ms.locfileid: "33428603"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada do [SSortOrderSet](ssortorderset.md) que contém um número especificado de pedidos de classificação. 
+Cria uma estrutura [SSortOrderSet](ssortorderset.md) nomeada que contém um número especificado de ordens de classificação. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
@@ -36,19 +36,19 @@ SizedSSortOrderSet (_csort,_name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__csort_
+_ _csort_
   
-> Contagem de ordens de classificação a serem incluídas na nova estrutura.
+> Contagem de pedidos de classificação a serem incluídos na nova estrutura.
     
-__nome_
+_ _name_
   
 > Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-Use a macro **SizedSSortOrderSet** para criar um conjunto de ordem de classificação com limites explícitos. 
+Use a macro **SizedSSortOrderSet** para criar uma ordem de classificação definida com limites explícitos. 
   
-Para usar a nova estrutura que resulta da macro **SizedSSortOrderSet** como um ponteiro para uma estrutura **SSortOrderSet** , execute a seguinte conversão: 
+Para usar a nova estrutura que resulta da macro **SizedSSortOrderSet** como um ponteiro para uma estrutura **SSortOrderSet,** execute a seguinte projeção: 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;

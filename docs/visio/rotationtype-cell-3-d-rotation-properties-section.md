@@ -1,5 +1,5 @@
 ---
-title: Célula Rotationtype (seção 3-D Rotation Properties)
+title: Célula RotationType (Seção 3-D Rotation Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,34 +14,34 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422940"
 ---
-# <a name="rotationtype-cell-3-d-rotation-properties-section"></a>Célula Rotationtype (seção 3-D Rotation Properties)
+# <a name="rotationtype-cell-3-d-rotation-properties-section"></a>Célula RotationType (Seção 3-D Rotation Properties)
 
 Determina se a forma segue uma rotação paralela, uma rotação de perspectiva ou uma rotação oblíqua, como um inteiro de 0 a 6. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |A forma não tem nenhuma rotação.  <br/> |
-|1  <br/> |A forma tem uma rotação paralela.  <br/> |
-|duas  <br/> |A forma tem uma rotação em perspectiva.  <br/> |
-|3D  <br/> |A forma tem uma rotação oblíquo superior esquerda.  <br/> |
-|4   <br/> |A forma tem uma rotação oblíqua para a direita superior.  <br/> |
-|5   <br/> |A forma tem uma rotação oblíquo inferior à esquerda.  <br/> |
-|6   <br/> |A forma tem uma rotação oblíqua inferior à direita.  <br/> |
+|0  <br/> |A forma não tem rotação.  <br/> |
+|1   <br/> |A forma tem uma rotação paralela.  <br/> |
+|2   <br/> |A forma tem uma rotação de perspectiva.  <br/> |
+|3   <br/> |A forma tem uma rotação oblíqua superior esquerda.  <br/> |
+|4   <br/> |A forma tem uma rotação oblíqua superior direita.  <br/> |
+|5   <br/> |A forma tem uma rotação oblíqua inferior esquerda.  <br/> |
+|6   <br/> |A forma tem uma rotação oblíqua direita inferior.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a **** célula rotationtype pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **RotationType** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |RotationType  <br/> |
    
-Para obter uma referência para a **** célula rotationtype pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **RotationType** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRow3DRotationProperties** <br/> |
-|Índice da célula:  <br/> |**visRotationType** <br/> |
+|Índice de célula:  <br/> |**visRotationType** <br/> |
    
 

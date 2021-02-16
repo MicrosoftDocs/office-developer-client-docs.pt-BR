@@ -22,15 +22,15 @@ Localiza uma cadeia de caracteres de texto contida em outra cadeia de caracteres
   
 ## <a name="syntax"></a>Sintaxe
 
-Find (* * *texto_procurado* * *, * * *no_texto* * *, [* * *Núm_inicial* * *], [* * *ignore_case* * *]) 
+FIND (** *find_text* **, ** *within_text* **,[ ** *start_num* ** ], [ ** *ignore_case* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Texto_procurado_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
-| _format_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A cadeia de caracteres que contém o texto a ser localizado.  <br/> |
-| _núm_inicial_ <br/> |Opcional  <br/> |**Número** <br/> |O caractere para início da pesquisa. O primeiro caractere em _no_texto_ é 1. Se _Núm_inicial_ estiver faltando, será considerado 1.  <br/> |
+| _find_text_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres de texto a ser localizada.  <br/> |
+| _format_ <br/> |Obrigatório  <br/> |**String** <br/> |A cadeia de caracteres que contém o texto a ser localizado.  <br/> |
+| _start_num_ <br/> |Opcional  <br/> |**Número** <br/> |O caractere para início da pesquisa. O primeiro caractere no  _within_text_ é 1. Se  _start_num_ está faltando, supõe-se que seja 1.  <br/> |
 | _ignore_case_ <br/> |Opcional  <br/> |**Boolean** <br/> |Por padrão, a função FIND distingue maiúsculas e minúsculas. Para que a função FIND ignore maiúsculas e minúsculas, defina este argumento como TRUE.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
@@ -39,19 +39,19 @@ Número
   
 ## <a name="remarks"></a>Comentários
 
-Se vários valores correspondentes forem localizados, a função FIND retornará a posição inicial do primeiro valor correspondente na cadeia de caracteres. O argumento _texto_procurado_ não considera nenhum caractere como curingas. 
+Se vários valores correspondentes forem localizados, a função FIND retornará a posição inicial do primeiro valor correspondente na cadeia de caracteres. O  _find_text_ argumento não considera caracteres curinga. 
   
-Se _texto_procurado_:
+Se  _find_text_:
   
--  Estiver vazio (""), FIND corresponde ao primeiro caractere na cadeia de caracteres de pesquisa (ou seja, o caractere numerado _Núm_inicial_ ou 1). 
+-  Está vazio (""), PROCURAR corresponde ao primeiro caractere na cadeia de caracteres de pesquisa (ou seja, o caractere numerado  _start_num_ ou 1). 
     
-- Não aparecer em _no_texto_, localizar retorna o #VALUE! valor de erro. 
+- Não aparece em  _within_text_, FIND retorna o #VALUE! valor de erro. 
     
-Se _Núm_inicial_:
+Se  _start_num_:
   
-- Não é maior que zero (0), FIND retorna o #VALUE! valor de erro. 
+- Não for maior que zero (0), PROCURAR retornará o #VALUE! valor de erro. 
     
-- É maior que o comprimento de _no_texto_, FINDreturns o #VALUE! valor de erro. 
+- É maior do que o comprimento  _within_text_, FINDreturns o #VALUE! valor de erro. 
     
 ## <a name="example"></a>Exemplo
 

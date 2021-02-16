@@ -40,19 +40,19 @@ ULONG cMethods
 
  _ulFlags_
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
  _lpObject_
   
-> no Um ponteiro para o objeto a ser invalidado. A interface do objeto deve ser derivada de **IUnknown**.
+> [in] Um ponteiro para o objeto a ser invalidado. A interface do objeto deve ser derivada de **IUnknown**.
     
  _ulRefCount_
   
-> no A contagem de referência do objeto atual.
+> [in] A contagem de referência presente do objeto.
     
  _cMethods_
   
-> no A contagem de métodos na vtable do objeto.
+> [in] A contagem de métodos na vtable do objeto.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -62,17 +62,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: MakeInvalid** é implementado para todos os objetos de suporte. O objeto a ser invalidado deve ser derivado da interface **IUnknown** ou de uma interface derivada de **IUnknown**.
+O **método IMAPISupport::MakeInvalid** é implementado para todos os objetos de suporte. O objeto a ser invalidado deve ser derivado da interface **IUnknown** ou de uma interface derivada de **IUnknown**.
   
- **MakeInvalid** marca um objeto como inutilizável substituindo a vtable do objeto por um stub vtable de tamanho semelhante em que os métodos **IUnknown:: AddRef** e **IUnknown** : No enTanto, quaisquer outros métodos falham, retornando o valor MAPI_E_INVALID_OBJECT. 
+ **MakeInvalid** marca um objeto como inutilizável substituindo a vtable do objeto por um stub vtable de tamanho semelhante no qual os métodos **IUnknown::AddRef** e **IUnknown::Release** executam conforme o esperado. No entanto, qualquer outro método falhará, retornando o valor MAPI_E_INVALID_OBJECT. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Os provedores de serviços e serviços de mensagens normalmente chamam **MakeInvalid** no momento do desligamento. No enTanto, **MakeInvalid** pode ser chamado a qualquer momento. Por exemplo, se um cliente libera um objeto sem liberar alguns de seus subobjetos, você pode chamar **MakeInvalid** imediatamente para liberar esses subobjetos. 
+Provedores de serviços e serviços de mensagens normalmente chamam **MakeInvalid** no momento do desligamento. No entanto, **MakeInvalid** pode ser chamado a qualquer momento. Por exemplo, se um cliente liberar um objeto sem liberar alguns de seus subobjetos, você poderá chamar **MakeInvalid** imediatamente para liberar esses subobjetos. 
   
-Você deve possuir o objeto que você tentou invalidar. Deve ter pelo menos 16 bytes e ter pelo menos três métodos em sua vtable. 
+Você deve possuir o objeto que você tenta invalidar. Ele deve ter pelo menos 16 bytes de comprimento e ter pelo menos três métodos em sua vtable. 
   
-Você pode chamar **MakeInvalid** e, em seguida, executar qualquer trabalho de desligamento, como descartar as estruturas de dados associadas, que geralmente é executada durante o lançamento de um objeto. O código para suportar o objeto não precisa ser mantido na memória porque o MAPI libera a memória chamando [MAPIFreeBuffer](mapifreebuffer.md) e, em seguida, libera o objeto. Você pode liberar recursos, chamar **MakeInvalid**e, em seguida, ignorar o objeto invalidado. 
+Você pode chamar **MakeInvalid** e executar qualquer trabalho de desligamento, como descartar estruturas de dados associadas, que geralmente é feito durante a liberação de um objeto. O código para dar suporte ao objeto não precisa ser mantido na memória, pois o MAPI libera a memória chamando [MAPIFreeBuffer](mapifreebuffer.md) e libera o objeto. Você pode liberar recursos, chamar **MakeInvalid** e ignorar o objeto invalidado. 
   
 ## <a name="see-also"></a>Confira também
 

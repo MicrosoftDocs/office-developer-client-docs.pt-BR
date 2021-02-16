@@ -1,5 +1,5 @@
 ---
-title: Visão geral do provedor de catálogo de endereços MAPI
+title: Visão geral do provedor de agenda de endereços MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426538"
 ---
-# <a name="mapi-address-book-provider-overview"></a>Visão geral do provedor de catálogo de endereços MAPI
+# <a name="mapi-address-book-provider-overview"></a>Visão geral do provedor de agenda de endereços MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os provedores de catálogo de endereços lidam com o acesso a informações de diretório. As informações de diretório consistem em dados de dois tipos de destinatários de mensagem: usuários de mensagens individuais e grupos de usuários de mensagens que normalmente são tratados juntos em listas de distribuição. Dependendo do tipo de destinatário e do provedor de catálogo de endereços, há uma ampla variedade de informações que podem ser disponibilizadas. Por exemplo, todos os provedores de catálogo de endereços armazenam o nome, o endereço e o tipo de endereço de um destinatário.
+Os provedores de agendas lidam com o acesso às informações do diretório. As informações de diretório consistem em dados para dois tipos de destinatários de mensagens: usuários de mensagens individuais e grupos de usuários de mensagens que normalmente são abordados juntos em listas de distribuição. Dependendo do tipo de destinatário e do provedor do livro de endereços, há uma ampla variedade de informações que podem ser disponibilizadas. Por exemplo, todos os provedores de agendas armazenam o nome, o endereço e o tipo de endereço de um destinatário.
   
-Cada provedor de catálogo de endereços organiza esses dados usando um ou mais contêineres. O número e a estrutura dos contêineres dependem da implementação do provedor do catálogo de endereços. Por exemplo, um provedor de catálogo de endereços pode usar um único contêiner para armazenar todas as informações, outra pode usar um contêiner de nível superior que contém sub-recipientes, e um terceiro pode usar vários contêineres de nível superior, cada um contendo sub-recipientes. Uma hierarquia de contêiner de catálogo de endereços pode ser muito profunda; Não há limite para o número de sub-recipientes que podem ser usados.
+Cada provedor de agendas organiza esses dados usando um ou mais contêineres. O número e a estrutura dos contêineres dependem da implementação do provedor de agendas. Por exemplo, um provedor de livro de endereços pode usar um único contêiner para reter todas as informações, outro pode usar um contêiner de nível superior que contém subcontentores e um terceiro pode usar vários contêineres de nível superior, cada um mantendo subcontainers. Uma hierarquia de contêineres de um livro de endereços pode ser muito profunda; não há limite para o número de subcontainers que podem ser usados.
   
-A ilustração a seguir mostra uma organização típica de catálogo de endereços MAPI.
+A ilustração a seguir mostra uma organização típica do livro de endereços MAPI.
   
 **Address book organization**
   
-![Organização do catálogo de endereços] (media/amapi_04.gif "Organização do catálogo de endereços")
+![Organização do address book Address](media/amapi_04.gif "book")
   
-O MAPI integra todas as informações fornecidas pelos provedores de catálogo de endereços instalados em um único catálogo de endereços, apresentando um modo de exibição unificado para o aplicativo cliente. A lista integrada mostra os contêineres de nível superior exibidos por cada um dos provedores de catálogo de endereços instalados. A maioria dos provedores de catálogos de endereços expõem apenas alguns contêineres (normalmente de um a três) no nível superior para inclusão no nível superior do catálogo de endereços integrado MAPI. Por exemplo, um provedor de catálogo de endereços pode tornar disponível "todos os usuários" e "usuários locais" como dois contêineres no nível superior.
+MAPI integrates all the information supplied by the installed address book providers into a single address book, presenting a unified view to the client application. A lista integrada mostra os contêineres de nível superior exibidos por cada um dos provedores de agendas instalados. A maioria dos provedores de livro de endereços expõe apenas alguns contêineres (normalmente um a três) no nível superior para inclusão no nível superior do livro de endereços integrado MAPI. Por exemplo, um provedor de agendas pode disponibilizar "Todos os Usuários" e "Usuários Locais" como dois contêineres no nível superior.
   
-Os usuários de aplicativos cliente podem exibir o conteúdo dos contêineres do catálogo de endereços e, em alguns casos, modificar o conteúdo. Os contêineres do catálogo de endereços podem ser criados com diferentes níveis de acesso, dependendo do provedor de catálogo de endereços. 
+Os usuários de aplicativos cliente podem exibir o conteúdo dos contêineres do livro de endereços e, em alguns casos, modificar o conteúdo. Os contêineres de agenda podem ser criados com níveis de acesso diferentes, dependendo do provedor de agendas. 
   
 ## <a name="see-also"></a>Confira também
 

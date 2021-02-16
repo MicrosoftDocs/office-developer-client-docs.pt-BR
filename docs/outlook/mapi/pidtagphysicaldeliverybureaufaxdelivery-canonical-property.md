@@ -25,7 +25,7 @@ ms.locfileid: "33422716"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se o sistema de mensagens deve usar um fax Bureau para entrega física da mensagem.
+Contém TRUE se o sistema de mensagens deve usar uma agência de fax para entrega física dessa mensagem.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contém TRUE se o sistema de mensagens deve usar um fax Bureau para entrega fís
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,38 +22,38 @@ Retorna um número truncado para o número especificado de dígitos.
   
 ## <a name="syntax"></a>Sintaxe
 
-TRUNCAr (* * *número* * *, * * *dígitos* * *) 
+TRUNC(** *number* **, ** *numberofdigits* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número a ser truncado.  <br/> |
-| _dígitos_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número de dígitos para o qual truncar o _número_.  <br/> |
+| _numberofdigits_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O número de dígitos para o qual truncar _o número._  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
-Numéricos.
+Numérico.
   
 ## <a name="remarks"></a>Comentários
 
-Se o número de _dígitos_ for maior que 0, o número será truncado para o _número_ de _dígitos_ à direita do decimal. Se o número de _dígitos_ for 0, _núm_ será truncado para um inteiro. Se o número de _dígitos_ for menor que 0, o número será truncado para o _número_ de _dígitos_ à esquerda do decimal. 
+Se  _numberofdigits_ for maior que 0,  _o_ número será truncado para  _numerardigits_ à direita do decimal. Se  _numberofdigits_ for 0,  _o número_ será truncado para um inteiro. Se  _numberofdigits_ for menor que 0,  _o_ número será truncado para  _numberofdigits_ à esquerda do decimal. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-TRUNCAR (123.654, 2)
+TRUNC(123.654,2)
   
 Retornará 123,65.
   
 ## <a name="example-2"></a>Exemplo 2
 
-TRUNCAR (123.654, 0)
+TRUNC(123.654,0)
   
 Retornará 123.
   
 ## <a name="example-3"></a>Exemplo 3
 
-TRUNCAR (123.654,-1)
+TRUNC(123.654,-1)
   
 Retornará 120.
   

@@ -22,9 +22,9 @@ Determina o alinhamento vertical do texto no bloco de texto.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Início  <br/> |**visVertTop** <br/> |
-| 1  <br/> | Middleware  <br/> |**visVertMiddle** <br/> |
-| duas  <br/> | Inferior  <br/> |**visVertBottom** <br/> |
+| 0  <br/> | Início  <br/> |**visVertTop** <br/> |
+| 1   <br/> | Meio  <br/> |**visVertMiddle** <br/> |
+| 2   <br/> | Inferior  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

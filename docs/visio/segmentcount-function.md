@@ -20,7 +20,7 @@ Retorna o número de segmentos de linha que formam o caminho.
   
 ## <a name="syntax"></a>Sintaxe
 
-SEGMENTCOUNT (* * *pathRef* * *) 
+SEGMENTCOUNT(** *pathRef* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 

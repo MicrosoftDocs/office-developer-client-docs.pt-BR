@@ -25,13 +25,13 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-BOUNDINGBOXDIST (* * *índice* * *) 
+BOUNDINGBOXDIST(** *Index* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Obrigatório  <br/> |**Número** <br/> |A parte da caixa delimitadora da forma para medir e retornar. Consulte comentários para os valores possíveis.  <br/> |
+| _Index_ <br/> |Obrigatório  <br/> |**Número** <br/> |A parte da caixa delimitativa da forma a ser medida e retornada. Consulte comentários para os valores possíveis.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -39,14 +39,14 @@ BOUNDINGBOXDIST (* * *índice* * *)
   
 ## <a name="remarks"></a>Comentários
 
- *Index* pode ser um dos valores a seguir. 
+ *Index*  pode ser um dos seguintes valores. 
   
 |**Item**|**Valor**|
 |:-----|:-----|
-|Largura  <br/> |,0  <br/> |
-|Altura  <br/> |1  <br/> |
-|Borda esquerda até o pino da forma  <br/> |duas  <br/> |
-|Pino da forma até a borda direita  <br/> |3D  <br/> |
+|Largura  <br/> |0  <br/> |
+|Altura  <br/> |1   <br/> |
+|Borda esquerda até o pino da forma  <br/> |2   <br/> |
+|Pino da forma até a borda direita  <br/> |3   <br/> |
 |Pino da forma até a borda superior  <br/> |4   <br/> |
 |Borda inferior até o pino da forma  <br/> |5   <br/> |
 |Centro da caixa delimitadora até PinX  <br/> |6   <br/> |

@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- função tempnum12 [Excel 2007], função TempNum [Excel 2007]
+- Função tempnum12 [excel 2007],função TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33426629"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A função da biblioteca de estrutura que cria um **XLOPER de XLOPER**/ **** temporário contendo um número de planilha do Microsoft Excel (um duplo IEEE de 8 bytes). 
+Função de biblioteca de estrutura que cria um **XLOPER** XLOPER12 temporário contendo um número de planilha do /   Microsoft Excel (um duplo IEEE de 8 byte). 
   
 ```cs
 LPXLOPER TempNum(double d);
@@ -34,15 +34,15 @@ LPXLOPER12 TempNum12(double d);
 
  _d_ (**duplo**)
   
-O valor desejado. Observe que os números do IEEE sub-normal não têm suporte no momento e são arredondados para zero. O infinito negativo é suportado.
+O valor pretendido. Observe que os números sub-normais do IEEE não têm suporte no momento e são arredondados para zero. Há suporte para infinito negativo.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna um **xltypeNum** numérico que contém o valor passado ou zero se o valor passado em é sub-normal. 
+Retorna um **xltypeNum** numérico contendo o valor passado ou zero se o valor passado era sub-normal. 
   
 ## <a name="example"></a>Exemplo
 
-Este exemplo usa a função **TempNum12** para passar um argumento para **xlfGetWorkspace**.
+Este exemplo usa a **função TempNum12** para passar um argumento para **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

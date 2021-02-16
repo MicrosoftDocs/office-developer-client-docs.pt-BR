@@ -22,6 +22,6 @@ Contém uma linha e células para cada alça de controle definida para a forma.
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir as alças de controle na seção **controles** da janela ShapeSheet. Se a forma não tiver nenhuma seção **Controls** , você poderá inserir uma na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e marque a caixa de seleção **Controles**. Para adicionar alças de controle a uma seção **controles** existentes, clique com o botão direito do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
+Você pode definir alças de controle na **seção Controles** da janela ShapeSheet. Se a forma não tiver **nenhuma seção Controls,** você poderá inserir uma na janela ShapeSheet. Clique com o botão direito do mouse na janela do ShapeSheet, clique em **Inserir Seção** e marque a caixa de seleção **Controles**. Para adicionar alças de controle a uma seção **Controles** existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
 

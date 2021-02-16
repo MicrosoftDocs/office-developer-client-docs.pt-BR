@@ -25,7 +25,7 @@ ms.locfileid: "33427063"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de identificadores de entrada para contêineres de catálogo de endereços que devem ser pesquisados para resolver nomes. 
+Contém uma lista de identificadores de entrada para contêineres de livro de endereços que devem ser pesquisados para resolver nomes. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém uma lista de identificadores de entrada para contêineres de catálogo d
    
 ## <a name="remarks"></a>Comentários
 
-Não use essa propriedade. É reservado para uso por MAPI.
+Não use essa propriedade. Ele é reservado para uso pelo MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -58,7 +58,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

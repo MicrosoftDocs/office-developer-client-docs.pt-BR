@@ -21,7 +21,7 @@ ms.locfileid: "33425950"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a cadeia de caracteres Unicode a ser exibida na barra de status com esta propriedade.
+Especifica a cadeia de caracteres Unicode a ser exibida na barra de status com essa propriedade.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Especifica a cadeia de caracteres Unicode a ser exibida na barra de status com e
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,10 +22,10 @@ Determina o estilo de salto de linha de todos os conectores na página de desenh
   
 |**Valor**|**Estilo de salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|duas  <br/> |Lacuna  <br/> |**visLOJumpStyleGap** <br/> |
-|3D  <br/> |Quadrado  <br/> |**visLOJumpStyleSquare** <br/> |
+|0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
+|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2   <br/> |Lacuna  <br/> |**visLOJumpStyleGap** <br/> |
+|3   <br/> |Quadrado  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |2 lados  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5   <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |
@@ -49,6 +49,6 @@ Para obter uma referência à célula LineJumpStyle pelo índice, em outro progr
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOJumpStyle** <br/> |
+|Índice de célula:  <br/> |**visPLOJumpStyle** <br/> |
    
 

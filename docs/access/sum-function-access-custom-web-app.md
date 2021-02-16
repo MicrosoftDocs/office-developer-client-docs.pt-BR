@@ -1,5 +1,5 @@
 ---
-title: Função SUM (aplicativo Web personalizado do Access)
+title: Função Sum (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427098"
 ---
-# <a name="sum-function-access-custom-web-app"></a>Função SUM (aplicativo Web personalizado do Access)
+# <a name="sum-function-access-custom-web-app"></a>Função Sum (aplicativo Web personalizado do Access)
 
 Retorna a soma de todos os valores na expressão.
   
@@ -23,18 +23,18 @@ Retorna a soma de todos os valores na expressão.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Soma** (*Numericé*) 
+ **Soma** (*NumericExpression*) 
   
-A função **sum** contém o argumento a seguir. 
+A **função Soma** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |Uma expressão que identifica o campo que contém os dados numéricos que você deseja adicionar ou uma expressão que executa um cálculo usando os dados desse campo. Os operandos na *numeric* Express podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).  <br/> |
+| *NumericExpression*  <br/> |Uma expressão que identifica o campo que contém os dados numéricos que você deseja adicionar ou uma expressão que executa um cálculo usando os dados desse campo. Os operands em  *NumericExpression*  podem incluir o nome de um campo de tabela, uma constante ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregadas do SQL).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A função **sum** ignora registros que contenham valores nulos. 
+A **função Soma** ignora registros que contêm valores Null. 
   
-A função **sum** só pode ser usada com colunas numéricas. 
+A **função Soma** só pode ser usada com colunas numéricas. 
   
 

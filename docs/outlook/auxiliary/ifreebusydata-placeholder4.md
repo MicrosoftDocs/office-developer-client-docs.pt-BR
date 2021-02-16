@@ -38,7 +38,7 @@ HRESULT Placeholder4(
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre S_OK, porque este é um espaço reservado e não tem suporte.
+Sempre S_OK, pois esse é um espaço reservado e não é suportado.
   
 ## <a name="remarks"></a>Comentários
 

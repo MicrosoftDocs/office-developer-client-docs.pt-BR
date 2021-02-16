@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423003"
 ---
-# <a name="propacctsendstamp"></a>PROP_ACCT_SEND_STAMP
+# <a name="prop_acct_send_stamp"></a>PROP_ACCT_SEND_STAMP
 
-Retorna o carimbo "enviar" da conta.
+Retorna o carimbo "send" da conta.
   
 ## <a name="quick-info"></a>Informações rápidas
 

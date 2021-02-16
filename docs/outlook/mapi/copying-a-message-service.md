@@ -1,5 +1,5 @@
 ---
-title: Copiar um serviço de mensagens
+title: Copiando um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425390"
 ---
-# <a name="copying-a-message-service"></a>Copiar um serviço de mensagens
+# <a name="copying-a-message-service"></a>Copiando um serviço de mensagens
 
   
   
@@ -23,8 +23,8 @@ ms.locfileid: "33425390"
   
  **Para copiar um serviço de mensagens para um perfil**
   
-- Chamar [IMsgServiceAdmin:: CopyMsgService](imsgserviceadmin-copymsgservice.md).
+- Chame [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).
     
-Quando um serviço de mensagens é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original. Às vezes **CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED. A causa mais comum desse retorno de erro é um serviço de mensagens que não permite que ele próprio seja duplicado. 
+Quando um serviço de mensagens é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original. Às **vezes, CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED. A causa mais comum desse retorno de erro é um serviço de mensagens que não se permite ser duplicado. 
   
 

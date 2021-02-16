@@ -25,11 +25,11 @@ ms.locfileid: "33423381"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Computa o complemento de um inteiro de 64 bits não assinado. 
+Calcula o complemento dos dois de um inteiro de 64 bits não assinado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,10 +43,10 @@ FILETIME FtNegFt(
 
  _ft_
   
-> no Uma estrutura [FILETIME](filetime.md) que contém o inteiro de 64 bits não assinado para o qual calcular o complemento de dois. 
+> [in] Uma [estrutura FILETIME](filetime.md) que contém o inteiro de 64 bits não assinado para o qual calcular o complemento dos dois. 
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **FtNegFt** retorna uma estrutura **FILETIME** que contém o complemento de dois do inteiro. O parâmetro de entrada permanecerá inalterado. 
+A **função FtNegFt** retorna uma estrutura **FILETIME** que contém o complemento dos dois números inteiros. O parâmetro de entrada permanece inalterado. 
   
 

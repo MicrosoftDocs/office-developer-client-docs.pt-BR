@@ -22,15 +22,15 @@ Retorna um ponto transformado em coordenadas locais no sistema de coordenadas de
   
 ## <a name="syntax"></a>Sintaxe
 
-LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
+LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
-| _srcRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
-| _dstRef_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
+| _srcPoint_ <br/> |Obrigatório  <br/> |**String** <br/> | Um ponto nas coordenadas locais no sistema de coordenadas de origem.  <br/> |
+| _srcRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de origem.  <br/> |
+| _dstRef_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma referência a uma célula no objeto de destino.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

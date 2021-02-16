@@ -22,13 +22,13 @@ Indica o tipo de sombra padrão para uma página.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 1  <br/> | Simples  <br/> |**visFSTSimple** <br/> |
-| duas  <br/> | Oblíqua  <br/> |**visFSTOblique** <br/> |
-|3D  <br/> |Inner  <br/> |**visFSTInner** <br/> |
+| 1   <br/> | Simples  <br/> |**visFSTSimple** <br/> |
+| 2   <br/> | Oblíqua  <br/> |**visFSTOblique** <br/> |
+|3   <br/> |Interno  <br/> |**visFSTInner** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
- O tipo de sombra descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma individual na página) é definida como padrão da página (**visFSTPageDefault** ). 
+ O tipo de sombra descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma individual na página) é definida como Padrão da Página (**visFSTPageDefault** ). 
   
 Os tipos de sombra simples são descritos como sombras deslocadas na interface do usuário (UI). Uma sombra simples dá o efeito na forma sendo sombreada em um plano paralelo localizado um pouco atrás dela. As sombras oblíquas são descritas como tal na UI e apresentam o efeito de uma sombra sendo moldada em um plano perpendicular à forma. 
   

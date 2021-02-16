@@ -22,15 +22,15 @@ Determina se esta forma de colocação será movida ao soltar outra forma de col
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Ajustar como especificado na página.  <br/> |**visSLOPlowDefault** <br/> |
-|1  <br/> |Não ajustar formas.  <br/> |**visSLOPlowNever** <br/> |
-|duas  <br/> |Ajustar todas as formas.  <br/> |**visSLOPlowAlways** <br/> |
+|0  <br/> |Ajustar como especificado na página.  <br/> |**visSLOPlowDefault** <br/> |
+|1   <br/> |Não ajustar formas.  <br/> |**visSLOPlowNever** <br/> |
+|2   <br/> |Ajustar todas as formas.  <br/> |**visSLOPlowAlways** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula para uma forma específica na guia **posicionamento** da caixa de diálogo **comportamento** (com uma forma selecionada, na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **design da forma** , clique em **comportamento**e, em seguida, clique no botão Guia **posicionamento** ). 
+Você também pode definir o valor dessa célula para uma forma específica na guia Posicionamento [](run-in-developer-mode-display-the-developer-tab.md) na caixa de diálogo Comportamento (com uma forma  selecionada, na guia Desenvolvedor, no grupo **Design** da Forma, clique em Comportamento e na guia Posicionamento).    
   
-Para definir esse comportamento para *todas* as formas na página de desenho, use a célula PlowCode na seção Page Layout. 
+Para definir esse comportamento para  *todas as*  formas na página de desenho, use a célula PlowCode na seção Page Layout. 
   
 Para obter uma referência para a célula ShapePlowCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

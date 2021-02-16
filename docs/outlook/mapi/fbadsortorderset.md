@@ -41,9 +41,9 @@ ULONG FBadSortOrderSet(
 
 ## <a name="parameters"></a>Parâmetros
 
- _Lpsos_
+ _lpsos_
   
-> no Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) identificando a ordem de classificação definida para ser validada. 
+> [in] Ponteiro para uma [estrutura SSortOrderSet](ssortorderset.md) que identifica a ordem de classificação definida para ser validada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadSortOrderSet** pode ser usada para preparar uma chamada para um método Sort, como o método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+A **função FBadSortOrderSet** pode ser usada para preparar uma chamada para um método de classificação, como o [método IMAPITable::SortTable.](imapitable-sorttable.md) 
   
 

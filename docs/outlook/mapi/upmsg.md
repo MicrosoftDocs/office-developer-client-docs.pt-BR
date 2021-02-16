@@ -19,7 +19,7 @@ ms.locfileid: "33427266"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para carregar um item do Outlook durante o [estado de mensagem de carregamento](upload-message-state.md).
+Informações para carregar um item do Outlook durante o estado [de carregamento da mensagem.](upload-message-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -42,79 +42,79 @@ struct UPMSG
 
  _ulFlags_
   
-> [out]/[in] flags para determinar o comportamento apropriado durante o carregamento. 
+> [out]/[in] Sinalizadores para determinar o comportamento apropriado durante o upload. 
     
   - UPM_ASSOC
     
-    - bota Item está associado.
+    - [out] Item está associado.
     
   - UPM_NEW
     
-    - bota Novo item. 
+    - [out] Novo item. 
     
   - UPM_MOV
     
-    - bota O item foi movido aqui.
+    - [out] Item foi movido para aqui.
     
   - UPM_MOD_PROPS
     
-    - bota As propriedades do item foram modificadas.
+    - [out] Propriedades do item foram modificadas.
     
   - UPM_HEADER
     
-    - bota Item é um cabeçalho de mensagem.
+    - [out] Item é um header de mensagem.
     
   - UPM_OK
     
-    - no O upload foi bem-sucedido. O cliente define isso após carregar informações no servidor.
+    - [in] O carregamento foi bem-sucedido. O cliente define isso depois de carregar informações no servidor.
     
   - UPM_MOVED
     
-    - no O item foi movido com êxito.
+    - [in] Item foi movido com êxito.
     
   - UPM_COMMIT
     
-    - no Confirme o estado de carregamento agora.
+    - [in] Confirma o estado de carregamento agora.
     
   - UPM_DELETE
     
-    - no Excluir o item agora.
+    - [in] Exclua o item agora.
     
   - UPM_SAVE
     
-    - no Salvar alterações no item.
+    - [in] Salve as alterações no item.
     
-_pMsg_
+_pmsg_
   
-> bota Objeto Open item. Consulte mapidefs. h para a definição de tipo de **lpMessage**. 
+> [out] Objeto Open item. Consulte mapidefs.h para a definição de tipo de **LPMESSAGE**. 
     
-_MEID_
+_meid_
   
-> bota ID de entrada do item.
+> [out] ID de entrada do item.
     
 _binReserved1_
   
-> no Este membro é reservado para uso interno do Outlook e não tem suporte. 
+> [in] Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _binReserved2_
   
-> no Este membro é reservado para uso interno do Outlook e não tem suporte. 
+> [in] Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _feid_
   
-> bota ID de entrada da pasta de origem, se o item foi movido.
+> [out] ID de entrada da pasta de origem, se o item foi movido.
     
 _binChg_
   
-> bota Altere a chave do item de destino, se o item foi movido. Consulte mapidefs. h para a definição de tipo de **SBinary**. 
+> [out] Altere a chave do item de destino, se o item tiver sido movido. Consulte mapidefs.h para a definição de tipo de **SBinary**. 
     
 _binPcl_
   
-> bota Altere a lista do item de destino, se o item foi movido. Consulte mapidefs. h para a definição de tipo de **SBinary**. 
+> [out] Alterar a lista do item de destino, se o item tiver sido movido. Consulte mapidefs.h para a definição de tipo de **SBinary**. 
     
 _skeySrc_
   
-> bota Chave de origem do item de origem, se o item foi movido.
+> [out] Chave de origem do item de origem, se o item foi movido.
     
 ## <a name="see-also"></a>Confira também
 

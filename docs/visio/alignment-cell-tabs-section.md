@@ -22,10 +22,10 @@ Especifica o alinhamento de tabulação.
   
 |**Valor**|**Alignment**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Esquerda  <br/> |**visTabStopLeft** <br/> |
-| 1  <br/> | Centro  <br/> |**visTabStopCenter** <br/> |
-| duas  <br/> | À direita  <br/> |**visTabStopRight** <br/> |
-| 3D  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
+| 0  <br/> | Esquerda  <br/> |**visTabStopLeft** <br/> |
+| 1   <br/> | Centro  <br/> |**visTabStopCenter** <br/> |
+| 2   <br/> | À direita  <br/> |**visTabStopRight** <br/> |
+| 3   <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
 | 4   <br/> | Ponto  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -34,14 +34,14 @@ Para fazer referência à célula Alignment pelo nome, a partir de outra fórmul
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Tabula.  *IJ* onde *i e j =* <1>, 2, 3  <br/> |
+| Nome da célula:  <br/> | Guias.  *ij*            onde  *i e j =*  <1>, 2, 3  <br/> |
    
 Para fazer referência à célula Alignment pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTab** <br/> |
-| Índice de linha:  <br/> |**visRowTab +** *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> | (*j* * 3) **+ visTabAlign** <br/> |
+| Índice de linha:  <br/> |**visRowTab +** *i*            onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

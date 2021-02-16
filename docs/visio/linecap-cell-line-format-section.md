@@ -22,9 +22,9 @@ Indica se as terminações da linha são arredondadas, quadradas ou estendidas.
   
 |**Valor**|**Estilo do fim de linha**|
 |:-----|:-----|
-|,0  <br/> |Arredondado  <br/> |
-|1  <br/> |Quadrado  <br/> |
-|duas  <br/> |Estendida  <br/> |
+|0  <br/> |Arredondado  <br/> |
+|1   <br/> |Quadrado  <br/> |
+|2   <br/> |Estendida  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

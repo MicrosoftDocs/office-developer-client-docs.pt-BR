@@ -25,28 +25,28 @@ ms.locfileid: "33427371"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada de um repositório de mensagens rigidamente acoplado de um transporte.
+Contém o identificador de entrada do armazenamento de mensagens fortemente a par de um transporte.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identificador:  <br/> |0x3E06  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propriedades do repositório de mensagens  <br/> |
+|Área:  <br/> |Propriedades do armazenamento de mensagens  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica o identificador de entrada para o repositório rigidamente acoplado, se houver um. Por exemplo, um provedor de transporte pode especificar o identificador de entrada de armazenamento de pasta particular para que o spooler MAPI possa conectar o provedor de transporte ao repositório.
+Esta propriedade especifica o identificador de entrada para o armazenamento fortemente a par, se houver um. Por exemplo, um provedor de transporte pode especificar o identificador de entrada do armazenamento de pastas privadas para que o spooler MAPI possa conectar o provedor de transporte ao armazenamento.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

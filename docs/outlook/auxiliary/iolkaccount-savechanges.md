@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
-description: Confirma as alterações no objeto Account gravando no repositório do registro.
+description: Confirma as alterações no objeto de conta escrevendo no armazenamento do Registro.
 ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33425831"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
-Confirma as alterações no objeto Account gravando no repositório do registro.
+Confirma as alterações no objeto de conta escrevendo no armazenamento do Registro.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -39,12 +39,12 @@ _dwFlags_
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |O método foi bem-sucedido.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Não é possível localizar a conta especificada.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Não é possível encontrar a conta especificada.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerenciador de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Após alterar o valor das propriedades da conta usando [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccount:: SaveChanges** para salvar essas alterações. 
+Depois de alterar o valor das propriedades da conta usando [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccount::SaveChanges** para salvar essas alterações. 
   
 ## <a name="see-also"></a>Confira também
 

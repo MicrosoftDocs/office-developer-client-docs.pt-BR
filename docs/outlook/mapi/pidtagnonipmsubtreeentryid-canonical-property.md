@@ -25,24 +25,24 @@ ms.locfileid: "33427588"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mostra a identificação de entrada da pasta **NON_IPM_SUBTREE** em um repositório de pastas públicas do Exchange. 
+Mostra a ID de entrada da **pasta NON_IPM_SUBTREE** em um armazenamento de Pasta Pública do Exchange. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificador:  <br/> |0x6620  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Repositório de mensagens  <br/> |
+|Área:  <br/> |Armazenamento de mensagens  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33423633"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre um objeto no contêiner, retornando um ponteiro de interface para acesso adicional.
+Abre um objeto no contêiner, retornando um ponteiro de interface para mais acesso.
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,43 +42,43 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do objeto a ser aberto. Se _lpEntryID_ estiver definido como nulo, o contêiner de nível superior na hierarquia do contêiner será aberto. 
+> [in] Um ponteiro para o identificador de entrada do objeto a ser aberto. Se  _lpEntryID_ estiver definido como NULL, o contêiner de nível superior na hierarquia do contêiner será aberto. 
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o objeto. Passar resultados nulos no identificador para a interface padrão do objeto que está sendo retornada. Para mensagens, a interface padrão é [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md); para pastas, é [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). As interfaces padrão para os objetos do catálogo de endereços são [IDistList: IMAPIContainer](idistlistimapicontainer.md) para uma lista de distribuição e [IMailUser: IMAPIProp](imailuserimapiprop.md) para um usuário de mensagens. 
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar o objeto. Passar resultados NULL no identificador para a interface padrão do objeto que está sendo retornada. Para mensagens, a interface padrão [é IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); para pastas, é [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). As interfaces padrão para objetos de livro de endereços são [IDistList : IMAPIContainer](idistlistimapicontainer.md) para uma lista de distribuição e [IMailUser : IMAPIProp](imailuserimapiprop.md) para um usuário de mensagens. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto é aberto. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como o objeto é aberto. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que o objeto será aberto com as permissões de rede máximas permitidas para o usuário e o acesso ao aplicativo cliente máximo. Por exemplo, se o cliente tiver permissão de leitura/gravação, o objeto deverá ser aberto com permissão de leitura/gravação; Se o cliente tiver acesso somente leitura, o objeto deverá ser aberto com acesso somente leitura. 
+> Solicita que o objeto seja aberto com as permissões máximas de rede permitidas para o usuário e o acesso máximo ao aplicativo cliente. Por exemplo, se o cliente tiver permissão de leitura/gravação, o objeto deverá ser aberto com permissão de leitura/gravação; se o cliente tiver acesso somente leitura, o objeto deverá ser aberto com acesso somente leitura. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que o **OpenEntry** seja retornado com êxito, possivelmente antes que o objeto esteja totalmente disponível para o cliente de chamada. Se o objeto não estiver disponível, fazer uma chamada de objeto subsequente poderá gerar um erro. 
+> Permite que **OpenEntry** retorne com êxito, possivelmente antes do objeto estar totalmente disponível para o cliente de chamada. Se o objeto não estiver disponível, fazer uma chamada de objeto subsequente poderá criar um erro. 
     
 MAPI_MODIFY 
   
-> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida. 
+> Solicita permissão de leitura/gravação. Por padrão, os objetos são abertos com acesso somente leitura e os clientes não devem trabalhar com a suposição de que a permissão de leitura/gravação foi concedida. 
     
 SHOW_SOFT_DELETES
   
-> Mostra os itens atualmente marcados como excluídos por software, ou seja, estão na fase de tempo de retenção de item excluído.
+> Mostra itens que estão marcados como excluídos de forma suave, ou seja, eles estão na fase de tempo de retenção de itens excluídos.
     
  _lpulObjType_
   
-> bota Um ponteiro para o tipo do objeto aberto.
+> [out] Um ponteiro para o tipo do objeto aberto.
     
  _lppUnk_
   
-> bota Um ponteiro para um ponteiro para a implementação da interface a ser usada para acessar o objeto Open.
+> [out] Um ponteiro para um ponteiro para a implementação da interface a ser usada para acessar o objeto aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -92,21 +92,21 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> O identificador de entrada especificado por _lpEntryID_ não representa um objeto. 
+> O identificador de entrada especificado por  _lpEntryID_ não representa um objeto. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O identificador de entrada no parâmetro _lpEntryID_ não é de um formato reconhecido pelo contêiner. 
+> O identificador de entrada no  _parâmetro lpEntryID_ não tem um formato reconhecido pelo contêiner. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIContainer:: OpenEntry** abre um objeto em um contêiner e retorna um ponteiro para uma implementação de interface a ser usada para obter mais acesso. 
+O **método IMAPIContainer::OpenEntry** abre um objeto em um contêiner e retorna um ponteiro para uma implementação de interface a ser usada para mais acesso. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Como os provedores de serviço não precisam retornar uma implementação de interface do tipo especificado pelo identificador de interface no parâmetro _lpInterface_ , verifique o valor apontado pelo parâmetro _lpulObjType_ . Se necessário, converta o ponteiro retornado em _lppUnk_ para um ponteiro do tipo apropriado. 
+Como os provedores de serviços não são obrigados a retornar uma implementação de interface do tipo especificado pelo identificador de interface no parâmetro _lpInterface,_ verifique o valor apontado pelo parâmetro _lpulObjType._ Se necessário, cast the pointer returned in  _lppUnk_ to a pointer of the appropriate type. 
   
-Por padrão, os provedores de serviços abrem objetos com acesso somente leitura, a menos que você defina o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS. Quando um desses sinalizadores é definido, os provedores de serviços tentam retornar um objeto modificável. No enTanto, não presuma que porque você solicitou um objeto modificável que o objeto aberto tem permissão de leitura/gravação. Planeje a chance de uma modificação subsequente falhar ou recuperar a propriedade **PR_ACCESS_LEVEL** do objeto para determinar o nível de acesso concedido pelo **OpenEntry**.
+Por padrão, os provedores de serviços abrem objetos com acesso somente leitura, a menos que você de definir o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS leitura. Quando um desses sinalizadores é definido, os provedores de serviços tentam retornar um objeto modificável. No entanto, não pressupõe isso porque você solicitou um objeto modificável que o objeto aberto tem permissão de leitura/gravação. Qualquer um dos planos para a chance de uma  modificação subsequente falhar ou recuperar a propriedade PR_ACCESS_LEVEL do objeto para determinar o nível de acesso concedido por **OpenEntry**.
   
 ## <a name="see-also"></a>Confira também
 

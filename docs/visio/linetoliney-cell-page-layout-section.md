@@ -36,6 +36,6 @@ Para obter uma referência para a célula LineToLineY pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-|Índice da célula:  <br/> |**visPLOLineToLineY** <br/> |
+|Índice de célula:  <br/> |**visPLOLineToLineY** <br/> |
    
 

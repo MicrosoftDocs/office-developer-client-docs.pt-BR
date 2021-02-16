@@ -23,11 +23,11 @@ ms.locfileid: "33423458"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma estrutura [das ADRLIST](adrlist.md) com o nome especificado que contém um número especificado de estruturas [ADRENTRY](adrentry.md) . 
+Define uma estrutura [ADRLIST](adrlist.md) com o nome especificado que contém um número especificado de estruturas [ADRENTRY.](adrentry.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
@@ -36,17 +36,17 @@ SizedADRLIST (_centries,_name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__cEntries_
+_ _centries_
   
-> Contagem de estruturas **ADRENTRY** a serem incluídas na nova estrutura **das ADRLIST** . 
+> Contagem de **estruturas ADRENTRY** a serem incluídas na nova **estrutura ADRLIST.** 
     
-__nome_
+_ _name_
   
-> Nome para a nova estrutura **das ADRLIST** . 
+> Nome da nova **estrutura ADRLIST.** 
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedADRLIST** permite definir uma lista de destinatários que tenha limites explícitos quando os requisitos de comprimento de matriz forem conhecidos. O código a seguir mostra como converter o resultado da macro **SizedADRLIST** para um ponteiro de estrutura **das ADRLIST** : 
+A macro **SizedADRLIST** permite definir uma lista de destinatários com limites explícitos quando os requisitos de comprimento da matriz são conhecidos. O código a seguir mostra como lançar o resultado da macro **SizedADRLIST** em um ponteiro **de estrutura ADRLIST:** 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

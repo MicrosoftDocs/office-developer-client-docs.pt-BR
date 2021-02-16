@@ -1,5 +1,5 @@
 ---
-title: Implementar pastas em repositórios de mensagens
+title: Implementando pastas em armazenamentos de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424907"
 ---
-# <a name="implementing-folders-in-message-stores"></a>Implementar pastas em repositórios de mensagens
+# <a name="implementing-folders-in-message-stores"></a>Implementando pastas em armazenamentos de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma grande quantidade de informações relacionadas ao suporte do provedor de repositório de mensagens para pastas é abordada em [pastas MAPI](mapi-folders.md). Você deve estar familiarizado com essas informações antes de tentar implementar um provedor de armazenamento de mensagens. A seção [pastas MAPI](mapi-folders.md) é bastante orientada à perspectiva do cliente MAPI; Este tópico aborda informações adicionais que são importantes do ponto de vista do provedor de armazenamento de mensagens. 
+Uma grande parte das informações relacionadas ao suporte do provedor de armazenamento de mensagens para pastas é abordada em [Pastas MAPI.](mapi-folders.md) Você deve estar familiarizado com essas informações antes de tentar implementar um provedor de armazenamento de mensagens. A [seção Pastas MAPI](mapi-folders.md) está fortemente orientada à perspectiva do cliente MAPI; este tópico aborda informações adicionais que são importantes do ponto de vista do provedor do armazenamento de mensagens. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos do Armazenamento de Mensagens](message-store-features.md)
 

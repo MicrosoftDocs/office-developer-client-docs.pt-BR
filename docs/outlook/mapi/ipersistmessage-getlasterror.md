@@ -25,7 +25,7 @@ ms.locfileid: "33426706"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior no objeto Form. 
+Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro anterior no objeto form. 
   
 ```cpp
 HRESULT GetLastError(
@@ -37,43 +37,43 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _And_
+ _hResult_
   
-> no Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior.
+> [in] Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo de cadeia de caracteres retornada. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres na estrutura [MAPIERROR](mapierror.md) retornada no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> As cadeias de caracteres na [estrutura MAPIERROR](mapierror.md) retornadas no parâmetro  _lppMAPIError_ estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
  _lppMAPIError_
   
-> bota Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se o formulário não puder fornecer as informações apropriadas para uma estrutura **MAPIERROR** . 
+> [out] Um ponteiro para um ponteiro para uma **estrutura MAPIERROR** que contém informações de versão, componente e contexto para o erro. O _parâmetro lppMAPIError_ pode ser definido como NULL se o formulário não puder fornecer informações apropriadas para uma **estrutura MAPIERROR.** 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e o provedor de catálogo de endereços não é compatível com Unicode, ou o MAPI_UNICODE não foi definido e o provedor de catálogo de endereços oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE de endereços foi definido e o provedor do address book não oferece suporte a Unicode ou MAPI_UNICODE não foi definido e o provedor de agendas oferece suporte apenas a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form implementam o método **IPersistMessage:: GetLastError** para fornecer informações sobre uma chamada de método anterior que falhou. Os visualizadores de formulários podem fornecer aos usuários informações detalhadas sobre o erro incluindo os dados da estrutura [MAPIERROR](mapierror.md) em uma caixa de diálogo. 
+Os objetos de formulário implementam o método **IPersistMessage::GetLastError** para fornecer informações sobre uma chamada de método anterior que falhou. Visualizadores de formulário podem fornecer aos usuários informações detalhadas sobre o erro incluindo os dados da [estrutura MAPIERROR](mapierror.md) em uma caixa de diálogo. 
   
 Uma chamada para **GetLastError** não afeta o estado do formulário. Quando **GetLastError** retorna, o formulário permanece no estado em que estava antes da chamada ser feita. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar a estrutura **MAPIERROR** , se o formulário fornecer um, que será apontado pelo parâmetro _lppMAPIError_ somente se GetLastError retornar S_OK. **** Às vezes, o formulário não pode determinar o que foi o último erro ou não faz mais para relatar o erro. Nessa situação, o formulário retorna um ponteiro para nulo em _lppMAPIError_ em vez disso. 
+You can use the **MAPIERROR** structure, if the form supplies one, that is pointed to by the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Às vezes, o formulário não pode determinar qual foi o último erro ou não tem mais nada a relatar sobre o erro. In this situation, the form returns a pointer to NULL in  _lppMAPIError_ instead. 
   
-Para obter mais informações sobre **** o método GetLastError, consulte [MAPI Extended Errors](mapi-extended-errors.md).
+Para obter mais informações sobre **o método GetLastError,** consulte [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Confira também
 

@@ -36,17 +36,17 @@ Obtém o identificador de entrada de longo prazo de um item.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser usada em uma tabela de conteúdo para obter o identificador de entrada de um item como um identificador de entrada de longo prazo em vez de um identificador de entrada de curto prazo. Para obter informações sobre identificadores de longo prazo e de curto prazo, consulte **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Essa propriedade pode ser usada em uma tabela de conteúdo para obter o identificador de entrada de um item como um identificador de entrada de longo prazo em vez de um identificador de entrada de curto prazo. Para obter informações sobre identificadores de longo e curto prazo, consulte **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

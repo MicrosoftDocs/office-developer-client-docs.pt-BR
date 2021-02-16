@@ -25,7 +25,7 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-CALLOUTTARGETREF ()!
+CALLOUTTARGETREF()!
   
 ### <a name="return-value"></a>Valor de retorno
 
@@ -33,11 +33,11 @@ Referência do ShapeSheet
   
 ## <a name="remarks"></a>Comentários
 
-Se a forma não for uma forma de texto explicativo ou não estiver associada a uma forma de destino, CALLOUTTARGETREF retornará #REF.
+Se a forma não for uma forma de explicação ou não estiver associada a uma forma de destino, CALLOUTTARGETREF retornará #REF.
   
 ## <a name="example"></a>Exemplo
 
-CALLOUTTARGETREF ()! Height 
+CALLOUTTARGETREF()! Altura 
   
 Retorna o valor na célula Height da forma associada ao texto explicativo. 
   

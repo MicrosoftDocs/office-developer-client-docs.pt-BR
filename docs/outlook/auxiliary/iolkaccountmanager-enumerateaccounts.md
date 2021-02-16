@@ -36,7 +36,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 _pclsidCategory_
   
-> no O identificador de classe da categoria a ser enumerada. O valor deve ser uma das seguintes opções:
+> [in] O identificador de classe da categoria a ser enumerada. O valor deve ser uma das seguintes opções:
     
    - CLSID_OlkMail 
     
@@ -46,7 +46,7 @@ _pclsidCategory_
     
 _pclsidType_
   
-> no O identificador de classe do tipo de conta a ser enumerado. O valor deve ser uma das seguintes opções:
+> [in] O identificador de classe do tipo de conta a ser enumerado. O valor deve ser uma das seguintes opções:
     
    - CLSID_OlkPOP3Account
     
@@ -64,20 +64,20 @@ _dwFlags_
     
 _ppEnum_
   
-> bota Um enumerador que oferece suporte à interface [IOlkEnum](iolkenum.md) . 
+> [out] Um enumerador que dá suporte à interface [IOlkEnum.](iolkenum.md) 
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerenciador de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Especificar NULL para Category retorna um enumerador de todas as contas do tipo especificado. Da mesma forma, especificar NULL para Type retorna um enumerador de todas as contas da categoria especificada.
+Especificar NULL para categoria retorna um enumerador de todas as contas do tipo especificado. Da mesma forma, especificar NULL para o tipo retorna um enumerador de todas as contas da categoria especificada.
   
- **IOlkAccountManager:: EnumerateAccounts** não dá suporte à categoria catálogo de endereços para uma conta do Exchange. Se a conta for uma conta do Exchange (*pclsidType* é **CLSID_OlkMAPIAccount** ) e você estiver tentando enumerar contas que implementam o catálogo de endereços (*prgclsidCategory* é **CLSID_OlkAddressBook** ), chamar ** IOlkAccountManager:: EnumerateAccounts** não retornará a conta do Exchange no enumerador de contas *ppEnum* . 
+ **IOlkAccountManager::EnumerateAccounts** não dá suporte à categoria de livro de endereços de uma conta do Exchange. Se a conta for uma conta do Exchange (*pclsidType*  é **CLSID_OlkMAPIAccount** ), e você estiver tentando enumerar contas que implementam o livro de endereços (*prgclsidCategory*  é **CLSID_OlkAddressBook** ), chamar **IOlkAccountManager::EnumerateAccounts** não retornará a conta do Exchange no enumerador de contas  *ppEnum*  . 
   
 ## <a name="see-also"></a>Confira também
 

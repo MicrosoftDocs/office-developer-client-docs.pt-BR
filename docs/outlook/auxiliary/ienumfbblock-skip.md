@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  no O número de blocos de disponibilidade a ser ignorado. 
+>  [in] O número de blocos de ocupado/livre a ignorar. 
     
 ## <a name="return-values"></a>Valores de retorno
 

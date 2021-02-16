@@ -25,11 +25,11 @@ ms.locfileid: "33428099"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que devem ser alocados para uma nova estrutura do [MTSID](mtsid.md) com um identificador de agente de transferência de mensagem de um tamanho especificado. 
+Calcula o número de bytes que devem ser alocados para uma nova estrutura [MTSID](mtsid.md) com um identificador de agente de transferência de mensagens de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewMTSID (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CB_
+ _ _cb_
   
-> Contagem de bytes para o identificador de agente de transferência de mensagem a ser incluído na nova estrutura **MTSID** . 
+> Contagem de bytes para o identificador do agente de transferência de mensagens a ser incluído na nova **estrutura MTSID.** 
     
 ## <a name="see-also"></a>Confira também
 

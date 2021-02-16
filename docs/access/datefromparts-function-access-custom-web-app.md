@@ -22,23 +22,23 @@ Retorna um valor de data para o ano, mês e dia especificados.
   
 ## <a name="syntax"></a>Sintaxe
 
-**DateFromParts** (*Ano*, *mês*, *dia*) 
+**DateFromParts** (*Ano*, *Mês*, *Dia*) 
   
-A função **DateFromParts** contém os seguintes argumentos. 
+A **função DateFromParts** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Year*  <br/> |Expressão de inteiro que especifica um ano.  <br/> |
-| *Month*  <br/> |Expressão de inteiro que especifica um mês, de 1 a 12.  <br/> |
-| *Day*  <br/> |Expressão de inteiro que especifica um dia.  <br/> |
+| *Year*  <br/> |Expressão inteira especificando um ano.  <br/> |
+| *Month*  <br/> |Expressão inteira especificando um mês, de 1 a 12.  <br/> |
+| *Day*  <br/> |Expressão inteira especificando um dia.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-**DateFromParts** retorna um valor de data com a parte de data definida para o ano, mês e dia especificados, e a parte de hora definida como padrão. Se os argumentos não forem válidos, ocorrerá um erro. Se os argumentos necessários forem nulos, NULL será retornado. 
+**DateFromParts** retorna um valor de data com a parte de data definida para o ano, mês e dia especificados e a parte de tempo definida como o padrão. Se os argumentos não são válidos, um erro é gerado. Se os argumentos necessários são nulos, NULL é retornado. 
   
 ## <a name="example"></a>Exemplo
 
-A expressão a seguir usa a função **DateFromParts** para calcular o primeiro dia do mês atual. 
+A expressão a seguir usa **a função DateFromParts** para calcular o primeiro dia do mês atual. 
   
 `DateFromParts(Year(Today()),Month(Today()),1)`
 

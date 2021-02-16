@@ -25,7 +25,7 @@ ms.locfileid: "33425196"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Chama uma função interna para verificar os parâmetros que os aplicativos clientes passaram para os provedores de serviço. 
+Chama uma função interna para verificar os parâmetros que os aplicativos cliente passaram para provedores de serviços. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT ValidateParameters(
 
  _eMethod_
   
-> no Especifica, por enumeração, o método a ser validado. 
+> [in] Especifica, por enumeração, o método a ser validado. 
     
  _Primeira_
   
-> no Ponteiro para o primeiro argumento na pilha.
+> [in] Ponteiro para o primeiro argumento na pilha.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -58,10 +58,10 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Um ou mais parâmetros não são válidos.
+> Um ou mais dos parâmetros não são válidos.
     
 ## <a name="remarks"></a>Comentários
 
-A **** macro ValidateParameters foi substituída pela macro [ValidateParms](validateparms.md) . **ValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las. Ele ainda é compilado e funciona corretamente nas plataformas Intel, mas o **ValidateParms** é recomendado em todas as plataformas. 
+A macro **ValidateParameters** foi sobressalvada pela macro [ValidateParms.](validateparms.md) **ValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las. Ele ainda compila e funciona corretamente em plataformas Intel, mas **ValidateParms** é recomendado em todas as plataformas. 
   
 

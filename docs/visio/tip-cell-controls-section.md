@@ -26,14 +26,14 @@ Para fazer referência à célula Tip pelo nome a partir de outra fórmula ou de
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Menores.  *nome* . Controles Tipwhere.  *Name* é o nome da linha de controles.  <br/> |
+| Nome da célula:  <br/> | Controles.  *nome*  . Controles em Tipwhere.  *é*  o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula Tip pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionControls** <br/> |
-| Índice de linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowControl**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCtlTip** <br/> |
    
 

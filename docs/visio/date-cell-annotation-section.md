@@ -38,7 +38,7 @@ Para fazer referência à célula Date pelo índice a partir de um programa, use
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionAnnotation** <br/> |
-| Índice de linha:  <br/> |**visRowAnnotation ** +  *i*            onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowAnnotation** +  *i*            onde *i* = 0, 1, 2...  <br/> |
 | Índice de célula:  <br/> |**visAnnotationDate** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428589"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Apresenta uma caixa de diálogo que permite ao usuário selecionar um contêiner de formulários e retorna uma interface para o objeto Container que o usuário selecionou.
+Apresenta uma caixa de diálogo que permite ao usuário selecionar um contêiner de formulário e retorna uma interface para o objeto contêiner selecionado pelo usuário.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -39,37 +39,37 @@ HRESULT SelectFormContainer(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai da caixa de diálogo exibida. 
+> [in] Um alça para a janela pai da caixa de diálogo exibida. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a biblioteca de formulários é selecionada (ou seja, como o contêiner de formulários é selecionado). Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a biblioteca de formulário é selecionada (ou seja, como o contêiner de formulário é selecionado). Os sinalizadores a seguir podem ser definidos:
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
-> A seleção pode ser feita de todos os contêineres. Este é o tipo de seleção padrão. 
+> A seleção pode ser feita de todos os contêineres. Esse é o tipo de seleção padrão. 
     
 MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY 
   
-> A seleção pode ser feita somente a partir de contêineres de pasta.
+> A seleção só pode ser feita a partir de contêineres de pasta.
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> A seleção pode ser feita apenas de contêineres que não estão associados a pastas.
+> A seleção só pode ser feita de contêineres que não estão associados a pastas.
     
  _lppfcnt_
   
-> bota Um ponteiro para um ponteiro para a interface retornada. Essa interface é para o objeto Container selecionado pelo usuário.
+> [out] Um ponteiro para um ponteiro para a interface retornada. Essa interface é para o objeto de contêiner selecionado pelo usuário.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Normalmente, os visualizadores de formulários chamam o método **IMAPIFormMgr:: SelectFormContainer** para selecionar um contêiner de formulários no qual um formulário está instalado. **SelectFormContainer** não pode ser usado para selecionar o contêiner de formulário local, que tem o valor HFRMREG_LOCAL. 
+Visualizadores de formulário normalmente chamam o método **IMAPIFormMgr::SelectFormContainer** para selecionar um contêiner de formulário no qual um formulário está instalado. **SelectFormContainer** não pode ser usado para selecionar o contêiner de formulário local, que tem o valor HFRMREG_LOCAL. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -77,7 +77,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnSelectFormContainer  <br/> |MFCMAPI usa o método **IMAPIFormMgr:: SelectFormContainer** para selecionar um contêiner de formulário antes de renderizar seu conteúdo.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI usa o **método IMAPIFormMgr::SelectFormContainer** para selecionar um contêiner de formulário antes de renderizar seu conteúdo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

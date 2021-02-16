@@ -19,11 +19,11 @@ ms.locfileid: "33424172"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes podem criar uma lista de distribuição diretamente em um contêiner modificável, como o catálogo de endereços pessoal (PAB).
+Os clientes podem criar uma lista de distribuição diretamente em um contêiner modificável, como o pab (lista de endereços pessoal).
   
 **Para criar uma lista de distribuição no PAB**
   
-1. Crie uma matriz de marca de propriedade dimensionada com uma marca de propriedade, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), da seguinte maneira:
+1. Crie uma matriz de marca de propriedade dimensionada com uma marca de **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), da seguinte forma:
     
    ```cpp
     SizedPropTagArray(1, tagaDefaultDL) =
@@ -35,7 +35,7 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
     };
    ```
 
-2. Chame [IAddrBook:: GetPAB](iaddrbook-getpab.md) para recuperar o identificador de entrada do PAB. Se houver um erro ou **GetPAB** retornar zero ou nulo, não continue. 
+2. Chame [IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar o identificador de entrada do PAB. Se houver um erro ou **GetPAB** retornar zero ou NULL, não continue. 
     
    ```cpp
     LPENTRYID peidPAB = NULL;
@@ -43,7 +43,7 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
     lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
-3. Chame [IAddrBook:: OpenEntry](iaddrbook-openentry.md) para abrir o PAB. O parâmetro de saída _ulObjType_ deve ser definido como MAPI_ABCONT. 
+3. Chame [IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir a PAB. O  _parâmetro de saída ulObjType_ deve ser definido como MAPI_ABCONT. 
     
    ```cpp
     ULONG ulObjType = 0;
@@ -55,7 +55,7 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
                     &lpPABCont);
    ```
 
-4. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do PAB para recuperar a propriedade PR_DEF_CREATE_DL, o modelo que ele usa para criar uma lista de distribuição. 
+4. Chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) do PAB para recuperar a propriedade PR_DEF_CREATE_DL, o modelo que ele usa para criar uma lista de distribuição. 
     
    ```cpp
     lpPABCont->GetProps(0,
@@ -64,15 +64,15 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
     
    ```
 
-5. Se **** GetProps falhar: 
+5. Se **GetProps** falhar: 
     
-   1. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do PAB para abrir a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) com a **** interface IMAPITable. 
+   1. Chame o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do PAB para abrir a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) com a interface **IMAPITable.** 
       
-   2. Crie uma restrição de propriedade para pesquisar a linha com a coluna **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) igual a "MAPIPDL". 
+   2. Crie uma restrição de propriedade para procurar a linha com a **coluna PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) igual a "MAPIPDL". 
       
-   3. Call [IMAPITable:: FindRow](imapitable-findrow.md) para localizar esta linha. 
+   3. Chame [IMAPITable::FindRow](imapitable-findrow.md) para localizar esta linha. 
     
-6. Salve o identificador de entrada retornado por **** GetProps ou **FindRow**.
+6. Salve o identificador de entrada retornado por **GetProps** ou **FindRow**.
     
    ```cpp
     peidDefDLTpl = lpspvDefDLTpl->Value.bin.pb;
@@ -80,7 +80,7 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
     
    ```
 
-7. Chame o método [IABContainer:: createentry](iabcontainer-createentry.md) do PAB para criar uma nova entrada usando o modelo representado pelo identificador de entrada salvo. Não presuma que o objeto retornado será uma lista de distribuição, em vez de um usuário de mensagens, quando esta chamada for remota. Observe que o sinalizador CREATE_CHECK_DUP é passado no parâmetro _parâmetroulflags_ para impedir que a entrada seja adicionada duas vezes. 
+7. Chame o método [IABContainer::CreateEntry](iabcontainer-createentry.md) do PAB para criar uma nova entrada usando o modelo representado pelo identificador de entrada salvo. Não pressupõe que o objeto retornado será uma lista de distribuição em vez de um usuário de mensagens quando essa chamada for remota. Observe que o CREATE_CHECK_DUP sinalizador é passado no  _parâmetro ulFlags_ para impedir que a entrada seja adicionada duas vezes. 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,
@@ -89,15 +89,15 @@ Os clientes podem criar uma lista de distribuição diretamente em um contêiner
                     &lpNewPABEntry);
    ```
 
-8. Chame o método **IUnknown:: QueryInterface** da nova entrada, passando IID_IDistList como o identificador de interface, para determinar se a entrada é uma lista de distribuição e oferece suporte à interface [IDistList: IMAPIContainer](idistlistimapicontainer.md) . Como **createentry** retorna um ponteiro **IMAPIProp** em vez do ponteiro do **IMailUser** ou do **IDistList** mais específico, verifique se um objeto de lista de distribuição foi criado. Se a **QueryInterface** for bem-sucedida, você poderá ter certeza de que criou uma lista de distribuição em vez de um usuário de mensagens. 
+8. Chame o método **IUnknown::QueryInterface** da nova entrada, passando IID_IDistList como o identificador da interface, para determinar se a entrada é uma lista de distribuição e oferece suporte à interface [IDistList : IMAPIContainer.](idistlistimapicontainer.md) Como **CreateEntry** retorna um ponteiro **IMAPIProp** em vez do ponteiro **IMailUser** ou **IDistList** mais específico, verifique se um objeto de lista de distribuição foi criado. Se **QueryInterface** for bem-sucedido, você pode ter certeza de ter criado uma lista de distribuição em vez de um usuário de mensagens. 
     
-9. Chame o método [IMAPIProp::](imapiprop-setprops.md) SetProps da lista de distribuição para definir seu nome para exibição e outras propriedades. 
+9. Chame o método [IMAPIProp::SetProps](imapiprop-setprops.md) da lista de distribuição para definir seu nome de exibição e outras propriedades. 
     
-10. Chame o método [IABContainer:: createentry](iabcontainer-createentry.md) da lista de distribuição para adicionar um ou mais usuários de mensagens. 
+10. Chame o método [IABContainer::CreateEntry](iabcontainer-createentry.md) da lista de distribuição para adicionar um ou mais usuários de mensagens. 
     
-11. Chame o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da lista de distribuição quando estiver pronto para salvá-lo. Para recuperar o identificador de entrada da lista de distribuição salva, defina o sinalizador KEEP_OPEN_READWRITE e, em seguida, chame [IMAPIProp::](imapiprop-getprops.md) GetProps solicitando a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+11. Chame o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da lista de distribuição quando estiver pronto para salvá-lo. Para recuperar o identificador de entrada da lista de distribuição salva, de definir o sinalizador KEEP_OPEN_READWRITE e, em seguida, chame [IMAPIProp::GetProps](imapiprop-getprops.md) solicitando a **propriedade PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-12. Libere a nova lista de distribuição e o PAB chamando seus métodos **IUnknown:: Release** . 
+12. Libere a nova lista de distribuição e o PAB chamando seus **métodos IUnknown::Release.** 
     
 13. Chame [MAPIFreeBuffer](mapifreebuffer.md) para liberar a memória para o identificador de entrada do PAB e a matriz de marca de propriedade dimensionada. 
     

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
-description: Permite operações de comparação entre diferentes representações de idioma. Ele é melhor usado para converter os valores de marcas de idioma (BCP 47) de engenharia da Internet para valores de ID de localidade (LCID).
+description: Permite operações de comparação entre representações de idiomas diferentes. Ele é melhor usado para converter valores de marcas de idioma da Internet Engineering Task Force (BCP 47) em valores de identificação de localidade (LCID).
 ms.openlocfilehash: 9c2dc96cefe7a1cfcd06947dcc54453dcef276fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33424747"
 ---
 # <a name="language-function"></a>Função LANGUAGE
 
-Permite operações de comparação entre diferentes representações de idioma. Ele é melhor usado para converter os valores de marcas de idioma (BCP 47) de engenharia da Internet para valores de ID de localidade (LCID).
+Permite operações de comparação entre representações de idiomas diferentes. Ele é melhor usado para converter valores de marcas de idioma da Internet Engineering Task Force (BCP 47) em valores de identificação de localidade (LCID).
   
 ## <a name="version-information"></a>Informações sobre a versão
 
@@ -25,13 +25,13 @@ Version Added: Visio 2013
   
 ## <a name="syntax"></a>Sintaxe
 
- **Idioma** ( _lcid_or_bcp47_)
+ **LANGUAGE**( _lcid_or_bcp47_)
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _lcid_or_bcp47_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O valor LCID ou BCP 47 para o idioma.  <br/> |
+| _lcid_or_bcp47_ <br/> |Obrigatório  <br/> |**String** <br/> |O valor LCID ou BCP 47 do idioma.  <br/> |
    
 ## <a name="return-value"></a>Valor de retorno
 
@@ -41,10 +41,10 @@ Inteiro
 
  `LANGUAGE("en-us")`
   
-Retorna um valor de ' 1033 '.
+Retorna um valor de '1033'.
   
  `LANGUAGE("es-es")`
   
-Retorna um valor de ' 3082 '.
+Retorna um valor de '3082'.
   
 

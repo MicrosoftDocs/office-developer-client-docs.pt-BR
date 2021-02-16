@@ -25,9 +25,9 @@ Contém uma linha para cada item de dados da forma e células para associar os d
 Os Dados da Forma podem ser definidos usando a janela **Dados da Forma** ou as células na seção Shape Data. 
   
 > [!NOTE]
-> Nas versões anteriores do Visio, a seção de **dados da forma** era chamada de **Propriedades personalizadas**. 
+> Em versões anteriores do Visio, a **seção Shape Data** era chamada de Propriedades **Personalizadas.** 
   
-- Na janela ShapeSheet, você pode definir dados da forma na seção **dados da forma** . Clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção** e marque a caixa de seleção **Design da Forma**. Você pode adicionar tantas prop.  *nomear* linhas conforme necessário, atribuir nomes significativos às linhas e definir valores de célula. 
+- Na janela ShapeSheet, você pode definir dados de forma na **seção Shape Data.** Clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção** e marque a caixa de seleção **Design da Forma**. Você pode adicionar tantas Prop.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. 
     
 - Na janela de desenho, defina os dados da forma na janela **Dados da Forma**. Na guia **Exibir**, do grupo **Mostrar/ocultar**, clique em **Painéis de Tarefas** e em **Dados da Forma**. Para acessar a caixa de diálogo **Definir Dados da Forma**, clique com o botão direito do mouse na janela **Dados da Forma** e clique em **Definir Dados da Forma**
     

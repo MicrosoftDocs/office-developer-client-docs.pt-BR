@@ -22,8 +22,8 @@ Determina o padrão de preenchimento da forma. Para especificar um padrão de pr
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Nenhum (preenchimento transparente).  <br/> |
-|1  <br/> |Cor do primeiro plano sólida.  <br/> |
+|0  <br/> |Nenhum (preenchimento transparente).  <br/> |
+|1   <br/> |Cor do primeiro plano sólida.  <br/> |
 |2 - 40  <br/> |Padrões de preenchimento variados correspondentes a entradas indexadas na caixa de diálogo **Preenchimento**.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -42,6 +42,6 @@ Para obter uma referência para a célula FillPattern pelo índice a partir de u
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillPattern** <br/> |
+|Índice de célula:  <br/> |**visFillPattern** <br/> |
    
 

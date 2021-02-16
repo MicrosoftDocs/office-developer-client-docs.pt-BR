@@ -1,5 +1,5 @@
 ---
-title: Função AVG (aplicativo da Web personalizado do Access)
+title: Função Avg (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426720"
 ---
-# <a name="avg-function-access-custom-web-app"></a>Função AVG (aplicativo da Web personalizado do Access)
+# <a name="avg-function-access-custom-web-app"></a>Função Avg (aplicativo Web personalizado do Access)
 
 Calcula a média aritmética de um conjunto de valores contidos em um campo especificado.
   
@@ -22,18 +22,18 @@ Calcula a média aritmética de um conjunto de valores contidos em um campo espe
   
 ## <a name="syntax"></a>Sintaxe
 
- **Méd** (*Numericé*) 
+ **Avg** (*NumericExpression*) 
   
-A função **AVG** contém o argumento a seguir. 
+A **função Avg** contém o argumento a seguir. 
   
 |**Argumento**|**Descrição**|
 |:-----|:-----|
-|Numericé  <br/> |Uma expressão de cadeia de caracteres identificando o campo que contém os dados numéricos que você deseja média ou uma expressão que executa um cálculo usando os dados desse campo. Os operandos na *numeric* Express podem incluir o nome de um campo de tabela, uma variável ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregaDAS do SQL).  <br/> |
+|NumericExpression  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados numéricos que você deseja calcular ou uma expressão que executa um cálculo usando os dados desse campo. Os operands em  *NumericExpression*  podem incluir o nome de um campo de tabela, uma variável ou uma função (que pode ser intrínseca ou definida pelo usuário, mas não uma das outras funções agregadas do SQL).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 A média calculada por **Avg** é a média aritmética (a soma dos valores divididos pelo número de valores). Por exemplo, use **Avg**, para calcular o custo médio do frete. 
   
-A função **AVG** não inclui nenhum valor **nulo** no cálculo. 
+A **função Avg** não inclui valores **Nulos** no cálculo. 
   
 

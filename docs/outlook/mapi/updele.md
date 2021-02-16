@@ -19,7 +19,7 @@ ms.locfileid: "33424879"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações estendidas para itens que foram excluídos em um repositório local. Essas informações são usadas durante o [estado de status de exclusão de upload](upload-delete-status-state.md).
+Informações estendidas para itens que foram excluídos em um armazenamento local. Essas informações são usadas durante o [estado de status de exclusão de upload.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -40,35 +40,35 @@ struct UPDELE
 
 _ulFlags_
   
-> [out]/[in] flags para determinar o comportamento apropriado durante o carregamento.
+> [out]/[in] Sinalizadores para determinar o comportamento apropriado durante o carregamento.
     
   - UPD_ASSOC
     
-    - bota Item está associado.
+    - [out] Item está associado.
     
   - UPD_MOV
     
-    - bota O item foi movido para fora.
+    - [out] Item foi movido para fora.
     
   - UPD_OK 
     
-    - no O upload foi bem-sucedido. O cliente define isso após carregar informações no servidor.
+    - [in] O carregamento foi bem-sucedido. O cliente define isso depois de carregar informações no servidor.
     
   - UPD_MOVED
     
-    - no O item foi movido com êxito.
+    - [in] Item foi movido com êxito.
     
   - UPD_UPDATE
     
-    - no Marcar o item de origem como modificado.
+    - [in] Marque o item de origem como modificado.
     
   - UPD_COMMIT
     
-    - no Confirme o estado de carregamento agora (entrada 0).
+    - [in] Confirma o estado de carregamento agora (entrada 0).
     
 _skey_
   
-> bota Chave de origem do item.
+> [out] Chave de origem do item.
     
 _dwReserved_
   
@@ -76,19 +76,19 @@ _dwReserved_
     
 _binChg_
   
-> bota Alterar chave de item de destino se o item foi movido.
+> [out] Alterar a chave do item de destino se o item tiver sido movido.
     
 _binPcl_
   
-> bota Altere a lista de itens de destino se o item tiver sido movido.
+> [out] Alterar a lista de itens de destino se o item tiver sido movido.
     
 _skeyDst_
   
-> bota Chave de origem do item de destino se o item foi movido.
+> [out] Chave de origem do item de destino se o item tiver sido movido.
     
-_pupmov_
+_realizoumov_
   
-> bota Informações da pasta de destino se o item foi movido.
+> [out] Informações da pasta de destino se o item tiver sido movido.
     
 ## <a name="see-also"></a>Confira também
 

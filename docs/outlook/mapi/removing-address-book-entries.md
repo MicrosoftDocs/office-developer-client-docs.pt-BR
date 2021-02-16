@@ -19,16 +19,16 @@ ms.locfileid: "33425257"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O método IABContainer do seu contêiner [::D eleteentries](iabcontainer-deleteentries.md) é chamado para remover um ou mais destinatários. **DeleteEntries** tem dois parâmetros: uma matriz de identificadores de entrada que representa os destinatários a serem excluídos e um valor de sinalizadores reservados. A exclusão de um destinatário afeta a tabela de conteúdo do seu contêiner; Além de excluir o destinatário, seu contêiner deve excluir a linha da tabela de conteúdo que representa o destinatário. Quando a linha foi removida da tabela, seu contêiner deve emitir uma notificação de tabela para cada cliente registrado. 
+O método [IABContainer::D eleteEntries](iabcontainer-deleteentries.md) do contêiner é chamado para remover um ou mais destinatários. **DeleteEntries** tem dois parâmetros: uma matriz de identificadores de entrada que representam os destinatários a serem excluídos e um valor de sinalizadores reservados. A exclusão de um destinatário afeta o índice de conteúdo do contêiner; além de excluir o destinatário, o contêiner deve excluir a linha da tabela de conteúdo que representa o destinatário. Quando a linha tiver sido removida da tabela, o contêiner deverá emitir uma notificação de tabela para cada cliente registrado. 
   
-### <a name="to-implement-iabcontainerdeleteentries"></a>Para implementar o IABContainer::D eleteEntries
+### <a name="to-implement-iabcontainerdeleteentries"></a>Para implementar IABContainer::D eleteEntries
   
-1. Exclua cada destinatário representado pelo identificador de entrada de seu contêiner.
+1. Exclua cada destinatário representado pelo identificador de entrada do contêiner.
     
-2. Se a tabela de conteúdo do seu contêiner estiver aberta:
+2. Se a tabela de conteúdo do contêiner estiver aberta:
     
-   - Envie uma notificação do _fnevTableModified_ com o membro **ULTABLEEVENT** definido como TABLE_ROW_DELETED para clientes registrados para cada linha de tabela de conteúdo excluída. Se seu provedor usar o utilitário de notificação, chame [IMAPISupport:: Notify](imapisupport-notify.md) para enviar essas notificações. 
+   - Envie uma  _notificação fnevTableModified_ com o membro **ulTableEvent** definido como TABLE_ROW_DELETED clientes registrados para cada linha de tabela de conteúdo excluída. Se o provedor usar o utilitário de notificação, chame [IMAPISupport::Notify](imapisupport-notify.md) para enviar essas notificações. 
     
-   - Se o provedor oferecer suporte a notificações de objeto, envie também uma notificação _fnevObjectDeleted_ . 
+   - Se o provedor suportar notificações de objeto, envie também uma _notificação fnevObjectDeleted._ 
     
 

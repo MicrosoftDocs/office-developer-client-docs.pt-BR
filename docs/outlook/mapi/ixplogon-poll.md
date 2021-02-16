@@ -37,17 +37,17 @@ HRESULT Poll(
 
  _lpulIncoming_
   
-> bota Um valor que indica a existência de mensagens de entrada. Um valor diferente de zero indica que há mensagens de entrada.
+> [out] Um valor que indica a existência de mensagens de entrada. Um valor que não seja zero indica que há mensagens de entrada.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O spooler MAPI chama periodicamente o método **IXPLogon::P oll** se o provedor de transporte indicar que deve ser pesquisado para novas mensagens, que o provedor passa o sinalizador LOGON_SP_POLL para a chamada para o [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) método no início de uma sessão. Se o provedor de transporte indicar em resposta à **** chamada de sondagem de que há uma ou mais mensagens de entrada disponíveis para serem processadas, o spooler MAPI chama o método [IXPLogon:: StartMessage](ixplogon-startmessage.md) para permitir que o provedor processe a primeira entrada Mensagem. O provedor de transporte indica mensagens de entrada definindo o valor no parâmetro _lpulIncoming_ para um valor diferente de zero. 
+O spooler MAPI chama periodicamente o método **IXPLogon::P oll** se o provedor de transporte indicar que ele deve ser sondado para novas mensagens, o que o provedor faz passando o sinalizador LOGON_SP_POLL para a chamada para o método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) no início de uma sessão. Se o provedor de transporte indicar em resposta à chamada de **Sondagem** que há uma ou mais mensagens de entrada disponíveis para processamento, o spooler MAPI chamará o método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir que o provedor processe a primeira mensagem de entrada. O provedor de transporte indica mensagens de entrada definindo o valor no parâmetro  _lpulIncoming_ para um valor que não seja zero. 
   
 ## <a name="see-also"></a>Confira também
 

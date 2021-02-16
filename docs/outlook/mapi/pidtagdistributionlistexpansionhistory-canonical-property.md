@@ -25,7 +25,7 @@ ms.locfileid: "33422954"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um histórico mostrando como uma lista de distribuição foi expandida durante a transmissão de mensagens. 
+Contém um histórico que mostra como uma lista de distribuição foi expandida durante a transmissão de mensagens. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém um histórico mostrando como uma lista de distribuição foi expandida d
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade estará disponível para receber aplicativos cliente se o provedor de transporte o tiver definido. Também estará disponível para o cliente de envio se o conteúdo da mensagem for retornado por um relatório. 
+Essa propriedade estará disponível para receber aplicativos cliente se o provedor de transporte a tiver definido. Também estará disponível para o cliente de envio se o conteúdo da mensagem for retornado com um relatório. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

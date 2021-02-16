@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - FuncFib
 keywords:
-- função funcfib [Excel 2007]
+- função funcfib [excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33423668"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemplo de função de planilha definida pelo usuário que computa o número enésimo Fibonacci. Quando GENERIC. XLL é carregado, ele registra essa função para que ela possa ser chamada da planilha.
+Exemplo de função de planilha definida pelo usuário que calcula o número Nº 1º Demôniacci. Quando GENERIC.xll é carregado, ele registra essa função para que possa ser chamada a partir da planilha.
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
@@ -32,21 +32,21 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
  _pxN_ (**LPXLOPER12**)
   
-O valor de N para o qual o enésimo número Fibonacci é necessário.
+O valor N para o qual é necessário o número Nº Dem.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-(**XLTYPENUM LPXLOPER12** se for bem-sucedido ou **xltypeErr** caso contrário) 
+(**xltypeNum LPXLOPER12 se** tiver êxito ou **xltypeErr** caso contrário) 
   
-O número enésimo Fibonacci.
+O núm Nº 1º Dememanacci.
   
 ## <a name="remarks"></a>Comentários
 
-A função usa uma variável estática definida dentro do bloco de funções como o valor de retorno **XLOPER12**. Isso não é thread-safe e, portanto, essa função e qualquer função de planilha que use essa estratégia para retornar **XLOPER**s ou **XLOPER12**s, não deve ser registrada como thread-safe a partir do Excel 2007.
+A função usa uma variável estática definida dentro do bloco de função como o valor de retorno **XLOPER12**. Isso não é thread-safe e, portanto, essa função e qualquer função de planilha que use essa estratégia para retornar **XLOPER** s ou **XLOPER12** s, não deve ser registrada como thread-safe a partir do Excel 2007.
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

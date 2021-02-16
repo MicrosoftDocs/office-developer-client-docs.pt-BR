@@ -1,5 +1,5 @@
 ---
-title: Ação de macro de dados DeleteRecord (aplicativo Web personalizado do Access)
+title: Ação Excluir Macro De Dados deRegistar (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423150"
 ---
-# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>Ação de macro de dados DeleteRecord (aplicativo Web personalizado do Access)
+# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>Ação Excluir Macro De Dados deRegistar (aplicativo Web personalizado do Access)
 
 Você pode usar a ação **ExcluirRegistro** para excluir um registro. 
   
@@ -22,15 +22,15 @@ Você pode usar a ação **ExcluirRegistro** para excluir um registro.
   
 ## <a name="setting"></a>Configuração
 
-A ação **DeleteRecord** tem os seguintes argumentos. 
+A **ação ExcluirRegiscord** tem os seguintes argumentos. 
   
 |**Argumento**|**Descrição**|
 |:-----|:-----|
-|**Alias de Registro** <br/> |Uma cadeia de caracteres que identifica o registro a ser excluído. Se o argumento *alias* não for especificado, o registro atual será excluído.  <br/> |
+|**Alias de Registro** <br/> |Uma cadeia de caracteres que identifica o registro a ser excluído. Se o  *argumento Alias*  não for especificado, o registro atual será excluído.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para fazer referência ao registro criado mais recentemente: 
+Você pode usar a variável local **IdentidadedeRegistroCriadapelaÚltimaVez** para executá-la com o último registro criado em um bloco de dados **CriarRegistro**. Por exemplo, use a sintaxe a seguir para se referir ao registro criado mais recentemente: 
   
 `[LastCreateRecordIdentity]`
 

@@ -25,7 +25,7 @@ ms.locfileid: "33426104"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Estabelece um repositório de mensagens como o repositório de mensagens padrão para a sessão.
+Estabelece um armazenamento de mensagens como o armazenamento de mensagens padrão para a sessão.
   
 ```cpp
 HRESULT SetDefaultStore(
@@ -39,53 +39,53 @@ HRESULT SetDefaultStore(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla a configuração do repositório de mensagens padrão. Esses sinalizadores são mutuamente exclusivos; apenas um dos seguintes sinalizadores pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla a configuração do armazenamento de mensagens padrão. Esses sinalizadores são mutuamente exclusivos; somente um dos sinalizadores a seguir pode ser definido:
     
 MAPI_DEFAULT_STORE
   
-> Estabelece o repositório de mensagens como o padrão da sessão. Atualiza a linha da tabela de status do repositório de mensagens definindo o sinalizador STATUS_DEFAULT_STORE na coluna **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+> Estabelece o armazenamento de mensagens como o padrão da sessão. Atualiza a linha da tabela de status do armazenamento de mensagens definindo o sinalizador STATUS_DEFAULT_STORE na coluna **PR_RESOURCE_FLAGS** ([PidTagResourceFlags).](pidtagresourceflags-canonical-property.md)
     
 MAPI_PRIMARY_STORE
   
-> Estabelece o repositório de mensagens como o repositório a ser usado no logon. Se o repositório de mensagens não for o repositório padrão, os clientes devem torná-lo o padrão. Atualiza a linha da tabela de status do repositório de mensagens definindo o sinalizador STATUS_PRIMARY_STORE na coluna **PR_RESOURCE_FLAGS** . 
+> Estabelece o armazenamento de mensagens como o armazenamento a ser usado no logon. Se o armazenamento de mensagens não for o armazenamento padrão, os clientes deverão torná-lo o padrão. Atualiza a linha da tabela de status do armazenamento de mensagens definindo o sinalizador STATUS_PRIMARY_STORE na **PR_RESOURCE_FLAGS** coluna. 
     
 MAPI_SECONDARY_STORE
   
-> Estabelece o repositório de mensagens como o repositório a ser usado no logon se o repositório de mensagens principal não estiver disponível. Se um cliente não puder abrir o armazenamento principal, ele deverá abrir o repositório secundário e defini-lo como o padrão. Atualiza a linha da tabela de status do repositório de mensagens definindo o sinalizador STATUS_SECONDARY_STORE na coluna **PR_RESOURCE_FLAGS** . 
+> Estabelece o armazenamento de mensagens como o armazenamento a ser usado no logon se o armazenamento de mensagens principal não estiver disponível. Se um cliente não puder abrir o armazenamento principal, ele deverá abrir o armazenamento secundário e defini-lo como padrão. Atualiza a linha da tabela de status do armazenamento de mensagens definindo o sinalizador STATUS_SECONDARY_STORE na **PR_RESOURCE_FLAGS** coluna. 
     
 MAPI_SIMPLE_STORE_PERMANENT
   
-> Define o sinalizador STATUS_SIMPLE_STORE na propriedade **PR_RESOURCE_FLAGS** do repositório de mensagens em sua linha da tabela de status, linha da tabela de repositórios de mensagens e no perfil da sessão. 
+> Define o STATUS_SIMPLE_STORE sinalizador de erro na propriedade **PR_RESOURCE_FLAGS** do armazenamento de mensagens na linha da tabela de status, na linha da tabela do armazenamento de mensagens e no perfil da sessão. 
     
 MAPI_SIMPLE_STORE_TEMPORARY
   
-> Define o sinalizador STATUS_SIMPLE_STORE na propriedade **PR_RESOURCE_FLAGS** do armazenamento de mensagens em sua linha da tabela de linha e repositório de mensagens da tabela de status. O perfil não é modificado. 
+> Define o STATUS_SIMPLE_STORE sinalizador de erro  na propriedade PR_RESOURCE_FLAGS do armazenamento de mensagens na linha da tabela de status e na linha da tabela do armazenamento de mensagens. O perfil não é modificado. 
     
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do repositório de mensagens destinado como o padrão. Se um cliente passa nulo no _lpEntryID_, nenhum repositório de mensagens é selecionado como o padrão.
+> [in] Um ponteiro para o identificador de entrada do armazenamento de mensagens que se destina como padrão. Se um cliente passar NULL em  _lpEntryID_, nenhum armazenamento de mensagens será selecionado como padrão.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: SetDefaultStore** estabelece um repositório de mensagens como um dos seguintes: 
+O **método IMAPISession::SetDefaultStore** estabelece um repositório de mensagens como um dos seguintes: 
   
-- O repositório de mensagens padrão da sessão.
+- O armazenamento de mensagens padrão da sessão.
     
-- O repositório de mensagens principal da sessão.
+- O armazenamento de mensagens principal da sessão.
     
-- O repositório de mensagens secundário da sessão.
+- O armazenamento secundário de mensagens da sessão.
     
-Para estabelecer um repositório de mensagens como o padrão, o repositório de mensagens deve ter os seguintes sinalizadores definidos em sua propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)):
+Para estabelecer um repositório de mensagens como padrão, o repositório de mensagens deve ter os seguintes sinalizadores definidos em sua **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) propriedade:
   
 - STORE_SUBMIT_OK
     
@@ -95,15 +95,15 @@ Para estabelecer um repositório de mensagens como o padrão, o repositório de 
     
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode determinar o repositório de mensagens padrão para a sessão, recuperando a tabela de status e procurando a configuração do sinalizador STATUS_DEFAULT_STORE na coluna **PR_RESOURCE_FLAGS** . A linha que tem essa configuração representa o repositório de mensagens designado como o padrão da sessão. 
+Você pode determinar o armazenamento de mensagens padrão para a sessão recuperando a tabela de status e procurando a configuração do sinalizador STATUS_DEFAULT_STORE na **PR_RESOURCE_FLAGS** coluna. A linha que tem essa configuração representa o armazenamento de mensagens designado como o padrão de sessão. 
   
-Quando o sinalizador MAPI_DEFAULT_STORE ou MAPI_SIMPLE_STORE_PERMANENT está definido, o MAPI atualiza o perfil, a tabela do repositório de mensagens e a tabela de status. 
+Quando o MAPI_DEFAULT_STORE ou o sinalizador MAPI_SIMPLE_STORE_PERMANENT está definido, o MAPI atualiza o perfil, a tabela de armazenamento de mensagens e a tabela de status. 
   
-Sempre que uma alteração é feita na configuração padrão do repositório de mensagens, as seguintes notificações são geradas:
+Sempre que uma alteração é feita na configuração padrão do armazenamento de mensagens, as seguintes notificações são geradas:
   
-- Uma notificação de evento **fnevTableModified** é emitida para cada linha afetada no repositório de mensagens e na tabela de status. 
+- Uma **notificação de evento fnevTableModified** é emitida para cada linha afetada no armazenamento de mensagens e na tabela de status. 
     
-- Uma notificação interna é emitida para o spooler MAPI. As operações já em andamento são concluídas sem alterações; novas operações que envolvem o repositório de mensagens padrão, como download de mensagens, são processadas para o novo repositório padrão.
+- Uma notificação interna é emitida para o spooler MAPI. As operações já em andamento são concluídas sem alteração; novas operações que envolvem o armazenamento de mensagens padrão, como o download de mensagens, são processadas para o novo armazenamento padrão.
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -111,7 +111,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnSetDefaultStore  <br/> |MFCMAPI usa o método **IMAPISession:: SetDefaultStore** para definir o repositório selecionado como o repositório padrão.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI usa o **método IMAPISession::SetDefaultStore** para definir o repositório selecionado como o repositório padrão.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

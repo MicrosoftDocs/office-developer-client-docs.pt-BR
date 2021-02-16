@@ -1,5 +1,5 @@
 ---
-title: Retornar Convenção de nomenclatura de valor
+title: Convenção de Nomen por Valor de Retorno
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,14 +15,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423612"
 ---
-# <a name="return-value-naming-convention"></a>Retornar Convenção de nomenclatura de valor
+# <a name="return-value-naming-convention"></a>Convenção de Nomen por Valor de Retorno
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O MAPICODE. O arquivo de cabeçalho H contém muitos dos valores que um cliente ou provedor de serviços pode retornar de uma implementação de método de interface ou pode ver retornados de uma chamada.
+O MAPICODE. O arquivo de header H contém muitos dos valores que um cliente ou provedor de serviços pode retornar de uma implementação de método de interface ou pode ver retornado de uma chamada.
   
-Os códigos para representar as condições de aviso e de falha seguem uma Convenção de nomenclatura diferente que começa com o prefixo MAPI, um sublinhado e um W ou um E para indicar o tipo de código. O restante do código é uma cadeia de caracteres curta para descrever a condição. Cada palavra da cadeia de caracteres é separada por um sublinhado. Por exemplo, o valor de erro MAPI_E_TOO_COMPLEX indica que a implementação não pôde lidar com o que estava sendo solicitado na chamada. O valor de aviso MAPI_W_PARTIAL_COMPLETION indica que a chamada foi bem-sucedida, mas que houve problemas. Somente parte da operação foi concluída com êxito.
+Os códigos para representar condições de aviso e falha seguem uma convenção de nomenal diferente que começa com o prefixo MAPI, um sublinhado e um W ou E para indicar o tipo de código. O restante do código é uma cadeia de caracteres curta para descrever a condição. Cada palavra na cadeia de caracteres é separada por um sublinhado. Por exemplo, o valor de MAPI_E_TOO_COMPLEX indica que a implementação não pôde manipular o que estava sendo solicitado na chamada. O valor de MAPI_W_PARTIAL_COMPLETION indica que a chamada foi bem-sucedida, mas que houve problemas. Somente parte da operação foi concluída com êxito.
   
 

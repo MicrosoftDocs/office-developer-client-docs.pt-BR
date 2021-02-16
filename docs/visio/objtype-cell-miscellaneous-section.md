@@ -23,8 +23,8 @@ Determina se os objetos são de colocação ou se podem ser roteados em diagrama
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Padrão. O aplicativo decide com base no contexto do desenho.  <br/> |**visLOFlagsVisDecides** <br/> |
-|&amp;Semestre  <br/> |A forma é de colocação.  <br/> |**visLOFlagsPlacable** <br/> |
-|&amp;S2  <br/> |A forma pode ser roteada. Deve ser uma forma unidimensional (1D).  <br/> |**visLOFlagsRoutable** <br/> |
+|&amp;H1  <br/> |A forma é de colocação.  <br/> |**visLOFlagsPlacable** <br/> |
+|&amp;H2  <br/> |A forma pode ser roteada. Deve ser uma forma unidimensional (1D).  <br/> |**visLOFlagsRoutable** <br/> |
 |&amp;H4  <br/> |A forma não é de colocação e não pode ser roteada.  <br/> |**visLOFlagsDont** <br/> |
 |&amp;H8  <br/> |O grupo contém formas de colocação e que podem ser roteadas.  <br/> |**visLOFlagsPNRGroup** <br/> |
    
@@ -32,7 +32,7 @@ Determina se os objetos são de colocação ou se podem ser roteados em diagrama
 
 Como padrão, a célula ObjType está definida para uma forma como No Formula, cuja avaliação é 0, o que significa que o aplicativo irá determinar se a forma pode ser de colocação de acordo com seu contexto. Por exemplo, se você desenhar um simples retângulo, o valor de sua célula ObjType será 0. Em seguida, se você utilizar a ferramenta **Conector** para conectar o retângulo a outra forma, o Visio redefinirá o valor da célula ObjType do retângulo para 1 (de colocação). 
   
-O valor da célula ObjType pode ser uma combinação de valores. No entanto, se o bit não-posicionável estiver definido (&amp;H4), terá precedência sobre outros valores, exceto o&amp;valor de grupo (H8).
+O valor da célula ObjType pode ser uma combinação de valores. Se o bit não placeable for definido ( H4), no entanto, ele tem precedência sobre outros valores, exceto o valor &amp; de grupo ( &amp; H8).
   
 Para obter uma referência para a célula ObjType pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

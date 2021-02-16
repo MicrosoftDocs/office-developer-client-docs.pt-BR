@@ -25,28 +25,28 @@ ms.locfileid: "33427308"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta modos de exibição definidos pelo usuário.
+Contém o identificador de entrada da pasta Views definida pelo usuário.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_VIEWS_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E5  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
+|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A pasta de modo de exibição comum contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidos por um usuário de mensagens. Essas pastas, que não estão visíveis na hierarquia de mensagens interpessoais (IPM), podem conter vários especificadores de exibição, cada um armazenado como uma mensagem. O aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e torná-los disponíveis.
+A pasta de exibição comum contém um conjunto predefinido de especificadores de exibição padrão, enquanto a pasta de exibição contém especificadores definidos por um usuário de mensagens. Essas pastas, que não são visíveis na hierarquia de mensagens interpersonales (IPM), podem conter muitos especificadores de exibição, cada um armazenado como uma mensagem. O aplicativo cliente pode optar por mesclar os dois conjuntos de especificadores e torná-los disponíveis.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

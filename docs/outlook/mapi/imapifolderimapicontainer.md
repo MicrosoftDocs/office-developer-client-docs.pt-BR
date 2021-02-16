@@ -25,17 +25,17 @@ ms.locfileid: "33424235"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Realiza operações nas mensagens e subpastas em uma pasta.
+Executa operações nas mensagens e subpastas em uma pasta.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Exposto por:  <br/> |Objetos Folder  <br/> |
-|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
+|Implementado por:  <br/> |Provedores de armazenamento de mensagens  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFolder  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFOLDER  <br/> |
-|Modelo de transação:  <br/> |Não-Transacted  <br/> |
+|Modelo de transação:  <br/> |Não traduzido  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
@@ -47,13 +47,13 @@ Realiza operações nas mensagens e subpastas em uma pasta.
 |[CreateFolder](imapifolder-createfolder.md) <br/> |Cria uma nova subpasta.  <br/> |
 |[CopyFolder](imapifolder-copyfolder.md) <br/> |Copia ou move uma subpasta.  <br/> |
 |[DeleteFolder](imapifolder-deletefolder.md) <br/> |Exclui uma subpasta.  <br/> |
-|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Define ou limpa o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) de uma ou mais das mensagens da pasta e gerencia o envio de relatórios de leitura.  <br/> |
+|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Define ou limpa o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) de uma ou mais mensagens da pasta e gerencia o envio de relatórios de leitura.  <br/> |
 |[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtém o status associado a uma mensagem em uma pasta específica.  <br/> |
 |[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Define o status associado a uma mensagem.  <br/> |
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Define a ordem de classificação padrão para a tabela de conteúdo de uma pasta.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Exclui todas as mensagens e subpastas de uma pasta sem excluir a própria pasta.  <br/> |
    
-|**Propriedades necessárias**|**Acesso**|
+|**Propriedades necessárias**|**Access**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Leitura/gravação  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Somente leitura  <br/> |

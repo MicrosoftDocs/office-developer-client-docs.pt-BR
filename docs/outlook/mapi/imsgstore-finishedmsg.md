@@ -25,7 +25,7 @@ ms.locfileid: "33427084"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite que o provedor de repositório de mensagens realize o processamento em uma mensagem enviada. Este método é chamado apenas pelo spooler MAPI.
+Permite que o provedor de armazenamento de mensagens execute o processamento em uma mensagem enviada. Esse método é chamado apenas pelo spooler MAPI.
   
 ```cpp
 HRESULT FinishedMsg(
@@ -39,15 +39,15 @@ HRESULT FinishedMsg(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada da mensagem a ser processada.
+> [in] Um ponteiro para o identificador de entrada da mensagem a ser processada.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,26 +57,26 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor de repositório de mensagens não dá suporte ao processamento de mensagens enviadas. Este valor de erro será retornado se o chamador não for o MAPI spooler.
+> O provedor de armazenamento de mensagens não dá suporte ao processamento de mensagens enviadas. Esse valor de erro será retornado se o chamador não for o spooler MAPI.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore:: FinishedMsg** executa o processamento em uma mensagem enviada. Esse processamento pode envolver a exclusão da mensagem, movê-la para uma pasta diferente ou ambas as ações. O tipo de processamento depende se as propriedades **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) e **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) estão definidas. 
+O **método IMsgStore::FinishedMsg** executa o processamento em uma mensagem enviada. Esse processamento pode envolver a exclusão da mensagem, a movimentação para uma pasta diferente ou ambas as ações. O tipo de processamento depende se as propriedades **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) e **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) estão definidas. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Em sua implementação do **FinishedMsg**, desbloqueie a mensagem identificada por _lpEntryID_ e execute o processamento apropriado. A mensagem de destino sempre será bloqueada; o spooler MAPI nunca passa o identificador de entrada de uma mensagem desbloqueada para **FinishedMsg**.
+Na implementação de **FinishedMsg,** desbloqueie a mensagem identificada por  _lpEntryID_ e execute o processamento apropriado. A mensagem de destino sempre será bloqueada; o spooler MAPI nunca passa o identificador de entrada de uma mensagem desbloqueada para **FinishedMsg**.
   
-É possível que nem **PR_DELETE_AFTER_SUBMIT** ou **PR_SENTMAIL_ENTRYID** estejam definidos, ambos estejam definidos ou um ou outro esteja definido. A tabela a seguir descreve a ação que deve ser executada com base nas configurações: 
+É possível que **nenhum** PR_DELETE_AFTER_SUBMIT ou **PR_SENTMAIL_ENTRYID** seja definido, ambos estão definidos ou um ou outro está definido. A tabela a seguir descreve a ação que você deve tomar com base nas configurações: 
   
 |||
 |:-----|:-----|
-|Se nenhuma propriedade for definida:  <br/> |Deixe a mensagem na pasta a partir da qual ela foi enviada (normalmente, a).  <br/> |
-|Se ambas as propriedades estiverem definidas:  <br/> |Mova a mensagem para a pasta indicada, se desejado, e, em seguida, exclua-a.  <br/> |
+|Se nenhuma das propriedades estiver definida:  <br/> |Deixe a mensagem na pasta da qual ela foi enviada (normalmente a Caixa de Saída).  <br/> |
+|Se ambas as propriedades estão definidas:  <br/> |Mova a mensagem para a pasta indicada, se desejado, e exclua-a.  <br/> |
 |Se PR_SENTMAIL_ENTRYID estiver definido:  <br/> |Mova a mensagem para a pasta indicada.  <br/> |
 |Se PR_DELETE_AFTER_SUBMIT estiver definido:  <br/> |Exclua a mensagem.  <br/> |
    
-Depois de ter feito qualquer ação apropriada, chame o método [IMAPISupport::D osentmail](imapisupport-dosentmail.md) . 
+Depois de tomar qualquer ação apropriada, chame o [método IMAPISupport::D oSentMail.](imapisupport-dosentmail.md) 
   
 ## <a name="see-also"></a>Confira também
 

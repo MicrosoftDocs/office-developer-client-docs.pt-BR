@@ -22,8 +22,8 @@ Contém as células que controlam as configurações de página para formas e co
   
 ## <a name="remarks"></a>Comentários
 
-Para substituir os padrões de página de uma forma específica, use as células da seção **Shape layout** . 
+Para substituir os padrões de página de uma forma específica, use as células na **seção Layout da** Forma. 
   
-Você também pode definir os valores das células nesta seção na guia **layout e roteamento** da caixa de diálogo **Configurar página** (na guia **design** , clique no iniciador da caixa de diálogo no grupo **Configurar página** ). 
+Você também pode definir os valores das células nesta seção  na guia **Layout** e Roteamento da caixa de  diálogo Configurar Página (na guia **Design,** clique no início da caixa de diálogo no grupo Configurar Página). 
   
 

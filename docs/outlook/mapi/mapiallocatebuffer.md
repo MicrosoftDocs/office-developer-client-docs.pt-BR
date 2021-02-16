@@ -29,7 +29,7 @@ Aloca um buffer de memória.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapix. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapix.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,23 +44,23 @@ SCODE MAPIAllocateBuffer(
 
  _cbSize_
   
-> no Tamanho, em bytes, do buffer a ser alocado. 
+> [in] Tamanho, em bytes, do buffer a ser alocado. 
     
  _lppBuffer_
   
-> bota Ponteiro para o buffer alocado retornado.
+> [out] Ponteiro para o buffer alocado retornado.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o buffer de memória solicitado.
+> A chamada foi bem-sucedida e retornou o buffer de memória solicitado.
     
 ## <a name="remarks"></a>Comentários
 
-Durante o processamento de chamada **MAPIAllocateBuffer** , a implementação de chamada adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de byte par numerado. Nas plataformas nas quais o acesso inteiro longo é mais eficiente, o sistema operacional aloca o buffer em um endereço cujo tamanho em bytes é um múltiplo de quatro. 
+Durante **o processamento de chamada MAPIAllocateBuffer,** a implementação de chamada adquire um bloco de memória do sistema operacional. O buffer de memória é alocado em um endereço de byte numerado. Em plataformas onde o acesso inteiro longo é mais eficiente, o sistema operacional aloca o buffer em um endereço cujo tamanho em bytes é um múltiplo de quatro. 
   
-Chamar a função [MAPIFreeBuffer](mapifreebuffer.md) libera o buffer de memória alocado por **MAPIAllocateBuffer**, chamando a função [MAPIAllocateMore](mapiallocatemore.md) e todos os buffers vinculados a ele, quando a memória não é mais necessária. 
+Chamar a função [MAPIFreeBuffer](mapifreebuffer.md) libera o buffer de memória alocado por **MAPIAllocateBuffer**, chamando a função [MAPIAllocateMore](mapiallocatemore.md) e quaisquer buffers vinculados a ela, quando a memória não é mais necessária. 
   
 ## <a name="see-also"></a>Confira também
 

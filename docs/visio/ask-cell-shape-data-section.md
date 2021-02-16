@@ -33,14 +33,14 @@ Para fazer referência à célula Ask pelo nome, a partir de outra fórmula ou p
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hélice. *nome* . Verifique onde prop.  *Name* é o nome da linha de propriedade personalizada.  <br/> |
+|Nome da célula:  <br/> |Prop. *nome*  . Verifique onde Prop.  *é*  o nome da linha de propriedade personalizada.  <br/> |
    
 Para fazer referência à célula Ask pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionProp** <br/> |
-|Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visCustPropsAsk** <br/> |
+|Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2,...  <br/> |
+|Índice de célula:  <br/> |**visCustPropsAsk** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Métodoisocialprofile ISocialPerson
+title: ISocialProfile ISocialPerson
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -21,13 +21,13 @@ Representa o usuário conectado.
   
 ## <a name="members"></a>Members
 
-A tabela a seguir mostra os membros que estão disponíveis na interface **métodoisocialprofile** . 
+A tabela a seguir mostra os membros que estão disponíveis na interface **ISocialProfile.** 
   
 |**Nome**|**Tipo de membro**|**Descrição**|
 |:-----|:-----|:-----|
-|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Método  <br/> |Determina se os usuários especificados são amigos.  <br/> |
-|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Método  <br/> |Esse método foi preterido desde o Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Método  <br/> |No momento, este método não tem suporte.  <br/> |
+|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Determina se os usuários especificados são amigos.  <br/> |
+|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |Esse método foi preterido desde o Outlook Social Connector 2013.  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |No momento, não há suporte para esse método.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

@@ -25,7 +25,7 @@ ms.locfileid: "33425593"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove uma ou mais entradas, tipicamente usuários de mensagens, listas de distribuição ou outros contêineres.
+Remove uma ou mais entradas, normalmente usuários de mensagens, listas de distribuição ou outros contêineres.
   
 ```cpp
 HRESULT DeleteEntries(
@@ -38,11 +38,11 @@ HRESULT DeleteEntries(
 
  _lpEntries_
   
-> no Um ponteiro para uma matriz de [](entrylist.md) estruturas ENTRYLIST que contêm identificadores de entrada que representam as entradas sendo excluídas. 
+> [in] Um ponteiro para uma matriz de [estruturas ENTRYLIST](entrylist.md) que contêm identificadores de entrada que representam as entradas que estão sendo excluídas. 
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,7 +52,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada teve êxito, mas uma ou mais entradas não puderam ser excluídas. Quando esse valor é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse valor, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas uma ou mais entradas não puderam ser excluídas. Quando esse valor é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse valor, use a **HR_FAILED** macro. Para obter mais informações, consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -60,7 +60,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|Abdlg. cpp  <br/> |CabDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **DeleteEntries** para excluir uma entrada específica de um contêiner de catálogo de endereços.  <br/> |
+|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o **método DeleteEntries** para excluir uma entrada específica de um contêiner de um livro de endereços.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

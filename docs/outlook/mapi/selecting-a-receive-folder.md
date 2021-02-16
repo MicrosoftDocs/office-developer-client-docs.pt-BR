@@ -1,5 +1,5 @@
 ---
-title: Selecionar uma pasta de recebimento
+title: Selecionando uma pasta de recebimento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428414"
 ---
-# <a name="selecting-a-receive-folder"></a>Selecionar uma pasta de recebimento
+# <a name="selecting-a-receive-folder"></a>Selecionando uma pasta de recebimento
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma pasta de recebimento é onde as mensagens de entrada de uma determinada classe são colocadas. Para as mensagens IPM e de relatórios relacionados, o MAPI atribui a caixa de entrada como a pasta de recebimento padrão. Para mensagens de relatório relacionadas e IPC, o MAPI atribui a pasta raiz do repositório de mensagens como a pasta de recebimento padrão. Você pode alterar essas atribuições ou fazer atribuições adicionais para outras classes de mensagens. Fazer atribuições explícitas de pastas de recebimento para as classes de mensagens com suporte do cliente é opcional.
+Uma pasta de recebimento é onde as mensagens de entrada de uma classe específica são colocadas. Para mensagens de IPM e de relatório relacionadas, MAPI atribui a Caixa de Entrada como a pasta de recebimento padrão. Para mensagens de relatório relacionadas e IPC, MAPI atribui a pasta raiz do armazenamento de mensagens como a pasta de recebimento padrão. Você pode alterar essas atribuições ou fazer atribuições adicionais para outras classes de mensagem. Fazer atribuições de pasta de recebimento explícitas para as classes de mensagens com suporte do cliente é opcional.
   
-Quando uma classe de mensagens de entrada não tem uma pasta de recebimento atribuída, o provedor de armazenamento de mensagens usa automaticamente a pasta de recebimento da classe que corresponde ao prefixo mais longo possível da classe de entrada. Por exemplo, se o cliente receber uma mensagem da classe IPM. Note. myDocument e a única pasta de recebimento estabelecida é a caixa de entrada de mensagens IPM, esta mensagem será colocada na caixa de entrada porque IPM. Note. mydocument deriva da classe base IPM.
+Quando uma classe de mensagem de entrada não tem uma pasta de recebimento atribuída, o provedor de armazenamento de mensagens usa automaticamente a pasta de recebimento para a classe que corresponde ao prefixo mais longo possível da classe de entrada. Por exemplo, se seu cliente receber uma mensagem do IPM de classe. Note.MyDocument e a única pasta de recebimento estabelecida é a Caixa de Entrada para mensagens IPM. Essa mensagem será colocada na Caixa de Entrada porque iPM. Note.MyDocument é derivado do IPM de classe base.
   
-Quando você estiver atribuindo uma pasta de recebimento para mensagens IPC, nunca use uma pasta da sub-árvore IPM. Essas pastas devem ser reservadas apenas para mensagens IPM. Use em vez de uma pasta contida na pasta raiz do repositório de mensagens. 
+Quando você estiver atribuindo uma pasta de recebimento para mensagens IPC, nunca use uma pasta da subárvore do IPM. Essas pastas devem ser reservadas apenas para mensagens IPM. Em vez disso, use uma pasta que está contida na pasta raiz do armazenamento de mensagens. 
   
- **Para criar uma pasta de recebimento para uma classe de mensagem IPM**
+ **Para criar uma pasta de recebimento para uma classe de mensagem do IPM**
   
-1. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do repositório de mensagens para recuperar a propriedade **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)). 
+1. Chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) do armazenamento de mensagens para recuperar a **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) . 
     
-2. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md) com **PR_IPM_SUBTREE_ENTRYID** como o identificador de entrada para abrir a pasta raiz da sub-árvore IPM no repositório de mensagens. 
+2. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md) **com PR_IPM_SUBTREE_ENTRYID** como o identificador de entrada para abrir a pasta raiz da subárvore do IPM no repositório de mensagens. 
     
-3. Chame [IMAPIFolder:: CreateFolder](imapifolder-createfolder.md) para criar a pasta de recebimento. 
+3. Chame [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) para criar a pasta de recebimento. 
     
-4. Chame [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) para mapear a nova pasta para sua classe de mensagem IPM. 
+4. Chame [IMsgStore::SetReceiveFolder](imsgstore-setreceivefolder.md) para mapear a nova pasta para sua classe de mensagem do IPM. 
     
- **Para criar uma pasta de recebimento para uma classe de mensagem de IPC**
+ **Para criar uma pasta de recebimento para uma classe de mensagem IPC**
   
-1. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md) com um identificador de entrada nulo para abrir a pasta raiz do repositório de mensagens. 
+1. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md) com um identificador de entrada nulo para abrir a pasta raiz do repositório de mensagens. 
     
-2. Chame [IMAPIFolder:: CreateFolder](imapifolder-createfolder.md) para criar a pasta de recebimento. 
+2. Chame [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) para criar a pasta de recebimento. 
     
-3. Chame [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) para mapear a nova pasta para sua classe de mensagens de IPC. 
+3. Chame [IMsgStore::SetReceiveFolder](imsgstore-setreceivefolder.md) para mapear a nova pasta para sua classe de mensagem IPC. 
     
-Atribua a pasta de recebimento que você usa para mensagens de relatórios relacionados. Por exemplo, se o cliente receber IPM. Observação mensagens, configure uma pasta de recebimento para o futuro IPM. Mensagens de observação e a mesma pasta de recebimento para mensagens de relatórios. IPM.
+Atribua a pasta de recebimento que você usa para mensagens para mensagens de relatório relacionadas. Por exemplo, se seu cliente receber IPM. Anote as mensagens, configurar uma pasta de recebimento para o IPM futuro. Anote as mensagens e a mesma pasta de recebimento para futuras mensagens Report.IPM.Note.
   
 

@@ -23,12 +23,12 @@ Retorna o valor atual de data e hora no fuso horário definido pelo aplicativo.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Agora** () 
+ **Now** () 
   
 ## <a name="remarks"></a>Comentários
 
-O resultado da função **Now** só é alterado quando a coluna que contém a fórmula é atualizada. Ele não é atualizado continuamente. 
+O resultado da **função Agora** só muda quando a coluna que contém a fórmula é atualizada. Ele não é atualizado continuamente. 
   
-A função **hoje** retorna a mesma data, mas não é preciso em relação ao tempo; o tempo retornado é sempre 12:00:00 e apenas a data é atualizada. 
+A **função Hoje** retorna a mesma data, mas não é precisa em relação à hora; a hora retornada é sempre 12:00:00 AM e somente a data é atualizada. 
   
 

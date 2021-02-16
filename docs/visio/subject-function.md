@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251575
 localization_priority: Normal
 ms.assetid: c19efa2e-8249-d589-3f93-26c22dc4f4e7
-description: Retorna o texto do campo assunto das propriedades de um documento.
+description: Retorna o texto do campo Assunto das propriedades de um documento.
 ms.openlocfilehash: 39413620e94a33726088e2a0e90989b1ccbbdabc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33426846"
 ---
 # <a name="subject-function"></a>Função SUBJECT
 
-Retorna o texto do campo **assunto** das propriedades de um documento. 
+Retorna o texto do **campo Assunto** das propriedades de um documento. 
   
 ## <a name="syntax"></a>Sintaxe
 

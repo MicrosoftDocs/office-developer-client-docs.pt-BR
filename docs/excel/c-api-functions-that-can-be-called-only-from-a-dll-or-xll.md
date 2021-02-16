@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funções [Excel 2007], API c chamado de dll ou XLL
+- functions [excel 2007], c api called from dll or xll
 localization_priority: Normal
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,7 +20,7 @@ ms.locfileid: "33423115"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-A API C oferece 15 funções de retorno de chamada do Microsoft Excel que podem ser chamadas apenas usando as funções **Excel4**, **Excel4v**, **Excel12**ou **Excel12v** (ou por uma dessas funções usando indiretamente as funções de estrutura do **Excel **ou **Excel12f**). Isso significa que eles só podem ser chamados de uma DLL ou XLL.
+A API de C fornece 15 funções de retorno de chamada do Microsoft Excel que só podem ser chamadas usando as funções **Excel4**, **Excel4v**, **Excel12** ou **Excel12v** (ou por uma dessas funções indiretamente usando as funções de estrutura **Excel** ou **Excel12f**). Isso significa que eles só podem ser chamados de uma DLL ou XLL.
   
 ## <a name="in-this-section"></a>Nesta seção
 

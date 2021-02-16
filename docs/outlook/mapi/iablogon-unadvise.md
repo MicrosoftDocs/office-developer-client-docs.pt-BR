@@ -25,7 +25,7 @@ ms.locfileid: "33424074"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela as notificações que foram configuradas anteriormente com uma chamada para o método [IABLogon:: Advise](iablogon-advise.md) . 
+Cancela notificações que foram configuradas anteriormente com uma chamada para o [método IABLogon::Advise.](iablogon-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> no O número de conexão associado a um registro de notificação ativo. Uma chamada anterior para **Advise** deve ter retornado o valor de _ulConnection_.
+> [in] O número de conexão associado a um registro de notificação ativo. Uma chamada anterior para **Advise** deve ter retornado o valor  _de ulConnection_.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,13 +47,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método **Unadvise** para cancelar um registro de notificação para um contêiner, usuário de mensagens ou objeto de lista de distribuição. 
+MAPI calls the **Unadvise** method to cancel a notification registration for a container, messaging user, or distribution list object. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação de **Unadvise** dependerá se você dá suporte à notificação com a ajuda do MAPI ou manualmente. Se o MAPI fornecer seu suporte, chame o método [IMAPISupport:: unsubscribe](imapisupport-unsubscribe.md) para cancelar o registro. Se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do coletor de aviso, ele poderá ser adiado **** até que OnNotify tenha sido retornado. 
+Sua implementação do **Unadvise dependerá** de você dar suporte à notificação com a ajuda de MAPI ou manualmente. Se o MAPI oferece suporte, chame o [método IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) para cancelar o registro. Se outro thread estiver no processo de chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do cliente, ele poderá ser atrasado até que **OnNotify** seja retornado. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). Para obter informações sobre como usar os métodos [IMAPISupport: IUnknown](imapisupportiunknown.md) para dar suporte à notificação, consulte [support Event Notification](supporting-event-notification.md).
+Para obter mais informações sobre o processo de notificação, consulte [Notificação de Evento em MAPI](event-notification-in-mapi.md). For information about how to use the [IMAPISupport : IUnknown](imapisupportiunknown.md) methods to support notification, see [Supporting Event Notification](supporting-event-notification.md).
   
 ## <a name="see-also"></a>Confira também
 

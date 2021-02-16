@@ -38,11 +38,11 @@ ULONG FAR * lpulFlags
 
  _lpMessage_
   
-> no Um ponteiro para a mensagem a ser preparada.
+> [in] Um ponteiro para a mensagem a ser preparada.
     
  _lpulFlags_
   
-> [in, out] Na entrada, o parâmetro _lpulFlags_ é reservado e deve ser zero. Na saída, _lpulFlags_ deve ser nulo. 
+> [in, out] Na entrada, o  _parâmetro lpulFlags_ é reservado e deve ser zero. Na saída,  _lpulFlags_ deve ser NULL. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,19 +52,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::P reparesubmit** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam **PrepareSubmit** em sua implementação do método [IMessage:: SubmitMessage](imessage-submitmessage.md) para preparar uma mensagem para envio ao spooler MAPI. 
+O **método IMAPISupport::P repareSubmit** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens chamam **PrepareSubmit** na implementação do método [IMessage::SubmitMessage](imessage-submitmessage.md) para preparar uma mensagem para envio ao spooler MAPI. 
   
- **PrepareSubmit** é usado para lidar com mensagens que têm o sinalizador MSGFLAG_RESEND definido em sua propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND é definido para mensagens que incluem uma solicitação a ser reenviada quando uma transmissão inicial falha. **PrepareSubmit** determina quais dos destinatários na lista de destinatários receberam com êxito a mensagem e que não o fizeram. 
+ **PrepareSubmit** é usado para manipular mensagens que têm o sinalizador MSGFLAG_RESEND definido em sua **propriedade PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND é definido para mensagens que incluem uma solicitação a serem reente quando uma transmissão inicial falha. **PrepareSubmit** determina quais dos destinatários na lista de destinatários receberam com êxito a mensagem e quais não receberam. 
   
-Para acessar a lista de destinatários, **PrepareSubmit** chama o método [IMessage::](imessage-getrecipienttable.md) GetRecipientTable da mensagem. Para recuperar os dados do destinatário, **PrepareSubmit** chama o método IMAPITable [:: QueryRows](imapitable-queryrows.md) da tabela de destinatários. Para cada linha na tabela, **PrepareSubmit** verifica a propriedade **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) e executa uma das seguintes ações:
+Para acessar a lista de **destinatários, PrepareSubmit** chama o método [IMessage::GetRecipientTable da](imessage-getrecipienttable.md) mensagem. Para recuperar os dados do destinatário, **PrepareSubmit** chama o método [IMAPITable::QueryRows da](imapitable-queryrows.md) tabela de destinatários. Para cada linha na tabela, **PrepareSubmit** verifica a **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) e toma uma das seguintes ações:
   
-- Se o sinalizador MAPI_SUBMITTED estiver definido, **PrepareSubmit** limpará o sinalizador e definirá a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) como false.
+- Se o MAPI_SUBMITTED sinalizador estiver definido, **PrepareSubmit** limpará o sinalizador e definirá a propriedade **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) como FALSE.
     
-- Se o sinalizador MAPI_SUBMITTED não estiver definido, **PrepareSubmit** altera **PR_RECIPIENT_TYPE** para MAPI_P1 e define **PR_RESPONSIBILITY** como true. 
+- Se o MAPI_SUBMITTED sinalizador não estiver definido, **PrepareSubmit** PR_RECIPIENT_TYPE para MAPI_P1 e define PR_RESPONSIBILITY **como** TRUE.  
     
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Antes de chamar o **PrepareSubmit**, certifique-se de que você chamou o método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) e defina o sinalizador NOTIFY_READYTOSEND no parâmetro _parâmetroulflags_ . A chamada **SpoolerNotify** deve ser feita uma vez por sessão antes da chamada para **PrepareSubmit**. O **SpoolerNotify** sincroniza o spooler MAPI e garante que todos os provedores de transporte necessários estejam conectados e que seus tipos de endereço sejam registrados. 
+Antes de chamar **PrepareSubmit,** certifique-se de ter chamado o método [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) e defina o sinalizador NOTIFY_READYTOSEND no _parâmetro ulFlags._ A **chamada SpoolerNotify** deve ser feita uma vez por sessão antes da chamada para **PrepareSubmit**. **O SpoolerNotify** sincroniza o spooler MAPI e garante que todos os provedores de transporte necessários estejam conectados e seus tipos de endereço estejam registrados. 
   
 ## <a name="see-also"></a>Confira também
 

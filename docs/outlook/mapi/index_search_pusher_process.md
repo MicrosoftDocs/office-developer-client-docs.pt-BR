@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423346"
 ---
-# <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
+# <a name="index_search_pusher_process"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o processo que está enviando uma notificação para o manipulador de protocolo MAPI de que um objeto no repositório está pronto para indexação.
+Especifica o processo que está enviando uma notificação para o Manipulador de Protocolo MAPI de que um objeto nesse armazenamento está pronto para indexação.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -35,6 +35,6 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 
  *dwPID* 
   
->  ID do processo que está enviando uma notificação de indexação para o indexador do manipulador de protocolo MAPI. 
+>  ID do processo para o processo que está enviando uma notificação de indexação para o indexador do Manipulador de Protocolo MAPI. 
     
 

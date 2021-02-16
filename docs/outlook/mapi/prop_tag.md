@@ -19,15 +19,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425880"
 ---
-# <a name="proptag"></a>PROP_TAG
+# <a name="prop_tag"></a>PROP_TAG
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma marca de propriedade criada combinando um tipo de propriedade especificado e um identificador. 
+Retorna uma marca de propriedade criada combinando um tipo de propriedade e um identificador especificados. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -46,16 +46,16 @@ _ulPropID_
     
 ## <a name="remarks"></a>Comentários
 
-A macro de **marca prop\_** cria uma marca de propriedade para uma propriedade do tipo _ulPropType_ e o identificador especificado em _ulPropID_. Por exemplo, uma marca de propriedade para um identificador de entrada pode ser criada usando a macro **PROP_TAG** da seguinte maneira: 
+A macro **\_ PROP TAG** cria uma marca de propriedade para uma propriedade do tipo  _ulPropType_ e o identificador especificado em  _ulPropID_. Por exemplo, uma marca de propriedade para um identificador de entrada pode ser criada usando PROP_TAG **macro** da seguinte forma: 
   
 ```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)
 
 ```
 
-Os 16 bits de ordem inferior da marca Property retornada contêm o tipo de propriedade, PT_BINARY e os 16 bits de ordem alta contêm o identificador de propriedade, 0xFFFF.
+Os 16 bits de ordem baixa da marca de propriedade retornada contêm o tipo de propriedade, PT_BINARY e os 16 bits de alta ordem contêm o identificador de propriedade, 0xFFFF.
   
-Para obter mais informações sobre as marcas de propriedade, consulte [MAPI Property Tags](mapi-property-tags.md).
+Para obter mais informações sobre marcas de propriedade, consulte [MARCAS de propriedade MAPI.](mapi-property-tags.md)
   
 ## <a name="see-also"></a>Confira também
 

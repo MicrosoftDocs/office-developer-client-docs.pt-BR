@@ -21,19 +21,19 @@ ms.locfileid: "33426468"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O estado HandsOffFromNormal é muito semelhante ao estado [HandsOffAfterSave](handsoffaftersave-state.md) . Ele faz parte do processo de salvar o conteúdo de um formulário no armazenamento permanente. Quando nesse estado, o objeto Form deve evitar fazer alterações nas cópias na memória dos valores das propriedades da mensagem, porque pode não haver outra oportunidade para salvar essas alterações. A tabela a seguir descreve as transições permitidas do estado HandsOffFromNormal. 
+O estado HandsOffFromNormal é muito semelhante ao [estado HandsOffAfterSave.](handsoffaftersave-state.md) Ele faz parte do processo de salvar o conteúdo de um formulário em armazenamento permanente. Nesse estado, o objeto de formulário deve evitar fazer alterações nas cópias na memória dos valores das propriedades da mensagem, porque pode não haver outra oportunidade para salvar essas alterações. A tabela a seguir descreve transições permitidas do estado HandsOffFromNormal. 
   
-|IPersistMessage * * método * *|**Action**|**Novo estado**|
+|Método IPersistMessage**|**Ação**|**Novo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) (_PMessage! =_ nulo)  <br/> |Substitua a mensagem do objeto Message por _PMessage_, que é a substituição da mensagem revogada pela chamada anterior a [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md). É garantido que os dados na nova mensagem sejam iguais aos da mensagem revogada. A mensagem não deve ser marcada como limpa, nem [IMAPIViewAdviseSink::](imapiviewadvisesink-onsaved.md) onsaved deve ser chamado após esta chamada. Se a chamada **SaveCompleted** for bem-sucedida, insira o estado [normal](normal-state.md) . Caso contrário, permaneça no estado HandsOffFromNormal.  <br/> |Normal ou HandsOffFromNormal  <br/> |
-|**IPersistMessage:: SaveCompleted** (_PMessage = =_ nulo)  <br/> |Defina o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
-|**HandsOffMessage**, [IPersistMessage:: salvar](ipersistmessage-save.md), [IPersistMessage:: InitNew](ipersistmessage-initnew.md)ou [IPersistMessage:: Load](ipersistmessage-load.md) <br/> |Defina o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Retorna o último erro.  <br/> |HandsOffFromNormal  <br/> |
-|Outros métodos [IPersistMessage: IUnknown](ipersistmessageiunknown.md) de outras interfaces  <br/> |Defina o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Substitua a mensagem do objeto de mensagem por  _pMessage_, que é a substituição da mensagem revogada pela chamada anterior para [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md). Os dados na nova mensagem são garantidos como os mesmos da mensagem revogada. A mensagem não deve ser marcada como limpa, nem [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) deve ser chamada após essa chamada. Se a **chamada SaveCompleted** for bem-sucedida, insira o [estado Normal.](normal-state.md) Caso contrário, fique no estado HandsOffFromNormal.  <br/> |Normal ou HandsOffFromNormal  <br/> |
+|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |De definir o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|**HandsOffMessage**, [IPersistMessage::Save](ipersistmessage-save.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md)ou [IPersistMessage::Load](ipersistmessage-load.md) <br/> |De definir o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Retornar o último erro.  <br/> |HandsOffFromNormal  <br/> |
+|Outros [IPersistMessage : métodos ou métodos IUnknown](ipersistmessageiunknown.md) de outras interfaces  <br/> |De definir o último erro como E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Estados de formulário](form-states.md)
+[Estados do formulário](form-states.md)
 
