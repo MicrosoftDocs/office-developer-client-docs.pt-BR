@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 71e75e9a-1392-b40b-1d51-167cd28b2c53
-description: Especifica informações sobre as formas de um mestre em um desenho.
+description: Especifica informações sobre as formas em um mestre em um desenho.
 ms.openlocfilehash: 26bc86aedeb96544f61f53052ab723b13b29500d
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538036"
 ---
 # <a name="mastercontents-element-visio-xml"></a>Elemento MasterContents (XML do Visio)
 
-Especifica informações sobre as formas de um mestre em um desenho. 
+Especifica informações sobre as formas em um mestre em um desenho. 
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica informações sobre as formas de um mestre em um desenho.
 |**Tipo de elemento** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Master #. xml  <br/> |
+|**Partes do documento** <br/> |master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -47,10 +47,10 @@ Nenhum
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contém um elemento **Connect** para cada conexão entre duas formas em um desenho.  <br/> |
-|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Contém uma coleção de elementos **Shape** .  <br/> |
+|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Contém uma coleção de **elementos Shape.**  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

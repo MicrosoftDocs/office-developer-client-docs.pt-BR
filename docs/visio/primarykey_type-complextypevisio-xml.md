@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538792"
 ---
-# <a name="primarykeytype-complextype-visio-xml"></a>PrimaryKey_Type complexType (XML do Visio)
+# <a name="primarykey_type-complextype-visio-xml"></a>PrimaryKey_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

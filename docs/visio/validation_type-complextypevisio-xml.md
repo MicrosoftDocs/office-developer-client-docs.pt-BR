@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538526"
 ---
-# <a name="validationtype-complextype-visio-xml"></a>Validation_Type complexType (XML do Visio)
+# <a name="validation_type-complextype-visio-xml"></a>Validation_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -62,7 +62,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |:-----|:-----|:-----|
 |[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> ||
 |[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> ||
-|[Validationproperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> ||
+|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 

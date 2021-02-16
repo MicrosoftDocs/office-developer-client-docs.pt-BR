@@ -25,7 +25,7 @@ ms.locfileid: "33439874"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Suporta o Microsoft Outlook 2010 e o Microsoft Outlook 2013 no envio de retornos de chamada de notificação para um cliente.
+Dá suporte ao Microsoft Outlook 2010 e ao Microsoft Outlook 2013 no envio de retornos de chamada de notificação para um cliente.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Suporta o Microsoft Outlook 2010 e o Microsoft Outlook 2013 no envio de retornos
 
 |||
 |:-----|:-----|
-|[Notify](imapiofflinenotify-notify.md) <br/> |Envia notificações a um cliente sobre alterações no estado de conexão.  <br/> |
+|[Notify](imapiofflinenotify-notify.md) <br/> |Envia notificações a um cliente sobre alterações no estado da conexão.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O cliente deve implementar essa interface e passar um ponteiro para ela como membro no **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** ao configurar retornos de chamada usando **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Subsequentemente, o Outlook 2010 ou o Outlook 2013 poderá usar essa interface para enviar retornos de chamada de notificação ao cliente. 
+O cliente deve implementar essa interface e passar um ponteiro para ela como membro no **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** ao configurar retornos de chamada usando **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Subsequentemente, o Outlook 2010 ou o Outlook 2013 poderá usar essa interface para enviar retornos de chamada de notificação para o cliente. 
   
 ## <a name="see-also"></a>Confira também
 

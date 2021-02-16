@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538449"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Window_Type complexType (XML do Visio)
+# <a name="window_type-complextype-visio-xml"></a>Window_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -178,7 +178,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |:-----|:-----|:-----|
 |[DynamicGridEnabled](dynamicgridenabled-element-window_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
 |[GlueSettings](gluesettings-element-window_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> ||
-|[Todos os ConnectionPoints](showconnectionpoints-element-window_type-complextypevisio-xml.md) <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> ||
+|[ShowConnectionPoints](showconnectionpoints-element-window_type-complextypevisio-xml.md) <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> ||
 |[ShowGrid](showgrid-element-window_type-complextypevisio-xml.md) <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> ||
 |[ShowGuides](showguides-element-window_type-complextypevisio-xml.md) <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> ||
 |[ShowPageBreaks](showpagebreaks-element-window_type-complextypevisio-xml.md) <br/> |[ShowPageBreaks_Type](showpagebreaks_type-complextypevisio-xml.md) <br/> ||
@@ -186,7 +186,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> ||
 |[SnapExtensions](snapextensions-element-window_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> ||
 |[SnapSettings](snapsettings-element-window_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> ||
-|[Painel de estêncil](stencilgroup-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> ||
+|[StencilGroup](stencilgroup-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> ||
 |[StencilGroupPos](stencilgrouppos-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroupPos_Type](stencilgrouppos_type-complextypevisio-xml.md) <br/> ||
 |[TabSplitterPos](tabsplitterpos-element-window_type-complextypevisio-xml.md) <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> ||
    
@@ -196,21 +196,21 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |:-----|:-----|:-----|:-----|:-----|
 |Contêiner  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores do tipo xsd:token.  <br/> |
-|Documento  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|Document  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|Mestre  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|Página  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
+|Master  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
+|Page  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |ParentWindow  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |ReadOnly  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
 |Planilha  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|ViewScale  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
+|ViewCenterX  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ViewCenterY  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ViewScale  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
 |WindowHeight  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|WindowLeft  <br/> |xsd: Short  <br/> |opcional  <br/> ||Valores do tipo xsd: short.  <br/> |
+|WindowLeft  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores do tipo xsd:short.  <br/> |
 |WindowState  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|WindowTop  <br/> |xsd: Short  <br/> |opcional  <br/> ||Valores do tipo xsd: short.  <br/> |
-|Windowtype  <br/> |xsd:token  <br/> |obrigatório  <br/> ||Valores do tipo xsd:token.  <br/> |
+|WindowTop  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores do tipo xsd:short.  <br/> |
+|WindowType  <br/> |xsd:token  <br/> |obrigatório  <br/> ||Valores do tipo xsd:token.  <br/> |
 |WindowWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção geometry) (Visio XML)
+title: Elemento Cell (Seção Geometry) (VISio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539804"
 ---
-# <a name="cell-element-geometry-section-visio-xml"></a>Elemento Cell (seção geometry) (Visio XML)
+# <a name="cell-element-geometry-section-visio-xml"></a>Elemento Cell (Seção Geometry) (Visio XML)
 
 Define propriedades que determinam as propriedades de formatação e comportamento em relação a linhas e arcos que compõem a seção Geometry.
   

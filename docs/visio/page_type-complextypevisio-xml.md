@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537980"
 ---
-# <a name="pagetype-complextype-visio-xml"></a>Page_Type complexType (XML do Visio)
+# <a name="page_type-complextype-visio-xml"></a>Page_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -99,7 +99,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
 |AssociatedPage  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|Tela de fundo  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
+|Histórico  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
 |BackPage  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
@@ -107,8 +107,8 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 |Nome  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
 |ReviewerID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|ViewScale  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
+|ViewCenterX  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ViewCenterY  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ViewScale  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
    
 

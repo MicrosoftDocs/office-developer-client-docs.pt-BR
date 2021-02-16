@@ -25,7 +25,7 @@ ms.locfileid: "33439776"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Verifica se um anexo especificado está bloqueado pelo Microsoft Outlook 2010 ou Microsoft Outlook 2013 para exibição e indexação.
+Verifica se um anexo especificado está bloqueado pelo Microsoft Outlook 2010 ou pelo Microsoft Outlook 2013 para exibição e indexação.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -38,11 +38,11 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
  _pwszFileName_
   
-> no Ponteiro para o nome de arquivo de um anexo.
+> [in] Ponteiro para o nome de arquivo de um anexo.
     
  _pfBlocked_
   
-> bota Ponteiro para um valor que indica **true** se o anexo especificado estiver bloqueado; caso contrário, **false**.
+> [out] Ponteiro para um valor indicando **true** se o anexo especificado está bloqueado; caso contrário, **false**.
     
 ## <a name="see-also"></a>Confira também
 

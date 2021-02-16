@@ -25,7 +25,7 @@ Especifica as informações sobre as formas em uma página de desenho ou mestre 
 |**Tipo de elemento** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |página #. xml  <br/> |
+|**Partes do documento** <br/> |page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -51,6 +51,6 @@ Nenhum
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento validationproperties (Validation_Type complexType) (XML do Visio)
+title: Elemento ValidationProperties (Validation_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538519"
 ---
-# <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Elemento validationproperties (Validation_Type complexType) (XML do Visio)
+# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Elemento ValidationProperties (Validation_Type complexType) (XML do Visio)
 
 Encapsula as propriedades relacionadas à validação do documento.
   
@@ -25,7 +25,7 @@ Encapsula as propriedades relacionadas à validação do documento.
 |**Tipo de elemento** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -52,7 +52,7 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> |A data e hora em que o documento foi validado pela última vez.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
-|Não ignorado  <br/> |xsd:boolean  <br/> |obrigatório  <br/> |Especifica se os problemas de validação ignorados devem ser mostrados na janela problemas.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> |A data e a hora em que o documento foi validado pela última vez.  <br/> |Valores do tipo xsd:dateTime.  <br/> |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |obrigatório  <br/> |Especifica se é necessário mostrar problemas de validação ignorados na janela Problemas.  <br/> |Valores do tipo xsd:boolean.  <br/> |
    
 

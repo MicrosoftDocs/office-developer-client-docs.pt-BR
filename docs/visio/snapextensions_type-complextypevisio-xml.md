@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540284"
 ---
-# <a name="snapextensionstype-complextype-visio-xml"></a>SnapExtensions_Type complexType (XML do Visio)
+# <a name="snapextensions_type-complextype-visio-xml"></a>SnapExtensions_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

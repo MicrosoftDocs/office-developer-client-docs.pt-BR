@@ -1,5 +1,5 @@
 ---
-title: Elemento authorlist (Comments_Type complexType) (XML do Visio)
+title: Elemento AuthorList (Comments_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537854"
 ---
-# <a name="authorlist-element-commentstype-complextype-visio-xml"></a>Elemento authorlist (Comments_Type complexType) (XML do Visio)
+# <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Elemento AuthorList (Comments_Type complexType) (XML do Visio)
 
 Especifica os autores de comentários em um desenho.
   

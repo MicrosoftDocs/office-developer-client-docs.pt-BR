@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538288"
 ---
-# <a name="refby-element-triggertype-complextype-visio-xml"></a>Elemento RefBy (Trigger_Type complexType) (XML do Visio)
+# <a name="refby-element-trigger_type-complextype-visio-xml"></a>Elemento RefBy (Trigger_Type complexType) (XML do Visio)
 
 Especifica uma referência a uma página no desenho.
   
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fornece instruções para o Microsoft Visio recalcular uma relação entre partes do documento em um arquivo do Visio.  <br/> |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fornece instruções ao Microsoft Visio para recalcular uma relação entre partes do documento em um arquivo do Visio.  <br/> |
 
    
 ### <a name="child-elements"></a>Elementos filho

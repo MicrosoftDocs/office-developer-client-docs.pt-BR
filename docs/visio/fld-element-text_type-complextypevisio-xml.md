@@ -1,5 +1,5 @@
 ---
-title: elemento FLD (Text_Type complexType) (XML do Visio)
+title: elemento fld (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539611"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (Text_Type complexType) (XML do Visio)
+# <a name="fld-element-text_type-complextype-visio-xml"></a>elemento fld (Text_Type complexType) (XML do Visio)
 
 Indica um ponto de inserção de campo de texto para o elemento **Field** correspondente. 
   

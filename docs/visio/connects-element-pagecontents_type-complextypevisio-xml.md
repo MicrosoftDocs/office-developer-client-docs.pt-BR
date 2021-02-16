@@ -1,5 +1,5 @@
 ---
-title: Elemento connects (PageContents_Type complexType) (XML do Visio)
+title: Elemento Connects (PageContents_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538708"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Elemento connects (PageContents_Type complexType) (XML do Visio)
+# <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Elemento Connects (PageContents_Type complexType) (XML do Visio)
 
 Contém um elemento **Connect** para cada conexão entre duas formas em um desenho. 
   

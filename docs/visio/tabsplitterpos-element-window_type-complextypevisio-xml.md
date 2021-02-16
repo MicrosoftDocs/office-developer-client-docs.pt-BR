@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
-description: Especifica a largura do controle da guia de página de uma janela de desenho (como uma fração da largura total da janela de desenho).
+description: Especifica a largura do controle guia de página de uma janela de desenho (como uma fração da largura total da janela de desenho).
 ms.openlocfilehash: 50b614ff43fa502bce7989dacf2652d52b850994
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538848"
 ---
-# <a name="tabsplitterpos-element-windowtype-complextype-visio-xml"></a>Elemento TabSplitterPos (Window_Type complexType) (XML do Visio)
+# <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Elemento TabSplitterPos (Window_Type complexType) (XML do Visio)
 
-Especifica a largura do controle da guia de página de uma janela de desenho (como uma fração da largura total da janela de desenho).
+Especifica a largura do controle guia de página de uma janela de desenho (como uma fração da largura total da janela de desenho).
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica a largura do controle da guia de página de uma janela de desenho (co
 |**Tipo de elemento** <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

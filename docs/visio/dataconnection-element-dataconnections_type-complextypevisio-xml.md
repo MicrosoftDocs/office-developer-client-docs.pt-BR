@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538400"
 ---
-# <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>Elemento DataConnection (DataConnections_Type complexType) (XML do Visio)
+# <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Elemento DataConnection (DataConnections_Type complexType) (XML do Visio)
 
 Resume a comunicação entre um ou mais objetos **DataRecordset** e uma fonte de dados não XML. 
   

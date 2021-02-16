@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539710"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (XML do Visio)
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (XML do Visio)
 
 Contém uma coleção de elementos **FaceName**. 
   

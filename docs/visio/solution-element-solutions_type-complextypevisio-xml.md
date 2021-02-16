@@ -1,12 +1,12 @@
 ---
-title: Elemento Solution (Solutions_Type complexType) (XML do Visio)
+title: Elemento Solution (Solutions_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
-description: Especifica uma instância do XML da solução armazenada no desenho.
+description: Especifica uma instância da solução XML armazenada no desenho.
 ms.openlocfilehash: 028decf0ac9b33ac33dd1e44ed3992ef7eb38aed
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540263"
 ---
-# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (XML do Visio)
+# <a name="solution-element-solutions_type-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (Visio XML)
 
-Especifica uma instância do XML da solução armazenada no desenho.
+Especifica uma instância de SOLUÇÃO XML armazenada no desenho.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica uma instância do XML da solução armazenada no desenho.
 |**Tipo de elemento** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Solutions. xml  <br/> |
+|**Partes do documento** <br/> |solutions.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

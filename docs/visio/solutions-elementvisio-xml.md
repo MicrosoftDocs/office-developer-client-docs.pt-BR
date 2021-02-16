@@ -25,7 +25,7 @@ Especifica as propriedades das soluções armazenadas no documento.
 |**Tipo de elemento** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Solutions. xml  <br/> |
+|**Partes do documento** <br/> |solutions.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -45,10 +45,10 @@ Nenhum
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Especifica uma instância do XML da solução armazenada no desenho.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Especifica uma instância de SOLUÇÃO XML armazenada no desenho.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

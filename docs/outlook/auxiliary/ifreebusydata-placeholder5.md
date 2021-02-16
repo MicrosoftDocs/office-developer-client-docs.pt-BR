@@ -32,7 +32,7 @@ HRESULT Placeholder5(
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre E_NOTIMPL, porque esse membro é um espaço reservado no **IFreeBusyData** e não tem suporte. 
+Sempre E_NOTIMPL, pois esse membro é um espaço reservado no **IFreeBusyData** e não é suportado. 
   
 ## <a name="remarks"></a>Comentários
 

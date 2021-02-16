@@ -1,5 +1,5 @@
 ---
-title: Elemento commentlist (Comments_Type complexType) (XML do Visio)
+title: Elemento CommentList (Comments_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539245"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Elemento commentlist (Comments_Type complexType) (XML do Visio)
+# <a name="commentlist-element-comments_type-complextype-visio-xml"></a>Elemento CommentList (Comments_Type complexType) (XML do Visio)
 
 Especifica os comentários em um desenho.
   

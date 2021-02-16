@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540725"
 ---
-# <a name="propertyrowtype-complextype-visio-xml"></a>PropertyRow_Type complexType (XML do Visio)
+# <a name="propertyrow_type-complextype-visio-xml"></a>PropertyRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

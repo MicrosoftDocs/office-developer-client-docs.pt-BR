@@ -1,5 +1,5 @@
 ---
-title: Elemento validation (XML do Visio)
+title: Elemento Validation (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538547"
 ---
-# <a name="validation-element-visio-xml"></a>Elemento validation (XML do Visio)
+# <a name="validation-element-visio-xml"></a>Elemento Validation (Visio XML)
 
 Armazena informações sobre a validação de diagrama do documento.
   
@@ -25,7 +25,7 @@ Armazena informações sobre a validação de diagrama do documento.
 |**Tipo de elemento** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation. xml  <br/> |
+|**Partes do documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -45,12 +45,12 @@ Nenhum
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contém todos os elementos **Issue** do documento.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contém todos os **elementos Issue** do documento.  <br/> |
 |[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Inclui um elemento **RuleSet** para cada conjunto de regras de validação no documento.  <br/> |
-|[Validationproperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |Encapsula as propriedades relacionadas à validação do documento.  <br/> |
+|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |Encapsula as propriedades relacionadas à validação do documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

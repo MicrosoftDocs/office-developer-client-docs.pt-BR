@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538057"
 ---
-# <a name="mastershortcuttype-complextype-visio-xml"></a>MasterShortcut_Type complexType (XML do Visio)
+# <a name="mastershortcut_type-complextype-visio-xml"></a>MasterShortcut_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

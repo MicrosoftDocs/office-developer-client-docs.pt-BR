@@ -35,6 +35,6 @@ ms.locfileid: "33439825"
 | Selecionar até o final  <br/> | Pressione SHIFT+END.  <br/> |
 | Selecionar até o começo  <br/> | Pressione SHIFT+HOME.  <br/> |
 | Substituir o texto selecionado  <br/> | Digite o novo texto.  <br/> |
-| Excluir o texto selecionado  <br/> | Pressione DELETE. Ou na guia **página inicial** , clique **** em Recortar.  <br/> |
+| Excluir o texto selecionado  <br/> | Pressione DELETE. Ou, na **guia Página** Home, clique em **Recortar.**  <br/> |
    
 

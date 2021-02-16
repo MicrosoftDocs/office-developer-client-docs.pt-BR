@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538876"
 ---
-# <a name="stencilgrouppos-element-windowtype-complextype-visio-xml"></a>Elemento StencilGroupPos (Window_Type complexType) (XML do Visio)
+# <a name="stencilgrouppos-element-window_type-complextype-visio-xml"></a>Elemento StencilGroupPos (Window_Type complexType) (XML do Visio)
 
 Contém um inteiro que especifica a posição relativa de um estêncil dentro de um grupo em uma janela.
   
@@ -25,7 +25,7 @@ Contém um inteiro que especifica a posição relativa de um estêncil dentro de
 |**Tipo de elemento** <br/> |[StencilGroupPos_Type](stencilgrouppos_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

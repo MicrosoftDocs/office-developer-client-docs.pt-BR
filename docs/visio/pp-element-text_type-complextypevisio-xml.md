@@ -1,12 +1,12 @@
 ---
-title: elemento PP (Text_Type complexType) (XML do Visio)
+title: Elemento pp (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
-description: Especifica o início de uma execução de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
+description: Especifica o início de uma série de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
 ms.openlocfilehash: 695958c77f730abed03f50d6ad9c71f4de76dd63
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537735"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>elemento PP (Text_Type complexType) (XML do Visio)
+# <a name="pp-element-text_type-complextype-visio-xml"></a>Elemento pp (Text_Type complexType) (XML do Visio)
 
-Especifica o início de uma execução de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
+Especifica o início de uma série de propriedades de parágrafo. A execução é definida para o final do texto ou até a próxima marcação.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -52,6 +52,6 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O índice do elemento **para** que especifica a formatação aplicada a esta execução.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O índice do **elemento Para** que especifica a formatação aplicada a essa executar.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

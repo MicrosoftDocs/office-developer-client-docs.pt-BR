@@ -25,40 +25,40 @@ ms.locfileid: "33439839"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta propriedade contém um número que indica o status de uma transferência remota.
+Essa propriedade contém um número que indica o status de uma transferência remota.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_REMOTE_PROGRESS  <br/> |
 |Identificador:  <br/> |0x3E0B  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Status de MAPI  <br/> |
+|Área:  <br/> |MAPI Status  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se nenhuma transferência estiver em andamento, esta propriedade deverá ser definida como 1. Se uma transferência estiver em andamento, ela deverá ser definida como um valor de 0 a 100, indicando a porcentagem de conclusão da transferência.
+Se nenhuma transferência estiver em andamento, essa propriedade deverá ser definida como 1. Se uma transferência estiver em andamento, ela deverá ser definida para um valor de 0 a 100, indicando a porcentagem de conclusão da transferência.
   
 O texto associado ao código de status numérico aparece na propriedade **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
-Os seguintes sinalizadores podem ser definidos para esta propriedade:
+Os sinalizadores a seguir podem ser definidos para essa propriedade:
   
 MSGSTATUS_REMOTE_DELETE
   
-> A transferência de mensagem é excluída.
+> A transferência de mensagens é excluída.
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> A transferência de mensagem está em andamento.
+> A transferência de mensagens está em andamento.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

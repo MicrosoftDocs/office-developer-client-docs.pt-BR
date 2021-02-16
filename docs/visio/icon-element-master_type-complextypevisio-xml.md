@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80061e7d-dbcb-f7a1-b63a-052eee4ec7d7
-description: Especifica um ícone binário codificado de MIME (Multipurpose Internet Mail Extensions) (no formato. ico) para um elemento Master em um documento.
+description: Especifica um ícone binário codificado mime (Multipurpose Internet Mail Extensions) (no formato .ico) para um elemento Master em um documento.
 ms.openlocfilehash: fb66e79348b6fba5d5dfd163e6165e7c1bfddfcd
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537742"
 ---
-# <a name="icon-element-mastertype-complextype-visio-xml"></a>Elemento Icon (Master_Type complexType) (XML do Visio)
+# <a name="icon-element-master_type-complextype-visio-xml"></a>Elemento Icon (Master_Type complexType) (XML do Visio)
 
-Especifica um ícone binário codificado de MIME (Multipurpose Internet Mail Extensions) (no formato. ico) para um elemento Master em um documento.
+Especifica um ícone binário codificado mime (Multipurpose Internet Mail Extensions) (no formato .ico) para um elemento Master em um documento.
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Especifica um ícone binário codificado de MIME (Multipurpose Internet Mail Ext
 |**Tipo de elemento** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Masters. xml  <br/> |
+|**Partes do documento** <br/> |masters.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

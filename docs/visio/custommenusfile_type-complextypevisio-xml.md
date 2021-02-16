@@ -1,5 +1,5 @@
 ---
-title: CustomMenusFile_Type complexType (XML do Visio)
+title: CustomMenusFile_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540515"
 ---
-# <a name="custommenusfiletype-complextype-visio-xml"></a>CustomMenusFile_Type complexType (XML do Visio)
+# <a name="custommenusfile_type-complextype-visio-xml"></a>CustomMenusFile_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540109"
 ---
-# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) (XML do Visio)
+# <a name="commententry-element-commentlist_type-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) (XML do Visio)
 
 Especifica propriedades usadas para identificar um comentário em um desenho.
   

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537868"
 ---
-# <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Elemento AutoLinkComparison (DataRecordSet_Type complexType) (XML do Visio)
+# <a name="autolinkcomparison-element-datarecordset_type-complextype-visio-xml"></a>Elemento AutoLinkComparison (DataRecordSet_Type complexType) (XML do Visio)
 
 Define uma regra que compara uma coluna pai do elemento **ConjuntoDeRegistrosDeDados** com um item de dados de forma na última ação de vinculação automática bem-sucedida, executadas na interface do usuário. 
   

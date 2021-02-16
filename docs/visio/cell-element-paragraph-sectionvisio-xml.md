@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Paragraph) (Visio XML)
+title: Elemento Cell (Seção Paragraph) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539478"
 ---
-# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento Cell (seção Paragraph) (Visio XML)
+# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento Cell (Seção Paragraph) (Visio XML)
 
 Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.
   

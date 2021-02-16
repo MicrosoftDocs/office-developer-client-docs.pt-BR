@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha NURBSto) (Visio XML)
+title: Elemento Cell (Linha NURBSTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539485"
 ---
-# <a name="cell-element-nurbsto-row-visio-xml"></a>Elemento Cell (linha NURBSto) (Visio XML)
+# <a name="cell-element-nurbsto-row-visio-xml"></a>Elemento Cell (Linha NURBSTo) (XML do Visio)
 
 Contém as coordenadas x ou y, a posição do penúltimo nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline não-racional uniforme (NURBS).
   

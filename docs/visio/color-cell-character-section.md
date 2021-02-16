@@ -24,7 +24,7 @@ Determina a cor utilizada no texto da forma.
 
 Para definir a cor, insira um número de 0 a 23.
   
-Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB e RGB ( *r, g, b*), e não um número, serão mostrados na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
+Para inserir uma cor personalizada, utilize a função RGB ou HSL. O valor de uma cor personalizada é sua cor RGB, e RGB( *r, g, b*), em vez de um número, será mostrado na janela ShapeSheet. Quando utilizadas em operações numéricas, as cores têm valores iguais e superiores a 24. 
   
 É possível definir a transparência da cor do texto na célula Transparency.
   
@@ -32,14 +32,14 @@ Para fazer referência à célula Color pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char. Color [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Char.Color[ *i*  ] where  *i*  = <1>, 2, 3, ...  <br/> |
    
 Para fazer referência à célula Color pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionCharacter** <br/> |
-|Índice de linha:  <br/> |**visRowCharacter** +  *i* onde *i* = 0, 1, 2,...  <br/> |
-|Índice da célula:  <br/> |**visCharacterColor** <br/> |
+|Índice de linha:  <br/> |**visRowCharacter**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
+|Índice de célula:  <br/> |**visCharacterColor** <br/> |
    
 

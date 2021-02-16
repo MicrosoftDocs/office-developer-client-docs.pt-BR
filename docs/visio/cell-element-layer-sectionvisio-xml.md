@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Layer) (XML do Visio)
+title: Elemento Cell (Seção Layer) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539754"
 ---
-# <a name="cell-element-layer-section-visio-xml"></a>Elemento Cell (seção Layer) (XML do Visio)
+# <a name="cell-element-layer-section-visio-xml"></a>Elemento Cell (Seção Layer) (Visio XML)
 
 Especifica uma propriedade para uma camada ou suas propriedades para uma página.
   

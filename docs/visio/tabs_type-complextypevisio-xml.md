@@ -1,5 +1,5 @@
 ---
-title: Tabs_Type complexType (XML do Visio)
+title: Tabs_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538841"
 ---
-# <a name="tabstype-complextype-visio-xml"></a>Tabs_Type complexType (XML do Visio)
+# <a name="tabs_type-complextype-visio-xml"></a>Tabs_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

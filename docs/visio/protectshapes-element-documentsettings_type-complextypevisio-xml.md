@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540662"
 ---
-# <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectShapes (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="protectshapes-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectShapes (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se o usuário é impedido de selecionar formas que têm seu elemento **LockSelect** definido como 1. 
   

@@ -22,11 +22,11 @@ Representa informações diferentes em linhas diferentes. Esta tabela descreve a
   
 |Linha|Descrição|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A coordenada *y* do ponto de controle de um arco.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | A  *coordenada y*  do ponto de controle de um arco.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | A última espessura da B-spline racional não-uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | O primeiro nó de uma spline.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Uma coordenada *y* de um ponto em uma linha infinita; emparelhado com a coordenada *x* representada pela [](a-cell-geometry-section.md) célula a.  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma coordenada *y* de um ponto em uma elipse; emparelhado com a coordenada *x* representada pela [](a-cell-geometry-section.md) célula a.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Uma *coordenada y* de um ponto em uma linha infinita; emparelhado com uma coordenada *x* representada pela [célula A.](a-cell-geometry-section.md)  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma *coordenada y* de um ponto em uma elipse; emparelhado com uma coordenada *x* representada pela [célula A.](a-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -34,21 +34,21 @@ Para fazer referência à célula B pelo nome, a partir de outra fórmula ou pro
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometry *i* . B *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
-|| Geometry *i* . B1 (linhas InfiniteLine e Ellipse)  <br/> |
+| Nome da célula:  <br/> | Geometry  *i*  . B  *j*            onde  *i*  e  *j*  = <1>, 2, 3...  <br/> |
+|| Geometry  *i*  . B1 (Linhas InfiniteLine e Ellipse)  <br/> |
    
 Para fazer referência à célula B pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice de linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex **(linhas Ellipse e InfiniteLine)  <br/> |
+| Índice da seção:  <br/> |**visSectionFirstComponent**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowVertex**  +   *j* onde *j* = 0, 1, 2...  <br/> |
+||**visRowVertex**(linhas Ellipse e InfiniteLine)  <br/> |
 | Índice da célula:  <br/> |**visControlX** (EllipticalArcTo row)  <br/> |
 ||**visControlY** (linha EllipticalArcTo)  <br/> |
-||**visNURBSWeight **(linha NURBSTo)  <br/> |
-||**visSplineKnot2 **(linha SplineStart)  <br/> |
-||**visInfiniteLineY2 **(linha InfiniteLine)  <br/> |
-||**visEllipseMajorY **(linha Ellipse)  <br/> |
+||**visNURBSWeight**(linha NURBSTo)  <br/> |
+||**visSplineKnot2**(linha SplineStart)  <br/> |
+||**visInfiniteLineY2**(linha InfiniteLine)  <br/> |
+||**visEllipseMajorY**(linha Ellipse)  <br/> |
    
 

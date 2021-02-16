@@ -17,7 +17,7 @@ ms.locfileid: "34538365"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003
 
-Por padrão, o FormCode.cs FormCode.vb arquivo ou criado para um projeto de modelo de formulário compatível com o InfoPath 2003 contém o código-fonte para a lógica de programação do formulário. O modelo do projeto gera uma classe no FormCode.cs ou arquivo FormCode.vb como classes nos exemplos a seguir onde você pode definir a inicialização e limpeza código, bem como manipuladores de eventos de formulário. Os arquivos FormCode.cs e FormCode.vb se aplicam a um nível de conjunto do atributo**System.ComponentModel.DescriptionAttribute**, que identifica a classe como a única a classe onde são implementados manipuladores de eventos. O atributo** InfoPathNamespace** (que é implementado pelo [ InfoPathNamespaceAttribute)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathNamespaceAttribute.aspx) é aplicado a uma classe para identificar os namespaces de seleção DOM XML usados de acordo com a classe. Os namespaces mencionados na** InfoPathNamespace** são mantidos pelo sistema de projeto do InfoPath. 
+Por padrão, o FormCode.cs FormCode.vb arquivo ou criado para um projeto de modelo de formulário compatível com o InfoPath 2003 contém o código-fonte para a lógica de programação do formulário. O modelo do projeto gera uma classe no FormCode.cs ou arquivo FormCode.vb como classes nos exemplos a seguir onde você pode definir a inicialização e limpeza código, bem como manipuladores de eventos de formulário. Os arquivos FormCode.cs e FormCode.vb se aplicam a um nível de conjunto do atributo **System.ComponentModel.DescriptionAttribute**, que identifica a classe como a única a classe onde são implementados manipuladores de eventos. O atributo **InfoPathNamespace** (que é implementado pelo [ InfoPathNamespaceAttribute)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathNamespaceAttribute.aspx) é aplicado a uma classe para identificar os namespaces de seleção DOM XML usados de acordo com a classe. Os namespaces mencionados na **InfoPathNamespace** são mantidos pelo sistema de projeto do InfoPath. 
   
 A classe de FormCode fornece `_Startup` os `_Shutdown` métodos usados para executar a inicialização e tipos de treino de limpeza para os componentes necessários além funcionalidade padrão do InfoPath enquanto o formulário estiver aberto. 
   
@@ -81,7 +81,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="the-startup-method"></a>O método Startup
+## <a name="the-_startup-method"></a>O método Startup
 
 Além de oferecer um local para programar a inicialização componentes adicionais, o `_Startup` método inicializa a `thisXDocument` e `thisApplication` variáveis que podem ser usadas no seu código do formulário para acessar os membros da [ XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) e [aplicativo](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) classes no modelo de objeto do InfoPath. O código necessário para inicializar duas variáveis é gerado automaticamente pelo modelo de projeto. 
   
@@ -128,7 +128,7 @@ End Sub
 
 Confira informações sobre como criar um manipulador de eventos [adicionar um manipulador de eventos usando o modelo de objeto do InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
-## <a name="the-shutdown-method"></a>O método _ShutDown
+## <a name="the-_shutdown-method"></a>O método _ShutDown
 
 O`_Shutdown` método é o último a ser acionado quando um formulário está fechado. Você pode escrever qualquer código que seja necessário nesse método para limpar ou finalizar componentes usados no formulário. 
   

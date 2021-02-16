@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha MoveTo) (Visio XML)
+title: Elemento Cell (Linha MoveTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539513"
 ---
-# <a name="cell-element-moveto-row-visio-xml"></a>Elemento Cell (linha MoveTo) (Visio XML)
+# <a name="cell-element-moveto-row-visio-xml"></a>Elemento Cell (Linha MoveTo) (Visio XML)
 
 Contém as coordenadas x ou y do primeiro vértice de uma forma ou representa as coordenadas x ou y do primeiro vértice depois de uma quebra no caminho.
   

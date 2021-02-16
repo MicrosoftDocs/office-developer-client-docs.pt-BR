@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540375"
 ---
-# <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="snapextensions-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapExtensions (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se uma configuração de extensão de ajuste específica está habilitada ou desabilitada da janela ativa. 
   
@@ -50,27 +50,27 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-O valor do elemento **SnapExtensions** pode ser uma soma dos valores na tabela a seguir. 
+O valor do **elemento SnapExtensions** pode ser uma soma dos valores na tabela a seguir. 
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Ajustar a nada.  <br/> |
-|1  <br/> |Ajustar à extensão da caixa de alinhamento.  <br/> |
-|duas  <br/> |Ajustar à extensão do eixo central.  <br/> |
-|quatro  <br/> |Ajustar à extensão da tangente da curva.  <br/> |
+|0  <br/> |Ajustar a nada.  <br/> |
+|1   <br/> |Ajustar à extensão da caixa de alinhamento.  <br/> |
+|2   <br/> |Ajustar à extensão do eixo central.  <br/> |
+|4   <br/> |Ajustar à extensão de tangente curva.  <br/> |
 |8   <br/> |Ajustar à extensão do ponto de extremidade.  <br/> |
-|dezesseis  <br/> |Ajustar à extensão intermediária.  <br/> |
+|16   <br/> |Ajustar à extensão do ponto médio.  <br/> |
 |32  <br/> |Ajustar à extensão linear.  <br/> |
-|64  <br/> |Ajustar à extensão da curva.  <br/> |
-|128  <br/> |Ajustar à extensão perpendicular de ponto de extremidade.  <br/> |
-|256  <br/> |Ajustar à extensão perpendicular de ponto central.  <br/> |
+|64  <br/> |Ajustar à extensão de curva.  <br/> |
+|128  <br/> |Ajustar à extensão perpendicular do ponto de extremidade.  <br/> |
+|256  <br/> |Ajustar à extensão perpendicular do ponto médio.  <br/> |
 |512  <br/> |Ajustar à extensão horizontal do ponto de extremidade.  <br/> |
 |1024  <br/> |Ajustar à extensão vertical do ponto de extremidade.  <br/> |
-|2048  <br/> |Ajustar à extensão do centro da elipse.  <br/> |
-|4096  <br/> |Ajuste à extensão de ângulos isométrica.  <br/> |
+|2048  <br/> |Ajustar à extensão do centro de elipse.  <br/> |
+|4096  <br/> |Ajustar à extensão de ângulos isométricos.  <br/> |
    
 

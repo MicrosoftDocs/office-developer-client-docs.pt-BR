@@ -25,13 +25,13 @@ ms.locfileid: "33439797"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um fluxo de texto no formato Rich Text (RTF) descompactado a partir do formato compactado usado na propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
+Cria um fluxo de texto em RTF (Formato Rich Text) não compactado a partir do formato compactado usado na **propriedade PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HRESULT WrapCompressedRTFStream(
@@ -45,39 +45,39 @@ HRESULT WrapCompressedRTFStream(
 
  _lpCompressedRTFStream_
   
-> no Ponteiro para um Stream aberto na propriedade PR_RTF_COMPRESSED de uma mensagem. 
+> [in] Ponteiro para um fluxo aberto na PR_RTF_COMPRESSED propriedade de uma mensagem. 
     
  _ulFlags_
   
-> no Bitmask dos sinalizadores de opções para a função. Os seguintes sinalizadores podem ser definidos:
+> [in] Bitmask de sinalizadores de opção para a função. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_MODIFY 
   
-> Se o cliente pretende ler ou gravar a interface de fluxo encapsulada retornada. 
+> Se o cliente pretende ler ou gravar a interface de fluxo envolvida que é retornada. 
     
 STORE_UNCOMPRESSED_RTF 
   
-> O RTF descompactado deve ser gravado no fluxo apontado pelo _lpCompressedRTFStream_
+> RTF não compactado deve ser gravado no fluxo apontado por  _lpCompressedRTFStream_
     
  _lpUncompressedRTFStream_
   
-> bota Ponteiro para o local onde **WrapCompressedRTFStream** retorna um Stream para o RTF descompactado. 
+> [out] Ponteiro para o local onde **WrapCompressedRTFStream** retorna um fluxo para o RTF não compactado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Se o sinalizador MAPI_MODIFY for passado no parâmetro _parâmetroulflags_ , o parâmetro _lpCompressedRTFStream_ já deverá estar aberto para leitura e gravação. O texto RTF novo e descompactado deve ser gravado na interface de fluxo retornada no _lpUncompressedRTFStream_. Como não é possível acrescentar o fluxo existente, o texto da mensagem inteira deve ser gravado. 
+Se o MAPI_MODIFY sinalizador for passado no  _parâmetro ulFlags,_ o parâmetro  _lpCompressedRTFStream_ já deverá estar aberto para leitura e escrita. O texto RTF novo e descompactado deve ser gravado na interface de fluxo retornada em  _lpUncompressedRTFStream_. Como não é possível anexar o fluxo existente, todo o texto da mensagem deve ser gravado. 
   
-Se zero é passado no parâmetro _parâmetroulflags_ , _lpCompressedRTFStream_ pode ser aberto somente leitura. Somente todo o texto da mensagem pode ser lido da interface de fluxo retornada no _lpUncompressedRTFStream_. Não é possível pesquisar iniciando o meio do fluxo. 
+Se zero for passado no  _parâmetro ulFlags,_  _lpCompressedRTFStream_ poderá ser aberto somente leitura. Somente o texto inteiro da mensagem pode ser lido fora da interface de fluxo retornada em  _lpUncompressedRTFStream_. Não é possível pesquisar começando pelo meio do fluxo. 
   
- **WrapCompressedRTFStream** assume que o ponteiro do fluxo compactado está definido para o início do fluxo. Determinados métodos OLE **IStream** não são suportados pelo Stream não compactado retornado. Entre eles estão **IStream:: clone**, **IStream:: LockRegion**, **IStream:: reVert**, IStream:: **Seek**, IStream:: SetSize, **IStream:: stat**e **IStream:: UnlockRegion**. **** Para copiar para o fluxo inteiro, é necessário um loop de leitura/gravação. 
+ **WrapCompressedRTFStream** assume que o ponteiro do fluxo compactado está definido para o início do fluxo. Determinados métodos **OLE IStream** não são suportados pelo fluxo descompactado retornado. Eles incluem **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat** e **IStream::UnlockRegion**. Para copiar para todo o fluxo, um loop de leitura/gravação é necessário. 
   
-Como o cliente grava novo RTF no formato descompactado, ele deve usar o **WrapCompressedRTFStream**, em vez de gravar diretamente no Stream. Os clientes com reconhecimento de RTF devem procurar o sinalizador STORE_UNCOMPRESSED_RTF na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) e passá-lo para **WrapCompressed RTFStream** se ele estiver definido. 
+Como o cliente grava o novo RTF no formato descompactado, ele deve usar **WrapCompressedRTFStream**, em vez de escrever diretamente no fluxo. Clientes com conhecimento de RTF devem procurar o sinalizador STORE_UNCOMPRESSED_RTF na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) e passá-lo para **WrapCompressed RTFStream** se ele estiver definido. 
   
 ## <a name="see-also"></a>Confira também
 

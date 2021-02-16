@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha Actions) (Visio XML)
+title: Elemento Cell (Linha Actions) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538778"
 ---
-# <a name="cell-element-actions-row-visio-xml"></a>Elemento Cell (linha Actions) (Visio XML)
+# <a name="cell-element-actions-row-visio-xml"></a>Elemento Cell (Linha Actions) (XML do Visio)
 
 Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de marca de ação ou atalho.
   

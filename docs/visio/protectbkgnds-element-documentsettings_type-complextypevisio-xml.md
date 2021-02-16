@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540746"
 ---
-# <a name="protectbkgnds-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectBkgnds (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="protectbkgnds-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectBkgnds (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se o usuário é impedido ou não de excluir ou editar páginas de plano de fundo.
   

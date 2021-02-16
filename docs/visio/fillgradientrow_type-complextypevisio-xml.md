@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539625"
 ---
-# <a name="fillgradientrowtype-complextype-visio-xml"></a>FillGradientRow_Type complexType (XML do Visio)
+# <a name="fillgradientrow_type-complextype-visio-xml"></a>FillGradientRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

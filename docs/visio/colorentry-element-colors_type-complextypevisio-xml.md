@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540179"
 ---
-# <a name="colorentry-element-colorstype-complextype-visio-xml"></a>Elemento ColorEntry (Colors_Type complexType) (XML do Visio)
+# <a name="colorentry-element-colors_type-complextype-visio-xml"></a>Elemento ColorEntry (Colors_Type complexType) (XML do Visio)
 
 Contém uma entrada de tabela de cor.
   

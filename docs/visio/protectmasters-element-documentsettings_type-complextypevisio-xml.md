@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540690"
 ---
-# <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectMasters (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="protectmasters-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectMasters (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se o usuário é impedido de criar, editar ou excluir formas mestras. O usuário ainda pode criar novas formas a partir de uma forma mestra, independentemente dessa configuração. 
   
-O intervalo de valores possíveis para esse elemento é ' 0 ' ou ' 1 '. Um valor de ' 0 ' indica que os usuários podem criar, editar ou excluir formas mestras. Um valor de ' 1 ' indica que os usuários não podem criar, editar ou excluir formas mestras.
+O intervalo de valores possíveis para esse elemento é '0' ou '1'. Um valor '0' indica que os usuários podem criar, editar ou excluir formas mestras. Um valor '1' indica que os usuários não podem criar, editar ou excluir formas mestras.
   
 ## <a name="element-information"></a>Informações de elemento
 

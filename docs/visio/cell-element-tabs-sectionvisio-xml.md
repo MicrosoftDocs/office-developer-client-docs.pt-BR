@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção tabs) (Visio XML)
+title: Elemento Cell (Seção Tabs) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539359"
 ---
-# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (seção tabs) (Visio XML)
+# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (Seção Tabs) (Visio XML)
 
 Especifica uma propriedade que controla a posição ou o alinhamento da parada de tabulação da forma ou do estilo. 
   

@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539569"
 ---
-# <a name="footercentertype-complextype-visio-xml"></a>FooterCenter_Type complexType (XML do Visio)
+# <a name="footercenter_type-complextype-visio-xml"></a>FooterCenter_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

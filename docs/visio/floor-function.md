@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251423
 localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
-description: Arredonda um número para 0 (zero), para o próximo inteiro ou para a próxima instância de múltiplo.
+description: Arredoda um número em direção a 0 (zero), para o próximo inteiro ou para a próxima instância de vários.
 ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33439895"
 ---
 # <a name="floor-function"></a>Função FLOOR
 
-Arredonda um número para 0 (zero), para o próximo inteiro ou para a próxima instância de _múltiplo_.
+Arredoda um número em direção a 0 (zero), para o próximo inteiro ou para a próxima instância de  _vários_.
   
 ## <a name="syntax"></a>Sintaxe
 
-PISO (* * *número* * *, * * *múltiplo* * *) 
+FLOOR(** *number* **, ** *multiple* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Número** <br/> |O número a ser arredondado.  <br/> |
-| _vários_ <br/> |Obrigatório  <br/> |**Número** <br/> |O múltiplo para o qual arredondar.  <br/> |
+| _multiple_ <br/> |Obrigatório  <br/> |**Número** <br/> |O múltiplo para o qual arredondar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -37,25 +37,25 @@ Número
   
 ## <a name="remarks"></a>Comentários
 
-Se _múltiplo_ não for especificado, o número será arredondado para 0 até o próximo inteiro. 
+Se  _vários_ não for especificado, o número arredoda em direção a 0 para o próximo inteiro. 
   
- _Número_ e _múltiplos_ devem ter os mesmos sinais ou um #NUM! será retornado. Se um ou _vários_ _números_ não puderem ser convertidos em um valor, um #VALUE! será retornado. Se um dos _números_ ou _vários_ for 0, o resultado será 0. 
+ _Número_ e  _múltiplo_ devem ter os mesmos sinais ou um #NUM! será retornado. Se um  _ou_  _vários_ não puderem ser convertidos em um valor, uma #VALUE! será retornado. Se um  _ou_  _vários_ for 0, o resultado será 0. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-PISO (3.7)
+FLOOR(3,7)
   
 Retornará 3.
   
 ## <a name="example-2"></a>Exemplo 2
 
-FLOOR (-3,7)
+FLOOR(-3,7)
   
 Retornará -3.
   
 ## <a name="example-3"></a>Exemplo 3
 
-PISO (3.7, 0,5)
+FLOOR(3.7, 0.5)
   
 Retornará 3,5.
   

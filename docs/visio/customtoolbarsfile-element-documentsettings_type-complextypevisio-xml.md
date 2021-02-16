@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539231"
 ---
-# <a name="customtoolbarsfile-element-documentsettingstype-complextype-visio-xml"></a>Elemento CustomToolbarsFile (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="customtoolbarsfile-element-documentsettings_type-complextype-visio-xml"></a>Elemento CustomToolbarsFile (DocumentSettings_Type complexType) (XML do Visio)
 
 Contém o nome do arquivo da interface do usuário do Microsoft Visio (.vsu) que define barras de ferramentas e de status personalizadas de um documento.
   

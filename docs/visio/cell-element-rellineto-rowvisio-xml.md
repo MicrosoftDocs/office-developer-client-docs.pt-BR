@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha RelLineTo) (XML do Visio)
+title: Elemento Cell (Linha RelLineTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539415"
 ---
-# <a name="cell-element-rellineto-row-visio-xml"></a>Elemento Cell (linha RelLineTo) (XML do Visio)
+# <a name="cell-element-rellineto-row-visio-xml"></a>Elemento Cell (Linha RelLineTo) (XML do Visio)
 
 Contém as coordenadas x ou y do vértice final de um segmento de linha reta relativa à largura e altura da forma.
   

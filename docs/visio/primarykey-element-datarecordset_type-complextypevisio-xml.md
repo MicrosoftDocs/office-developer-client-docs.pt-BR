@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537707"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (XML do Visio)
+# <a name="primarykey-element-datarecordset_type-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (XML do Visio)
 
 Identifica uma ou mais colunas de chave primárias do conjunto de dados.
   
@@ -48,12 +48,12 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Especifica o valor desse componente da chave primária para uma linha individual de um Recordset. DEVE haver pelo menos uma ocorrência deste elemento filho.  <br/> |
+|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Especifica o valor deste componente da chave primária para uma linha individual de um recordset. DEVE haver pelo menos uma ocorrência desse elemento filho.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome de um campo que é um componente da chave primária. DEVE ser o valor do atributo **columnnameid** de um elemento descendente DataColumn_Type do DataRecordSet_Type cuja chave primária está sendo especificada.  <br/> |Valores do tipo xsd:string.  <br/> |
+|ColumnNameID  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome de um campo que é um componente da chave primária. Deve ser o valor do atributo **ColumnNameID** de um DataColumn_Type descendente do DataRecordSet_Type cuja chave primária está sendo especificada.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

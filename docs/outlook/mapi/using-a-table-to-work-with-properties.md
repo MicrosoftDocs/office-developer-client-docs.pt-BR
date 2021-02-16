@@ -21,16 +21,16 @@ ms.locfileid: "33439909"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Muitas propriedades estão disponíveis a partir dos objetos que dão suporte a elas e como colunas em tabelas. Sempre que possível, recupere essas propriedades por meio da tabela.
+Muitas propriedades estão disponíveis nos objetos que as suportam e como colunas em tabelas. Sempre que possível, recupere essas propriedades por meio da tabela.
   
-Call [IMAPITable::](imapitable-setcolumns.md) SetColumns para incluir todas as propriedades que seu cliente precisa e IMAPITable [:: QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela. 
+Chame [IMAPITable::SetColumns](imapitable-setcolumns.md) para incluir todas as propriedades de que seu cliente precisa e [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela. 
   
-Essas duas chamadas geralmente são suficientes para recuperar informações suficientes para exibir para um usuário e são freqüentemente suficientes para qualquer processamento interno necessário, fazendo uma chamada para **OpenEntry** para abrir o objeto desnecessário. 
+Essas duas chamadas geralmente são suficientes para recuperar informações suficientes para exibição para um usuário e são frequentemente suficientes para qualquer processamento interno necessário, fazendo uma chamada para **OpenEntry** para abrir o objeto desnecessária. 
   
 Há apenas duas exceções:
   
-- Se a propriedade for superior a 255 bytes. A interface * * imApitable * * pode não retornar o valor da propriedade inteira, em vez de truncar em 255 bytes. No entanto, pense nisso. Se você estiver exibindo esses dados para o usuário, 255 bytes poderão ser suficientes para um campo de texto, como um comentário. 
+- Se a propriedade for maior que 255 bytes. A interface ** IMAPITable ** pode não retornar o valor inteiro da propriedade, truncando-a em 255 bytes. Porém, pense nessa troca. Se você estiver exibindo esses dados para o usuário, 255 bytes podem ser suficientes para um campo textual, como um comentário. 
     
-- Se você precisar de uma propriedade específica de uma única linha em uma tabela. Nesse caso, é desnecessário criar uma tabela com propriedades que nunca serão usadas. Na maioria das vezes, você precisará das mesmas propriedades para todas as linhas.
+- Se você precisar de uma propriedade específica de uma única linha em uma tabela. Nesse caso, não é necessário criar uma tabela com propriedades que nunca serão usadas. Na maioria das vezes, você precisará das mesmas propriedades para todas as linhas.
     
 

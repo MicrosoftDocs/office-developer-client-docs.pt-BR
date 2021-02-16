@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540711"
 ---
-# <a name="protectbkgndstype-complextype-visio-xml"></a>ProtectBkgnds_Type complexType (XML do Visio)
+# <a name="protectbkgnds_type-complextype-visio-xml"></a>ProtectBkgnds_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

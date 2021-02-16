@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537924"
 ---
-# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento AttachedToolbars (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="attachedtoolbars-element-documentsettings_type-complextype-visio-xml"></a>Elemento AttachedToolbars (DocumentSettings_Type complexType) (XML do Visio)
 
 Uma interface do usuário do Microsoft Visio (VSU) codificada por MIME (Multipurpose Internet Mail Extensions) representando barras de ferramentas personalizadas.
   

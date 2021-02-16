@@ -25,7 +25,7 @@ ms.locfileid: "33439916"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Abre uma seção do perfil atual e retorna um ponteiro [IProfSect](iprofsectimapiprop.md) para obter mais acesso. 
+Abre uma seção do perfil atual e retorna um ponteiro [IProfSect](iprofsectimapiprop.md) para mais acesso. 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -40,19 +40,19 @@ HRESULT OpenProfileSection(
 
  _lpUID_
   
-> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que identifica a seção de perfil. 
+> [in] Um ponteiro para a [estrutura MAPIUID](mapiuid.md) que identifica a seção de perfil. 
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a seção de perfil. Passar NULL faz com que o parâmetro _lppProfSect_ retorne um ponteiro para a interface padrão da seção de perfil, **IProfSect**.
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a seção de perfil. Passar NULL faz com que  _o parâmetro lppProfSect_ retorne um ponteiro para a interface padrão da seção de **perfil, IProfSect**.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o acesso à seção de perfil. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla o acesso à seção de perfil. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que o **OpenProfileSection** seja retornado com êxito, possivelmente antes que a seção de perfil esteja totalmente disponível para o cliente de chamada. Se a seção de perfil não estiver disponível, fazer uma chamada subsequente para ela poderá causar um erro. 
+> Permite que **OpenProfileSection** retorne com êxito, possivelmente antes que a seção de perfil seja totalmente disponível para o cliente de chamada. Se a seção de perfil não estiver disponível, fazer uma chamada subsequente pode causar um erro. 
     
 MAPI_FORCE_ACCESS
   
@@ -60,11 +60,11 @@ MAPI_FORCE_ACCESS
     
 MAPI_MODIFY 
   
-> Solicita permissão de leitura/gravação. Por padrão, as seções de perfil são abertas com permissão somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida. 
+> Solicita permissão de leitura/gravação. Por padrão, as seções de perfil são abertas com permissão somente leitura, e os clientes não devem trabalhar com a suposição de que a permissão de leitura/gravação foi concedida. 
     
  _lppProfSect_
   
-> bota Um ponteiro para um ponteiro para a seção de perfil.
+> [out] Um ponteiro para um ponteiro para a seção de perfil.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -82,17 +82,17 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: OpenProfileSection** abre uma seção ou um objeto de perfil que oferece suporte à interface **IProfSect** . Seções de perfil são usadas para ler informações de e gravar informações no perfil de sessão. 
+O **método IMAPISession::OpenProfileSection** abre uma seção de perfil ou objeto que oferece suporte à interface **IProfSect.** As seções de perfil são usadas para ler informações e escrever informações para o perfil da sessão. 
   
-Você não pode usar **OpenProfileSection** para abrir seções de perfil que provedores de serviços individuais, a menos que você especifique MAPI_FORCE_ACCESS no parâmetro _parâmetroulflags_ . 
+Não é possível **usar OpenProfileSection** para abrir seções de perfil que os provedores de serviços individuais têm, a menos que você especifique MAPI_FORCE_ACCESS no _parâmetro ulFlags._ 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Vários clientes podem abrir uma seção de perfil com permissão somente leitura, mas apenas um cliente pode abrir uma seção de perfil com permissão de leitura/gravação. Se outro cliente tiver uma seção de perfil aberta que você tentar abrir chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY definido, a chamada falhará, retornando MAPI_E_NO_ACCESS. 
+Vários clientes podem abrir uma seção de perfil com permissão somente leitura, mas somente um cliente pode abrir uma seção de perfil com permissão de leitura/gravação. Se outro cliente tiver uma seção de perfil aberta que você tente abrir chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY definido, a chamada falhará, retornando MAPI_E_NO_ACCESS. 
   
-Uma operação de abertura somente leitura falhará se a seção estiver aberta para gravação. 
+Uma operação de abertura somente leitura falhará se a seção estiver aberta para escrita. 
   
-Você pode criar uma seção de perfil chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY e uma estrutura **MAPIUID** inexistente no parâmetro _lpUID_ . Certifique-se de especificar MAPI_MODIFY. Se você definir _lpUID_ para apontar para um **MAPIUID** não existente e o **OpenProfileSection** estiver definido para usar o modo de acesso padrão de somente leitura, a chamada falhará com o MAPI_E_NOT_FOUND. 
+Você pode criar uma seção de perfil chamando **OpenProfileSection** com o sinalizador MAPI_MODIFY e uma estrutura **MAPIUID** inexistente no parâmetro _lpUID._ Certifique-se de especificar MAPI_MODIFY. Se você definir  _lpUID_ para apontar para um **MAPIUID** inexistente e **OpenProfileSection** for definido para usar o modo de acesso padrão de somente leitura, a chamada falhará com MAPI_E_NOT_FOUND. 
   
 ## <a name="see-also"></a>Confira também
 

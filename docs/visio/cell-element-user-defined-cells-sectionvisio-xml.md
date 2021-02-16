@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção User-defined Cells) (Visio XML)
+title: Elemento Cell (Seção User-defined Cells) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539311"
 ---
-# <a name="cell-element-user-defined-cells-section-visio-xml"></a>Elemento Cell (seção User-defined Cells) (Visio XML)
+# <a name="cell-element-user-defined-cells-section-visio-xml"></a>Elemento Cell (Seção User-defined Cells) (Visio XML)
 
 Uma propriedade de uma informação especificada pelo usuário que pode ser referenciada por outras células e ferramentas de complemento.
   

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539576"
 ---
-# <a name="footercenter-element-headerfootertype-complextype-visio-xml"></a>Elemento FooterCenter (HeaderFooter_Type complexType) (XML do Visio)
+# <a name="footercenter-element-headerfooter_type-complextype-visio-xml"></a>Elemento FooterCenter (HeaderFooter_Type complexType) (XML do Visio)
 
 Contém a cadeia de caracteres de texto que aparece na parte central do rodapé de um documento.
   
@@ -42,7 +42,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contém elementos do cabeçalho e rodapé de um documento.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contém elementos para o rodapé e o rodapé de um documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

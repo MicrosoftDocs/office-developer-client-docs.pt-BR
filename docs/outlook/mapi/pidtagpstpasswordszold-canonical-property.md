@@ -23,30 +23,30 @@ ms.locfileid: "33439930"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a senha da tabela de armazenamento pessoal (arquivo. pst) que está sendo configurada.
+Contém a senha da tabela de armazenamento pessoal (arquivo .pst) que está sendo configurada.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
 |Identificador:  <br/> |0x6703  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Tabela de armazenamento pessoal (. pst) interna  <br/> |
+|Área:  <br/> |Tabela de armazenamento pessoal (.pst) interna  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

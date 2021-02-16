@@ -35,19 +35,19 @@ HRESULT SetReadFlag(
 
 _ulFlags_
   
-> no Bitmask de sinalizadores que controlam a configuração do sinalizador de leitura de uma mensagem ou seja, o sinalizador MSGFLAG_READ da mensagem em sua propriedade **PR_MESSAGE_FLAGS** e o processamento de relatórios de leitura. Os seguintes sinalizadores podem ser definidos: 
+> [in] Máscara de bits de sinalizadores que controla a configuração do sinalizador de leitura de uma mensagem, ou seja, o sinalizador de MSGFLAG_READ da mensagem em sua propriedade **PR_MESSAGE_FLAGS** e o processamento de relatórios de leitura. Os sinalizadores a seguir podem ser definidos: 
     
-  - CLEAR_READ_FLAG: o sinalizador MSGFLAG_READ deve ser limpo no **PR_MESSAGE_FLAGS** e nenhum relatório de leitura deve ser enviado. 
+  - CLEAR_READ_FLAG: o MSGFLAG_READ sinalizador deve ser limpo **PR_MESSAGE_FLAGS** relatório de leitura deve ser enviado. 
       
-  - CLEAR_NRN_PENDING: o sinalizador MSGFLAG_NRN_PENDING deve ser limpo no **PR_MESSAGE_FLAGS** e um relatório de não leitura não deve ser enviado. 
+  - CLEAR_NRN_PENDING: o MSGFLAG_NRN_PENDING sinalizador deve ser limpo **no** PR_MESSAGE_FLAGS e um relatório de não leitura não deve ser enviado. 
       
-  - CLEAR_RN_PENDING: o sinalizador MSGFLAG_RN_PENDING deve ser limpo no **PR_MESSAGE_FLAGS** e nenhum relatório de leitura deve ser enviado. 
+  - CLEAR_RN_PENDING: o MSGFLAG_RN_PENDING sinalizador deve ser limpo **PR_MESSAGE_FLAGS** relatório de leitura deve ser enviado. 
       
-  - GENERATE_RECEIPT_ONLY: um relatório de leitura deverá ser enviado se um estiver pendente, mas não houver nenhuma alteração no estado do sinalizador MSGFLAG_READ.
+  - GENERATE_RECEIPT_ONLY: um relatório de leitura deve ser enviado se houver um pendente, mas não deve haver nenhuma alteração no estado do sinalizador MSGFLAG_READ leitura.
       
-  - MAPI_DEFERRED_ERRORS: permite que o **SetReadFlag** seja retornado com êxito, possivelmente antes da conclusão da operação. 
+  - MAPI_DEFERRED_ERRORS: permite que **SetReadFlag** retorne com êxito, possivelmente antes da conclusão da operação. 
       
-  - SUPPRESS_RECEIPT: um relatório de leitura pendente deve ser cancelado se um relatório de leitura tiver sido solicitado e essa chamada alterar o estado da mensagem de não lidos para leitura. Se essa chamada não alterar o estado da mensagem, o provedor de repositório de mensagens poderá ignorar esse sinalizador.
+  - SUPPRESS_RECEIPT: um relatório de leitura pendente deverá ser cancelado se um relatório de leitura tiver sido solicitado e essa chamada mudar o estado da mensagem de não lida para lida. Se essa chamada não alterar o estado da mensagem, o provedor do armazenamento de mensagens poderá ignorar esse sinalizador.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,11 +57,11 @@ S_OK
     
 MAPI_E_NO_SUPPRESS 
   
-> O provedor de repositório de mensagens não oferece suporte à supressão de relatórios de leitura.
+> O provedor de armazenamento de mensagens não suporta a supressão de relatórios de leitura.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Uma das seguintes combinações de sinalizadores é definida no parâmetro _parâmetroulflags_ : 
+> Uma das seguintes combinações de sinalizadores é definida no _parâmetro ulFlags:_ 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -71,43 +71,43 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage:: SetReadFlag** define ou limpa o sinalizador MSGFLAG_READ da mensagem na propriedade **PR_MESSAGE_FLAGS** e chama [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para salvar a mensagem. Definir o sinalizador MSGFLAG_READ marca uma mensagem como tendo sido lida, o que não necessariamente indica que o destinatário pretendido realmente leu a mensagem. 
+O método **IMessage::SetReadFlag** define ou limpa o sinalizador MSGFLAG_READ da mensagem na propriedade PR_MESSAGE_FLAGS e chama [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para salvar **a** mensagem. A definição MSGFLAG_READ sinalizador marca uma mensagem como tendo sido lida, o que não indica necessariamente que o destinatário pretendido realmente leu a mensagem. 
   
-O **SetReadFlags** também gerencia o envio de relatórios de leitura. Um relatório de leitura é enviado somente se o remetente solicitou um. 
+**SetReadFlags** também gerencia o envio de relatórios de leitura. Um relatório de leitura é enviado somente se o remetente solicitou um. 
   
 O sinalizador de leitura não pode ser alterado para:
   
 - Mensagens que não existem.
     
-- Mensagens que foram movidas em outro lugar.
+- Mensagens que foram movidas para outro lugar.
     
 - Mensagens abertas com permissão de leitura/gravação.
     
-- Mensagens que estão sendo enviadas.
+- Mensagens enviadas no momento.
     
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se nenhum dos sinalizadores estiver definido no parâmetro _parâmetroulflags_ , as seguintes regras serão aplicadas: 
+Se nenhum dos sinalizadores for definido no  _parâmetro ulFlags,_ as seguintes regras serão aplicadas: 
   
 - Se MSGFLAG_READ já estiver definido, não faça nada.
     
-- Se MSGFLAG_READ não estiver definido, defina-o e envie quaisquer relatórios de leitura pendentes se a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) estiver definida.
+- Se MSGFLAG_READ não estiver definida, de definida e envie relatórios de leitura pendentes se a propriedade **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) estiver definida.
     
-Se os sinalizadores SUPPRESS_RECEIPT e GENERATE_RECEIPT_ONLY estiverem definidos, o bit PR_READ_RECEIPT_REQUESTED, se definido, deverá ser limpo e um relatório de leitura não deverá ser enviado.
+Se os sinalizadores SUPPRESS_RECEIPT e GENERATE_RECEIPT_ONLY estão definidos, o bit PR_READ_RECEIPT_REQUESTED, se definido, deve ser limpo e um relatório de leitura não deve ser enviado.
   
-Quando o sinalizador SUPPRESS_RECEIPT estiver definido:
+Quando o SUPPRESS_RECEIPT sinalizador está definido:
   
 - Se MSGFLAG_READ já estiver definido, não faça nada. 
     
-- Se MSGFLAG_READ não estiver definido, defina-o e cancele todos os relatórios de leitura pendentes.
+- Se MSGFLAG_READ não estiver definido, de definida-a e cancele quaisquer relatórios de leitura pendentes.
     
-Quando o sinalizador CLEAR_READ_FLAG estiver definido, desmarque o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** de cada mensagem e não envie relatórios de leitura. 
+Quando o CLEAR_READ_FLAG sinalizador estiver definido, limpe o sinalizador MSGFLAG_READ na  propriedade PR_MESSAGE_FLAGS de cada mensagem e não envie nenhum relatório de leitura. 
   
-Quando o sinalizador GENERATE_RECEIPT_ONLY estiver definido, envie quaisquer relatórios de leitura pendentes. Não defina ou desmarque MSGFLAG_READ.
+Quando o GENERATE_RECEIPT_ONLY sinalizador estiver definido, envie relatórios de leitura pendentes. Não de definir ou limpar MSGFLAG_READ.
   
-Quando os sinalizadores SUPPRESS_RECEIPT e GENERATE_RECEIPT_ONLY estiverem definidos, defina a propriedade PR_READ_RECEIPT_REQUESTED como FALSE se ela estiver definida e não enviar um relatório de leitura.
+Quando os sinalizadores SUPPRESS_RECEIPT e GENERATE_RECEIPT_ONLY estão definidos, de definida a propriedade PR_READ_RECEIPT_REQUESTED como FALSE se estiver definida e não enviar um relatório de leitura.
   
-Você pode otimizar o comportamento do relatório eliminando a geração de relatórios de leitura sob determinadas condições. No enTanto, se você não oferecer suporte à supressão de relatórios e um cliente chama **SetReadFlag** com o sinalizador SUPPRESS_RECEIPT definido, retorne MAPI_E_NO_SUPPRESS. 
+Você pode otimizar o comportamento do relatório suprimindo a geração de relatórios de leitura sob determinadas condições. No entanto, se você não suportar a supressão de relatórios e um cliente chamar **SetReadFlag** com o sinalizador SUPPRESS_RECEIPT definido, retorne MAPI_E_NO_SUPPRESS. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -115,7 +115,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnSetReadFlag  <br/> |MFCMAPI usa o método **IMessage:: SetReadFlag** para definir sinalizadores de leitura em mensagens selecionadas.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI usa o **método IMessage::SetReadFlag** para definir sinalizadores de leitura em mensagens selecionadas.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

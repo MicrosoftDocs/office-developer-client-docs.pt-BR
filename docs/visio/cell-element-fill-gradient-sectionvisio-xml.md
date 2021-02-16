@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Fill Gradient) (Visio XML)
+title: Elemento Cell (Seção Fill Gradient) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539548"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento Cell (seção Fill Gradient) (Visio XML)
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento Cell (Seção Fill Gradient) (Visio XML)
 
 Contém a cor, transparência e posição de uma marca de gradiente para um gradiente de preenchimento.
   

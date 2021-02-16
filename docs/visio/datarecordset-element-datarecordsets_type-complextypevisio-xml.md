@@ -1,5 +1,5 @@
 ---
-title: Elemento datarecordset (DataRecordSets_Type complexType) (XML do Visio)
+title: Elemento DataRecordSet (DataRecordSets_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539674"
 ---
-# <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>Elemento datarecordset (DataRecordSets_Type complexType) (XML do Visio)
+# <a name="datarecordset-element-datarecordsets_type-complextype-visio-xml"></a>Elemento DataRecordSet (DataRecordSets_Type complexType) (XML do Visio)
 
 Armazena, formata, atualiza e expõe dados consultados de um banco de dados no Microsoft Visio.
   

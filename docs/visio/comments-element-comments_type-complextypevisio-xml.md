@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539217"
 ---
-# <a name="comments-element-commentstype-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) (XML do Visio)
+# <a name="comments-element-comments_type-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) (XML do Visio)
 
 Especifica propriedades usadas para identificar os autores e comentários em um desenho.
   
@@ -51,6 +51,6 @@ Nenhum
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

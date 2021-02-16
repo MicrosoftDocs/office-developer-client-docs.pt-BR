@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540361"
 ---
-# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>Elemento SnapAngles (Window_Type complexType) (XML do Visio)
+# <a name="snapangles-element-window_type-complextype-visio-xml"></a>Elemento SnapAngles (Window_Type complexType) (XML do Visio)
 
 Contém um conjunto de elementos **SnapAngle**. 
   
@@ -25,7 +25,7 @@ Contém um conjunto de elementos **SnapAngle**.
 |**Tipo de elemento** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538134"
 ---
-# <a name="rowdeftype-complextype-visio-xml"></a>RowDef_Type complexType (XML do Visio)
+# <a name="rowdef_type-complextype-visio-xml"></a>RowDef_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

@@ -1,12 +1,12 @@
 ---
-title: Elemento do Windows (Visio XML)
+title: Elemento Windows (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
-description: Contém os elementos de janela de um documento.
+description: Contém os elementos Window de um documento.
 ms.openlocfilehash: fcffcd5257b14c0ae0203a41f369536e583c1798
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538442"
 ---
-# <a name="windows-element-visio-xml"></a>Elemento do Windows (Visio XML)
+# <a name="windows-element-visio-xml"></a>Elemento Windows (XML do Visio)
 
-Contém os elementos de **janela** de um documento. 
+Contém os **elementos Window** de um documento. 
   
 ## <a name="element-information"></a>Informações de elemento
 
@@ -25,7 +25,7 @@ Contém os elementos de **janela** de um documento.
 |**Tipo de elemento** <br/> |[Windows_Type](windows_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Windows. xml  <br/> |
+|**Partes do documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

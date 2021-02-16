@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha EllipticalArcTo) (XML do Visio)
+title: Elemento Cell (Linha EllipticalArcTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539825"
 ---
-# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Elemento Cell (linha EllipticalArcTo) (XML do Visio)
+# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Elemento Cell (Linha EllipticalArcTo) (XML do Visio)
 
 Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico, as coordenadas x e y dos pontos de controle no arco, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.
   

@@ -25,7 +25,7 @@ ms.locfileid: "34540942"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o valor da mensagem persistente que indica que a mensagem não deve ser processada por um filtro de spam porque a mensagem já foi processada ou é segura.
+Contém o valor da mensagem persistente que indica que a mensagem não deve ser processada por um filtro de spam porque ela já foi processada ou está segura.
   
 |||
 |:-----|:-----|
@@ -37,27 +37,27 @@ Contém o valor da mensagem persistente que indica que a mensagem não deve ser 
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade está marcada em todas as mensagens que são movidas pela regra de lixo eletrônico ou é conteúdo confiável de outra forma.
+Essa propriedade é carimbada em todas as mensagens movidas pela Regra de Lixo Eletrônico ou que, de outra forma, é um conteúdo confiável.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
+> Permite a manipulação de listas de bloqueio/autorização e a determinação de mensagens de lixo eletrônico.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que representam itens RSS.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -69,7 +69,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

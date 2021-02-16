@@ -1,5 +1,5 @@
 ---
-title: Elemento DataConnections (Visio XML)
+title: Elemento DataConnections (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539179"
 ---
-# <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections (Visio XML)
+# <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections (XML do Visio)
 
 Contém os elementos **DataConnection** para o documento. 
   

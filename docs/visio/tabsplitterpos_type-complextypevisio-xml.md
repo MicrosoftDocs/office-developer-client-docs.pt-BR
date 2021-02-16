@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538827"
 ---
-# <a name="tabsplitterpostype-complextype-visio-xml"></a>TabSplitterPos_Type complexType (XML do Visio)
+# <a name="tabsplitterpos_type-complextype-visio-xml"></a>TabSplitterPos_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -21,7 +21,7 @@ ms.locfileid: "34538827"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base da extensão** <br/> |xsd: Double  <br/> |
+|**Base da extensão** <br/> |xsd:double  <br/> |
    
 ## <a name="definition"></a>Definição
 

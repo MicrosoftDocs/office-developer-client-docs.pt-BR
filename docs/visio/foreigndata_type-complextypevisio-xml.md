@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539860"
 ---
-# <a name="foreigndatatype-complextype-visio-xml"></a>ForeignData_Type complexType (XML do Visio)
+# <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -85,15 +85,15 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
 |CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores do tipo xsd:token.  <br/> |
-|ExtentX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|Extensão  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
+|ExtentX  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ExtentY  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
 |ForeignType  <br/> |xsd:token  <br/> |obrigatório  <br/> ||Valores do tipo xsd:token.  <br/> |
 |MappingMode  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedShort.  <br/> |
-|Objectheight  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
+|ObjectHeight  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
 |ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|Objectwidth  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores do tipo xsd: Double.  <br/> |
-|{AsIc  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
+|ObjectWidth  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores do tipo xsd:double.  <br/> |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
    
 

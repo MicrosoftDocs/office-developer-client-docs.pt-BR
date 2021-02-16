@@ -23,13 +23,13 @@ Retorna a parte direita de uma cadeia de caracteres com o número especificado d
   
 ## <a name="syntax"></a>Sintaxe
 
- **À direita** (*TextName*, *Length*) 
+ **À direita** (*TextExpression*, *Length*) 
   
-A função **Right** contém os seguintes argumentos. 
+A **função** Right contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
-| *Length*  <br/> |É um inteiro positivo que especifica o número de caracteres do *texto* de retorno.  <br/> |
+| *Length*  <br/> |É um inteiro positivo que especifica quantos caracteres do  *TextExpression*  são retornados.  <br/> |
    
 

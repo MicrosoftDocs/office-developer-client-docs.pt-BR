@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539200"
 ---
-# <a name="customtoolbarsfiletype-complextype-visio-xml"></a>CustomToolbarsFile_Type complexType (XML do Visio)
+# <a name="customtoolbarsfile_type-complextype-visio-xml"></a>CustomToolbarsFile_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

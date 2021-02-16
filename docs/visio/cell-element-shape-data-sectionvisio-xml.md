@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Shape Data) (Visio XML)
+title: Elemento Cell (Seção Shape Data) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539373"
 ---
-# <a name="cell-element-shape-data-section-visio-xml"></a>Elemento Cell (seção Shape Data) (Visio XML)
+# <a name="cell-element-shape-data-section-visio-xml"></a>Elemento Cell (Seção Shape Data) (Visio XML)
 
 Especifica uma propriedade dos dados de forma.
   

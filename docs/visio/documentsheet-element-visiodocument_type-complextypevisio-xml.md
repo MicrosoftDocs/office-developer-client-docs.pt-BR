@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540039"
 ---
-# <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) (XML do Visio)
+# <a name="documentsheet-element-visiodocument_type-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) (XML do Visio)
 
 Especifica uma estrutura DocumentSheet.
   

@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha SplineKnot) (XML do Visio)
+title: Elemento Cell (Linha SplineKnot) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539366"
 ---
-# <a name="cell-element-splineknot-row-visio-xml"></a>Elemento Cell (linha SplineKnot) (XML do Visio)
+# <a name="cell-element-splineknot-row-visio-xml"></a>Elemento Cell (Linha SplineKnot) (XML do Visio)
 
 Contém as coordenadas x ou y para o ponto de controle ou o nó de uma spline.
   

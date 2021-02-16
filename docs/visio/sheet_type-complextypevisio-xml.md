@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540403"
 ---
-# <a name="sheettype-complextype-visio-xml"></a>Sheet_Type complexType (XML do Visio)
+# <a name="sheet_type-complextype-visio-xml"></a>Sheet_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

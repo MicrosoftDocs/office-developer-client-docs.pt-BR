@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538512"
 ---
-# <a name="validationpropertiestype-complextype-visio-xml"></a>ValidationProperties_Type complexType (XML do Visio)
+# <a name="validationproperties_type-complextype-visio-xml"></a>ValidationProperties_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -52,6 +52,6 @@ Nenhum.
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
 |LastValidated  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> ||Valores do tipo xsd:dateTime.  <br/> |
-|Não ignorado  <br/> |xsd:boolean  <br/> |obrigatório  <br/> ||Valores do tipo xsd:boolean.  <br/> |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |obrigatório  <br/> ||Valores do tipo xsd:boolean.  <br/> |
    
 

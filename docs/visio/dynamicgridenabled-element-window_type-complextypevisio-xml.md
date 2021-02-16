@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539960"
 ---
-# <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (Window_Type complexType) (XML do Visio)
+# <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (Window_Type complexType) (XML do Visio)
 
 Especifica se o recurso de grade dinâmica está habilitado para uma janela.
   

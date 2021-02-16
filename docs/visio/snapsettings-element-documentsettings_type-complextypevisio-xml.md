@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540291"
 ---
-# <a name="snapsettings-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapSettings (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="snapsettings-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapSettings (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica os objetos que definem o ajuste quando ele está ativo na janela.
   
@@ -50,7 +50,7 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
@@ -58,17 +58,17 @@ O valor pode ser uma soma dos valores na tabela a seguir.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Ajustar a nada.  <br/> |
-|1  <br/> |Ajustar às subdivisões da régua.  <br/> |
-|duas  <br/> |Ajustar à grade.  <br/> |
-|quatro  <br/> |Ajustar às guias.  <br/> |
+|0  <br/> |Ajustar a nada.  <br/> |
+|1   <br/> |Ajustar às subdivisões de régua.  <br/> |
+|2   <br/> |Ajustar à grade.  <br/> |
+|4   <br/> |Ajustar às guias.  <br/> |
 |8   <br/> |Ajustar às alças de seleção.  <br/> |
-|dezesseis  <br/> |Ajustar aos vértices.  <br/> |
+|16   <br/> |Ajustar aos vértices.  <br/> |
 |32  <br/> |Ajustar aos pontos de conexão.  <br/> |
 |256  <br/> |Ajustar às bordas visíveis das formas.  <br/> |
 |512  <br/> |Ajustar à caixa de alinhamento.  <br/> |
 |1024  <br/> |Ajustar às opções de extensões da forma.  <br/> |
-|32768  <br/> |Snap desabilitado.  <br/> |
+|32768  <br/> |Ajustar desabilitado.  <br/> |
 |65536  <br/> |Ajustar às interseções.  <br/> |
    
 

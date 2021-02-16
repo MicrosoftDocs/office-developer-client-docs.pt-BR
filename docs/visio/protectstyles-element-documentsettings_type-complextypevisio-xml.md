@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538932"
 ---
-# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectStyles (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectStyles (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se o usuário é impedido de criar ou editar estilos.
   

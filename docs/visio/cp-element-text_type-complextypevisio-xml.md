@@ -1,5 +1,5 @@
 ---
-title: elemento CP (Text_Type complexType) (XML do Visio)
+title: Elemento cp (Text_Type complexType) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540557"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>elemento CP (Text_Type complexType) (XML do Visio)
+# <a name="cp-element-text_type-complextype-visio-xml"></a>Elemento cp (Text_Type complexType) (XML do Visio)
 
 Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até a próxima marcação.
   

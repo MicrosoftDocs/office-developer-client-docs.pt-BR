@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540452"
 ---
-# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>Elemento SnapAngle (SnapAngles_Type complexType) (XML do Visio)
+# <a name="snapangle-element-snapangles_type-complextype-visio-xml"></a>Elemento SnapAngle (SnapAngles_Type complexType) (XML do Visio)
 
 Contém um número de ponto flutuante que especifica um ângulo de encaixe em graus.
   
@@ -25,7 +25,7 @@ Contém um número de ponto flutuante que especifica um ângulo de encaixe em gr
 |**Tipo de elemento** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document. xml, Windows. xml  <br/> |
+|**Partes do documento** <br/> |document.xml, windows.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 

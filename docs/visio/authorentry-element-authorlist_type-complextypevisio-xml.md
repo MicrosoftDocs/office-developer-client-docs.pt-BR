@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537903"
 ---
-# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) (XML do Visio)
+# <a name="authorentry-element-authorlist_type-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) (XML do Visio)
 
 Especifica propriedades usadas para identificar o autor de um comentário em um desenho.
   

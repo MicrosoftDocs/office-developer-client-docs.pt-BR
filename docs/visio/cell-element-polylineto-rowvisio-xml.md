@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha PolylineTo) (Visio XML)
+title: Elemento Cell (Linha PolyLineTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539457"
 ---
-# <a name="cell-element-polylineto-row-visio-xml"></a>Elemento Cell (linha PolylineTo) (Visio XML)
+# <a name="cell-element-polylineto-row-visio-xml"></a>Elemento Cell (Linha PolyLineTo) (XML do Visio)
 
 Contém as coordenadas x ou y do último ponto de uma polilinha ou uma fórmula de polilinha.
   

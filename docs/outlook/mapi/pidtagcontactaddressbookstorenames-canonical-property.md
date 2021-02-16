@@ -25,28 +25,28 @@ ms.locfileid: "33439881"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os nomes de exibição dos repositórios associados ao catálogo de endereços.
+Contém os nomes de exibição dos armazenamentos associados ao Address Book.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_CONTAB_STORE_NAMES, PR_CONTAB_STORE_NAMES_A, PR_CONTAB_STORE_NAMES_W  <br/> |
 |Identificador:  <br/> |0x6622  <br/> |
 |Tipo de dados:  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Área:  <br/> |Catálogo de endereços de contatos  <br/> |
+|Área:  <br/> |Contact address book  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades estão em uma seção de perfil de catálogo de endereços de contatos.
+Essas propriedades estão em uma seção de perfil do Livro de Endereços de Contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

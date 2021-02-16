@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha Hyperlink) (Visio XML)
+title: Elemento Cell (Linha Hyperlink) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539790"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento Cell (linha Hyperlink) (Visio XML)
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento Cell (Linha Hyperlink) (XML do Visio)
 
 Contém as informações de um hiperlink único associado a uma forma. Uma forma conterá uma linha **Hiperlink** para cada hiperlink. 
   

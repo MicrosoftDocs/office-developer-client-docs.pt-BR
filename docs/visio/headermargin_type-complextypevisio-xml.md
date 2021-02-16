@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539086"
 ---
-# <a name="headermargintype-complextype-visio-xml"></a>HeaderMargin_Type complexType (XML do Visio)
+# <a name="headermargin_type-complextype-visio-xml"></a>HeaderMargin_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 
@@ -21,7 +21,7 @@ ms.locfileid: "34539086"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base da extensão** <br/> |xsd: Double  <br/> |
+|**Base da extensão** <br/> |xsd:double  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -51,6 +51,6 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Une  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|Unidade  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
    
 

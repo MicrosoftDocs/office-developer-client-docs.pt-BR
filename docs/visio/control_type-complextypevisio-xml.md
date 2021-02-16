@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538701"
 ---
-# <a name="controltype-complextype-visio-xml"></a>Control_Type complexType (XML do Visio)
+# <a name="control_type-complextype-visio-xml"></a>Control_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

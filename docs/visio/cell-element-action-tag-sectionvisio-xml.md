@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção tag de ação) (Visio XML)
+title: Elemento Cell (Seção Action Tag) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538799"
 ---
-# <a name="cell-element-action-tag-section-visio-xml"></a>Elemento Cell (seção tag de ação) (Visio XML)
+# <a name="cell-element-action-tag-section-visio-xml"></a>Elemento Cell (Seção Action Tag) (Visio XML)
 
 Define uma propriedade para uma marca de ação em uma forma ou página.
   

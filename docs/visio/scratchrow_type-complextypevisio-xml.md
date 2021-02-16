@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539023"
 ---
-# <a name="scratchrowtype-complextype-visio-xml"></a>ScratchRow_Type complexType (XML do Visio)
+# <a name="scratchrow_type-complextype-visio-xml"></a>ScratchRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha InfiniteLine) (Visio XML)
+title: Elemento Cell (Linha InfiniteLine) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539769"
 ---
-# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento Cell (linha InfiniteLine) (Visio XML)
+# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento Cell (Linha InfiniteLine) (Visio XML)
 
 Contém as coordenadas x ou y de dois pontos em uma linha infinita.
   

@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540389"
 ---
-# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="snapangles-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) (XML do Visio)
 
 Contém um conjunto de elementos **SnapAngle**. 
   

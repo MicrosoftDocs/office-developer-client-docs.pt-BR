@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540578"
 ---
-# <a name="paragraphrowtype-complextype-visio-xml"></a>ParagraphRow_Type complexType (XML do Visio)
+# <a name="paragraphrow_type-complextype-visio-xml"></a>ParagraphRow_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

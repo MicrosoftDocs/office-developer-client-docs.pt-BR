@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Field) (Visio XML)
+title: Elemento Cell (Seção Field) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540053"
 ---
-# <a name="cell-element-field-section-visio-xml"></a>Elemento Cell (seção Field) (Visio XML)
+# <a name="cell-element-field-section-visio-xml"></a>Elemento Cell (Seção Field) (Visio XML)
 
 Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
   

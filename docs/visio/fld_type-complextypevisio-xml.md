@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539597"
 ---
-# <a name="fldtype-complextype-visio-xml"></a>fld_Type complexType (XML do Visio)
+# <a name="fld_type-complextype-visio-xml"></a>fld_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha ArcTo) (XML do Visio)
+title: Elemento Cell (Linha ArcTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538820"
 ---
-# <a name="cell-element-arcto-row-visio-xml"></a>Elemento Cell (linha ArcTo) (XML do Visio)
+# <a name="cell-element-arcto-row-visio-xml"></a>Elemento Cell (Linha ArcTo) (XML do Visio)
 
 Contém a coordenada x, a coordenada y ou a curva de um arco circular.
   

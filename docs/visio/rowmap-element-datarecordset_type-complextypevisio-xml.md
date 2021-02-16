@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540767"
 ---
-# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (XML do Visio)
+# <a name="rowmap-element-datarecordset_type-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (XML do Visio)
 
 Mapas de uma linha de conjunto de registros de dados para uma forma.
   
@@ -54,8 +54,8 @@ Nenhum.
 
 |**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID de página da forma vinculada aos dados na linha de conjunto de registros de dados identificada por **ROWID**.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID de linha da linha, exclusiva no conjunto de registros de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID da forma vinculada aos dados na linha de conjunto de registros de dados identificada por **ROWID**.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Identificação da página da forma vinculada aos dados na linha do recordset de dados identificada por **RowID**.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |ID da linha, exclusiva no recordset de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Identificação da forma vinculada aos dados na linha do recordset de dados identificada por **RowID**.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

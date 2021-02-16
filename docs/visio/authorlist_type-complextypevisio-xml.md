@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537896"
 ---
-# <a name="authorlisttype-complextype-visio-xml"></a>AuthorList_Type complexType (XML do Visio)
+# <a name="authorlist_type-complextype-visio-xml"></a>AuthorList_Type complexType (XML do Visio)
 
 ## <a name="type-information"></a>Informação de tipo
 

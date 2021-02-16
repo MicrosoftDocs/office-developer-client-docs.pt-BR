@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha SplineStart) (XML do Visio)
+title: Elemento Cell (Linha SplineStart) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539352"
 ---
-# <a name="cell-element-splinestart-row-visio-xml"></a>Elemento Cell (linha SplineStart) (XML do Visio)
+# <a name="cell-element-splinestart-row-visio-xml"></a>Elemento Cell (Linha SplineStart) (XML do Visio)
 
 Contém as coordenadas x ou y para o segundo ponto de controle de uma spline, seus primeiro e segundo nós ou o grau da spline.
   

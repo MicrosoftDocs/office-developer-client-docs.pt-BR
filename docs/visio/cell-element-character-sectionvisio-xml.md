@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (seção Character) (Visio XML)
+title: Elemento Cell (Seção Character) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540081"
 ---
-# <a name="cell-element-character-section-visio-xml"></a>Elemento Cell (seção Character) (Visio XML)
+# <a name="cell-element-character-section-visio-xml"></a>Elemento Cell (Seção Character) (Visio XML)
 
 Especifica um atributo de formatação para o formato de escrita do texto, como fonte, cor, estilo, caso, posição relativa à linha de base ou tamanho de ponto.
   

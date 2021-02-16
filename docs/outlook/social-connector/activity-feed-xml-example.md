@@ -19,17 +19,17 @@ ms.locfileid: "34538323"
 
 O exemplo XML neste tópico é uma feed de atividades de cadeia XML retornada para o Outlook Social Connector (OSC) depois de chamar o método [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) para uma rede social. 
   
-O exemplo mostra o**feed de atividades**XML que contém as seguintes quatro atividades, sendo cada uma delas  delimitadas pelo elemento**activityDetails**e correspondendo a um modelo para fins de exibição: 
+O exemplo mostra o **feed de atividades** XML que contém as seguintes quatro atividades, sendo cada uma delas  delimitadas pelo elemento **activityDetails** e correspondendo a um modelo para fins de exibição: 
   
-- Uma imagem de perfil atualizada por Melissa Mello cujo **ownerID** na rede social é 4667647. Essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable** (delimitado no ** listVariable**). Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades (usando o **nome**, **valor**, **altText**e os elemento filhos**href** de **pictureVariable**).
+- Uma imagem de perfil atualizada por Melissa Mello cujo **ownerID** na rede social é 4667647. Essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable** (delimitado no **listVariable**). Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades (usando o **nome**, **valor**, **altText** e os elemento filhos **href** de **pictureVariable**).
     
-- Uma imagem de perfil é atualizada por Mateus Vaz cujo**ownerID** na rede social é 5015012. Assim como a última atividade, essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable**. Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades.
+- Uma imagem de perfil é atualizada por Mateus Vaz cujo **ownerID** na rede social é 5015012. Assim como a última atividade, essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable**. Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades.
     
 - Uma atualização de status Mateus Vaz mostrando o mesmo **ownerID** de 5015012, como na última atividade. Essa atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **textVariable**. **publisherVariable** Especifica a pessoa que publicou o item, feed de atividades e **textVariable** inclui um **valor** da linha de status  `is hiking on Mount Rainier this weekend!`
     
 - Uma postagem no blog por Mateus Vaz mostrando o mesmo **ownerID** 5015012 como nas duas últimas atividades. Essa atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **linkVariable**. **publisherVariable** Especifica a pessoa que publicou o item no feed de atividades e **linkVariable** inclui mais informações (especificado, o **nome**, **texto**, e **valor** dos elementos filhos de **linkVariable**) sobre a postagem do blog.
     
-Cada uma das quatro atividades especifica um valor **TemplateId do**que corresponde a um dos três modelos especificados no elemento **modelos**. Cada modelo está no seu próprio elemento**activityTemplateContainer**identificado por um  valor**TemplateId**que também é usado para exibir uma atividade com o mesmo valor**TemplateId**. 
+Cada uma das quatro atividades especifica um valor **TemplateId do** que corresponde a um dos três modelos especificados no elemento **modelos**. Cada modelo está no seu próprio elemento **activityTemplateContainer** identificado por um  valor **TemplateId** que também é usado para exibir uma atividade com o mesmo valor **TemplateId**. 
   
 Para obter uma descrição detalhada dos elementos XML usados no exemplo, confira os tópicos a seguir: 
   
@@ -43,7 +43,7 @@ Para obter uma descrição detalhada dos elementos XML usados no exemplo, confir
     
 ## <a name="xml-example"></a>Exemplos de XML
 
-O exemplo a seguir mostra o XML**feed de atividades** de quatro atividades: duas atualizações de imagem de perfil, uma atualização de status e uma postagem de blog. O XML também especifica três modelos de exibição de atividade para exibir as atividades correspondentes. 
+O exemplo a seguir mostra o XML **feed de atividades** de quatro atividades: duas atualizações de imagem de perfil, uma atualização de status e uma postagem de blog. O XML também especifica três modelos de exibição de atividade para exibir as atividades correspondentes. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

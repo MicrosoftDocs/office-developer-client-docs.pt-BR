@@ -23,11 +23,11 @@ ms.locfileid: "33440000"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição de propriedade comparar, que testa duas propriedades usando um operador relacional. 
+Descreve uma restrição de propriedade de comparação, que testa duas propriedades usando um operador relacional. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SComparePropsRestriction
@@ -41,19 +41,19 @@ typedef struct _SComparePropsRestriction
 
 ## <a name="members"></a>Members
 
-**RelOp**
+**re ltda**
   
-> Operador relacional a ser usado para comparar as duas propriedades. Os valores possíveis são os seguintes:
+> Operador relacional a ser usado para comparar as duas propriedades. Os valores possíveis são:
     
-  - RELOP_GE: a comparação é feita com base em um valor maior ou igual a um primeiro.
+  - RELOP_GE: a comparação é feita com base em um primeiro valor maior ou igual.
       
   - RELOP_GT: a comparação é feita com base em um primeiro valor maior.
       
-  - RELOP_LE: a comparação é feita com base em um valor menor ou igual a.
+  - RELOP_LE: a comparação é feita com base em um primeiro valor menor ou igual.
       
   - RELOP_LT: a comparação é feita com base em um primeiro valor menor.
       
-  - RELOP_NE: a comparação é feita com base em valores desiguais.
+  - RELOP_NE: a comparação é feita com base em valores de valores de valores diferentes.
       
   - RELOP_RE: a comparação é feita com base nos valores LIKE (expressão regular).
       
@@ -65,17 +65,17 @@ typedef struct _SComparePropsRestriction
     
 **ulPropTag2**
   
-> Marca de propriedade da segunda Propriedade a ser comparada.
+> Marca de propriedade da segunda propriedade a ser comparada.
     
 ## <a name="remarks"></a>Comentários
 
-A ordem de comparação é _(marca de propriedade 1) (operador relacional) (marca de propriedade 2)_. As propriedades a serem comparadas devem ser do mesmo tipo. Tentar comparar propriedades de tipos diferentes faz com que o MAPI ou o provedor de serviços retorne o valor de erro [](imapitableiunknown.md) MAPI_E_TOO_COMPLEX do método IMAPITable para o qual a estrutura é passada como um parâmetro. 
+A ordem de comparação _é (marca de propriedade 1) (operador relacional) (marca de propriedade 2)._ As propriedades a serem comparadas devem ser do mesmo tipo. A tentativa de comparar propriedades de tipos diferentes faz com que o MAPI ou o provedor de serviços retorne o valor de erro MAPI_E_TOO_COMPLEX do método [IMAPITable](imapitableiunknown.md) para o qual a estrutura é passada como um parâmetro. 
   
-O resultado de uma restrição de valor de propriedade Compare é indefinido quando uma ou ambas as propriedades não existem. Quando um cliente requer um comportamento bem definido para tal restrição e não tem certeza se a propriedade existe, (por exemplo, não é uma coluna obrigatória de uma tabela), deve criar uma restrição para **** ingressar na restrição de propriedade Compare com uma existente restrição. Use uma estrutura [SExistRestriction](sexistrestriction.md) para definir a restrição existir e uma estrutura [SAndRestriction](sandrestriction.md) para definir a restrição **e** . 
+O resultado de uma restrição de valor de propriedade de comparação é indefinido quando uma ou ambas as propriedades não existem. Quando um cliente exige um comportamento bem definido para essa restrição e não tem certeza se a propriedade existe, (por exemplo, não é uma coluna necessária de uma tabela), ele deve criar uma restrição **AND** para ingressar na restrição de comparação de propriedade com uma restrição existente. Use uma [estrutura SExistRestriction](sexistrestriction.md) para definir a restrição existente e uma [estrutura SAndRestriction](sandrestriction.md) para definir a **restrição AND.** 
   
-As propriedades especificadas nos membros **ulPropTag1** e **ulPropTag2** podem ter vários valores se o provedor de serviços oferecer suporte a ela. 
+As propriedades especificadas nos **membros ulPropTag1** e **ulPropTag2** poderão ter vários valores se o provedor de serviços a suportar. 
   
-Para obter mais informações sobre a estrutura e as restrições do **SComparePropsRestriction** em geral, consulte [about Restrictions](about-restrictions.md).
+Para obter mais informações sobre a **estrutura SComparePropsRestriction** e restrições em geral, consulte [Sobre restrições.](about-restrictions.md)
   
 ## <a name="see-also"></a>Confira também
 

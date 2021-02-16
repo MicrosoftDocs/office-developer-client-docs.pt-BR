@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540522"
 ---
-# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>Elemento CustomMenusFile (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="custommenusfile-element-documentsettings_type-complextype-visio-xml"></a>Elemento CustomMenusFile (DocumentSettings_Type complexType) (XML do Visio)
 
 Contém o nome do arquivo da interface do usuário do Microsoft Visio (.vsu) que define menus e aceleradores personalizados de um documento.
   

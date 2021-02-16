@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539997"
 ---
-# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML do Visio)
+# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML do Visio)
 
 Especifica se o recurso de grade dinâmica está habilitado para um documento.
   

@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (linha RelMoveTo) (XML do Visio)
+title: Elemento Cell (Linha RelMoveTo) (XML do Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539401"
 ---
-# <a name="cell-element-relmoveto-row-visio-xml"></a>Elemento Cell (linha RelMoveTo) (XML do Visio)
+# <a name="cell-element-relmoveto-row-visio-xml"></a>Elemento Cell (Linha RelMoveTo) (XML do Visio)
 
 Contém as coordenadas x ou y do primeiro vértice de uma forma ou as coordenadas x ou y do primeiro vértice depois de uma quebra no caminho, relativas à altura e largura da forma.
   

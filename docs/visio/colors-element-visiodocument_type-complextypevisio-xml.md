@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540172"
 ---
-# <a name="colors-element-visiodocumenttype-complextype-visio-xml"></a>Elemento Colors (VisioDocument_Type complexType) (XML do Visio)
+# <a name="colors-element-visiodocument_type-complextype-visio-xml"></a>Elemento Colors (VisioDocument_Type complexType) (XML do Visio)
 
 Contém a tabela de cor do documento.
   
