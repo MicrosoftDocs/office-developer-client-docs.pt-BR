@@ -29,7 +29,7 @@ Define métodos usados para gerenciar mensagens seguras.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Exchsec. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Exchsec.h  <br/> |
 |Exposto por:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 |Implementado por:  <br/> |Microsoft Outlook 2010 e Microsoft Outlook 2013  <br/> |
 |Chamado por:  <br/> |Cliente  <br/> |
@@ -40,14 +40,14 @@ Define métodos usados para gerenciar mensagens seguras.
 
 |||
 |:-----|:-----|
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera o [IMessage subjacente: IMAPIProp](imessageimapiprop.md) que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
-|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera o [IMessage subjacente : IMAPIProp](imessageimapiprop.md) que este [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
+|Membro placeholder.  <br/> |Sem suporte ou documentado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

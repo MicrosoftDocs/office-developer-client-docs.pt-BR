@@ -22,24 +22,24 @@ Indica o idioma padrão do documento.
   
 ## <a name="remarks"></a>Comentários
 
-O idioma do documento baseia-se no idioma definido na caixa de diálogo **preferências de idioma do Microsoft Office** . (Clique em **Iniciar**, **todos os programas**, **Microsoft Office**, **Ferramentas do Microsoft Office**e, em seguida, em preferências de **idioma do Microsoft Office**.)
+O idioma do documento é baseado no idioma definido na caixa **de diálogo Preferências de Idioma** do Microsoft Office. (Clique **em Iniciar,** em **Todos os Programas,** em **Microsoft Office,** em Ferramentas do **Microsoft Office** e em Preferências de Idioma do **Microsoft Office.)**
   
-Se você quiser alterar o idioma de um documento, em vez de editar esta célula diretamente, é melhor alterar esse valor na caixa de diálogo **Propriedades** (clique na guia **arquivo** , em **informações**, em **Propriedades**e em **avançado Propriedades**) ou programaticamente, usando a propriedade **Language** do objeto **Document** . 
+Se você quiser alterar o idioma de um documento, em vez de editar essa célula diretamente,  é melhor alterar esse valor na caixa de diálogo Propriedades (clique na guia Arquivo, em **Informações,** em Propriedades e em Propriedades Avançadas) ou programaticamente, usando a propriedade **Language** do objeto  **Document.**  
   
 A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
   
-|**Idioma**|**LCID**|
+|**Language**|**LCID**|
 |:-----|:-----|
 |Africâner  <br/> |1078  <br/> |
 |Albanês  <br/> |1052  <br/> |
-|Amárico  <br/> |1118  <br/> |
+|Amharic  <br/> |1118  <br/> |
 |Árabe  <br/> |1025  <br/> |
 |Armênio  <br/> |1067  <br/> |
 |Assamês  <br/> |1101  <br/> |
 |Azeri (cirílico)  <br/> |2092  <br/> |
 |Azeri (latino)  <br/> |1068  <br/> |
 |Basco (Basco)  <br/> |1069  <br/> |
-|Bielo-russo  <br/> |1059  <br/> |
+|Belarusso  <br/> |1059  <br/> |
 |Bengali  <br/> |1093  <br/> |
 |Búlgaro  <br/> |1026  <br/> |
 |Catalão  <br/> |1027  <br/> |
@@ -58,12 +58,12 @@ A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
 |Inglês (Estados Unidos)  <br/> |1033  <br/> |
 |Estoniano  <br/> |1061  <br/> |
 |Faeroese  <br/> |1080  <br/> |
-|Filipinas  <br/> |1124  <br/> |
+|Filipino  <br/> |1124  <br/> |
 |Finlandês  <br/> |1035  <br/> |
 |Francês  <br/> |1036  <br/> |
 |Francês (canadense)  <br/> |3084  <br/> |
-|Frisian  <br/> |1122  <br/> |
-|Fulfulde  <br/> |1127  <br/> |
+|Frisiano  <br/> |1122  <br/> |
+|Quefulde  <br/> |1127  <br/> |
 |Galego  <br/> |1110  <br/> |
 |Georgiano  <br/> |1079  <br/> |
 |Alemão  <br/> |1031  <br/> |
@@ -95,14 +95,14 @@ A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
 |Letão  <br/> |1062  <br/> |
 |Lituano  <br/> |1063  <br/> |
 |Macedônio (Antiga República Iugoslava da Macedônia)  <br/> |1071  <br/> |
-|Malaio  <br/> |1086  <br/> |
+|Malay  <br/> |1086  <br/> |
 |Malaiala  <br/> |1100  <br/> |
 |Maltês  <br/> |1082  <br/> |
 |Manipuri  <br/> |1112  <br/> |
 |Marata  <br/> |1102  <br/> |
 |Mongol  <br/> |1104  <br/> |
 |Nepalês  <br/> |1121  <br/> |
-|Norueguês (Bokmal)  <br/> |1044  <br/> |
+|Norwegian Bokmal  <br/> |1044  <br/> |
 |Norueguês (Nynorsk)  <br/> |2068  <br/> |
 |Odia  <br/> |1096  <br/> |
 |Oromo  <br/> |1138  <br/> |
@@ -117,20 +117,20 @@ A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
 |Sânscrito  <br/> |1103  <br/> |
 |Sérvio (cirílico)  <br/> |3098  <br/> |
 |Sérvio (latino)  <br/> |2074  <br/> |
-|Sindi  <br/> |1113  <br/> |
-|Singalês  <br/> |1115  <br/> |
+|Sindhi  <br/> |1113  <br/> |
+|Sinhalese  <br/> |1115  <br/> |
 |Eslovaco  <br/> |1051  <br/> |
 |Esloveno  <br/> |1060  <br/> |
-|Somali  <br/> |1143  <br/> |
+|Camarões  <br/> |1143  <br/> |
 |Espanhol  <br/> |3082  <br/> |
-|Suaíle  <br/> |1089  <br/> |
+|Swahili  <br/> |1089  <br/> |
 |Sueco  <br/> |1053  <br/> |
 |Siríaco  <br/> |1114  <br/> |
 |Tadjique  <br/> |1064  <br/> |
 |Tamazight (árabe/marroquino)  <br/> |1119  <br/> |
 |Tamazight (Latino)  <br/> |2143  <br/> |
 |Tamil  <br/> |1097  <br/> |
-|Tártaro  <br/> |1092  <br/> |
+|Tár  <br/> |1092  <br/> |
 |Telugu  <br/> |1098  <br/> |
 |Tailandês  <br/> |1054  <br/> |
 |Tigrinya (Etiópia)  <br/> |1139  <br/> |
@@ -143,10 +143,10 @@ A tabela a seguir contém uma lista de idiomas e seus LCIDs correspondentes.
 |Uzbeque (Latino)  <br/> |1091  <br/> |
 |Vietnamita  <br/> |1066  <br/> |
 |Yi  <br/> |1144  <br/> |
-|Iídiche  <br/> |1085  <br/> |
+|Yiddish  <br/> |1085  <br/> |
 |Iorubá  <br/> |1130  <br/> |
    
-Para obter uma referência para a célula DocLangID pelo nome, a partir de outra fórmula ou programa que use **** a propriedade Cells, utilize: 
+Para fazer referência à célula DocLangID pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
@@ -158,6 +158,6 @@ Para fazer referência à célula DocLangID pelo índice a partir de um programa
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowDoc** <br/> |
-|Índice da célula:  <br/> |**visDocLangID** <br/> |
+|Índice de célula:  <br/> |**visDocLangID** <br/> |
    
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251476
 localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Retorna TRUE (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
+description: Retorna VERDADEIRO (1) se qualquer uma das expressões lógicas passadas como parâmetros for VERDADEIRO.
 ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33433504"
 ---
 # <a name="or-function"></a>Função OR
 
-Retorna TRUE (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
+Retorna VERDADEIRO (1) se qualquer uma das expressões lógicas passadas como parâmetros for VERDADEIRO.
   
 ## <a name="syntax"></a>Sintaxe
 
-ou (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
+OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
-| _logicalexpression2_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
-| _logicalexpressionN_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpressionN_ <br/> |Obrigatório  <br/> |**String** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -42,7 +42,7 @@ Qualquer expressão avaliada para um valor diferente de zero é considerada VERD
   
 ## <a name="example"></a>Exemplo
 
-OU (altura \> 1, PinX \> 1) 
+OR(Height \> 1,PinX \> 1) 
   
 Retornará VERDADEIRO (1) se qualquer uma das expressões for VERDADEIRO. Retornará FALSO (0) somente se ambas as expressões forem FALSO. 
   

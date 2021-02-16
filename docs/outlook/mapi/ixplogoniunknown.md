@@ -25,11 +25,11 @@ ms.locfileid: "33432531"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Dá acesso ao spooler MAPI a um provedor de transporte. 
+Dá ao spooler MAPI acesso a um provedor de transporte. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Exposto por:  <br/> |Objetos de logon de transporte  <br/> |
 |Implementado por:  <br/> |Provedores de transporte  <br/> |
 |Chamado por:  <br/> |O spooler MAPI  <br/> |
@@ -40,18 +40,18 @@ Dá acesso ao spooler MAPI a um provedor de transporte.
 
 |||
 |:-----|:-----|
-|[AddressTypes](ixplogon-addresstypes.md) <br/> |Retorna os tipos de destinatários que o provedor de transporte manipula.  <br/> |
-|**Registraroptions** <br/> | *Não suportado ou documentado.*  <br/> |
+|[AddressTypes](ixplogon-addresstypes.md) <br/> |Retorna os tipos de destinatários que o provedor de transporte trata.  <br/> |
+|**RegisterOptions** <br/> | *Sem suporte ou documentado.*  <br/> |
 |[TransportNotify](ixplogon-transportnotify.md) <br/> |Sinaliza a ocorrência de um evento sobre o qual o provedor de transporte solicitou a notificação.  <br/> |
-|[Estado](ixplogon-idle.md) <br/> |Indica que o sistema está ocioso, permitindo que o provedor de transporte realize operações de baixa prioridade.  <br/> |
+|[Ocioso](ixplogon-idle.md) <br/> |Indica que o sistema está ocioso, permitindo que o provedor de transporte execute operações de baixa prioridade.  <br/> |
 |[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Inicia o processo de logoff.  <br/> |
-|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indica que o spooler MAPI tem uma mensagem para o provedor de transporte fornecer.  <br/> |
-|[Mensagem de email](ixplogon-endmessage.md) <br/> |Informa ao provedor de transporte que o spooler MAPI concluiu seu processamento em uma mensagem de saída.  <br/> |
-|[Quanto](ixplogon-poll.md) <br/> |Indica se o provedor de transporte recebeu uma ou mais mensagens de entrada.  <br/> |
+|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indica que o spooler MAPI tem uma mensagem para o provedor de transporte entregar.  <br/> |
+|[EndMessage](ixplogon-endmessage.md) <br/> |Informa ao provedor de transporte que o spooler MAPI concluiu o processamento em uma mensagem de saída.  <br/> |
+|[Sondagem](ixplogon-poll.md) <br/> |Indica se o provedor de transporte recebeu uma ou mais mensagens de entrada.  <br/> |
 |[StartMessage](ixplogon-startmessage.md) <br/> |Inicia a transferência de uma mensagem de entrada do provedor de transporte para o spooler MAPI.  <br/> |
-|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Abre o objeto status do provedor de transporte.  <br/> |
+|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Abre o objeto de status do provedor de transporte.  <br/> |
 |[ValidateState](ixplogon-validatestate.md) <br/> |Verifica o status externo do provedor de transporte.  <br/> |
-|[FlushQueues](ixplogon-flushqueues.md) <br/> |Solicita que o provedor de transporte entregue imediatamente todas as mensagens pendentes de entrada ou saída.  <br/> |
+|[FlushQueues](ixplogon-flushqueues.md) <br/> |Solicita que o provedor de transporte entregue imediatamente todas as mensagens de entrada ou de saída pendentes.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

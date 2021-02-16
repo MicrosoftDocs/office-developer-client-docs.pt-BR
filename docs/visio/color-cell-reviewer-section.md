@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60032
 localization_priority: Normal
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
-description: Um valor RGB que representa a cor atribuída à marcação de um revisor de documento.
+description: Um valor RGB que representa a cor atribuída à marcação de um revistor de documento.
 ms.openlocfilehash: d9df6605ca6c8a22353978b9483989ecfc08130d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33430536"
 ---
 # <a name="color-cell-reviewer-section"></a>Célula Color (Seção Reviewer)
 
-Um valor RGB que representa a cor atribuída à marcação de um revisor de documento. 
+Um valor RGB que representa a cor atribuída à marcação de um revistor de documento. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -30,14 +30,14 @@ Para fazer referência à célula Color pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Reviewer. Color [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Reviewer.Color [  *i*  ] onde i =  *<*  1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Color pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionReviewer** <br/> |
-| Índice de linha:  <br/> |**visRowReviewer** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowReviewer**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visReviewerColor** <br/> |
    
 

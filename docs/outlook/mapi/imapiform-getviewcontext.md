@@ -25,7 +25,7 @@ ms.locfileid: "33430900"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o contexto do modo de exibição atual do formulário. 
+Retorna o contexto de exibição atual do formulário. 
   
 ```cpp
 HRESULT GetViewContext(
@@ -37,7 +37,7 @@ HRESULT GetViewContext(
 
  _ppViewContext_
   
-> bota Um ponteiro para um ponteiro para o contexto do modo de exibição do formulário.
+> [out] Um ponteiro para um ponteiro para o contexto de exibição do formulário.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 S_FALSE 
   
-> Não há nenhum contexto de exibição para o formulário.
+> Não há contexto de exibição para o formulário.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam **GetViewContext** para obter um ponteiro para o contexto de exibição estabelecido em uma chamada anterior para [IMAPIForm:: SetViewContext](imapiform-setviewcontext.md). Se nenhuma chamada anterior foi feita ao **SetViewContext**, **GetViewContext** define _ppViewContext_ como nulo. 
+Visualizadores de formulário chamam **GetViewContext** para obter um ponteiro para o contexto de exibição estabelecido em uma chamada anterior para [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Se nenhuma chamada anterior tiver sido feita para **SetViewContext**, **GetViewContext**  _definirá ppViewContext_ como NULL. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Copie o ponteiro de contexto de exibição do formulário para o ponteiro passado pelo Visualizador de formulário de chamada no parâmetro _ppViewContext_ . Se o formulário não tiver um contexto de exibição, defina _ppViewContext_ como nulo. 
+Copie o ponteiro de contexto de exibição do formulário para o ponteiro passado pelo visualizador do formulário de chamada no _parâmetro ppViewContext._ Se o formulário não tiver um contexto de exibição, de definida  _ppViewContext_ como NULL. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -63,7 +63,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa o método **IMAPIForm:: GetViewContext** para verificar se um formulário tem um contexto de exibição.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa o **método IMAPIForm::GetViewContext** para verificar se um formulário tem um contexto de exibição.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

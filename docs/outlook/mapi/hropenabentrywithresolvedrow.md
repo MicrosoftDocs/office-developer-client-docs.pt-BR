@@ -21,11 +21,11 @@ ms.locfileid: "33429905"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Realiza a mesma função que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , exceto pelo fato de que ela obtém automaticamente o **emsabpUID** da linha resolvida e abre a **EntryID**.
+Executa a mesma função que [HrOpenABEntryWithExchangeContext,](hropenabentrywithexchangecontext.md) exceto que ele obtém automaticamente **o emsabpUID** da linha resolvida e abre a **entryID**.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |abhelp. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -46,58 +46,58 @@ HRESULT HrOpenABEntryWithResolvedRow(
 
  _prwResolved_
   
-> no Um ponteiro para a linha resolvida que é usada para obter o **emsabpUID** e abrir a **EntryID**.
+> [in] Um ponteiro para a linha resolvida que é usada para obter o **emsabpUID** e abrir a **entryID**.
     
  _pAddrBook_
   
-> no O catálogo de endereços usado para abrir o identificador de entrada. Ele não pode ser nulo.
+> [in] O livro de endereços usado para abrir o identificador de entrada. Não pode ser NULL.
     
  _cbEntryID_
   
-> no A contagem de bytes do identificador de entrada especificado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte do identificador de entrada especificado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
->  no Um ponteiro para o identificador de entrada que representa a entrada do catálogo de endereços a ser aberta. 
+>  [in] Um ponteiro para o identificador de entrada que representa a entrada do livro de endereços a ser aberta. 
     
  _lpInterface_
   
-> no Um ponteiro para o identificador de interface (IID) da interface que é usado para acessar a entrada aberta. Passar NULL retorna a interface padrão do objeto. Para usuários de mensagens, a interface padrão é [IMailUser: IMAPIProp](imailuserimapiprop.md). Para listas de distribuição, é [IDistList: IMAPIContainer](idistlistimapicontainer.md)e para contêiners, é [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Os chamadores podem definir _lpInterface_ como a interface padrão apropriada ou uma interface na hierarquia de herança. 
+> [in] Um ponteiro para o IID (identificador de interface) da interface que é usado para acessar a entrada aberta. Passar NULL retorna a interface padrão do objeto. Para usuários de mensagens, a interface padrão [é IMailUser : IMAPIProp](imailuserimapiprop.md). Para listas de distribuição, é [IDistList : IMAPIContainer](idistlistimapicontainer.md)e para contêineres, é [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Os chamadores podem definir  _lpInterface_ como a interface padrão apropriada ou uma interface na hierarquia de herança. 
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a entrada é aberta. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a entrada é aberta. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_BEST_ACCESS
   
-> Solicita que a entrada seja aberta com o máximo permitido de rede e permissões de cliente. Por exemplo, se o cliente tiver permissão de leitura e gravação, o provedor de catálogo de endereços tentará abrir a entrada com permissão de leitura e gravação. O cliente pode recuperar o nível de acesso que foi concedido chamando o método [IMAPIProp::](imapiprop-getprops.md) GetProps da entrada aberta e recuperando a propriedade PR_ACCESS_LEVEL (PidTagAccessLevel). 
+> Solicita que a entrada seja aberta com as permissões máximas de rede e cliente permitidas. Por exemplo, se o cliente tiver permissão de leitura e gravação, o provedor do address book tentará abrir a entrada com permissão de leitura e gravação. O cliente pode recuperar o nível de acesso concedido chamando o método [IMAPIProp::GetProps](imapiprop-getprops.md) da entrada aberta e recuperando a propriedade PR_ACCESS_LEVEL (PidTagAccessLevel). 
     
 MAPI_CACHE_ONLY
   
-> Usa apenas o catálogo de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente Abra a lista de endereços global (GAL) no modo cache do Exchange e acesse uma entrada desse catálogo de endereços do cache sem criar tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
+> Usa apenas o livro de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente abra a GAL (lista de endereços global) no modo cache do Exchange e acesse uma entrada nesse livro de endereços do cache sem criar tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas pelo Provedor de Agenda do Exchange.
     
 MAPI_DEFERRED_ERRORS
   
-> Permite que a chamada seja bem-sucedida, possivelmente antes que a entrada seja totalmente aberta e disponível, indicando que as chamadas subsequentes para a entrada podem retornar um erro.
+> Permite que a chamada seja bem-sucedida, potencialmente antes que a entrada seja totalmente aberta e disponível, indicando que as chamadas subsequentes para a entrada podem retornar um erro.
     
 MAPI_GAL_ONLY
   
-> Usa somente a GAL para executar a resolução de nomes. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
+> Usa somente a GAL para executar a resolução de nomes. Esse sinalizador é suportado apenas pelo Provedor de Agenda do Exchange.
     
 MAPI_MODIFY
   
-> Solicita que a entrada seja aberta com permissões de leitura e gravação. Como as entradas são abertas com acesso somente leitura por padrão, os clientes não devem supor que a permissão de leitura e gravação tenha sido concedida independentemente de o MAPI_MODIFY ser definido.
+> Solicita que a entrada seja aberta com permissão de leitura e gravação. Como as entradas são abertas com acesso somente leitura por padrão, os clientes não devem presumir que a permissão de leitura e gravação foi concedida independentemente de MAPI_MODIFY está definida.
     
 MAPI_NO_CACHE
   
-> Não usa o catálogo de endereços offline para executar a resolução de nomes. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
+> Não usa o livro de endereços offline para executar a resolução de nomes. Esse sinalizador é suportado apenas pelo Provedor de Agenda do Exchange.
     
  _lpulObjType_
   
-> bota Um ponteiro para o tipo de entrada aberta.
+> [out] Um ponteiro para o tipo de entrada aberta.
     
  _lppUnk_
   
-> bota Um ponteiro para um ponteiro da entrada aberta.
+> [out] Um ponteiro para um ponteiro da entrada aberta.
     
 

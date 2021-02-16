@@ -25,7 +25,7 @@ ms.locfileid: "33431992"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece métodos de sincronização. Essa interface recupera as informações necessárias para replicar as alterações locais nas alterações de servidor e servidor no repositório local.
+Fornece métodos de sincronização. Essa interface recupera as informações necessárias para replicar as alterações locais no servidor e nas alterações do servidor no armazenamento local.
   
 |||
 |:-----|:-----|
@@ -37,33 +37,33 @@ Fornece métodos de sincronização. Essa interface recupera as informações ne
 |||
 |:-----|:-----|
 |[GetLastError](iostx-getlasterror.md) <br/> |Obtém informações estendidas sobre o último erro.  <br/> |
-|[InitSync](iostx-initsync.md) <br/> |Informa ao repositório local que a sincronização está prestes a começar.  <br/> |
-|[SyncBeg](iostx-syncbeg.md) <br/> |Prepara o repositório local para sincronização em um determinado Estado e recupera as informações necessárias para a replicação.  <br/> |
-|[SyncEnd](iostx-syncend.md) <br/> |Termina a sincronização no estado atual e sai desse Estado.  <br/> |
-|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Inicia a sincronização de um cabeçalho de mensagem.  <br/> |
-|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Termina a sincronização de um cabeçalho de mensagem.  <br/> |
+|[InitSync](iostx-initsync.md) <br/> |Informa ao armazenamento local que a sincronização está prestes a iniciar.  <br/> |
+|[SyncBeg](iostx-syncbeg.md) <br/> |Prepara o armazenamento local para sincronização em um estado específico e recupera as informações necessárias para replicar.  <br/> |
+|[SyncEnd](iostx-syncend.md) <br/> |Encerra a sincronização no estado atual e sai desse estado.  <br/> |
+|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Inicia a sincronização para um header de mensagem.  <br/> |
+|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Encerra a sincronização para um header de mensagem.  <br/> |
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |Define o resultado da sincronização.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando um cliente carrega ou sincroniza pastas e conteúdo de pasta em um repositório local, ele move o repositório local de um estado para outro conforme mostrado no diagrama de transição de estado no [sobre a máquina de estado de replicação](about-the-replication-state-machine.md). A seguir, a ordem dos eventos para o cliente mover o repositório local de um estado para outro:
+Quando um cliente carrega ou sincroniza pastas e conteúdo de pastas em um armazenamento local, ele move o armazenamento local de um estado para outro, conforme ilustrado no diagrama de transição de estado em [Sobre](about-the-replication-state-machine.md)a Máquina de Estado de Replicação. A seguir está a ordem dos eventos para o cliente mover o armazenamento local de um estado para outro:
   
-1. O cliente chama **IOSTX:: InitSync** para informar ao armazenamento local que a replicação está prestes a começar. 
+1. O cliente chama **IOSTX::InitSync** para informar ao armazenamento local que a replicação está prestes a iniciar. 
     
-2. Dependendo da direção da replicação e dos objetos a serem replicados, o cliente chama **IOSTX:: SyncBeg** para iniciar a replicação no estado apropriado. O Outlook fornece as informações necessárias para o cliente e o cliente realiza a replicação. 
+2. Dependendo da direção da replicação e dos objetos a replicar, o cliente chama **IOSTX::SyncBeg** para iniciar a replicação no estado apropriado. O Outlook fornece ao cliente as informações necessárias, e o cliente executa a replicação. 
     
-3. O cliente chama **IOSTX:: SetSyncResult** para retornar o resultado da replicação. 
+3. O cliente chama **IOSTX::SetSyncResult** para retornar o resultado da replicação. 
     
-4. O cliente chama **IOSTX:: SyncEnd** para finalizar a replicação, fornecendo ao Outlook as informações necessárias para a replicação subsequente. 
+4. O cliente chama **IOSTX::SyncEnd** para encerrar a replicação, fornecendo ao Outlook as informações necessárias para a replicação subsequente. 
     
-Em particular, ao baixar itens de mensagem, o cliente usa **IOSTX:: SyncHdrBeg** e **IOSTX:: SyncHdrEnd** para atualizar um item de mensagem completo com o cabeçalho da mensagem no repositório local: 
+Em particular, ao baixar itens de mensagem, o cliente usa **IOSTX::SyncHdrBeg** e **IOSTX::SyncHdrEnd** para atualizar um item de mensagem completo com o header da mensagem no armazenamento local: 
   
-1. Após o **IOSTX:: SyncHdrBeg**, o repositório local faz a transição para o estado de cabeçalho da mensagem de download. O Outlook inicialmente fornece ao cliente o cabeçalho da mensagem atual no repositório local.
+1. Em **IOSTX::SyncHdrBeg**, o armazenamento local faz a transição para o estado do header da mensagem de download. Inicialmente, o Outlook fornece ao cliente o header de mensagem atual no armazenamento local.
     
-2. O cliente baixa um item de mensagem completo junto com o cabeçalho da mensagem.
+2. O cliente baixa um item de mensagem completo junto com o header da mensagem.
     
-3. O Outlook atualiza o item no repositório local com o item de mensagem completo.
+3. O Outlook atualiza o item no armazenamento local com o item de mensagem completo.
     
 ## <a name="see-also"></a>Confira também
 

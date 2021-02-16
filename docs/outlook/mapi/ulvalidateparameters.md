@@ -25,7 +25,7 @@ ms.locfileid: "33431271"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Chama uma função interna para verificar os parâmetros que os aplicativos clientes passaram para os provedores de serviço e MAPI. 
+Chama uma função interna para verificar os parâmetros que os aplicativos cliente passaram para provedores de serviços e MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,24 +44,24 @@ HRESULT UlValidateParameters(
 
  _eMethod_
   
-> no Especifica, por enumeração, o método a ser validado. 
+> [in] Especifica, por enumeração, o método a ser validado. 
     
  _Primeira_
   
-> no Ponteiro para o primeiro argumento na pilha.
+> [in] Ponteiro para o primeiro argumento na pilha.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impedia a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **UlValidateParameters** foi substituída pela macro [UlValidateParms](ulvalidateparms.md) . O **UlValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las. Ele ainda é compilado e funciona corretamente nas plataformas Intel, mas o **UlValidateParms** é recomendado em todas as plataformas. 
+A **macro UlValidateParameters** foi sobressalída pela macro [UlValidateParms.](ulvalidateparms.md) **UlValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilar neles. Ele ainda compila e funciona corretamente em plataformas Intel, mas **UlValidateParms** é recomendado em todas as plataformas. 
   
 

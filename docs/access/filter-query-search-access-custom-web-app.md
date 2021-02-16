@@ -21,6 +21,6 @@ ms.locfileid: "33432930"
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Ação de macro Repetirconsultaderegistros (aplicativo Web personalizado do Access)](requeryrecords-macro-action-access-custom-web-app.md)
+- [Ação de macro RepetirConssuplicação de Registros (aplicativo Web personalizado do Access)](requeryrecords-macro-action-access-custom-web-app.md)
     
 

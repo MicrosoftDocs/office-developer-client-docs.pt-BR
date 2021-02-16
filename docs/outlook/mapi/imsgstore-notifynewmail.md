@@ -25,7 +25,7 @@ ms.locfileid: "33431775"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informa ao repositório de mensagens que uma nova mensagem chegou. Este método é chamado apenas pelo spooler MAPI.
+Informa ao armazenamento de mensagens que uma nova mensagem chegou. Esse método é chamado apenas pelo spooler MAPI.
   
 ```cpp
 HRESULT NotifyNewMail(
@@ -37,23 +37,23 @@ HRESULT NotifyNewMail(
 
  _lpNotification_
   
-> no Um ponteiro para uma estrutura de [notificação](notification.md) que descreve a nova notificação de mensagem. 
+> [in] Um ponteiro para uma [estrutura NOTIFICATION](notification.md) que descreve a nova notificação de mensagem. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O repositório de mensagens foi notificado com êxito.
+> O armazenamento de mensagens foi notificado com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore:: NotifyNewMail** é chamado pelo spooler MAPI para informar ao armazenamento de mensagens que uma mensagem está pronta para entrega. 
+O **método IMsgStore::NotifyNewMail** é chamado pelo spooler MAPI para informar ao repositório de mensagens que uma mensagem está pronta para entrega. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Quando **NotifyNewMail** é chamado, envie uma nova notificação de email a todos os clientes registrados. Você pode enviar a notificação chamando [IMAPISupport:: Notify](imapisupport-notify.md), se você optar por usar os métodos do objeto support ou usando sua própria implementação. Um cliente registrado é um que chamou [IMsgStore:: Advise](imsgstore-advise.md) e define o parâmetro _lpEntryID_ como nulo e o parâmetro _ulEventMask_ como _fnevNewMail_. 
+Quando **NotifyNewMail** for chamado, envie uma nova notificação por email para todos os clientes registrados. Você pode enviar a notificação chamando [IMAPISupport::Notify](imapisupport-notify.md), se você optar por usar os métodos de objeto de suporte ou usando sua própria implementação. Um cliente registrado é aquele que chamou [IMsgStore::Advise](imsgstore-advise.md) e definiu o parâmetro  _lpEntryID_ como NULL e o parâmetro  _ulEventMask_ como  _fnevNewMail_. 
   
-Não modifique ou libere a memória da estrutura de [notificação](notification.md) que descreve a notificação de novo email. Copie a estrutura de **notificação** chamando a função do utilitário [ScCopyNotifications](sccopynotifications.md) para fazer uso das informações em seus membros. 
+Não modifique ou livre a memória para a estrutura [NOTIFICATION](notification.md) que descreve a nova notificação de email. Copie a **estrutura NOTIFICATION** chamando a função utilitária [ScCopyNotifications](sccopynotifications.md) para usar as informações em seus membros. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -63,7 +63,7 @@ Não modifique ou libere a memória da estrutura de [notificação](notification
   
 [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)
   
-[Notifica](notification.md)
+[NOTIFICAÇÃO](notification.md)
   
 [ScCopyNotifications](sccopynotifications.md)
   

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
-description: Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar em log os valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. Os procedimentos a seguir mostram como criar um campo de várias linhas e, em seguida, adicionar funções auxiliares ao código de formulário que permite que você registre os dados de depuração nesse campo.
+description: Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,22 +15,22 @@ ms.locfileid: "33431810"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>Valores de log para um campo de depuração
 
-Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar em log os valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. Os procedimentos a seguir mostram como criar um campo de várias linhas e, em seguida, adicionar funções auxiliares ao código de formulário que permite que você registre os dados de depuração nesse campo.
+Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar valores diretamente em um campo no formulário para criar um registro de dados de depuração durante uma sessão de teste do formulário. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.
   
 ## <a name="create-a-multi-line-text-field"></a>Criar um campo de texto de várias linhas
 
-1. Adicionar um controle de **caixa de texto** ao formulário e redimensioná-lo para que ele possa exibir várias linhas. 
+1. Adicione um **controle Caixa** de Texto ao formulário e reize-o para que ele possa exibir várias linhas. 
     
-2. Clique com o botão direito do mouse na caixa de texto, clique em **Propriedades da caixa de texto**e clique na caixa de seleção de **várias linhas** na guia **Exibir** . 
+2. Clique com o botão direito do mouse na  caixa de texto, clique em **Propriedades** da Caixa de Texto e clique na caixa de seleção Várias Linhas na **guia** Exibir. 
     
 ## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a>Adicionar funções auxiliares para registrar informações de depuração no campo
 
-1. Na guia **desenvolvedor** , clique em **Editor de código**e salve o modelo de formulário, se for solicitado.
+1. Na guia **Desenvolvedor,** clique em **Editor de** Código e salve o modelo de formulário se for solicitado.
     
-2. No editor de códigos, adicione as seguintes três funções auxiliares à classe pública no arquivo de código de formulário.
+2. No Editor de Código, adicione as três funções auxiliares a seguir à classe pública no arquivo de código do formulário.
     
    > [!IMPORTANT]
-   > Verifique se você atualizou o valor definido para a `debugFieldXpath` variável na `AddToDebugField` função para a expressão XPath correta para o campo ligado ao controle que você criou no primeiro procedimento. 
+   > Certifique-se de atualizar o valor definido para a variável na função para a expressão XPath correta para o campo vinculado ao controle que você criou  `debugFieldXpath`  `AddToDebugField` no primeiro procedimento. 
   
     ```cs
         private void AddToDebugField(string valueToAdd)
@@ -76,11 +76,11 @@ Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar e
     ```
 
 > [!NOTE] 
-> Ao usar o Visual Basic, `Imports Microsoft.VisualBasic.Constants` adicione às diretivas na parte superior do arquivo de código de formulário. 
+> Ao usar o Visual Basic, adicione  `Imports Microsoft.VisualBasic.Constants` às diretivas na parte superior do arquivo de código do formulário. 
   
 ## <a name="test-the-addtodebugfield-function"></a>Testar a função AddToDebugField
 
-1. Na guia **desenvolvedor** , clique em **carregar evento**e, em seguida, adicione a seguinte linha de código ao manipulador de eventos.
+1. Na guia **Desenvolvedor,** clique em **Evento de** Carregamento e adicione a seguinte linha de código ao manipulador de eventos.
     
    ```cs
     AddToDebugField("Form loaded");
@@ -90,7 +90,7 @@ Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar e
     AddToDebugField("Form loaded")
    ```
 
-2. Na guia **desenvolvedor** , clique em **Exibir evento alternado**e adicione a seguinte linha de código ao manipulador de eventos.
+2. Na guia **Desenvolvedor,** clique em Exibir Evento **Comutado** e adicione a seguinte linha de código ao manipulador de eventos.
     
    ```cs
     AddToDebugField("View switched: " + this.CurrentView.ViewInfo.Name);
@@ -100,8 +100,8 @@ Ao depurar um modelo de formulário do InfoPath, geralmente é útil registrar e
     AddToDebugField("View switched: " &amp; Me.CurrentView.ViewInfo.Name)
    ```
 
-3. Na guia **página inicial** , clique em **Visualização**.
+3. Na guia **Página** Home, clique em **Visualizar.**
     
-   O campo de depuração deve exibir duas entradas: uma indicando que o formulário está carregado e outro indicando o nome do modo de exibição. Estes exemplos usam manipuladores de eventos para eventos que ocorrem quando o formulário é aberto. No enTanto, após o carregamento do formulário, você pode `AddToDebugField` chamar a função de outros manipuladores de eventos, além de qualquer outro código em execução no contexto do formulário. 
+   O campo de depuração deve exibir duas entradas: uma indicando que o formulário está carregado e outra indicando o nome do exibição. Esses exemplos usam manipuladores de eventos para eventos que ocorrem à medida que o formulário é aberto. No entanto, depois que o formulário é carregado, você pode chamar a função de outros manipuladores de eventos, além de qualquer outro código em execução no  `AddToDebugField` contexto do formulário. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33431705"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Compara dois identificadores de entrada de repositório de mensagens para determinar se eles se referem ao mesmo objeto Store.
+Compara dois identificadores de entrada do armazenamento de mensagens para determinar se eles se referem ao mesmo objeto de armazenamento.
   
 ```cpp
 HRESULT CompareStoreIDs(
@@ -42,41 +42,41 @@ HRESULT CompareStoreIDs(
 
  _cbEntryID1_
   
-> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID1_ _._
+> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro  _lpEntryID1_  _._
     
  _lpEntryID1_
   
-> no Um ponteiro para o primeiro identificador de entrada a ser comparado.
+> [in] Um ponteiro para o identificador da primeira entrada a ser comparado.
     
  _cbEntryID2_
   
-> no O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpEntryID2_ _._
+> [in] O tamanho, em bytes, do identificador de entrada apontado pelo parâmetro  _lpEntryID2_  _._
     
  _lpEntryID2_
   
-> no Um ponteiro para o segundo identificador de entrada ser comparado.
+> [in] Um ponteiro para o segundo identificador de entrada a ser comparado.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpulResult_
   
-> bota Um ponteiro para o resultado retornado da comparação. TRUE se os dois identificadores de entrada se referem ao mesmo objeto; caso contrário, FALSE.
+> [out] Um ponteiro para o resultado retornado da comparação. TRUE se os dois identificadores de entrada se referirem ao mesmo objeto; caso contrário, FALSE.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-MAPI chama o método **IMSProvider:: CompareStoreIDs** quando processa uma chamada para o método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** é chamado neste ponto para determinar qual seção de perfil, se houver, está associada ao armazenamento de mensagens que está sendo aberto. Uma chamada **CompareStoreIDs** pode ser feita quando não há repositórios de mensagens abertos para um provedor de repositório específico. Além disso, o MAPI também chama **CompareStoreIDs** quando processa uma chamada do provedor de repositório para o método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) . 
+O MAPI chama o método **IMSProvider::CompareStoreIDs** quando ele processa uma chamada para o método [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) **CompareStoreIDs** é chamado neste ponto para determinar qual seção de perfil, se alguma, está associada ao repositório de mensagens que está sendo aberto. Uma **chamada CompareStoreIDs** pode ser feita quando nenhum repositório de mensagens está aberto para um provedor de repositório específico. Além disso, o MAPI também chama **CompareStoreIDs** quando processa uma chamada de provedor de repositório para o método [IMAPISupport::OpenProfileSection.](imapisupport-openprofilesection.md) 
   
-Os identificadores de entrada comparados por **CompareStoreIDs** são para a biblioteca de vínculo dinâmico (DLL) do provedor de repositório atual e são identificadores de entrada de repositório não encapsulados. Para obter mais informações sobre identificadores de entrada de repositório de enrolamento, consulte [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
+Os identificadores de entrada comparados por **CompareStoreIDs** são ambos para a biblioteca de vínculo dinâmico (DLL) do provedor de repositório atual e são identificadores de entrada de repositório não mapeados. Para obter mais informações sobre identificadores de entrada do repositório de quebra, consulte [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-A comparação de identificadores de entrada é útil porque um objeto pode ter mais de um identificador de entrada válido. Isso pode ocorrer, por exemplo, após a instalação de uma nova versão de um provedor de repositório de mensagens. 
+Comparar identificadores de entrada é útil porque um objeto pode ter mais de um identificador de entrada válido. Isso pode ocorrer, por exemplo, depois que uma nova versão de um provedor de armazenamento de mensagens é instalada. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlDefineBinaryName
 keywords:
-- função xlDefineBinaryName [Excel 2007]
+- Função xldefinebinaryname [excel 2007]
 localization_priority: Normal
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33430249"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usado para alocar armazenamento persistente para um **xltypeBigData** **XLOPER**/ **XLOPER12**. Os dados com um nome binário definido são salvos com a pasta de trabalho e podem ser acessados pelo nome a qualquer momento. Para saber mais, confira "limitação de escopo de nome binário" em [problemas conhecidos no desenvolvimento XLL do Excel](known-issues-in-excel-xll-development.md).
+Usado para alocar armazenamento persistente para um **xltypeBigData** **XLOPER** /  **XLOPER12**. Os dados com um nome binário definido são salvos com a agenda e podem ser acessados por nome a qualquer momento. Para obter mais informações, consulte "Limitação de escopo de nome binário" em [Problemas conhecidos no desenvolvimento de XLL do Excel.](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
@@ -32,13 +32,13 @@ Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
 
  _pxName_ (**xltypeStr**)
   
-Uma cadeia de caracteres especificando o nome dos dados. A cadeia de caracteres está sujeita às mesmas restrições de nomenclatura que os nomes definidos.
+Uma cadeia de caracteres especificando o nome dos dados. A cadeia de caracteres está sujeita às mesmas restrições de nomeação que os nomes definidos.
   
  _pxData_ (**xltypeBigData**)
   
-Estrutura bigdata que especifica os dados a serem armazenados. Ao chamar essa função, o membro **lpbData** da estrutura **bigdata** deve apontar para os dados para os quais o nome está sendo definido, e o membro **cbData** deve conter o tamanho dos dados em bytes. 
+Estrutura bigdata especificando os dados a serem armazenados. Quando você chama essa função, o membro **lpbData** da estrutura **de bigdata** deve apontar para os dados para os quais o nome está sendo definido, e o membro **cbData** deve conter o comprimento dos dados em bytes. 
   
-Se o argumento _pxData_ não for especificado (**xltypeMissing**), a alocação nomeada especificada por _pxName_ será excluída. 
+Se o  _argumento pxData_ não for especificado (**xltypeMissing**), a alocação nomeada especificada por  _pxName_ será excluída. 
   
 ## <a name="see-also"></a>Confira também
 

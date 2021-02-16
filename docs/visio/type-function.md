@@ -32,14 +32,14 @@ Número
 
 A tabela a seguir relaciona tipos de objetos internos como números.
   
-|**Objeto**|**Número**|
+|**Object**|**Número**|
 |:-----|:-----|
 |Page  <br/> |70  <br/> |
-|Grupo  <br/> |71  <br/> |
-|Forma  <br/> |72  <br/> |
-|Estilo  <br/> |74  <br/> |
-|Escrita  <br/> |77  <br/> |
-|Estrangeira  <br/> |78  <br/> |
-|Documento  <br/> |79  <br/> |
+|Group  <br/> |71  <br/> |
+|Shape  <br/> |72  <br/> |
+|Style  <br/> |74  <br/> |
+|Guia  <br/> |77  <br/> |
+|Externo  <br/> |78  <br/> |
+|Document  <br/> |79  <br/> |
    
 

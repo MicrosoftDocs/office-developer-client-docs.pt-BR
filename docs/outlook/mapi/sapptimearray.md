@@ -29,7 +29,7 @@ Contém uma matriz de valores de tempo.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -44,15 +44,15 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **lpat** . 
+> Contagem de valores na matriz apontada pelo **membro lpat.** 
     
  **lpat**
   
-> Ponteiro para uma matriz de valores de tempo de aplicativo. 
+> Ponteiro para uma matriz de valores de tempo do aplicativo. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SAppTimeArray** é usada para definir propriedades do tipo PT_MV_APPTIME. Para obter mais informações sobre o PT_MV_APPTIME, confira [lista de tipos de propriedade](property-types.md).
+A **estrutura SAppTimeArray** é usada para definir propriedades do tipo PT_MV_APPTIME. Para obter mais informações sobre PT_MV_APPTIME, consulte [Lista de tipos de propriedade.](property-types.md)
   
 ## <a name="see-also"></a>Confira também
 

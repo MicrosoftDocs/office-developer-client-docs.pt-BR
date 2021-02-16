@@ -19,39 +19,39 @@ ms.locfileid: "33432713"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI spooler é uma função do processo do Microsoft Office Outlook responsável por enviar mensagens e receber mensagens de um sistema de mensagens. O spooler MAPI exerce uma função vital no recebimento e na entrega de mensagens. Quando um sistema de mensagens está indisponível, o spooler MAPI armazena as mensagens e as encaminha automaticamente mais tarde. Essa capacidade de manter ou enviar dados quando necessário é conhecido como armazenar e encaminhar, um recurso crítico em ambientes onde as conexões remotas são comuns e o tráfego de rede é alto. O spooler MAPI é executado como um thread de segundo plano no Outlook.
+O spooler MAPI é uma função do processo do Microsoft Office Outlook responsável por enviar e receber mensagens de um sistema de mensagens. O spooler MAPI desempenha um papel vital no recebimento e na entrega de mensagens. Quando um sistema de mensagens não está disponível, o spooler MAPI armazena as mensagens e as encaminha automaticamente posteriormente. Essa capacidade de manter ou enviar dados quando necessário é conhecida como armazenamento e encaminhamento, um recurso crítico em ambientes onde as conexões remotas são comuns e o tráfego de rede é alto. O spooler MAPI é executado como um thread em segundo plano no Outlook.
   
-O spooler MAPI tem responsabilidades adicionais relacionadas à distribuição de mensagens. Essas tarefas adicionais incluem o seguinte:
+O spooler MAPI tem responsabilidades adicionais relacionadas à distribuição de mensagens. Essas tarefas extras incluem o seguinte:
   
-- Manter o controle dos tipos de destinatários que são tratados por provedores de transporte específicos.
+- Acompanhar os tipos de destinatários manipulados por provedores de transporte específicos.
     
-- Informando um aplicativo cliente quando uma nova mensagem é entregue.
+- Informar um aplicativo cliente quando uma nova mensagem for entregue.
     
-- Invocar o pré-processamento e o processamento de mensagens.
+- Invocando o pré-processamento e o pós-processamento de mensagens.
     
-- Geração de relatórios que indicam que a entrega de mensagens ocorreu.
+- Gerar relatórios que indicam que a entrega da mensagem ocorreu.
     
-- Manutenção do status em destinatários processados.
+- Mantendo o status de destinatários processados.
     
-A ilustração a seguir mostra em nível alto como uma mensagem flui de um cliente para o sistema de mensagens.
+A ilustração a seguir mostra em um alto nível como uma mensagem flui de um cliente para o sistema de mensagens.
   
 **Outgoing message flow**
   
-![Fluxo de mensagens de saída] (media/amapi_46.gif "Fluxo de mensagens de saída")
+![Fluxo de mensagens de saída Fluxo]de mensagens de(media/amapi_46.gif "saída")
   
-O usuário de um aplicativo cliente envia uma mensagem para um ou mais destinatários. O provedor de repositório de mensagens inicia o processo de envio, Formatando a mensagem com informações adicionais necessárias para a transmissão.
+O usuário de um aplicativo cliente envia uma mensagem para um ou mais destinatários. O provedor de armazenamento de mensagens inicia o processo de envio, formatando a mensagem com informações adicionais necessárias para transmissão.
   
-MAPI spooler recebe a mensagem a ser processada se ocorrer qualquer uma das seguintes condições:
+O spooler MAPI recebe a mensagem a ser processada se qualquer uma das seguintes condições ocorrer:
   
-- O provedor de repositório de mensagens não está rigidamente acoplado a um provedor de transporte.
+- O provedor de armazenamento de mensagens não está fortemente unido a um provedor de transporte.
     
 - A mensagem requer pré-processamento.
     
-- O repositório de mensagens e o provedor de transporte estão rigidamente acoplados, mas não podem lidar com todos os destinatários para os quais a mensagem é endereçada.
+- O armazenamento de mensagens e o provedor de transporte estão fortemente próximos, mas não podem lidar com todos os destinatários aos quais a mensagem é endereçada.
     
-Se o spooler MAPI receber a mensagem, ele realiza qualquer pré-processamento necessário e entrega a mensagem para o provedor de transporte apropriado. O provedor de transporte fornece a mensagem ao seu sistema de mensagens, que a envia para o destinatário pretendido.
+Se o spooler MAPI receber a mensagem, ele executará qualquer pré-processamento necessário e entregará a mensagem ao provedor de transporte apropriado. O provedor de transporte fornece a mensagem ao seu sistema de mensagens, que a envia ao destinatário pretendido.
   
-Com mensagens de entrada, o fluxo é revertido. O provedor de transporte recebe uma mensagem de seu sistema de mensagens e notifica o spooler MAPI. O spooler realiza todos os processamentos e informa o provedor do repositório de mensagens de que uma nova mensagem chegou. Essa notificação faz com que o cliente atualize sua exibição de mensagem, permitindo que o usuário leia a nova mensagem.
+Com as mensagens de entrada, o fluxo é revertido. O provedor de transporte recebe uma mensagem de seu sistema de mensagens e notifica o spooler MAPI. O Spooler executa qualquer pós-processamento necessário e informa ao provedor do armazenamento de mensagens que uma nova mensagem chegou. Essa notificação faz com que o cliente atualize a exibição da mensagem, permitindo que o usuário leia a nova mensagem.
   
 ## <a name="see-also"></a>Confira também
 

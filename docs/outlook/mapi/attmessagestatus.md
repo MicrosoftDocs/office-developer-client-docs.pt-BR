@@ -21,16 +21,16 @@ ms.locfileid: "33430312"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os sinalizadores de mensagem MAPI são mapeados para sinalizadores TNEF para preservar a compatibilidade com versões anteriores. Todos os sinalizadores são agrupados e codificados em um único byte. Os mapeamentos são os seguintes:
+Sinalizadores de mensagem MAPI são mapeados para sinalizadores TNEF para preservar a compatibilidade com compatibilidade. Todos os sinalizadores são agrupados e codificados em um único byte. Os mapeamentos são os seguinte:
   
-|**Sinalizadores de mensagens MAPI**|**Sinalizadores TNEF**|
+|**Sinalizadores de mensagem MAPI**|**Sinalizadores TNEF**|
 |:-----|:-----|
 |MSGFLAG_READ  <br/> |fmsRead  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
+|MSGFLAG_UNMODIFED  <br/> |~fmsModified  <br/> |
 |MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Esses sinalizadores são definidos no TNEF. Arquivo de cabeçalho H.
+Esses sinalizadores são definidos no TNEF. Arquivo de header H.
   
 

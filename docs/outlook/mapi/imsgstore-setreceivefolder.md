@@ -25,7 +25,7 @@ ms.locfileid: "33434085"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Estabelece uma pasta como o destino de mensagens de entrada de uma determinada classe de mensagem.
+Estabelece uma pasta como o destino para mensagens de entrada de uma classe de mensagem específica.
   
 ```cpp
 HRESULT SetReceiveFolder(
@@ -40,23 +40,23 @@ HRESULT SetReceiveFolder(
 
  _lpszMessageClass_
   
-> no Um ponteiro para a classe de mensagem que deve ser associada à nova pasta de recebimento. Se o parâmetro _lpszMessageClass_ estiver definido como nulo ou uma cadeia de caracteres vazia, **SetReceiveFolder** definirá a pasta de recebimento padrão para o repositório de mensagens. 
+> [in] Um ponteiro para a classe de mensagem que deve ser associada à nova pasta de recebimento. Se o  _parâmetro lpszMessageClass_ for definido como NULL ou uma cadeia de caracteres vazia, **SetReceiveFolder** definirá a pasta de recebimento padrão para o armazenamento de mensagens. 
     
  _ulFlags_
   
-> no Uma máscara de bits de sinalizadores que controla o tipo de texto nas cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo do texto nas cadeias de caracteres passadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> A cadeia de caracteres da classe da mensagem está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, a cadeia de caracteres da classe da mensagem estará no formato ANSI.
+> A cadeia de caracteres de classe de mensagem está no formato Unicode. Se o MAPI_UNICODE não estiver definido, a cadeia de caracteres da classe de mensagem está no formato ANSI.
     
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada da pasta a ser estabelecida como a pasta de recebimento. Se o parâmetro _lpEntryID_ estiver definido como nulo, **SetReceiveFolder** substituirá a pasta de recebimento atual pelo padrão do repositório de mensagens. 
+> [in] Um ponteiro para o identificador de entrada da pasta para estabelecer como a pasta de recebimento. Se o  _parâmetro lpEntryID_ for definido como NULL, **SetReceiveFolder** substituirá a pasta de recebimento atual pelo padrão do armazenamento de mensagens. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -66,11 +66,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgStore:: SetReceiveFolder** define ou altera a pasta de recebimento de uma determinada classe de mensagem. Com o **SetReceiveFolder**, um cliente pode usar chamadas sucessivas, especificar uma pasta de recebimento diferente para cada classe de mensagem definida ou especificar que as mensagens de entrada para várias classes de mensagens vão para a mesma pasta. Por exemplo, um cliente pode ter sua própria classe de mensagens chegar em sua própria pasta. Um aplicativo de fax pode designar uma pasta na qual o provedor de repositório coloca faxes de entrada e outra pasta na qual o provedor coloca os faxes de saída.
+O **método IMsgStore::SetReceiveFolder** define ou altera a pasta de recebimento de uma classe de mensagem específica. Com **SetReceiveFolder**, um cliente pode, usando chamadas sucessivas, especificar uma pasta de recebimento diferente para cada classe de mensagem definida ou especificar que as mensagens de entrada para várias classes de mensagens vão para a mesma pasta. Por exemplo, um cliente pode ter sua própria classe de mensagens chegar em sua própria pasta. Um aplicativo de fax pode designar uma pasta na qual o provedor de armazenamento coloca faxes de entrada e outra pasta na qual o provedor coloca faxes de saída.
   
-Se ocorrer um erro durante a chamada a **SetReceiveFolder**, a configuração da pasta de recebimento permanecerá inalterada. 
+Se ocorrer um erro durante a chamada para **SetReceiveFolder,** a configuração da pasta de recebimento permanecerá inalterada. 
   
-Se o **SetReceiveFolder** alterar a configuração da pasta de recebimento com _lpEntryID_ definido como nulo, indicando que a pasta de recebimento padrão deve ser definida, **SetReceiveFolder** retornará S_OK, mesmo se não houver nenhuma configuração existente para o indicado classe de mensagem. 
+Se **SetReceiveFolder** mudar a configuração da pasta de recebimento com  _lpEntryID_ definido como NULL, indicando que a pasta de recebimento padrão deve ser definida, **SetReceiveFolder** retornará S_OK mesmo se não houver nenhuma configuração existente para a classe de mensagem indicada. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -78,7 +78,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnSetReceiveFolder  <br/> |MFCMAPI usa o método **IMsgStore:: SetReceiveFolder** para definir uma pasta como a pasta de recebimento para uma determinada classe de mensagem.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI usa o método **IMsgStore::SetReceiveFolder** para definir uma pasta como a pasta de recebimento para uma classe de mensagem específica.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

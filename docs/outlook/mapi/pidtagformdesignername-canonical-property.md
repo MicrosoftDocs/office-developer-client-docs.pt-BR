@@ -25,7 +25,7 @@ ms.locfileid: "33432356"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome para exibição do objeto que é usado para criar o formulário. 
+Contém o nome de exibição do objeto usado para projetar o formulário. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o nome para exibição do objeto que é usado para criar o formulário.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm o identificador exclusivo do objeto Form Designer. 
+Essas propriedades contêm o identificador exclusivo do objeto de designer de formulário. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

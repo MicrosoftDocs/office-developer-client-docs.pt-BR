@@ -25,13 +25,13 @@ ms.locfileid: "33429044"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um identificador de entrada composto para um objeto, geralmente uma mensagem em um repositório de mensagens. 
+Cria um identificador de entrada composto para um objeto, geralmente uma mensagem em um armazenamento de mensagens. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 HrComposeEID(
@@ -49,31 +49,31 @@ HrComposeEID(
 
  _psession_
   
-> no Ponteiro para a sessão em uso pelo aplicativo cliente. 
+> [in] Ponteiro para a sessão em uso pelo aplicativo cliente. 
     
  _cbStoreRecordKey_
   
-> no Tamanho, em bytes, da chave de registro do repositório de mensagens que contém a mensagem ou outro objeto. Se zero for passado no parâmetro _cbStoreRecordKey_ , o parâmetro _ppEID_ apontará para uma cópia do identificador de entrada do objeto. 
+> [in] Tamanho, em bytes, da chave de registro do armazenamento de mensagens que mantém a mensagem ou outro objeto. Se zero for passado no parâmetro  _cbStoreRecordKey,_ o parâmetro  _ppEID_ aponta para uma cópia do identificador de entrada do objeto. 
     
  _pStoreRecordKey_
   
-> no Ponteiro para a chave de registro do repositório de mensagens que contém a mensagem ou outro objeto. 
+> [in] Ponteiro para a tecla de registro do armazenamento de mensagens que contém a mensagem ou outro objeto. 
     
  _cbMsgEID_
   
-> no Tamanho, em bytes, do identificador de entrada da mensagem ou de outro objeto. 
+> [in] Tamanho, em bytes, do identificador de entrada da mensagem ou de outro objeto. 
     
  _pMsgEID_
   
-> no Ponteiro para o identificador de entrada do objeto. 
+> [in] Ponteiro para o identificador de entrada do objeto. 
     
  _pcbEID_
   
-> bota Ponteiro para o tamanho, em bytes, do identificador retornado. 
+> [out] Ponteiro para o tamanho, em bytes, do identificador retornado. 
     
  _ppEID_
   
-> bota Ponteiro para um ponteiro para o identificador de entrada retornado. Se o valor do parâmetro _cbStoreRecordKey_ for maior que zero, o parâmetro _ppEID_ apontará para um ponteiro para o identificador de entrada composta que é criado. Se _cbStoreRecordKey_ for zero, _ppEID_ apontará para um ponteiro para uma cópia do identificador de entrada do objeto. 
+> [out] Ponteiro para um ponteiro para o identificador de entrada retornado. Se o valor do parâmetro  _cbStoreRecordKey_ for maior que zero, o parâmetro  _ppEID_ aponta para um ponteiro para o identificador de entrada composto criado. Se  _cbStoreRecordKey_ for zero,  _ppEID_ aponta para um ponteiro para uma cópia do identificador de entrada do objeto. 
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -81,9 +81,9 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-Se a mensagem ou outro objeto para o qual o identificador de entrada composta estiver sendo criado residir em um repositório de mensagens, o identificador será criado a partir do identificador de entrada do objeto e da chave de registro da loja. Se o objeto não estiver em um repositório, ou seja, se a contagem de bytes para a chave de registro de repositório passada no _cbStoreRecordKey_ for zero, o identificador de entrada do objeto será simplesmente copiado. 
+Se a mensagem ou outro objeto para o qual o identificador de entrada composta está sendo criado residir em um armazenamento de mensagens, o identificador será criado a partir do identificador de entrada do objeto e da chave de registro do armazenamento. Se o objeto não estiver em um repositório, ou seja, se a contagem de byte para a chave de registro do repositório passada em  _cbStoreRecordKey_ for zero, o identificador de entrada do objeto será simplesmente copiado. 
   
-A função **HrComposeEID** permite que os aplicativos trabalhem com objetos em vários repositórios por meio do uso de identificadores de entrada compostos. Um aplicativo pode chamar a função [HrDecomposeEID](hrdecomposeeid.md) para dividir o identificador de entrada composta em seus constituintes originais. 
+A **função HrComposeEID** permite que os aplicativos trabalhem com objetos em vários armazenamentos por meio do uso de identificadores de entrada compostos. Um aplicativo pode chamar [a função HrDecomposeEID](hrdecomposeeid.md) para dividir o identificador de entrada composta em seus componentes originais. 
   
 ## <a name="see-also"></a>Confira também
 

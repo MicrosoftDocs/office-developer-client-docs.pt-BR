@@ -25,11 +25,11 @@ ms.locfileid: "33431593"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma tabela de exibição a partir dos dados da página de propriedades contidos em uma ou mais estruturas [DTPAGE](dtpage.md) . 
+Cria uma tabela de exibição a partir dos dados da página de propriedades contidos em uma ou mais [estruturas DTPAGE.](dtpage.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Provedores de serviços  <br/> |
    
@@ -52,47 +52,47 @@ STDAPI BuildDisplayTable(
 
  _lpAllocateBuffer_
   
-> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória. 
+> [in] Ponteiro para a [função MAPIAllocateBuffer,](mapiallocatebuffer.md) a ser usado para alocar memória. 
     
  _lpAllocateMore_
   
-> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , a ser usado para alocar memória adicional. 
+> [in] Ponteiro para a [função MAPIAllocateMore,](mapiallocatemore.md) a ser usado para alocar memória adicional. 
     
  _lpFreeBuffer_
   
-> no Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , a ser usado para liberar memória. 
+> [in] Ponteiro para a [função MAPIFreeBuffer,](mapifreebuffer.md) a ser usado para liberar memória. 
     
  _lpMalloc_
   
-> Não usados deve ser definido como nulo. 
+> Não éusado; deve ser definido como NULL. 
     
  _hInstance_
   
-> no Uma instância de um objeto MAPI do qual o **BuildDisplayTable** recupera recursos. 
+> [in] Uma instância de um objeto MAPI do qual **BuildDisplayTable** recupera recursos. 
     
  _cPages_
   
-> no Contagem de estruturas [DTPAGE](dtpage.md) na matriz apontada pelo parâmetro _lpPage_ . 
+> [in] Contagem de [estruturas DTPAGE](dtpage.md) na matriz apontada pelo _parâmetro lpPage._ 
     
  _lpPage_
   
-> no Ponteiro para uma matriz de estruturas **DTPAGE** que contêm informações sobre as páginas da tabela de exibição a serem criadas. 
+> [in] Ponteiro para uma matriz de **estruturas DTPAGE** que contêm informações sobre as páginas da tabela de exibição a serem criadas. 
     
  _ulFlags_
   
-> no Bitmask de sinalizadores. O seguinte sinalizador pode ser definido:
+> [in] Máscara de bits de sinalizadores. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres passadas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> As cadeias de caracteres passadas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
  _lppTable_
   
-> bota Ponteiro para um ponteiro para a tabela de exibição, que expõe [](imapitableiunknown.md) a interface IMAPITable. 
+> [out] Ponteiro para um ponteiro para a tabela de exibição, que expõe a interface [IMAPITable.](imapitableiunknown.md) 
     
  _lppTblData_
   
-> [in, out] Ponteiro para um ponteiro para um objeto Table Data expondo a interface [ITableData](itabledataiunknown.md) na tabela retornada no parâmetro _lppTable_ . Se nenhum objeto de dados de tabela for desejado, _lppTblData_ deve ser definido como nulo em vez de um valor de ponteiro. 
+> [in, out] Ponteiro para um ponteiro para um objeto de dados de tabela expondo a interface [ITableData](itabledataiunknown.md) na tabela retornada no _parâmetro lppTable._ Se nenhum objeto de dados de tabela for desejado,  _lppTblData_ deverá ser definido como NULL em vez de um valor de ponteiro. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -100,18 +100,18 @@ Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-MAPI usa as funções apontadas por _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ para a maioria da alocação de memória e desalocação, em particular para alocar memória para uso por aplicativos cliente ao chamar interfaces de objeto como [IMAPIProp::](imapiprop-getprops.md) GetProps e IMAPITable [:: QueryRows](imapitable-queryrows.md). 
+MAPI uses the functions pointed to  _by lpAllocateBuffer_,  _lpAllocateMore_, and  _lpFreeBuffer_ for most memory allocation and deallocation, in particular to allocate memory for use by client applications when calling object interfaces such [as IMAPIProp::GetProps](imapiprop-getprops.md) and [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Tudo o que é possível é ler do recurso de caixa de diálogo, incluindo:
+Tudo o que é possível é lido a partir do recurso de caixa de diálogo, incluindo:
   
-- O título da página ou seja, o membro _ulbLpszLabel_ da estrutura [DTBLPAGE](dtblpage.md) lida do título da caixa de diálogo no recurso. 
+- O título da página, ou seja, o  _membro ulbLpszLabel_ da estrutura [DTBLPAGE](dtblpage.md) lida a partir do título da caixa de diálogo no recurso. 
     
-- Todos os títulos de controle ou seja, os membros _ulbLpszLabel_ de outras estruturas de controle lêem do texto de controle no recurso. 
+- Todos os títulos de controle, ou seja, os membros  _ulbLpszLabel_ de outras estruturas de controle lidos do texto de controle no recurso. 
     
- **BuildDisplayTable** substitui qualquer coisa que tenha passado nas estruturas de controle de entrada com informações do recurso de caixa de diálogo, o que significa que o chamador do **BuildDisplayTable** não pode especificar dinamicamente títulos de página ou de controle. Os chamadores que precisam fazer isso podem fazer com que o **BuildDisplayTable** retorne o objeto de dados de tabela no _lppTableData_ e altere as linhas nele; ou podem criar a tabela de exibição manualmente em um objeto Table Data. 
+ **BuildDisplayTable** substitui qualquer coisa passada nas estruturas de controle de entrada com informações do recurso de caixa de diálogo, o que significa que o chamador de **BuildDisplayTable** não pode especificar dinamicamente títulos de página ou controle. Os chamadores que precisam fazer isso podem fazer **BuildDisplayTable** retornar o objeto de dados de tabela em  _lppTableData_ e alterar linhas nele; ou eles podem criar a tabela de exibição manualmente em um objeto de dados de tabela. 
   
-Se _lppTableData_ não estiver definido como NULL, o provedor será responsável por liberar o objeto Table Data quando ele for concluído com a tabela de exibição. 
+Se  _lppTableData_ não estiver definido como NULL, o provedor será responsável por liberar o objeto de dados da tabela quando terminar com a tabela de exibição. 
   
 

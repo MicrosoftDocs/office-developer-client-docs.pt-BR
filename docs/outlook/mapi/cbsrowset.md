@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [SRowSet](srowset.md) existente.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSRowSet (_lprowset)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lprowset_
+ _ _lprowset_
   
 > Ponteiro para a estrutura **SRowSet** existente. 
     

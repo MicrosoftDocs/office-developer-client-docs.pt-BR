@@ -1,5 +1,5 @@
 ---
-title: Suporte a texto formatado em mensagens de saída responsabilidades do cliente
+title: Suporte a texto formatado em responsabilidades do cliente de mensagens de saída
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -21,22 +21,22 @@ ms.locfileid: "33431600"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os aplicativos cliente definem a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou a propriedade **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) para uma mensagem de saída. Os clientes que oferecem suporte somente a texto sem formatação só definem a propriedade **PR_BODY** . Os clientes cientes do formato Rich Text (RTF) podem definir as propriedades **PR_BODY** e **PR_RTF_COMPRESSED** , ou apenas **PR_RTF_COMPRESSED**, dependendo do provedor de armazenamento de mensagens que está sendo usado. Clientes com reconhecimento de HTML definem a propriedade **PR_HTML** . 
+Os aplicativos cliente configuram a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou a propriedade **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) para uma mensagem de saída. Clientes que suportam apenas texto sem texto definido apenas **PR_BODY** propriedade. Clientes com conhecimento em RTF (Rich Text Format) podem definir as propriedades **PR_BODY** e **PR_RTF_COMPRESSED,** ou apenas **PR_RTF_COMPRESSED,** dependendo do provedor de armazenamento de mensagens que está sendo usado. Os clientes com suporte a HTML configuram **a PR_HTML** propriedade. 
   
-É importante que um cliente Verifique sua propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) do repositório de mensagens para determinar se o repositório suporta RTF. Se o repositório de mensagens não reconhece o RTF, um cliente com reconhecimento de RTF define as propriedades **PR_BODY** e **PR_RTF_COMPRESSED** para cada mensagem de saída. 
+É importante que um cliente verifique a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)do repositório de mensagens para determinar se o repositório oferece suporte a RTF. Se o armazenamento de mensagens não estiver ciente de RTF, um cliente que reconhece RTF define as propriedades **PR_BODY** e **PR_RTF_COMPRESSED** para cada mensagem de saída. 
   
-Se o repositório de mensagens tiver reconhecimento de RTF, somente a propriedade **PR_RTF_COMPRESSED** precisará ser definida. 
+Se o armazenamento de mensagens for ciente de RTF, somente a PR_RTF_COMPRESSED **propriedade** precisará ser definida. 
   
- **Para definir PR_RTF_COMPRESSED e garantir que o processo de sincronização ocorra conforme necessário, os clientes com reconhecimento de RTF**
+ **Para definir PR_RTF_COMPRESSED e garantir que o processo de sincronização ocorra conforme necessário, clientes com conhecimento RTF**
   
-1. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_RTF_COMPRESSED** , definindo os sinalizadores MAPI_CREATE e MAPI_MODIFY. O MAPI_CREATE garante que todos os novos dados substituam os dados antigos e o MAPI_MODIFY permite que você faça essas substituições. 
+1. Chame o [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_RTF_COMPRESSED,** definindo os sinalizadores MAPI_CREATE e MAPI_MODIFY padrão. MAPI_CREATE garante que os novos dados substituam todos os dados antigos e MAPI_MODIFY que você faça essas substituições. 
     
-2. Chame a função [WrapCompressedRTFStream](wrapcompressedrtfstream.md) , passando STORE_UNCOMPRESSED_RTF se o repositório de mensagens define o bit STORE_UNCOMPRESSED_RTF em sua propriedade **PR_STORE_SUPPORT_MASK** , para obter uma versão descompactada do **PR_RTF_COMPRESSED **Stream retornado de **OpenProperty**.
+2. Chame a função [WrapCompressedRTFStream,](wrapcompressedrtfstream.md) passando STORE_UNCOMPRESSED_RTF se o armazenamento de mensagens define o bit STORE_UNCOMPRESSED_RTF em sua propriedade **PR_STORE_SUPPORT_MASK,** para obter uma versão descompactada do fluxo **PR_RTF_COMPRESSED** retornado de **OpenProperty**.
     
-3. Escreva os dados de texto da mensagem para o fluxo descompactado retornado de **WrapCompressedRTFStream**.
+3. Gravar os dados de texto da mensagem no fluxo descompactado retornado de **WrapCompressedRTFStream**.
     
-4. Confirmar e liberar os fluxos não compactados e compactados.
+4. Confirma e libera os fluxos descompactados e compactados.
     
-Neste ponto, se o provedor do repositório de mensagens oferecer suporte a RTF, tudo isso é necessário. Você pode depender do provedor de armazenamento de mensagens para lidar com o processo de sincronização e a criação da propriedade **PR_BODY** , se necessário. No enTanto, se o provedor do repositório de mensagens não oferecer suporte a RTF, você deverá chamar a função [RTFSync](rtfsync.md) para sincronizar o texto com a formatação, definindo o sinalizador RTF_SYNC_RTF_CHANGED. 
+Neste ponto, se o provedor de armazenamento de mensagens suportar RTF, você fez tudo o que é necessário. Você pode depender do provedor do armazenamento de mensagens para manipular o processo de sincronização e a criação da **PR_BODY,** se necessário. No entanto, se o provedor de armazenamento de mensagens não suportar RTF, você deverá chamar a função [RTFSync](rtfsync.md) para sincronizar o texto com a formatação, definindo o sinalizador de RTF_SYNC_RTF_CHANGED. 
   
 

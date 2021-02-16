@@ -29,7 +29,7 @@ Contém uma matriz de valores inteiros não assinados que são usados para descr
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -44,15 +44,15 @@ typedef struct _SShortArray
 
  **cValues**
   
-> Contagem de valores na matriz apontada pelo membro **LPI** . 
+> Contagem de valores na matriz apontada pelo **membro lpi.** 
     
- **LPI**
+ **lpi**
   
 > Ponteiro para uma matriz de valores inteiros não assinados.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre o PT_MV_SHORT e outros tipos de propriedade, consulte [tipos de propriedade](property-types.md). 
+Para obter mais informações sobre PT_MV_SHORT e outros tipos de propriedade, consulte [Tipos de propriedade.](property-types.md) 
   
 ## <a name="see-also"></a>Confira também
 

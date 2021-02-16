@@ -29,7 +29,7 @@ Descreve uma restrição de comentário, que é usada para anotar uma restriçã
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,23 +45,23 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Contagem de valores de propriedade na matriz apontada pelo membro **lpProp** . 
+> Contagem de valores de propriedade na matriz apontada pelo **membro lpProp.** 
     
  **lpRes**
   
-> Ponteiro para uma estrutura [SRestriction](srestriction.md) . 
+> Ponteiro para uma [estrutura SRestriction.](srestriction.md) 
     
  **lpProp**
   
-> Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) , cada uma contendo a marca de propriedade e o valor de uma propriedade nomeada. 
+> Ponteiro para uma matriz de [estruturas SPropValue,](spropvalue.md) cada uma contendo a marca de propriedade e o valor de uma propriedade nomeada. 
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SCommentRestriction** associa um objeto junto a um conjunto de propriedades nomeadas. As restrições de comentário são diferentes de outras restrições porque elas não são avaliadas. Ou seja, eles são ignorados pelo método imApitable [:: Restrict](imapitable-restrict.md) . Não há efeito nas linhas retornadas pelo método imApitable [:: QueryRows](imapitable-queryrows.md) após uma chamada IMAPITable **:: Restrict** foi feita. 
+A **estrutura SCommentRestriction** associa um objeto com um conjunto de propriedades nomeadas. Restrições de comentário são diferentes de outras restrições porque elas não são avaliadas. Ou seja, eles são ignorados pelo [método IMAPITable::Restrict.](imapitable-restrict.md) Não há efeito nas linhas retornadas pelo método [IMAPITable::QueryRows](imapitable-queryrows.md) após uma chamada **IMAPITable::Restrict** ter sido feita. 
   
-A estrutura **SCommentRestriction** pode ser usada para manter as informações específicas do aplicativo com uma restrição quando salva no disco. Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazê-lo em uma estrutura **SCommentRestriction** . Não é possível salvar um nome de propriedade em uma restrição de propriedade porque a estrutura [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade. 
+A **estrutura SCommentRestriction** pode ser usada para manter informações específicas do aplicativo com uma restrição quando ela é salva no disco. Por exemplo, um cliente que salva o nome de uma propriedade nomeada usada em uma restrição de propriedade pode fazer isso em uma **estrutura SCommentRestriction.** Salvar um nome de propriedade não é possível em uma restrição de propriedade porque a estrutura [SPropertyRestriction](spropertyrestriction.md) associada contém apenas a marca de propriedade. 
   
-Para obter mais informações sobre a estrutura e as restrições do **SCommentRestriction** em geral, consulte [about Restrictions](about-restrictions.md). 
+Para obter mais informações sobre a **estrutura SCommentRestriction** e restrições em geral, consulte [Sobre restrições](about-restrictions.md). 
   
 ## <a name="see-also"></a>Confira também
 

@@ -1,5 +1,5 @@
 ---
-title: Enviar e receber notificações de formulário
+title: Enviando e recebendo notificações de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431852"
 ---
-# <a name="sending-and-receiving-form-notifications"></a>Enviar e receber notificações de formulário
+# <a name="sending-and-receiving-form-notifications"></a>Enviando e recebendo notificações de formulário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As notificações de formulário são usadas em MAPI para facilitar a comunicação do formulário para o seu visualizador, bem como do seu visualizador para o formulário.
+As notificações de formulário são usadas em MAPI para facilitar a comunicação entre o formulário e o visualizador, bem como do visualizador para o formulário.
   
-Os formulários enviam notificações para o seu visualizador quando ocorre um dos seguintes eventos:
+Os formulários enviam notificações ao visualizador quando ocorre um dos seguintes eventos:
   
-- O formulário é fechado.
+- O formulário está fechado.
     
 - Uma nova mensagem é carregada no formulário.
     
-- Uma operação de salvamento foi concluída.
+- Uma operação de salvar é concluída.
     
 - Uma mensagem é enviada.
     
-Cada um desses tipos de eventos corresponde a um método específico no [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md), uma das interfaces que seu visualizador de formulários deve implementar. Quando ocorre um evento, o formulário chama o método **IMAPIViewAdviseSink** correspondente no coletor de aviso do visualizador. Por exemplo, quando uma nova mensagem chega que o seu visualizador deve incluir em sua exibição, o formulário chama o método [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
+Cada um desses tipos de evento corresponde a um método específico em [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md), uma das interfaces que o visualizador de formulário deve implementar. When an event occurs, the form calls the corresponding **IMAPIViewAdviseSink** method in your viewer's advise sink. Por exemplo, quando chega uma nova mensagem que o visualizador deve incluir na exibição, o formulário chama o método [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
   
-Implemente seu coletor de aviso de exibição de uma maneira que faz sentido para o seu visualizador; Não há implementação padrão. Por exemplo, no **OnNewMessage** , você pode atualizar o modo de exibição da tabela de conteúdo da pasta atual para incluir a mensagem recém-criada. Em [IMAPIViewAdviseSink::](imapiviewadvisesink-onsubmitted.md)onsent, o método que é chamado quando você recebe um evento de mensagem enviado, você pode copiar a mensagem enviada para uma pasta Itens enviados.
+Implemente o sink de aconselhador de exibição de uma maneira que faça sentido para o visualizador; não há implementação padrão. Por exemplo, em **OnNewMessage,** você pode atualizar a exibição da tabela de conteúdo da pasta atual para incluir a mensagem recém-chegada. In [IMAPIViewAdviseSink::OnSubmitted](imapiviewadvisesink-onsubmitted.md), the method that is called when you receive a submitted message event, you can copy the submitted message to a Sent Items folder.
   
-Os formulários recebem uma notificação do seu visualizador quando ocorre uma alteração que afeta o formulário e quando você está carregando uma nova mensagem. Para notificar um formulário, chame um dos métodos de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::](imapiformadvisesink-onchange.md) OnChange ou [IMAPIFormAdviseSink:: OnActivateNext](imapiformadvisesink-onactivatenext.md). Chamar **** OnChange para comunicar o status. Por exemplo, se o formulário estiver exibindo o último item em uma pasta quando uma nova mensagem chegar, **** chame OnChange com o sinalizador VCSTATUS_NEXT definido para informar ao formulário que agora há um próximo item. 
+Forms receive notification from your viewer when a change occurs that affects the form and when you are loading a new message. Para notificar um formulário, chame um dos métodos de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) ou [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md). Chame **OnChange** para comunicar o status. For example, if the form is displaying the last item in a folder when a new message arrives, call **OnChange** with the VCSTATUS_NEXT flag set to tell the form that there is now a next item. 
   
-Chamar **OnActivateNext** para alertar o formulário para a chegada de uma nova mensagem que pode ou não ser exibida. Passe a classe de mensagem da mensagem para **OnActivateNext**. 
+Chame **OnActivateNext** para alertar o formulário sobre a chegada de uma nova mensagem que ele pode ou não ser capaz de exibir. Passe a classe de mensagem da mensagem para **OnActivateNext**. 
   
-As notificações de um objeto de formulário para o aplicativo cliente são manipuladas pela interface do **IMAPIViewAdviseSink** do aplicativo cliente. Para obter mais informações, consulte [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md).
+As notificações por um objeto de formulário para o aplicativo cliente são manipuladas pela interface **IMAPIViewAdviseSink do** aplicativo cliente. Para obter mais informações, [consulte IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md).
   
 

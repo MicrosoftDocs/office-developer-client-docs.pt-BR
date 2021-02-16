@@ -25,28 +25,28 @@ ms.locfileid: "33429450"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta onde os resultados da pesquisa geralmente são criados.
+Contém o identificador de entrada para a pasta onde os resultados da pesquisa são normalmente criados.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_FINDER_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E7  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
+|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O identificador de entrada contido nessa propriedade tem o mesmo formato que a [](entryid.md) estrutura ENTRYID. 
+O identificador de entrada contido nessa propriedade tem o mesmo formato que a [estrutura ENTRYID.](entryid.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

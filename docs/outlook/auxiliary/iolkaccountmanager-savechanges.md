@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
-description: Salva as alterações na conta especificada.
+description: Salva alterações na conta especificada.
 ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33429604"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
-Salva as alterações na conta especificada.
+Salva alterações na conta especificada.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -33,7 +33,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 _dwAcctID_
   
-> no A ID da conta a ser salva. 
+> [in] A ID da conta a ser salva. 
     
 _dwFlags_
   
@@ -43,13 +43,13 @@ _dwFlags_
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |A chamada teve êxito  <br/> |
+|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |A conta especificada não pode ser encontrada.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerenciador de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Após alterar o valor das propriedades da conta usando [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccountManager:: SaveChanges** ou [IOlkAccount::](iolkaccount-savechanges.md) SaveChanges para salvar essas alterações. 
+Depois de alterar o valor das propriedades da conta usando [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccountManager::SaveChanges** ou [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para salvar essas alterações. 
   
 ## <a name="see-also"></a>Confira também
 

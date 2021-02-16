@@ -25,11 +25,11 @@ ms.locfileid: "33434015"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que MAPI chama para enviar uma notificação de evento. Essa função de retorno de chamada só pode ser usada quando empacotado em um objeto de coletor de aviso criado chamando-se a função [HrAllocAdviseSink](hrallocadvisesink.md) . 
+Define uma função de retorno de chamada que MAPI chama para enviar uma notificação de evento. Essa função de retorno de chamada só pode ser usada quando envolvida em um objeto sink de alerta criado chamando a [função HrAllocAdviseSink.](hrallocadvisesink.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Função definida implementada por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
 |Função definida chamada por:  <br/> |MAPI  <br/> |
    
@@ -45,29 +45,29 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
  _lpvContext_
   
-> no Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de importância para o aplicativo cliente ou provedor de serviços. Normalmente, para o código C++, o parâmetro _lpvContext_ representa um ponteiro para um objeto C++. 
+> [in] Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de significância para o aplicativo cliente ou provedor de serviços. Normalmente, para código C++, o parâmetro  _lpvContext_ representa um ponteiro para um objeto C++. 
     
  _cNotification_
   
-> no Contagem de notificações de eventos na matriz indicada pelo parâmetro _lpNotifications_ . 
+> [in] Contagem de notificações de evento na matriz indicada pelo parâmetro _lpNotifications._ 
     
  _lpNotifications_
   
-> bota Ponteiro para o local onde essa função grava uma matriz de estruturas de [notificação](notification.md) que contém as notificações de eventos. 
+> [out] Ponteiro para o local onde essa função grava uma matriz de estruturas [notification](notification.md) que contém as notificações de evento. 
     
 ## <a name="return-value"></a>Valor de retorno
 
-O conjunto de valores de retorno válidos para o protótipo de função **NOTIFCALLBACK** depende se a função é implementada por um aplicativo cliente ou um provedor de serviços. Os clientes sempre devem retornar S_OK. Os provedores podem retornar S_OK ou CALLBACK_DISCONTINUE. 
+O conjunto de valores de retorno válidos para o protótipo da função **NOTIFCALLBACK** depende se a função é implementada por um aplicativo cliente ou um provedor de serviços. Os clientes sempre devem retornar S_OK. Os provedores podem retornar S_OK ou CALLBACK_DISCONTINUE. 
   
 ## <a name="remarks"></a>Comentários
 
-CALLBACK_DISCONTINUE é um valor de retorno válido apenas para funções de retorno de chamada síncronas; Ele solicita que MAPI imediatamente pare de processar os retornos de chamada para esta notificação. Quando CALLBACK_DISCONTINUE é retornado, MAPI define o parâmetro _lpUlFlags_ como NOTIFY_CANCELED quando retorna de [IMAPISupport:: Notify](imapisupport-notify.md). 
+CALLBACK_DISCONTINUE é um valor de retorno válido apenas para funções de retorno de chamada síncronas; solicita que o MAPI pare imediatamente o processamento dos retornos de chamada para essa notificação. Quando CALLBACK_DISCONTINUE é retornado, MAPI define o parâmetro  _lpUlFlags_ como NOTIFY_CANCELED quando retorna de [IMAPISupport::Notify](imapisupport-notify.md). 
   
-Veja a seguir limitações sobre o que uma função de retorno de chamada síncrona pode fazer:
+A seguir estão limitações sobre o que uma função de retorno de chamada síncrona pode fazer:
   
-- Não é possível fazer com que outra notificação síncrona seja gerada.
+- Ela não pode fazer com que outra notificação síncrona seja gerada.
     
-- Não é possível exibir uma interface do usuário.
+- Ele não pode exibir uma interface do usuário.
     
 ## <a name="see-also"></a>Confira também
 

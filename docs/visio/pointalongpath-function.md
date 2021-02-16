@@ -25,15 +25,15 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-POINTALONGPATH (* * *seção* * *, * * *viagem* * * * * *[, deslocamento]* * * * * *[, segmento]* * *) 
+POINTALONGPATH(** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
-| _transmiti_ <br/> |Obrigatório  <br/> |**Double** <br/> |O percentual do caminho percorrido, do ponto inicial ao ponto final, que identifica o ponto. Deve estar entre 0 e 1.  <br/> |
-| _partida_ <br/> |Opcional  <br/> |**Double** <br/> |A distância que esse ponto é deslocado do caminho. Consulte Comentários para obter mais informações.  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _travel_ <br/> |Obrigatório  <br/> |**Double** <br/> |O percentual do caminho percorrido, do ponto inicial ao ponto final, que identifica o ponto. Deve estar entre 0 e 1.  <br/> |
+| _offset_ <br/> |Opcional  <br/> |**Double** <br/> |A distância que esse ponto é deslocado do caminho. Consulte Comentários para obter mais informações.  <br/> |
 | _segmento_ <br/> |Opcional  <br/> |**Integer** <br/> |O segmento baseado em 1 do caminho no qual as coordenadas deverão ser calculadas.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
@@ -42,11 +42,11 @@ POINTALONGPATH (* * *seção* * *, * * *viagem* * * * * *[, deslocamento]* * * *
   
 ## <a name="remarks"></a>Comentários
 
-Se a _seção_ ou o _segmento_ não existir, o Microsoft Visio retornará #REF!. 
+Se  _não_ existir  _seção ou_ segmento, o Microsoft Visio retornará #REF!. 
   
-Valores de *deslocamento* positivos especificam pontos à esquerda da direção da viagem. 
+Valores  *de*  deslocamento positivos especificam pontos à esquerda da direção da viagem. 
   
-Valores de *deslocamento* negativos especificam pontos à direita da direção da viagem. 
+Valores  *de*  deslocamento negativos especificam pontos à direita da direção da viagem. 
   
 Um **Point** representa um par ordenado de coordenadas geométricas (*x,y*) como um único valor. 
   

@@ -23,11 +23,11 @@ Determina a escala de desenho selecionada na caixa de diálogo **Configurar Pág
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 | 0  <br/> | Sem escala  <br/> |**visNoScale** <br/> |
-| 1  <br/> | Escala arquitetônica  <br/> |**visArchitectural** <br/> |
-| 2  <br/> | Escala de engenharia civil  <br/> |**visEngineering** <br/> |
-| 3  <br/> | Escala personalizada  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | Indicador  <br/> |**visScaleMetric** <br/> |
-| 5  <br/> | Escala de engenharia mecânica  <br/> |**visScaleMechanical** <br/> |
+| 1   <br/> | Escala arquitetônica  <br/> |**visArchitectural** <br/> |
+| 2   <br/> | Escala de engenharia civil  <br/> |**visEngineering** <br/> |
+| 3   <br/> | Escala personalizada  <br/> |**visScaleCustom** <br/> |
+| 4   <br/> | Indicador  <br/> |**visScaleMetric** <br/> |
+| 5   <br/> | Escala de engenharia mecânica  <br/> |**visScaleMechanical** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

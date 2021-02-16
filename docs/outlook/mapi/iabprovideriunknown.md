@@ -25,13 +25,13 @@ ms.locfileid: "33431467"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece um método para fazer logon em um objeto de provedor de catálogo de endereços e um método para invalidar um objeto de provedor de catálogo de endereços.
+Fornece um método para fazer logoff em um objeto de provedor de agendas de endereços e um método para invalidar um objeto de provedor de agendas.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Exposto por:  <br/> |Objetos do provedor de catálogo de endereços  <br/> |
-|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Implementado por:  <br/> |Provedores de lista de endereços  <br/> |
 |Chamado por:  <br/> |MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IABProvider  <br/> |
 |Tipo de ponteiro:  <br/> |LPABPROVIDER  <br/> |
@@ -41,7 +41,7 @@ Fornece um método para fazer logon em um objeto de provedor de catálogo de end
 |||
 |:-----|:-----|
 |[Logon](iabprovider-logon.md) <br/> |Estabelece uma conexão com uma sessão ativa.  <br/> |
-|[Shutdown](iabprovider-shutdown.md) <br/> |Cancela uma conexão com uma sessão ativa.  <br/> |
+|[Break](iabprovider-shutdown.md) <br/> |Cancela uma conexão com uma sessão ativa.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- função xlgetname [Excel 2007]
+- função xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -34,7 +34,7 @@ Esta função não tem argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna o caminho e o nome do arquivo (**xltypeStr**). 
+Retorna o caminho e o nome do arquivo **(xltypeStr**). 
   
 ## <a name="example"></a>Exemplo
 

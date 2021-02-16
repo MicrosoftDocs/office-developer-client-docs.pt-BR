@@ -1,5 +1,5 @@
 ---
-title: Sobre o exemplo de suplemento de estado offline
+title: Sobre o Exemplo de Add-in de Estado Offline
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431180"
 ---
-# <a name="about-the-sample-offline-state-add-in"></a>Sobre o exemplo de suplemento de estado offline
+# <a name="about-the-sample-offline-state-add-in"></a>Sobre o Exemplo de Add-in de Estado Offline
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API de estado offline oferece suporte a retornos de chamada que indicam alterações no estado de conexão de um usuário no Outlook — por exemplo, de estar online no Outlook para offline. O exemplo de suplemento offline State é um suplemento de COM escrito em C++ que demonstra como receber notificações de alterações de estado de conexão e como modificar o estado atual usando a API de estado offline. Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
+A API de Estado Offline dá suporte a retornos de chamada indicando alterações no estado de conexão de um usuário no Outlook— por exemplo, de estar online no Outlook para estar offline. O Exemplo de Complemento de Estado Offline é um complemento COM escrito em C++ que demonstra como receber notificações de alterações de estado de conexão e como modificar o estado atual usando a API de Estado Offline. Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
   
 ## <a name="in-this-section"></a>Nesta seção
 
 - [Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
     
-- Explica como baixar e instalar o exemplo de suplemento de estado offline.
+- Explica como baixar e instalar o Exemplo de Complemento de Estado Offline.
     
 - [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
     
-- Descreve como implementar funções de conexão, inicialização e configuração para usar um suplemento de estado offline.
+- Descreve como implementar funções de conexão, inicialização e configuração para usar um complemento de estado offline.
     
 - [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
     
-- Descreve como usar a função **[HrOpenOfflineObj](hropenofflineobj.md)** para obter um objeto offline para monitorar e alterar o estado de conexão. 
+- Descreve como usar a **[função HrOpenOfflineObj](hropenofflineobj.md)** para obter um objeto offline para monitorar e alterar o estado da conexão. 
     
-- [Desconectar um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
+- [Desconectando um add-in de estado offline](disconnecting-an-offline-state-add-in.md)
     
-- Descreve como encerrar e limpar corretamente um suplemento de estado offline quando o suplemento é desconectado.
+- Descreve como encerrar e limpar corretamente um complemento de estado offline quando o complemento é desconectado.
     
 ## <a name="see-also"></a>Confira também
 

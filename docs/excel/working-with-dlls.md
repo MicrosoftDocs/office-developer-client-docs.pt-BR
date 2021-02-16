@@ -24,13 +24,13 @@ Esta seção inclui informações sobre como criar e chamar DLLs que funcionam c
 
 [Desenvolver DLLs](developing-dlls.md)
   
-> Descreve os benefícios do uso de DLLs e como criá-los.
+> Descreve os benefícios de usar DLLs e como crie-as.
     
 [Acessar DLLs no Excel](how-to-access-dlls-in-excel.md)
   
-> Descreve como chamar funções e comandos de DLL por meio de um módulo de código do VBA (Visual Basic for Applications), diretamente de uma planilha ou da interface de usuário do Excel. 
+> Descreve como chamar funções e comandos DLL por meio de um módulo de código do VBA (Visual Basic for Applications), diretamente de uma planilha ou da interface do usuário do Excel. 
     
-[Chamar funções definidas pelo usuário a partir de DLLs](calling-user-defined-functions-from-dlls.md)
+[Chamando User-Defined funções de DLLs](calling-user-defined-functions-from-dlls.md)
   
 > Descreve como habilitar DLLs para chamar funções definidas pelo usuário.
     

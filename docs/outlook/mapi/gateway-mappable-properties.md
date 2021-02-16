@@ -19,9 +19,9 @@ ms.locfileid: "33430473"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Propriedades mapeadas pelo gateway são propriedades que podem exigir tradução quando enviadas de um domínio de mensagens para outro. As propriedades mapeadas pelo gateway MAPI permitem que as mensagens incluam informações que exijam um gateway para garantir que o sistema de mensagens de destino o use adequadamente. Embora os desenvolvedores de gateway não precisem fornecer esse recurso de conversão, eles devem considerar as propriedades de mapeáveis de gateway como uma oportunidade de melhorar o tratamento do conteúdo da mensagem.
+Propriedades de gateway mappable são propriedades que podem exigir tradução quando enviadas de um domínio de mensagens para outro. As propriedades mapeáveis de gateway de MAPI permitem que as mensagens incluam informações que exigem um gateway para garantir que o sistema de mensagens de destino as utilize corretamente. Embora os desenvolvedores de gateway não sejam obrigados a fornecer esse recurso de tradução, eles devem considerar as propriedades de gateway mappable como uma oportunidade para melhorar a manipulação do conteúdo da mensagem.
   
-MAPI especifica cinco tipos de propriedades do gateway-mapeáveis:
+MAPI specifies five types of gateway-mappable properties:
   
 - Nome diferenciado (DN)
     
@@ -33,7 +33,7 @@ MAPI especifica cinco tipos de propriedades do gateway-mapeáveis:
     
 - Chave de pesquisa
     
-Este é o conjunto de propriedades de endereçamento que estão associadas a destinatários, remetentes, destinatários de relatórios e remetentes e destinatários delegados. Para ajudar seu cliente a definir essas propriedades para que um gateway as manipule especialmente, MAPI especifica uma Convenção de nomenclatura usando propriedades nomeadas e conjuntos de propriedades. Cinco conjuntos de propriedades existem para reter propriedades nomeadas, as propriedades de endereçamento que exigem mapeamento. Há um conjunto de propriedades para cada tipo de propriedade mapeável. Os conjuntos de propriedades que armazenarão essas propriedades de endereçamento nomeadas são os seguintes:
+Este é o conjunto de propriedades de endereçamento associadas a destinatários, senders, destinatários de relatório e destinatários e destinatários delegados. Para ajudar seu cliente a definir essas propriedades para que um gateway as manipulará especialmente, MAPI especifica uma convenção de nomenal usando propriedades nomeadas e conjuntos de propriedades. Existem cinco conjuntos de propriedades para manter propriedades nomeadas, as propriedades de endereçamento que exigem mapeamento. Há um conjunto de propriedades para cada tipo de propriedade mappable. Os conjuntos de propriedades que manterão essas propriedades de endereçamento nomeadas são os a seguir.
   
 |**Conjunto de propriedades**|**Descrição**|
 |:-----|:-----|

@@ -34,11 +34,11 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 _hr_
   
-> no O código de erro a ser procurado.
+> [in] O código de erro a ser pesquisado.
     
 _ppwszError_
   
-> bota A mensagem de erro que corresponde ao *HR* . 
+> [out] A mensagem de erro que corresponde ao  *rh*  . 
     
 ## <a name="return-values"></a>Valores de retorno
 

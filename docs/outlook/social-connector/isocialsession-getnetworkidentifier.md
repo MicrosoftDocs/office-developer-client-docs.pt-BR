@@ -27,11 +27,11 @@ HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 
 _networkIdentifier_
   
-> bota Uma cadeia de caracteres que contém um identificador de rede social exclusivo.
+> [out] Uma cadeia de caracteres que contém um identificador de rede social exclusivo.
     
 ## <a name="remarks"></a>Comentários
 
-Um identificador de rede exclusivo é uma cadeia de caracteres que identifica a rede social do provedor do Outlook Social Connector (OSC). Este método também pode retornar E_NOTIMPL.
+Um identificador de rede exclusivo é uma cadeia de caracteres que identifica a rede social do provedor do Outlook Social Connector (OSC). Esse método também pode retornar E_NOTIMPL.
   
 ## <a name="see-also"></a>Confira também
 

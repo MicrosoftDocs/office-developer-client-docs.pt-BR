@@ -25,11 +25,11 @@ ms.locfileid: "33432944"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove informações preprocessadas gravadas por uma função baseada em [PreprocessMessage](preprocessmessage.md) de uma mensagem. 
+Remove informações pré-processadas escritas por uma função baseada em [PreprocessMessage](preprocessmessage.md) de uma mensagem. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Função definida implementada por:  <br/> |Provedores de transporte  <br/> |
 |Função definida chamada por:  <br/> |Spooler MAPI  <br/> |
    
@@ -43,18 +43,18 @@ HRESULT RemovePreprocessInfo(
 
  _lpMessage_
   
-> no Ponteiro para a mensagem pré processada da qual as informações serão removidas.
+> [in] Ponteiro para a mensagem pré-processada da qual as informações devem ser removidas.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> As informações preprocessadas foram removidas com êxito.
+> As informações pré-processadas foram removidas com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O spooler MAPI chama uma função com base no **RemovePreprocessInfo**. Um provedor de transporte registra a função baseada em **RemovePreprocessInfo** ao mesmo tempo em que registra a função do **PreprocessMessage** em paralelo em uma chamada para o método [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
+O spooler MAPI chama uma função com base **em RemovePreprocessInfo**. Um provedor de transporte registra a função baseada **RemovePreprocessInfo** ao mesmo tempo em que registra a função baseada em **PreprocessMessage** paralela em uma chamada para o método [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
   
-Uma renderização de imagem adequada para transmissão de fax é um exemplo de informações preprocessadas gravadas por uma função definida pelo protótipo de função [PreprocessMessage](preprocessmessage.md). O spooler MAPI normalmente chama uma função **RemovePreprocessInfo** após enviar uma mensagem que contém informações preprocessadas. 
+Uma renderização de imagem adequada para transmissão de fax é um exemplo de informações pré-processadas escritas por uma função definida pelo protótipo de função [PreprocessMessage.](preprocessmessage.md) O spooler MAPI geralmente chama uma **função RemovePreprocessInfo** depois de enviar uma mensagem que contém informações pré-processadas. 
   
 

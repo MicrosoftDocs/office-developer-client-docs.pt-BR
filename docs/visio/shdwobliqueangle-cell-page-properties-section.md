@@ -24,7 +24,7 @@ Contém um número que especifica o ângulo de direção oblíqua na aplicação
 
 Um valor zero (0) nesta célula indica que a direção do ângulo é reta, para cima, e ele é medido no sentido horário.
   
- O ângulo descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma na página) é definida como padrão da página (**visFSTPageDefault** ), e o tipo de sombra é oblíquo. O tipo de sombra padrão da página é definido na célula ShdwType. 
+ O ângulo descrito nesta célula é usado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma na página) é definida como Padrão da Página (**visFSTPageDefault** ), e o tipo de sombra é oblíqua. O tipo de sombra padrão da página é definido na célula ShdwType. 
   
 Para configurar este comportamento para uma forma individual, use a célula ShapeShdwObliqueAngle na seção Fill Format.
   

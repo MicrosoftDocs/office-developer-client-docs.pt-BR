@@ -17,7 +17,7 @@ ms.locfileid: "33429828"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
-Adiciona a pessoa identificada pelos __ parâmetros EmailAddresses e _DisplayName_ como um amigo para o usuário conectado na rede social. 
+Adiciona a pessoa identificada pelos parâmetros  _emailAddresses_ e  _displayName_ como um amigo do usuário conectado na rede social. 
   
 ```cpp
 HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR displayName);
@@ -27,21 +27,21 @@ HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR d
 
 _emailAddresses_
   
-> no Uma matriz que contém um ou vários endereços SMTP válidos para uma pessoa na rede social.
+> [in] Uma matriz que contém um ou vários endereços SMTP válidos para uma pessoa na rede social.
     
 _displayName_
   
-> no Uma cadeia de caracteres que contém o nome de exibição da pessoa a ser adicionada como amigo.
+> [in] Uma cadeia de caracteres que contém o nome de exibição da pessoa a ser adicionada como um amigo.
     
 ## <a name="remarks"></a>Comentários
 
-Se o Outlook Social Connector (OSC) fornecer mais do que no endereço SMTP na matriz no parâmetro **EmailAddresses** , o provedor do OSC poderá assumir que o primeiro elemento é o endereço SMTP principal. 
+Se o Outlook Social Connector (OSC) fornece mais do que no endereço SMTP na matriz no parâmetro **emailAddresses,** o provedor OSC pode assumir que o primeiro elemento é o endereço SMTP principal. 
   
-Se o provedor tiver definido o elemento **followPerson** como **true** no XML de **recursos** e nenhum dos elementos de EmailAddresses __ corresponder a um usuário na rede, o provedor deverá retornar o erro OSC_E_NOT_FOUND. Se o provedor tiver definido **followPerson** como **falso** em **recursos**, o provedor deverá retornar o erro OSC_E_FAIL. 
+Se o provedor tiver definido o elemento **followPerson** como **true** no **XML** de recursos e nenhum dos elementos de  _emailAddresses_ corresponder a um usuário na rede, o provedor deverá retornar o erro OSC_E_NOT_FOUND. Se o provedor definiu **followPerson como** **falso** **nos** recursos, o provedor deve retornar o OSC_E_FAIL erro. 
   
-Se o método **FollowPersonEx** for bem-sucedido, o provedor poderá usar a cadeia de caracteres no parâmetro _DisplayName_ para endereçar a pessoa em qualquer email de confirmação de amigo subsequente, em vez de endereçar a pessoa pelo endereço SMTP. Por outro lado, o provedor deve ser capaz de lidar com o OSC passando uma cadeia de caracteres vazia para o parâmetro _DisplayName_ . 
+Se o método **FollowPersonEx** for bem-sucedido, o provedor poderá usar a cadeia de caracteres no parâmetro  _displayName_ para endereçar a pessoa em qualquer email subsequente de confirmação de amigo, em vez de endereçamento à pessoa pelo endereço SMTP. Por outro lado, o provedor deve ser capaz de manipular o OSC passando uma cadeia de caracteres vazia para o _parâmetro displayName._ 
   
-Se o provedor implementar a interface [ISocialSession2](isocialsession2iunknown.md) e tiver definido **followPerson** como **true** no XML de recursos, o OSC chamará **FollowPersonEx** em vez de [ISocialSession:: followPerson](isocialsession-followperson.md). Se o provedor tiver definido **followPerson** como **true** , mas não implementar a interface **ISocialSession2** ou **FOLLOWPERSONEX** retornar o erro OSC_E_NOTIMPL, o OSC chamará **ISocialSession:: followPerson**.
+Se o provedor implementa a interface [ISocialSession2](isocialsession2iunknown.md) e definiu **followPerson** como **true** no XML de recursos, o OSC chama **FollowPersonEx** em vez de [ISocialSession::FollowPerson](isocialsession-followperson.md). Se o provedor definiu **followPerson** como **true,** mas não implementa a interface **ISocialSession2,** ou **FollowPersonEx** retorna o erro OSC_E_NOTIMPL, o OSC chama **ISocialSession::FollowPerson**.
   
 ## <a name="see-also"></a>Confira também
 

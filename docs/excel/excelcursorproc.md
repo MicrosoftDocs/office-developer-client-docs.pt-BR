@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- função excelcursorproc [Excel 2007]
+- função excelcursorproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33432489"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Quando uma caixa de diálogo modal é exibida sobre a janela do Microsoft Excel, o cursor é um cursor ocupado sobre a janela do Excel. Essa WM_SETCURSOR de interceptação **WndProc** digita mensagens do Windows e altera o cursor de volta para uma seta normal. 
+Quando uma caixa de diálogo modal é exibida sobre a janela do Microsoft Excel, o cursor é um cursor ocupado sobre a janela do Excel. Este **WndProc** intercepta WM_SETCURSOR digitar mensagens do Windows e altera o cursor de volta para uma seta normal. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -32,25 +32,25 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
  _hWndDlg_ (**HWND**)
   
-Contém o identificador de janelas do HWND da caixa de diálogo.
+Contém o alça HWND do Windows da caixa de diálogo.
   
- _mensagem_ (**Uint**)
+ _message_ (**UINT**)
   
-A mensagem a ser respondida.
+A mensagem à que responder.
   
- _wParam_ (**WParam**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**LPARAM**)
   
 Argumentos passados pelo Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-LRESULT: 0 se a mensagem foi tratada, caso contrário, o resultado retornado pelo **WndProc**padrão.
+LRESULT: 0 se a mensagem foi manipulada, caso contrário, o resultado retornado pelo **WndProc padrão.**
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

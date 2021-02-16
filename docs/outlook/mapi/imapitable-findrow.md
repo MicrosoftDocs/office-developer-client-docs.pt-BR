@@ -39,15 +39,15 @@ ULONG ulFlags
 
  _lpRestriction_
   
-> no Um ponteiro para uma estrutura [SRestriction](srestriction.md) que descreve os critérios de pesquisa. 
+> [in] Um ponteiro para uma [estrutura SRestriction](srestriction.md) que descreve os critérios de pesquisa. 
     
  _BkOrigin_
   
-> no Um indicador identificando a linha onde o **FindRow** deve começar sua pesquisa. Um indicador pode ser criado usando o método imApitable [:: CreateBookmark](imapitable-createbookmark.md) ou um dos seguintes valores predefinidos pode ser passado. 
+> [in] Um indicador que identifica a linha onde **FindRow** deve iniciar sua pesquisa. Um indicador pode ser criado usando o método [IMAPITable::CreateBookmark](imapitable-createbookmark.md) ou um dos seguintes valores predefinidos pode ser passado. 
     
 BOOKMARK_BEGINNING 
   
-> Pesquisa a partir do início da tabela. 
+> Pesquisa desde o início da tabela. 
     
 BOOKMARK_CURRENT 
   
@@ -59,55 +59,55 @@ BOOKMARK_END
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam a direção da pesquisa. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla a direção da pesquisa. O sinalizador a seguir pode ser definido:
     
 DIR_BACKWARD 
   
-> Pesquisa retroativa a partir da linha identificada pelo indicador.
+> Pesquisa para trás a partir da linha identificada pelo indicador.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A operação de localização foi bem-sucedida.
+> A operação de encontrar foi bem-sucedida.
     
 MAPI_E_INVALID_BOOKMARK 
   
-> O indicador no parâmetro _BkOrigin_ é inválido porque foi removido ou porque está além da última linha solicitada. 
+> O indicador no parâmetro  _BkOrigin_ é inválido porque foi removido ou porque está além da última linha solicitada. 
     
 MAPI_E_NOT_FOUND 
   
-> Nenhuma linha que correspondeu à restrição foi encontrada.
+> Não foram encontradas linhas que corresponderam à restrição.
     
 MAPI_W_POSITION_CHANGED
   
-> A chamada foi bem-sucedida, mas o indicador usado na operação não é mais definido na mesma linha que o quando foi usado pela última vez; Se o indicador não tiver sido usado, ele não estará mais na mesma posição de quando foi criado. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada foi bem-sucedida, mas o indicador usado na operação não está mais definido na mesma linha de quando foi usada pela última vez; se o indicador não tiver sido usado, ele não está mais na mesma posição de quando foi criado. Quando esse aviso é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse aviso, use a **HR_FAILED** macro. Consulte [Usando macros para tratamento de erros.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: FindRow** localiza a primeira linha na tabela para corresponder a um conjunto de critérios de pesquisa descritos na estrutura **SRestriction** apontada pelo parâmetro _lpRestriction_ . 
+O método **IMAPITable::FindRow** localiza a primeira linha na tabela para corresponder a um conjunto de critérios de pesquisa descritos na estrutura **SRestriction** apontada pelo parâmetro _lpRestriction._ 
   
-Normalmente, as pesquisas de **FindRow** são revertidas a partir do indicador especificado. O chamador pode definir a pesquisa para mover para trás do indicador definindo o sinalizador DIR_BACKWARD no parâmetro _parâmetroulflags_ . A pesquisa antecipada começa no indicador atual; a pesquisa de versões anteriores começa da linha anterior ao indicador. A posição final da pesquisa é anterior à primeira linha encontrada e satisfeita na restrição. 
+Normalmente, **FindRow** pesquisa para frente a partir do indicador especificado. O chamador pode definir a pesquisa para mover para trás do indicador definindo o sinalizador DIR_BACKWARD no _parâmetro ulFlags._ A pesquisa para frente começa a partir do indicador atual; a pesquisa para trás começa a partir da linha anterior ao indicador. A posição final da pesquisa é logo antes da primeira linha encontrada que satisfez a restrição. 
   
-Se a linha indicada pelo indicador no parâmetro _BkOrigin_ não existir mais na tabela e a tabela não puder estabelecer uma nova posição para o indicador, **FindRow** retornará MAPI_E_INVALID_BOOKMARK. Se a linha indicada por _BkOrigin_ não existir mais e a tabela puder estabelecer uma nova posição para o indicador, **FindRow** retornará MAPI_W_POSITION_CHANGED. 
+Se a linha apontada pelo indicador no parâmetro  _BkOrigin_ não existir mais na tabela e a tabela não puder estabelecer uma nova posição para o indicador, **FindRow** retornará MAPI_E_INVALID_BOOKMARK. Se a linha apontada por  _BkOrigin_ não existir mais e a tabela for capaz de estabelecer uma nova posição para o indicador, **FindRow** retornará MAPI_W_POSITION_CHANGED. 
   
-Se o indicador passado no _BkOrigin_ for BOOKMARK_BEGINNING ou BOOKMARK_END, **FindRow** retornará MAPI_E_NOT_FOUND se nenhuma linha correspondente for encontrada. Se o indicador usado no _BkOrigin_ for BOOKMARK_CURRENT, **FINDROW** poderá retornar MAPI_W_POSITION_CHANGED, mas não MAPI_E_INVALID_BOOKMARK, porque sempre há uma posição de cursor atual. 
+Se o indicador passado em  _BkOrigin_ for BOOKMARK_BEGINNING ou BOOKMARK_END, **FindRow** retornará MAPI_E_NOT_FOUND se nenhuma linha correspondente for encontrada. Se o indicador usado em  _BkOrigin_ for BOOKMARK_CURRENT, **FindRow** poderá retornar MAPI_W_POSITION_CHANGED mas não MAPI_E_INVALID_BOOKMARK porque sempre haverá uma posição atual do cursor. 
   
-A coluna da propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) é necessária para todas as tabelas, e todas as implementações de **FindRow** são necessárias para dar suporte a chamadas que buscam uma linha com base no PR_INSTANCE_KEY. 
+A **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) é necessária para todas as tabelas, e todas as implementações de **FindRow** são necessárias para dar suporte a chamadas que buscam uma linha com base em PR_INSTANCE_KEY. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-O tipo de pesquisa de prefixo realizado pelo **FindRow** só é útil quando a pesquisa segue a mesma direção da organização da tabela. Para obter o comportamento necessário, a função de comparação inferida pelo **RELOP_GE** passado na estrutura de restrição de propriedade deve ser a mesma função de comparação na qual a ordem de classificação da tabela se baseia. 
+O tipo de pesquisa de prefixo realizada pela **FindRow** só é útil quando a pesquisa segue a mesma direção que a organização da tabela. Para obter o comportamento necessário, a função de comparação implícita pelo **RELOP_GE** passado na estrutura de restrição de propriedade deve ser a mesma função de comparação na qual a ordem de classificação da tabela se baseia. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar o **FindRow** para dar suporte à rolagem com base em cadeias de caracteres digitadas pelo usuário, especialmente nas caixas de listagem nas caixas de diálogo de endereço. Nesse tipo de rolagem, os usuários inserem prefixos cada vez mais longos de um valor de cadeia de caracteres desejado e você pode emitir periodicamente uma chamada **FindRow** para saltar para a primeira linha que corresponde ao prefixo. Qual direção o cursor salta depende da direção em que a pesquisa está definida para executar. 
+Você pode usar **FindRow para** dar suporte à rolagem com base em cadeias de caracteres digitadas pelo usuário, especialmente em caixas de listagem nas caixas de diálogo de endereço. Nesse tipo de rolagem, os usuários ins digitam prefixos progressivamente mais longos de um valor de cadeia de caracteres desejado e você pode emitir periodicamente uma chamada **FindRow** para ir para a primeira linha que corresponde ao prefixo. A direção para a qual o cursor vai depende de qual direção a pesquisa está definida para executar. 
   
-Para usar **FindRow**, um indicador deve ser definido. A pesquisa de cadeia de caracteres pode ser originada de qualquer indicador, incluindo os indicadores predefinidos que indicam a posição atual e o início e o fim da tabela. Se houver um grande número de linhas na tabela, a operação de pesquisa poderá ser lenta.
+Para usar **FindRow,** um indicador deve ser definido. A pesquisa de cadeia de caracteres pode se originar de qualquer indicador, inclusive dos indicadores predefinidos que indicam a posição atual e o início e o fim da tabela. Se houver um grande número de linhas na tabela, a operação de pesquisa poderá ser lenta.
   
-Use uma restrição para localizar um prefixo de cadeia de caracteres para a rolagem da seguinte maneira. Para encaminhar a pesquisa em uma coluna classificada em ordem crescente e para pesquisa retroativa em uma coluna classificada em ordem decrescente, passe uma estrutura de restrição de propriedade no parâmetro _lpRestriction_ com a relação **RELOP_GE** e as marca de propriedade e prefixo, usando o __ **** _prefixo_GE da marca de formatação. 
+Use uma restrição para encontrar um prefixo de cadeia de caracteres para rolagem da seguinte forma. Para pesquisa direta em uma coluna ordenada em ordem crescente e para pesquisa regressiva em uma coluna ordenada em ordem decrescente, passe uma estrutura de restrição  de propriedade no parâmetro _lpRestriction_ com a relação RELOP_GE e o prefixo e **marca** de propriedade apropriada, usando o _prefixo_ de marca de formato **GE** . 
   
-Para obter mais informações sobre como usar estruturas de restrição para especificar um filtro, consulte [about Restrictions](about-restrictions.md).
+Para obter mais informações sobre como usar estruturas de restrição para especificar um filtro, consulte [Sobre restrições.](about-restrictions.md)
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -115,7 +115,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa o método imApitable **:: FindRow** para localizar linhas que correspondem a uma restrição.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa o **método IMAPITable::FindRow** para encontrar linhas que corresponderem a uma restrição.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -19,7 +19,7 @@ ms.locfileid: "33430403"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para sincronizar o conteúdo de pastas especificadas em um repositório local com o servidor durante o [estado de sincronização do conteúdo](synchronize-contents-state.md). Isso envolve apenas upload ou uma sincronização completa envolvendo um upload e, em seguida, um download.
+Informações para sincronizar o conteúdo de pastas especificadas em um armazenamento local com o servidor durante o estado [de sincronização de conteúdo.](synchronize-contents-state.md) Isso envolve apenas carregar ou uma sincronização completa envolvendo um upload e, em seguida, um download.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -39,19 +39,19 @@ struct SYNCCONT
 
 _ulFlags_
   
-> no Sinalizadores para determinar o comportamento apropriado durante a sincronização.
+> [in] Sinalizadores para determinar o comportamento apropriado durante a sincronização.
     
   - UPC_OK
     
-  - no O carregamento ou a sincronização completa foi bem-sucedido. O cliente define isso após sincronizar as informações com o servidor.
+  - [in] A sincronização de carregamento ou completa foi bem-sucedida. O cliente define isso depois de sincronizar informações com o servidor.
     
 _iEnt_
   
-> bota Índice para controlar a sincronização do conteúdo no número de pastas especificado por _cento_.
+> [out] Index to track synchronizing the contents in the number of folders specified by  _cEnt_.
     
 _cEnt_
   
-> bota Número de pastas a serem replicadas.
+> [out] Número de pastas a serem replicadas.
     
 _pvReserved_
   
@@ -63,7 +63,7 @@ _ptagaReserved_
     
 _psosReserved_
   
-> Este membro é reservado para uso interno do Outlook e não tem suporte. 
+> Este membro está reservado para uso interno do Outlook e não tem suporte. 
     
 ## <a name="see-also"></a>Confira também
 

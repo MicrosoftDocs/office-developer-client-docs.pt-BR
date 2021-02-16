@@ -38,19 +38,19 @@ Contém um caminho para o servidor do provedor de serviços.
 
 O caminho contido nessas propriedades representa o caminho sugerido onde o usuário pode encontrar recursos. A definição dessas propriedades é específica do provedor. Por exemplo, um aplicativo de agendamento usa essas propriedades para especificar o local sugerido para seus arquivos de aplicativo de agendamento.
   
-O perfil de usuário de mensagens fornece essas propriedades como conveniência para que um aplicativo cliente não precise solicitar ao usuário de mensagens um caminho de rede ou uma letra de unidade de rede.
+O perfil do usuário de mensagens fornece essas propriedades como uma conveniência para que um aplicativo cliente não tenha que solicitar ao usuário do sistema de mensagens um caminho de rede ou uma letra de unidade de rede.
   
-O MAPI funciona somente com nomes de fileno conjunto de caracteres ANSI (American National Standards Institute). Os aplicativos que usam nomes de FileNames em um conjunto de caracteres OEM (fabricante original do equipamento) devem convertê-los para ANSI antes de chamar MAPI.
+O MAPI funciona apenas com nomes de arquivo no conjunto de caracteres do American National Standards Institute (ANSI). Os aplicativos que usam nomes de arquivo em um conjunto de caracteres do fabricante do equipamento original (OEM) devem convertê-los em ANSI antes de chamar o MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

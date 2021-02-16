@@ -19,7 +19,7 @@ ms.locfileid: "33431355"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para carregar uma pasta durante o estado de [pasta de carregamento](upload-folder-state.md).
+Informações para carregar uma pasta durante o estado [de carregamento da pasta.](upload-folder-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -37,31 +37,31 @@ struct UPFLD
 
 _ulFlags_
   
->  [out]/[in] flags para determinar as ações apropriadas para o uplaod. 
+>  [out]/[in] Sinalizadores para determinar as ações apropriadas para o uplaod. 
     
   - UPF_NEW
     
-    - bota A pasta é nova.
+    - [out] A pasta é nova.
     
   - UPF_MOD_PARENT
     
-    - bota A pasta foi movida.
+    - [out] A pasta foi movida.
     
   - UPF_MOD_PROPS
     
-    - bota As propriedades da pasta foram modificadas.
+    - [out] As propriedades da pasta foram modificadas.
     
   - UPF_DEL
     
-    - bota A pasta foi excluída.
+    - [out] A pasta foi excluída.
     
   - UPF_OK
     
-    - no O upload foi bem-sucedido. O cliente define isso após carregar as informações da pasta no servidor.
+    - [in] O carregamento foi bem-sucedido. O cliente define isso depois de carregar as informações da pasta no servidor.
     
 _pfld_
   
-> bota O objeto Folder aberto a ser carregado.
+> [out] O objeto de pasta aberta a ser carregado.
     
 _feid_
   

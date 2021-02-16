@@ -26,6 +26,6 @@ A atribuição de camada é mostrada como um índice para a lista de camadas na 
   
 Se uma forma for atribuída a mais de uma camada, cada índice de camada aparecerá na célula Layer Membership separado por ponto-e-vírgula.
   
-Para referir-se ao valor da célula de associação de camada em uma fórmula, use o nome **LayerMember**.
+Para referir-se ao valor da célula Layer Membership em uma fórmula, use o nome **LayerMember**.
   
 

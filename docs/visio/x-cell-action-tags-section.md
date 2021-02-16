@@ -18,7 +18,7 @@ ms.locfileid: "33431110"
 ---
 # <a name="x-cell-action-tags-section"></a>Célula X (Seção Action Tags)
 
-A posição da coordenada *x* nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado. 
+A  *posição da*  coordenada x nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado. 
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
@@ -31,7 +31,7 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> |SmartTags. *nome* . X em que SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
+| Nome da célula:  <br/> |SmartTags. *nome*  . X onde SmartTags. *nome*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -21,17 +21,17 @@ ms.locfileid: "33430200"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um fluxo TNEF começa com uma assinatura de 32 bits que identifica o fluxo como um fluxo TNEF. Após a assinatura há um inteiro não assinado de 16 bits que é usado como uma chave para fazer referência cruzada de anexos para sua localização no texto da mensagem marcada. O restante do fluxo é uma sequência de atributos TNEF. Os atributos da mensagem aparecem primeiro no fluxo TNEF e os atributos de anexo a seguir. Os atributos que pertencem a um anexo específico são agrupados, começando com o atributo **attAttachRenddata** . 
+Um fluxo TNEF começa com uma assinatura de 32 bits que identifica o fluxo como um fluxo TNEF. Após a assinatura há um inteiro não assinado de 16 bits que é usado como uma chave para fazer referência cruzada de anexos ao seu local no texto da mensagem marcada. O restante do fluxo é uma sequência de atributos TNEF. Os atributos de mensagem aparecem primeiro no fluxo TNEF e os atributos de anexo seguem. Os atributos que pertencem a um anexo específico são agrupados, começando com o **atributo attAttachRenddata.** 
   
-A maioria dos valores constantes usados nos fluxos TNEF é definida no TNEF. Arquivo de cabeçalho H. Notavelmente, **TNEF_SIGNATURE**, **LVL_MESSAGE**, **LVL_ATTACHMENT**e todos os identificadores de atributo TNEF são definidos nesse arquivo. Outras constantes têm os valores indicados pela interpretação de um compilador da linguagem C. Normalmente, essas constantes são usadas para fornecer os tamanhos do seguinte item. Por exemplo, **sizeof (ULong)** na definição de um item indica que um inteiro que representa o tamanho do seguinte inteiro Long não assinado deve ocorrer nesse local no fluxo TNEF. 
+A maioria dos valores constantes usados em fluxos TNEF é definida no TNEF. Arquivo de header H. Notavelmente, **TNEF_SIGNATURE**, **LVL_MESSAGE**, **LVL_ATTACHMENT** e todos os identificadores de atributo TNEF são definidos neste arquivo. Outras constantes têm os valores indicados por sua interpretação para um compilador da linguagem C. Normalmente, essas constantes são usadas para dar os tamanhos do item a seguir. Por exemplo, **sizeof(ULONG)** na definição de um item indica que um inteiro representando o tamanho do inteiro longo não assinado a seguir deve ocorrer nesse local no fluxo TNEF. 
   
-Todos os inteiros em um fluxo TNEF são armazenados no formato binário little-endian, mas são mostrados em hexadecimal nesta seção. Os valores de soma de verificação são apenas números inteiros não assinados de 16 bits que são a soma, módulo 65536, dos bytes de dados aos quais o checksum se aplica. Todos os tamanhos de atributo são inteiros longos não assinados, incluindo quaisquer caracteres nulos de terminação.
+Todos os inteiros em um fluxo TNEF são armazenados em forma binária little-endian, mas são mostrados em hexadecimal ao longo desta seção. Os valores de soma de verificação são simplesmente números inteiros não assinados de 16 bits que são a soma, modulo 65536, dos bytes de dados aos que a soma de verificação se aplica. Todos os comprimentos de atributos são inteiros longos não assinados, incluindo quaisquer caracteres nulos que terminam.
   
-A chave é um inteiro não assinado de 16 bits sem sinal, que significa o valor inicial das chaves de referência de anexo. As chaves de referência de anexo são atribuídas a cada anexo de forma seqüencial, começando com o valor inicial que é passado para a função [OpenTnefStream](opentnefstream.md) pelo provedor de serviços que está usando o TNEF. O provedor de serviços deve gerar um valor inicial aleatório para a chave para minimizar a chance de que duas mensagens usem a mesma chave. 
+A chave é um inteiro não assinado de 16 bits que significa o valor inicial das chaves de referência do anexo. As chaves de referência de anexo são atribuídas a cada anexo sequencialmente começando com o valor inicial que é passado para a função [OpenTnefStream](opentnefstream.md) pelo provedor de serviços que está usando TNEF. O provedor de serviços deve gerar um valor inicial aleatório para a chave para minimizar a chance de duas mensagens usarem a mesma chave. 
   
-A implementação TNEF usa identificadores de atributo para mapear atributos para suas propriedades MAPI correspondentes. Um identificador de atributo é um inteiro não assinado de 32 bits composto por dois valores de palavra. A palavra de ordem alta indica o tipo de dados, como cadeia de caracteres ou binário, e a palavra de ordem inferior identifica o atributo específico. Os tipos de dados na palavra de ordem alta são:
+A implementação do TNEF usa identificadores de atributos para mapear atributos para suas propriedades MAPI correspondentes. Um identificador de atributo é um inteiro não assinado de 32 bits, com dois valores de palavra. A palavra de ordem alta indica o tipo de dados, como cadeia de caracteres ou binário, e a palavra de ordem baixa identifica o atributo específico. Os tipos de dados na palavra de ordem alta são:
   
-|**Type**|**Valor**|
+|**Tipo**|**Valor**|
 |:-----|:-----|
 |atpTriples  <br/> |0x0000  <br/> |
 |atpString  <br/> |0x0001  <br/> |
@@ -44,6 +44,6 @@ A implementação TNEF usa identificadores de atributo para mapear atributos par
 |atpDword  <br/> |0x0008  <br/> |
 |atpMax  <br/> |0x0009  <br/> |
    
-Os valores de palavra de ordem baixa para cada atributo são definidos no TNEF. Arquivo de cabeçalho H.
+Os valores de palavras de ordem baixa para cada atributo são definidos no TNEF. Arquivo de header H.
   
 

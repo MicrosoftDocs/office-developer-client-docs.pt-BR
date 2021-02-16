@@ -38,31 +38,31 @@ HRESULT GetContentsTable(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como a tabela de conteúdo é retornada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma bitmask de sinalizadores que controla como o conteúdo da tabela é retornado. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_ASSOCIATED 
   
-> A tabela de conteúdo associado do contêiner deve ser retornada em vez da tabela de conteúdo padrão. Este sinalizador é usado somente com pastas. As mensagens incluídas na tabela de conteúdo associado foram criadas com o sinalizador MAPI_ASSOCIATED definido na chamada para o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . Normalmente, os clientes usam a tabela de conteúdo associado para recuperar formulários, exibições e outras mensagens ocultas. 
+> A tabela de conteúdo associada do contêiner deve ser retornada em vez da tabela de conteúdo padrão. Esse sinalizador é usado somente com pastas. As mensagens incluídas na tabela de conteúdo associada foram criadas com o sinalizador MAPI_ASSOCIATED definido na chamada para o método [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Os clientes normalmente usam a tabela de conteúdo associada para recuperar formulários, exibições e outras mensagens ocultas. 
     
 ACLTABLE_FREEBUSY
   
-> Permite o acesso aos direitos frightsFreeBusySimple e frightsFreeBusyDetailed no **PR_MEMBER_RIGHTS**.
+> Permite o acesso aos direitos deFreeBusySimple e PR_MEMBER_RIGHTS **.**
     
 MAPI_DEFERRED_ERRORS 
   
-> **** Getcontenttable pode ser retornado com êxito, possivelmente antes de a tabela ser disponibilizada para o chamador. Se a tabela não estiver disponível, fazer uma chamada de tabela subsequente poderá gerar um erro. 
+> **GetContentsTable** pode retornar com êxito, possivelmente antes que a tabela seja disponibilizada para o chamador. Se a tabela não estiver disponível, fazer uma chamada de tabela subsequente poderá criar um erro. 
     
 MAPI_UNICODE 
   
-> Solicita que as colunas que contêm dados de cadeia de caracteres sejam retornadas no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres deverão ser retornadas no formato ANSI. 
+> Solicita que as colunas que contêm dados de cadeia de caracteres sejam retornadas no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres deverão ser retornadas no formato ANSI. 
     
 SHOW_SOFT_DELETES
   
-> Mostra os itens atualmente marcados como excluídos por software, ou seja, estão na fase de tempo de retenção de item excluído.
+> Mostra itens que estão marcados como excluídos de forma suave, ou seja, eles estão na fase de tempo de retenção de itens excluídos.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela de conteúdo.
+> [out] Um ponteiro para um ponteiro para a tabela de conteúdo.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -72,31 +72,31 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE padrão foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> O contêiner não tem conteúdo e não pode fornecer uma tabela de conteúdo.
+> O contêiner não tem conteúdo e não pode fornecer um índice de conteúdo.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPIContainer::** getcontenttable retorna um ponteiro para a tabela de conteúdo de um contêiner. Uma tabela de conteúdo contém informações de resumo sobre objetos no contêiner. 
+O **método IMAPIContainer::GetContentsTable** retorna um ponteiro para o índice de conteúdo de um contêiner. Uma tabela de conteúdo contém informações resumidas sobre objetos no contêiner. 
   
-As tabelas de conteúdo têm conjuntos de colunas longos. Para obter uma lista completa das colunas obrigatórias e opcionais nas tabelas de conteúdo, consulte [tabelas de conteúdo](contents-tables.md). 
+Tabelas de conteúdo têm conjuntos de colunas longos. Para uma lista completa das colunas necessárias e opcionais em tabelas de conteúdo, consulte [Tabelas de Conteúdo.](contents-tables.md) 
   
-É possível que alguns contêineres não tenham conteúdo. Esses contêineres retornam MAPI_E_NO_SUPPORT de suas **** implementações de getcontenttable.
+É possível que alguns contêineres não tenham conteúdo. Esses contêineres retornam MAPI_E_NO_SUPPORT de suas implementações de **GetContentsTable**.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Se você oferecer suporte a uma tabela de conteúdo para seu contêiner, também deverá fazer o seguinte:
+Se você tiver suporte para uma tabela de conteúdo para seu contêiner, também deverá fazer o seguinte:
   
-- Suporte a chamadas para o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do contêiner para abrir a propriedade **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
+- Suporte a chamadas para o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do contêiner para abrir a propriedade **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
     
-- Retornar **PR_CONTAINER_CONTENTS** em resposta a uma chamada para o contêiner do 
+- Retornar **PR_CONTAINER_CONTENTS** em resposta a uma chamada para o contêiner 
     
-    [IMAPIProp::](imapiprop-getprops.md) GetProps e [IMAPIProp::](imapiprop-getproplist.md) getproplist métodos. 
+    [Métodos IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
     
-A implementação de um provedor de transporte remoto desse método deve retornar um ponteiro para uma interface imApitable [: IUnknown](imapitableiunknown.md) no parâmetro _ppTable_ passado para o método getcontenttable. **** Se o seu provedor de transporte tiver uma tabela de conteúdo existente, será suficiente retornar um ponteiro para ela. Caso contrário, esse método deve criar um novo objeto imApitable [: IUnknown](imapitableiunknown.md) , preencher a tabela com cabeçalhos de mensagem (se houver algum disponível) e retornar um ponteiro para a nova tabela. O método [ITableData:: HrGetView](itabledata-hrgetview.md) é útil para gerar um valor de retorno e armazenar o ponteiro de tabela no parâmetro _ppTable_ . A tabela de conteúdo deve suportar pelo menos as seguintes colunas de propriedade: 
+A implementação desse método de um provedor de transporte remoto deve retornar um ponteiro para uma [IMAPITable : interface IUnknown](imapitableiunknown.md) no parâmetro _ppTable_ passado para o **método GetContentsTable.** Se o provedor de transporte tiver um índice de conteúdo existente, será suficiente retornar um ponteiro para ele. Se não estiver, este método deverá criar um novo [IMAPITable : objeto IUnknown,](imapitableiunknown.md) preencher a tabela com os headers de mensagem (se algum estiver disponível) e retornar um ponteiro para a nova tabela. O [método ITableData::HrGetView](itabledata-hrgetview.md) é útil para gerar um valor de retorno e armazenar o ponteiro da tabela no _parâmetro ppTable._ A tabela de conteúdo deve suportar pelo menos as seguintes colunas de propriedades: 
   
 - **PR_ENTRYID** ([PidTagEntryID](pidtagentryid-canonical-property.md))
     
@@ -136,9 +136,9 @@ A implementação de um provedor de transporte remoto desse método deve retorna
     
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-As colunas da tabela de conteúdo binário e cadeia de caracteres podem ser truncadas. Normalmente, os provedores retornam 255 caracteres. Como você não pode saber antecipadamente se uma tabela inclui colunas truncadas, suponha que uma coluna será truncada se o comprimento da coluna for 255 ou 510 bytes. Você sempre pode recuperar o valor completo de uma coluna truncada, se necessário, diretamente do objeto usando seu identificador de entrada para abri-lo e, em seguida, chamando o método **IMAPIProp::** GetProps. 
+As colunas da tabela de cadeia de caracteres e conteúdo binário podem ser truncadas. Normalmente, os provedores retornam 255 caracteres. Como não é possível saber antecipadamente se uma tabela inclui colunas truncadas, suponha que uma coluna seja truncada se o tamanho da coluna for de 255 ou 510 bytes. Você sempre pode recuperar o valor completo de uma coluna truncada, se necessário, diretamente do objeto usando seu identificador de entrada para abri-la e, em seguida, chamando o método **IMAPIProp::GetProps.** 
   
-Dependendo da implementação do provedor, as operações de classificação e restrições podem ser aplicadas a todas as cadeias de caracteres ou à versão truncada dessa cadeia de caracteres.
+Dependendo da implementação do provedor, as restrições e as operações de classificação podem ser aplicadas a toda uma cadeia de caracteres ou à versão truncada dessa cadeia de caracteres.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -146,7 +146,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|ContentsTableDialog. cpp  <br/> |CContentsTableDlg:: CContentsTableDlg  <br/> |A classe **CContentsTableDlg** usa **** getcontenttable para obter as entradas em uma tabela de conteúdo.  <br/> |
+|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |A **classe CContentsTableDlg** usa **GetContentsTable** para obter as entradas em uma tabela de conteúdo.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

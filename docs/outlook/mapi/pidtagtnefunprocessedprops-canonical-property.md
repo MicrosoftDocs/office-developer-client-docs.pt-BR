@@ -25,28 +25,28 @@ ms.locfileid: "33431320"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Serializa as propriedades ao filtrar o formato de encapsulamento neutro de transporte (TNEF).
+Serializa propriedades ao filtrar o TNEF (Transport Neutral Encapsulation Format).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Identificador:  <br/> |0x0E9C  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Usado pelo Microsoft Outlook e pelo Outlook Web Access (OWA) para salvar o TNEF original em casos em que o TNEF contém propriedades nomeadas que não podem ser criadas no repositório.
+Usado pelo Microsoft Outlook e pelo Outlook Web Access (OWA) para salvar o TNEF original em casos em que o TNEF contém propriedades nomeadas que não podem ser criadas no armazenamento.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

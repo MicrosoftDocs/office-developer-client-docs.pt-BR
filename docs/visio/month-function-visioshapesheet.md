@@ -22,14 +22,14 @@ Retorna um inteiro de 1 a 12 que representa um mês.
   
 ## <a name="syntax"></a>Sintaxe
 
-MONTH ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *]) 
+MONTH(" ** *datetime* ** "| ** *expressão* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que produza uma data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula contendo uma data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> | Qualquer expressão que produza uma data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |O identificador de local a ser utilizado na avaliação de uma data e hora não locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
@@ -38,13 +38,13 @@ Inteiro
   
 ## <a name="remarks"></a>Comentários
 
-O componente de hora de _DateTime_ ou _expression_ é Descartado. 
+O componente de hora  _da data e_ hora ou  _expressão_ é descartado. 
   
 Não é feito nenhum arredondamento. Se a cadeia de caracteres estiver faltando ou não puder ser convertida em um resultado válido, a função MONTH retornará um erro.
   
 O valor retornado é formatado de acordo com o estilo de data curta definido pelas Configurações regionais atuais do sistema.
   
-A função MONTH também aceita um valor de número único para _expressão_ em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899. 
+A função MONTH também aceita um  valor de número único para a expressão em que a parte inteira do resultado representa o número de dias desde 30 de dezembro de 1899. 
   
 ## <a name="example-1"></a>Exemplo 1
 
@@ -60,7 +60,7 @@ Retornará 6.
   
 ## <a name="example-3"></a>Exemplo 3
 
-MÊS (35580.6337)
+MONTH(35580.6337)
   
 Retornará 5.
   

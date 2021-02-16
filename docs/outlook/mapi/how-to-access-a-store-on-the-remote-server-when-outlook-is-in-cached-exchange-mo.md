@@ -1,11 +1,11 @@
 ---
-title: Acessar um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
+title: Acessar um armazenamento no servidor remoto quando o Outlook estiver no Modo Cache do Exchange
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 'Última modificação: 02 de julho de 2012'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433861"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Acessar um repositório no servidor remoto quando o Outlook estiver no modo cache do Exchange
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Acessar um armazenamento no servidor remoto quando o Outlook estiver no Modo Cache do Exchange
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MAPI_NO_CACHE** para abrir uma pasta ou uma mensagem em um repositório de mensagens no servidor remoto quando o Microsoft Office Outlook estiver no modo cache do Exchange. 
+Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MAPI_NO_CACHE** para abrir uma pasta ou uma mensagem em um armazenamento de mensagens no servidor remoto quando o Microsoft Office Outlook está no Modo Cache do Exchange. 
   
-O modo cache do Exchange permite que o Outlook use uma cópia local da caixa de correio de um usuário enquanto o Outlook mantém uma conexão online com uma cópia remota da caixa de correio do usuário no servidor Exchange remoto. Quando o Outlook está sendo executado no modo cache do Exchange, por padrão, as soluções MAPI que fazem logon na mesma sessão também são conectadas ao repositório de mensagens em cache. Quaisquer dados que sejam acessados e quaisquer alterações feitas serão feitas em relação à cópia local da caixa de correio.
+O Modo Cache do Exchange permite que o Outlook use uma cópia local da caixa de correio de um usuário enquanto o Outlook mantém uma conexão online com uma cópia remota da caixa de correio do usuário no servidor Exchange remoto. Quando o Outlook está sendo executado no Modo Cache do Exchange, por padrão, todas as soluções MAPI que fazem logon na mesma sessão também são conectadas ao armazenamento de mensagens em cache. Todos os dados acessados e quaisquer alterações feitas serão feitas na cópia local da caixa de correio.
   
-Um cliente ou um provedor de serviços pode substituir a conexão com o repositório de mensagens local e abrir uma mensagem ou uma pasta no repositório remoto Configurando o bit para **MAPI_NO_CACHE** no parâmetro *Parâmetroulflags* ao chamar **[IMsgStore:: OpenEntry](imsgstore-openentry.md)**. 
+Um cliente ou provedor de serviços pode substituir a conexão com o repositório de mensagens local e abrir uma mensagem ou uma pasta no repositório remoto definindo o bit para **MAPI_NO_CACHE** no  *parâmetro ulFlags*  ao chamar **[IMsgStore::OpenEntry](imsgstore-openentry.md)**. 
   
-O exemplo de código a seguir mostra como chamar **IMsgStore:: OpenEntry** com o sinalizador **MAPI_NO_CACHE** definido no parâmetro *parâmetroulflags* para abrir a pasta raiz no repositório de mensagens remoto. 
+O exemplo de código a seguir mostra como chamar **IMsgStore::OpenEntry** com o sinalizador MAPI_NO_CACHE definido no parâmetro *ulFlags* para abrir **a** pasta raiz no repositório de mensagens remoto. 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,7 +44,7 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-Se você abriu o repositório de mensagens com o sinalizador **MDB_ONLINE** no servidor remoto, não será necessário usar o sinalizador **MAPI_NO_CACHE** . 
+Se você abriu o armazenamento de mensagens **com o sinalizador MDB_ONLINE** no servidor remoto, não será preciso usar o sinalizador **MAPI_NO_CACHE** mensagem. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33431894"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica que uma alteração ocorreu no status do Visualizador de formulários. 
+Indica que ocorreu uma alteração no status do visualizador de formulário. 
   
 ```cpp
 HRESULT OnChange(
@@ -37,27 +37,27 @@ HRESULT OnChange(
 
  _ulDir_
   
-> no Uma bitmask de sinalizadores que fornece informações sobre a alteração que ocorreu no visualizador e a resposta esperada no formulário. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma bitmask de sinalizadores que fornece informações sobre a alteração que ocorreu no visualizador e a resposta esperada no formulário. Os sinalizadores a seguir podem ser definidos:
     
 VCSTATUS_CATEGORY 
   
-> Há uma mensagem próxima ou anterior em outra categoria. 
+> Há uma mensagem seguinte ou anterior em outra categoria. 
     
 VCSTATUS_INTERACTIVE 
   
-> O formulário deve exibir uma interface do usuário. Se esse sinalizador não for definido, o formulário deve suprimir a exibição de uma interface de usuário, mesmo em resposta a um verbo que geralmente faz com que uma interface de usuário seja exibida. 
+> O formulário deve exibir uma interface do usuário. Se esse sinalizador não estiver definido, o formulário deverá suprimir a exibição de uma interface do usuário, mesmo em resposta a um verbo que normalmente faz com que uma interface do usuário seja exibida. 
     
 VCSTATUS_MODAL 
   
-> O formulário deve ser modal no Visualizador de formulários. 
+> O formulário deve ser modal para o visualizador de formulário. 
     
 VCSTATUS_NEXT 
   
-> Há uma próxima mensagem no Visualizador de formulários. 
+> Há uma próxima mensagem no visualizador de formulário. 
     
 VCSTATUS_PREV 
   
-> Há uma mensagem anterior no Visualizador de formulários. 
+> Há uma mensagem anterior no visualizador de formulário. 
     
 VCSTATUS_READONLY 
   
@@ -65,7 +65,7 @@ VCSTATUS_READONLY
     
 VCSTATUS_UNREAD 
   
-> Há uma mensagem não lida seguinte ou anterior no Visualizador de formulários.
+> Há uma próxima mensagem não lida ou anterior no visualizador de formulário.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -75,13 +75,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormAdviseSink::** OnChange para notificar o formulário sobre uma alteração no status de um visualizador. Normalmente, a única alteração é definir ou limpar o sinalizador VCSTATUS_NEXT ou VCSTATUS_PREVIOUS com base na presença ou ausência de uma mensagem seguinte ou anterior no visualizador. Portanto, o objeto Form, em seguida, habilita ou desabilita qualquer ação seguinte ou anterior aceita. 
+Visualizadores de formulário chamam o método **IMAPIFormAdviseSink::OnChange** para notificar o formulário sobre uma alteração no status de um visualizador. Normalmente, a única alteração é definir ou limpar o sinalizador VCSTATUS_NEXT ou VCSTATUS_PREVIOUS com base na presença ou ausência de uma mensagem seguinte ou anterior no visualizador. Da mesma forma, o objeto de formulário habilita ou desabilita qualquer ação seguinte ou anterior a que ele oferece suporte. 
   
-As configurações do VCSTATUS_MODAL e do VCSTATUS_INTERACTIVE não podem ser alteradas em um contexto de exibição após sua criação.
+As configurações de VCSTATUS_MODAL e VCSTATUS_INTERACTIVE podem mudar em um contexto de exibição após sua criação.
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação específica desse método depende completamente das especificações do formulário. A maioria dos objetos de formulário usa esse método para alterar sua interface de usuário (por exemplo, para habilitar ou desabilitar comandos de menu ou botões para corresponder ao parâmetro de status de visualizador).
+A implementação específica desse método depende completamente das especificidades do formulário. A maioria dos objetos de formulário usa esse método para alterar sua interface do usuário (por exemplo, para habilitar ou desabilitar comandos de menu ou botões para corresponder ao parâmetro de sinalizadores de status do visualizador).
   
 ## <a name="see-also"></a>Confira também
 

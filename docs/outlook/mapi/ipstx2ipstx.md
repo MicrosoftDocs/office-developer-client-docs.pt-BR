@@ -25,7 +25,7 @@ ms.locfileid: "33430872"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
+Essa interface fornece funcionalidade auxiliar ao executar a replicação por meio da interface **[IOSTX.](iostxiunknown.md)** 
   
 |||
 |:-----|:-----|
@@ -36,8 +36,8 @@ Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por 
 
 |||
 |:-----|:-----|
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
 |**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Define o estado suspenso no spooler.  <br/> |
    
 ## <a name="see-also"></a>Confira também

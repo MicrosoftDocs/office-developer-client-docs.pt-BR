@@ -25,7 +25,7 @@ ms.locfileid: "33430123"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna informações de um objeto de site de mensagem sobre os recursos do site da mensagem para a mensagem atual.
+Retorna informações de um objeto de site de mensagem sobre os recursos do site de mensagens para a mensagem atual.
   
 ```cpp
 HRESULT GetSiteStatus(
@@ -37,7 +37,7 @@ HRESULT GetSiteStatus(
 
  _lpulStatus_
   
-> bota Um ponteiro para uma bitmask de sinalizadores que fornece informações sobre o status da mensagem. Os seguintes sinalizadores podem ser definidos:
+> [out] Um ponteiro para uma máscara de bits de sinalizadores que fornece informações sobre o status da mensagem. Os sinalizadores a seguir podem ser definidos:
     
 VCSTATUS_COPY 
   
@@ -49,7 +49,7 @@ VCSTATUS_DELETE
     
 VCSTATUS_DELETE_IS_MOVE 
   
-> Quando excluído, uma mensagem é movida para uma pasta **itens excluídos** em seu repositório de mensagens, em vez de ser imediatamente removida do seu repositório de mensagens. 
+> Quando excluída, uma mensagem é movida para **uma** pasta Itens Excluídos em seu armazenamento de mensagens, em vez de ser removida imediatamente do seu armazenamento de mensagens. 
     
 VCSTATUS_MOVE 
   
@@ -71,17 +71,17 @@ VCSTATUS_SUBMIT
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIMessageSite:: GetSiteStatus** para obter os recursos do objeto site da mensagem para a mensagem atual. Os sinalizadores retornados no parâmetro _lpulStatus_ fornecem informações sobre o site da mensagem. Normalmente, um formulário habilita ou desabilita comandos de menu, dependendo das informações que os sinalizadores fornecem sobre os recursos da implementação do site da mensagem. Se uma nova mensagem é carregada em um formulário pelo método [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) ou o método [IPersistMessage:: Load](ipersistmessage-load.md) , os sinalizadores de status devem ser verificados. Alguns objetos do site de mensagens, especialmente objetos somente leitura, não permitem que as mensagens sejam salvas ou excluídas. 
+Os objetos de formulário chamam o método **IMAPIMessageSite::GetSiteStatus** para obter os recursos do objeto de site de mensagens para a mensagem atual. Os sinalizadores retornados no parâmetro  _lpulStatus_ fornecem informações sobre o site de mensagens. Normalmente, um formulário habilita ou desabilita comandos de menu, dependendo das informações que os sinalizadores fornecem sobre os recursos da implementação do site de mensagens. Se uma nova mensagem for carregada em um formulário pelo método [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) ou pelo método [IPersistMessage::Load,](ipersistmessage-load.md) os sinalizadores de status deverão ser verificados. Alguns objetos de site de mensagens, especialmente objetos somente leitura, não permitem que as mensagens sejam salvas ou excluídas. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-O método **IMAPIMessageSite:: GetSiteStatus** pode exigir que o aplicativo cliente faça alguns cálculos para determinar quais operações podem ou não ser realizadas na mensagem atual. Normalmente, isso envolve a análise da linha de status do provedor de repositório de mensagens da mensagem atual ou a consulta do provedor de repositório para determinar quais ações o aplicativo cliente pode executar usando o repositório de mensagens. Por exemplo, para determinar se o sinalizador MAPI_DELETE_IS_MOVE deve ser retornado, verifique a propriedade **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) do objeto do repositório de mensagens para ver se há uma pasta **itens excluídos** no repositório de mensagens. 
+O **método IMAPIMessageSite::GetSiteStatus** pode exigir que o aplicativo cliente faça algum cálculo para determinar quais operações podem ou não ser executadas na mensagem atual. Normalmente, isso envolve consultar a linha de status do provedor de armazenamento de mensagens da mensagem atual ou consultar o provedor do armazenamento para determinar quais ações o aplicativo cliente pode executar usando o armazenamento de mensagens. Por exemplo, para determinar se é preciso retornar o sinalizador MAPI_DELETE_IS_MOVE, verifique **a** propriedade **PR_IPM_WASTEBASKET_ENTRYID** do objeto de armazenamento de mensagens ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) para ver se há uma pasta Itens Excluídos no armazenamento de mensagens. 
   
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulário MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -89,7 +89,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSiteStatus  <br/> |MFCMAPI usa o método **IMAPIMessageSite:: GetSiteStatus** para obter o status do site especificado. Pode retornar VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE ou VCSTATUS_SUBMIT.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSiteStatus  <br/> |MFCMAPI usa o **método IMAPIMessageSite::GetSiteStatus** para obter o status do site especificado. Ele pode retornar VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE ou VCSTATUS_SUBMIT.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

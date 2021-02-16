@@ -25,11 +25,11 @@ ms.locfileid: "33429625"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identifica exclusivamente uma conexão entre um coletor de aviso, uma fonte de aviso e MAPI.
+Identifica exclusivamente uma conexão entre um evento de aconselhamento, uma fonte de consultoria e MAPI.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
  **cb**
   
-> Contagem de bytes no membro **AB** . 
+> Contagem de bytes no **membro ab.** 
     
- **AB**
+ **ab**
   
-> Matriz de bytes que descreve a chave de notificação.
+> Matriz de bytes descrevendo a chave de notificação.
     
 ## <a name="remarks"></a>Comentários
 
-Os métodos [Subscribe](imapisupport-subscribe.md) e [Notify](imapisupport-notify.md) do [IMAPISupport](imapisupportiunknown.md) usam a estrutura **NOTIFKEY** para gerar notificações para o coletor de aviso apropriado sobre a fonte de aviso apropriada. 
+Os [métodos Subscribe](imapisupport-subscribe.md) e [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) usam a estrutura **NOTIFKEY** para gerar notificações para o pia de aviso apropriado sobre a fonte de aviso apropriada. 
   
-Os provedores de serviços geram chaves de notificação quando o método **Advise** é chamado e querem chamar **inscrever-se** para lidar com o registro de notificação e o envio subsequente de notificações. Uma chave de notificação pode ser o identificador de entrada da fonte de aviso ou pode ser qualquer outro item de identificação, como uma constante. Por exemplo, um provedor de repositório de mensagens pode usar o caminho de uma pasta como sua chave de notificação. 
+Os provedores de serviços geram chaves de notificação  quando o método **Advise** é chamado e querem chamar Subscribe para manipular o registro de notificação e o envio subsequente de notificações. Uma chave de notificação pode ser o identificador de entrada da fonte de aviso ou pode ser qualquer outro item que identifique, como uma constante. Por exemplo, um provedor de armazenamento de mensagens pode usar o caminho de uma pasta como sua chave de notificação. 
   
 A chave de notificação deve funcionar em vários processos. 
   
-Os requisitos de escopo para uma chave de notificação se assemelham a um identificador de entrada de longo prazo. No enTanto, ao contrário de um identificador de entrada, uma chave de notificação deve ser comparável ao binário. Normalmente, uma chave de notificação inclui um valor de **GUID** definido pelo provedor de serviços seguido por outras informações específicas do provedor exclusivas para o objeto. 
+Os requisitos de escopo para uma chave de notificação são semelhantes aos de um identificador de entrada de longo prazo. No entanto, ao contrário de um identificador de entrada, uma chave de notificação deve ser comparável a binários. Normalmente, uma chave de notificação inclui um valor **GUID** definido pelo provedor de serviços seguido por outras informações específicas do provedor exclusivas do objeto. 
   
-Para obter uma discussão sobre o uso da estrutura **NOTIFKEY** para gerenciar as conexões entre os coletores de aviso e os objetos que geram notificações, consulte [support Event Notification](supporting-event-notification.md). 
+For a discussion of the use of the **NOTIFKEY** structure to manage the connections between the advise sinks and the objects that generate the notifications, see [Supporting Event Notification](supporting-event-notification.md). 
   
 ## <a name="see-also"></a>Confira também
 

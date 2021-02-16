@@ -25,11 +25,11 @@ ms.locfileid: "33432230"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Localiza uma contraparte de caminho local para o caminho especificado da Convenção Universal de nomenclatura (UNC). 
+Localiza uma contraparte de caminho local para o caminho UNC (convenção de nomenu universal). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -45,15 +45,15 @@ SCODE ScLocalPathFromUNC(
 
  _szUNC_
   
-> no Um caminho \\no formato [ _Server_]\[ _share_]\[ _caminho_] de um arquivo ou diretório.
+> [in] Um caminho no formato \\ [ _servidor_] \[ _compartilhamento_] \[ _caminho_] de um arquivo ou diretório.
     
  _szLocal_
   
-> bota Um caminho no formato [ _unidade:_]\[ _caminho_] do mesmo arquivo ou diretório que o parâmetro _szUNC_ . 
+> [out] Um caminho no formato [ _unidade:_] caminho ] do mesmo arquivo ou \[ diretório como para o _parâmetro szUNC._ 
     
  _cchLocal_
   
-> no Tamanho do buffer para a cadeia de caracteres de saída.
+> [in] Tamanho do buffer para a cadeia de caracteres de saída.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -63,7 +63,7 @@ S_OK
     
 MAPI_E_TOO_BIG
   
->  _szLocal_ não era grande o suficiente para armazenar o resultado. 
+>  _szLocal_ não era grande o suficiente para conter o resultado. 
     
 S_FALSE
   

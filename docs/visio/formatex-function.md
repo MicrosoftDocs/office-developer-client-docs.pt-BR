@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251590
 localization_priority: Normal
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
-description: Retorna o resultado da expressão avaliada em srcUnit como uma cadeia de caracteres formatada de acordo com o formato expresso no dstUnit.
+description: Retorna o resultado da expressão avaliada em srcUnit como uma cadeia de caracteres formatada de acordo com o formato expresso em dstUnit.
 ms.openlocfilehash: e341cbcb16cc273f0413f98c195f77ad08946ab1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33430963"
 ---
 # <a name="formatex-function"></a>Função FORMATEX
 
-Retorna o resultado da expressão avaliada em srcUnit como uma cadeia de caracteres formatada de acordo com o formato expresso no dstUnit.
+Retorna o resultado da expressão avaliada em srcUnit como uma cadeia de caracteres formatada de acordo com o formato expresso em dstUnit.
   
 ## <a name="syntax"></a>Sintaxe
 
-FORMATEX (* * *expressão* * *, "* * *formato* * *", [* * *srcUnit* * *], [* * *dstUnit* * *], [* * *LangID* * *] [, * * *calID* * *]) 
+FORMATEX(** *expressão* **," ** *formato* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
-| _format_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A imagem de formato usada para formatar a cadeia de caracteres. Para obter mais informações sobre como formatar imagens, consulte [about Format Pictures](about-format-pictures.md).  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
+| _format_ <br/> |Obrigatório  <br/> |**String** <br/> |A imagem de formatação usada para formatar a cadeia de caracteres. Para obter mais informações sobre como formatar imagens, consulte [Sobre formatar imagens.](about-format-pictures.md)  <br/> |
 | _srcUnit_ <br/> |Opcional  <br/> |**String** <br/> | Unidades usadas para avaliar a expression (pol, cm, etc.).  <br/> |
 | _dstUnit_ <br/> |Opcional  <br/> |**String** <br/> |Unidades usadas para o resultado de expression (pol, cm, etc.).  <br/> |
-| _Lang_ <br/> |Opcional  <br/> |**Número** <br/> |O idioma usado ao formatar as imagens de data/hora do Microsoft Office System.  <br/> |
+| _langID_ <br/> |Opcional  <br/> |**Número** <br/> |O idioma usado ao formatar as imagens de data/hora do Microsoft Office System.  <br/> |
 | _calID_ <br/> |Opcional  <br/> |**Número** <br/> |O calendário usado ao formatar as imagens de data/hora do Microsoft Office System.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno

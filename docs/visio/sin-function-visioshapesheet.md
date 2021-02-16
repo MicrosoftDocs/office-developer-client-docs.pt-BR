@@ -22,7 +22,7 @@ Retorna o seno de um ângulo.
   
 ## <a name="syntax"></a>Sintaxe
 
-SIN (* * *Angle* * *) 
+SIN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="remarks"></a>Comentários
 
-A função SIN usa radianos, a menos que você especifique uma unidade de medida diferente em _Angle_.
+A função SIN usa radianos, a menos que você especifique uma unidade de medida diferente em _ângulo._
   
 ## <a name="example"></a>Exemplo
 

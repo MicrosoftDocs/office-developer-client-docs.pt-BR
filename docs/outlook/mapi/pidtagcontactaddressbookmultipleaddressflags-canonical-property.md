@@ -25,28 +25,28 @@ ms.locfileid: "33429247"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém sinalizadores que indicam se os provedores terão suporte para vários endereços de email por item de contato.
+Contém sinalizadores que indicam se os provedores darão suporte a vários endereços de email por item de contato.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_CONTAB_MULTI_ADDR_FLAGS  <br/> |
 |Identificador:  <br/> |0x6625  <br/> |
 |Tipo de dados:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Catálogo de endereços de contatos  <br/> |
+|Área:  <br/> |Contact address book  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se os sinalizadores nessa propriedade forem verdadeiros, o provedor não incluirá contatos sem endereços de email. Somente o endereço de email principal será aceito. Esta é uma propriedade em uma seção de perfil de catálogo de endereços de contato.
+Se os sinalizadores dessa propriedade são VERDADEIROs, o provedor não inclui contatos sem endereços de email. Somente o endereço de email principal será aumente. Esta é uma propriedade em uma seção de perfil do Livro de Endereços de Contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

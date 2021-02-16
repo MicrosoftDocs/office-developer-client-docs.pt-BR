@@ -25,7 +25,7 @@ ms.locfileid: "33432580"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Recupera um objeto Progress que exibe um indicador de progresso.
+Recupera um objeto de progresso que exibe um indicador de progresso.
   
 ```cpp
 HRESULT DoProgressDialog(
@@ -39,31 +39,31 @@ HRESULT DoProgressDialog(
 
  _ulUIParam_
   
-> no Uma alça para a janela pai do indicador de progresso.
+> [in] Um alça para a janela pai do indicador de progresso.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla como o objeto Progress deve calcular o andamento. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que controla como o objeto de progresso deve calcular o progresso. O sinalizador a seguir pode ser definido:
     
 MAPI_TOP_LEVEL 
   
-> O andamento é calculado para um item de nível superior, como uma pasta pai. O objeto Progress deve usar os valores no [método imapiprogress::P rogress](imapiprogress-progress.md) do método _ulCount_ e _ulTotal_ parâmetros, que indicam o item atual e o total de itens na operação, respectivamente, para incrementar o progresso indicador para a operação. 
+> O andamento é calculado para um item de nível superior, como uma pasta pai. O objeto de progresso deve usar os valores nos parâmetros _ulCount_ e _ulTotal_ do método [IMAPIProgress::P ess](imapiprogress-progress.md) — que indicam o item atual e o total de itens na operação, respectivamente — para incrementar o indicador de progresso da operação. 
     
  _lppProgress_
   
-> bota Um ponteiro para um ponteiro para o objeto Progress.
+> [out] Um ponteiro para um ponteiro para o objeto de progresso.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> O objeto Progress foi recuperado com êxito.
+> O objeto de progresso foi recuperado com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::D oprogressdialog** é implementado para os objetos de suporte para o catálogo de endereços e o provedor de repositório de mensagens. Esses provedores chamam o **DoProgressDialog** para acessar a implementação de MAPI da interface [método imapiprogress](imapiprogressiunknown.md) , que calcula as informações de progresso e exibe uma caixa de diálogo padrão. 
+O **método IMAPISupport::D oProgressDialog** é implementado para objetos de suporte de provedor de armazenamento de endereços e de armazenamento de mensagens. Esses provedores chamam **DoProgressDialog** para acessar a implementação de MAPI da interface [IMAPIProgress,](imapiprogressiunknown.md) que calcula as informações de progresso e exibe uma caixa de diálogo padrão. 
   
-Para obter informações sobre como usar um objeto Progress e a interface **método imapiprogress** , consulte [exibir um indicador de progresso](how-to-display-a-progress-indicator.md).
+Para obter informações sobre como usar um objeto de progresso e a interface **IMAPIProgress,** consulte [Exibir um indicador de progresso.](how-to-display-a-progress-indicator.md)
   
 ## <a name="see-also"></a>Confira também
 

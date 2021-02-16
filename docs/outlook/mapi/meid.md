@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Última modificação: 03 de julho de 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -40,15 +40,15 @@ struct MEID
 
  _abFlags_
   
-> identificador de entrada de 4 bytes para o item do Outlook. Para obter mais informações sobre identificadores de entrada MAPI **[](entryid.md)**, consulte EntryID. 
+> Identificador de entrada de 4 byte para o item do Outlook. Para obter mais informações sobre identificadores de entrada MAPI, consulte **[ENTRYID](entryid.md)**. 
     
  _muid_
   
-> GUID que identifica o provedor de repositório. Consulte mapidefs. h para a definição de tipo de **MAPIUID**. 
+> GUID que identifica o provedor do armazenamento. Consulte mapidefs.h para a definição de tipo de **MAPIUID**. 
     
  _espaço reservado_
   
-> Este membro é reservado para uso interno do Outlook e não tem suporte.
+> Este membro está reservado para uso interno do Outlook e não tem suporte.
     
  _ltidFld_
   
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SINCRONIZAÇÃO](sync.md)
+[SYNC](sync.md)
   
 [UPMSG](upmsg.md)
 

@@ -25,11 +25,11 @@ ms.locfileid: "33432202"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma versão independente de ordem de bytes de uma estrutura [GUID](guid.md) usada para identificar exclusivamente um provedor de serviços. 
+Uma versão independente de ordem de byte de uma estrutura [GUID](guid.md) usada para identificar exclusivamente um provedor de serviços. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
@@ -42,33 +42,33 @@ typedef struct _MAPIUID
 
 ## <a name="members"></a>Members
 
- **AB**
+ **ab**
   
-> Uma matriz que contém um identificador de 16 bytes.
+> Uma matriz que contém um identificador de 16 byte.
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **MAPIUID** é uma estrutura **GUID** colocada na ordem de byte do processador Intel ®. 
+Uma **estrutura MAPIUID** é uma estrutura **GUID** colocada na ordem ® byte do processador Intel. 
   
-O MAPI cria estruturas **MAPIUID** de uma maneira que torna muito raro que dois itens diferentes tenham o mesmo identificador. As estruturas **MAPIUID** podem ser armazenadas como propriedades binárias ou como arquivos, sem considerar a ordenação de bytes do computador que armazena ou acessa as informações. 
+MAPI creates **MAPIUID** structures in a way that makes it very rare for two different items to have the same identifier. **As estruturas MAPIUID** podem ser armazenadas como propriedades binárias ou como arquivos, sem considerar a ordenação de byte do computador que armazena ou acessa as informações. 
   
- As estruturas **MAPIUID** são usadas: 
+ **As estruturas MAPIUID** são usadas: 
   
 - Para identificar uma seção de perfil.
     
-- Nos identificadores de entrada dos objetos de repositório de mensagens e de catálogo de endereços para identificar o provedor de serviços responsável.
+- Nos identificadores de entrada do armazenamento de mensagens e dos objetos do livro de endereços para identificar o provedor de serviços responsável.
     
-- Na propriedade **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de messages.
+- Na **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) das mensagens.
     
-Para gerar um identificador de **MAPIUID** para uma chave de pesquisa, os provedores de serviços chamam [IMAPISupport:: NewUID](imapisupport-newuid.md).
+Para gerar um **identificador MAPIUID** para uma chave de pesquisa, os provedores de serviços chamam [IMAPISupport::NewUID](imapisupport-newuid.md).
   
-Quando um cliente transmite uma mensagem através de uma rede, ele deve usar um formato de protocolo ou de transmissão que não altere a ordem de bytes dos dados de **MAPIUID** . 
+Quando um cliente transmite uma mensagem através de uma rede, ele deve usar um protocolo ou formato de transmissão que não altere a ordem de byte dos dados **MAPIUID.** 
   
-Para obter mais informações sobre como as estruturas do **MAPIUID** são usadas, consulte os seguintes tópicos: 
+Para obter mais informações sobre como as **estruturas MAPIUID** são usadas, consulte os seguintes tópicos: 
   
 [Registrando identificadores exclusivos do provedor de serviços](registering-service-provider-unique-identifiers.md)
   
-[Configuração da ordem de transporte](setting-transport-order.md)
+[Configurando a ordem de transporte](setting-transport-order.md)
   
 ## <a name="see-also"></a>Confira também
 

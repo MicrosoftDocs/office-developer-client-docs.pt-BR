@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251437
 localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
-description: Retorna um inteiro, de 0 a 23, representando a hora do dia de DateTime ou expressão.
+description: Retorna um inteiro, de 0 a 23, representando a hora do dia de data e hora ou expressão.
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,33 +18,33 @@ ms.locfileid: "33429632"
 ---
 # <a name="hour-function-visioshapesheet"></a>Função HOUR (VisioShapeSheet)
 
-Retorna um inteiro, de 0 a 23, representando a hora do dia de _DateTime_ ou _expressão_.
+Retorna um inteiro, de 0 a 23, representando a hora do dia de _data/hora_ ou _expressão._
   
 ## <a name="syntax"></a>Sintaxe
 
-HOUR ("* * *DateTime* * *" | * * *expressão* * * [, * * *LCID* * *]) 
+HOUR(" ** *datetime* ** "| ** *expressão* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | Uma cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
-| _expressão_ <br/> |Obrigatório  <br/> |**Vai** <br/> |Uma expressão que gere data e hora.  <br/> |
+| _datetime_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma cadeia de caracteres comumente reconhecida como uma data e hora ou uma referência a uma célula que contém data e hora.  <br/> |
+| _expression_ <br/> |Obrigatório  <br/> |**Varia** <br/> |Uma expressão que gere data e hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Número** <br/> | Um identificador de local a ser utilizado na avaliação de uma data e hora não-locais. O identificador de local é um número descrito nos arquivos de cabeçalho do sistema.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O componente de data em *DateTime* e *expression* é Descartado. 
+O componente de data na  *data e*  *na expressão*  é descartado. 
   
-Não é feito nenhum arredondamento. Se o *DateTime* estiver faltando ou não puder ser convertido em um resultado válido, a função retornará um erro. 
+Não são feitos arredondamentos. Se a  *data e*  hora não puderem ser convertidas em um resultado válido, a função retornará um erro. 
   
 O valor retornado é formatado de acordo com o estilo de hora definido pelas Configurações Regionais atuais do sistema. 
   
-A função HOUR também aceita um valor de número único para *expressão* em que a parte decimal do resultado representa a fração de um dia desde a meia-noite. 
+A função HOUR também aceita um  valor de número único para a expressão em que a parte decimal do resultado representa a fração de um dia desde a meia-noite. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-HORA ("15:45")
+HOUR("15:45")
   
 Retornará 15.
   
@@ -56,13 +56,13 @@ Retornará 15.
   
 ## <a name="example-3"></a>Exemplo 3
 
-HORA (0,5)
+HOUR(0,5)
   
 Retornará 12.
   
 ## <a name="example-4"></a>Exemplo 4
 
-HORA ("5/30/1997")
+HOUR("30/05/1997")
   
 Retornará 0.
   

@@ -1,5 +1,5 @@
 ---
-title: Seção do arquivo de configuração de formulários [Descrição]
+title: Seção Arquivo de Configuração do Formulário [Descrição]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,61 +15,61 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433091"
 ---
-# <a name="form-configuration-file-description-section"></a>Seção do arquivo de configuração de formulários [Descrição]
+# <a name="form-configuration-file-description-section"></a>Seção Arquivo de Configuração do Formulário [Descrição]
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A seção **[Descrição]** lista todas as propriedades do formulário que estão associadas aos controles na interface do usuário do formulário, além de atributos usados na localização do formulário. As **** entradas MessageClass, **CLSID**e **DisplayName** , que identificam o nome da classe de mensagem do formulário, seu GUID e o nome de exibição da classe de mensagem, respectivamente, são entradas obrigatórias usadas para localizar o formulário na biblioteca de formulários . As entradas restantes são opcionais. O formato da seção **[Descrição]** é: 
+A **seção [Descrição]** lista todas as propriedades do formulário que estão associadas a controles na interface do usuário do formulário, além de atributos usados na localização do formulário. As entradas **MessageClass**, **Clsid** e **DisplayName,** que identificam o nome da classe de mensagem do formulário, seu GUID e o nome de exibição da classe de mensagem, respectivamente, são entradas necessárias usadas para localizar o formulário dentro da biblioteca de formulário. As entradas restantes são opcionais. O formato da **seção [Descrição]** é: 
   
-A seção **[Descrição]** lista todas as propriedades do formulário que estão associadas aos controles na interface do usuário do formulário, além de atributos usados na localização do formulário. As **** entradas MessageClass, **CLSID**e **DisplayName** , que identificam o nome da classe de mensagem do formulário, seu GUID e o nome de exibição da classe de mensagem, respectivamente, são entradas obrigatórias usadas para localizar o formulário na biblioteca de formulários . As entradas restantes são opcionais. O formato da seção **[Descrição]** é: 
+A **seção [Descrição]** lista todas as propriedades do formulário que estão associadas a controles na interface do usuário do formulário, além de atributos usados na localização do formulário. As entradas **MessageClass**, **Clsid** e **DisplayName,** que identificam o nome da classe de mensagem do formulário, seu GUID e o nome de exibição da classe de mensagem, respectivamente, são entradas necessárias usadas para localizar o formulário dentro da biblioteca de formulário. As entradas restantes são opcionais. O formato da **seção [Descrição]** é: 
   
- **Descrição ** =  _Cadeia de caracteres_ MessageClass
+ **[Description] MessageClass**  =   _string_
   
- **** =  _GUID_ do CLSID
+ **Clsid**  =   _guid_
   
- **DisplayName** =  __ disjogadostring
+ **DisplayName**  =   _displayedstring_
   
- **** =  _Caminho_ de SmallIcon
+ **SmallIcon**  =   _path_
   
- **** =  _Caminho_ LargeIcon
+ **LargeIcon**  =   _path_
   
 As entradas opcionais são:
   
- **** =  _Cadeia de caracteres exibida_ na categoria
+ **Categoria**  =   _cadeia de caracteres exibida_
   
- **** =  _Cadeia de caracteres exibida_ na subcategoria
+ **Subcategoria**  =   _cadeia de caracteres exibida_
   
- **** =  _Cadeia de caracteres exibida_ de comentário
+ **Comentário**  =   _cadeia de caracteres exibida_
   
- **** =  _Cadeia de caracteres exibida_ do proprietário
+ **Proprietário**  =   _cadeia de caracteres exibida_
   
- **** =  _Cadeia de caracteres exibida_ de número
+ **Número**  =   _cadeia de caracteres exibida_
   
- **** =  _Inteiro_ de versão
+ **Versão**  =   _integer_
   
- **** =  _Cadeia de caracteres_ de localidade
+ **Localidade**  =   _string_
   
- **** =  _Inteiro_ oculto
+ **Oculto**  =   _integer_
   
- **** =  _Cadeia de caracteres_ DesignerToolName
+ **DesignerToolName**  =   _string_
   
- **DesignerToolGuid** =  _CLSID_
+ **DesignerToolGuid**  =   _clsid_
   
- **DesignerRuntimeGuid** =  _CLSID_
+ **DesignerRuntimeGuid**  =   _clsid_
   
- **ComposeInFolder** =  _0 | 1_
+ **ComposeInFolder**  =   _0|1_
   
- **** =  _Cadeia de caracteres_ ComposeCommand
+ **ComposeCommand**  =   _string_
   
-As entradas de **categoria** e de subcategoria são usadas por instaladores de formulário para configurar a categorização padrão de formulários dentro da interface do usuário do aplicativo cliente. **** Por exemplo, uma hierarquia pode ser configurada onde "Help Desk" é a categoria e "software" e "hardware" foram as subcategorias. Essa categorização pode ser usada por aplicativos de visualização para exibir mensagens de uma maneira mais organizada. As entradas de **Comentário**, **proprietário**e **número** são todas as cadeias de caracteres de comentário que aparecem na interface de usuário do aplicativo cliente. São propriedades específicas de formulário que podem ser usadas com a critério do desenvolvedor de formulários. Por exemplo, a entrada de **Comentário** pode ser usada para indicar a finalidade do formulário, a entrada do **proprietário** usada para indicar a pessoa ou organização responsável por manter o formulário e o número usado para controlar a versão diferente do formulário. Para a entrada de **Comentário** , podem ser incluídas até dez linhas de comentários. A primeira linha de comentários usa a palavra "Comment" como a chave, a segunda linha de comentários usa "Comment1" como a chave e assim por diante por meio de "Comment9". 
+As **entradas Categoria** e **Subcategoria** são usadas por instaladores de formulário para configurar a categorização padrão de formulários na interface do usuário do aplicativo cliente. Por exemplo, uma hierarquia poderia ser configurada onde "Help Desk" é a categoria e "Software" e "Hardware" eram as subcategorias. Essa categorização pode ser usada pelos aplicativos de visualização para exibir mensagens de maneira mais organizada. As **entradas Comment**, **Owner** e **Number** são todas as cadeias de caracteres de comentário que aparecem na interface do usuário do aplicativo cliente. Estas são propriedades específicas do formulário que podem ser usadas a critério do desenvolvedor do formulário. For example, the **Comment** entry can be used to indicate the purpose of the form, the **Owner** entry used to indicate the person or organization responsible for maintaining the form, and the number used to track different version of the form. Para a **entrada Comentário,** até dez linhas de comentários podem ser incluídas. A primeira linha de comentários usa a palavra "Comment" como a chave, a segunda linha de comentários usa "Comment1" como a chave e assim por diante através de "Comment9". 
   
-As entradas **LargeIcon** e **SmallIcon** são usadas para especificar o caminho dos recursos de ícone usados para exibir ícones na interface de usuário do aplicativo cliente, geralmente é para linhas de tabela que incluem o **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Os nomes de arquivos de ícone podem ser especificados como caminhos relativos ao diretório onde o arquivo de configuração de formulário está instalado. A entrada de **versão** é usada para indicar o número de versão do formulário. **Locale** é o identificador de idioma de três letras da biblioteca de formulários de destino. Uma lista desses identificadores pode ser encontrada na _referência do programador do Win32_.
+As entradas **LargeIcon** e **SmallIcon** são usadas para especificar o caminho para os recursos de ícone usados para exibir ícones na interface do usuário do aplicativo cliente, normalmente isso se aplica a linhas de tabela que incluem as colunas de propriedade **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Os nomes de arquivo de ícone podem ser especificados como nomes de caminho relativos ao diretório onde o arquivo de configuração de formulário está instalado. A **entrada** version é usada para indicar o número de versão do formulário. **Localidade é** o identificador de idioma de três letras da biblioteca de formulário de destino. Uma lista desses identificadores pode ser encontrada na Referência do programador _do Win32._
   
-A entrada **Hidden** indica se o formulário deve ser exibido na interface de usuário de um provedor de biblioteca de formulários: 1 indica que o arquivo está oculto e 0 indica que o formulário está visível. Um exemplo de arquivo de configuração de formulário é mostrado a seguir. 
+A **entrada** Oculta indica se o formulário deve ser exibido na interface do usuário de um provedor de biblioteca de formulário: 1 indica que o arquivo está oculto e 0 indica que o formulário está visível. Um exemplo de arquivo de configuração de formulário é mostrado a seguir. 
   
-A entrada **ComposeInFolder** controla se o formulário foi projetado para ser colocado na pasta atual ou na caixa de entrada do usuário quando o usuário salvar a mensagem ao redigi-la: 1 indica que o formulário deve ir na pasta atual e 0 indica que ele deve Vá na caixa de entrada. 
+A entrada **ComposeInFolder** controla se o formulário foi projetado para ser colocado na pasta atual ou na Caixa de Entrada do usuário quando o usuário salva a mensagem enquanto a compõe: 1 indica que o formulário deve ir para a pasta atual e 0 indica que ele deve ir para a Caixa de Entrada. 
   
-A entrada **ComposeCommand** é a cadeia de caracteres a ser colocada no menu de redação do aplicativo cliente. Se isso não for especificado, a entrada **DisplayName** será usada. 
+A **entrada ComposeCommand** é a cadeia de caracteres a ser colocada no menu de redação do aplicativo cliente. Se isso não for especificado, a **entrada DisplayName** será usada. 
   
 ```cpp
 [Description]

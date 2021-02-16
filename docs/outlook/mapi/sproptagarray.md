@@ -29,7 +29,7 @@ Contém uma matriz de marcas de propriedade.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct _SPropTagArray
 
  **cValues**
   
-> Contagem de marcas de propriedade na matriz indicada pelo membro **aulPropTag** . 
+> Contagem de marcas de propriedade na matriz indicada pelo membro **aulPropTag.** 
     
  **aulPropTag**
   
@@ -55,13 +55,13 @@ typedef struct _SPropTagArray
 
 Uma marca de propriedade é um inteiro não assinado de 32 bits que consiste em duas partes: 
   
-- Um identificador na ordem alta de 16 bits.
+- Um identificador nos 16 bits de alta ordem.
     
-- Um tipo na ordem baixa de 16 bits.
+- Um tipo nos 16 bits de ordem baixa.
     
-O identificador é um valor numérico em um intervalo específico. MAPI define intervalos para identificadores para descrever o que a propriedade é usada e quem é responsável por mantê-la. MAPI define restrições para cada uma das marcas de propriedade que ele suporta no arquivo de cabeçalho Mapitags. h.
+O identificador é um valor numérico em um intervalo específico. O MAPI define intervalos para que os identificadores descrevam para que a propriedade é usada e para quem é responsável por mantê-la. MAPI define restrições para cada uma das marcas de propriedade que ele suporta no arquivo de título Mapitags.h.
   
-O tipo indica o formato do valor da propriedade. MAPI define constantes para cada um dos tipos de propriedade que ele suporta no arquivo de cabeçalho mapidefs. h. 
+O tipo indica o formato do valor da propriedade. MAPI define constantes para cada um dos tipos de propriedade que ele suporta no arquivo de header Mapidefs.h. 
   
 Para obter mais informações sobre marcas de propriedade e seus componentes, consulte um dos seguintes tópicos: 
   
@@ -71,7 +71,7 @@ Para obter mais informações sobre marcas de propriedade e seus componentes, co
   
 [Visão geral do tipo de propriedade MAPI](mapi-property-type-overview.md)
   
-Para obter uma lista completa dos tipos de propriedade de valor único e múltiplos valores, confira o apêndice, os identificadores de [propriedade e os tipos](property-identifiers-and-types.md). 
+Para uma lista completa dos tipos de propriedade de valor único e de vários valores, consulte o apêndice, Identificadores e tipos [de propriedade.](property-identifiers-and-types.md) 
   
 ## <a name="see-also"></a>Confira também
 

@@ -29,7 +29,7 @@ Especifica se a grade será impressa ao imprimir a página de um documento.
 
 Esse valor corresponde à caixa de seleção **Linhas de grade** da guia **Configurar Impressão** da caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta **Configurar Página**). Fora a cor (a versão impressa é cinza), a grade impressa é idêntica à grade que você vê na janela de desenho do Microsoft Visio. 
   
-Você pode imprimir a grade página por página. O estilo da grade também pode ser definido em uma base página por página na caixa de diálogo **grade &amp; da régua** (na guia **Exibir** , clique na seta **Mostrar** ) quando uma página estiver ativa. 
+Você pode imprimir a grade página por página. O estilo de grade também pode ser definido página por página na caixa  de diálogo  Grade de Régua (na guia Exibir, clique na seta Mostrar) quando uma página estiver ativa. **&amp;** 
   
 Para obter uma referência para a célula PrintGrid pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -43,6 +43,6 @@ Para obter uma referência para a célula PrintGrid pelo índice a partir de um 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowPrintProperties** <br/> |
-|Índice da célula:  <br/> |**visPrintPropertiesPrintGrid** <br/> |
+|Índice de célula:  <br/> |**visPrintPropertiesPrintGrid** <br/> |
    
 

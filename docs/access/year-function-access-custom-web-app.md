@@ -25,14 +25,14 @@ Retorna um valor numérico que representa o ano da data especificada no calendá
 
  **Ano** (*Data*) 
   
-A função **year** contém os seguintes argumentos. 
+A **função Year** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento de *Data* , expressão de coluna, variável definida pelo usuário ou literal de cadeia de caracteres.  <br/> |
+| *Date*  <br/> |Uma expressão que pode ser resolvida para um valor de Data/Hora. A  *expressão do argumento Date,*  a expressão de coluna, a variável definida pelo usuário ou a cadeia de caracteres literal.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Os valores retornados pelas funções **ano**, **mês**e **dia** serão valores gregorianos, independentemente do formato de exibição para o valor de data fornecido. Por exemplo, se o formato de exibição da data fornecida usar o calendário islâmico, os valores retornados para as funções **ano**, **mês**e **dia** serão valores associados à data gregoriana equivalente. 
+Os valores retornados **pelas**  funções Ano **,** Mês e Dia serão valores gregorianos, independentemente do formato de exibição para o valor de data fornecido. Por exemplo, se o formato de exibição da data fornecida usar o calendário Hijri, os valores retornados para as funções **Ano** **,** Mês e Dia serão valores associados à data Gregoriana equivalente.  
   
 

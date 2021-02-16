@@ -25,7 +25,7 @@ ms.locfileid: "33431663"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o certificado ASN de um destinatário de mensagem para uso em um relatório.
+Contém o certificado ASN.1 de um destinatário da mensagem para uso em um relatório.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o certificado ASN de um destinatário de mensagem para uso em um relató
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é uma cópia da propriedade **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) do destinatário para uso em um relatório. Ele pode ser usado para provar ao originador de que o destinatário realmente recebeu a mensagem, o que um relatório de entrega não necessariamente indica.
+Essa propriedade é uma cópia da propriedade **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) do destinatário para uso em um relatório. Ele pode ser usado para provar ao originador que o destinatário realmente recebeu a mensagem, o que um relatório de entrega não indica necessariamente.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

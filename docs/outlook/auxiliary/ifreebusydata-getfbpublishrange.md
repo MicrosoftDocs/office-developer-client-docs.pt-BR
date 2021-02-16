@@ -34,11 +34,11 @@ HRESULT GetFBPublishRange(
 
 _prtmStart_
   
-> bota Um valor de tempo relativo para o início das informações de disponibilidade. Este valor é o número de minutos desde 1º de janeiro de 1601.
+> [out] Um valor de tempo relativo para o início das informações de livre/ocupado. Esse valor é o número de minutos desde 1º de janeiro de 1601.
     
 _prtmEnd_
   
-> bota Um valor de tempo relativo para o final das informações de disponibilidade. Este valor é o número de minutos desde 1º de janeiro de 1601.
+> [out] Um valor de tempo relativo para o final das informações de livre/ocupado. Esse valor é o número de minutos desde 1º de janeiro de 1601.
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -46,9 +46,9 @@ S_OK se a chamada for bem-sucedida; caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Um provedor de disponibilidade chama [IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) para definir o intervalo de tempo para uma enumeração. Se [IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) não tiver sido chamado, os valores padrão para **prtmStart** e **PrtmEnd** deverão ser definidos entre 1º de abril de 1601 00:00: e 31 de agosto de 4500 11:59-00Z respectivamente. Além disso, você não deve definir a hora de início como maior do que a hora de término. 
+Um provedor de informações de livre/ocupado chama [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) para definir o intervalo de tempo de uma enumeração. Se [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) não tiver sido chamado, os valores padrão para **prtmStart** e **prtmEnd** deverão ser definidos entre 1º de abril de 1601 00:00:00Z e 31 de agosto de 4500 11:59:59Z, respectivamente. Além disso, você não deve definir a hora de início como maior do que a hora de término. 
   
-**IFreeBusyData:: GetFBPublishRange** deve retornar os valores em cache para o intervalo de tempo definido pela chamada mais recente de **IFreeBusyData:: EnumBlocks** ou **IFreeBusyData:: SetFBRange**. 
+**IFreeBusyData::GetFBPublishRange** deve retornar os valores armazenados em cache para o intervalo de tempo definido pela chamada mais recente para **IFreeBusyData::EnumBlocks** ou **IFreeBusyData::SetFBRange**. 
   
 ## <a name="see-also"></a>Confira também
 

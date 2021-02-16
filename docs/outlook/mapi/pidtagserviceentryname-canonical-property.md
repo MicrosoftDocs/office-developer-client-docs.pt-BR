@@ -25,7 +25,7 @@ ms.locfileid: "33432468"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome da função de ponto de entrada para configuração de um serviço de mensagens.
+Contém o nome da função de ponto de entrada para a configuração de um serviço de mensagem.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o nome da função de ponto de entrada para configuração de um serviç
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os implementadores de serviço de mensagens forneçam um ponto de entrada de serviço de mensagens, mas o ponto de entrada não é necessário. No enTanto, o ponto de entrada deve ser fornecido somente se as propriedades de configuração relacionadas existirem. Se essas propriedades não existirem, MAPI pressupõe que nenhum ponto de entrada seja fornecido.
+É recomendável que os implementadores do serviço de mensagens forneçam um ponto de entrada do serviço de mensagens, mas o ponto de entrada não é necessário. No entanto, o ponto de entrada deve ser fornecido somente se as propriedades de configuração relacionadas existirem. Se essas propriedades não existirem, o MAPI assumirá que nenhum ponto de entrada será fornecido.
   
 A biblioteca de vínculo dinâmico (DLL) na qual a função de ponto de entrada aparece é nomeada pela propriedade **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
   
-Para obter mais informações sobre os pontos de entrada do serviço de mensagens, consulte [implementando uma função de ponto de entrada do provedor de serviços](implementing-a-service-provider-entry-point-function.md).
+Para obter mais informações sobre pontos de entrada do serviço de mensagens, consulte [Implementando uma função de ponto](implementing-a-service-provider-entry-point-function.md)de entrada do provedor de serviços.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

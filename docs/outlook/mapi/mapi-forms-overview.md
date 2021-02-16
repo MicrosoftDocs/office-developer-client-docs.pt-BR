@@ -19,33 +19,33 @@ ms.locfileid: "33432517"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um formulário MAPI é um visualizador de uma mensagem. Cada mensagem tem uma classe de mensagem que determina o formulário específico que é usado como seu visualizador. O MAPI define várias classes de mensagens e implementou os formulários para exibir mensagens dessas classes. Os desenvolvedores de software cliente podem criar novas classes de mensagens e formulários personalizados para exibir mensagens criadas usando as novas classes.
+Um formulário MAPI é um visualizador de uma mensagem. Cada mensagem tem uma classe de mensagem que dita o formulário específico que é usado como seu visualizador. MAPI define várias classes de mensagem e implementou os formulários para exibir mensagens dessas classes. Os desenvolvedores de software cliente podem criar novas classes de mensagens e formulários personalizados para exibir mensagens criadas usando as novas classes.
   
-Todos os formulários personalizados implementam um conjunto de comandos de menu padrão, como **abrir**, **criar**, **excluir**e **responder**e um conjunto de comandos específicos para o formulário específico. Alguns dos comandos de formulário estão integrados à interface do usuário do aplicativo cliente quando o formulário está ativo; outros comandos de formulário substituem completamente os comandos do cliente. 
+Cada formulário personalizado implementa um conjunto de comandos de menu padrão, como **Abrir,** **Criar,** Excluir e **Responder,** e um conjunto de comandos específicos para o formulário específico. Alguns dos comandos de formulário são integrados à interface do usuário do aplicativo cliente quando o formulário está ativo; outros comandos de formulário substituem completamente os comandos do cliente. 
   
 A ilustração a seguir mostra a relação entre os componentes MAPI envolvidos no uso de formulários. 
   
 **MAPI form architecture**
   
-![Arquitetura de formulários MAPI] (media/forms01.gif "Arquitetura de formulários MAPI")
+![MapI form architecture](media/forms01.gif "MAPI form architecture")
   
-No diagrama, observe que o gerente de formulário desempenha uma função semelhante a outros provedores de serviço MAPI, embora não seja um provedor de serviços propriamente dito. O Gerenciador de formulários é uma DLL substituível que implementa algumas das interfaces MAPI. Embora os desenvolvedores possam implementar seus próprios gerentes de formulário, a maioria dos ambientes usará o Gerenciador de formulários fornecido pela Microsoft devido à complexidade do gerente de formulários.
+No diagrama, observe que o gerenciador de formulário desempenha uma função semelhante a outros provedores de serviços MAPI, embora não seja um provedor de serviços em si. O gerenciador de formulário é uma DLL substituível que implementa algumas das interfaces MAPI. Embora os desenvolvedores possam implementar seu próprio gerenciador de formulário, a maioria dos ambientes usará o gerenciador de formulário fornecido pela Microsoft devido à complexidade do gerenciador de formulário.
   
 A lista a seguir descreve os componentes no diagrama e sua relação com outros componentes:
   
-- Cliente de mensagens: um aplicativo que pode usar objetos Form. O cliente de mensagens usa as interfaces de formulário MAPI para se comunicar com o Gerenciador de formulários para carregar mensagens em objetos de formulário.
+- Cliente de mensagens: um aplicativo que pode usar objetos de formulário. O cliente de mensagens usa as interfaces de formulário MAPI para se comunicar com o gerenciador de formulário para carregar mensagens em objetos de formulário.
     
 - Interfaces de formulário MAPI: um padrão definido para comunicação entre componentes MAPI relacionados a formulários.
     
-- Gerenciador de formulários: a DLL que os clientes de mensagens usam para lidar com a instalação de formulários em bibliotecas de formulários, carregamento de servidores de formulários e comunicação inicial entre clientes de mensagens e servidores de formulário.
+- Gerenciador de formulários: a DLL que os clientes de mensagens usam para manipular a instalação de formulários em bibliotecas de formulários, o carregamento de servidores de formulários e a comunicação inicial entre clientes de mensagens e servidores de formulários.
     
-- Bibliotecas de formulários: armazenamento permanente para os arquivos executáveis associados aos servidores de formulários.
+- Bibliotecas de formulário: Armazenamento permanente para os arquivos executáveis associados a servidores de formulário.
     
-- Servidores de formulário: arquivos executáveis que implementam um formulário. Os servidores de formulário criam objetos de formulário e interfaces de usuário para lidar com mensagens específicas. Esse executável também é um servidor OLE e obedece às convenções de OLE usuais.
+- Servidores de formulário: arquivos executáveis que implementam um formulário. Os servidores de formulário criam objetos de formulário e interfaces de usuário para lidar com mensagens específicas. Esse executável também é um servidor OLE e segue as convenções OLE usuais.
     
-- Objetos Form: objetos de tempo de execução criados por servidores de formulário que correspondem a mensagens específicas. Os objetos Form são executados no mesmo contexto de processo que seu servidor de formulário.
+- Objetos de formulário: objetos de tempo de executar criados por servidores de formulário que correspondem a mensagens específicas. Os objetos de formulário são executados no mesmo contexto de processo que seu servidor de formulário.
     
-Para obter mais informações sobre os componentes de formulário MAPI, consulte [MAPI Forms](mapi-forms.md).
+Para obter mais informações sobre componentes de formulário MAPI, consulte [MAPI Forms](mapi-forms.md).
   
 ## <a name="see-also"></a>Confira também
 

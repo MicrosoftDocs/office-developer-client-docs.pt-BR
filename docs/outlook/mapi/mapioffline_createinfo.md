@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429562"
 ---
-# <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
+# <a name="mapioffline_createinfo"></a>MAPIOFFLINE_CREATEINFO
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa estrutura é usada com o [HrCreateOfflineObj](hrcreateofflineobj.md).
+Essa estrutura é usada com [HrCreateOfflineObj](hrcreateofflineobj.md).
   
 ```cpp
 typedef struct
@@ -55,20 +55,20 @@ typedef struct
     
  **ulCapabilities**
   
-> Uma máscara de bits dos seguintes sinalizadores de recurso.
+> Uma máscara de bits dos sinalizadores de funcionalidade a seguir.
     
 |||
 |:-----|:-----|
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |O objeto offline é capaz de ficar offline.  <br/> |
-|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |O objeto offline é capaz de entrar online.  <br/> |
+|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |O objeto offline é capaz de ficar online.  <br/> |
    
  **pGUID**
   
-> Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline de outros objetos offline. GUID_GlobalState refere-se ao objeto offline global que os objetos podem usar como um objeto pai.
+> Ponteiro para um GUID que é usado para identificar exclusivamente esse tipo de objeto offline de outros objetos offline. GUID_GlobalState se refere ao objeto offline global que os objetos podem usar como um objeto pai.
     
  **pInstance**
   
-> Ponteiro para o GUID que identifica exclusivamente este objeto offline. Ela é usada para desambiguar esses objetos offline de outros objetos.
+> Ponteiro para GUID que identifica exclusivamente esse objeto offline. Ele é usado para desambiguar esses objetos offline de outros objetos.
     
  **pParent**
   
@@ -76,11 +76,11 @@ typedef struct
     
  **pMAPISupport**
   
->  Identifica o objeto de suporte MAPI que usará este objeto offline. Por exemplo, se este objeto offline é usado para controlar o estado offline e online de um repositório, este é o objeto de suporte de armazenamento. No enTanto, se este for um objeto offline para um objeto sem nenhum objeto support, ele poderá ser nulo. 
+>  Identifica o objeto de suporte MAPI que usará esse objeto offline. Por exemplo, se esse objeto offline for usado para controlar o estado offline e online de um armazenamento, esse será o objeto de suporte aos armazenamentos. No entanto, se for um objeto offline para um objeto sem suporte, ele poderá ser NULL. 
     
  **pAggregateInfo**
   
-> Um ponteiro para uma estrutura MAPIOFFLINE_AGGREGATEINFO. Para obter mais informações, consulte [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
+> Um ponteiro para uma MAPIOFFLINE_AGGREGATEINFO estrutura. Para obter mais informações, [consulte MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
     
  **pConnectInfo**
   

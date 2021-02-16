@@ -24,14 +24,14 @@ Os estilos são denominados coleções de atributos de formatação que você po
   
 Ao contrário das formas às quais você aplicou os atributos de formatação individualmente, as formas cuja formatação provém de um estilo não apenas garantem a consistência mas também reagem melhor quando são criadas, movidas, dimensionadas ou giradas. 
   
-A janela **Gerenciador de estilo** fornece as informações de que você precisa para entender melhor as implicações das alterações que você faz nas formas. 
+A **janela Do Explorador** de Estilo fornece as informações de que você precisa para entender melhor as implicações das alterações feitas nas formas. 
   
 > [!NOTE]
 > Os valores das células que aparecem em preto na janela ShapeSheet são herdados; os que aparecem em azul são locais. 
   
 ## <a name="using-the-style-explorer-window"></a>Usando a janela Gerenciador de Estilo
 
-Para exibir a janela **Gerenciador de estilo** , com a janela ShapeSheet ativa, na guia Design de ferramentas do **ShapeSheet** , no grupo **Exibir** , selecione **Gerenciador de estilo**. A janela **Gerenciador de estilo** aparece encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuada ou mesclada com outras janelas do ShapeSheet ancoradas disponíveis, por exemplo, a janela rastreamento de **fórmula** . A janela **Gerenciador de Estilo** contém um modo de exibição em árvore de todos os estilos definidos no desenho atual. 
+Para exibir a **janela Do Explorador** de Estilos, com a janela ShapeSheet ativa, na guia Design de Ferramentas do **ShapeSheet,** no grupo Exibir, selecione **Explorer de Estilo.**  A janela **Do** Explorador de Estilo aparece encaixada na janela ShapeSheet por padrão, mas é uma janela ancorada que pode ser encaixada, flutuante ou mesclada com outras janelas ShapeSheet ancoradas disponíveis, por exemplo, a janela Rastreamento de Fórmula.  A janela **Gerenciador de Estilo** contém um modo de exibição em árvore de todos os estilos definidos no desenho atual. 
   
 > [!NOTE]
 > Para obter informações sobre um estilo, clique com o botão direito do mouse no estilo na janela **Gerenciador de Estilo** para exibir sua ShapeSheet. 

@@ -25,13 +25,13 @@ ms.locfileid: "33431075"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Acessa recursos em um provedor de catálogo de endereços.
+Acessa recursos em um provedor de agendamento de endereços.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
-|Exposto por:  <br/> |Objetos de logon do catálogo de endereços  <br/> |
-|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
+|Exposto por:  <br/> |Objetos de logon do livro de endereços  <br/> |
+|Implementado por:  <br/> |Provedores de lista de endereços  <br/> |
 |Chamado por:  <br/> |MAPI  <br/> |
 |Identificador de interface:  <br/> |IID_IABLogon  <br/> |
 |Tipo de ponteiro:  <br/> |LPABLOGON  <br/> |
@@ -40,20 +40,20 @@ Acessa recursos em um provedor de catálogo de endereços.
 
 |||
 |:-----|:-----|
-|[GetLastError](iablogon-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro anterior do provedor de catálogo de endereços.  <br/> |
+|[GetLastError](iablogon-getlasterror.md) <br/> |Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o erro do provedor de agendas anterior.  <br/> |
 |[Fazer logoff](iablogon-logoff.md) <br/> |Inicia o processo de logoff.  <br/> |
-|[OpenEntry](iablogon-openentry.md) <br/> |Abre um contêiner, um usuário de mensagens ou uma lista de distribuição e retorna um ponteiro para uma implementação de interface para fornecer acesso adicional.  <br/> |
+|[OpenEntry](iablogon-openentry.md) <br/> |Abre um contêiner, um usuário de mensagens ou uma lista de distribuição e retorna um ponteiro para uma implementação de interface para fornecer mais acesso.  <br/> |
 |[CompareEntryIDs](iablogon-compareentryids.md) <br/> |Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.  <br/> |
-|[Utilizar](iablogon-advise.md) <br/> |Registra o chamador para receber notificações de eventos específicos que afetam um contêiner, usuário de mensagens ou lista de distribuição.  <br/> |
-|[Cancelar](iablogon-unadvise.md) <br/> |Cancela as notificações que foram configuradas anteriormente com uma chamada para o método **Advise** .  <br/> |
-|[OpenStatusEntry](iablogon-openstatusentry.md) <br/> |Abre o objeto status do provedor.  <br/> |
-|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Abre uma entrada de destinatário que tem dados residindo em um provedor de catálogo de endereços de host.  <br/> |
-|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retorna uma tabela de modelos únicos para a criação de destinatários a serem adicionados à lista de destinatários de uma mensagem de saída.  <br/> |
+|[Advise](iablogon-advise.md) <br/> |Registra o chamador para receber notificação de eventos especificados que afetam um contêiner, um usuário de mensagens ou uma lista de distribuição.  <br/> |
+|[Unadvise](iablogon-unadvise.md) <br/> |Cancela notificações que foram configuradas anteriormente com uma chamada para o **método Advise.**  <br/> |
+|[OpenStatusEntry](iablogon-openstatusentry.md) <br/> |Abre o objeto de status do provedor.  <br/> |
+|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Abre uma entrada de destinatário que tem dados residindo em um provedor de agendamento de endereço de host.  <br/> |
+|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retorna uma tabela de modelos one-off para a criação de destinatários a serem adicionados à lista de destinatários de uma mensagem de saída.  <br/> |
 |[PrepareRecips](iablogon-preparerecips.md) <br/> |Prepara uma lista de destinatários para uso posterior pelo sistema de mensagens.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações gerais sobre os métodos da interface **IABLogon** , consulte [Implementing Service Provider logon](implementing-service-provider-logon.md).
+Para obter informações gerais sobre os métodos da interface **IABLogon,** consulte Implementando o [logon do provedor de serviços.](implementing-service-provider-logon.md)
   
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33433889"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o tipo de repositório de informações.
+Contém o tipo de armazenamento de informações.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Contém o tipo de repositório de informações.
 
 Os valores possíveis para esta propriedade são:
   
-- 1-usuário principal
+- 1 - Usuário primário
     
-- 2-representante
+- 2 - Representante
     
-- 3-repositório público
+- 3 - Armazenamento público
     
-- 4-Subscription
+- 4 - Assinatura
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

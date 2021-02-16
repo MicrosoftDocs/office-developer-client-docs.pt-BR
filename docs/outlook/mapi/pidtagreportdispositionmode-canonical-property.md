@@ -23,7 +23,7 @@ ms.locfileid: "33428967"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica o descarte do recebimento de mensagens que solicitam recebimentos. 
+Indica a disposição do recibo para mensagens que solicitam recibos. 
   
 |||
 |:-----|:-----|
@@ -34,23 +34,23 @@ Indica o descarte do recebimento de mensagens que solicitam recebimentos.
    
 ## <a name="remarks"></a>Comentários
 
-Os valores possíveis para essa propriedade são "manual-Action/MDN-sent-Automatic" e "manual-Action/MDN-sent-manual".
+Os valores possíveis para essa propriedade são "manual-action/MDN-sent-automatically" e "manual-action/MDN-sent-manually".
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

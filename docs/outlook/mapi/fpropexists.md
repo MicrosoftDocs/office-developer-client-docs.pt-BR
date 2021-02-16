@@ -25,11 +25,11 @@ ms.locfileid: "33429485"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Procura uma determinada marca de propriedade em uma interface do [IMAPIProp](imapipropiunknown.md) ou uma interface derivada de **IMAPIProp**, como [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Procura uma determinada marca de propriedade em uma interface [IMAPIProp](imapipropiunknown.md) ou uma interface derivada de **IMAPIProp**, como [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,24 +44,24 @@ BOOL FPropExists(
 
  _pobj_
   
-> no Ponteiro para a interface **IMAPIProp** ou a interface derivada de **IMAPIProp** dentro da qual procurar a marca da propriedade. 
+> [in] Ponteiro para a interface ou interface **IMAPIProp** derivada de **IMAPIProp** na qual procurar a marca de propriedade. 
     
  _ulPropTag_
   
-> no Marca de propriedade para a qual Pesquisar.
+> [in] Marca de propriedade para a qual pesquisar.
     
 ## <a name="return-value"></a>Valor de retorno
 
 TRUE 
   
-> Uma correspondência para a marca de propriedade fornecida foi encontrada. 
+> Uma match for the given property tag was found. 
     
 FALSE 
   
-> Uma correspondência para a marca de propriedade fornecida não foi encontrada.
+> Uma match for the given property tag was not found.
     
 ## <a name="remarks"></a>Comentários
 
-Se a marca de propriedade no parâmetro _ulPropTag_ tiver o tipo PT_UNSPECIFIED, a função **FPropExists** procurará uma correspondência com base apenas no identificador de propriedade. Caso contrário, a correspondência é para a marca de propriedade inteira, incluindo o tipo. 
+Se a marca de propriedade no  _parâmetro ulPropTag_ tiver o tipo PT_UNSPECIFIED, a **função FPropExists** procura uma combinação com base apenas no identificador de propriedade. Caso contrário, a combinação é para a marca de propriedade inteira, incluindo o tipo. 
   
 

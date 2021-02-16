@@ -19,9 +19,9 @@ ms.locfileid: "33432951"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Clientes C++ e provedores de serviços definem as classes que herdam as interfaces que estão implementando. Cada um dos métodos de interface é público, como é o construtor e o destruidor da classe. Se a classe tem métodos adicionais, elas podem ser públicas ou privadas, dependendo da implementação. Todos os membros de dados são privados. 
+Os clientes C++ e provedores de serviços definem objetos MAPI criando classes que herdam das interfaces que estão implementando. Cada um dos métodos de interface é público, assim como o construtor e destruidor da classe. Se a classe tiver métodos adicionais, elas poderão ser públicas ou privadas, dependendo da implementação. Todos os membros de dados são privados. 
   
-O código de exemplo a seguir mostra como definir um objeto status do C++. A `CMyMAPIObject` classe herda da interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Muitas das macros usadas neste exemplo são definidas no arquivo de cabeçalho OLE COMPOBJ. h. Os primeiros membros da classe são os métodos da interface base, seguidos pelos métodos das interfaces herdadas em ordem de herança. Seguir as definições de interface são quaisquer métodos adicionais, o construtor e o destruidor e os membros de dados. 
+O código de exemplo a seguir mostra como definir um objeto de status C++. A `CMyMAPIObject` classe herda da [interface IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Muitas das macros usadas neste exemplo são definidas no arquivo de header OLE Compobj.h. Os primeiros membros da classe são os métodos da interface base, seguidos pelos métodos das interfaces herdadas em ordem de herança. Após as definições de interface estão quaisquer métodos adicionais, o construtor e o destruidor e os membros de dados. 
   
 ```cpp
 class  CMyMAPIObject : public IMAPIStatus
@@ -48,7 +48,7 @@ private :
  
 ```
 
-Para usar uma instância da `CMyMAPIObject` classe, os clientes C++ ou provedores de serviços fazem uma chamada para um dos seus métodos da seguinte maneira: 
+Para usar uma instância da classe, os clientes C++ ou provedores de serviços fazem uma chamada para um de  `CMyMAPIObject` seus métodos da seguinte forma: 
   
 ```cpp
 lpMyObj->ValidateState(ulUIParam, ulFlags);
@@ -57,5 +57,5 @@ lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementando objetos MAPI](implementing-mapi-objects.md)
 

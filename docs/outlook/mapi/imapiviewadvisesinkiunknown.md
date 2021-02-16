@@ -29,9 +29,9 @@ Recebe notificações de formulários.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
-|Exposto por:  <br/> |Exibir objetos de coletor de aviso  <br/> |
-|Implementado por:  <br/> |Visualizadores de formulários  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
+|Exposto por:  <br/> |Exibir objetos de aconselhá-os  <br/> |
+|Implementado por:  <br/> |Visualizadores de formulário  <br/> |
 |Chamado por:  <br/> |Objetos de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
@@ -40,11 +40,11 @@ Recebe notificações de formulários.
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifica o Visualizador de formulários de que um formulário está sendo fechado.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifica o Visualizador de formulários de que uma mensagem nova ou existente foi carregada em um formulário.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifica o Visualizador de formulários sobre o status de impressão de um formulário.  <br/> |
-|[OnEnviado](imapiviewadvisesink-onsubmitted.md) <br/> |Notifica o Visualizador de formulários de que a mensagem atual foi enviada ao spooler MAPI.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Notifica o Visualizador de formulários de que a mensagem atual em um formulário foi salva.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifica o visualizador de formulário de que um formulário está sendo fechado.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifica o visualizador de formulário de que uma mensagem nova ou existente foi carregada em um formulário.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifica o visualizador de formulário sobre o status de impressão de um formulário.  <br/> |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Notifica o visualizador de formulário de que a mensagem atual foi enviada para o spooler MAPI.  <br/> |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Notifica o visualizador de formulário de que a mensagem atual em um formulário foi salva.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

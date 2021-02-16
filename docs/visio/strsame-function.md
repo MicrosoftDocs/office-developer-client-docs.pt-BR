@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251786
 localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
-description: Determina se as cadeias de caracteres são as mesmas. Retorna TRUE se forem iguais e FALSE se não estiverem.
+description: Determina se as cadeias de caracteres são iguais. Ele retornará TRUE se eles são iguais e FALSO se não são.
 ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33428680"
 ---
 # <a name="strsame-function"></a>Função STRSAME
 
-Determina se as cadeias de caracteres são as mesmas. Retorna TRUE se forem iguais e FALSE se não estiverem. 
+Determina se as cadeias de caracteres são iguais. Ele retornará TRUE se eles são iguais e FALSO se não são. 
   
 ## <a name="syntax"></a>Sintaxe
 
-STRSAME ("* * *seqüência1* * *", "* * *seqüência2* * *", * * *IgnoreCase* * *) 
+STRSAME (" ** *string1* ** ", " ** *string2* ** ", ** *ignoreCase* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A primeira cadeia a ser comparada.  <br/> |
-| _string2_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A segunda cadeia a ser comparada.  <br/> |
+| _string1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira cadeia a ser comparada.  <br/> |
+| _string2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda cadeia a ser comparada.  <br/> |
 | _ignoreCase_ <br/> |Opcional  <br/> |**Boolean** <br/> |VERDADEIRO para ignorar a utilização de maiúsculas e minúsculas e FALSO para comparar a utilização. O padrão é FALSO.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
@@ -42,13 +42,13 @@ Para comparar cadeias de caracteres multibyte ou para fazer comparações usando
   
 ## <a name="example-1"></a>Exemplo 1
 
-STRSAME ("gato", "cachorro")
+STRSAME("gato","cachorro")
   
 Retornará FALSO.
   
 ## <a name="example-2"></a>Exemplo 2
 
-STRSAME ("gato", "gato")
+STRSAME("gato","gato")
   
 Retornará VERDADEIRO.
   
@@ -60,7 +60,7 @@ Retornará VERDADEIRO.
   
 ## <a name="example-4"></a>Exemplo 4
 
-STRSAME ("gato", "gato")
+STRSAME("gato","GATO")
   
 Retornará FALSO.
   

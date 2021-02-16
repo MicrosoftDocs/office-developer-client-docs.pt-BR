@@ -1,5 +1,5 @@
 ---
-title: MOEDA
+title: CURRENCY
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431117"
 ---
-# <a name="currency"></a>MOEDA
+# <a name="currency"></a>CURRENCY
 
   
   
@@ -29,7 +29,7 @@ Contém um inteiro de 64 bits assinado que representa um valor de moeda.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct tagCY
@@ -42,19 +42,19 @@ typedef struct tagCY
 
 ## <a name="members"></a>Members
 
- **Baixo**
+ **Lo**
   
-> Bits de 32 de ordem inferior do valor de moeda. 
+> 32 bits de ordem baixa do valor da moeda. 
     
- **Oi**
+ **Olá**
   
-> Alta ordem 32 bits do valor da moeda.
+> 32 bits de ordem alta do valor da moeda.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura de **moeda** é uma representação inteira em escala de um número decimal com quatro dígitos à direita da vírgula decimal. Por exemplo, um valor armazenado de 327500 deve ser interpretado como representando um valor de moeda de 32,7500. 
+A **estrutura CURRENCY** é uma representação inteira dimensionada de um número decimal com quatro dígitos à direita da vírgula decimal. Por exemplo, um valor armazenado de 327500 deve ser interpretado como representando um valor de moeda de 32,7500. 
   
-A estrutura de **moeda** é usada para descrever uma propriedade do tipo PT_CURRENCY. Para obter informações sobre tipos de propriedade, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+A **estrutura CURRENCY** é usada para descrever uma propriedade do tipo PT_CURRENCY. Para obter informações sobre tipos de propriedade, consulte [Visão geral do tipo de propriedade MAPI.](mapi-property-type-overview.md)
   
 ## <a name="see-also"></a>Confira também
 

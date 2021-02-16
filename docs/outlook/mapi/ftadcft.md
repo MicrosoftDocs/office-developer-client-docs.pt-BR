@@ -38,25 +38,25 @@ FILETIME FtAdcFt(
 
 ## <a name="parameters"></a>Parâmetros
 
- _FT1_
+ _ft1_
   
-> no Uma estrutura [FILETIME](filetime.md) que contém o primeiro inteiro de 64 bits não assinado a ser adicionado. 
+> [in] Uma [estrutura FILETIME](filetime.md) que contém o primeiro inteiro de 64 bits não assinado a ser adicionado. 
     
  _ft2_
   
-> no Uma estrutura FILETIME que contém o segundo inteiro não assinado de 64 bits a ser adicionado.
+> [in] Uma estrutura FILETIME que contém o segundo inteiro de 64 bits não assinado a ser adicionado.
     
  _pwCarry_
   
-> [in, out, optional] Na entrada, um ponteiro para o sinalizador transporte de entrada. Na saída, um ponteiro para o resultado de transporte para a adição. Esse parâmetro pode ser NULL se o resultado de transporte não for necessário.
+> [in, out, optional] Na entrada, um ponteiro para o sinalizador de transporte de entrada. Na saída, um ponteiro para o resultado de carry para a adição. Esse parâmetro pode ser NULL se o resultado do carry não for necessário.
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **FtAdcFt** retorna uma estrutura **FILETIME** que contém a soma dos dois inteiros. Os dois parâmetros de entrada permanecem inalterados. Se **pwCarry** for não nulo, ele conterá o resultado de transporte da soma, 0 ou 1. 
+A **função FtAdcFt** retorna uma estrutura **FILETIME** que contém a soma dos dois inteiros. Os dois parâmetros de entrada permanecem inalterados. Se **pwCarry** for não NULO, ele conterá o resultado de carry para a soma, 0 ou 1. 
   
 ## <a name="remarks"></a>Comentários
 
-A função **FtAdcFt** é idêntica a **FtAddFt** quando _pwCarry_ é nulo. Se _pwCarry_ não for nulo e apontar para 0, **FtAdcFt** retornará o mesmo valor **FILETIME** que **FtAddFt** retorna. 
+A **função FtAdcFt** é idêntica a **FtAddFt**  _quando pwCarry_ é NULL. Se  _pwCarry_ não for NULL e aponta para 0, **FtAdcFt** retornará o mesmo valor **FILETIME** que **FtAddFt** retornar. 
   
 ## <a name="see-also"></a>Confira também
 

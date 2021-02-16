@@ -25,11 +25,11 @@ ms.locfileid: "33432832"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece uma maneira alternativa de chamar o método OLE **IUnknown: AddRef**. 
+Fornece uma maneira alternativa de invocar o método OLE **IUnknown::AddRef**. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -41,24 +41,24 @@ ULONG UlAddRef(
 
 ## <a name="parameters"></a>Parâmetros
 
- _punk_
+ _2013_
   
-> no Ponteiro para uma interface derivada da interface **IUnknown** , em outras palavras, em qualquer interface MAPI. 
+> [in] Ponteiro para uma interface derivada da interface **IUnknown,** ou seja, qualquer interface MAPI. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impedia a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
- **UlAddRef** retorna o valor retornado pelo método **IUnknown:: AddRef** , que é o novo valor da contagem de referência da interface. O valor é diferente de zero. 
+ **UlAddRef** retorna o valor retornado pelo método **IUnknown::AddRef,** que é o novo valor da contagem de referência da interface. O valor é não zero. 
   
-Para obter mais informações sobre o **IUnknown:: AddRef**, consulte [Implementing the IUnknown interface](implementing-the-iunknown-interface.md). 
+Para obter mais informações **sobre IUnknown::AddRef**, consulte [Implementando a interface IUnknown](implementing-the-iunknown-interface.md). 
   
 

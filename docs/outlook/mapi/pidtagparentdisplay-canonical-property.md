@@ -32,23 +32,23 @@ Contém o nome de exibição da pasta onde uma mensagem foi encontrada durante u
 |Propriedades associadas:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A, PR_PARENT_DISPLAY_W  <br/> |
 |Identificador:  <br/> |0x0E05  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades não estão em nenhum objeto. Eles só podem aparecer na tabela de conteúdo de uma pasta de resultados de pesquisa.
+Essas propriedades não estão em nenhum objeto. Eles só podem aparecer no índice de uma pasta de resultados de pesquisa.
   
 Essas propriedades e **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) não estão relacionadas entre si. Eles pertencem a contextos totalmente diferentes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

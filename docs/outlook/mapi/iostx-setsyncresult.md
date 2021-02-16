@@ -37,11 +37,11 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  no O resultado da sincronização. 
+>  [in] O resultado da sincronização. 
     
 ## <a name="remarks"></a>Comentários
 
-Call **IOSTX:: SetSyncResult** antes de chamar **IOSTX:: SyncEnd** para informar o repositório local do resultado da sincronização. 
+Chame **IOSTX::SetSyncResult** antes de chamar **IOSTX::SyncEnd** para informar o armazenamento local sobre o resultado da sincronização. 
   
 ## <a name="see-also"></a>Confira também
 

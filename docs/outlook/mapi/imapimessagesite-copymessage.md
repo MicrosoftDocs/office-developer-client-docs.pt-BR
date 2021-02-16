@@ -37,35 +37,35 @@ HRESULT CopyMessage(
 
  _pFolderDestination_
   
-> no Um ponteiro para a pasta onde a mensagem deve ser copiada.
+> [in] Um ponteiro para a pasta onde a mensagem deve ser copiada.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_NO_SUPPORT 
   
-> A operação não é suportada por este site de mensagem.
+> A operação não é suportada por este site de mensagens.
     
 ## <a name="remarks"></a>Comentários
 
-Os objetos Form chamam o método **IMAPIMessageSite:: CopyMessage** para copiar a mensagem atual para uma nova pasta. **CopyMessage** não altera a mensagem que está sendo exibida para o usuário e nenhuma interface para a mensagem recém-criada é retornada ao formulário. 
+Os objetos de formulário chamam o método **IMAPIMessageSite::CopyMessage** para copiar a mensagem atual para uma nova pasta. **CopyMessage** não altera a mensagem que está sendo exibida no momento para o usuário e nenhuma interface para a mensagem recém-criada é retornada para o formulário. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Uma implementação típica do método **CopyMessage** executa as seguintes tarefas: 
+Uma implementação típica do **método CopyMessage** executa as seguintes tarefas: 
   
 1. Cria uma nova mensagem para a mensagem atual a ser copiada.
     
-2. Chama o método [IPersistMessage:: Save](ipersistmessage-save.md) com um ponteiro para a nova mensagem no parâmetro _PMessage_ e false no parâmetro _fSameAsLoad_ . 
+2. Chama o [método IPersistMessage::Save](ipersistmessage-save.md) com um ponteiro para a nova mensagem no parâmetro _pMessage_ e FALSE no parâmetro _fSameAsLoad._ 
     
-3. Chama o método [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) , passando NULL no parâmetro _PMessage_ . 
+3. Chama o [método IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) passando NULL no _parâmetro pMessage._ 
     
-4. Chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) na nova mensagem. 
+4. Chama o [método IMAPIProp::SaveChanges](imapiprop-savechanges.md) na nova mensagem. 
     
-Para obter uma lista de interfaces relacionadas a servidores de formulário, consulte [interfaces de formulários MAPI](mapi-form-interfaces.md).
+Para uma lista de interfaces relacionadas a servidores de formulário, consulte [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -73,7 +73,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: CopyMessage  <br/> |Não implementado.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Não implementado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

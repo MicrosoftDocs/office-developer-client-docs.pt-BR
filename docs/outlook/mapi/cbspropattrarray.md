@@ -29,7 +29,7 @@ Calcula o número de bytes em uma estrutura [SPropAttrArray](spropattrarray.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Imessage.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropAttrArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __LPArray_
+ _ _lparray_
   
 > Ponteiro para a estrutura **SPropAttrArray** existente. 
     

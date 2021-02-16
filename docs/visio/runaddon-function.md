@@ -22,21 +22,21 @@ Executa um complemento ou uma macro em um projeto do Microsoft Visual Basic for 
   
 ## <a name="syntax"></a>Sintaxe
 
-RUNADDON (" *cadeia de caracteres* ") 
+RUNADDON(" *string*  ") 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | O nome de um complemento na coleção **Addons** ou de uma macro em um projeto VBA.  <br/> |
+| _string_ <br/> |Obrigatório  <br/> |**String** <br/> | O nome de um complemento na coleção **Addons** ou de uma macro em um projeto VBA.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se o projeto do documento que contém a chamada de função RUNADDON (ou outro projeto se for referenciado) não tiver uma macro (um procedimento sem argumentos) chamado _String_, o Microsoft Visio executará o complemento chamado _String_. Se nenhuma _cadeia de caracteres_ nomeada de complemento puder ser encontrada, o Visio não fará nada e não informará nenhum erro. (Você pode usar a propriedade **TraceFlags** para monitorar os procedimentos e complementos que o Visio tenta executar.) 
+Se o projeto do documento que contém a chamada de função RUNADDON (ou outro projeto se for referenciado) não tiver uma macro (um procedimento sem argumentos) chamada cadeia de caracteres _,_ o Microsoft Visio executará a cadeia de caracteres nomeada do _complemento._ Se nenhuma cadeia de  _caracteres_ nomeada de complemento for encontrada, o Visio não faz nada e relata nenhum erro. (Você pode usar a propriedade **TraceFlags** para monitorar os procedimentos e complementos que o Visio tenta executar.) 
   
-Ao chamar um procedimento em um módulo padrão, é recomendável prefixar a cadeia de caracteres com o nome do módulo que contém o procedimento (por exemplo, *ModuleName. ProcName*), porque mais de um módulo pode ter um procedimento com o mesmo nome. 
+Quando você chama um procedimento em um módulo padrão, é recomendável prefixar a cadeia de caracteres com o nome do módulo que contém o procedimento (por exemplo,  *moduleName.procName*), porque mais de um módulo pode ter um procedimento com o mesmo nome. 
   
-Para chamar um procedimento em um projeto diferente do projeto do documento que contém a chamada de função RUNADDON, use a sintaxe *ProjName. modName. ProcName* (você deve ter definido explicitamente uma referência ao *ProjName* no projeto VBA). 
+Para chamar um procedimento em um projeto diferente do projeto do documento que contém a chamada de função RUNADDON, use a sintaxe  *projName.modName.procName*  (você deve ter definido explicitamente uma referência para  *projName*  em seu projeto VBA). 
   
 > [!NOTE]
 >  Iniciando com o Visio 2002, a função RUNADDON não pode executar uma sequência de caracteres contendo código VBA arbitrário. Códigos que tenham anteriormente passado para a função RUNADDON podem ser movidos para um procedimento no projeto VBA de um documento que é chamado a partir da função RUNADDON. 
@@ -47,9 +47,9 @@ Em versões anteriores do Visio, essa função aparece como _RUNADDON. As versõ
   
 ## <a name="example-1"></a>Exemplo 1
 
-RUNADDON ("Calendar. exe")
+RUNADDON("Calendar.exe")
   
-Inicia um complemento chamado Calendar. exe.
+Inicia um complemento chamado Calendar.exe.
   
 ## <a name="example-2"></a>Exemplo 2
 
@@ -59,7 +59,7 @@ Inicia o complemento (implementado em VSL) cujo nome é Arranjar formas.
   
 ## <a name="example-3"></a>Exemplo 3
 
-RUNADDON ("ThisDocument. ReportStatistics")
+RUNADDON("ThisDocument.ReportStatistics")
   
 Chama a macro ReportStatistics no módulo **EsteDocumento** no projeto do documento contendo essa chamada de função. 
   
@@ -68,8 +68,8 @@ Chama a macro ReportStatistics no módulo **EsteDocumento** no projeto do docume
   
 ## <a name="example-4"></a>Exemplo 4
 
-RUNADDON (" *ModuleName* . ReportStatistics ") 
+RUNADDON(" *ModuleName*  . ReportStatistics") 
   
-Chama a macro ReportStatistics em *ModuleName* no projeto de documento que contém essa chamada de função. 
+Chama a macro ReportStatistics em  *ModuleName*  no projeto do documento que contém essa chamada de função. 
   
 

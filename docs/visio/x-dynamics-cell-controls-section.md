@@ -18,7 +18,7 @@ ms.locfileid: "33432125"
 ---
 # <a name="x-dynamics-cell-controls-section"></a>Célula X Dynamics (Seção Controls)
 
-Representa a coordenada *x* do ponto de ancoragem de uma alça de controle em coordenadas locais. 
+Representa a  *coordenada x*  do ponto de ancoragem de uma alça de controle em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -28,14 +28,14 @@ Para fazer referência à célula X Dynamics pelo nome a partir de outra fórmul
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Menores.  *nome* . Controles XDynwhere.  *Name* é o nome da linha de controles.  <br/> |
+| Nome da célula:  <br/> | Controles.  *nome*  . Controles XDynwhere.  *é*  o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula X Dynamics pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionControls** <br/> |
-| Índice de linha:  <br/> |**visRowControl** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowControl**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visCtlXDyn** <br/> |
    
 

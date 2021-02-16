@@ -25,11 +25,11 @@ ms.locfileid: "33431509"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que MAPI chama para ativar um controle de botão opcional em uma caixa de diálogo de catálogo de endereços. Este botão é geralmente um botão de **detalhes** . 
+Define uma função de retorno de chamada que MAPI chama para ativar um controle de botão opcional em uma caixa de diálogo do livro de endereços. Normalmente, esse botão é um **botão** Detalhes. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Função definida implementada por:  <br/> |Provedores de serviços  <br/> |
 |Função definida chamada por:  <br/> |MAPI  <br/> |
    
@@ -47,35 +47,35 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> no Identificador das janelas pai de qualquer caixa de diálogo ou Windows essa função é exibida.
+> [in] Alça das janelas pai para quaisquer caixas de diálogo ou janelas que essa função exibe.
     
  _lpvContext_
   
-> no Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de importância para o aplicativo cliente. Normalmente, para o código C++, _lpvContext_ representa um ponteiro para um objeto c++. 
+> [in] Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço significativo para o aplicativo cliente. Normalmente, para código C++,  _lpvContext_ representa um ponteiro para um objeto C++. 
     
  _cbEntryID_
   
-> no Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpSelection_ . 
+> [in] Tamanho, em bytes, do identificador de entrada apontado pelo parâmetro _lpSelection._ 
     
  _lpSelection_
   
-> no Ponteiro para o identificador de entrada que define a seleção na caixa de diálogo.
+> [in] Ponteiro para o identificador de entrada definindo a seleção na caixa de diálogo.
     
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos cliente chamam uma função de retorno de chamada com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O cliente passa um ponteiro para a função de retorno de chamada em chamadas para o método [IAddrBook::D etails](iaddrbook-details.md) . 
+Os aplicativos cliente chamam uma função de retorno de chamada com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O cliente passa um ponteiro para a função de retorno de chamada em chamadas para o [método IAddrBook::D etails.](iaddrbook-details.md) 
   
-Os provedores de serviços chamam uma função de Hook com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O provedor passa um ponteiro para essa função de gancho em chamadas para o método [IMAPISupport::D etails](imapisupport-details.md) . 
+Os provedores de serviços chamam uma função de gancho com base no protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo de detalhes. O provedor passa um ponteiro para essa função de gancho em chamadas para o [método IMAPISupport::D etails.](imapisupport-details.md) 
   
 Em ambos os casos, quando a caixa de diálogo é exibida e o usuário escolhe o botão definido, MAPI chama **LPFNBUTTON**. 
   

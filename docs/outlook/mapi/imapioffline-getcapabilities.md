@@ -25,7 +25,7 @@ ms.locfileid: "33433371"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obtém as condições para as quais os retornos de chamada são compatíveis com um objeto offline.
+Obtém as condições para as quais os retornos de chamada são suportados por um objeto offline.
   
 ```cpp
 HRESULT GetCapabilities( 
@@ -35,9 +35,9 @@ HRESULT GetCapabilities(
 
 ## <a name="parameters"></a>Parâmetros
 
- _pulCapablities_
+ _porqueCapablities_
   
-> bota Uma bitmask dos seguintes sinalizadores de recurso:
+> [out] Uma máscara de bits dos seguintes sinalizadores de funcionalidade:
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
@@ -49,11 +49,11 @@ MAPIOFFLINE_CAPABILITY_ONLINE
     
 ## <a name="remarks"></a>Comentários
 
-Ao abrir um objeto offline usando o **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente pode consultar no [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obter um ponteiro para uma interface do **IMAPIOffline** e chamar **IMAPIOffline:: GetCapabilities** para descobrir os retornos de chamada suportados pelo objeto. O cliente pode optar por configurar os retornos de chamada usando o **IMAPIOfflineMgr**.
+Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente pode consultar [em IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obter um ponteiro para uma interface **IMAPIOffline** e chamar **IMAPIOffline::GetCapabilities** para descobrir os retornos de chamada suportados pelo objeto. O cliente pode optar por configurar retornos de chamada usando **IMAPIOfflineMgr**.
   
-Observe que, dependendo do servidor de email para um objeto offline, um objeto que oferece suporte a retornos de chamada para ficar online não necessariamente oferece suporte a retornos de chamada para ficar offline.
+Observe que, dependendo do servidor de email para um objeto offline, um objeto que dá suporte a retornos de chamada para ficar online não necessariamente oferece suporte a retornos de chamada para ficar offline.
   
-Observe também que, enquanto um objeto offline pode dar suporte a retornos de chamada para alterações diferentes de online/offline, a API de estado offline oferece suporte somente a alterações online/offline, e os clientes devem verificar apenas esses recursos.
+Observe também que, embora um objeto offline possa dar suporte a retornos de chamada para alterações diferentes de online/offline, a API de Estado Offline oferece suporte somente a alterações online/offline, e os clientes devem verificar apenas esses recursos.
   
 ## <a name="see-also"></a>Confira também
 

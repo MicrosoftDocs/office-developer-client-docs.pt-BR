@@ -36,6 +36,6 @@ Para obter uma referência para a célula LineToNodeY pelo índice a partir de u
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowPageLayout** <br/> |
-| Índice da célula:  <br/> |**visPLOLineToNodeY** <br/> |
+| Índice de célula:  <br/> |**visPLOLineToNodeY** <br/> |
    
 

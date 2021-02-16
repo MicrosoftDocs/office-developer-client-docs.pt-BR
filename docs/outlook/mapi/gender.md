@@ -41,7 +41,7 @@ enum Gender {
 
  _genderMin_
   
-> O número mínimo de valores diferentes suportados para o sexo.
+> O número mínimo de valores diferentes com suporte para o sexo.
     
  _genderUnspecified_
   
@@ -49,15 +49,15 @@ enum Gender {
     
  _genderFemale_
   
-> O usuário de mensagens é fêmea.
+> A usuária de mensagens é mulher.
     
  _genderMale_
   
-> O usuário de mensagens é macho.
+> O usuário de mensagens é adulto.
     
  _genderCount_
   
-> O número de valores diferentes suportados para o sexo.
+> O número de valores diferentes com suporte para o sexo.
     
  _genderMax_
   

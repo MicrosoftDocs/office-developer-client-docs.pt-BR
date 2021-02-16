@@ -23,7 +23,7 @@ Determina se um valor especificado corresponde a qualquer valor em uma lista.
   
 ## <a name="syntax"></a>Sintaxe
 
- *expressão* **No** (*expressão* [,... n]) 
+ *expressão* **IN** (*expressão*  [ ,... n ]) 
   
  *expression* Trata-se de qualquer expressão válida. Ambas as expressões devem ter tipos de dados implicitamente conversíveis. A conversão depende das regras de precedência do tipo de dados. 
   

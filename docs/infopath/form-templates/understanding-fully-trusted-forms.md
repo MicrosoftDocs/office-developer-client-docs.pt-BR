@@ -153,7 +153,7 @@ Assinar digitalmente um modelo de formulário permite que você implante um mode
 
 1. Clique na guia **Arquivo**, clique em **Publicar** e em **SharePoint Server**.
     
-2. Siga as instruções do**Assistente de publicação** para publicar o modelo de formulário em uma biblioteca de documentos nova ou existente do SharePoint. 
+2. Siga as instruções do **Assistente de publicação** para publicar o modelo de formulário em uma biblioteca de documentos nova ou existente do SharePoint. 
     
 #### <a name="to-a-create-a-form-that-is-based-on-your-fully-trusted-digitally-signed-form-template"></a>Para criar um formulário baseado no modelo de formulário totalmente confiável assinado digitalmente
 
@@ -162,7 +162,7 @@ Assinar digitalmente um modelo de formulário permite que você implante um mode
    > [!NOTE]
    > Depois de publicar o modelo de formulário para uma biblioteca de documentos do SharePoint usando o **Assistente de publicação**, o modelo não será exibido como um item na biblioteca de formulários. Quando você cria um formulário nessa biblioteca de documentos, o modelo será usado por padrão como o modelo para o novo formulário. 
   
-2. Se o modelo de formulário padrão foi assinado digitalmente, o InfoPath exibe um aviso de segurança sobre o modelo de formulário assinado digitalmente. Selecione **Sempre confiar em arquivos deste editor e abri-los automaticamente**e, em seguida, clique em **Abrir**.
+2. Se o modelo de formulário padrão foi assinado digitalmente, o InfoPath exibe um aviso de segurança sobre o modelo de formulário assinado digitalmente. Selecione **Sempre confiar em arquivos deste editor e abri-los automaticamente** e, em seguida, clique em **Abrir**.
     
 ## <a name="using-a-fully-trusted-form"></a>Usar um formulário totalmente confiável
 

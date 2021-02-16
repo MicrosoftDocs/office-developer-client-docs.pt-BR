@@ -22,17 +22,17 @@ Especifica um intervalo a ser testado.
   
 ## <a name="syntax"></a>Sintaxe
 
- *test_expression*  SIDO **Entre** *begin_expression* **E** *end_expression* 
+ *test_expression*  [ NOT ] **BETWEEN** *begin_expression* **AND** *end_expression* 
   
-O operador **between** contém os seguintes argumentos. 
+O **operador Between** contém os seguintes argumentos. 
   
 |**Argumento**|**Obrigatório**|**Descrição**|
 |:-----|:-----|:-----|
-| *test_expression*  <br/> |Sim  <br/> |A expressão a ser testada no intervalo definido por *begin_expression* e *end_expression* . Deve ser o mesmo tipo de dados que *begin_expression* e *end_expression* .  <br/> |
+| *test_expression*  <br/> |Sim  <br/> |A expressão a ser testado no intervalo definido por  *begin_expression*  e  *end_expression*  . Deve ser o mesmo tipo de dados  *que*  begin_expression e  *end_expression*  .  <br/> |
 | *NOT*  <br/> |Não  <br/> |Especifica que o resultado do predicado seja negado.  <br/> |
-| *begin_expression*  <br/> |Sim  <br/> |Uma expressão válida. Deve ser o mesmo tipo de dados que *test_expression* e *end_expression* .  <br/> |
-| *end_expression*  <br/> |Sim  <br/> |Uma expressão válida. Deve ser o mesmo tipo de dados que *test_expression* e *begin_expression* .  <br/> |
-| *AND*  <br/> |Sim  <br/> |Indica que *test_expression* deve estar dentro do intervalo indicado por *begin_expression* e *end_expression* .  <br/> |
+| *begin_expression*  <br/> |Sim  <br/> |Uma expressão válida. Deve ser o mesmo tipo de dados  *que*  test_expression e  *end_expression*  .  <br/> |
+| *end_expression*  <br/> |Sim  <br/> |Uma expressão válida. Deve ser o mesmo tipo de dados  *que*  test_expression e  *begin_expression*  .  <br/> |
+| *AND*  <br/> |Sim  <br/> |Indica  *test_expression*  deve estar dentro do intervalo indicado por begin_expression  *e*  *end_expression*  .  <br/> |
    
 ## <a name="result-type"></a>Tipo de resultado
 
@@ -40,10 +40,10 @@ O operador **between** contém os seguintes argumentos.
   
 ## <a name="remarks"></a>Comentários
 
- **Between** retorna **true** se o valor de *test_expression* for maior ou igual ao valor de *begin_expression* e menor ou igual ao valor de *end_expression* . 
+ **BETWEEN** retorna **TRUE** se o valor de  *test_expression*  for maior ou igual ao valor de  *begin_expression*  e menor ou igual ao valor de  *end_expression*  . 
   
- **Not between** retorna **true** se o valor de *test_expression* for menor que o valor de *begin_expression* ou maior do que o valor de *end_expression* . 
+ **NOT BETWEEN** retorna **TRUE** se o valor de  *test_expression*  for menor que o valor de  *begin_expression*  ou maior que o valor de  *end_expression*  . 
   
-Para especificar um intervalo exclusivo, use os operadores maior que\>() e menor que (\<).
+Para especificar um intervalo exclusivo, use os operadores maior que ( \> ) e menor que ( \< ).
   
 

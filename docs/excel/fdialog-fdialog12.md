@@ -8,7 +8,7 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- função fdialog [Excel 2007], função fDialog12 [Excel 2007]
+- função fdialog [excel 2007],função fDialog12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33431523"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemplo de comando definido pelo usuário que demonstra como criar uma UDD do Microsoft Excel (caixa de diálogo definida pelo usuário) dentro de uma DLL usando os recursos da caixa de diálogo na API C. Quando GENERIC. XLL é carregado, ele cria um menu definido pelo usuário, genérico, através do qual este comando é acessado.
+Exemplo de comando definido pelo usuário que demonstra como criar uma UDD do Microsoft Excel (caixa de diálogo definida pelo usuário) em uma DLL usando os recursos da caixa de diálogo na API de C. Quando GENERIC.xll é carregado, ele cria um menu definido pelo usuário, Genérico, por meio do qual esse comando é acessado.
   
 ```cs
 int WINAPI fDialog(void);
@@ -31,7 +31,7 @@ int WINAPI fDialog(void);
 
 ## <a name="parameters"></a>Parâmetros
 
-A função não utiliza parâmetros.
+A função não aceita parâmetros.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
@@ -39,7 +39,7 @@ A função sempre retorna 1.
   
 ### <a name="example"></a>Exemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para essa função. 
+Consulte  `\SAMPLES\GENERIC\GENERIC.C` o código-fonte para esta função. 
   
 ## <a name="see-also"></a>Confira também
 

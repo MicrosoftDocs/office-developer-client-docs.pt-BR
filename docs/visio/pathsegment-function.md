@@ -20,14 +20,14 @@ Retorna o número de segmento baseado em 1 na marca de porcentagem especificada 
   
 ## <a name="syntax"></a>Sintaxe
 
-PATHSEGMENT (* * *seção* * *, * * *viagem* * *) 
+PATHSEGMENT(** *section* **, ** *travel* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
-| _transmiti_ <br/> |Obrigatório  <br/> |**Double** <br/> |O percentual do caminho percorrido, do ponto inicial ao ponto final. Deve estar entre 0 e 1.  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _travel_ <br/> |Obrigatório  <br/> |**Double** <br/> |O percentual do caminho percorrido, do ponto inicial ao ponto final. Deve estar entre 0 e 1.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

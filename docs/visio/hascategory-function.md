@@ -25,13 +25,13 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-HASCATEGORY (* * *categoria* * *) 
+HASCATEGORY(** *category* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Categorias_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A categoria a ser procurada.  <br/> |
+| _category_ <br/> |Obrigatório  <br/> |**String** <br/> |A categoria a ser procurada.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -39,6 +39,6 @@ HASCATEGORY (* * *categoria* * *)
   
 ## <a name="remarks"></a>Comentários
 
- As *categorias* são cadeias de caracteres definidas pelo usuário que você pode usar para categorizar formas. Você pode definir categorias na célula User.msvShapeCategories do ShapeSheet para uma forma. Pode também definir várias categorias para uma forma separando-as com ponto-e-vírgula. 
+ *As*  categorias são cadeias de caracteres definidas pelo usuário que você pode usar para categorizar formas. Você pode definir categorias na célula User.msvShapeCategories do ShapeSheet para uma forma. Pode também definir várias categorias para uma forma separando-as com ponto-e-vírgula. 
   
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlUDF
 keywords:
-- função xlUDF [Excel 2007]
+- função xludf [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33430641"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chama uma função definida pelo usuário (UDF). Essa função permite que uma DLL chame funções definidas pelo usuário do Visual Basic for Applications (VBA), funções de linguagem de macro XLM e funções registradas contidas em outros suplementos.
+Chama uma função definida pelo usuário (UDF). Essa função permite que uma DLL chame funções definidas pelo usuário do Visual Basic for Applications (VBA), funções de linguagem de macro XLM e funções registradas contidas em outros complementos.
   
 ```cs
 Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
@@ -33,19 +33,19 @@ LPXLOPER12 pxArg1, ...);
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** ou **xltypeNum**)
   
-A referência da função que você deseja chamar. Pode ser uma referência de célula de planilha de macro, o nome registrado da função como uma cadeia de caracteres ou a ID de registro da função. Para funções de suplemento XLL registradas usando **xlfRegister** ou **Register** com o argumento _pxFunctionText_ fornecido, a ID pode ser obtida usando o **xlfEvaluate** para pesquisar o nome. 
+A referência da função que você deseja chamar. Pode ser uma referência de célula de planilha de macro, o nome registrado da função como uma cadeia de caracteres ou a ID de registro da função. Para funções de complemento XLL registradas usando **xlfRegister** ou **REGISTER** com o argumento  _pxFunctionText_ fornecido, a ID pode ser obtida usando **xlfEvaluate** para procurar o nome. 
   
-_pxArg1,..._
+_pxArg1, ..._
   
-Zero ou mais argumentos para a função definida pelo usuário. Quando você chama essa função em versões anteriores ao Excel 2007, o número máximo de argumentos adicionais que podem ser passados é 29, que é 30 incluindo _pxFnRef_. A partir do Excel 2007, esse limite é aumentado para 254, que é 255, incluindo _pxFnRef_.
+Zero ou mais argumentos para a função definida pelo usuário. Quando você está chamando essa função em versões anteriores ao Excel 2007, o número máximo de argumentos adicionais que podem ser passados é 29, que é 30 incluindo  _pxFnRef_. A partir do Excel 2007, esse limite é elevado a 254, que é 255 incluindo  _pxFnRef_.
   
 ## <a name="return-value"></a>Valor de retorno
 
-Retorna qualquer valor retornado pela função definida pelo usuário.
+Retorna qualquer valor que a função definida pelo usuário tenha retornado.
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir executa o **TestMacro** na planilha MACRO1 no BOOK1. XLS. Certifique-se de que a macro está em uma planilha chamada Macro1. 
+O exemplo a seguir **executa TestMacro** na planilha Macro1 BOOK1.XLS. Certifique-se de que a macro está em uma planilha chamada Macro1. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

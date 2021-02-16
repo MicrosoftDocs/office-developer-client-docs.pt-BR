@@ -19,24 +19,24 @@ ms.locfileid: "33432412"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O atributo **attFrom** é codificado como uma estrutura **TRP** que codifica o nome de exibição e o endereço de email do remetente, seguido do nome para exibição e do endereço do remetente, seguido de qualquer preenchimento necessário. O formato de **attFrom** é o seguinte: 
+O atributo **attFrom** é codificado como uma estrutura **TRP** que codifica o nome para exibição e o endereço de email do remetente, seguido pelo nome de exibição e endereço do remetente, seguido por qualquer preenchimento necessário. O formato para **attFrom** é o seguinte: 
   
-**attFrom**: _TRP-Structure_ Sender-display-name _ Sender-address _ Padding 
+**attFrom**: _preenchimento TRP-structure_ sender-display-name _ sender-address _ 
     
-O Sender-Display-Name é uma cadeia de caracteres terminada em nulo que é preenchida com um caractere nulo adicional, se necessário, para atingir um limite de 2 bytes. O preenchimento no final da codificação **attFrom** consiste em quantos caracteres nulos forem necessários para atingir um limite de **sizeof (TRP)** . 
+O sender-display-name é uma cadeia de caracteres terminada em nulo que é preenchimento com um caractere nulo adicional, se necessário, para atingir um limite de 2 byte. O preenchimento no final da codificação **attFrom** consiste no número de caracteres nulos necessários para atingir um limite de **tamanho (TRP).** 
   
-_TRP-estrutura:_ **trpidOneOff** cbgrtrp cch CB 
+_TRP-structure:_ **trpidOneOff** cbgrtrp cch cb 
     
-Para o item **attFrom** , o **TRP**-Structure sempre é uma codificação única, portanto, o trpid do campo **TRP**-Structure sempre é **trpidOneOff**. Os itens cbgrtrp, cch e CB correspondem aos campos restantes da estrutura **TRP** . 
+Para o item **attFrom,** a estrutura **TRP** é sempre uma codificação única, portanto, o trpid fora do campo de estrutura **TRP** é **sempre trpidOneOff**. Os itens cbgrtrp, cch e cb correspondem aos campos restantes da **estrutura TRP.** 
   
-O campo cbgrtrp é calculado como a soma de **(sizeof (TRP) \*2)**, o comprimento do remetente-display-display-NULL termina com seu enchimento e o comprimento do endereço de remetentes terminada em nulo.
+O campo cbgrtrp é calculado como a soma de **(sizeof(TRP) \* 2),** o comprimento do sender-display-name terminada por nulo com seu preenchimento e o comprimento do endereço de remetente encerrado nulo.
   
-O campo cch é calculado como o comprimento do nome de exibição terminada por caractere nulo com seu preenchimento.
+O campo cch é calculado como o comprimento do nome de exibição terminada em nulo com seu preenchimento.
   
-O campo CB é calculado como o comprimento do endereço de remetentes terminada em nulo.
+O campo cb é calculado como o comprimento do endereço de remetente encerrado nulo.
   
-_remetente-endereço:_ tipo de endereço **:** endereço **' \ 0 '**
+_sender-address:_ address-type **:** address **'\0'**
     
-O endereço do remetente é uma cadeia de caracteres que é composta de quatro partes, o tipo de endereço, um caractere de dois-pontos literal (:), o próprio endereço e um caractere nulo de terminação. Por exemplo, a cadeia `fax:1-909-555-1234\0` de caracteres seria um valor de endereço de remetente legal.
+O endereço do remetente é uma cadeia de caracteres composta de quatro partes, o tipo de endereço, dois-pontos literais (:), o próprio endereço e um caractere nulo de terminação. Por exemplo, a cadeia `fax:1-909-555-1234\0` de caracteres seria um valor de endereço de remetente legal.
   
 

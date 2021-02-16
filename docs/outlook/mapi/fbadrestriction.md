@@ -25,7 +25,7 @@ ms.locfileid: "33432237"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Valida uma restrição usada para limitar um modo de exibição de tabela. 
+Valida uma restrição usada para limitar um exibição de tabela. 
   
 |||
 |:-----|:-----|
@@ -41,22 +41,22 @@ ULONG FBadRestriction(
 
 ## <a name="parameters"></a>Parâmetros
 
- _lpRes_
+ _lpres_
   
-> no Uma estrutura [SRestriction](srestriction.md) que define a restrição a ser validada. 
+> [in] Uma [estrutura SRestriction](srestriction.md) definindo a restrição a ser validada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 TRUE 
   
-> A restrição especificada, ou uma ou mais de suas subrestrições, é inválida. 
+> A restrição especificada, ou uma ou mais de suas sub-restrições, é inválida. 
     
 FALSE 
   
-> A restrição especificada e todas as suas subrestriçãos são válidas.
+> A restrição especificada e todas as suas sub-restrições são válidas.
     
 ## <a name="remarks"></a>Comentários
 
-Depois que uma restrição é validada, ela pode ser transmitida em chamadas para o método imApitable [:: Restrict](imapitable-restrict.md) para restringir a tabela a determinadas linhas, para o método IMAPITable: [: FindRow](imapitable-findrow.md) para localizar uma linha de tabela e para métodos do [IMAPIContainer](imapicontainerimapiprop.md) interface para executar uma restrição em um objeto Container. 
+Depois que uma restrição é validada, ela pode ser passada em chamadas para o método [IMAPITable::Restrict](imapitable-restrict.md) para restringir a tabela a determinadas linhas, para o método [IMAPITable::FindRow](imapitable-findrow.md) para localizar uma linha de tabela e para métodos da interface [IMAPIContainer](imapicontainerimapiprop.md) para executar uma restrição em um objeto contêiner. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33432314"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Permite conversões entre objetos MIME e mensagens MAPI. Isso pode ser útil para transportar mensagens através da Internet.
+Permite conversões entre objetos MIME e mensagens MAPI. Isso pode ser útil no transporte de mensagens pela Internet.
   
 |||
 |:-----|:-----|
@@ -36,22 +36,22 @@ Permite conversões entre objetos MIME e mensagens MAPI. Isso pode ser útil par
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Especifica um catálogo de endereços MAPI opcional que o conversor MAPI para MIME usa para resolver endereços ambíguos ao converter uma mensagem MAPI em um fluxo MIME.  <br/> |
+|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Especifica um Address Book MAPI opcional que o conversor MAPI para MIME usa para resolver endereços ambíguos ao converter uma mensagem MAPI em um fluxo MIME.  <br/> |
 |**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Inicializa a codificação a ser usada durante a conversão.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
 |**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Converte um fluxo MIME em uma mensagem MAPI.  <br/> |
 |**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Converte uma mensagem MAPI em um fluxo MIME.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Define a largura de disposição do texto para um fluxo MIME que o conversor retorna no **MAPIToMIMEStm**.  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Define o formato que o conversor retorna um fluxo MIME no **MAPIToMIMEStm**.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-|**[SetCharset](iconvertersession-setcharset.md)** <br/> |Especifica um conjunto de caracteres opcional que o conversor MAPI para MIME usa ao converter uma mensagem MAPI em um fluxo MIME.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Define a largura da quebra de texto para um fluxo MIME que o conversor retorna em **MAPIToMIMEStm**.  <br/> |
+|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Define o formato que o conversor retorna um fluxo MIME em **MAPIToMIMEStm**.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Especifica um conjunto de caracteres opcional que o conversor MAPI para MIME usa ao converter uma mensagem MAPI em um fluxo MIME.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Chame **setencoding** antes de usar o **MAPIToMIMEStm** para executar a conversão. 
+Chame **SetEncoding antes** de usar **MAPIToMIMEStm** para executar a conversão. 
   
 ## <a name="see-also"></a>Confira também
 

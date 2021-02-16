@@ -25,7 +25,7 @@ ms.locfileid: "33429107"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Atualiza o status na caixa de diálogo enviar/receber. O provedor de repositórios chama periodicamente essa função.
+Atualiza o status na caixa de diálogo Enviar/Receber. O provedor de armazenamento chama periodicamente essa função.
   
 ```cpp
 HRESULT Progress(
@@ -39,7 +39,7 @@ HRESULT Progress(
 
  **pwczsProgress**
   
-> Um ponteiro para uma cadeia de caracteres que exibe a etapa de progresso atual. Pode ser nulo para atualizar o andamento.
+> Um ponteiro para uma cadeia de caracteres que exibe a etapa de progresso atual. Pode ser NULL para atualizar o progresso.
     
  **ulIndex**
   
@@ -53,7 +53,7 @@ HRESULT Progress(
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

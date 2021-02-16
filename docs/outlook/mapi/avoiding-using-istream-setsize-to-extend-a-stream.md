@@ -1,5 +1,5 @@
 ---
-title: Evitando o uso do IStreamSetSize para estender um fluxo
+title: Evitando o uso de IStreamSetSize para estender um fluxo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428911"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitando o uso de IStream:: SetSize para estender um fluxo
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitando o uso de IStream::SetSize para estender um fluxo
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ao gravar em fluxos, às vezes é necessário aumentá-los, pois seu tamanho inicial não é mais suficiente. Use o método OLE **IStream:: Write** para realizar isso em vez de **IStream:: SetSize**. **IStream:: Write** estende automaticamente o fluxo, fazendo * * IStream:: SetSize * * desnecessário. Chamar **IStream:: Write** sem **IStream:: SetSize** pode ser até três vezes mais rápido do que **** fazer a chamada SetSize antes da **gravação**.
+Ao escrever em fluxos, às vezes é necessário ampliá-los porque seu tamanho inicial não é mais suficiente. Use o método OLE **IStream::Write** para fazer isso em vez de **IStream::SetSize**. **IStream::Write** estende automaticamente o fluxo, tornando ** IStream::SetSize ** desnecessário. Chamar **IStream::Write** sem **IStream::SetSize** pode ser até três vezes mais rápido do que fazer a chamada **SetSize** antes de **Gravar.**
   
 

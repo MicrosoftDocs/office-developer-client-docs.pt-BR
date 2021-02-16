@@ -18,12 +18,12 @@ ms.locfileid: "33429394"
 ---
 # <a name="protection-section"></a>Seção Protection
 
-Mostra as configurações de bloqueio atuais definidas com o comando de **proteção** (guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) ) e alguns bloqueios adicionais que podem ser definidos somente em uma janela ShapeSheet. 
+Mostra as configurações de  bloqueio atuais definidas com o comando Proteção [(guia](run-in-developer-mode-display-the-developer-tab.md) Desenvolvedor), além de alguns bloqueios adicionais que só podem ser definidos em uma janela ShapeSheet. 
   
 ## <a name="remarks"></a>Comentários
 
 A proteção ajuda a evitar alterações não-desejadas à forma, mas não evita que valores sejam redefinidos em outras circunstâncias. Ela também não protege contra as alterações feitas na janela ShapeSheet.
   
-Para proteger uma fórmula contra alteração, use a função **Guard** . 
+Para proteger uma fórmula contra alteração, use a **função** GUARD. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Criar um perfil
+title: Criando um perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432685"
 ---
-# <a name="creating-a-profile"></a>Criar um perfil
+# <a name="creating-a-profile"></a>Criando um perfil
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um cliente pode criar um perfil de uma das duas maneiras, usando o assistente de perfil ou escrevendo código personalizado.
+Um cliente pode criar um perfil de duas maneiras, usando o Assistente de Perfil ou escrevendo código personalizado.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criar um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
+[Criando um perfil usando o Assistente de Perfil](creating-a-profile-by-using-the-profile-wizard.md)
   
-> Descreve como invocar o assistente de perfil, um aplicativo que cria um perfil permitindo que o usuário escolha serviços de mensagens e provedores de serviço interativamente.
+> Descreve como invocar o Assistente de Perfil, um aplicativo que cria um perfil, permitindo que o usuário escolha serviços de mensagem e provedores de serviços de forma interativa.
     
-[Criar um perfil usando um código personalizado](creating-a-profile-by-using-custom-code.md)
+[Criando um perfil usando código personalizado](creating-a-profile-by-using-custom-code.md)
   
-> Descreve como escrever código C ou C++, geralmente a melhor opção para aplicativos cliente não-interativos que exigem um conjunto específico de serviços de mensagens.
+> Descreve como escrever código C ou C++, geralmente a melhor opção para aplicativos cliente não inativos que exigem um conjunto específico de serviços de mensagens.
     
 

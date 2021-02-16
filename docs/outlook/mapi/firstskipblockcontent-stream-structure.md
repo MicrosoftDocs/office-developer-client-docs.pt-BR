@@ -1,5 +1,5 @@
 ---
-title: Estrutura de fluxo FirstSkipBlockContent
+title: Estrutura de fluxo firstSkipBlockContent
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433924"
 ---
-# <a name="firstskipblockcontent-stream-structure"></a>Estrutura de fluxo FirstSkipBlockContent
+# <a name="firstskipblockcontent-stream-structure"></a>Estrutura de fluxo firstSkipBlockContent
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A estrutura de fluxo FirstSkipBlockContent é o conteúdo da primeira estrutura [SkipBlock](skipblock-stream-structure.md) no elemento de dados SkipBlocks de um Stream [FieldDefinition](fielddefinition-stream-structure.md) . O fluxo FirstSkipBlockContent é simplesmente um único elemento de dados, FieldName: 
+A estrutura de fluxo FirstSkipBlockContent é o conteúdo da primeira estrutura [SkipBlock](skipblock-stream-structure.md) no elemento de dados SkipBlocks de um fluxo [FieldDefinition.](fielddefinition-stream-structure.md) O fluxo FirstSkipBlockContent é simplesmente um único elemento de dados, FieldName: 
   
 - FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), o nome do campo.
     
@@ -33,5 +33,5 @@ A estrutura de fluxo FirstSkipBlockContent é o conteúdo da primeira estrutura 
   
 [Estrutura de fluxo SkipBlock](skipblock-stream-structure.md)
   
-[Estrutura de fluxo PackedUnicodeString](packedunicodestring-stream-structure.md)
+[Estrutura de fluxo de PackedUnicodeString](packedunicodestring-stream-structure.md)
 

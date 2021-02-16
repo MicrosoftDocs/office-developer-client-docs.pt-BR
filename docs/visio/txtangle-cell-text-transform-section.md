@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251272
 localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
-description: Determina o ângulo de rotação atual do bloco de texto em relação ao eixo x da forma. O padrão é 0 grau.
+description: Determina o ângulo atual de rotação do bloco de texto em relação ao eixo x da forma. O padrão é 0 grau.
 ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432167"
 ---
 # <a name="txtangle-cell-text-transform-section"></a>Célula TxtAngle (Seção Text Transform)
 
-Determina o ângulo de rotação atual do bloco de texto em relação ao eixo *x* da forma. O padrão é 0 grau. 
+Determina o ângulo de rotação atual do bloco de texto em relação ao eixo  *x*  da forma. O padrão é 0 grau. 
   
 ## <a name="remarks"></a>Comentários
 

@@ -22,13 +22,13 @@ Especifica o tipo de sombra para uma forma.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Usar página padrão (padrão)  <br/> |**visFSTPageDefault** <br/> |
-|1  <br/> |Simples  <br/> |**visFSTSimple** <br/> |
-|duas  <br/> |Oblíqua  <br/> |**visFSTOblique** <br/> |
+|0  <br/> |Usar página padrão (padrão)  <br/> |**visFSTPageDefault** <br/> |
+|1   <br/> |Simples  <br/> |**visFSTSimple** <br/> |
+|2   <br/> |Oblíqua  <br/> |**visFSTOblique** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use esta célula para aplicar uma sombra de forma diferente da página padrão (o tipo de sombra padrão da página é definido na célula ShdwType na seção Page Properties).
+Use esta célula para aplicar uma sombra de forma diferente do padrão de página (o tipo de sombra padrão da página é definido na célula ShdwType na seção Page Properties).
   
 Os tipos de sombra simples são descritos como sombras deslocadas na interface do usuário (UI). Uma sombra simples dá o efeito na forma sendo sombreada em um plano paralelo localizado atrás dela. As sombras oblíquas são descritas como tal na UI e apresentam o efeito de uma sombra sendo moldada em um plano perpendicular à forma. 
   
@@ -46,6 +46,6 @@ Para obter uma referência para a célula ShapeShdwType pelo índice, a partir d
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowFill** <br/> |
-|Índice da célula:  <br/> |**visFillShdwType** <br/> |
+|Índice de célula:  <br/> |**visFillShdwType** <br/> |
    
 

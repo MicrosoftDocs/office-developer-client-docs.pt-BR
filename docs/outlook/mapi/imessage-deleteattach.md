@@ -40,23 +40,23 @@ ULONG ulFlags
 
  _ulAttachmentNum_
   
-> no Número de índice do anexo a ser excluído. Este é o valor da propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.
+> [in] Número de índice do anexo a ser excluído. Esse é o valor da propriedade PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.
     
  _ulUIParam_
   
-> no Manipulador para a janela pai de qualquer caixa de diálogo ou Windows este método é exibido. O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador ATTACH_DIALOG esteja definido no parâmetro _parâmetroulflags_ . 
+> [in] Alça para a janela pai de quaisquer caixas de diálogo ou janelas que esse método exibe. O _parâmetro ulUIParam é_ ignorado, a menos que o ATTACH_DIALOG padrão seja definido no parâmetro _ulFlags._ 
     
  _lpProgress_
   
-> no Ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador ATTACH_DIALOG esteja definido em _parâmetroulflags_.
+> [in] Ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O  _parâmetro lpProgress_ é ignorado, a menos que o sinalizador ATTACH_DIALOG seja definido em  _ulFlags_.
     
  _ulFlags_
   
-> no Bitmask de sinalizadores que controla a exibição de uma interface de usuário. O seguinte sinalizador pode ser definido:
+> [in] Máscara de bits de sinalizadores que controla a exibição de uma interface do usuário. O sinalizador a seguir pode ser definido:
     
 ATTACH_DIALOG 
   
-> Solicita a exibição de um indicador de progresso à medida que a operação prossegue.
+> Solicita a exibição de um indicador de progresso à medida que a operação prossesse.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -66,15 +66,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::D eleteattach** exclui um anexo de dentro de uma mensagem. 
+O **método IMessage::D eleteAttach** exclui um anexo de dentro de uma mensagem. 
   
-Um anexo excluído não é excluído permanentemente até que o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da mensagem seja chamado. 
+Um anexo excluído não é excluído permanentemente até que o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem tenha sido chamado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Antes de chamar **DeleteAttach**, chame o método **IUnknown:: Release** para o anexo e cada um de seus fluxos. 
+Antes de **chamar DeleteAttach,** chame o **método IUnknown::Release** para o anexo e cada um de seus fluxos. 
   
-Como a exclusão de um anexo pode ser um processo demorado, o **DeleteAttach** fornece o mecanismo que exibe um indicador de progresso. Você pode solicitar a exibição de um indicador de progresso passando um ponteiro para sua implementação [método imapiprogress: IUnknown](imapiprogressiunknown.md) ou nulo se não tiver uma implementação. Você também deve especificar um identificador de janela no parâmetro _ulUIParam_ e o sinalizador ATTACH_DIALOG no parâmetro _parâmetroulflags_ . 
+Como a exclusão de um anexo pode ser um processo demorado, **DeleteAttach** fornece o mecanismo que exibe um indicador de progresso. Você pode solicitar a exibição de um indicador de progresso passando um ponteiro para seu [IMAPIProgress : implementação IUnknown](imapiprogressiunknown.md) ou NULL se você não tiver uma implementação. Você também deve especificar um alça de janela no _parâmetro ulUIParam_ e o sinalizador ATTACH_DIALOG no _parâmetro ulFlags._ 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -82,7 +82,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|AttachmentsDlg. cpp  <br/> |CAttachmentsDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMessage::D eleteattach** para excluir o anexo selecionado.  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o **método IMessage::D eleteAttach** para excluir o anexo selecionado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

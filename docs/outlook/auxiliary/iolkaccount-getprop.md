@@ -33,23 +33,23 @@ ACCT_VARIANT *pVar
 
 _dwProp_
   
-> no A marca de propriedade da propriedade Account a ser obtida.
+> [in] A marca de propriedade da propriedade da conta a ser obter.
     
 _pVar_
   
-> bota O valor da propriedade especificada.
+> [out] O valor da propriedade especificada.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |A propriedade não é encontrada para a conta determinada.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |A propriedade não foi encontrada para a conta determinada.  <br/> |
 |E_INVALIDARG  <br/> |Uma marca de propriedade inválida foi especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Depois que esse método retornar, se o valor da propriedade Account for um tipo de cadeia de caracteres ou binário, você deverá liberar *pvar* usando [IOlkAccount:: freememory](iolkaccount-freememory.md).
+Depois que esse método retornar, se o valor da propriedade da conta for um tipo binário ou de cadeia de caracteres, você deverá liberar  *pVar*  usando [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>Confira também
 

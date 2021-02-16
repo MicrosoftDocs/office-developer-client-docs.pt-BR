@@ -32,15 +32,15 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 _dwAcctID_
   
-> no A ID da conta a ser excluída.
+> [in] A ID da conta a ser excluída.
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
-|S_OK  <br/> |A chamada teve êxito  <br/> |
+|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |A conta especificada não pode ser encontrada.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerenciador de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

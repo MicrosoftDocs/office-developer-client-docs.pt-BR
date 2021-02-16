@@ -25,13 +25,13 @@ ms.locfileid: "33430676"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de ponto de entrada do provedor de serviços que o assistente de perfil chama para recuperar informações suficientes para exibir as folhas de propriedades de configuração do provedor. 
+Define uma função de ponto de entrada do provedor de serviços que o Assistente de Perfil chama para recuperar informações suficientes para exibir as folhas de propriedades de configuração do provedor. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiwz. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiwz.h  <br/> |
 |Função definida implementada por:  <br/> |Provedores de serviços  <br/> |
-|Função definida chamada por:  <br/> |Assistente de perfil MAPI  <br/> |
+|Função definida chamada por:  <br/> |Assistente de Perfil MAPI  <br/> |
    
 ```cpp
 ULONG WIZARDENTRY(
@@ -47,23 +47,23 @@ ULONG WIZARDENTRY(
 
  _hProviderDLLInstance_
   
-> no Identificador de instância da DLL do provedor de serviços. 
+> [in] Alça de instância da DLL do provedor de serviços. 
     
  _lpcsResourceName_
   
-> bota Ponteiro para uma cadeia de caracteres que contém o nome completo do recurso de caixa de diálogo que deve ser exibido pelo assistente de perfil durante a configuração. O tamanho máximo da cadeia de caracteres, incluindo o terminador nulo, é de 32 caracteres. 
+> [out] Ponteiro para uma cadeia de caracteres que contém o nome completo do recurso de caixa de diálogo que deve ser exibido pelo Assistente de Perfil durante a configuração. O tamanho máximo da cadeia de caracteres, incluindo o terminador NULL, é de 32 caracteres. 
     
  _lppDlgProc_
   
-> bota Ponteiro para um procedimento de caixa de diálogo padrão do Windows que será chamado pelo assistente de perfil para notificar o provedor de vários eventos. 
+> [out] Ponteiro para um procedimento de caixa de diálogo padrão do Windows que será chamado pelo Assistente de Perfil para notificar o provedor de vários eventos. 
     
  _lpMAPIProp_
   
-> no Ponteiro para uma implementação de interface de propriedade que fornece acesso às propriedades de configuração. 
+> [in] Ponteiro para uma implementação de interface de propriedade que fornece acesso às propriedades de configuração. 
     
  _lpMapiSupportObject_
   
-> no Ponteiro para o objeto de suporte MAPI aplicável a esta sessão.
+> [in] Ponteiro para o objeto de suporte MAPI aplicável a esta sessão.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -73,20 +73,20 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Um erro de origem inesperada ou desconhecida impediu a conclusão da operação.
+> Um erro de origem inesperada ou desconhecida impedia a conclusão da operação.
     
 ## <a name="remarks"></a>Comentários
 
-O assistente de perfil chama a função baseada em **WIZARDENTRY** quando estiver pronto para exibir a interface do usuário de configuração do provedor de serviços. Quando o assistente de perfil tiver concluído a configuração de todos os provedores, ele gravará as propriedades de configuração no perfil chamando [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
+O Assistente de Perfil chama a função baseada em **WIZARDENTRY** quando ela está pronta para exibir a interface do usuário de configuração do provedor de serviços. Quando o Assistente de Perfil terminar de configurar todos os provedores, ele grava as propriedades de configuração no perfil chamando [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-O nome da função baseada em **WIZARDENTRY** deve ser colocado na entrada WIZARD_ENTRY_NAME no MAPISVC. inf. 
+O nome da função **com base EM WIZARDENTRY** deve ser colocado na WIZARD_ENTRY_NAME entrada MAPISVC.INF. 
   
-O nome do recurso é o do recurso de caixa de diálogo que será renderizado no painel do assistente de perfil. O recurso que é passado precisa conter todas as páginas em um único recurso de caixa de diálogo. Quando o assistente de perfil recebe esse recurso, ele ignora o estilo da caixa de diálogo, mas não os estilos de controle e cria todos os controles como filhos da página do assistente de perfil. Todos os controles estão inicialmente ocultos. Os provedores devem certificar-se de que as coordenadas de seus controles são zero ou com base em zero e que não excedem uma largura máxima de 200 unidades de diálogo e uma altura máxima de 150 de unidades de diálogo. Os identificadores de controle abaixo de 400 estão reservados para o assistente de perfil. O assistente de perfil exibe o título do provedor em negrito, acima da interface do usuário do provedor. 
+O nome do recurso é o do recurso de caixa de diálogo que será renderizado no painel do Assistente de Perfil. O recurso que é passado para trás precisa conter todas as páginas em um único recurso de caixa de diálogo. Quando o Assistente de Perfil recebe esse recurso, ele ignora o estilo da caixa de diálogo, mas não os estilos de controle, e cria todos os controles como filhos da página do Assistente de Perfil. Todos os controles são inicialmente ocultos. Os provedores devem garantir que as coordenadas para seus controles sejam baseadas em zero ou zero e que não excedam uma largura máxima de 200 unidades de diálogo e uma altura máxima de 150 unidades de diálogo. Os identificadores de controle abaixo de 400 são reservados para o Assistente de Perfil. O Assistente de Perfil exibe o título do provedor em negrito acima da interface do usuário do provedor. 
   
-O ponteiro de interface de propriedade fornecido no parâmetro _lpMAPIProp_ deve ser mantido pelo provedor para referência futura. O assistente de perfil lida apenas com o conjunto de propriedades mais básico e o provedor pode usar a implementação da interface de propriedade para incluir propriedades adicionais. Durante a configuração, os provedores devem adicionar suas propriedades de configuração ao objeto que está implementando a interface de propriedade. Após todos os provedores terem sido configurados, o assistente de perfil adiciona essas propriedades ao perfil. 
+O ponteiro da interface de propriedade fornecido no  _parâmetro lpMAPIProp_ deve ser mantido pelo provedor para referência futura. O Assistente de Perfil lida apenas com o conjunto mais básico de propriedades, e o provedor pode usar a implementação da interface de propriedade para incluir propriedades adicionais. Durante a configuração, os provedores devem adicionar suas propriedades de configuração ao objeto que está implementando a interface de propriedade. Depois que todos os provedores foram configurados, o Assistente de Perfil adiciona essas propriedades ao perfil. 
   
-Para obter mais informações sobre como usar essa função, consulte [supportIng Message Service Configuration](supporting-message-service-configuration.md). 
+Para obter mais informações sobre como usar essa função, consulte Suporte à configuração [do serviço de mensagens.](supporting-message-service-configuration.md) 
   
 

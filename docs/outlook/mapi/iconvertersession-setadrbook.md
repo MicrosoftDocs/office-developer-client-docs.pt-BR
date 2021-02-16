@@ -25,7 +25,7 @@ ms.locfileid: "33429191"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica um catálogo de endereços MAPI opcional que o conversor MAPI para MIME usa para resolver endereços ambíguos ao converter uma mensagem MAPI em um fluxo MIME.
+Especifica um Address Book MAPI opcional que o conversor MAPI para MIME usa para resolver endereços ambíguos ao converter uma mensagem MAPI em um fluxo MIME.
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
@@ -34,19 +34,19 @@ LPADRBOOK pab);
 
 ## <a name="parameters"></a>Parâmetros
 
- _PAB_
+ _pab_
   
-> no Ponteiro para uma interface [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) a ser usada na conversão de MAPI para MIME. Defina esse parâmetro como **nulo** quando não precisar mais do catálogo de endereços; Isso libera a interface e redefine o conversor para não usar qualquer catálogo de endereços. 
+> [in] Ponteiro para um [IAddrBook : interface IMAPIProp](iaddrbookimapiprop.md) a ser usada na conversão MAPI para MIME. De definir esse parâmetro como **nulo** quando você não precisar mais do Address Book; isso libera a interface e redefine o conversor para não usar o Address Book. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> A chamada de função foi bem-sucedida.
+> A chamada de função é bem-sucedida.
     
 ## <a name="remarks"></a>Comentários
 
-A conversão de uma mensagem MAPI em fluxo MIME geralmente não requer o logon em um perfil MAPI. No enTanto, a especificação de um catálogo de endereços MAPI para conversão exige logon em um perfil para obter o catálogo de endereços.
+A conversão de uma mensagem MAPI em fluxo MIME geralmente não requer logor em um perfil MAPI. No entanto, a especificação de um Address Book MAPI para conversão requer o registro em um perfil para obter o Address Book.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -54,8 +54,8 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

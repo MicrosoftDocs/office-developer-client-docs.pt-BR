@@ -37,31 +37,31 @@ HRESULT SaveForm(
 
  _szFileName_
   
-> no Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário, onde sua descrição é salva. Esse nome de arquivo deve ter a extensão. FDM.
+> [in] Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário onde sua descrição é salva. Esse nome de arquivo deve ter a extensão .fdm.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_EXTENDED_ERROR 
   
-> Não foi possível gravar o arquivo de configuração. Para obter a estrutura [MAPIERROR](mapierror.md) associada ao erro, chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . 
+> Não foi possível escrever o arquivo de configuração. Para obter a [estrutura MAPIERROR](mapierror.md) associada ao erro, chame o método [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) 
     
 MAPI_E_NO_SUPPORT 
   
-> **SaveForm** provavelmente foi chamado para salvar um formulário no contêiner de formulário local. Não há suporte para **SaveForm** no contêiner de formulários local. 
+> **SaveForm** provavelmente foi chamado para salvar um formulário no contêiner de formulário local. **SaveForm** não é suportado no contêiner de formulário local. 
     
 ## <a name="remarks"></a>Comentários
 
-Os aplicativos cliente chamam o método **IMAPIFormInfo:: SaveForm** para salvar uma descrição do formulário atual no arquivo com o nome de arquivo especificado. **SaveForm** cria um arquivo de configuração. 
+Os aplicativos cliente chamam o método **IMAPIFormInfo::SaveForm** para salvar uma descrição do formulário atual no arquivo que tem o nome de arquivo determinado. **SaveForm** cria um arquivo de configuração. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode reinstalar formulários selecionando-os em uma lista de mensagens do descritor de formulários em uma caixa de diálogo que os provedores de biblioteca de formulários exibem. A extensão recomendada para mensagens do descritor de formulários é. FDM.
+Você pode reinstalar formulários selecionando-os em uma lista de mensagens de descritor de formulário em uma caixa de diálogo exibida pelos provedores de biblioteca de formulários. A extensão recomendada para mensagens de descritor de formulário é .fdm.
   
-Chame o método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) se **SaveForm** retornar MAPI_E_EXTENDED_ERROR e marque a estrutura de **MAPIERROR** retornada para determinar a condição que causou o erro. 
+Chame o [método IMAPIProp::GetLastError](imapiprop-getlasterror.md) se **SaveForm** retornar MAPI_E_EXTENDED_ERROR e verifique a estrutura **MAPIERROR** retornada para determinar a condição que causou o erro. 
   
 ## <a name="see-also"></a>Confira também
 

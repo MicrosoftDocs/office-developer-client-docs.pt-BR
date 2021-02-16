@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433721"
 ---
-# <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
+# <a name="exchange_store_version_num"></a>EXCHANGE_STORE_VERSION_NUM
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Armazena informações de versão do Microsoft Exchange Server nas quais contas de um perfil do Microsoft Office Outlook estão conectadas.
+Armazena informações de versão para o Microsoft Exchange Server que contas em um perfil do Microsoft Office Outlook estão conectadas.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -39,19 +39,19 @@ typedef struct {
 
  _wMajorVersion_
   
-- Número de versão principal que geralmente é incrementado quando uma versão contém novos recursos e alterações consideráveis na funcionalidade.
+- Número da versão principal que geralmente é incrementado quando uma versão contém novos recursos significativos e alterações na funcionalidade.
     
  _wMinorVersion_
   
-- Número de versão secundário que corresponde a um número de versão principal específico e que geralmente é incrementado quando uma versão contém novos recursos secundários ou correções significativas.
+- Número de versão secundária que corresponde a um número de versão principal específico e que geralmente é incrementado quando uma versão contém pequenos recursos novos ou correções significativas.
     
  _wBuild_
   
-- Número de compilação principal que corresponde aos números de versão principal e secundária e que geralmente é incrementado em uma versão interna que contém novos recursos ou correções. Esse valor também é incrementado quando o lançamento é uma ramificação de código interno principal ou uma etapa, como um candidato de versão.
+- Número de com build principal que corresponde a números de versão principais e secundárias específicos e que geralmente é incrementado em uma versão interna que contém novos recursos ou correções. Esse valor também é incrementado quando a versão é uma ramificação de código interna importante ou um marco, como um candidato de versão.
     
  _wMinorBuild_
   
-- Número de compilação secundário que geralmente é incrementado em uma versão interna que contém novos recursos ou correções correspondentes a uma compilação principal específica que indica uma ramificação de código principal ou Marco.
+- Número de com build secundário que geralmente é incrementado em uma versão interna que contém novos recursos ou correções correspondentes a uma com build principal específica que denota uma ramificação ou etapa de código principal.
     
 ## <a name="see-also"></a>Confira também
 

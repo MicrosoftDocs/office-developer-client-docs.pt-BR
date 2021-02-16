@@ -1,5 +1,5 @@
 ---
-title: Célula YGridDensity (seção &amp; Ruler Grid)
+title: Célula YGridDensity (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429807"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (seção &amp; Ruler Grid)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (Seção Ruler &amp; Grid)
 
 Especifica o tipo de grade vertical a ser utilizada.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
-|duas  <br/> |Grande  <br/> |**visGridCoarse** <br/> |
+|0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
+|2   <br/> |Insupernte  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
-|8   <br/> |Funciona  <br/> |**visGridFine** <br/> |
+|8   <br/> |Bem  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção espaçamento da **grade** vertical da caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Essa célula corresponde à opção de espaçamento **vertical** Grid  na caixa de diálogo **Grade &amp;** de Régua (na guia Exibir, clique na **seta Mostrar).** 
   
 Para obter uma referência para a célula YGridDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
@@ -43,6 +43,6 @@ Para obter uma referência para a célula YGridDensity pelo índice, a partir de
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visYGridDensity** <br/> |
+|Índice de célula:  <br/> |**visYGridDensity** <br/> |
    
 

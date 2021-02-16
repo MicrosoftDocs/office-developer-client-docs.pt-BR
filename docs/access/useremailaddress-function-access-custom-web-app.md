@@ -1,5 +1,5 @@
 ---
-title: Função userEmailAddress (aplicativo Web personalizado do Access)
+title: Função UserEmailAddress (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431159"
 ---
-# <a name="useremailaddress-function-access-custom-web-app"></a>Função userEmailAddress (aplicativo Web personalizado do Access)
+# <a name="useremailaddress-function-access-custom-web-app"></a>Função UserEmailAddress (aplicativo Web personalizado do Access)
 
 Retorna o endereço de email do usuário atual.
   
@@ -23,10 +23,10 @@ Retorna o endereço de email do usuário atual.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Useremailaddress** () 
+ **UserEmailAddress** () 
   
 ## <a name="remarks"></a>Comentários
 
-A **** função useremailaddress está disponível somente em macros da interface do usuário (UI). 
+A **função UserEmailAddress** só está disponível em macros de interface do usuário .. 
   
 

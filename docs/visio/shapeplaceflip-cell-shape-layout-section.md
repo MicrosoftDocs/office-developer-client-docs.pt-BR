@@ -22,9 +22,9 @@ Determina como as formas de colocação são invertidas, giradas, ou ambos, na p
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Utilizar padrão de página.  <br/> |**visLOFlipDefault** <br/> |
-|1  <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
-|duas  <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
+|0  <br/> |Utilizar padrão de página.  <br/> |**visLOFlipDefault** <br/> |
+|1   <br/> |Inverter horizontalmente.  <br/> |**visLOFlipX** <br/> |
+|2   <br/> |Inverter verticalmente.  <br/> |**visLOFlipY** <br/> |
 |4   <br/> |Inverter em incrementos de 90 graus entre 0 e 270.  <br/> |**visLOFlipRotate** <br/> |
 |8   <br/> |Não inverter.  <br/> |**visLOFlipNone** <br/> |
    
@@ -32,7 +32,7 @@ Determina como as formas de colocação são invertidas, giradas, ou ambos, na p
 
 O valor na célula ShapePlaceFlip ajuda a orientar uma forma de colocação em direção à próxima forma de colocação à qual está conectada.
   
-Para definir esse comportamento para *todas* as formas na página de desenho, use a célula PlaceFlip na seção Page Layout. 
+Para definir esse comportamento para  *todas as*  formas na página de desenho, use a célula PlaceFlip na seção Page Layout. 
   
 Para obter uma referência para a célula ShapePlaceFlip pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

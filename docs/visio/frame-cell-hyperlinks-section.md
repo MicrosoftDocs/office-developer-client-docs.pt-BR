@@ -26,7 +26,7 @@ Para fazer referência à célula Frame pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *nome* . Quadro onde hiperlink.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *nome*  . Quadro onde Hiperlink.  *nome*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Frame pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

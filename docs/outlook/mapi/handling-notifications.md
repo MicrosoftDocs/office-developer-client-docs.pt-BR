@@ -19,32 +19,32 @@ ms.locfileid: "33429156"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As notificações permitem que um objeto informe a outro objeto que passou por uma alteração. O tipo de alteração é conhecido como um evento. O MAPI define vários eventos para os quais as notificações são geradas. 
+As notificações permitem que um objeto informe a outro objeto que ele passou por uma alteração. O tipo de alteração é conhecido como um evento. MAPI define vários eventos para os quais as notificações são geradas. 
   
-Os clientes normalmente se registram em um ou mais eventos com um ou mais objetos. Esses objetos são chamados de fontes de aviso. Os objetos que podem atuar como fontes de aviso incluem o objeto Session, no controle MAPI ou um objeto criado por um provedor de serviços, como uma mensagem. O objeto informado, chamado de coletor de aviso, contém uma implementação da interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) ou da interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) e está dentro de um aplicativo cliente. 
+Os clientes normalmente se registram para um ou mais eventos com um ou mais objetos. Esses objetos são chamados de fontes de consultoria. Os objetos que podem atuar como fontes de consultoria incluem o objeto de sessão, sob o controle de MAPI ou um objeto criado por um provedor de serviços, como uma mensagem. O objeto informado, chamado de evento de alerta, contém uma implementação da interface [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) ou [IMAPIViewAdviseSink : interface IUnknown](imapiviewadvisesinkiunknown.md) e está dentro de um aplicativo cliente. 
   
-Avisar os objetos de origem implementam um método **Advise** , que é chamado por clientes para se registrarem para notificações, e um método **Unadvise** , que é chamado para cancelar um registro. Um dos parâmetros a serem **aconselhados** é um ponteiro para uma implementação de **IMAPIAdviseSink** ou * * IMAPIViewAdviseSink * *. A fonte de aviso armazena esse ponteiro para que ele possa chamar [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) ou um dos métodos no **IMAPIViewAdviseSink** quando ocorre uma alteração. 
+Os objetos de origem de aviso implementam um método **Advise,** que é chamado pelos clientes para se registrarem para notificações e um método **Unadvise,** que é chamado para cancelar um registro. Um dos parâmetros  a ser aconselhado é um ponteiro para uma implementação de **IMAPIAdviseSink** ou ** IMAPIViewAdviseSink **. A fonte de consultoria armazena esse ponteiro em cache para que ele possa chamar [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ou um dos métodos em **IMAPIViewAdviseSink** quando ocorrer uma alteração. 
   
-Como as notificações de recebimento permitem que os usuários vejam as informações mais atualizadas, é recomendável que todos os clientes registrem e manipulem notificações. No enTanto, é opcional.
+Como o recebimento de notificações permite que os usuários vejam as informações mais atualizadas, é recomendável que todos os clientes se registrem e manipularem as notificações. No entanto, é opcional.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Registro de uma notificação](registering-for-a-notification.md): descreve como registrar um cliente para notificações como parte do processo de inicialização.
+- [Registro para uma notificação:](registering-for-a-notification.md)descreve como registrar um cliente para notificações como parte de seu processo de inicialização.
     
-- [Cancelar uma notificação](canceling-a-notification.md): descreve como cancelar uma assinatura para uma notificação.
+- [Cancelando uma notificação:](canceling-a-notification.md)descreve como cancelar uma assinatura para uma notificação.
     
-- [Tratamento de notificação do repositório de mensagens](handling-message-store-notification.md): descreve como se registrar para notificações de repositório de mensagens.
+- [Manipulação de notificação do armazenamento](handling-message-store-notification.md)de mensagens: descreve como registrar-se para notificações do armazenamento de mensagens.
     
-- [Envio da notificação do catálogo de endereços](handing-address-book-notification.md): descreve como registrar e lidar com notificações do catálogo de endereços.
+- [Handing Address Book Notification](handing-address-book-notification.md): Descreve como registrar e manipular notificações do livro de endereços.
     
-- [Tratamento da notificação de tabela](handling-table-notification.md): descreve como se registrar para notificações da tabela de hierarquia.
+- [Manipulação de notificação de](handling-table-notification.md)tabela: descreve como registrar para notificações da tabela de hierarquia.
     
-- [Implementar um objeto de coletor de aviso](implementing-an-advise-sink-object.md): descreve como implementar um objeto de coletor de aviso.
+- [Implementando um objeto Sink advise:](implementing-an-advise-sink-object.md)descreve como implementar um objeto sink de aconselhá-lo.
     
-- [Cronometrar uma notificação](timing-a-notification.md): descreve o intervalo de notificação de cliente por provedores de serviços.
+- [Tempo de uma notificação:](timing-a-notification.md)descreve o tempo de notificação do cliente pelos provedores de serviços.
     
-- [Garantir uma notificação segura para thread](ensuring-a-thread-safe-notification.md): descreve como garantir a notificação segura para thread com MAPI.
+- [Garantir uma notificação Thread-Safe:](ensuring-a-thread-safe-notification.md)descreve como garantir a notificação de thread-safe com MAPI.
     
-- [Forçar uma notificação](forcing-a-notification.md): descreve como forçar uma notificação em MAPI.
+- [Forçar uma notificação:](forcing-a-notification.md)descreve como forçar uma notificação em MAPI.
     
 

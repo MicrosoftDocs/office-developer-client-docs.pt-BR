@@ -22,10 +22,10 @@ Determina o tipo de layout e o método pelo qual o desenho é analisado antes de
   
 |**Valor**|**Profundidade do deslocamento para layouts verticais e horizontais**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Padrão da página  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 1  <br/> | Médio  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| duas  <br/> | Detalhadas  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3D  <br/> | Superficial  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 0  <br/> | Padrão da página  <br/> |**visPLOPlaceDepthDefault** <br/> |
+| 1   <br/> | Médio  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 2   <br/> | Profundidade  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3   <br/> | Superficial  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
