@@ -1,5 +1,5 @@
 ---
-title: Tabelas de perfis
+title: Tabelas de Perfis
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424347"
 ---
-# <a name="profile-tables"></a>Tabelas de perfis
+# <a name="profile-tables"></a>Tabelas de Perfis
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A tabela de perfis lista informações sobre todos os perfis associados a um aplicativo cliente específico. Há uma tabela de perfil para cada sessão, implementada pelo MAPI para uso por clientes. 
+A tabela de perfil lista informações sobre todos os perfis associados a um aplicativo cliente específico. Há uma tabela de perfil para cada sessão, implementada pelo MAPI para uso por clientes. 
   
-Os clientes acessam a tabela de perfis chamando o método [IProfAdmin::](iprofadmin-getprofiletable.md) getprofiletable. 
+Os clientes acessam a tabela de perfil chamando o [método IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
   
-A tabela de perfil é uma tabela estática. Os perfis marcados para exclusão não estão incluídos na tabela de perfis.
+A tabela de perfil é uma tabela estática. Perfis que foram marcados para exclusão não estão incluídos na tabela de perfil.
   
-Assim como ocorre com a maioria das **** implementações de tabelas, se getprofiletable é chamado e não há perfis disponíveis para o cliente, a tabela é criada com zero linhas. 
+Assim como na maioria das implementações de tabela, se **GetProfileTable** for chamado e não houver perfis disponíveis para o cliente, a tabela será criada com zero linhas. 
   
-As propriedades a seguir compõem o conjunto de colunas necessárias nas tabelas de perfis:
+As propriedades a seguir compom o conjunto de colunas necessário nas tabelas de perfil:
   
  **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   

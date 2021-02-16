@@ -38,19 +38,19 @@ HRESULT GetRecipientTable(
 
  _ulFlags_
   
-> no Bitmask dos sinalizadores que controlam o retorno da tabela. Os seguintes sinalizadores podem ser definidos:
+> [in] Máscara de bits de sinalizadores que controla o retorno da tabela. Os sinalizadores a seguir podem ser definidos:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **** que GetRecipientTable seja retornado com êxito, possivelmente antes que a tabela esteja totalmente disponível para o cliente de chamada. Se a tabela não estiver disponível, fazer uma chamada subsequente para ela pode causar um erro. 
+> Permite que **GetRecipientTable** retorne com êxito, possivelmente antes que a tabela fique totalmente disponível para o cliente de chamada. Se a tabela não estiver disponível, fazer uma chamada subsequente pode causar um erro. 
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres devem estar no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres devem estar no formato ANSI.
+> As colunas de cadeia de caracteres devem estar no formato Unicode. Se o MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres deverão estar no formato ANSI.
     
  _lppTable_
   
-> bota Ponteiro para um ponteiro para a tabela de destinatários.
+> [out] Ponteiro para um ponteiro para a tabela de destinatários.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -60,25 +60,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage::** GetRecipientTable Retorna um ponteiro para a tabela de destinatários da mensagem, que inclui informações sobre todos os destinatários da mensagem. Há uma linha para cada destinatário. 
+O **método IMessage::GetRecipientTable** retorna um ponteiro para a tabela de destinatários da mensagem, que inclui informações sobre todos os destinatários da mensagem. Há uma linha para cada destinatário. 
   
-As tabelas de destinatários têm um conjunto de colunas diferente, dependendo se a mensagem foi enviada. Para obter uma lista completa das colunas em uma tabela de destinatários, consulte [tabelas de destinatários](recipient-tables.md).
+As tabelas de destinatários têm um conjunto de colunas diferente, dependendo se a mensagem foi enviada. Para uma lista completa das colunas em uma tabela de destinatários, consulte [Tabelas de Destinatários.](recipient-tables.md)
   
-Algumas tabelas de destinatários dão suporte a uma ampla variedade de restrições; outros não. O suporte para restrições depende da implementação do provedor de repositório de mensagens. 
+Algumas tabelas de destinatários suportam uma ampla variedade de restrições; outras não fazem isso. O suporte para restrições depende da implementação do provedor do armazenamento de mensagens. 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta as seguintes chamadas para a tabela de destinatários: 
+A definição MAPI_UNICODE sinalizador de configuração no  _parâmetro ulFlags_ afeta as seguintes chamadas para a tabela de destinatários: 
   
-- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de colunas. 
+- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar o conjunto de colunas. 
     
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar linhas. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar linhas. 
     
-- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
+- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar a ordem de classificação. 
     
-Definir o sinalizador Unicode solicita que as informações de qualquer coluna de cadeia de caracteres retornada dessas chamadas estejam no formato Unicode. No enTanto, como nem todos os provedores de repositórios de mensagens dão suporte a Unicode, a configuração desse sinalizador é apenas uma solicitação.
+A configuração do sinalizador Unicode solicita que as informações de quaisquer colunas de cadeia de caracteres retornadas dessas chamadas sejam no formato Unicode. No entanto, como nem todos os provedores de armazenamento de mensagens suportam Unicode, definir esse sinalizador é apenas uma solicitação.
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode alterar uma tabela de destinatários enquanto ela estiver aberta chamando o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . O **ModifyRecipients** adiciona destinatários, exclui destinatários ou modifica as propriedades do destinatário. 
+Você pode alterar uma tabela de destinatário enquanto ela estiver aberta chamando o [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) **ModifyRecipients** adiciona destinatários, exclui destinatários ou modifica propriedades de destinatário. 
   
 ## <a name="see-also"></a>Confira também
 

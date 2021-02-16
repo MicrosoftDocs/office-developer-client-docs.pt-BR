@@ -23,11 +23,11 @@ ms.locfileid: "33407442"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada que inclui uma estrutura [DTBLPAGE](dtblpage.md) para descrever um controle de página com guias, um rótulo de um tamanho especificado e uma entrada de arquivo de ajuda de um comprimento especificado. 
+Cria uma estrutura nomeada que inclui uma estrutura [DTBLPAGE](dtblpage.md) para descrever um controle page com guias, um rótulo de um comprimento especificado e uma entrada de arquivo de Ajuda de um comprimento especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**DTBLPAGE** <br/> |
    
 ```cpp
@@ -38,11 +38,11 @@ SizedDtblPage (n, n1, u)
 
 _n_
   
-> Comprimento do rótulo da guia de página.
+> Comprimento do rótulo da guia da página.
     
-_N1_
+_n1_
   
-> Comprimento da entrada que aparece no arquivo MAPISVC. inf que identifica o arquivo de ajuda que será usado com o controle de página com guias.
+> Comprimento da entrada exibida no arquivo Mapisvc.inf que identifica o arquivo de Ajuda que será usado com o controle de página com guias.
     
 _u_
   
@@ -50,7 +50,7 @@ _u_
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedDtblPage** permite que você defina um controle de página com guias quando o número de caracteres no rótulo associado e entrada de arquivo de ajuda for conhecido. A nova estrutura é criada com os seguintes membros: 
+A macro **SizedDtblPage** permite definir um controle de página com guias quando o número de caracteres no rótulo associado e na entrada do arquivo de Ajuda é conhecido. A nova estrutura é criada com os seguintes membros: 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -58,7 +58,7 @@ TCHAR lpszLabel[n];
 TCHAR lpszComponent[n1];
 ```
 
-Para usar um ponteiro para a estrutura resultante da macro **SizedDtblPage** como um ponteiro de estrutura **DTBLPAGE** , execute a seguinte conversão: 
+Para usar um ponteiro para a estrutura resultante da macro **SizedDtblPage** como um ponteiro **de estrutura DTBLPAGE,** execute a seguinte projeção: 
   
 ```cpp
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;

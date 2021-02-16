@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
-description: Esse membro é um espaço reservado e não tem suporte. Deve sempre retornar E_NOTIMPL.
+description: Esse membro é um espaço reservado e não tem suporte. Ele sempre deve retornar E_NOTIMPL.
 ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33418887"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 
-Esse membro é um espaço reservado e não tem suporte. Deve sempre retornar E_NOTIMPL.
+Esse membro é um espaço reservado e não tem suporte. Ele sempre deve retornar E_NOTIMPL.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -28,11 +28,11 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 ## <a name="return-values"></a>Valor de retorno
 
-Sempre E_NOTIMPL, porque esse membro é um espaço reservado no [IOlkAccountHelper](iolkaccounthelper.md) e não tem suporte. 
+Sempre E_NOTIMPL, pois esse membro é um espaço reservado em [IOlkAccountHelper](iolkaccounthelper.md) e não é suportado. 
   
 ## <a name="remarks"></a>Comentários
 
-Este membro sempre deve retornar E_NOTIMPL.
+Este membro deve sempre retornar E_NOTIMPL.
   
 ## <a name="see-also"></a>Confira também
 

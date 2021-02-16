@@ -22,7 +22,7 @@ Determina o valor da unidade de página na escala de desenho atual. A escala de 
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor da célula PageScale na guia **Escala de Desenho** na caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta**Configurar Página**). O valor da célula é o primeiro dos dois números nas caixas **Escala Predefinida** ou **Escala Personalizada**, dependendo da definição da escala de desenho selecionada em **Escala de desenho**. Por exemplo, se você selecionar uma escala arquitetônica para o desenho, a escala de desenho para a página é 3/32" = 1'0". O valor da célula PageScale é 0,0938 pol. (ou 3/32") e o valor da célula DrawingScale é 1 pé.
+Você também pode definir o valor da célula PageScale na guia **Escala de Desenho** na caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta **Configurar Página**). O valor da célula é o primeiro dos dois números nas caixas **Escala Predefinida** ou **Escala Personalizada**, dependendo da definição da escala de desenho selecionada em **Escala de desenho**. Por exemplo, se você selecionar uma escala arquitetônica para o desenho, a escala de desenho para a página é 3/32" = 1'0". O valor da célula PageScale é 0,0938 pol. (ou 3/32") e o valor da célula DrawingScale é 1 pé.
   
 Para obter uma referência para a célula PageScale pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   

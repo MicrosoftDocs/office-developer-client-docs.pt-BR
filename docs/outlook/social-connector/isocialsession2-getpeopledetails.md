@@ -17,7 +17,7 @@ ms.locfileid: "33404530"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
-Retorna uma cadeia de caracteres que contém uma coleção de detalhes de pessoa e imagem para os usuários especificados pelo parâmetro _personsAddresses_ . 
+Retorna uma cadeia de caracteres que contém uma coleção de detalhes de pessoa e imagem para os usuários especificados pelo _parâmetro personsAddresses._ 
   
 ```cpp
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
@@ -27,19 +27,19 @@ HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR
 
 _personsAddresses_
   
-> no Uma sequência de caracteres XML que especifica os endereços SMTP de hash de um conjunto de usuários.
+> [in] Uma cadeia de caracteres XML que especifica os endereços SMTP com hashed de um conjunto de usuários.
     
-__
+_personsCollection_
   
-> bota Uma sequência de caracteres XML que contém uma coleção de detalhes de pessoa e imagem.
+> [out] Uma cadeia de caracteres XML que contém uma coleção de detalhes de pessoa e imagem.
     
 ## <a name="remarks"></a>Comentários
 
-O Outlook Social Connector (OSC) chama **GetPeopleDetails** se o provedor OSC oferecer suporte à sincronização por demanda ou híbrida de amigos e não amigos. 
+O Outlook Social Connector (OSC) chamará **GetPeopleDetails** se o provedor OSC suportar a sincronização sob demanda ou híbrida de amigos e não amigos. 
   
-O parâmetro _personsAddresses_ deve estar em conformidade com a definição de esquema para **hashedAddresses**, conforme definido no esquema para a extensibilidade do provedor OSC. A cadeia de caracteres _personsAddresses_ representa um conjunto de endereços SMTP com hash para cada usuário exibido no painel de pessoas. O usuário não precisa ser um amigo do usuário conectado representado pela propriedade [ISocialSession:: LoggedOnUserName](isocialsession-loggedonusername.md) . Os endereços SMTP de hash são criptografados usando a função de hash especificada pelo elemento **hashFunction** no XML de **recursos** do provedor. O OSC identifica cada **hashedAddress** na coleção _personAddresses_ com um elemento **index** . O provedor deve usar o elemento **index** para identificar o XML **Person** do destinatário quando ele retorna o XML de **amigos** para **GetPeopleDetails**. Se o destinatário não for um usuário registrado na rede social, o provedor não deverá retornar nenhum XML de **pessoa** para esse destinatário. O elemento **index** para cada usuário de rede representado pelo **Person** XML corresponde ao elemento **index** do destinatário em _personsAddresses_.
+O  _parâmetro personsAddresses_ deve estar em conformidade com a definição de esquema para **hashedAddresses**, conforme definido no esquema para extensibilidade do provedor OSC. A  _cadeia de caracteres personsAddresses_ representa um conjunto de endereços SMTP com hashed para cada usuário exibido no Painel de Pessoas. O usuário não precisa ser um amigo do usuário conectado representado pela propriedade [ISocialSession::LoggedOnUserName.](isocialsession-loggedonusername.md) Os endereços SMTP com hash são criptografados usando a função de hash especificada pelo elemento **hashFunction** no XML de **recursos do** provedor. O OSC identifica cada **hashedAddress** na  _coleção personAddresses_ com um **elemento de** índice. O provedor deve usar o **elemento de índice** para identificar o XML da pessoa do destinatário quando ele retorna XML de amigos para **GetPeopleDetails**.   Se o destinatário não for um usuário registrado na rede social, o provedor não deverá retornar **NENHUM** XML de pessoa para esse destinatário. O **elemento** de índice para cada usuário de rede representado **por** XML da pessoa corresponde ao elemento **de índice** do destinatário em  _personsAddresses_.
   
-O OSC armazena as informações retornadas pelo __ parâmetro Persons na memória. A __ cadeia de caracteres XML deve estar em conformidade com a definição de esquema para **amigos**, conforme definido no esquema para a extensibilidade do provedor do OSC. Para obter mais informações sobre como o OSC usa e atualiza essas informações na memória, consulte [sincronizaNdo amigos e atividades](synchronizing-friends-and-activities.md).
+O OSC armazena as informações retornadas pelo parâmetro  _personsCollection_ na memória. A cadeia de caracteres XML  _personsCollection_ deve estar em conformidade com a definição de esquema para **amigos,** conforme definido no esquema de extensibilidade do provedor OSC. Para obter mais informações sobre como o OSC usa e atualiza essas informações na memória, consulte [Sincronizando amigos e atividades.](synchronizing-friends-and-activities.md)
   
 ## <a name="see-also"></a>Confira também
 

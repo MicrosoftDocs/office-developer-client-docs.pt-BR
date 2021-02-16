@@ -1,5 +1,5 @@
 ---
-title: Célula LockVariation (seção Protection)
+title: Célula LockVariation (Seção Protection)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427924"
 ---
-# <a name="lockvariation-cell-protection-section"></a>Célula LockVariation (seção Protection)
+# <a name="lockvariation-cell-protection-section"></a>Célula LockVariation (Seção Protection)
 
 Determina se a variação de tema aplicada à página ou forma pode ser alterada, como um Boolean.
   
@@ -25,18 +25,18 @@ Determina se a variação de tema aplicada à página ou forma pode ser alterada
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **LockVariation** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **LockVariation** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LockVariation  <br/> |
    
-Para obter uma referência para a célula **LockVariation** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **LockVariation** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowLock** <br/> |
-| Índice da célula:  <br/> |**visLockVariation** <br/> |
+| Índice de célula:  <br/> |**visLockVariation** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33420238"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Obsoleto. Altera a senha de um perfil.
+Depreciado. Altera a senha de um perfil.
   
 ```cpp
 HRESULT ChangeProfilePassword(
@@ -40,33 +40,33 @@ HRESULT ChangeProfilePassword(
 
  _lpszProfileName_
   
-> no Um ponteiro para o nome do perfil associado à senha a ser alterada.
+> [in] Um ponteiro para o nome do perfil associado à senha a ser alterada.
     
  _lpszOldPassword_
   
-> no Um ponteiro para a senha atual.
+> [in] Um ponteiro para a senha atual.
     
  _lpszNewPassword_
   
-> no Um ponteiro para a nova senha.
+> [in] Um ponteiro para a nova senha.
     
  _ulFlags_
   
-> no Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo das cadeias de caracteres passadas. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> O nome do perfil e as senhas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estarão no formato ANSI.
+> O nome do perfil e as senhas estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, essas cadeias de caracteres estão no formato ANSI.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> Se esse método for chamado, retornará S_OK. No enTanto, nenhuma ação será executada.
+> Se esse método for chamado, ele retornará S_OK. No entanto, nenhuma ação será tomada.
     
 ## <a name="remarks"></a>Comentários
 
-Não use esse método. O MAPI não oferece suporte a senhas de perfis.
+Não use esse método. O MAPI não dá suporte a senhas para perfis.
   
 ## <a name="see-also"></a>Confira também
 

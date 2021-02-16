@@ -25,7 +25,7 @@ ms.locfileid: "32359259"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma cadeia de caracteres de texto que identifica a classe de mensagem definida pelo remetente, como IPM. Observação. 
+Contém uma cadeia de texto que identifica a classe de mensagem definida pelo remetente, como IPM.Note. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contém uma cadeia de caracteres de texto que identifica a classe de mensagem de
    
 ## <a name="remarks"></a>Comentários
 
-A classe de mensagem Especifica o tipo da mensagem. Ele determina o conjunto de propriedades definido para a mensagem, o tipo de informação que a mensagem transmite e como lidar com a mensagem. 
+A classe de mensagem especifica o tipo da mensagem. Ele determina o conjunto de propriedades definidas para a mensagem, o tipo de informação que a mensagem transmite e como lidar com a mensagem. 
   
-Essas propriedades contêm cadeias de caracteres concatenadas com pontos. Cada cadeia de caracteres representa um nível de subclassificação. Por exemplo, IPM. Observe que é uma subclasse de IPM e uma superclasse de IPM. Note. Private. 
+Essas propriedades contêm cadeias de caracteres concatenadas com períodos. Cada cadeia de caracteres representa um nível de subclasse. Por exemplo, IPM. Observação é uma subclasse do IPM e uma superclasse do IPM. Note.Private. 
   
-Essas propriedades devem consistir nos caracteres ASCII 32 a 127 e não devem terminar com um ponto (ASCII 46). As operações de classificação e comparação devem tratá-lo como uma cadeia de caracteres que não diferencia maiúsculas de minúsculas. O tamanho máximo possível é de 255 caracteres, mas para permitir que a sala de MAPI Anexe os qualificadores, é recomendável que o comprimento original seja mantido abaixo de 128 caracteres. 
+Essas propriedades devem consistir nos caracteres ASCII de 32 a 127 e não terminar com um ponto (ASCII 46). As operações de classificação e comparação devem tratá-la como uma cadeia de caracteres que não faz maiúsculas de minúsculas. O comprimento máximo possível é de 255 caracteres, mas para permitir que a sala MAPI a append qualificadores, é recomendável que o comprimento original seja mantido abaixo de 128 caracteres. 
   
-Todas as mensagens são necessárias para fornecer essas propriedades. Normalmente, o aplicativo cliente que cria uma nova mensagem a define assim que [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) é retornado com êxito. Mas, se a propriedade não tiver sido definida quando o cliente chama [IMAPIProp:: SaveChanges](imapiprop-savechanges.md), o repositório de mensagens deverá defini-la como IPM. 
+Cada mensagem é necessária para fornecer essas propriedades. Normalmente, o aplicativo cliente que cria uma nova mensagem a define assim que [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) retorna com êxito. Mas se a propriedade não tiver sido definida quando o cliente chamar [IMAPIProp::SaveChanges,](imapiprop-savechanges.md)o armazenamento de mensagens deverá defini-la como IPM. 
   
 Os valores definidos por MAPI são: 
   
@@ -55,41 +55,41 @@ REPORT.<subject message class>.IPNNRN for a nonread report
  
 ```
 
-IPM e IPC se destinam apenas a superclasses e uma mensagem deve ter pelo menos um qualificador de subclasse acrescentado antes de ser armazenado ou enviado. Para obter mais informações sobre o uso da classe de mensagem, consulte [Message classes](mapi-message-classes.md). Para obter listas de propriedades obrigatórias e opcionais para classes de mensagens, consulte os subtópicos [sobre propriedades de mensagem](message-properties-overview.md).
+IPM e IPC destinam-se a ser apenas superclasses, e uma mensagem deve ter pelo menos um qualificador de subclasse anexado antes de ser armazenado ou enviado. Para obter mais informações sobre o uso da classe de mensagens, consulte [Classes de mensagem.](mapi-message-classes.md) Para listas de propriedades opcionais e obrigatórios para classes de mensagens, consulte os subtópicos sobre propriedades [de mensagem.](message-properties-overview.md)
   
-Uma classe de mensagem personalizada pode definir propriedades em um intervalo reservado para uso somente com essa classe de mensagem. Para obter mais informações, consulte [about Property Identifiers](mapi-property-identifier-overview.md). 
+Uma classe de mensagem personalizada pode definir propriedades em um intervalo reservado para uso somente com essa classe de mensagem. Para obter mais informações, consulte [Sobre identificadores de propriedade.](mapi-property-identifier-overview.md) 
   
-Classes de mensagens controle em qual pasta de recebimento uma mensagem de entrada é armazenada. Para obter mais informações, consulte o método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
+Classes de mensagem controlam em qual pasta de recebimento uma mensagem de entrada é armazenada. Para obter mais informações, consulte o [método IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Para obter mais informações sobre como usar classes de mensagem com formulários e servidores de formulário, consulte [escolhendo uma classe de mensagem](choosing-a-message-class.md). 
+For more information on using message classes with forms and form servers, see [Choosing a Message Class](choosing-a-message-class.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
 [[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para representar a caixa postal e mensagens de fax.
+> Especifica as propriedades e operações permitidas para representar mensagens de caixa postal e fax.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -101,7 +101,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33405090"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Inicia a sincronização de um cabeçalho de mensagem.
+Inicia a sincronização para um header de mensagem.
   
 ```cpp
 HRESULT SyncHdrBeg( 
@@ -39,19 +39,19 @@ HRESULT SyncHdrBeg(
 
  _cbeid_
   
-> no O número de bytes na ID de entrada da mensagem.
+> [in] O número de bytes na ID de entrada da mensagem.
     
  _lpeid_
   
-> no A identificação de entrada da mensagem.
+> [in] A ID de entrada da mensagem.
     
- _PPV_
+ _ppv_
   
->  [in]/[out] ponteiro para a estrutura **[HDRSYNC](hdrsync.md)** do cabeçalho da mensagem. 
+>  [in]/[out] Ponteiro para a **[estrutura HDRSYNC](hdrsync.md)** para o header da mensagem. 
     
 ## <a name="remarks"></a>Comentários
 
-Após o **IOSTX:: SyncHdrBeg**, o repositório local transita para o [estado de cabeçalho da mensagem de download](download-message-header-state.md). O Outlook é inicializado para o cliente a estrutura **HDRSYNC** com a representação atual do cabeçalho da mensagem no repositório e na pasta pai. O cliente deve baixar um item de mensagem completo (como *pmsgFull* no **HDRSYNC** ). Se isso tiver sido bem-sucedido, o cliente também define *parâmetroulflags* no **HDRSYNC** como **HSF_OK**. Após o **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)**, o Outlook verifica o resultado em **HDRSYNC** e usa as informações em **HDRSYNC** para atualizar o cabeçalho da mensagem local. 
+Upon **IOSTX::SyncHdrBeg**, the local store transitions to the [download message header state](download-message-header-state.md). Outlook initializes for the client the **HDRSYNC** structure with the current representation of the message header in the store and the parent folder. O cliente deve baixar um item de mensagem completo (como  *pmsgFull*  em **HDRSYNC** ). Se isso foi bem-sucedido, o cliente também define  *ulFlags* **em HDRSYNC** **como HSF_OK**. Após **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, o Outlook verifica o resultado em **HDRSYNC** e usa as informações em **HDRSYNC** para atualizar o header de mensagem local. 
   
 ## <a name="see-also"></a>Confira também
 

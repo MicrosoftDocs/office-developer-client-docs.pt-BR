@@ -36,6 +36,6 @@ Para obter uma referência para a célula ShapeShdwOffsetX pelo índice, a parti
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowFill** <br/> |
-| Índice da célula:  <br/> |**visFillShdwOffsetX** <br/> |
+| Índice de célula:  <br/> |**visFillShdwOffsetX** <br/> |
    
 

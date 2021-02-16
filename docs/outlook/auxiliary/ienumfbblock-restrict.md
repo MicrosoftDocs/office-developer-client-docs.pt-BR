@@ -34,11 +34,11 @@ HRESULT Restrict(
 
 _ftmStart_
   
->  no A hora de início para restringir a enumeração. 
+>  [in] A hora de início para restringir a enumeração. 
     
 _ftmEnd_
   
-> no A hora de término para restringir a enumeração.
+> [in] A hora de término para restringir a enumeração.
     
 ## <a name="return-values"></a>Valores de retorno
 

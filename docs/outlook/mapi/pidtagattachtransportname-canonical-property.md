@@ -25,7 +25,7 @@ ms.locfileid: "32361065"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de um arquivo de anexo modificado para que ele possa ser associado a mensagens TNEF. 
+Contém o nome de um arquivo de anexo modificado para que possa ser associado a mensagens TNEF. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém o nome de um arquivo de anexo modificado para que ele possa ser associad
    
 ## <a name="remarks"></a>Comentários
 
-O TNEF e o provedor de transporte usam essas propriedades. Normalmente, elas não estão disponíveis para aplicativos cliente. 
+O TNEF e o provedor de transporte usam essas propriedades. Eles geralmente não estão disponíveis para aplicativos cliente. 
   
-Essas propriedades são comumente usadas por TNEF quando o sistema de mensagens subjacente não é compatível com os nomes de filefornecidos. Por exemplo, eles são usados quando o usuário anexa vários arquivos com o mesmo nome, como cinco arquivos denominados CONFIG. Sistema. O provedor de transporte deve modificar os nomes para garantir que sejam exclusivos. Cada nome modificado aparece no **PR_ATTACH_TRANSPORT_NAME** do anexo e nas propriedades associadas. 
+Essas propriedades são comumente usadas pelo TNEF quando o sistema de mensagens subjacente não dá suporte aos nomes de arquivo fornecidos. Por exemplo, eles são usados quando o usuário anexa vários arquivos com o mesmo nome, como cinco arquivos denominados CONFIG.SYS. O provedor de transporte deve modificar os nomes para garantir que sejam exclusivos. Cada nome modificado aparece nas propriedades PR_ATTACH_TRANSPORT_NAME **e** associadas do anexo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

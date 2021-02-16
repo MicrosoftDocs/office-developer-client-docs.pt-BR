@@ -33,14 +33,14 @@ Para obter uma referência para a célula Invisible pelo nome, a partir de outra
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *nome* . Invisível onde prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Prop.  *nome*  . Invisível onde Prop.  *nome*  é o nome da linha  <br/> |
    
 Para obter uma referência para a célula Invisible pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCustPropsInvis** <br/> |
+| Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCustPropsInvis** <br/> |
    
 

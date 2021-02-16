@@ -28,14 +28,14 @@ Para obter uma referência para a célula Value pelo nome, a partir de outra fó
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *Nome* . Valor em que prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Prop.  *Nome*  . Valor onde Prop.  *Nome*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCustPropsValue** <br/> |
+| Índice de linha:  <br/> |**visRowProp**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCustPropsValue** <br/> |
    
 

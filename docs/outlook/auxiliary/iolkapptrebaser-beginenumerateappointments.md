@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
-description: Inicia uma tarefa para enumeração de compromisso em uma pasta de calendário para localizar os compromissos que precisam de alteração de base.
+description: Inicia uma tarefa para enumeração de compromisso em uma pasta de calendário para encontrar os compromissos que precisam ser baseados.
 ms.openlocfilehash: cc89b3510f09bb98fd6720cb6d5ab3edeb13eac8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33407267"
 ---
 # <a name="iolkapptrebaserbeginenumerateappointments"></a>IOlkApptRebaser::BeginEnumerateAppointments
 
-Inicia uma tarefa para enumeração de compromisso em uma pasta de calendário para localizar os compromissos que precisam de alteração de base.
+Inicia uma tarefa para enumeração de compromisso em uma pasta de calendário para encontrar os compromissos que precisam ser baseados.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -36,7 +36,7 @@ _pfnProgress_
     
 _ppContext_
   
-> [out] Obrigatório. Um ponteiro para um ponteiro para o contexto retornado. Este contexto será passado para [IOlkApptRebaser:: EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
+> [out] Obrigatório. Um ponteiro para um ponteiro para o contexto retornado. Esse contexto será passado para [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
 ## <a name="return-values"></a>Valores de retorno
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419181"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de [](rowentry.md) estruturas de transentry que representam linhas e as operações realizadas em uma tabela através da interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contém uma matriz de estruturas [ROWENTRY](rowentry.md) que representam linhas e as operações que são executadas nessas linhas em uma tabela por meio da interface [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -40,11 +40,11 @@ typedef struct
 
  **cEntries**
   
-> Contagem de entradas na matriz especificada pelo membro **aEntries** . 
+> Contagem de entradas na matriz especificada pelo membro **aEntries.** 
     
- **aEntries [MAPI_DIM]**
+ **aEntries[MAPI_DIM]**
   
-> Matriz de **** estruturas de transentry que contém as linhas e as operações que são executadas nessas linhas na tabela. 
+> Matriz de **estruturas ROWENTRY** que contém as linhas e as operações que são executadas nessas linhas na tabela. 
     
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -52,7 +52,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|RulesDlg. cpp  <br/> |CRulesDlg:: getSelectedItems  <br/> |Usado para criar uma lista de regras selecionadas para ações **modificadas** subsequentes.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Usado para criar uma lista de regras selecionadas para ações **ModifyTable** subsequentes.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

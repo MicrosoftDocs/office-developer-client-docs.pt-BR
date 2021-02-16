@@ -25,7 +25,7 @@ ms.locfileid: "33407904"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Exibe a caixa de diálogo catálogo de endereços do Outlook. 
+Exibe a caixa de diálogo do livro de endereços do Outlook. 
   
 ```cpp
 HRESULT Address(
@@ -39,31 +39,31 @@ HRESULT Address(
 
  _lpulUIParam_
   
-> [in, out] Um ponteiro para um identificador da janela pai da caixa de diálogo. Na entrada, um identificador de janela deve sempre ser aprovado. Na saída, se o membro **parâmetroulflags** do parâmetro _lpAdrParms_ for definido como DIALOG_SDI, o identificador de janela da caixa de diálogo sem-modo será retornado. Consulte Comentários. 
+> [in, out] Um ponteiro para uma alça da janela pai da caixa de diálogo. Na entrada, uma alça de janela sempre deve ser passada. Na saída, se o membro **ulFlags** do parâmetro  _lpAdrParms_ estiver definido como DIALOG_SDI, o alça da janela da caixa de diálogo sem janela será retornado. Consulte os comentários. 
     
  _lpAdrParms_
   
-> [in, out] Um ponteiro para uma estrutura [ADRPARM](adrparm.md) que controla a apresentação e o comportamento da caixa de diálogo de endereço. 
+> [in, out] Um ponteiro para uma [estrutura ADRPARM](adrparm.md) que controla a apresentação e o comportamento da caixa de diálogo de endereço. 
     
  _lppAdrList_
   
-> [in, out] Um ponteiro para um ponteiro para uma estrutura [das ADRLIST](adrlist.md) que contém informações do destinatário. Na entrada, esse parâmetro pode ser nulo ou apontar para um ponteiro válido. Na saída, esse parâmetro aponta para um ponteiro para obter informações válidas do destinatário. 
+> [in, out] Um ponteiro para um ponteiro para uma estrutura [ADRLIST](adrlist.md) que contém informações de destinatário. Na entrada, esse parâmetro pode ser NULL ou apontar para um ponteiro válido. Na saída, esse parâmetro aponta para um ponteiro para informações válidas do destinatário. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A caixa de diálogo endereço comum foi exibida com êxito.
+> A caixa de diálogo de endereço comum foi exibida com êxito.
     
 ## <a name="remarks"></a>Comentários
 
-Se o membro **parâmetroulflags** do parâmetro _lpAdrParms_ estiver definido como DIALOG_SDI antecipando o retorno do identificador de janela da caixa de diálogo sem-modo na saída, ele será ignorado no Outlook; a versão modal da caixa de diálogo sempre é mostrada em clientes não-Outlook. 
+Se o membro **ulFlags** do parâmetro  _lpAdrParms_ estiver definido como DIALOG_SDI prevendo o retorno do alça de janela da caixa de diálogo sem janela na saída, ele será ignorado no Outlook; a versão modal da caixa de diálogo é sempre mostrada em clientes que não são do Outlook. 
   
-A estrutura **das ADRLIST** passada de volta por MAPI para o chamador através do parâmetro _lppAdrList_ contém uma matriz de estruturas do [ADRENTRY](adrentry.md) , uma estrutura para cada destinatário. Quando passadas para o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) de uma mensagem de saída no parâmetro _lpMods_ , a estrutura **das ADRLIST** pode ser usada para atualizar sua lista de destinatários. 
+A **estrutura ADRLIST** passada por MAPI para o chamador por meio do parâmetro  _lppAdrList_ contém uma matriz de estruturas [ADRENTRY,](adrentry.md) uma estrutura para cada destinatário. Quando passada para o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) de uma mensagem de saída no parâmetro  _lpMods,_ a estrutura **ADRLIST** pode ser usada para atualizar sua lista de destinatários. 
   
-Cada estrutura **ADRENTRY** na estrutura **das ADRLIST** contém zero ou mais estruturas de [SPropValue](spropvalue.md) , uma estrutura para cada conjunto de propriedades para o destinatário. Pode haver nenhuma estrutura **SPropValue** quando a caixa de diálogo apresentada pelo método **Address** é usada para remover um destinatário. Quando há uma ou mais estruturas **SPropValue** , a estrutura **ADRENTRY** correspondente é usada para adicionar ou atualizar um destinatário. O destinatário pode ser resolvido, o que indica que uma das estruturas **SPropValue** descreve a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) do destinatário, ou não resolvida, que indica que a propriedade **PR_ENTRYID** é encontrado. 
+Cada **estrutura ADRENTRY** na estrutura **ADRLIST** contém zero ou mais estruturas [SPropValue,](spropvalue.md) uma estrutura para cada conjunto de propriedades para o destinatário. Pode haver zero **estruturas SPropValue** quando a caixa de diálogo apresentada pelo **método Address** é usada para remover um destinatário. Quando há uma ou mais **estruturas SPropValue,** a estrutura **ADRENTRY** correspondente é usada para adicionar ou atualizar um destinatário. O destinatário pode ser resolvido, o que indica que uma das estruturas **SPropValue** descreve a propriedade **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)do destinatário ou não resolvida, o que indica que a propriedade **PR_ENTRYID** está ausente. 
   
-Além de **PR_ENTRYID**, os destinatários resolvidos incluem as seguintes propriedades:
+Além de **PR_ENTRYID** destinatários resolvidos, incluem as seguintes propriedades:
   
 - **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
@@ -73,11 +73,11 @@ Além de **PR_ENTRYID**, os destinatários resolvidos incluem as seguintes propr
     
 - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-A estrutura **das ADRLIST** que o chamador transmite pode ser um tamanho diferente da estrutura que o MAPI retorna. Se o MAPI deve retornar uma estrutura **das ADRLIST** maior, ele libera a estrutura original e aloca um novo. Ao alocar memória para a estrutura **das ADRLIST** , aloque a memória de cada estrutura do **SPropValue** separadamente. Para obter mais informações sobre como alocar e liberar estruturas do **das ADRLIST** , consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md)
+A **estrutura ADRLIST** que o chamador passa pode ter um tamanho diferente da estrutura que o MAPI retorna. Se MAPI deve retornar uma estrutura **ADRLIST** maior, ele libera a estrutura original e aloca uma nova. Quando você alocar memória para **a estrutura ADRLIST,** aloce a memória para cada **estrutura SPropValue** separadamente. Para obter mais informações sobre como alocar e liberar estruturas **ADRLIST,** consulte Gerenciando memória para [estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
   
- O **endereço** retorna imediatamente se o sinalizador DIALOG_SDI estiver definido no membro **Parâmetroulflags** da estrutura **ADRPARM** no parâmetro _lpAdrParms_ . O sinalizador DIALOG_SDI é ignorado para clientes que não são do Outlook. Se DIALOG_SDI for ignorado, a versão modal da caixa de diálogo será exibida e um ponteiro para um identificador não deverá ser esperado no _lpulUIParam_.
+ **O** endereço retornará imediatamente se DIALOG_SDI sinalizador for definido no membro **ulFlags** da estrutura **ADRPARM** no _parâmetro lpAdrParms._ O DIALOG_SDI sinalizador é ignorado para clientes que não são do Outlook. Se DIALOG_SDI for ignorado, a versão modal da caixa de diálogo será exibida e um ponteiro para um indicador não deve ser esperado em  _lpulUIParam_.
   
- O **endereço** oferece suporte a cadeias de caracteres Unicode na estrutura **ADRPARM** se AB_UNICODEUI foi especificado no membro **Parâmetroulflags** de **ADRPARM** no parâmetro _LpAdrParms_ e oferece suporte a cadeias de caracteres Unicode no ** DAS ADRLIST**. As cadeias de caracteres Unicode são convertidas no formato MBCS (cadeia de caracteres multibyte) antes de serem exibidas na caixa de diálogo catálogo de endereços do Outlook.
+ **Address** dá suporte a cadeias de caracteres Unicode na estrutura **ADRPARM** se AB_UNICODEUI foi especificado no membro **ulFlags** de **ADRPARM** no parâmetro  _lpAdrParms_ e dá suporte a cadeias de caracteres Unicode em **ADRLIST**. As cadeias de caracteres Unicode são convertidas para o formato de cadeia de caracteres multibyte (MBCS) antes de serem exibidas na caixa de diálogo do livro de endereços do Outlook.
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -85,7 +85,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions. cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI usa o método **Address** para permitir que o usuário selecione qual caixa de correio abrir.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI usa o **método Address** para permitir que o usuário selecione qual caixa de correio abrir.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

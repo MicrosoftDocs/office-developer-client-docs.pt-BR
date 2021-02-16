@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm3025
 localization_priority: Normal
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
-description: Contém as coordenadas x e y do vértice final de um segmento de linha reta.
+description: Contém coordenadas x e y do vértice final de um segmento de linha reta.
 ms.openlocfilehash: 570ee677aff07d54fcee22ebba2faa210831fb10
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33404726"
 ---
 # <a name="lineto-row-geometry-section"></a>Linha LineTo (Seção Geometry)
 
-Contém as coordenadas *x* e *y* do vértice final de um segmento de linha reta. 
+Contém  *coordenadas x*  e  *y*  do vértice final de um segmento de linha reta. 
   
 Uma linha LineTo contém as células a seguir.
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |A coordenada *x* do vértice final de um segmento de linha reta.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |A coordenada *y* do vértice final de um segmento de linha reta.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |A  *coordenada x*  do vértice final de um segmento de linha reta.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |A  *coordenada y*  do vértice final de um segmento de linha reta.  <br/> |
    
 

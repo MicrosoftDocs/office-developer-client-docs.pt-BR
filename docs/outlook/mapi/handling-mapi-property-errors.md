@@ -1,5 +1,5 @@
 ---
-title: Manipular erros de propriedade MAPI
+title: Manipulando erros de propriedade MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419076"
 ---
-# <a name="handling-mapi-property-errors"></a>Manipular erros de propriedade MAPI
+# <a name="handling-mapi-property-errors"></a>Manipulando erros de propriedade MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -35,7 +35,7 @@ Em vez de falha completa ou sucesso, os seguintes m�todos de **IMAPIProp** rel
   
 Outros m�todos **IMAPIProp** relatar �xito parcial de forma diferente. Esses m�todos relatar �xito parcial, retornando S_OK e colocando informa��es de erro em uma estrutura [SPropProblemArray](spropproblemarray.md) . Ao contr�rio de matriz de valores de propriedade em **GetProps** que cont�m dados independentemente se o m�todo teve �xito ou falha, a matriz de problema da propriedade nesses m�todos existe somente se h� erros e somente se o chamador registrou interesse em saber mais sobre os erros. Os chamadores devem especificar um ponteiro v�lido **SPropProblemArray** para registrar para obter informa��es de erro. 
   
-Quando um valor de erro � retornado de **SetProps**, **DeleteProps**, **CopyTo**ou **CopyProps**, isto indica falha em vez de sucesso parcial. A matriz de problema de propriedade, se estiver dispon�vel, n�o � v�lida. Os clientes n�o devem tentar acessar dados mantidos na estrutura nem deve tentar liberar a estrutura em si. A resposta apropriada � chamar [IMAPIProp::GetLastError](imapiprop-getlasterror.md). 
+Quando um valor de erro � retornado de **SetProps**, **DeleteProps**, **CopyTo** ou **CopyProps**, isto indica falha em vez de sucesso parcial. A matriz de problema de propriedade, se estiver dispon�vel, n�o � v�lida. Os clientes n�o devem tentar acessar dados mantidos na estrutura nem deve tentar liberar a estrutura em si. A resposta apropriada � chamar [IMAPIProp::GetLastError](imapiprop-getlasterror.md). 
   
 **GetLastError** � semelhante � fun��o do mesmo nome fornecido no SDK do Windows. Ambos fornecem que informa��es mais detalhadas sobre um erro que est� dispon�vel com o valor de retorno. Ambos retornarem informa��es sobre o erro anterior que tenha ocorrido. A diferen�a � que a fun��o de **GetLastError** Win32 relat�rios sobre um erro gerado pelo thread de chamada e o m�todo **IMAPIProp::GetLastError** relat�rios sobre um erro gerado pelo objeto atual. Ou seja, se um cliente chama **DeleteProps** em uma mensagem e MAPI_E_NO_ACCESS � retornado para indicar que a mensagem � somente leitura, **GetLastError** retorna dados fornecidos pela mensagem. 
   

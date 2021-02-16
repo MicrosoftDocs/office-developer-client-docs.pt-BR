@@ -29,7 +29,7 @@ Descreve um controle de edição que será usado em uma caixa de diálogo criada
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
 ```cpp
@@ -47,23 +47,23 @@ typedef struct _DTBLEDIT
 
  **ulbLpszCharsAllowed**
   
-> Um offset do início da estrutura **DTBLEDIT** para um filtro de cadeia de caracteres que descreve as restrições, se houver, para os caracteres que podem ser inseridos no controle de edição. O filtro não é interpretado como uma expressão regular e o mesmo filtro é aplicado a todos os caracteres inseridos. O formato do filtro é o seguinte: 
+> Um deslocamento desde o início da estrutura **DTBLEDIT** até um filtro de cadeia de caracteres que descreve restrições, se for o caso, para os caracteres que podem ser inseridos no controle de edição. O filtro não é interpretado como uma expressão regular e o mesmo filtro é aplicado a todos os caracteres inseridos. O formato do filtro é o seguinte: 
     
 |**Caractere**|**Descrição**|
 |:-----|:-----|
-| `*` <br/> |Qualquer caractere é permitido (por exemplo, `"*"`).  <br/> |
-| `[ ]` <br/> |Define um conjunto de caracteres (por exemplo, `"[0123456789]".`)  <br/> |
-| `-` <br/> |Indica um intervalo de caracteres (por exemplo, `"[a-z]"`).  <br/> |
-| `~` <br/> |Indica que esses caracteres não são permitidos (por exemplo, `"[~0-9]"`).  <br/> |
-| `\` <br/> |Usado para citar qualquer um dos símbolos anteriores (por exemplo, `"[\-\\\[\]]"` os caracteres significa \, -, [e] são permitidos).  <br/> |
+| `*` <br/> |Qualquer caractere é permitido (por exemplo,  `"*"` ).  <br/> |
+| `[ ]` <br/> |Define um conjunto de caracteres (por exemplo,  `"[0123456789]".` )  <br/> |
+| `-` <br/> |Indica um intervalo de caracteres (por exemplo,  `"[a-z]"` ).  <br/> |
+| `~` <br/> |Indica que esses caracteres não são permitidos (por exemplo,  `"[~0-9]"` ).  <br/> |
+| `\` <br/> |Usado para citação de qualquer um dos símbolos anteriores (por exemplo, os caracteres  `"[\-\\\[\]]"` -, \, [e ] são permitidos).  <br/> |
    
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para designar o formato do filtro de caracteres. O seguinte sinalizador pode ser definido:
+> Bitmask de sinalizadores usados para designar o formato do filtro de caracteres. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE
   
-> O filtro está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o filtro estará no formato ANSI.
+> O filtro está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o filtro está no formato ANSI.
     
  **ulNumCharsAllowed**
   
@@ -71,15 +71,15 @@ MAPI_UNICODE
     
  **ulPropTag**
   
-> Marca de propriedade de uma propriedade do tipo PT_TSTRING. O membro **ulPropTag** identifica a propriedade de cadeia de caracteres cujos dados são exibidos e editados no controle de edição. 
+> Marca de propriedade de uma propriedade do tipo PT_TSTRING. O **membro ulPropTag** identifica a propriedade de cadeia de caracteres cujos dados são exibidos e editados no controle de edição. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLEDIT** descreve um controle de edição uma área em uma caixa de diálogo que contém informações alfanuméricas. Quase todas as caixas de diálogo têm pelo menos um controle de edição. Os controles de edição podem ser modificados por um usuário ou somente leitura. 
+Uma **estrutura DTBLEDIT** descreve um controle de edição de uma área em uma caixa de diálogo que contém informações alfanuméricos. Quase todas as caixas de diálogo têm pelo menos um controle de edição. Os controles de edição podem ser modificados por um usuário ou somente leitura. 
   
-Os controles de edição também podem ser de linha única ou várias linhas. Os controles de edição de várias linhas normalmente têm uma barra de rolagem associada a eles. 
+Os controles de edição também podem ser de linha única ou de várias linhas. Os controles de edição de várias linhas normalmente têm uma barra de rolagem associada a eles. 
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Tabelas de Exibição.](display-tables.md) Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

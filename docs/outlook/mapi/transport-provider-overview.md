@@ -21,20 +21,20 @@ ms.locfileid: "33433154"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um provedor de transporte é uma biblioteca de vínculo dinâmico (DLL) que atua como um intermediário entre o subsistema MAPI e um ou mais sistemas de mensagens subjacentes. Um sistema de mensagens é um mecanismo específico pelo qual as mensagens são enviadas e recebidas. Alguns exemplos de sistemas de mensagens são:
+Um provedor de transporte é uma biblioteca de vínculo dinâmico (DLL) que atua como um intermediário entre o subsistema MAPI e um ou mais sistemas de mensagens subjacentes. Um sistema de mensagens é algum mecanismo específico pelo qual as mensagens são enviadas e recebidas. Alguns exemplos de sistemas de mensagens são:
   
-- Um sistema de arquivos de rede compartilhado no qual o provedor de transporte grava mensagens diretamente.
+- Um sistema de arquivos de rede compartilhada em que o provedor de transporte grava mensagens diretamente.
     
 - Uma interface de rede TCP/IP que o provedor de transporte usa para se conectar a um servidor de mensagens.
     
-- Um serviço online ao qual os usuários se conectam.
+- Um serviço online ao que os usuários se conectam.
     
-- Um sistema de mensagens ou de automação do Office baseado em host.
+- Um sistema de automação do office ou de mensagens baseado em host.
     
 - Um conjunto de chamadas de procedimento remoto para um servidor de mensagens.
     
 - Qualquer coisa que possa ser usada para transferir dados de um computador para outro.
     
-Uma DLL do provedor de transporte deve estar em conformidade com a interface especificada por MAPI. Como desenvolvedor de provedor de transporte, você implementará essa interface em termos da funcionalidade presente no sistema de mensagens.
+Um provedor de transporte DLL deve estar em conformidade com a interface especificada por MAPI. Como desenvolvedor de provedores de transporte, você implementará essa interface em termos da funcionalidade presente no sistema de mensagens.
   
 

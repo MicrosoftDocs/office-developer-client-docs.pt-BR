@@ -29,7 +29,7 @@ No exemplo de código a seguir, CreateDistributionList cria uma lista de distrib
 > [!NOTE] 
 > Você deve passar um objeto **Recipient** resolvido como um parâmetro para o método [AddMember (Recipient)](https://msdn.microsoft.com/library/bb612290(v=office.15)) do objeto [DistListItem](https://msdn.microsoft.com/library/bb645382(v=office.15)). Para resolver um objeto **Recipient**, use o método [Resolve()](https://msdn.microsoft.com/library/bb624165(v=office.15)).
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

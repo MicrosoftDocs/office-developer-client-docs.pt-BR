@@ -19,24 +19,24 @@ ms.locfileid: "33407190"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Ao implementar seu servidor de formulários, você precisa ter uma propriedade para cada informação de que sua classe de mensagens precisa. Essas propriedades podem ser propriedades MAPI predefinidas ou podem ser Propriedades personalizadas definidas por você. Para obter mais informações sobre como trabalhar com propriedades, consulte [MAPI Property Overview](mapi-property-overview.md).
+Ao implementar seu servidor de formulário, você precisa ter uma propriedade para cada informação que sua classe de mensagem precisa. Essas propriedades podem ser propriedades MAPI predefinidos ou podem ser propriedades personalizadas definidas por você. Para obter mais informações sobre como trabalhar com propriedades, consulte [MAPI Property Overview](mapi-property-overview.md).
   
-Seu arquivo de configuração de formulário conterá uma lista de propriedades que seu servidor de formulário expõe para que os aplicativos cliente usem, mas isso não precisa ser a lista completa de propriedades usadas pelo seu servidor de formulários. Os aplicativos clientes normalmente usam as propriedades expostas para permitir que os usuários classifiquem mensagens em uma pasta ou personalizem suas interfaces de alguma forma.
+Seu arquivo de configuração de formulário conterá uma lista de propriedades que o servidor de formulário expõe para os aplicativos cliente usarem, mas não precisa ser a lista inteira de propriedades usadas pelo servidor de formulário. Os aplicativos cliente geralmente usam as propriedades expostas para permitir que os usuários classificar mensagens em uma pasta ou personalizar suas interfaces de alguma maneira.
   
-O MAPI tem um amplo conjunto de propriedades predefinidas que são suficientes para a maioria dos aplicativos. No enTanto, haverá ocasiões em que uma classe de mensagem personalizada precisa de uma propriedade que MAPI não define. Você pode usar propriedades personalizadas para estender o conjunto de propriedades predefinido MAPI para qualquer informação especial que seu servidor de formulário precisa suportar.
+MAPI has a large set of predefined properties that suffice for most applications. No entanto, haverá ocasiões em que uma classe de mensagem personalizada precisa de uma propriedade que MAPI não define. You can use custom properties to extend the MAPI predefined set of properties for whatever special information your form server needs to support.
   
-Você pode usar uma das seguintes maneiras para definir propriedades personalizadas:
+Você pode usar uma das seguintes maneiras de definir propriedades personalizadas:
   
-- Escolha um nome para a propriedade e use o método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obter uma marca de propriedade para ela. A interface [IMAPIProp](imapipropiunknown.md) através da qual você chama esse método vem do ponteiro [IMessage](imessageimapiprop.md) que é passado para o servidor de formulário quando a mensagem é criada. Observe que o nome da propriedade deve ser uma cadeia de caracteres largos. 
+- Escolha um nome para a propriedade e use o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter uma marca de propriedade para ela. A interface [IMAPIProp](imapipropiunknown.md) através da qual você chama esse método vem do ponteiro [IMessage](imessageimapiprop.md) que é passado para o servidor de formulário quando a mensagem é criada. Observe que o nome da propriedade deve ser uma cadeia de caracteres de caracteres largos. 
     
-- Defina você mesmo uma marca de propriedade personalizada. As marcas de propriedade personalizada devem estar no intervalo 0x6800 a 0x7BFF. As propriedades desse intervalo são específicas de classe de mensagem.
+- Defina uma marca de propriedade personalizada por conta própria. As marcas de propriedade personalizadas devem estar no intervalo 0x6800 a 0x7BFF. As propriedades nesse intervalo são específicas da classe message.
     
-Para obter mais informações sobre como definir propriedades personalizadas, consulte [definindo novas propriedades MAPI](defining-new-mapi-properties.md).
+Para obter mais informações sobre como definir propriedades personalizadas, consulte [Definindo novas propriedades MAPI](defining-new-mapi-properties.md).
   
 > [!NOTE]
-> Os servidores de formulário que possuem um texto de mensagem geralmente usam a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) para armazená-lo. Se o seu servidor de formulário usa o **PR_RTF_COMPRESSED**, ele também deve garantir que a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contenha uma versão somente texto do texto da mensagem, caso a mensagem resultante seja lida por um cliente que não ofereça suporte a Rich Text Texto da mensagem de formato (RTF). 
+> Os servidores de formulário que têm um texto de mensagem geralmente usam a **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) para armazená-lo. Se seu servidor de formulário usa **PR_RTF_COMPRESSED**, ele também deve garantir que a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contém uma versão somente texto do texto da mensagem, caso a mensagem resultante seja lida por um cliente que não suporta texto de mensagem RTF (Rich Text Format). 
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolvendo servidores de formulário MAPI](developing-mapi-form-servers.md)
 

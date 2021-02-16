@@ -22,28 +22,28 @@ Especifica um tipo de dados para o campo de texto.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Cadeia de caracteres.  <br/> |
-|duas  <br/> |Número. Inclui valores de data, hora, duração e moeda, bem como grandezas escalares, dimensões e ângulos. Especifique uma figura de formatação na célula Format.  <br/> |
+|0  <br/> |Cadeia de caracteres.  <br/> |
+|2   <br/> |Número. Inclui valores de data, hora, duração e moeda, bem como grandezas escalares, dimensões e ângulos. Especifique uma figura de formatação na célula Format.  <br/> |
 |5   <br/> |Valor de data ou hora. Exibe dias, meses e anos ou segundos, minutos e horas ou, ainda, um valor combinado de data e hora. Especifique uma figura de formatação na célula Format.  <br/> |
 |6   <br/> |Valor de duração. Exibe o tempo decorrido. Especifique uma figura de formatação na célula Format.  <br/> |
 |7   <br/> |Valor de moeda. Utiliza as configurações regionais de moeda do sistema. Especifique uma figura de formatação na célula Format.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula usando a caixa de diálogo **campo** (com uma forma selecionada, na guia **Inserir** , no grupo **texto** , clique em **campo** ). 
+Você também pode definir o valor  dessa célula usando a caixa  de diálogo Campo  (com uma forma selecionada, na guia Inserir, no grupo Texto, clique em **Campo** ). 
   
 Para obter uma referência à célula Type pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Fields. Type [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Type pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionTextField** <br/> |
-|Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visFieldType** <br/> |
+|Índice de linha:  <br/> |**visRowField**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visFieldType** <br/> |
    
 

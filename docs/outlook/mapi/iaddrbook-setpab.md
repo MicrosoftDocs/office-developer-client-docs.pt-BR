@@ -25,7 +25,7 @@ ms.locfileid: "33424613"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Designa um determinado contêiner como o catálogo de endereços pessoal (PAB).
+Designa um contêiner específico como o pab (lista de endereços pessoal).
   
 ```cpp
 HRESULT SetPAB(
@@ -38,11 +38,11 @@ HRESULT SetPAB(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de byte no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do contêiner a ser designado como o PAB. O parâmetro _lpEntryID_ não pode ser nulo. 
+> [in] Um ponteiro para o identificador de entrada do contêiner a ser designado como o PAB. O  _parâmetro lpEntryID_ não pode ser NULL. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,11 +52,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Os clientes e os provedores de serviços chamam o método **SetPAB** para designar um determinado contêiner como o PAB. O PAB é um contêiner que consiste em entradas copiadas de outros contêineres, bem como novas entradas. 
+Os clientes e provedores de serviços chamam **o método SetPAB** para designar um contêiner específico como a PAB. A PAB é um contêiner que consiste em entradas copiadas de outros contêineres, bem como novas entradas. 
   
-Uma chamada para **SetPAB** estabelece um contêiner como o PAB até que esse contêiner seja tornado indisponível ou um novo contêiner se torne o PAB por meio de uma chamada subsequente para o **SetPAB**. 
+Uma chamada para **SetPAB** estabelece um contêiner como o PAB até que esse contêiner se torne indisponível ou um novo contêiner se torne o PAB por meio de uma chamada subsequente para **SetPAB**. 
   
-Os clientes e provedores não precisam chamar o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para tornar o PAB alterado permanentemente. 
+Os clientes e provedores não têm que chamar o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para tornar a alteração de PAB permanente. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -64,7 +64,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|AbContDlg. cpp  <br/> |CAbContDlg:: OnSetPAB  <br/> |MFCMAPI usa o método **SetPAB** para tornar o contêiner especificado o PAB.  <br/> |
+|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI usa o **método SetPAB** para tornar o contêiner especificado o PAB.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

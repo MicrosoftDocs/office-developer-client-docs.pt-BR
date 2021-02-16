@@ -25,7 +25,7 @@ ms.locfileid: "33428225"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Registra o chamador para receber notificações de eventos específicos que afetam um contêiner, usuário de mensagens ou lista de distribuição.
+Registra o chamador para receber notificação de eventos especificados que afetam um contêiner, um usuário de mensagens ou uma lista de distribuição.
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID._ 
     
  _lpEntryID_
   
-> no Um ponteiro para o identificador de entrada do objeto sobre quais notificações devem ser geradas.
+> [in] Um ponteiro para o identificador de entrada do objeto sobre o qual as notificações devem ser geradas.
     
  _ulEventMask_
   
-> no Uma máscara de valores que indica os tipos de eventos de notificação nos quais o chamador está interessado e deve ser incluído no registro. Há uma estrutura de [notificação](notification.md) correspondente associada a cada tipo de evento que contém informações sobre o evento. A tabela a seguir lista os valores válidos para o parâmetro _ulEventMask_ e as estruturas associadas a cada valor. 
+> [in] Uma bitmask de valores que indicam os tipos de eventos de notificação nos quais o chamador está interessado e devem ser incluídos no registro. Há uma estrutura [notification](notification.md) correspondente associada a cada tipo de evento que contém informações sobre o evento. A tabela a seguir lista os valores válidos para o  _parâmetro ulEventMask_ e as estruturas associadas a cada valor. 
     
-|**Tipo de evento de notificação**|**Estrutura de **notificação** correspondente**|
+|**Tipo de evento de notificação**|**Estrutura **NOTIFICATION** correspondente**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevObjectCreated** <br/> |[OBJECT_NOTIFICATION](object_notification.md) <br/> |
@@ -62,11 +62,11 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> no Um ponteiro para um objeto de coletor de aviso para receber as notificações subsequentes.
+> [in] Um ponteiro para um objeto sink de aviso para receber as notificações subsequentes.
     
  _lpulConnection_
   
-> bota Um ponteiro para um valor diferente de zero que representa o registro de notificação.
+> [out] Um ponteiro para um valor que não é zero que representa o registro de notificação.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -76,27 +76,27 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> O identificador de entrada passado no parâmetro _lpEntryID_ não está no formato apropriado. 
+> O identificador de entrada passado no  _parâmetro lpEntryID_ não está no formato apropriado. 
     
 MAPI_E_NO_SUPPORT 
   
-> O provedor de catálogo de endereços não oferece suporte a notificações, possivelmente porque não permite que as alterações sejam feitas em seus objetos.
+> O provedor de agendas não dá suporte à notificação, possivelmente porque não permite que as alterações sejam feitas em seus objetos.
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> O provedor de catálogo de endereços não pode lidar com o identificador de entrada passado no _lpEntryID_.
+> O provedor de agendas não pode manipular o identificador de entrada passado em  _lpEntryID_.
     
 ## <a name="remarks"></a>Comentários
 
-Os provedores de catálogo de endereços implementam o método **IABLogon:: Advise** para registrar o chamador para ser notificado quando uma alteração ocorre para um objeto em um de seus contêineres. Os chamadores podem se registrar para obter notificações sobre usuários de mensagens, listas de distribuição ou contêineres inteiros. 
+Os provedores de agendamento implementam o método **IABLogon::Advise** para registrar o chamador a ser notificado quando ocorre uma alteração em um objeto em um de seus contêineres. Os chamadores podem se registrar para receber notificações sobre usuários de mensagens, listas de distribuição ou contêineres inteiros. 
   
-Normalmente, os clientes chamam o método [IAddrBook:: Advise](iaddrbook-advise.md) para registrar notificações do catálogo de endereços. Em seguida, o MAPI chama o método **Advise** do provedor de catálogo de endereços responsável pelo objeto representado pelo identificador de entrada no _lpEntryID_.
+Os clientes normalmente chamam o [método IAddrBook::Advise](iaddrbook-advise.md) para se registrar para notificações do address book. MAPI then calls the **Advise** method of the address book provider that is responsible for the object represented by the entry identifier in  _lpEntryID_.
   
-Quando uma alteração ocorre para o objeto indicado do tipo representado no _ulEventMask_, uma chamada é feita ao método OnNotify do coletor de avisos apontado por _lpAdviseSink_. **** Dados passados na estrutura de **notificação** para a **** rotina OnNotify descreve o evento. 
+When a change occurs to the indicated object of the type represented in  _ulEventMask_, a call is made to the **OnNotify** method of the advise sink pointed to by  _lpAdviseSink_. Os dados passados **na estrutura NOTIFICATION** para a rotina **OnNotify** descrevem o evento. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Você pode dar suporte à notificação com ou sem a ajuda do MAPI. O MAPI tem três métodos de objeto de suporte para ajudar os provedores de serviços a implementar a notificação:
+Você pode dar suporte à notificação com ou sem ajuda do MAPI. O MAPI tem três métodos de objeto de suporte para ajudar os provedores de serviços a implementar a notificação:
   
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)
     
@@ -104,19 +104,19 @@ Você pode dar suporte à notificação com ou sem a ajuda do MAPI. O MAPI tem t
     
 - [IMAPISupport::Notify](imapisupport-notify.md)
     
-Se você optar por usar os métodos de suporte MAPI, chame **Subscribe** quando seu método **Advise** for chamado e libere o ponteiro _lpAdviseSink_ . 
+Se você optar por usar os métodos de suporte MAPI, chame **Subscribe** quando o método **Advise** for chamado e libere o ponteiro _lpAdviseSink._ 
   
-Se você optar por dar suporte a uma notificação por conta própria, chame o método **AddRef** do coletor de avisos representado pelo parâmetro _lpAdviseSink_ para manter uma cópia desse ponteiro. Mantenha essa cópia até que o método [IABLogon:: Unadvise](iablogon-unadvise.md) seja chamado para cancelar o registro. 
+Se você optar por dar suporte à notificação por conta própria, chame o método **AddRef** do sink de aviso representado pelo parâmetro  _lpAdviseSink_ para manter uma cópia desse ponteiro. Mantenha essa cópia até que o [método IABLogon::Unadvise](iablogon-unadvise.md) seja chamado para cancelar o registro. 
   
-Independentemente de como você dá suporte à notificação, atribua um número de conexão diferente de zero para o registro de notificação e devolva-o no parâmetro _lpulConnection_ . Não libere esse número de conexão até que o método **Unadvise** tenha sido chamado. 
+Independentemente de como você suporta a notificação, atribua um número de conexão não zero ao registro de notificação e retorne-o no parâmetro _lpulConnection._ Não libere esse número de conexão até que **o método Unadvise** tenha sido chamado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-O ponteiro de coletor de aviso que você passa no parâmetro _lpAdviseSink_ para **avisar** pode apontar para um objeto que você criou ou que o MAPI criou através da função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . Você pode querer usar **HrThisThreadAdviseSink** se você dá suporte a vários threads de execução e quer ter certeza de que as chamadas subsequentes para seu método OnNotify ocorram em um momento apropriado em um thread apropriado. **** 
+O ponteiro do pia de avisar que você passa no parâmetro _lpAdviseSink_ para **Advise** pode apontar para um objeto que você criou ou que MAPI criou por meio da função [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) Talvez você queira usar **HrThisThreadAdviseSink** se tiver suporte para vários threads de execução e quiser ter certeza de que as chamadas subsequentes para o método **OnNotify** ocorram em um horário apropriado em um thread apropriado. 
   
-Prepare-se para o seu objeto de coletor de aviso a ser liberado a qualquer momento após a chamada para **avisar** e antes da chamada para **Unadvise**. Portanto, você deve liberar seu objeto de coletor de **** aviso após a revisor, a menos que tenha um uso específico de longo prazo para ele. 
+Esteja preparado para que seu objeto sink de aconselhá-lo seja liberado a qualquer momento após sua chamada para **Advise** e antes de sua chamada para **Unadvise**. Portanto, você deve liberar seu objeto sink de aconselhá-lo após o retorno de **Advise,** a menos que você tenha um uso específico a longo prazo para ele. 
   
-Para obter mais informações sobre o processo de notificação, consulte [Event Notification in MAPI](event-notification-in-mapi.md). Para obter informações sobre como usar os métodos **IMAPISupport** para dar suporte à notificação, consulte [support Event Notification](supporting-event-notification.md). Para obter mais informações sobre multithreading e MAPI, consulte [Threading in MAPI](threading-in-mapi.md).
+Para obter mais informações sobre o processo de notificação, consulte [Notificação de Evento em MAPI](event-notification-in-mapi.md). For information about how to use the **IMAPISupport** methods to support notification, see [Supporting Event Notification](supporting-event-notification.md). Para obter mais informações sobre multithreading e MAPI, consulte [Threading em MAPI](threading-in-mapi.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -128,7 +128,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Event
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[Notifica](notification.md)
+[NOTIFICAÇÃO](notification.md)
   
 [IABLogon : IUnknown](iablogoniunknown.md)
 

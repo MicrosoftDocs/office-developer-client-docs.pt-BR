@@ -25,7 +25,7 @@ ms.locfileid: "32335046"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a lista de EntryIds únicos que correspondem aos membros da lista de distribuição pessoal.
+Especifica a lista de EntryIds que correspondem aos membros da lista de distribuição pessoal.
   
 |||
 |:-----|:-----|
@@ -37,27 +37,27 @@ Especifica a lista de EntryIds únicos que correspondem aos membros da lista de 
    
 ## <a name="remarks"></a>Comentários
 
-Esses EntryIds únicos encapsulam nomes de exibição e endereços de email dos membros da lista de distribuição pessoal.
+Esses EntryIds one-off encapsulam nomes de exibição e endereços de email dos membros da lista de distribuição pessoal.
   
-Se o cliente ou o servidor definir essa propriedade, ele deverá ser sincronizado com a propriedade **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)): para cada entrada na propriedade **dispidDLOneOffMembers** , deverá haver uma entrada no mesmo posição na propriedade **dispidDLMembers** . 
+Se o cliente ou o servidor definir essa propriedade, ela deverá ser sincronizada com a propriedade **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)), para cada entrada na propriedade **dispidDLOneOffMembers,** deverá haver uma entrada na mesma posição na propriedade **dispidDLMembers.** 
   
-Ao definir **dispidDLOneOffMembers**, o cliente ou o servidor deve garantir que o tamanho total seja menor que 15.000 bytes de tamanho.
+Ao definir **dispidDLOneOffMembers**, o cliente ou o servidor deve garantir que seu tamanho total seja inferior a 15.000 bytes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para contatos e listas de distribuição pessoal.
+> Especifica as propriedades e operações permitidas para contatos e listas de distribuição pessoais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -69,7 +69,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

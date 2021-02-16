@@ -25,7 +25,7 @@ ms.locfileid: "33425873"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para o objeto de repositório de mensagens. 
+Retorna uma [estrutura MAPIERROR](mapierror.md) que contém informações sobre o último erro que ocorreu para o objeto de armazenamento de mensagens. 
   
 ```cpp
 HRESULT GetLastError(
@@ -37,39 +37,39 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _And_
+ _hResult_
   
-> no Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior para o objeto do repositório de mensagens.
+> [in] Um tipo de dados HRESULT que contém o valor de erro gerado na chamada do método anterior para o objeto de armazenamento de mensagens.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
+> [in] Uma máscara de bits de sinalizadores que controla o tipo de cadeia de caracteres retornada. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres na estrutura **MAPIERROR** retornada no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
+> As cadeias de caracteres na **estrutura MAPIERROR** retornadas no parâmetro  _lppMAPIError_ estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
     
  _lppMAPIError_
   
-> bota Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhum **MAPIERROR** a ser retornado. 
+> [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornada que contém informações de versão, componente e contexto para o erro. O  _parâmetro lppMAPIError_ pode ser definido como NULL se não houver **MAPIERROR a** ser retornada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a implementação não tem suporte para Unicode ou o MAPI_UNICODE não foi definido e a implementação oferece suporte somente a Unicode.
+> O sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode ou MAPI_UNICODE não foi definido e a implementação dá suporte apenas a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-Use o método **IMSLogon:: GetLastError** para recuperar informações a serem exibidas em uma mensagem para o usuário sobre o último erro retornado de uma chamada de método para o objeto do repositório de mensagens. 
+Use o **método IMSLogon::GetLastError** para recuperar informações a fim de exibir em uma mensagem para o usuário sobre o último erro retornado de uma chamada de método para o objeto de armazenamento de mensagens. 
   
-Para liberar todas as memórias alocadas por MAPI para a estrutura **MAPIERROR** retornada, os aplicativos clientes precisam chamar somente a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar toda a memória alocada por MAPI para a estrutura **MAPIERROR** retornada, os aplicativos cliente precisam chamar apenas a [função MAPIFreeBuffer.](mapifreebuffer.md) 
   
-O valor de retorno **** de GetLastError deve ser S_OK para que um aplicativo use o **MAPIERROR**. Mesmo que o valor de retorno seja S_OK, um **MAPIERROR** pode não ser retornado. Se a implementação não puder determinar o último erro, ou se um **MAPIERROR** não estiver disponível para esse erro, GetLastError retornará um ponteiro para NULL em _lppMAPIError_ em vez disso. **** 
+O valor de retorno **de GetLastError** deve ser S_OK para que um aplicativo use **o MAPIERROR**. Mesmo que o valor de retorno seja S_OK, **um MAPIERROR** pode não ser retornado. Se a implementação não puder determinar qual foi o último erro ou se um **MAPIERROR** não estiver disponível para esse erro, **GetLastError** retornará um ponteiro para NULL em _lppMAPIError._ 
   
 ## <a name="see-also"></a>Confira também
 

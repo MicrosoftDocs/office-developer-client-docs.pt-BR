@@ -25,12 +25,12 @@ ms.locfileid: "33407253"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de estruturas [SRow](srow.md) . Cada estrutura **SRow** descreve uma linha de uma tabela. 
+Contém uma matriz de [estruturas SRow.](srow.md) Cada **estrutura SRow** descreve uma linha de uma tabela. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
-|Macros relacionadas:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Macros relacionadas:  <br/> |[CbNewsRowSet](cbnewsrowset.md), [CbsRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
    
 ```cpp
 typedef struct _SRowSet
@@ -43,17 +43,17 @@ typedef struct _SRowSet
 
 ## <a name="members"></a>Members
 
- **Galinha**
+ **cRows**
   
-> Contagem de estruturas **SRow** no membro **aRow** . 
+> Contagem de **estruturas SRow** no **membro aRow.** 
     
  **aRow**
   
-> Matriz de estruturas **SRow** . Há uma estrutura para cada linha na tabela. 
+> Matriz de **estruturas SRow.** Há uma estrutura para cada linha na tabela. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **SRowSet** é usada para descrever várias linhas de dados de uma tabela. As estruturas **SRowSet** são usadas nos métodos de interface [IAddrBook](iaddrbookimapiprop.md), [ITableData](itabledataiunknown.md)e IMAPITable, além das seguintes funções: [](imapitableiunknown.md) 
+Uma **estrutura SRowSet** é usada para descrever várias linhas de dados de uma tabela. **Estruturas SRowSet** são usadas nos métodos de interface [IAddrBook](iaddrbookimapiprop.md), [ITableData](itabledataiunknown.md)e [IMAPITable,](imapitableiunknown.md) além das seguintes funções: 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,11 +61,11 @@ Uma estrutura **SRowSet** é usada para descrever várias linhas de dados de uma
     
 - [FreeProws](freeprows.md)
     
- As estruturas **SRowSet** são definidas da mesma forma que as estruturas [das ADRLIST](adrlist.md) para permitir que as linhas de uma tabela de destinatários e as entradas em uma lista de endereços sejam tratadas da mesma forma. Tanto estruturas **SRowSet** quanto estruturas **das ADRLIST** podem ser passadas para métodos como [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) e [IAddrBook:: address](iaddrbook-address.md). 
+ **As estruturas SRowSet** são definidas da mesma forma que estruturas [ADRLIST](adrlist.md) para permitir que as linhas de uma tabela de destinatários e as entradas em uma lista de endereços sejam tratadas da mesma forma. Tanto estruturas **SRowSet** quanto **estruturas ADRLIST** podem ser passadas para métodos como [IMessage::ModifyRecipients](imessage-modifyrecipients.md) e [IAddrBook::Address](iaddrbook-address.md). 
   
-Além disso, as regras para a alocação de memória para estruturas **SRowSet** são as mesmas que as estruturas **das ADRLIST** . Para resumir, cada estrutura [SPropValue](spropvalue.md) na matriz apontada pelo membro **lpProps** de cada linha no conjunto de linhas deve ser alocaDa separadamente usando o [MAPIAllocateBuffer](mapiallocatebuffer.md). Cada estrutura de valor de propriedade também deve ser desalocada usando [MAPIFreeBuffer](mapifreebuffer.md) antes da desalocação de sua estrutura **SRowSet** para que os ponteiros para as estruturas **SPropValue** alocadas não sejam perdidos. A memória alocada de uma linha pode ser preservada e reutilizada fora do contexto da estrutura **SRowSet** . 
+Além disso, as regras de alocação de memória **para estruturas SRowSet** são as mesmas para **estruturas ADRLIST.** Para resumir, cada estrutura [SPropValue](spropvalue.md) na matriz apontada pelo membro **lpProps** de cada linha no conjunto de linhas deve ser alocada separadamente usando [MAPIAllocateBuffer](mapiallocatebuffer.md). Cada estrutura de valores de propriedade também deve ser desaloçada usando [MAPIFreeBuffer](mapifreebuffer.md) antes da desalocação de sua estrutura **SRowSet** para que os ponteiros para as estruturas **SPropValue** alocadas não sejam perdidos. A memória alocada de uma linha pode ser preservada e reutilizada fora do contexto da **estrutura SRowSet.** 
   
-Para obter mais informações sobre como a memória para estruturas do **SRowSet** devem ser alocadas, consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md). 
+Para obter mais informações sobre como a memória para estruturas **SRowSet** deve ser alocada, consulte Gerenciando memória para [estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="see-also"></a>Confira também
 

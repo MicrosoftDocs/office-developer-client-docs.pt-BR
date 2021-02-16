@@ -32,11 +32,11 @@ Contém um valor que indica o tipo de uma linha em uma tabela.
 |Propriedades associadas:  <br/> |PR_ROW_TYPE  <br/> |
 |Identificador:  <br/> |0x0FF5  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade só aparece em tabelas de conteúdo. Uma categoria só existe quando tem itens.
+Essa propriedade aparece somente em tabelas de conteúdo. Uma categoria só existe quando tem itens.
   
 Essa propriedade pode ter exatamente um dos seguintes valores:
   
@@ -50,27 +50,27 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> A categoria é expandida; a interface do usuário geralmente exibe isso com o sinal de menos (-) ao lado dele.
+> A categoria é expandida; normalmente, a interface do usuário exibe isso com o sinal de menos ( - ) ao lado dele.
     
 TBL_COLLAPSED_CATEGORY 
   
-> A categoria é recolhida; a interface do usuário geralmente exibe isso com o sinal de adição (+) ao lado dele.
+> A categoria está recolhido; a interface do usuário geralmente exibe isso com o sinal de a mais (+) ao lado dele.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclui operações permissíveis para os objetos da tabela principal.
+> Inclui operações permitidas para os objetos de tabela principais.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -85,7 +85,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

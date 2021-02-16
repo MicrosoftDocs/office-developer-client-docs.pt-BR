@@ -25,7 +25,7 @@ ms.locfileid: "32360554"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a opção de votação que um Respondente selecionou.
+Especifica a opção de votação que um respondente selecionou.
   
 |||
 |:-----|:-----|
@@ -37,23 +37,23 @@ Especifica a opção de votação que um Respondente selecionou.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade normalmente é definida como um dos valores delimitados contidos na propriedade **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) em que os votos de pesquisa.
+Essa propriedade geralmente é definida como um dos valores delimitados contidos na propriedade **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) na qual o respondente vota.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definição e referências de conjunto de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definição de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações que são permitidas para os objetos de mensagem de email.
+> Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -32,33 +32,33 @@ Contém o **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)),
 |Propriedades associadas:  <br/> |PR_TEMPLATEID  <br/> |
 |Identificador:  <br/> |0x3902  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Catálogo de endereços MAPI  <br/> |
+|Área:  <br/> |MAPI Address Book  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esse valor deve estar presente para todos os objetos do catálogo de endereços em um servidor de interface de provedor de serviços de nome (NSPI), o nome diferenciado (DN) deve corresponder ao valor de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) e seu DN deve seguir o formato DN especificação específica para o tipo de objeto. 
+Esse valor deve estar presente para todos os objetos de catálogo de endereços em um servidor NSPI (Name Service Provider Interface), seu nome diferenciado (DN) deve corresponder ao valor de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), e seu DN deve seguir a especificação de formato DN específica para o tipo de objeto. 
   
-Essa propriedade não está presente nos objetos de um catálogo de endereços offline.
+Essa propriedade não está presente em objetos em um livro de endereços offline.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações de listas de usuários, contatos, grupos e recursos.
+> Especifica as propriedades e operações para listas de usuários, contatos, grupos e recursos.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

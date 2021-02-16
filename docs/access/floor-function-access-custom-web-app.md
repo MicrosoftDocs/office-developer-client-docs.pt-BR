@@ -23,12 +23,12 @@ Retorna o maior inteiro menor ou igual à expressão numérica especificada.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Piso** (*Numericé*) 
+ **Floor** (*NumericExpression*) 
   
-A função **Floor** contém o argumento a seguir. 
+A **função Floor** contém o argumento a seguir. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |Uma expressão numérica  <br/> |
+| *NumericExpression*  <br/> |Uma expressão numérica  <br/> |
    
 

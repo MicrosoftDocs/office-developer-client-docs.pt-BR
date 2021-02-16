@@ -25,11 +25,11 @@ ms.locfileid: "33424473"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição de bitmask, que é usada para executar uma operação **e** bits e testar o resultado. 
+Descreve uma restrição de bitmask, que é usada para executar uma operação **AND** bit a bit e testar o resultado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBitMaskRestriction
@@ -45,29 +45,29 @@ typedef struct _SBitMaskRestriction
 
  **relBMR**
   
-> Operador relacional que descreve como a máscara especificada no membro **ulMask** deve ser aplicada à marca da propriedade. Os valores possíveis são os seguintes: 
+> Operador relacional que descreve como a máscara especificada no **membro ulMask** deve ser aplicada à marca de propriedade. Os valores possíveis são: 
     
 BMR_EQZ 
   
-> Execute uma operação **e** bit a bit da máscara no membro **ulMask** com a propriedade representada pelo membro **ulPropTag** e teste para ser igual a zero. 
+> Execute uma operação **AND** bit a bit da máscara no membro **ulMask** com a propriedade representada pelo membro **ulPropTag** e teste para ser igual a zero. 
     
 BMR_NEZ 
   
-> Execute uma operação **e** bit a bit da máscara no membro **ulMask** com a propriedade representada pelo membro **ulPropTag** e teste para não ser igual a zero. 
+> Execute uma operação **AND** bit a bit da máscara no membro **ulMask** com a propriedade representada pelo membro **ulPropTag** e teste para não ser igual a zero. 
     
  **ulPropTag**
   
-> Marca de propriedade da propriedade à qual a bitmask é aplicada.
+> Marca de propriedade da propriedade à qual a máscara de bits é aplicada.
     
  **ulMask**
   
-> Bitmask a ser aplicado à propriedade identificada por **ulPropTag**.
+> Máscara de bits a ser aplicada à propriedade identificada por **ulPropTag**.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SBitMaskRestriction** executa uma operação **e** bit a bit usando a bitmask descrita no membro **ulMask** e o valor da propriedade descrita pelo membro **ulPropTag** . Se o resultado for zero, BMR_EQZ será satisfeito. Se for diferente de zero, ou seja, se o valor da propriedade tiver pelo menos um dos mesmos bits definido como **ulMask**, então BMR_NEZ será satisfeito.
+A **estrutura SBitMaskRestriction** executa uma operação **AND** bit a bit usando a bitmask descrita no membro **ulMask** e o valor da propriedade descrita pelo **membro ulPropTag.** Se o resultado for zero, BMR_EQZ será satisfeito. Se não for zero, ou seja, se o valor da propriedade tiver pelo menos um dos mesmos bits definidos como **ulMask,** então BMR_NEZ será satisfeito.
   
-Para obter mais informações sobre a estrutura e as restrições do **SBitMaskRestriction** em geral, consulte [about Restrictions](about-restrictions.md).
+Para obter mais informações sobre a **estrutura SBitMaskRestriction** e restrições em geral, consulte [Sobre restrições](about-restrictions.md).
   
 ## <a name="see-also"></a>Confira também
 

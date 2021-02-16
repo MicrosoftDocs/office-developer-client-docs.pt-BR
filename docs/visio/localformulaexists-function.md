@@ -22,13 +22,13 @@ Indica se a célula referenciada contém uma fórmula local.
   
 ## <a name="syntax"></a>Sintaxe
 
-LOCALFORMULAEXISTS (* * *cellref* * *) 
+LOCALFORMULAEXISTS (** *cellref* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> | A célula cuja presença de fórmula você deseja verificar.  <br/> |
+| _cellref_ <br/> |Obrigatório  <br/> |**String** <br/> | A célula cuja presença de fórmula você deseja verificar.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 

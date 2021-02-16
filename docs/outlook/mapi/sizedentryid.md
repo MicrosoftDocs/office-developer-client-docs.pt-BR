@@ -23,11 +23,11 @@ ms.locfileid: "33405706"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura [EntryID](entryid.md) nomeada que contém um membro **AB** de um tamanho especificado. 
+Cria uma estrutura [ENTRYID](entryid.md) nomeada que contém um **membro ab** de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
@@ -36,19 +36,19 @@ SizedENTRYID (_cb, _name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__CB_
+_ _cb_
   
-> Contagem de bytes no membro **AB** da nova estrutura. 
+> Contagem de bytes no **membro ab** da nova estrutura. 
     
-__nome_
+_ _name_
   
 > Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-A macro **SizedENTRYID** permite que você defina um identificador de entrada após os requisitos de comprimento de matriz serem conhecidos. Use essa macro para criar um identificador de entrada com limites explícitos. 
+A macro **SizedENTRYID** permite definir um identificador de entrada depois que os requisitos de comprimento da matriz são conhecidos. Use essa macro para criar um identificador de entrada com limites explícitos. 
   
-Para usar a nova estrutura que resulta da macro **SizedENTRYID** como um ponteiro para uma estrutura **EntryID** , execute a seguinte conversão: 
+Para usar a nova estrutura que resulta da macro **SizedENTRYID** como um ponteiro para uma **estrutura ENTRYID,** execute a seguinte projeção: 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;

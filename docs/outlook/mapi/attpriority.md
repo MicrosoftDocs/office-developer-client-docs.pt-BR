@@ -21,12 +21,12 @@ ms.locfileid: "33434519"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As prioridades de mensagens MAPI são mapeadas para valores TNEF para compatibilidade com versões anteriores, da seguinte maneira:
+As prioridades de mensagem MAPI são mapeadas para valores TNEF para compatibilidade com trás, da seguinte forma:
   
-|**Prioridade**|**Valor de MAPI**|**Valor TNEF**|
+|**Prioridade**|**Valor MAPI**|**Valor TNEF**|
 |:-----|:-----|:-----|
-|SS  <br/> |-1  <br/> |3D  <br/> |
-|high  <br/> |,0  <br/> |duas  <br/> |
-|low  <br/> |1  <br/> |1  <br/> |
+|normal  <br/> |-1  <br/> |3   <br/> |
+|high  <br/> |0  <br/> |2   <br/> |
+|low  <br/> |1   <br/> |1   <br/> |
    
 

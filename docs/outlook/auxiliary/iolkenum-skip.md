@@ -32,7 +32,7 @@ HRESULT IOlkEnum::Skip(
 
 _cSkip_
   
-> no O número de contas a serem ignoradas.
+> [in] O número de contas a serem ignoradas.
     
 ## <a name="return-values"></a>Valores de retorno
 

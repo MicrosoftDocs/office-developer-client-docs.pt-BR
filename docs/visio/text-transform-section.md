@@ -22,6 +22,6 @@ Contém as informações de posicionamento sobre o bloco de texto da forma.
   
 ## <a name="remarks"></a>Comentários
 
-Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**). A configuração de valores na seção **Text Transform** é comparável ao trabalho com o bloco de texto usando a ferramenta **bloco de texto** (o grupo **ferramentas** na guia **página inicial** ). 
+Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**). Definir valores na seção **Transformar** texto é comparável a  trabalhar com o  bloco de texto usando a ferramenta Bloco de Texto (o grupo Ferramentas na **guia** Página Home). 
   
 

@@ -28,14 +28,14 @@ Para fazer referência à célula UICategory pelo nome, a partir de outra fórmu
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Fields. UICat [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Fields.UICat[  *i*  ] onde  *i*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula UICategory pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionTextField** <br/> |
-| Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowField**  +   *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visFieldUICategory** <br/> |
    
 

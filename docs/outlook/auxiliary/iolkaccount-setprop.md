@@ -33,11 +33,11 @@ HRESULT IOlkAccount::SetProp(
 
 _dwProp_
   
-> no A marca de propriedade da propriedade Account a ser definida.
+> [in] A marca de propriedade da propriedade da conta a ser definida.
     
 _pVar_
   
-> no O valor da propriedade especificada.
+> [in] O valor da propriedade especificada.
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -48,7 +48,7 @@ _pVar_
    
 ## <a name="remarks"></a>Comentários
 
-Use [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) para salvar alterações no valor das propriedades da conta. 
+Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para salvar alterações no valor das propriedades da conta. 
   
 ## <a name="see-also"></a>Confira também
 

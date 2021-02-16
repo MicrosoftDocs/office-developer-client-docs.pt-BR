@@ -40,31 +40,31 @@ HRESULT OpenAttach(
 
  _ulAttachmentNum_
   
-> no Número de índice do anexo a ser aberto, conforme armazenado na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo. Esse número de índice identifica exclusivamente o anexo na mensagem e é válido somente no contexto da mensagem.
+> [in] Número de índice do anexo a ser aberto, conforme armazenado na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo. Esse número de índice identifica exclusivamente o anexo na mensagem e é válido somente no contexto da mensagem.
     
  _lpInterface_
   
-> no Ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o anexo. Passar resultados nulos na interface padrão do anexo ou **IAttach**, sendo retornado. 
+> [in] Ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar o anexo. Passar resultados NULL na interface padrão do anexo ou **IAttach** está sendo retornado. 
     
  _ulFlags_
   
-> no Bitmask de sinalizadores que controla como o anexo é aberto. Os seguintes sinalizadores podem ser definidos: 
+> [in] Máscara de bits de sinalizadores que controla como o anexo é aberto. Os sinalizadores a seguir podem ser definidos: 
     
 MAPI_BEST_ACCESS 
   
-> Solicita que o anexo seja aberto com as permissões de rede máximas permitidas para o usuário e o acesso ao aplicativo cliente máximo. Por exemplo, se o cliente tiver permissão de leitura/gravação, o anexo deverá ser aberto com permissão de leitura/gravação; Se o cliente tiver acesso somente leitura, o anexo deverá ser aberto com acesso somente leitura. 
+> Solicita que o anexo seja aberto com as permissões máximas de rede permitidas para o usuário e o acesso máximo ao aplicativo cliente. Por exemplo, se o cliente tiver permissão de leitura/gravação, o anexo deverá ser aberto com permissão de leitura/gravação; se o cliente tiver acesso somente leitura, o anexo deverá ser aberto com acesso somente leitura. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que o **OpenAttach** seja retornado com êxito, possivelmente antes que o anexo esteja totalmente disponível para o cliente de chamada. Se o anexo não estiver disponível, fazer uma chamada subsequente para ele pode causar um erro. 
+> Permite que **OpenAttach** retorne com êxito, possivelmente antes do anexo estar totalmente disponível para o cliente de chamada. Se o anexo não estiver disponível, fazer uma chamada subsequente pode causar um erro. 
     
 MAPI_MODIFY 
   
-> Solicita permissão de leitura/gravação. Por padrão, os anexos são abertos com acesso somente leitura e os clientes não devem funcionar na pressuposição de que a permissão de leitura/gravação tenha sido concedida. 
+> Solicita permissão de leitura/gravação. Por padrão, os anexos são abertos com acesso somente leitura, e os clientes não devem trabalhar com a suposição de que a permissão de leitura/gravação foi concedida. 
     
  _lppAttach_
   
-> bota Ponteiro para um ponteiro para o anexo aberto.
+> [out] Ponteiro para um ponteiro para o anexo aberto.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -74,15 +74,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMessage:: OpenAttach** abre o anexo de uma mensagem. 
+O **método IMessage::OpenAttach** abre o anexo de uma mensagem. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para abrir um anexo, você deve ter acesso ao número de anexo ou à propriedade **PR_ATTACH_NUM** . Chame [IMessage::](imessage-getattachmenttable.md) GetAttachmentTable para recuperar a tabela de anexos da mensagem e localizar a linha que representa o anexo a ser aberto. ConFira como [abrir um anexo](opening-an-attachment.md) para obter mais informações. 
+Para abrir um anexo, você deve ter acesso ao seu número de anexo **ou PR_ATTACH_NUM** propriedade. Chame [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) para recuperar a tabela de anexos da mensagem e localizar a linha que representa o anexo a ser aberto. Consulte [Abrir um anexo](opening-an-attachment.md) para obter mais informações. 
   
-Não tente abrir um anexo várias vezes; os resultados são indefinidos e dependentes do provedor de armazenamento de mensagens.
+Não tente abrir um anexo várias vezes; os resultados são indefinido e dependem do provedor do armazenamento de mensagens.
   
-Você pode solicitar que o anexo seja aberto no modo de leitura/gravação, em vez do modo somente leitura padrão. No enTanto, se o anexo será realmente aberto no modo de leitura/gravação está no provedor de armazenamento de mensagens. Você pode tentar modificar o anexo, se preparar para lidar com uma possível falha ou verificar o nível de acesso que foi concedido ao recuperar a propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) do anexo, se estiver disponível. 
+Você pode solicitar que o anexo seja aberto no modo de leitura/gravação, em vez do modo padrão somente leitura. No entanto, o provedor de armazenamento de mensagens decidirá se o anexo será realmente aberto no modo de leitura/gravação. Você pode tentar modificar o anexo, preparar-se para lidar com uma possível falha ou verificar o nível de acesso concedido pela recuperação da propriedade **PR_ACCESS_LEVEL** ([PidTagAccessLevel)](pidtagaccesslevel-canonical-property.md)do anexo, se ele estiver disponível. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -90,7 +90,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|AttachmentsDlg. cpp usado para  <br/> |CAttachmentsDlg:: OpenItemProp  <br/> |MFCMAPI usa o método **IMessage:: OpenAttach** para abrir objetos Attachment,  <br/> |
+|AttachmentsDlg.cpp Usado para  <br/> |CAttachmentsDlg::OpenItemProp  <br/> |MFCMAPI usa o **método IMessage::OpenAttach** para abrir objetos attachment,  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

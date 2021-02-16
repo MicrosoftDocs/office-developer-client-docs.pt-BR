@@ -32,33 +32,33 @@ Especifica um identificador exclusivo que o servidor de mensagens gera para cada
 |Propriedades associadas:  <br/> |PR_RULE_ID  <br/> |
 |Identificador:  <br/> |0x6674  <br/> |
 |Tipo de dados:  <br/> |PT_I8  <br/> |
-|Área:  <br/> |Regras no servidor  <br/> |
+|Área:  <br/> |Regras do lado do servidor  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 O cliente não deve especificar essa propriedade ao criar uma nova regra, mas deve especificá-la ao modificar ou excluir uma regra.
   
-Ao excluir uma regra, a única propriedade que o cliente deve passar é **PR_RULE_ID** e não deve passar qualquer outra propriedade. O servidor deve ignorar propriedades diferentes dessa propriedade. Ao adicionar uma regra, o cliente não deve passar **PR_RULE_ID**, ele deve passar no **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) e **PR_RULE_PROVIDER** ([ PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) Propriedades. Ao modificar uma regra, o cliente deve passar no **PR_RULE_ID** e deve passar o restante das propriedades que precisam ser modificadas. 
+Ao excluir uma regra, a única propriedade  que o cliente deve passar é PR_RULE_ID e não deve passar em nenhuma outra propriedade. O servidor deve ignorar propriedades diferentes dessa propriedade. Ao adicionar uma regra, o cliente não deve passar no **PR_RULE_ID**, ele deve passar as propriedades **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) e **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Ao modificar uma regra, o  cliente deve passar PR_RULE_ID e deve passar o restante das propriedades que precisam ser modificadas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -77,7 +77,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

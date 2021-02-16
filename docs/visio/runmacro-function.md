@@ -22,20 +22,20 @@ Chama uma macro em um projeto do Microsoft Visual Basic for Applications (VBA).
   
 ## <a name="syntax"></a>Sintaxe
 
-RunMacro (* * *macroname* * * [, * * *projname_opt* * *]) 
+RUNMACRO (** *macroname* ** [, ** *projname_opt* ** ]) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _nomedamacro_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |O nome da macro a ser chamada.  <br/> |
+| _macroname_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome da macro a ser chamada.  <br/> |
 | _projname_opt_ <br/> |Opcional  <br/> |**String** <br/> | O projeto que contém a macro.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se um projeto for especificado, o Microsoft Visio examinará todos os documentos abertos que contenham _projname_opt_ e chamará _nomedamacro_ nesse projeto. Se _projname_opt_ for omitido ou nulo ("") __ , macroname será considerado no projeto VBA do documento que contém a fórmula ExecutarMacro que está sendo avaliada. 
+Se um projeto for especificado, o Microsoft Visio verifica todos os documentos abertos em busca do que  _contém_ projname_opt e chama  _o nome da macro_ nesse projeto. Se  _projname_opt_ for omitido ou nulo (""), supõe-se que  _o nome da macro_ está no projeto VBA do documento que contém a fórmula RUNMACRO que está sendo avaliada. 
   
-A função RUNMACRO difere da função CALLTHIS, pois ela não passa uma referência para a forma que possui a fórmula que está sendo avaliada como _nomedamacro_. Como CALLTHIS, a função RUNMACRO não exige uma referência a _projname_opt_ para chamá-la. 
+A função RUNMACRO difere da função CALLTHIS porque ela não passa uma referência à forma que possui a fórmula que está sendo avaliada para  _macroname_. Assim como CALLTHIS, a função RUNMACRO não exige uma referência projname_opt  _para_ chamá-la. 
   
  O código VBA, que é invocado quando a instância do Visio avalia uma função RUNMACRO em uma fórmula, não deve fechar o documento que contém a célula que está usando a função, uma vez que ocorrerá um erro de aplicativo e o Visio será fechado. 
   

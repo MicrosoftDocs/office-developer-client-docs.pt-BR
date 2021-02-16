@@ -27,13 +27,13 @@ HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 
 _result_
   
-> bota Uma sequência de caracteres XML que representa os recursos de um provedor do Outlook Social Connector (OSC).
+> [out] Uma cadeia de caracteres XML que representa os recursos de um provedor do Outlook Social Connector (OSC).
     
 ## <a name="remarks"></a>Comentários
 
-A cadeia de caracteres XML do _resultado_ retornado deve estar em conformidade com a definição de esquema para o elemento **Capabilities** , conforme definido no esquema XML da EXTENSIBILIDADE do provedor do OSC. 
+A cadeia  _de caracteres_ XML de resultado retornado deve estar em conformidade com a definição de esquema para o elemento **capabilities,** conforme definido no esquema XML para extensibilidade do provedor OSC. 
   
-O provedor deve retornar uma cadeia de caracteres de _resultado_ para permitir que chamadas subsequentes do OSC para o provedor funcionem corretamente. 
+O provedor deve retornar uma cadeia  _de_ caracteres de resultado para permitir que chamadas subsequentes do OSC para o provedor funcionem corretamente. 
   
 ## <a name="see-also"></a>Confira também
 

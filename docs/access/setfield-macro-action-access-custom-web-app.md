@@ -1,5 +1,5 @@
 ---
-title: Ação de macro SetField (aplicativo Web personalizado do Access)
+title: Ação de macro DefinirCampo (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432923"
 ---
-# <a name="setfield-macro-action-access-custom-web-app"></a>Ação de macro SetField (aplicativo Web personalizado do Access)
+# <a name="setfield-macro-action-access-custom-web-app"></a>Ação de macro DefinirCampo (aplicativo Web personalizado do Access)
 
 A ação **DefinirCampo** pode ser usada para atribuir um valor a um campo. 
   
@@ -35,6 +35,6 @@ A ação **DefinirCampo** tem os seguintes listados na tabela a seguir.
    
 ## <a name="remarks"></a>Comentários
 
-A ação **SetField** não pode ser usada fora de um bloco de dados **[CriarRegistro](createrecord-data-block-access-custom-web-app.md)** ou **[editarregistro](editrecord-data-block-access-custom-web-app.md)** . 
+A **ação DefinirCampo** não pode ser usada fora de um bloco de dados **[CriarRegiscord](createrecord-data-block-access-custom-web-app.md)** **[ou EditarRegiscord.](editrecord-data-block-access-custom-web-app.md)** 
   
 

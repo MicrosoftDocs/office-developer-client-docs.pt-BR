@@ -25,28 +25,28 @@ ms.locfileid: "33408184"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um token de segurança ASN. 1 para uma mensagem.
+Contém um token de segurança ASN.1 para uma mensagem.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identificador:  <br/> |0x0C03  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propriedades de mensagens seguras  <br/> |
+|Área:  <br/> |Propriedades de Mensagens Seguras  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade transmite informações protegidas relacionadas à segurança de seu originador para o destinatário. Em conjunto com a propriedade **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), ela garante a associação do rótulo com o conteúdo da mensagem. Em conjunto com a propriedade **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), ela verifica se o conteúdo da mensagem está inalterado.
+Essa propriedade transmite informações protegidas relacionadas à segurança de seu originador para seu destinatário. Em conjunto com a **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), ela garante a associação do rótulo com o conteúdo da mensagem. Em conjunto com a **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), verifica se o conteúdo da mensagem não foi alterado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

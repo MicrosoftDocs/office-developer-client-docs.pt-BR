@@ -29,7 +29,7 @@ Inicializa um objeto de provedor de transporte e desliga o objeto quando ele nã
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapispi. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapispi.h  <br/> |
 |Exposto por:  <br/> |Objetos do provedor de transporte  <br/> |
 |Implementado por:  <br/> |Provedores de transporte  <br/> |
 |Chamado por:  <br/> |O spooler MAPI  <br/> |
@@ -40,7 +40,7 @@ Inicializa um objeto de provedor de transporte e desliga o objeto quando ele nã
 
 |||
 |:-----|:-----|
-|[Shutdown](ixpprovider-shutdown.md) <br/> |Fecha um provedor de transporte de maneira ordenada.  <br/> |
-|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Estabelece uma sessão na qual um aplicativo cliente faz logon em um provedor de transporte.  <br/> |
+|[Break](ixpprovider-shutdown.md) <br/> |Fecha um provedor de transporte de forma pedido.  <br/> |
+|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Estabelece uma sessão na qual um aplicativo cliente faz o login em um provedor de transporte.  <br/> |
    
 

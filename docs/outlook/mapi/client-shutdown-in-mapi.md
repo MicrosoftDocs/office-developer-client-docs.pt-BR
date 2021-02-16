@@ -19,20 +19,20 @@ ms.locfileid: "33405132"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A partir do Microsoft Outlook 2010 e agora incluindo o Microsoft Outlook 2013, os clientes MAPI podem desligar da mesma maneira que antes ou podem usar o desligamento rápido. Para que o desligamento rápido ocorra com êxito, o cliente MAPI, o provedor MAPI e o administrador do computador cliente precisam suportar o desligamento rápido. 
+A partir do Microsoft Outlook 2010 e agora incluindo o Microsoft Outlook 2013, os clientes MAPI podem desligar da mesma maneira como antes ou podem usar o desligamento rápido. Para que o desligamento rápido ocorra com êxito, o cliente MAPI, o provedor de MAPI e o administrador do computador cliente devem dar suporte ao desligamento rápido. 
   
-Os tópicos desta seção descrevem o suporte MAPI para um cliente executar o desligamento rápido.
+Os tópicos nesta seção descrevem o suporte a MAPI para que um cliente execute o desligamento rápido.
   
 [Visão geral do desligamento rápido](fast-shutdown-overview.md)
   
 > Este tópico apresenta o mecanismo básico de desligamento rápido.
     
-[Opções do usuário de desLigamento rápido](fast-shutdown-user-options.md)
+[Opções de usuário de desligamento rápido](fast-shutdown-user-options.md)
   
-> Este tópico descreve as opções disponíveis para os administradores adotarem o desligamento rápido no nível do usuário para os clientes MAPI do usuário.
+> Este tópico descreve as opções disponíveis para que os administradores adotem o desligamento rápido no nível do usuário para os clientes MAPI do usuário.
     
 [Práticas recomendadas para o desligamento rápido](best-practices-for-fast-shutdown.md)
   
-> Este tópico recomenda as práticas recomendadas para usar as interfaces de desligamento rápido para ajudar a evitar a perda de dados durante um desligamento do cliente MAPI.
+> Este tópico recomenda práticas recomendadas para usar as interfaces de desligamento rápido para ajudar a evitar a perda de dados durante um desligamento do cliente MAPI.
     
 

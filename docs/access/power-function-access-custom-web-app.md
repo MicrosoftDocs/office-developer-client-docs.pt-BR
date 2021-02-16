@@ -23,13 +23,13 @@ Retorna o valor da expressão especificada para a potência especificada.
   
 ## <a name="syntax"></a>Sintaxe
 
- **Energia** (*Numericn*, *Power*) 
+ **Power** (*NumericExpression*, *Power*) 
   
-A função **potência** contém os seguintes argumentos. 
+A **função Power** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Numericé*  <br/> |Uma expressão numérica  <br/> |
-| *Power*  <br/> |A potência para a qual gerar *numericname* .  <br/> |
+| *NumericExpression*  <br/> |Uma expressão numérica  <br/> |
+| *Power*  <br/> |A potência para a qual elevar  *NumericExpression*  .  <br/> |
    
 

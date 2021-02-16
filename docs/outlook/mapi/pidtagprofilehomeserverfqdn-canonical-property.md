@@ -34,30 +34,30 @@ Habilita a autenticação Kerberos de uma configuração de perfil.
    
 ## <a name="remarks"></a>Comentários
 
-A definição dessa propriedade como o nome de domínio do servidor de diretório do usuário permite a conexão direta com o controlador de domínio (DC), que é necessário para um perfil configurado para usar a autenticação Kerberos no Microsoft Exchange Server 2007 e versões anteriores, definindo **RPC_C_AUTHN_GSS_KERBEROS** em **PR_PROFILE_AUTH_PACKAGE**.
+A definição dessa propriedade com o Nome de Domínio do servidor de diretório do usuário permite a conexão direta com o Controlador de Domínio (DC), que é necessário para um perfil que tenha sido configurado para usar a autenticação Kerberos no Microsoft Exchange Server 2007 e em versões anteriores, definindo o **RPC_C_AUTHN_GSS_KERBEROS** em **PR_PROFILE_AUTH_PACKAGE**.
   
 > [!NOTE]
-> O Microsoft Exchange Server 2010 e o Exchange Server 2013 lidam com chamadas de catálogo de endereços feitas ao servidor de acesso para cliente de forma diferente da forma como o Exchange Server 2007 e versões anteriores as manipulam. O processo DSProxy não é mais usado, portanto a autenticação Kerberos pode ter êxito. No enTanto, o cliente ainda estaria se comunicando com o servidor do Exchange, em vez de diretamente com o DC, o que pode não ser desejado: a configuração do **PR_PROFILE_HOME_SERVER_FQDN** evita isso. 
+> O Microsoft Exchange Server 2010 e o Exchange Server 2013 lidam com chamadas do livro de endereços feitas ao Servidor de Acesso para Cliente de maneira diferente da maneira como o Exchange Server 2007 e versões anteriores as lidam. O processo DSProxy não é mais usado, portanto, a autenticação Kerberos pode ter êxito. No entanto, o cliente ainda estaria se comunicando com o servidor Exchange em  vez de diretamente com o DC, o que pode não ser desejado: a configuração PR_PROFILE_HOME_SERVER_FQDN evita isso. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Especifica operações permitidas para os principais objetos do repositório de mensagens.
+> Especifica operações permitidas para os objetos principais do armazenamento de mensagens.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -69,7 +69,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

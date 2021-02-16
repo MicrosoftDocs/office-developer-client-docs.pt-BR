@@ -25,28 +25,28 @@ ms.locfileid: "33433035"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada de objeto de diretório de um membro da tabela SACL (lista de controle de acesso do sistema).
+Contém o identificador de entrada de objeto de diretório de um membro da tabela SACL (lista de controle de acesso ao sistema).
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_MEMBER_ENTRYID  <br/> |
 |Identificador:  <br/> |0x0FFF  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Regras no servidor  <br/> |
+|Área:  <br/> |Regras do lado do servidor  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para identificar exclusivamente uma pessoa ou função à qual a SACL se aplica. Depois que um membro é criado na tabela SACL, a **EntryID** não pode ser alterada. Para alterá-la, você deve excluir o membro da tabela e recriá-lo **** com outra EntryID.
+Essa propriedade é usada pela interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) para identificar exclusivamente uma pessoa ou função a quem a SACL se aplica. Depois que um membro é criado na tabela SACL, a **ENTRYID** não pode ser alterada. Para alterá-lo, você deve excluir o membro da tabela e re-crie-o com uma **ENTRYID diferente.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

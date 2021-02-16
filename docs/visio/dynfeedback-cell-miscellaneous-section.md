@@ -22,9 +22,9 @@ Altera o tipo de comentário visual fornecido aos usuários ao arrastar um conec
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Permanece reto (sem segmentos).  <br/> |**visDynFBDefault** <br/> |
-| 1  <br/> | Mostra três segmentos quando arrastado.  <br/> |**visDynFBUCon3Leg** <br/> |
-| duas  <br/> | Mostra cinco segmentos quando arrastado.  <br/> |**visDynFBUCon5Leg** <br/> |
+| 0  <br/> | Permanece reto (sem segmentos).  <br/> |**visDynFBDefault** <br/> |
+| 1   <br/> | Mostra três segmentos quando arrastado.  <br/> |**visDynFBUCon3Leg** <br/> |
+| 2   <br/> | Mostra cinco segmentos quando arrastado.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Comentários
 

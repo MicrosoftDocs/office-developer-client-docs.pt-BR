@@ -22,9 +22,9 @@ Uma área de trabalho para inserir fórmulas em células especificadas pelo usu�
   
 ## <a name="remarks"></a>Comentários
 
-Assim como a seção [Scratch](scratch-section.md) , a seção **User-defined Cells** pode ser usada por sua solução de várias maneiras diferentes. A vantagem da seção **User-defined Cells** é que as células podem ser nomeadas; as células da seção **Scratch** não podem ser nomeadas. 
+Como na [seção Scratch,](scratch-section.md) a **seção User-defined Cells** pode ser usada por sua solução de várias maneiras diferentes. A vantagem da **seção User-defined Cells** é que as células podem ser nomeadas; não é possível **nomeá-los** na seção Scratch. 
   
-Se sua solução tiver uma finalidade bem definida, é recomendável que você use células na seção **User-defined Cells** para maior clareza, pois as células do usuário podem ser nomeadas. A seção **Scratch** é normalmente usada para isolar cálculos complexos repetidos. 
+Se sua solução tiver um objetivo bem definido, é sugerido que você use células na seção **User-defined Cells** para maior clareza, pois as células de Usuário podem ser nomeadas. A **seção Scratch** é normalmente usada para isolar cálculos complexos repetidos. 
   
 Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**).
   

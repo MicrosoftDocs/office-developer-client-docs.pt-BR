@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com colunas com vários valores
+title: Trabalhando com colunas de múltiplos valores
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420182"
 ---
-# <a name="working-with-multivalued-columns"></a>Trabalhar com colunas com vários valores
+# <a name="working-with-multivalued-columns"></a>Trabalhando com colunas de múltiplos valores
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma coluna com vários valores contém os dados de uma propriedade com vários valores, que é uma propriedade que tem uma matriz de valores do tipo base em vez de um único valor. Como nenhuma das tabelas inclui propriedades com vários valores em seus conjuntos de colunas padrão, as propriedades com vários valores serão incluídas em uma tabela somente se o usuário da tabela a solicitar. 
+Uma coluna de múltiplos valores contém os dados de uma propriedade de múltiplos valores, que é uma propriedade que tem uma matriz de valores do tipo base em vez de um único valor. Como nenhuma das tabelas inclui propriedades de múltiplos valores em seus conjuntos de colunas padrão, as propriedades de valores múltiplos são incluídas em uma tabela somente se o usuário da tabela solicitar. 
   
-Colunas com vários valores podem ser exibidas em tabelas:
+Colunas de múltiplos valores podem ser exibidas em tabelas:
   
-- Em uma única linha, com todos os valores de propriedade que aparecem na instância de coluna única. É o padrão.
+- Em uma única linha, com todos os valores de propriedade aparecendo na instância de coluna única. É o padrão.
     
-    - Ou
+    - Ou -
     
-- Em uma série de linhas, com uma linha para cada valor de propriedade. Cada valor exclusivo é exibido na coluna em sua própria linha, com o mesmo número de linhas que há valores na propriedade multivalued. Cada linha tem um valor exclusivo para a propriedade **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), mas os mesmos valores para as outras colunas. Se uma linha contiver mais de uma coluna com vários valores, por exemplo, duas colunas com valores _M_ e _N_ respectivamente, _M\*N_ instâncias da linha aparecerão na tabela. 
+- Em uma série de linhas, com uma linha para cada um dos valores de propriedade. Cada valor exclusivo aparece na coluna em sua própria linha, com tantas linhas quanto valores na propriedade de múltiplos valores. Cada linha tem um valor exclusivo para a **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), mas os mesmos valores para as outras colunas. Se uma linha contiver mais de uma coluna com vários valores, por exemplo, duas colunas com valores  _M_ e  _N_ respectivamente, as instâncias  _M \* N_ da linha aparecerão na tabela. 
     
-Um usuário de tabela solicita o tipo de exibição não padrão chamando o método imApitable [::](imapitable-setcolumns.md) SetColumns com o sinalizador MVI_FLAG definido no tipo de propriedade da coluna de vários valores. O sinalizador MVI_FLAG é uma constante definida como resultado da combinação dos sinalizadores MV_FLAG e MV_INSTANCE com uma operação **ou** lógica. Além de ser usado em setColumns, MVI_FLAG também pode ser passado para imApitable [:: SortTable](imapitable-sorttable.md) no _parâmetro LpSortCriteria_ e [IMAPITable:](imapitable-restrict.md) : Restrict no membro **ulPropTag** do _lpRestriction_ **** Construtor. Quando passamos o MVI_FLAG **** , SortTable é executado de forma semelhante a SetColumns, adicionando uma linha para cada valor na coluna de vários valores e classificando os valores únicos nas instâncias. **** Uma linha é adicionada para cada valor. 
+Um usuário de tabela solicita o tipo não padrão de exibição chamando o método [IMAPITable::SetColumns](imapitable-setcolumns.md) com o sinalizador MVI_FLAG definido no tipo de propriedade da coluna de vários valores. O MVI_FLAG sinalizador é uma constante definida como resultado da combinação dos sinalizadores MV_FLAG e MV_INSTANCE com uma operação **OR** lógica. Além de ser usado em **SetColumns**, MVI_FLAG também pode ser passado para [IMAPITable::SortTable](imapitable-sorttable.md) no parâmetro _lpSortCriteria_ e [IMAPITable::Restrict](imapitable-restrict.md) no **membro ulPropTag** do parâmetro _lpRestriction._ Quando passada a MVI_FLAG, **SortTable** tem um desempenho semelhante a **SetColumns**, adicionando uma linha para cada valor na coluna de vários valores e classificação nos valores individuais nas instâncias. Uma linha é adicionada para cada valor. 
   
- No entanto, a **restrição**não expande a coluna de vários valores em linhas computadas adicionais. Uma coluna com vários valores com o conjunto MVI_FLAG instrui o provedor de serviços a usar essa coluna ao restringir a tabela. Se houver um valor de propriedade na restrição, ele deve ser uma marca de propriedade de valor único idêntica à que seria retornada por imApitable [:: QueryRows](imapitable-queryrows.md) para a coluna. 
+ **Restringir**, no entanto, não expande a coluna de múltiplos valores em linhas computadas adicionais. Uma coluna de vários valores com o conjunto MVI_FLAG instrui o provedor de serviços a usar essa coluna para restringir a tabela. Se houver um valor de propriedade na restrição, deverá ser uma marca de propriedade de valor único idêntica à que seria retornada por [IMAPITable::QueryRows](imapitable-queryrows.md) para a coluna. 
   
-Os implementadores de tabela são necessários apenas para suportar o tipo de exibição padrão e podem retornar o valor MAPI_E_TOO_COMPLEX quando um chamador solicita a outra alternativa. A capacidade de suportar ambos os tipos de exibição é mais importante para os provedores de repositório de mensagens que estão implementando tabelas de conteúdo da pasta. 
+Implementadores de tabela só são necessários para dar suporte ao tipo padrão de exibição e podem retornar o valor MAPI_E_TOO_COMPLEX quando um chamador solicita a outra alternativa. A capacidade de dar suporte a ambos os tipos de exibição é mais importante para provedores de armazenamento de mensagens que implementam tabelas de conteúdo de pastas. 
   
 ## <a name="see-also"></a>Confira também
 

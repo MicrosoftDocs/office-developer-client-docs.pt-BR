@@ -1,11 +1,11 @@
 ---
-title: Gerenciador de suplemento e funções da interface XLL
+title: Gerenciador de Complementos e Funções de Interface XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funções [Excel 2007], Gerenciador de suplementos, funções [Excel 2007], interface XLL
+- funções [excel 2007], gerenciador de complementos, funções [Excel 2007], interface XLL
 localization_priority: Normal
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -16,11 +16,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404208"
 ---
-# <a name="add-in-manager-and-xll-interface-functions"></a>Gerenciador de suplemento e funções da interface XLL
+# <a name="add-in-manager-and-xll-interface-functions"></a>Gerenciador de Complementos e Funções de Interface XLL
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Esta seção contém a documentação de referência para as funções que o Microsoft Excel e o Gerenciador de suplemento procuram em um XLL.
+Esta seção contém a documentação de referência para as funções que o Microsoft Excel e o Gerenciador de Complementos pesquisam em um XLL.
   
 ## <a name="in-this-section"></a>Nesta seção
 

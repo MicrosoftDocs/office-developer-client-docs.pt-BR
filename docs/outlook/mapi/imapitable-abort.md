@@ -25,7 +25,7 @@ ms.locfileid: "33406147"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para todas as operações assíncronas atualmente em andamento para a tabela.
+Interrompe qualquer operação assíncrona em andamento para a tabela.
   
 ```cpp
 HRESULT Abort( void );
@@ -47,15 +47,15 @@ MAPI_E_UNABLE_TO_ABORT
     
 ## <a name="remarks"></a>Comentários
 
-O método imApitable **:: Abort** interrompe qualquer operação assíncrona que está atualmente em andamento. 
+O **método IMAPITable::Abort** interrompe qualquer operação assíncrona que está em andamento. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para descobrir se uma operação assíncrona está em andamento, chame o método imApitable [:: GetStatus](imapitable-getstatus.md) . 
+Para descobrir se uma operação assíncrona está em andamento, chame o método [IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
-Se **Abort** parar o processamento de uma chamada para o método [IMAPITable:: Restrict](imapitable-restrict.md) , o estado da tabela será o que estava no momento em que a chamada de **anulação** é processada. 
+Se **Abort** interromper o processamento de uma chamada para o método [IMAPITable::Restrict,](imapitable-restrict.md) o estado da tabela será como estava no momento em que a chamada **abort** for processada. 
   
-Se **Abort** parar o processamento de uma chamada para o método [IMAPITable:: SortTable](imapitable-sorttable.md) , a ordem de classificação da tabela não será afetada e permanecerá como antes da chamada **SortTable** . 
+Se **Abort** interromper o processamento de uma chamada para o método [IMAPITable::SortTable,](imapitable-sorttable.md) a ordem de classificação da tabela não será afetada e permanecerá como era antes da chamada **sorttable.** 
   
 ## <a name="see-also"></a>Confira também
 

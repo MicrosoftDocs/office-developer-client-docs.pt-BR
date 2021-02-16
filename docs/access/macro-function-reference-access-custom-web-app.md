@@ -22,7 +22,7 @@ ms.locfileid: "33426377"
   
 - [Blocos de dados (aplicativo Web personalizado do Access)](data-blocksaccess-custom-web-app.md)
     
-- [Ações de dados (aplicativo da Web personalizado do Access)](data-actions-access-custom-web-app.md)
+- [Ações de dados (aplicativo Web personalizado do Access)](data-actions-access-custom-web-app.md)
     
 - [Operações de entrada de dados (aplicativo Web personalizado do Access)](data-entry-operations-access-custom-web-app.md)
     
@@ -32,8 +32,8 @@ ms.locfileid: "33426377"
     
 - [Comandos de macro (aplicativo Web personalizado do Access)](macro-commands-access-custom-web-app.md)
     
-- [Fluxo do programa (aplicativo Web personalizado do Access)](program-flow-access-custom-web-app.md)
+- [Fluxo de programas (aplicativo Web personalizado do Access)](program-flow-access-custom-web-app.md)
     
-- [Comandos de interface do usuário (aplicativo Web personalizado do Access)](user-interface-commands-access-custom-web-app.md)
+- [Comandos da interface do usuário (aplicativo Web personalizado do Access)](user-interface-commands-access-custom-web-app.md)
     
 

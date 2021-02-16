@@ -25,7 +25,7 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-LISTORDER ()
+LISTORDER()
   
 ### <a name="return-value"></a>Valor de retorno
 

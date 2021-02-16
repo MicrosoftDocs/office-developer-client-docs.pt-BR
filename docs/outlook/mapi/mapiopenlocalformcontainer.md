@@ -25,13 +25,13 @@ ms.locfileid: "33427735"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna um ponteiro de interface para a biblioteca de formulários local. 
+Retorna um ponteiro de interface para a biblioteca de formulário local. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Chamado por:  <br/> |Aplicativos cliente  <br/> |
+|Chamado por:  <br/> |Aplicativos do cliente  <br/> |
    
 ```cpp
 MAPIOpenLocalFormContainer(
@@ -43,7 +43,7 @@ MAPIOpenLocalFormContainer(
 
  _ppfcnt_
   
-> bota Ponteiro para um ponteiro para a interface de biblioteca de formulários local.
+> [out] Ponteiro para um ponteiro para a interface da biblioteca de formulário local.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -51,7 +51,7 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-A interface para a qual um ponteiro é retornado pode ser usada por programas de instalação de terceiros para instalar formulários específicos do aplicativo na biblioteca sem que o programa primeiro tenha que fazer logon no MAPI. 
+A interface para a qual um ponteiro é retornado pode ser usada por programas de instalação de terceiros para instalar formulários específicos do aplicativo na biblioteca sem que o programa primeiro tenha que fazer logoff no MAPI. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -59,7 +59,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa o método **MAPIOpenLocalFormContainer** para abrir o contêiner de formulário local para renderizar em uma nova janela.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa o **método MAPIOpenLocalFormContainer** para abrir o contêiner de formulário local para renderizar em uma nova janela.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

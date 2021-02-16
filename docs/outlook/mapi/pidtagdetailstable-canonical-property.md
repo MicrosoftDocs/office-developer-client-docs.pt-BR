@@ -36,17 +36,17 @@ Contém um objeto de tabela de exibição incorporado.
    
 ## <a name="remarks"></a>Comentários
 
-Transmitir essa propriedade para o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para o objeto retorna uma interface IMAPITable que permite a criação da tabela de exibição. [](imapitableiunknown.md) MAPI usa esta tabela para exibir folhas de propriedades para um objeto de catálogo de endereços em resposta a uma chamada de [IAddrBook::D etails](iaddrbook-details.md) . 
+Passar essa propriedade para o [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) para o objeto retorna uma interface [IMAPITable](imapitableiunknown.md) que permite a criação da tabela de exibição. MAPI uses this table to display property sheets for an address book object in response to an [IAddrBook::D etails](iaddrbook-details.md) call. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

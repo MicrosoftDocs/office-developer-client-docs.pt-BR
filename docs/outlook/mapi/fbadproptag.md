@@ -43,7 +43,7 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> no A marca de propriedade a ser validada.
+> [in] A marca de propriedade a ser validada.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -57,7 +57,7 @@ FALSE
     
 ## <a name="remarks"></a>Comentários
 
-A função **FBadPropTag** valida a marca de propriedade especificada com base nas definições de MAPI. Ele garante que o tipo de propriedade é um dos tipos definidos por MAPI e que o identificador de propriedade é definido para ser daquele tipo. 
+A **função FBadPropTag** valida a marca de propriedade especificada com base em definições MAPI. Ele garante que o tipo de propriedade seja um dos tipos definidos por MAPI e que o identificador da propriedade seja definido como sendo desse tipo. 
   
 ## <a name="see-also"></a>Confira também
 

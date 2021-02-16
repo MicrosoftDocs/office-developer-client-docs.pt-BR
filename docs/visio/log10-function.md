@@ -22,7 +22,7 @@ Retorna o logaritmo de base 10 de um número. O número deve ser positivo ou LOG
   
 ## <a name="syntax"></a>Sintaxe
 
-LOG10 (* * *número* * *) 
+LOG10(** *number* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -36,7 +36,7 @@ Numeric
   
 ## <a name="example"></a>Exemplo
 
-LOG10 (42) 
+LOG10(42) 
   
 Retornará 1,6232. 
   

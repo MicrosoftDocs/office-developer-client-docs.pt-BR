@@ -32,21 +32,21 @@ Contém uma tabela que consiste em todas as listas de controle de acesso do sist
 |Propriedades associadas:  <br/> |PR_ACL_TABLE  <br/> |
 |Identificador:  <br/> |0x3FE0  <br/> |
 |Tipo de dados:  <br/> |PT_OBJECT  <br/> |
-|Área:  <br/> |Controle de acesso  <br/> |
+|Área:  <br/> |Controle de Acesso  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade está presente em todos os objetos Folder em um servidor Exchange. Os valores incluídos nessa propriedade são usados para ler e modificar listas de controle de acesso (ACLs) em pastas. Você pode usar o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) com o identificador de interface **IID_IExchangeModifyTable** para obter uma interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) para a tabela ACL em uma pasta. Você pode usar essa interface para ler e modificar essas ACLs. 
+Essa propriedade está presente em todos os objetos de pasta em um Exchange Server. Os valores incluídos nessa propriedade são usados para ler e modificar listas de controle de acesso (ACLs) em pastas. Você pode usar o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) com o identificador de interface IID_IExchangeModifyTable para obter uma interface [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) para **a** tabela ACL em uma pasta. Você pode usar essa interface para ler e modificar essas ACLs. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

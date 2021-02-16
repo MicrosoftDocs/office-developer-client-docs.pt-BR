@@ -29,7 +29,7 @@ Adiciona um inteiro de 64 bits não assinado a outro.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtAddFt(
 
  _Addend1_
   
-> no Uma estrutura [FILETIME](filetime.md) que contém o primeiro inteiro de 64 bits não assinado a ser adicionado. 
+> [in] Uma [estrutura FILETIME](filetime.md) que contém o primeiro inteiro de 64 bits não assinado a ser adicionado. 
     
  _Addend2_
   
-> no Uma estrutura **FILETIME** que contém o segundo inteiro não assinado de 64 bits a ser adicionado. 
+> [in] Uma **estrutura FILETIME** que contém o segundo inteiro de 64 bits não assinado a ser adicionado. 
     
 ## <a name="return-value"></a>Valor de retorno
 
-A função **FtAddFt** retorna uma estrutura **FILETIME** que contém a soma dos dois inteiros. Os dois parâmetros de entrada permanecem inalterados. 
+A **função FtAddFt** retorna uma estrutura **FILETIME** que contém a soma dos dois inteiros. Os dois parâmetros de entrada permanecem inalterados. 
   
 

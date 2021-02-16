@@ -25,7 +25,7 @@ ms.locfileid: "32359532"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um identificador exclusivo para um destinatário em uma tabela de tabela ou status de destinatário.
+Contém um identificador exclusivo para um destinatário em uma tabela de destinatários ou tabela de status.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contém um identificador exclusivo para um destinatário em uma tabela de tabela
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade é um valor temporário que é válido somente para a vida do objeto que possui a tabela. Ele aparece como uma coluna da tabela, mas não está armazenado.
+Essa propriedade é um valor temporário válido apenas pela vida útil do objeto que possui a tabela. Ele aparece como uma coluna da tabela, mas não é armazenado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Lida com a ordem e o fluxo para transferência de dados entre um cliente e um servidor.
+> Lida com a ordem e o fluxo para transferências de dados entre um cliente e um servidor.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -73,7 +73,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

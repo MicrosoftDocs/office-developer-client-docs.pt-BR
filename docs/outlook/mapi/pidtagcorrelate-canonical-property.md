@@ -36,19 +36,19 @@ Contém TRUE se o remetente de uma mensagem solicita o recurso de correlação d
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada para solicitar a correlação de relatórios de entrada com a mensagem original enviada. Quando um provedor de transporte encontra uma mensagem enviada com o **PR_CORRELATE** definido como true, ele define a propriedade **PR_CORRELATE_MTSID** ([PIDTAGCORRELATEMTSID](pidtagcorrelatemtsid-canonical-property.md)) como o identificador MTS (sistema de transferência de mensagens) para essa mensagem.
+Essa propriedade é usada para solicitar a correlação de relatórios de entrada com a mensagem enviada original. Quando um provedor de transporte encontra  uma mensagem enviada com PR_CORRELATE definida como TRUE, ele define a propriedade **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) como o identificador do sistema de transferência de mensagens (MTS) para essa mensagem.
   
- **PR_CORRELATE** deve ser usado com sistemas de mensagens que suportam a correlação pelo identificador MTS, como X. 400. 
+ **PR_CORRELATE** deve ser usado com sistemas de mensagens que suportam correlação por identificador MTS, como X.400. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

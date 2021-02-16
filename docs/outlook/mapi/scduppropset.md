@@ -25,11 +25,11 @@ ms.locfileid: "33406014"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Duplica uma matriz de valor de propriedade em um único bloco de memória MAPI, combinando as operações das funções [ScCopyProps](sccopyprops.md) e [ScCountProps](sccountprops.md) . 
+Duplica uma matriz de valores de propriedade em um único bloco de memória MAPI combinando as operações das funções [ScCopyProps](sccopyprops.md) e [ScCountProps.](sccountprops.md) 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -44,26 +44,26 @@ SCODE ScDupPropset(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cProp_
+ _cprop_
   
-> no Contagem de valores de propriedade na matriz indicada pelo parâmetro _rgprop_ . 
+> [in] Contagem de valores de propriedade na matriz indicada pelo _parâmetro rgprop._ 
     
  _rgprop_
   
-> no Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que define os valores de propriedade a serem duplicados. 
+> [in] Ponteiro para uma matriz de [estruturas SPropValue](spropvalue.md) definindo os valores de propriedade a serem duplicados. 
     
  _lpAllocateBuffer_
   
-> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória para a matriz duplicada. 
+> [in] Ponteiro para a [função MAPIAllocateBuffer,](mapiallocatebuffer.md) a ser usado para alocar memória para a matriz duplicada. 
     
  _prgprop_
   
-> bota Ponteiro para a posição inicial na memória onde a matriz duplicada retornada de estruturas **SPropValue** é armazenada. 
+> [out] Ponteiro para a posição inicial na memória onde a matriz duplicada retornada de **estruturas SPropValue** é armazenada. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 

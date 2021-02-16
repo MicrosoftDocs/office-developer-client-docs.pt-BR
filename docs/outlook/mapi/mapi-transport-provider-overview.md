@@ -21,12 +21,12 @@ ms.locfileid: "33404572"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os provedores de transporte lidam com a transmissão e recepção de mensagens e implementam a segurança, se necessário. Eles também cuidam de todas as tarefas de pré-processamento e de pré-processamento necessárias. Normalmente, há um provedor de transporte para cada sistema de mensagens ativas.
+Os provedores de transporte lidam com a transmissão e a recepção de mensagens e implementam a segurança, se necessário. Eles também cuidam de todas as tarefas de pré-processamento e pós-processamento necessárias. Normalmente, há um provedor de transporte para cada sistema de mensagens ativo.
   
-Os aplicativos cliente se comunicam com o provedor de transporte por meio de um provedor de repositório de mensagens. 
+Os aplicativos cliente se comunicam com o provedor de transporte por meio de um provedor de armazenamento de mensagens. 
   
-Os provedores de transporte se registram com MAPI para lidar com um ou mais tipos específicos de entradas de destinatário. Quando uma mensagem está pronta para ser enviada, o MAPI deve determinar qual provedor de transporte deve lidar com a transmissão. Dependendo do tipo de destinatário, o MAPI pode até chamar mais de um provedor de transporte. Se um provedor de transporte não disponível for o único que pode lidar com o destinatário, a transmissão da mensagem será adiada até que uma conexão com esse provedor possa ser restabelecida.
+Os provedores de transporte se registram com MAPI para lidar com um ou mais tipos específicos de entradas de destinatário. Quando uma mensagem estiver pronta para ser enviada, o MAPI deverá determinar qual provedor de transporte deve lidar com a transmissão. Dependendo do tipo de destinatário, o MAPI pode até chamar mais de um provedor de transporte. Se um provedor de transporte indisponível for o único que possa manipular o destinatário, a transmissão da mensagem será adiada até que uma conexão com esse provedor possa ser restabelecida.
   
-Alguns sistemas de mensagens são sistemas seguros; todos os usuários em potencial precisam inserir um conjunto de credenciais válidas antes que o acesso seja permitido. O MAPI impede o acesso não autorizado a esses sistemas de mensagens seguras, fazendo com que o provedor de transporte valide credenciais no momento do logon. 
+Alguns sistemas de mensagens são sistemas seguros; todos os usuários potenciais precisam inserir um conjunto de credenciais válidas antes que o acesso seja permitido. O MAPI impede o acesso não autorizado a esses sistemas de mensagens seguros, fazendo com que o provedor de transporte valide credenciais no momento do logon. 
   
 

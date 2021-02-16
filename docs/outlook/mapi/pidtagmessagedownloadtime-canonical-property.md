@@ -25,7 +25,7 @@ ms.locfileid: "33407925"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o tempo estimado para baixar uma mensagem de um servidor remoto para um repositório de mensagens local. 
+Contém o tempo estimado para baixar uma mensagem de um servidor remoto para um armazenamento de mensagens local. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o tempo estimado para baixar uma mensagem de um servidor remoto para um 
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é expressa em segundos e representa a melhor estimativa do tempo que levaria um provedor de transporte remoto para baixar uma determinada mensagem de seu local atual para um repositório de mensagens local para o cliente exibindo a pasta de cabeçalho. O provedor de transporte remoto normalmente calcula o valor dessa propriedade dividindo o valor da propriedade **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) pela velocidade do link de comunicação em bytes por segundo. Se o provedor não puder calcular o tempo de download, por exemplo, se não souber a velocidade do link, ele deverá fornecer um valor **PT_ERROR** como **MAPI_E_NO_SUPPORT** para esta coluna na tabela de conteúdo da pasta de cabeçalho. 
+Essa propriedade é expressa em segundos e representa a melhor estimativa do tempo que um provedor de transporte remoto levará para baixar uma determinada mensagem de seu local atual para um local de armazenamento de mensagens para o cliente que está exibindo a pasta de controle. O provedor de transporte remoto normalmente calcula o valor dessa propriedade dividindo o valor da propriedade **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) pela velocidade do link de comunicação em bytes por segundo. Se o provedor não puder calcular o tempo de download, por exemplo, se não sabe **a** velocidade do link, ele deverá fornecer um valor de PT_ERROR como **MAPI_E_NO_SUPPORT** para essa coluna na tabela de conteúdo da pasta de título. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

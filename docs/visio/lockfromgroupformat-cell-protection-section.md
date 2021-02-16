@@ -15,7 +15,7 @@ ms.locfileid: "33426055"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>Célula LockFromGroupFormat (Seção Proteção)
 
-Bloqueia alterações no formato de uma forma de grupo para serem propagadas para suas subformas, enquanto ainda permite que os usuários formatem as subformas selecionadas diretamente. 
+Impede que as alterações de formato em uma forma de grupo seja propagada para suas sub formas, enquanto ainda permite que os usuários forndem sub formas selecionadas diretamente. 
   
 O valor da célula LockFromGroupFormat corresponde à configuração da caixa de seleção **De formatação de grupo** na caixa de diálogo **Proteção**. 
   
@@ -33,7 +33,7 @@ Para referir-se à célula LockFromGroupFormat pelo índice de um programa, use 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockFromGroupFormat** <br/> |
+|Índice de célula:  <br/> |**visLockFromGroupFormat** <br/> |
    
 O valor padrão da célula é 0 (False).
   

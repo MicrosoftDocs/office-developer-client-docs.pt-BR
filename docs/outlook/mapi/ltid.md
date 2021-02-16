@@ -21,7 +21,7 @@ ms.locfileid: "33419433"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-ID de longo prazo genérico de um objeto em um repositório do Outlook.
+ID genérica de longo prazo de um objeto em um armazenamento do Outlook.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -38,15 +38,15 @@ struct LTID
 
  _guid_
   
-- bota O GUID do servidor que criou o objeto.
+- [out] O GUID do servidor que criou o objeto.
     
- _globcnt_
+ _bcnt_
   
-- bota Um número exclusivo de 6 bytes que identifica o objeto no repositório do Outlook.
+- [out] Um número exclusivo de 6 byte que identifica o objeto dentro do armazenamento do Outlook.
     
  _wLevel_
   
-- bota O nível de hierarquia da ID de entrada para uma pasta pública favorita do Exchange.
+- [out] O nível de hierarquia da ID de entrada de uma pasta pública favorita do Exchange.
     
 ## <a name="see-also"></a>Confira também
 

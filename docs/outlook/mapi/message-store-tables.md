@@ -1,5 +1,5 @@
 ---
-title: Tabelas de repositório de mensagens
+title: Tabelas do Armazenamento de Mensagens
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405349"
 ---
-# <a name="message-store-tables"></a>Tabelas de repositório de mensagens
+# <a name="message-store-tables"></a>Tabelas do Armazenamento de Mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A tabela repositório de mensagens contém informações sobre provedores de repositórios de mensagens no perfil atual. Há uma tabela de repositório de mensagens para cada sessão MAPI, implementada por MAPI e usada por clientes. Os clientes podem usar essa tabela, por exemplo, para localizar todas as instâncias de um provedor específico ou para localizar um repositório de mensagens específico. 
+A tabela do armazenamento de mensagens contém informações sobre provedores de armazenamento de mensagens no perfil atual. Há uma tabela de armazenamento de mensagens para cada sessão MAPI, implementada por MAPI e usada por clientes. Os clientes podem usar essa tabela, por exemplo, para localizar todas as instâncias de um provedor específico ou para localizar um armazenamento de mensagens específico. 
   
-A tabela do repositório de mensagens é dinâmica. Se o usuário de um aplicativo cliente edita o perfil, alterando o repositório de mensagens padrão, por exemplo, os valores das propriedades **PR_DEFAULT_STORE** para os repositórios de mensagens afetados são imediatamente atualizados. 
+A tabela do armazenamento de mensagens é dinâmica. Se o usuário de um aplicativo cliente editar o perfil, alterando o armazenamento de mensagens padrão, por exemplo, os valores das propriedades **PR_DEFAULT_STORE** para os armazenamentos de mensagens afetados serão atualizados imediatamente. 
   
-Os clientes acessam a tabela do repositório de mensagens chamando o método [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
+Os clientes acessam a tabela do armazenamento de mensagens chamando o [método IMAPISession::GetMsgStoresTable.](imapisession-getmsgstorestable.md) 
   
-As propriedades a seguir compõem o conjunto de colunas necessárias na tabela do repositório de mensagens:
+As propriedades a seguir compom o conjunto de colunas necessários na tabela do armazenamento de mensagens:
   
 |||
 |:-----|:-----|

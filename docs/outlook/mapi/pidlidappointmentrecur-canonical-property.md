@@ -25,7 +25,7 @@ ms.locfileid: "32331777"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões de recorrência e intervalos especificados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões e intervalos de recorrência especificados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
@@ -37,35 +37,35 @@ Especifica as datas e horas em que uma série recorrente ocorre usando um dos pa
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões de recorrência e intervalos detalhados em [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). O valor dessa propriedade também contém informações sobre exceções modificadas e excluídas; informações como datas, assunto, local e várias outras propriedades de exceções. Os dados binários dessa propriedade para itens de calendário recorrentes são armazenados como a estrutura **AppointmentRecurrencePattern** . Esta propriedade não deve existir em itens de calendário de instância única. 
+Esta propriedade especifica as datas e horas em que uma série recorrente ocorre usando um dos padrões e intervalos de recorrência detalhados [em [MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). O valor dessa propriedade também contém informações sobre exceções modificadas e excluídas; informações como datas, assunto, local e várias outras propriedades de exceções. Os dados binários nesta propriedade para itens de calendário recorrentes são armazenados como a **estrutura AppointmentRecurrencePattern.** Essa propriedade não deve existir em itens de calendário de instância única. 
   
-Há algumas limitações para recorrências:
+Existem algumas limitações para recorrências:
   
-- Várias instâncias não devem começar no mesmo dia.
+- Várias instâncias não devem iniciar no mesmo dia.
     
-- As ocorrências não devem se sobrepor. Especificamente, uma exceção que modifica a data de início de uma instância na série recorrente deve ocorrer em uma data que seja após o final da instância anterior e o início da próxima instância na série recorrente. O mesmo é verdadeiro se as instâncias anterior ou seguinte na série recorrente são exceções.
+- As ocorrências não devem se sobrepor. Especificamente, uma exceção que modifica a data de início de uma instância na série recorrente deve ocorrer em uma data que esteja após o final da instância anterior e o início da próxima instância na série recorrente. O mesmo é verdadeiro se as instâncias anteriores ou próximas da série recorrente são exceções.
     
-A agenda de uma série recorrente é determinada por seu padrão e intervalo de recorrência.
+O cronograma de uma série recorrente é determinado por seu padrão e intervalo de recorrência.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -77,7 +77,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

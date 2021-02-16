@@ -1,5 +1,5 @@
 ---
-title: Adicionar um serviço de mensagens
+title: Adicionando um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407232"
 ---
-# <a name="adding-a-message-service"></a>Adicionar um serviço de mensagens
+# <a name="adding-a-message-service"></a>Adicionando um serviço de mensagens
 
   
   
@@ -23,20 +23,20 @@ ms.locfileid: "33407232"
   
  **Para adicionar um novo serviço de mensagens a um perfil e acessar o novo serviço de mensagens**
   
-Chamar [IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). O **CreateMsgServiceEx** executa as seguintes tarefas: 
+Chame [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx** executa as seguintes tarefas: 
   
-1. Copia todas as informações relevantes para o serviço de mensagens que está no MAPISVC. Arquivo INF, criando uma seção de perfil para cada seção de provedor.
+1. Copia todas as informações relevantes para o serviço de mensagens que está no MAPISVC. Arquivo INF, criando uma seção de perfil para cada seção do provedor.
     
-2. Chama a função de ponto de entrada do serviço de mensagens, **MSGSERVICEENTRY**, com o parâmetro _ULCONTEXT_ definido como MSG_SERVICE_CREATE. 
+2. Chama a função de ponto de entrada do serviço de mensagens, **MSGSERVICEENTRY**, com o  _parâmetro ulContext_ definido como MSG_SERVICE_CREATE. 
     
-3. Define e recupera a propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) do serviço de mensagens.
+3. Define e recupera a propriedade PR_SERVICE_UID **(** [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) do serviço de mensagens.
     
- **Para acessar qualquer serviço de mensagens recém-adicionado**
+ **Para acessar qualquer serviço de mensagem recém-adicionado**
   
-1. Chame [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para recuperar a tabela de serviço de mensagens. 
+1. Chame [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para recuperar a tabela de serviço de mensagens. 
     
-2. Chame o método imApitable [:: Advise](imapitable-advise.md) da tabela de serviço de mensagens para se registrar para notificações de tabela. 
+2. Chame o método [IMAPITable::Advise](imapitable-advise.md) da tabela de serviço de mensagens para se registrar para notificações de tabela. 
     
-3. Quando MAPI envia uma notificação TABLE_ROW_ADDED, localize o identificador de entrada do serviço de mensagens recém-adicionado na estrutura [SRow](srow.md) incluída na estrutura [TABLE_NOTIFICATION](table_notification.md) . 
+3. Quando o MAPI envia uma TABLE_ROW_ADDED, localize o identificador de entrada do serviço de mensagens recém-adicionado na estrutura [SRow](srow.md) incluída na estrutura [TABLE_NOTIFICATION](table_notification.md) usuário. 
     
 

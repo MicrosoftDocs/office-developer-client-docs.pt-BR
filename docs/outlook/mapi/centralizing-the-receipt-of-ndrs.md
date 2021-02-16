@@ -19,14 +19,14 @@ ms.locfileid: "33405853"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-**Para que os relatórios de não entrega (NDRs) cheguem a um local central quando várias instâncias do seu cliente estão sendo executadas simultaneamente**
+**Para que os relatórios de não entrega (NDRs) cheguem a um local central quando várias instâncias do seu cliente estão sendo executados simultaneamente**
   
-1. Defina **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) e **PR_REPORT_SEARCH_KEY** ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) para os valores apropriados para a conta que será recebida os relatórios. Crie o identificador de entrada chamando [IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md) , se necessário. 
+1. Set **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) and **PR_REPORT_SEARCH_KEY** ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) to the appropriate values for the account that is to receive the reports. Crie o identificador de entrada chamando [IAddrBook::CreateOneOff,](iaddrbook-createoneoff.md) se necessário. 
     
-2. Entenda que há sistemas de mensagens que ignorarão a conta solicitada por relatórios e as enviarão ao originador. Reduza o impacto que isso terá em relação aos administradores que precisarão mover relatórios por:
+2. Entenda que há sistemas de mensagens que ignorarão a conta solicitada para relatórios e os enviarão ao originador. Reduza o impacto que isso terá sobre os administradores que precisarão mover relatórios por meio de:
     
-- Dando à sua mensagem original uma classe de mensagem distinta, como IPM. Note. MSNNews. Procure mensagens de entrada com o relatório de classe. IPM. Note. MSNNews. NDR e encaminhe-os para a conta que você pretendia que os relatórios. Ao mesmo tempo, envie um email para o sistema de mensagens que ignorou sua conta de relatório de não-entrega para se comunicar que deve honrar a propriedade **PR_REPORT_ENTRYID** . 
+- Dando à sua mensagem original uma classe de mensagem distinta, como IPM. Note.MSNNews. Procure mensagens de entrada com a classe Report.IPM.Note.MSNNews.NDR e encaminhe-as para a conta para a qual você pretende chegar relatórios. Ao mesmo tempo, envie um email para o sistema de mensagens que ignorou sua conta de relatório de não entrega para comunicar que ela deve honrar a **propriedade PR_REPORT_ENTRYID** entrega. 
     
-- A maioria dos sistemas de mensagens que não honra o **PR_REPORT_ENTRYID** não honrará as convenções de classe da mensagem MAPI. Portanto, você receberá algo parecido com uma observação. Isso é um pouco mais difícil de lidar porque a entrada é tão variável. Examine o assunto e encaminhe-o se encontrar algo de uma lista de palavras que signifique "não pode ser entregue" ou algo de seu assunto original. Esteja preparado para ajustar essas listas ao longo do tempo. 
+- A maioria dos sistemas de mensagens que não **PR_REPORT_ENTRYID** também não irá seguir as convenções de classe de mensagens MAPI. Portanto, você receberá algo parecido com uma anotação. Isso é um pouco mais difícil de lidar porque a entrada é tão variável. Olhe para o assunto e encaminhe-o se você encontrar algo de uma lista de palavras que significam "não entregue" ou algo do seu assunto original. Esteja preparado para ajustar essas listas ao longo do tempo. 
     
 

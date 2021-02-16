@@ -1,5 +1,5 @@
 ---
-title: IMAPISupportDoSentMail
+title: IMAPISupportDosentMail
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -38,31 +38,31 @@ HRESULT DoSentMail(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpMessage_
   
-> no Um ponteiro para a mensagem aberta para a qual uma mensagem deve ser gerada na pasta designada para reter itens enviados.
+> [in] Um ponteiro para a mensagem aberta para a qual uma mensagem deve ser gerada na pasta designada para manter os itens enviados.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::D osentmail** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens chamam **DoSentMail** de sua implementação do método [IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md) , que é chamado pelo spooler MAPI quando o processamento de uma mensagem é concluído. **FinishedMsg** desbloqueia a mensagem, garante que a contagem de referência da mensagem seja 1 e chama o **DoSentMail**.
+O **método IMAPISupport::D oSentMail** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de repositório de mensagens chamam **DoSentMail** por meio de sua implementação do método [IMsgStore::FinishedMsg,](imsgstore-finishedmsg.md) que é chamado pelo spooler MAPI quando ele conclui o processamento de uma mensagem. **FinishedMsg** desbloqueia a mensagem, garante que a contagem de referência da mensagem seja 1 e chama **DoSentMail**.
   
- O **DoSentMail** executa as seguintes tarefas: 
+ **O DoSentMail** executa as seguintes tarefas: 
   
-- Verifica a mensagem da propriedade **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para determinar se a mensagem deve ser excluída após o envio.
+- Verifica a mensagem para **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para determinar se a mensagem deve ser excluída após o envio.
     
-- Determina o local da pasta Itens enviados.
+- Determina o local da pasta Itens Enviados.
     
-- Inicia o processamento de interceptador de mensagens para qualquer gancho definido na pasta Itens enviados.
+- Inicia o processamento de gancho de mensagem para qualquer gancho definido na pasta Itens Enviados.
     
-- Move a mensagem para a pasta Itens enviados, a pasta itens excluídos ou para outra pasta.
+- Move a mensagem para a pasta Itens Enviados, pasta Itens Excluídos ou para outra pasta.
     
 - Libera a mensagem.
     

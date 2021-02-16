@@ -33,18 +33,18 @@ HRESULT IOlkEnum:: GetNext(
 
 _ppunk_
   
-> no Um ponteiro para uma interface **IUnknown** que o cliente pode consultar para obter uma interface [IOlkAccount](iolkaccount.md) . 
+> [in] Um ponteiro para uma interface **IUnknown** que o cliente pode consultar para obter uma interface [IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|S_FALSE  <br/> |O enumerador atingiu o fim.  <br/> |
+|S_FALSE  <br/> |O enumerador chegou ao final.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-A interface especificada por *ppunk* herda de **IUnknown**. O cliente pode consultar esta interface (usando **IUnknown:: QueryInterface**) para obter um ponteiro para uma interface **IOlkAccount** e obter ou definir informações para essa conta. 
+A interface especificada pelo  *ppunk*  herda de **IUnknown**. O cliente pode consultar essa interface (usando **IUnknown::QueryInterface**) para obter um ponteiro para uma interface **IOlkAccount** e obter ou definir informações para essa conta. 
   
 ## <a name="see-also"></a>Confira também
 

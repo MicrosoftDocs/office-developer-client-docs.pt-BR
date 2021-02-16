@@ -39,6 +39,6 @@ Para obter uma referência para a célula EnableFillPropspelo índice a partir d
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowStyle** <br/> |
-|Índice da célula:  <br/> |**visStyleIncludesFill** <br/> |
+|Índice de célula:  <br/> |**visStyleIncludesFill** <br/> |
    
 

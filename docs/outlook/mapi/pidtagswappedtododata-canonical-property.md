@@ -25,30 +25,30 @@ ms.locfileid: "32359133"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Mantém um segundo conjunto de valores de propriedade que não afetam o estado sinalizado do objeto Message.
+Mantém um segundo conjunto de valores de propriedade que não afetam o estado sinalizado do objeto Message .
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SWAPPED_TODO_DATA  <br/> |
 |Identificador:  <br/> |0x0E2D  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Atuando como o local de armazenamento de sinalizador secundário se houver suporte para sinalizadores de remetente ou lembretes de remetente, essa estrutura fornecerá um local no qual serão armazenadas todas as propriedades relacionadas ao protocolo de sinalização inFormativo que têm suporte nos sinalizadores de remetente e todos os Propriedades relacionadas ao protocolo de configurações de lembrete que são compatíveis com lembretes de remetente sem expor as informações de sinalizador de remetente ou de lembrete para os destinatários de uma mensagem.
+Agindo como o local de armazenamento do sinalizador secundário se os sinalizadores de remetente ou lembretes de remetentes são suportados, essa estrutura fornece um local no qual armazenar todas as propriedades relacionadas ao Protocolo de Sinalização Informacional com suporte em sinalizadores de remetente e todas as propriedades relacionadas ao Protocolo de Configurações de Lembrete que são suportadas em lembretes de remetente sem expor o sinalizador do remetente ou as informações do lembrete de remetente aos destinatários de uma mensagem.
   
-Da mesma forma, essa estrutura fornece um local no qual armazenar todas as propriedades relacionadas ao protocolo de sinalização inFormativo que são suportados em sinalizadores de destinatário e propriedades relacionadas ao protocolo de configurações de lembrete que são suportados no destinatário lembretes em uma mensagem enviada anteriormente.
+Da mesma forma, essa estrutura fornece um local no qual todas as propriedades relacionadas ao Protocolo de Sinalização informacional são suportadas em sinalizadores de destinatário e propriedades relacionadas ao Protocolo de Configurações de Lembrete com suporte em lembretes de destinatário em uma mensagem enviada anteriormente.
   
 Para obter mais informações sobre essa propriedade, consulte [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -58,13 +58,13 @@ Para obter mais informações sobre essa propriedade, consulte [[MS-OXOFLAG]](ht
   
 > Especifica as propriedades e o modelo de interação para email e outros lembretes de objeto.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

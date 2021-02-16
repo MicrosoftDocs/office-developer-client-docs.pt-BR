@@ -23,15 +23,15 @@ Contém as informações para uma única marca de ação associada a uma forma o
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
   
-As linhas Smart Tags são denominadas SmartTags. *nome* e contém as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
+As linhas Smart Tags são denominadas SmartTags. *e*  contenha as células a seguir. Para obter mais detalhes, consulte os tópicos específicos das células. 
   
 |**Célula**|**Descrição**|
 |:-----|:-----|
-|[X](x-cell-action-tags-section.md) <br/> |A posição da coordenada *x* de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
-|[Y](y-cell-action-tags-section.md) <br/> |A posição da coordenada *y* de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
+|[X](x-cell-action-tags-section.md) <br/> |A  *posição da*  coordenada x de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
+|[Y](y-cell-action-tags-section.md) <br/> |A  *posição da*  coordenada y de um ponto nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.  <br/> |
 |[TagName](tagname-cell-action-tags-section.md) <br/> |O nome lógico da marca de ação.  <br/> |
-|[X Justify](x-justify-cell-action-tags-section.md) <br/> |O deslocamento *x* do botão de marca de ação em relação ao ponto definido pelas células X e Y.  <br/> |
-|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |O deslocamento *y* do botão de marca de ação em relação ao ponto definido pelas células X e y.  <br/> |
+|[X Justify](x-justify-cell-action-tags-section.md) <br/> |O  *deslocamento x*  do botão de marca de ação em relação ao ponto definido pelas células X e Y.  <br/> |
+|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |O  *deslocamento y*  do botão de marca de ação em relação ao ponto definido pelas células X e Y.  <br/> |
 |[DisplayMode](displaymode-cell-action-tags-section.md) <br/> |Determina quando a marca de ação deve ser exibida.  <br/> |
 |[ButtonFace](buttonface-cell-action-tags-section.md) <br/> |A ID da imagem exibida na face do botão de marca de ação.  <br/> |
 |[Descrição](description-cell-action-tags-section.md) <br/> |Cadeia de caracteres descritiva para a marca de ação.  <br/> |
@@ -41,7 +41,7 @@ As linhas Smart Tags são denominadas SmartTags. *nome* e contém as células a 
 
  É possível adicionar tantas linhas SmartTags.  *name* quantas forem necessárias, atribuir nomes significativos às linhas e definir valores de célula. Para adicionar uma marca de ação a uma seção Smart Tags existente, clique com o botão direito do mouse em uma linha e clique em **Inserir Linha** no menu de atalho. 
   
-É possível fazer referência a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir nomes significativos às linhas Smart Tags. *nome* , clique na linha e, em seguida, digite um nome, como *tamanho* , por exemplo, para criar o nome da linha marcas inteligentes. Size. Você pode fazer referência à célula Description usando Smart Tags.Size.Description. 
+É possível fazer referência a essas células pelo nome da linha, exibido na janela ShapeSheet em texto vermelho. Para atribuir nomes significativos às linhas Smart Tags. *name*  rows, click the row, and then type a name such as  *Size*  , for example, to create the row name Smart Tags.Size. Você pode fazer referência à célula Description usando Smart Tags.Size.Description. 
   
 O nome de linha inserido deve ser único na seção.
   

@@ -18,7 +18,7 @@ ms.locfileid: "33405279"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Retorna o identificador de instância da instância do Microsoft Excel que está atualmente chamando uma DLL.
+Retorna o alça de instância da instância do Microsoft Excel que está chamando uma DLL no momento.
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
@@ -30,19 +30,19 @@ Esta função não tem argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-O identificador de instância (**xltypeBigData**) será no campo **Val. bigdata. h. hData** . 
+O alça de instância (**xltypeBigData**) estará no **campo val.bigdata.h.hdata.** 
   
 ## <a name="remarks"></a>Comentários
 
 Essa função pode ser usada para distinguir entre várias instâncias em execução do Excel que estão chamando a DLL.
   
-Essa função retorna um valor correto com as versões de 32 bits e 64 bits do Excel. Ele foi introduzido no Excel 2010 como uma extensão para a função [xlGetInst](xlgetinst.md) , que funciona corretamente apenas com as versões de 32 bits do Excel. 
+Esta função retorna um valor correto com as versões de 32 bits e 64 bits do Excel. Ele foi introduzido no Excel 2010 como uma extensão para a função [xlGetInst,](xlgetinst.md) que funciona corretamente apenas com versões de 32 bits do Excel. 
   
-Essa função funciona corretamente quando é chamada usando o [Excel4 e o Excel12](excel4-excel12.md) variedades das funções de retorno de chamada da API, porque **XLOPER** e **XLOPER12** têm a mesma estrutura que dá suporte ao valor **xltypeBigData** Escreva. 
+Essa função funciona corretamente quando é chamada usando as variedades Excel4 e [Excel12](excel4-excel12.md) das funções de retorno de chamada de API, porque **xlOPER** e **XLOPER12** têm a mesma estrutura que dá suporte ao tipo de valor **xltypeBigData.** 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir compara a instância da última cópia do Excel que a chamou para a cópia atual do Excel que a chamou. Se forem iguais, retornará 1; caso contrário, retornará 0; se a função falhar, ela retornará-1. Este exemplo funciona com as versões de 32 bits e 64 bits do Excel.
+O exemplo a seguir compara a instância da última cópia do Excel que a chamou à cópia atual do Excel que a chamou. Se eles são iguais, retornará 1; caso não seja, retornará 0; se a função falhar, retornará -1. Este exemplo funciona com versões de 32 bits e 64 bits do Excel.
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

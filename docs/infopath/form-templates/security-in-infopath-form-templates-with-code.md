@@ -1,10 +1,10 @@
 ---
-title: Segurança nos modelos de formulário do InfoPath com código
+title: Segurança em modelos de formulário do InfoPath com código
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- InfoPath 2007, segurança, segurança [InfoPath 2007], modelos de formulário [InfoPath 2007], segurança
+- infopath 2007, segurança, segurança [InfoPath 2007], modelos de formulário [InfoPath 2007], segurança
 localization_priority: Normal
 ms.assetid: eb96d198-0003-4a19-9441-42eaa4eba15a
 description: Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433875"
 ---
-# <a name="security-in-infopath-form-templates-with-code"></a>Segurança nos modelos de formulário do InfoPath com código
+# <a name="security-in-infopath-form-templates-with-code"></a>Segurança em modelos de formulário do InfoPath com código
 
 Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.
   

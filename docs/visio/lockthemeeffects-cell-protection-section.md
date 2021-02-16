@@ -19,7 +19,7 @@ ms.locfileid: "33426328"
 
 Impede a aplicação de efeitos de tema à forma. 
   
-Corresponde à configuração **da caixa de seleção de efeitos de tema** na caixa de diálogo **proteção** . 
+Corresponde à configuração da caixa **de seleção De efeitos** de tema na caixa de **diálogo** Proteção. 
   
 Para referir-se à célula LockThemeColors pelo nome de outra fórmula ou a partir de um programa usando a propriedade **CellsU**, utilize: 
   
@@ -33,6 +33,6 @@ Para referir-se à célula LockThemeEffects pelo índice de um programa, use a p
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockThemeEffects** <br/> |
+|Índice de célula:  <br/> |**visLockThemeEffects** <br/> |
    
 

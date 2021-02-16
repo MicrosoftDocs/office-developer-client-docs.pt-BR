@@ -25,11 +25,11 @@ ms.locfileid: "33405510"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista de atributos para propriedades de um objeto. 
+Contém uma lista de atributos para as propriedades de um objeto. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Imessage.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
@@ -45,11 +45,11 @@ typedef struct
 
  **cValues**
   
-> Contagem de atributos de propriedade no membro **aPropAttr** . 
+> Contagem de atributos de propriedade no **membro aPropAttr.** 
     
  **aPropAttr**
   
-> Uma matriz de atributos de propriedade. Os valores válidos para atributos são os seguintes:
+> Uma matriz de atributos de propriedade. Os valores válidos para atributos são os seguinte:
     
     - PROPATTR_MANDATORY
     
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **SPropAttrArray** é usada por objetos de dados de propriedade que implementam a interface [IPropData: IMAPIProp](ipropdataimapiprop.md) . Ele também é usado pela implementação de MAPI do [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) que se baseia no armazenamento estruturado. 
+A **estrutura SPropAttrArray** é usada por objetos de dados de propriedade que implementam [a interface IPropData : IMAPIProp.](ipropdataimapiprop.md) Ele também é usado pela implementação de [IMAPIMessageSite de MAPI: IUnknown](imapimessagesiteiunknown.md) que se baseia em armazenamento estruturado. 
   
 ## <a name="see-also"></a>Confira também
 

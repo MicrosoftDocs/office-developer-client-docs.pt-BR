@@ -25,11 +25,11 @@ ms.locfileid: "33407120"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que devem ser alocados para uma nova estrutura [FLATENTRYLIST](flatentrylist.md) que contém várias estruturas [FLATENTRY](flatentry.md) de um tamanho especificado. 
+Calcula o número de bytes que devem ser alocados para uma nova [estrutura FLATENTRYLIST](flatentrylist.md) que contém várias estruturas [FLATENTRY](flatentry.md) de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewFLATENTRY (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CB_
+ _ _cb_
   
-> Contagem de bytes nas estruturas **FLATENTRY** a serem incluídas na nova estrutura **FLATENTRYLIST** . 
+> Contagem de bytes nas **estruturas FLATENTRY** a serem incluídas na nova **estrutura FLATENTRYLIST.** 
     
 ## <a name="see-also"></a>Confira também
 

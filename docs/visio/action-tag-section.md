@@ -1,5 +1,5 @@
 ---
-title: Seção de marca de ação
+title: Seção Action Tag
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430949"
 ---
-# <a name="action-tag-section"></a>Seção de marca de ação
+# <a name="action-tag-section"></a>Seção Action Tag
 
 Contém uma linha para cada marca de ação definida para a forma ou página.
   
@@ -25,12 +25,12 @@ Contém uma linha para cada marca de ação definida para a forma ou página.
   
 ## <a name="remarks"></a>Comentários
 
-A seção de **marca de ação** controla a aparência e a posição das marcas de ação no desenho. Usando a célula **TagName** , você pode associar cada marca de ação a uma linha ou linhas na seção ações, onde os itens de menu que aparecem em um menu de marca de ação são definidos. 
+A **seção Marca** de Ação controla a aparência e a posição das marcas de ação no desenho. Usando a **célula TagName,** você pode associar cada marca de ação a uma linha ou linhas na seção Actions, onde os itens de menu que aparecem em um menu de marca de ação são definidos. 
   
  Uma única forma ou página pode conter várias marcas de ação. 
   
 Se uma marca de ação não tiver ações correspondentes, o botão de marca de ação aparecerá e desaparecerá conforme definido, mas seu menu estará vazio.
   
-Você só pode inserir uma seção de **marca de ação** na janela ShapeSheet (clique com o botão direito do mouse na janela ShapeSheet, clique em **Inserir seção**e marque a caixa de seleção **marcas de ação** ). Para adicionar uma marca de ação a uma seção de **marca de ação** existente, clique com o botão direito do mouse em uma linha e clique em **Inserir linha** no menu de atalho. 
+Você só pode inserir **uma** seção Marca de Ação na janela ShapeSheet (clique com o botão direito do mouse na janela ShapeSheet, clique em Inserir Seção e marque a caixa de seleção Marcas **de** ação). Para adicionar uma marca de ação a uma seção **Marca** de Ação existente, clique com o botão direito do mouse em uma linha e clique em Inserir **Linha** no menu de atalho. 
   
 

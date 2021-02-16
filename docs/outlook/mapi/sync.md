@@ -21,7 +21,7 @@ ms.locfileid: "33433805"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para iniciar a sincronização entre um repositório local e um servidor. Essas informações são usadas durante o [estado de sincronização](synchronize-state.md).
+Informações para iniciar a sincronização entre um armazenamento local e um servidor. Essas informações são usadas durante o [estado de sincronização.](synchronize-state.md)
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -41,32 +41,32 @@ struct SYNC
 
  _ulFlags_
   
-- [out]/[in] um bitmask dos seguintes sinalizadores que modifica o comportamento durante a sincronização:
+- [out]/[in] Uma máscara de bits dos seguintes sinalizadores que modifica o comportamento durante a sincronização:
     
 - UPS_UPLOAD_ONLY
     
-  - no O cliente executará o carregamento apenas. O Outlook retorna apenas as pastas modificadas localmente.
+  - [in] O cliente executará apenas o upload. O Outlook só retorna pastas modificadas localmente.
     
 - UPS_DNLOAD_ONLY
     
-  - no O cliente executará apenas o download. O Outlook não deve limpar bits de carregamento para pastas.
+  - [in] O cliente executará apenas o download. Outlook should not clear upload bits for folders.
     
 - UPS_THESE_FOLDERS
     
-  - no O cliente estará sincronizando um conjunto de pastas especificado com as IDs de entrada fornecidas. Esse sinalizador pode ser combinado com o sinalizador **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** . 
+  - [in] O cliente sincroniza um conjunto especificado de pastas com as IDs de entrada fornecidas. Esse sinalizador pode ser combinado com o sinalizador **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** sinalização. 
     
 - UPS_OK
     
-  - bota A sincronização foi bem-sucedida. O cliente define isso após o carregamento ou uma sincronização completa ser concluída.
+  - [out] A sincronização foi bem-sucedida. O cliente define isso após o carregamento ou uma sincronização completa é concluída.
     
 - 
     
     > [!NOTE]
-    > Embora o cliente possa carregar ou sincronizar totalmente (carregar e baixar) pastas e itens com a API de replicação, o cliente especifica *parâmetroulflags* com apenas uma direção da replicação de cada vez, ou seja, o **UPS_UPLOAD_ONLY** ou Sinalizador **UPS_DNLOAD_ONLY** . No caso de uma sincronização completa, o cliente primeiro realiza um upload com o sinalizador **UPS_UPLOAD_ONLY** e, em seguida, um download com o sinalizador **UPS_DNLOAD_ONLY** . 
+    > Mesmo que o cliente possa carregar ou sincronizar totalmente (carregar e baixar) pastas e itens com a API de Replicação, o cliente especifica *ulFlags* com apenas uma direção da replicação por vez — o sinalizador **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY.** No caso de uma sincronização completa, o cliente primeiro faz um upload com o sinalizador **UPS_UPLOAD_ONLY** e, em seguida, um download com o sinalizador **UPS_DNLOAD_ONLY** cliente. 
   
  _pwzPath_
   
-- bota Caminho para o repositório local.
+- [out] Caminho para o armazenamento local.
     
  _Reserved1_
   
@@ -76,13 +76,13 @@ struct SYNC
   
 - Este membro é reservado para uso interno do Outlook e não tem suporte.
     
- *PEL* 
+ *pel* 
   
-- no Esta é a lista de IDs de entrada das pastas a serem sincronizadas se **UPS_THESE_FOLDERS** tiver sido definido. Consulte mapidefs. h para a definição de tipo de **LPENTRYLIST**. 
+- [in] Esta é a lista de IDs de entrada das pastas a sincronizar **se** UPS_THESE_FOLDERS tiver sido definida. Consulte mapidefs.h para a definição de tipo de **LPENTRYLIST**. 
     
- _pulFolderOptions_
+ _porqueFolderOptions_
   
-- no Esta é uma matriz de opções de pasta para pastas correspondentes no *PEL* se **UPS_THESE_FOLDERS** tiver sido definido. Essas opções de pasta são usadas ao carregar cada uma das pastas listadas em *PEL* durante o [estado de carregamento da pasta](upload-folder-state.md). Para obter mais informações sobre opções de pasta, consulte **[UPFLD](upfld.md)**. 
+- [in] Esta é uma matriz de opções de pasta para pastas correspondentes no  *pel* **UPS_THESE_FOLDERS** tiver sido definida. Essas opções de pasta são usadas ao carregar cada uma das pastas listadas *na pel* durante o [estado da pasta de carregamento.](upload-folder-state.md) Para obter mais informações sobre opções de pasta, consulte **[UPFLD](upfld.md)**. 
     
 ## <a name="see-also"></a>Confira também
 

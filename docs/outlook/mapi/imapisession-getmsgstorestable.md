@@ -25,7 +25,7 @@ ms.locfileid: "33428134"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela do repositório de mensagens que contém informações sobre todos os repositórios de mensagens no perfil da sessão.
+Fornece acesso à tabela do armazenamento de mensagens que contém informações sobre todos os armazenamentos de mensagens no perfil de sessão.
   
 ```cpp
 HRESULT GetMsgStoresTable(
@@ -38,15 +38,15 @@ HRESULT GetMsgStoresTable(
 
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que determina o formato das colunas que são cadeias de caracteres. O seguinte sinalizador pode ser definido:
+> [in] Uma bitmask de sinalizadores que determina o formato para colunas que são cadeias de caracteres. O sinalizador a seguir pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
     
  _lppTable_
   
-> bota Um ponteiro para um ponteiro para a tabela do repositório de mensagens.
+> [out] Um ponteiro para um ponteiro para a tabela do armazenamento de mensagens.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,19 +56,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> O sinalizador MAPI_UNICODE foi definido e a sessão não dá suporte a Unicode.
+> O MAPI_UNICODE sinalizador foi definido e a sessão não dá suporte a Unicode.
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession:: GetMsgStoresTable** recupera um ponteiro para a tabela do repositório de mensagens, uma tabela mantida por MAPI que contém informações sobre cada repositório de mensagens aberto no perfil. 
+O método **IMAPISession::GetMsgStoresTable** recupera um ponteiro para a tabela de armazenamento de mensagens, uma tabela mantida por MAPI que contém informações sobre cada armazenamento de mensagens abertas no perfil. 
   
-Para obter uma lista completa de colunas obrigatórias e opcionais na tabela do repositório de mensagens, consulte [Message Store Tables](message-store-tables.md). 
+Para uma lista completa das colunas necessárias e opcionais na tabela do armazenamento de mensagens, consulte [Tabelas do Armazenamento de Mensagens.](message-store-tables.md) 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Como o MAPI atualiza a tabela do repositório de mensagens durante a sessão sempre que ocorrerem alterações, chame o método **Advise** da tabela do repositório de mensagens a ser registrado para ser notificado dessas alterações. As alterações possíveis incluem a adição de novos repositórios de mensagens, remoção de repositórios existentes e alterações no repositório padrão. 
+Como o MAPI atualiza a tabela do armazenamento de mensagens durante a sessão sempre que ocorrem alterações, chame o método **Advise** da tabela de armazenamento de mensagens para registrar para ser notificado dessas alterações. As alterações possíveis incluem a adição de novos armazenamentos de mensagens, remoção de armazenamentos existentes e alterações no armazenamento padrão. 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
+A definição MAPI_UNICODE sinalizador de texto no parâmetro _ulFlags_ afeta o formato das colunas retornadas dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -76,7 +76,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenMessageStoreTable  <br/> |MFCMAPI usa o método **IMAPISession:: GetMsgStoresTable** para obter a tabela do repositório de mensagens, de forma que ela possa ser renderizada na caixa de diálogo principal do MFCMAPI.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI usa o método **IMAPISession::GetMsgStoresTable** para obter a tabela de armazenamento de mensagens para que ela possa ser renderizada na caixa de diálogo principal de MFCMAPI.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -101,5 +101,5 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
 
 [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Tabelas de repositório de mensagens](message-store-tables.md)
+[Tabelas do Armazenamento de Mensagens](message-store-tables.md)
 

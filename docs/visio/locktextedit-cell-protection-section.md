@@ -41,6 +41,6 @@ Para obter uma referência para a célula LockTextEdit pelo índice a partir de 
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowLock** <br/> |
-| Índice da célula:  <br/> |**visLockTextEdit** <br/> |
+| Índice de célula:  <br/> |**visLockTextEdit** <br/> |
    
 

@@ -32,35 +32,35 @@ Contém TRUE quando o anexo representa uma réplica alternativa.
 |Propriedades associadas:  <br/> |PR_IN_CONFLICT  <br/> |
 |Identificador:  <br/> |0x666C  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Nota de conflito  <br/> |
+|Área:  <br/> |Observação de conflito  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O cliente e o servidor de email devem gerar uma mensagem de resolução de conflitos ao detectar um conflito com a versão atual de uma mensagem na réplica durante a sincronização. É importante entender que é possível que a versão atual da mensagem na réplica local tenha sido transmitida durante a operação de sincronização atual. Isso acontecerá quando o conflito já existir no servidor antes que qualquer uma das mensagens conflitantes fosse baixada para a réplica local. Uma mensagem de resolução de conflito deve ser sincronizada como réplicas independentes com PCLs conflitantes. A mensagem de resolução de conflitos propriamente dita não deve ser sincronizada entre cliente e servidor; somente as réplicas independentes devem ser trocadas. O parceiro de sincronização deve gerar uma nova mensagem que corresponda à estrutura da mensagem de conflito. Portanto, é importante que o cliente e o servidor usem o mesmo algoritmo para detectar o item "vencedor". As seguintes regras devem ser aplicadas para detectar o "vencedor":
+O cliente de email e o servidor devem gerar uma mensagem de resolução de conflito ao detectar um conflito com a versão atual de uma mensagem na réplica durante a sincronização. É importante entender que é possível que a versão atual da mensagem na réplica local seja transmitida durante a operação de sincronização atual. Isso acontecerá quando o conflito já existir no servidor antes que qualquer uma das mensagens conflitantes seja baixada para a réplica local. Uma mensagem de resolução de conflito deve ser sincronizada como réplicas independentes com PCLs conflitantes. A mensagem de resolução de conflito em si não deve ser sincronizada entre o cliente e o servidor; somente as réplicas independentes devem ser trocadas. O parceiro de sincronização deve gerar uma nova mensagem que corresponde à estrutura da mensagem de conflito. Portanto, é importante que o cliente e o servidor usem o mesmo algoritmo para detectar o item "vencedor". As regras a seguir devem ser aplicadas para detectar o "vencedor":
   
 1. Hora da última modificação.
     
-2. GUID de CN superior (usando a comparação de memória) para quebrar a ligação.
+2. GUID cn superior (usando a comparação de memória) para quebrar o vínculo.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
+> Fornece referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
+> Lida com a sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

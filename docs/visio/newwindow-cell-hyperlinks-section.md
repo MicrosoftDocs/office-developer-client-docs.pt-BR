@@ -22,7 +22,7 @@ Especifica quando abrir o hiperlink em uma nova janela.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| TRUE  <br/> | Abra a página, o documento ou o site vinculado em uma nova janela.  <br/> |
+| VERDADEIRO  <br/> | Abra a página vinculada, o documento ou o site em uma nova janela.  <br/> |
 | FALSE  <br/> | Padrão. Não abrir uma nova janela para o hiperlink.  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -31,14 +31,14 @@ Para fazer referência à célula NewWindow pelo nome a partir de outra fórmula
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *Nome* . NewWindow onde hiperlink.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *Nome*  . NewWindow onde Hyperlink.  *Name*  é o nome da linha  <br/> |
    
 Para fazer referência à célula NewWindow pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
-| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2,...  <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink**  +   *i* onde *i* = 0, 1, 2, ...  <br/> |
 | Índice da célula:  <br/> |**visHLinkNewWin** <br/> |
    
 

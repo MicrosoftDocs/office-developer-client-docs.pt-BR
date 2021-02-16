@@ -41,6 +41,6 @@ Para obter uma referência para a célula LockGroup pelo índice a partir de um 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowLock** <br/> |
-|Índice da célula:  <br/> |**visLockGroup** <br/> |
+|Índice de célula:  <br/> |**visLockGroup** <br/> |
    
 

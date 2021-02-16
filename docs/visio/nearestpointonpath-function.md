@@ -25,15 +25,15 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-NEARESTPOINTONPATH (* * *seção* * *, * * *x* * *, * * *y* * *) 
+NEARESTPOINTONPATH(** *seção* **, ** *x* **, ** *y* ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
 |**Name**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obrigatório  <br/> |**Cadeia de caracteres** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
-| _x_ <br/> |Obrigatório  <br/> |**Double** <br/> |A coordenada _x_do ponto especificado.  <br/> |
-| _y_ <br/> |Obrigatório  <br/> |**Double** <br/> |A coordenada _y_do ponto especificado.  <br/> |
+| _section_ <br/> |Obrigatório  <br/> |**String** <br/> |A seção Geometry que representa o caminho, especificada por uma referência à sua respectiva célula Path (por exemplo, Geometry1.Path).  <br/> |
+| _x_ <br/> |Obrigatório  <br/> |**Double** <br/> |A  _coordenada x_ do ponto especificado.  <br/> |
+| _y_ <br/> |Obrigatório  <br/> |**Double** <br/> |A  _coordenada y_ do ponto especificado.  <br/> |
    
 ### <a name="return-value"></a>Valor de retorno
 
@@ -41,6 +41,6 @@ NEARESTPOINTONPATH (* * *seção* * *, * * *x* * *, * * *y* * *)
   
 ## <a name="remarks"></a>Comentários
 
-Se a _seção_ não existir, o Microsoft Visio retornará #REF!. 
+Se  _a_ seção não existir, o Microsoft Visio retornará #REF!. 
   
 

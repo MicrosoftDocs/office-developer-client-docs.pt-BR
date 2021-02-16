@@ -26,14 +26,14 @@ Para fazer referência à célula Prompt pelo nome, a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hélice.  *Nome* . Prompt onde *nome* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Prop.  *Nome*  . Prompt onde  *Name*  é o nome da linha  <br/> |
    
 Para fazer referência à célula Prompt pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionProp** <br/> |
-| Índice de linha:  <br/> |**visRowProp +** *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visCustPropsPrompt** <br/> |
+| Índice de linha:  <br/> |**visRowProp +** *i*  onde  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visCustPropsPrompt** <br/> |
    
 

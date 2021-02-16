@@ -19,6 +19,6 @@ ms.locfileid: "33404229"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma classe de mensagem é armazenada como uma cadeia de caracteres. A cadeia de caracteres codificada normalmente contém o nome de MAPI especificado da classe de mensagem.
+Uma classe de mensagem é armazenada como uma cadeia de caracteres. A cadeia de caracteres codificada geralmente contém o nome especificado por MAPI da classe de mensagem.
   
 

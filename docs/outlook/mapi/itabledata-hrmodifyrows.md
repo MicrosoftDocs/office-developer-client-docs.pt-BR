@@ -38,11 +38,11 @@ HRESULT HrModifyRows(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _lpSRowSet_
   
-> no Um ponteiro para uma estrutura [SRowSet](srowset.md) que contém o conjunto de linhas a serem adicionadas, substituindo linhas existentes, se necessário. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** de cada estrutura [SRow](srow.md) no conjunto de linhas deve conter a coluna de índice, o mesmo valor que foi especificado no parâmetro _ulPropTagIndexColumn_ na chamada para o [ ](createtable.md)Função CreateTable. 
+> [in] Um ponteiro para uma [estrutura SRowSet](srowset.md) que contém o conjunto de linhas a ser adicionado, substituindo as linhas existentes, se necessário. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** de cada estrutura [SRow](srow.md) no conjunto de linhas deve conter a coluna de índice, o mesmo valor especificado no _parâmetro ulPropTagIndexColumn_ na chamada para a função [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -52,17 +52,17 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Uma ou mais das linhas passadas não têm uma coluna de índice. Se esse erro for retornado, nenhuma linha será alterada.
+> Uma ou mais das linhas passadas não tem uma coluna de índice. Se esse erro for retornado, nenhuma linha será alterada.
     
 ## <a name="remarks"></a>Comentários
 
-O método **ITableData:: HrModifyRows** insere as linhas descritas pela estrutura [SRowSet](srowset.md) apontada pelo parâmetro _lpSRowSet_ . Se o valor da coluna de índice de uma linha no conjunto de linhas corresponder ao valor de uma linha existente na tabela, a linha existente será substituída. Se não existir nenhuma linha que coincida com a incluída na estrutura **SRowSet** , **HrModifyRows** adicionará a linha ao final da tabela. 
+O **método ITableData::HrModifyRows** insere as linhas descritas pela estrutura [SRowSet](srowset.md) apontada pelo _parâmetro lpSRowSet._ Se o valor da coluna de índice de uma linha no conjunto de linhas corresponde ao valor de uma linha existente na tabela, a linha existente é substituída. Se não existir uma linha que corresponde à que está incluída na estrutura **SRowSet,** **HrModifyRows** adiciona a linha ao final da tabela. 
   
-Todos os modos de exibição da tabela são modificados para incluir as linhas apontadas pelo _lpSRowSet_. No enTanto, se um modo de exibição tiver uma restrição no lugar que exclua uma linha, ele pode não estar visível para o usuário. 
+Todos os exibições da tabela são modificados para incluir as linhas apontadas por  _lpSRowSet_. No entanto, se um ponto de vista tiver uma restrição no local que exclua uma linha, talvez ele não seja visível para o usuário. 
   
-As colunas nas linhas apontadas por _lpSRowSet_ não precisam estar na mesma ordem das colunas da tabela. O chamador também pode incluir as propriedades de colunas que não estão na tabela no momento. Para modos de exibição existentes, o **HrModifyRows** torna essas novas colunas disponíveis, mas não as inclui no conjunto de colunas atual. Para modos de exibição futuros, o **HrModifyRows** inclui as novas colunas no conjunto de colunas. 
+As colunas nas linhas apontadas por  _lpSRowSet_ não devem estar na mesma ordem que as colunas na tabela. O chamador também pode incluir como propriedades de colunas que não estão atualmente na tabela. Para exibições existentes, **HrModifyRows** disponibiliza essas novas colunas, mas não as inclui no conjunto de colunas atual. Para exibições futuras, **HrModifyRows** inclui as novas colunas no conjunto de colunas. 
   
-Após o **HrModifyRows** ter adicionado as linhas, as notificações são enviadas a todos os clientes ou provedores de serviços que têm um modo de exibição da tabela e que chamaram o método IMAPITable [:: Advise](imapitable-advise.md) da tabela para se registrarem para notificações. MAPI envia notificações TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED para cada linha, até oito linhas. Se mais de oito linhas forem afetadas pela chamada **HrModifyRows** , o MAPI enviará uma única notificação TABLE_CHANGED em vez disso. 
+Depois **que HrModifyRows** tiver adicionado as linhas, as notificações serão enviadas a todos os clientes ou provedores de serviços que tenham um modo de exibição da tabela e que tenham chamado o método [IMAPITable::Advise](imapitable-advise.md) da tabela para registrar para notificações. MAPI sends TABLE_ROW_ADDED or TABLE_ROW_MODIFIED notifications for each row, up to eight rows. Se mais de oito linhas são afetadas pela **chamada HrModifyRows,** MAPI envia uma única notificação TABLE_CHANGED vez. 
   
 ## <a name="see-also"></a>Confira também
 

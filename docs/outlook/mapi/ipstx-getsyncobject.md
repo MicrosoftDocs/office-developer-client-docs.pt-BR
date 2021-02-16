@@ -37,7 +37,7 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  bota Ponteiro para a interface **IOSTX** a ser obtido. 
+>  [out] Ponteiro para a interface **IOSTX** a ser obter. 
     
 ## <a name="remarks"></a>Comentários
 

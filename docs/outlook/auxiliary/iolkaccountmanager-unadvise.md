@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
-description: Cancela o registro de um cliente com o gerente de contas para notificações para todas as contas.
+description: Unregisters a client with the account manager for notifications for all accounts.
 ms.openlocfilehash: 0b954413b06cb1aa1b6fc4e0e9666f108bf81fbe
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33430984"
 ---
 # <a name="iolkaccountmanagerunadvise"></a>IOlkAccountManager::Unadvise
 
-Cancela o registro de um cliente com o gerente de contas para notificações para todas as contas. 
+Unregisters a client with the account manager for notifications for all accounts. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 
 _dwCookie_
   
-> no O cookie retornado por [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md).
+> [in] O cookie retornado por [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -41,7 +41,7 @@ _dwCookie_
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais argumentos são inválidos.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |O gerente de contas não foi inicializado para uso.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerenciador de contas não foi inicializado para uso.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -22,19 +22,19 @@ Determina a direção dos saltos de linha que ocorrem em um conector dinâmico v
   
 |**Valor**|**Direção do salto de linha**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Padrão da página  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Esquerdo  <br/> |**visLOJumpDirYLeft** <br/> |
-| duas  <br/> | À direita  <br/> |**visLOJumpDirYRight** <br/> |
+| 0  <br/> | Padrão da página  <br/> |**visLOJumpDirYDefault** <br/> |
+| 1   <br/> | Esquerdo  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2   <br/> | À direita  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para definir a direção vertical padrão para *todos os* saltos de conectores em uma página, use a célula PageLineJumpDirY na seção Page Layout. 
+Para definir a direção  vertical padrão para todos os saltos de conector em uma página, use a célula PageLineJumpDirY na seção Page Layout. 
   
 Para fazer referência à célula ConLineJumpDirY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | ConLineJumpDirY  <br/> |
+| Nome da célula:  <br/> | ConLineJumpDiry  <br/> |
    
 Para fazer referência à célula ConLineJumpDirY pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

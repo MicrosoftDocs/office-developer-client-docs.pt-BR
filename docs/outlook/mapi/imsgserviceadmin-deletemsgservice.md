@@ -37,7 +37,7 @@ HRESULT DeleteMsgService(
 
  _lpuid_
   
-> no Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagens a ser excluído. 
+> [in] Um ponteiro para a [estrutura MAPIUID](mapiuid.md) que contém o identificador exclusivo do serviço de mensagens a ser excluído. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> O **MAPIUID** apontado por _lpuid_ não corresponde a um serviço de mensagens existente. 
+> O **MAPIUID** apontado por  _lpuid_ não combina com um serviço de mensagens existente. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMsgServiceAdmin::D eletemsgservice** exclui um serviço de mensagens de um perfil. **DeleteMsgService** remove todas as seções de perfil relacionadas ao serviço de mensagens. 
+O **método IMsgServiceAdmin::D eleteMsgService** exclui um serviço de mensagem de um perfil. **DeleteMsgService** remove todas as seções de perfil relacionadas ao serviço de mensagens. 
   
- O **DeleteMsgService** executa as seguintes etapas para excluir o serviço de mensagens: 
+ **DeleteMsgService** executa as seguintes etapas para excluir o serviço de mensagens: 
   
-1. Chama a função de ponto de entrada do serviço de mensagens com o parâmetro _ulContext_ definido como MSG_SERVICE_DELETE antes das seções de perfil serem removidas. Isso permite que o serviço execute qualquer tarefa específica do serviço. 
+1. Chama a função de ponto de entrada do serviço de mensagens com o  _parâmetro ulContext_ definido como MSG_SERVICE_DELETE antes que as seções de perfil sejam removidas. Isso permite que o serviço execute qualquer tarefa específica do serviço. 
     
 2. Exclui o serviço de mensagens.
     
@@ -65,7 +65,7 @@ A função de ponto de entrada do serviço de mensagens não é chamada novament
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Para recuperar a estrutura **MAPIUID** para o serviço de mensagens excluir, recupere a coluna de propriedade **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar a estrutura **MAPIUID** do serviço de mensagens **a ser** excluído, recupere a coluna da propriedade PR_SERVICE_UID ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) da linha do serviço de mensagens na tabela de serviço de mensagens. Para obter mais informações, consulte o procedimento descrito no [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -73,7 +73,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **IMsgServiceAdmin::D eletemsgservice** para excluir o serviço selecionado.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o **método IMsgServiceAdmin::D eleteMsgService** para excluir o serviço selecionado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

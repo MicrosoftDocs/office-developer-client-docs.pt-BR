@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- função convertxlref12toxlref [Excel 2007]
+- Função convertxlref12ndolref [excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33432650"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Tenta converter um **XLREF12** em um **XLREF**.
+Tenta converter um **XLREF12 em** **um XLREF.**
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
@@ -40,7 +40,7 @@ Ponteiro para a estrutura de referência de destino na qual o valor convertido d
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
- **True** se a conversão tiver sido bem-sucedida; caso contrário, **false** . 
+ **TRUE** se a conversão foi bem-sucedida; caso contrário, **FALSE.** 
   
 ## <a name="remarks"></a>Comentários
 

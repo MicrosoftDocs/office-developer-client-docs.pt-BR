@@ -23,13 +23,13 @@ ms.locfileid: "33407211"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A função **MAPICrashRecovery** verifica o estado do arquivo de pastas particulares (PST) ou da memória compartilhada do arquivo de pastas offline (OST). Se a memória estiver em um estado consistente, a função **MAPICrashRecovery** moverá os dados para o disco e impedirá o acesso de leitura ou gravação adicional até que o processo seja encerrado. 
+A **função MAPICrashRecovery** verifica o estado da memória compartilhada do arquivo de Pastas Particulares (PST) ou do arquivo de Pastas Offline (OST). Se a memória estiver em um estado consistente, a função **MAPICrashRecovery** move os dados para o disco e impede acesso de leitura ou gravação até que o processo seja encerrado. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |olmapi32. dll  <br/> |
+|Exportado por:  <br/> |olmapi32.dll  <br/> |
 |Chamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
@@ -41,19 +41,19 @@ void MAPICrashRecovery(ULONG ulFlags);
 
 _ulFlags_
   
-> no Sinalizadores usados para controlar como a recuperação de falha MAPI é executada. Os seguintes sinalizadores podem ser definidos:
+> [in] Sinalizadores usados para controlar como a recuperação de falhas MAPI é executada. Os sinalizadores a seguir podem ser definidos:
     
-   - **Recuperação\_de MAPICRASH**: se o PSTs ou o OSTs estiverem em um estado consistente, mova os dados para o disco e bloqueie os PSTs ou OSTs para evitar acesso de leitura ou gravação.
+   - **MAPICRASH \_ RECOVER**: se os PSTs ou OSTs estão em um estado consistente, mova os dados para o disco e bloqueie os PSTs ou OSTs para impedir o acesso de leitura ou gravação.
     
-   - **MAPICRASH\_continuar**: Desbloqueie os PSTs ou OSTs para depuração. Após uma chamada bem-sucedida para **MAPICrashRecovery** com o sinalizador **MAPICRASH_RECOVER** , chame **MAPICrashRecovery** com o **sinalizador\_MAPICRASH continue** para permitir a depuração continuar. 
+   - **MAPICRASH \_ CONTINUE**: Desbloqueie os PSTs ou OSTs para depuração. Após uma chamada bem-sucedida para **MAPICrashRecovery** com o sinalizador **MAPICRASH_RECOVER,** chame **MAPICrashRecovery** com o sinalizador **CONTINUE DE MAPICRASH \_** para permitir que a depuração continue. 
     
-   - **MAPICRASH\_SYSTEM_SHUTDOWN**: se o PSTs ou o OSTs estiverem em um estado consistente, mova os dados para o disco e bloqueie o PSTs ou OSTs para impedir o acesso de leitura ou gravação. PSTs ou OSTs não podem ser desbloqueados usando o **MAPICRASH\_continue**. Deve ser usado em combinação com **a\_recuperação do MAPICRASH**. 
+   - **MAPICRASH \_ SYSTEM_SHUTDOWN**: se os PSTs ou OSTs estão em um estado consistente, mova os dados para o disco e bloqueie os PSTs ou OSTs para impedir o acesso de leitura ou gravação. Os PSTs ou OSTs não podem ser desbloqueados usando **MAPICRASH \_ CONTINUE**. Deve ser usado em combinação com **MAPICRASH \_ RECOVER**. 
     
 ## <a name="remarks"></a>Comentários
 
-O byte superior (0xFF000000) é reservado para sinalizadores de recuperação de pane específicos do provedor.
+O byte superior (0xFF000000) é reservado para sinalizadores de recuperação de falhas específicos do provedor.
   
-Chame **MAPICrashRecovery** com os **sinalizadores\_MAPICRASH Recover** e **MAPICRASH_SYSTEM_SHUTDOWN** em resposta à mensagem **WM_ENDSESSION** . 
+Chame **MAPICrashRecovery** com o **MAPICRASH \_ RECOVER** **e MAPICRASH_SYSTEM_SHUTDOWN** sinalizadores em resposta à WM_ENDSESSION mensagem.  
   
 ## <a name="see-also"></a>Confira também
 

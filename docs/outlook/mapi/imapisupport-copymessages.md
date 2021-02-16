@@ -44,35 +44,35 @@ HRESULT CopyMessages(
 
  _lpSrcInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta que contém as mensagens a serem copiadas ou movidas.
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a pasta que contém as mensagens a serem copiadas ou movidas.
     
  _lpSrcFolder_
   
-> no Um ponteiro para a pasta que contém as mensagens a serem copiadas ou movidas.
+> [in] Um ponteiro para a pasta que contém as mensagens a serem copiadas ou movidas.
     
  _lpMsgList_
   
-> no Um ponteiro para uma matriz de identificadores de entrada que identificam as mensagens a serem copiadas ou movidas. 
+> [in] Um ponteiro para uma matriz de identificadores de entrada que identificam as mensagens a serem copiadas ou movidas. 
     
  _lpDestInterface_
   
-> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a pasta de destino para as mensagens copiadas ou movidas.
+> [in] Um ponteiro para o IID (identificador de interface) que representa a interface a ser usada para acessar a pasta de destino das mensagens copiadas ou movidas.
     
  _lpDestFolder_
   
-> no Um ponteiro para a pasta de destino das mensagens copiadas ou movidas. Essa pasta deve ser aberta.
+> [in] Um ponteiro para a pasta de destino das mensagens copiadas ou movidas. Essa pasta deve estar aberta.
     
  _ulUIParam_
   
-> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido em _parâmetroulflags_.
+> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O  _parâmetro lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG seja definido em  _ulFlags_.
     
  _lpProgress_
   
-> no Um ponteiro para um objeto Progress que exibe um indicador de progresso. Se NULL for passado no _lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação do objeto de progresso MAPI. O parâmetro _lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG esteja definido em _parâmetroulflags_.
+> [in] Um ponteiro para um objeto de progresso que exibe um indicador de progresso. Se NULL for passado  _em lpProgress_, o provedor de armazenamento de mensagens exibirá um indicador de progresso usando a implementação de objeto de progresso MAPI. O  _parâmetro lpProgress_ é ignorado, a menos que o sinalizador MESSAGE_DIALOG seja definido em  _ulFlags_.
     
  _ulFlags_
   
-> no Uma bitmask de sinalizadores que controlam como a operação de cópia ou movimentação é realizada. Os seguintes sinalizadores podem ser definidos:
+> [in] Uma máscara de bits de sinalizadores que controla como a operação de cópia ou movimentação é realizada. Os sinalizadores a seguir podem ser definidos:
     
 MESSAGE_DIALOG 
   
@@ -80,7 +80,7 @@ MESSAGE_DIALOG
     
 MESSAGE_MOVE 
   
-> As mensagens devem ser movidas, em vez de copiadas. Se MESSAGE_MOVE não for definido, as mensagens serão copiadas.
+> As mensagens devem ser movidas, em vez de copiadas. Se MESSAGE_MOVE não estiver definida, as mensagens serão copiadas.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -90,11 +90,11 @@ S_OK
     
 MAPI_E_USER_CANCEL 
   
-> O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
+> O usuário cancelou a operação, normalmente clicando no botão Cancelar **em** uma caixa de diálogo. 
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport:: CopyMessages** é implementado para objetos de suporte do provedor de repositório de mensagens. Os provedores de repositório de mensagens podem chamar **IMAPISupport:: CopyMessages** em sua implementação de [IMAPIFolder:: CopyMessages](imapifolder-copymessages.md) para copiar ou mover uma ou mais mensagens de uma pasta para outra. Como parte da chamada **IMAPISupport:: CopyMessages** , o provedor de repositório de mensagens pode especificar que o MAPI deve exibir um indicador de progresso. 
+O **método IMAPISupport::CopyMessages** é implementado para objetos de suporte do provedor de armazenamento de mensagens. Os provedores de armazenamento de mensagens podem chamar **IMAPISupport::CopyMessages** na implementação de [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar ou mover uma ou mais mensagens de uma pasta para outra. Como parte da chamada **IMAPISupport::CopyMessages,** o provedor de armazenamento de mensagens pode especificar que MAPI deve exibir um indicador de progresso. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -21,26 +21,26 @@ ms.locfileid: "33405538"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um thread é a entidade básica para a qual um sistema operacional aloca tempo de CPU. Um thread tem seus próprios registradores, Stack, Priority e Storage, mas compartilha um espaço de endereço e recursos de processo, como tokens de acesso. Threads também compartilham memória, com um thread lendo o que é gravado por outro thread.
+Um thread é a entidade básica para a qual um sistema operacional aloca tempo de CPU. Um thread tem seus próprios registros, pilha, prioridade e armazenamento, mas compartilha um espaço de endereço e recursos de processo, como tokens de acesso. Threads também compartilham memória, com um thread lendo o que outro thread escreveu.
   
-Os clientes MAPI usam os seguintes modelos de segmentação genérica.
+Os clientes MAPI usam os seguintes modelos de threading genéricos.
   
-|**Modelo de segmentação**|**Descrição**|
+|**Modelo de threading**|**Descrição**|
 |:-----|:-----|
-|Modelo de segmentação única  <br/> |Todos os objetos são usados no único thread.  <br/> |
-|Modelo de segmentação de apartamento  <br/> |Um objeto pode ser usado somente no thread que o criou.  <br/> |
-|Segmentação livre, ou thread-festa, modelo  <br/> |Um objeto pode ser usado em qualquer thread.  <br/> |
+|Modelo de threading único  <br/> |Todos os objetos são usados no thread único.  <br/> |
+|Modelo de threading de apartment  <br/> |Um objeto só pode ser usado no thread que o criou.  <br/> |
+|Modelo de threading gratuito ou thread-party  <br/> |Um objeto pode ser usado em qualquer thread.  <br/> |
    
-O MAPI usa o modelo de segmentação livre, com suporte a objetos isentos de thread que podem ser usados em qualquer thread a qualquer momento. O OLE usa o modelo de segmentação de apartamento. O modelo de segmentação de apartamento suporta objetos que devem ser transferidos explicitamente quando um thread diferente daquele que criou o objeto precisa usar esse objeto.
+O MAPI usa o modelo de threading livre, dando suporte a objetos thread-safe que podem ser usados em qualquer thread a qualquer momento. OLE usa o modelo de threading de apartment. O modelo de threading de apartment dá suporte a objetos que devem ser explicitamente transferidos quando um thread diferente do que criou o objeto precisa usar esse objeto.
   
-O mecanismo que o OLE usa para transferir objetos de um thread para outro é conhecido como marshaling. O empacotamento envolve um objeto stub e um objeto proxy. Esses objetos especiais empacotam os parâmetros da interface no objeto a ser empacotado, transferir esses parâmetros para o outro thread e desempacotá-los na chegada. O conflito entre os dois modelos multissegmentados surge quando um objeto MAPI de thread livre é enviado para outro processo usando uma chamada de procedimento remoto "leve" de OLE ou LRPC. O LRPC altera a semântica do objeto de segmentação livre para a segmentação de apartamento por meio da troca de stub e interfaces de proxy com comportamento de segmentação de apartamento entre o objeto e seu chamador. A conscientização das situações em MAPI que levam a esse conflito pode ajudar os clientes e os provedores de serviços a impedir que problemas ocorram.
+O mecanismo que o OLE usa para transferir objetos de um thread para outro é conhecido como empacotamento. A empacotamento envolve um objeto stub e um objeto proxy. Esses objetos especiais empacotam os parâmetros da interface no objeto a ser empacotado, transferem esses parâmetros para o outro thread e os descompactam na chegada. O conflito entre os dois modelos multithreaded surge quando um objeto MAPI de thread livre é enviado para outro processo usando a Chamada de Procedimento Remoto "leve" OLE ou LRPC. LRPC altera a semântica do objeto de threading livre para threading de apartment interpondo interfaces stub e proxy com comportamento de threading de apartment entre o objeto e seu chamador. O reconhecimento das situações em MAPI que levam a esse conflito pode ajudar clientes e provedores de serviços a evitar problemas.
   
 Um objeto MAPI pode ser acessado:
   
-- Por meio de chamadas diretas para seus métodos usando um ponteiro de interface retornado por um provedor de serviços ou MAPI vinculado ao processo do cliente, como o objeto Session retornado por [funçãomapilogonex](mapilogonex.md).
+- Através de chamadas diretas para seus métodos usando um ponteiro de interface retornado por um provedor de serviços ou MAPI vinculado ao processo do cliente, como o objeto de sessão retornado de [MAPILogonEx](mapilogonex.md).
     
-- Por meio de chamadas indiretas para seus métodos usando um ponteiro de interface retornado por qualquer provedor de serviços, como o objeto Folder copiado de outra pasta em [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md).
+- Através de chamadas indiretas para seus métodos usando um ponteiro de interface retornado por qualquer provedor de serviços, como o objeto de pasta copiado de outra pasta em [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md).
     
-- Por meio de uma função de retorno de chamada, como o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) passado para um provedor de serviços ou para MAPI em uma chamada de **aviso** ou os métodos que podem mostrar o progresso em uma operação demorada. 
+- Por meio de uma função de retorno de chamada, como o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) passado para um provedor de serviços ou para MAPI em uma chamada de Advise ou os métodos que podem mostrar o progresso em uma operação demorada.  
     
 

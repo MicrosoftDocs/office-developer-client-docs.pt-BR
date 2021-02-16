@@ -28,14 +28,14 @@ Para fazer referência à célula Value pelo nome a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Fields. Value [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Fields.Value[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionTextField** <br/> |
-|Índice de linha:  <br/> |**visRowField** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visFieldCell** <br/> |
+|Índice de linha:  <br/> |**visRowField**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visFieldCell** <br/> |
    
 

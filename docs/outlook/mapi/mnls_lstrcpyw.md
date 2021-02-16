@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341724"
 ---
-# <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
+# <a name="mnls_lstrcpyw"></a>MNLS_lstrcpyW
 
  
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Copia uma cadeia de caracteres em um buffer.
+Copia uma cadeia de caracteres para um buffer.
   
 > [!CAUTION]
 > Não usar. Considere usar [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) em vez disso. 
@@ -36,21 +36,21 @@ LPCWSTR lpString2);
 
 lpString1
   
-> bota Um buffer para receber o conteúdo da cadeia de caracteres apontada pelo parâmetro lpString2.
+> [out] Um buffer para receber o conteúdo da cadeia de caracteres apontado pelo parâmetro lpString2.
     
 lpString2
   
-> no A cadeia de caracteres terminada em nulo para ser copiada.
+> [in] A cadeia de caracteres terminada por caractere nulo a ser copiada.
     
 ## <a name="return-value"></a>Valor de retorno
 
-Se a função for bem-sucedida, o valor de retorno é um ponteiro para o buffer.
+Se a função for bem-sucedida, o valor de retorno será um ponteiro para o buffer.
   
-Se a função falhar, o valor de retorno será NULL e lpString1 não poderá ser finalizado por nulo.
+Se a função falhar, o valor de retorno será NULL e lpString1 poderá não ser encerrado por nulo.
   
 ## <a name="remarks"></a>Comentários
 
-Essa função envolve a função **lstrcpy** . Para obter mais informações, consulte [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
+Esta função quebra a **função lstrcpy.** Para obter mais informações, [consulte lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 

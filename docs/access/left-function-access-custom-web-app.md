@@ -1,5 +1,5 @@
 ---
-title: Função Left (aplicativo da Web personalizado do Access)
+title: Função Left (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424165"
 ---
-# <a name="left-function-access-custom-web-app"></a>Função Left (aplicativo da Web personalizado do Access)
+# <a name="left-function-access-custom-web-app"></a>Função Left (aplicativo Web personalizado do Access)
 
 Retorna a parte esquerda de uma cadeia de caracteres com o número especificado de caracteres.
   
@@ -23,13 +23,13 @@ Retorna a parte esquerda de uma cadeia de caracteres com o número especificado 
   
 ## <a name="syntax"></a>Sintaxe
 
- **À esquerda** (*TextName*, *Length*) 
+ **Left** (*TextExpression*, *Length*) 
   
-A função **Left** contém os seguintes argumentos. 
+A **função Left** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
-| *Length*  <br/> |É um inteiro positivo que especifica o número de caracteres do *texto* de retorno.  <br/> |
+| *Length*  <br/> |É um inteiro positivo que especifica quantos caracteres do  *TextExpression*  são retornados.  <br/> |
    
 

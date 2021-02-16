@@ -25,11 +25,11 @@ ms.locfileid: "33406322"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição de subobjeto que é usada para filtrar as linhas da tabela de associação ou de destinatário de uma mensagem.
+Descreve uma restrição de subpro objecto que é usada para filtrar as linhas da tabela de anexos ou destinatários de uma mensagem.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -44,7 +44,7 @@ typedef struct _SSubRestriction
 
  **ulSubObject**
   
-> Tipo de subobjeto a ser usado como o destino para a restrição. Os valores possíveis são os seguintes: 
+> Tipo de subpro objecto a ser usado como o destino da restrição. Os valores possíveis são: 
     
 PR_MESSAGE_RECIPIENTS 
   
@@ -56,15 +56,15 @@ PR_MESSAGE_ATTACHMENTS
     
  **lpRes**
   
-> Ponteiro para uma estrutura [SRestriction](srestriction.md) . 
+> Ponteiro para uma [estrutura SRestriction.](srestriction.md) 
     
 ## <a name="remarks"></a>Comentários
 
-As restrições de subobjeto não são suportadas por todas as tabelas. Normalmente, apenas as pastas de conteúdo da pasta e de resultados de pesquisa dão suporte a elas. Por exemplo, as restrições de subobjeto são usadas para localizar uma mensagem que tem um tipo específico de anexo ou destinatário. 
+As restrições de subpro object não são suportadas por todas as tabelas. Normalmente, apenas as tabelas de conteúdo de pastas e as pastas de resultados de pesquisa têm suporte para elas. Por exemplo, restrições de subpro object são usadas para encontrar uma mensagem que tenha um tipo específico de anexo ou destinatário. 
   
-Se uma implementação não oferecer suporte a restrições de subobjeto, ela retornará MAPI_E_TOO_COMPLEX de seus métodos imApitable: [: Restrict](imapitable-restrict.md) ou IMAPITable [:: FindRow](imapitable-findrow.md) . 
+Se uma implementação não suportar restrições de subpro object, ela retornará MAPI_E_TOO_COMPLEX de seus métodos [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow.](imapitable-findrow.md) 
   
-Para uma discussão geral de como as restrições funcionam, consulte [about Restrictions](about-restrictions.md). 
+Para uma discussão geral sobre como funcionam as restrições, consulte [Sobre restrições.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Confira também
 

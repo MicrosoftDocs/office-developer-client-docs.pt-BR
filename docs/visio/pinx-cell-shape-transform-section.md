@@ -18,7 +18,7 @@ ms.locfileid: "33404817"
 ---
 # <a name="pinx-cell-shape-transform-section"></a>Célula PinX (Seção Shape Transform)
 
-Representa a coordenada *x* do pino da forma (centro de rotação) em relação à origem de seu pai. 
+Representa a  *coordenada x*  do pino da forma (centro de rotação) em relação à origem de seu pai. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ Para fazer referência à célula PinX pelo nome a partir de outra fórmula ou d
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Células  <br/> |
+| Nome da célula:  <br/> | PinX  <br/> |
    
 Para fazer referência à célula PinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

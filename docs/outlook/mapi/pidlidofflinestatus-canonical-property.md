@@ -41,23 +41,23 @@ A tabela a seguir mostra os valores possíveis dessa propriedade.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|,0  <br/> |Não foi feito o check-out do documento.  <br/> |
-|1  <br/> |O documento está com check-out para o usuário atual.  <br/> |
-|duas  <br/> |Não foi feito o check-out do documento, mas o usuário atual tem uma cópia do arquivo salvo para edição no computador atual.  <br/> |
+|0  <br/> |O check-out do documento não foi verificado.  <br/> |
+|1   <br/> |Foi verificado o check-out do documento para o usuário atual.  <br/> |
+|2   <br/> |O documento não foi verificado, mas o usuário atual tem uma cópia do arquivo salvo para edição no computador atual.  <br/> |
    
 Essa propriedade é calculada localmente e não é enviada a um servidor a qualquer momento, a menos que um usuário arraste o item para outra conta. Nesse caso, ele é tratado como uma propriedade personalizada definida pelo usuário.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -69,7 +69,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

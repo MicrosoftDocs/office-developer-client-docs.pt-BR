@@ -25,11 +25,11 @@ ms.locfileid: "33418936"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma restrição exist que é usada para testar se uma propriedade específica existe como uma coluna na tabela. 
+Descreve uma restrição existente que é usada para testar se uma determinada propriedade existe como uma coluna na tabela. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -45,23 +45,23 @@ typedef struct _SExistRestriction
 
  **ulReserved1**
   
-> Serve deve ser zero. 
+> Reservado; deve ser zero. 
     
  **ulPropTag**
   
-> Marca de propriedade identificando a coluna a ser testada para existência em cada linha.
+> Marca de propriedade que identifica a coluna a ser testada quanto à existência em cada linha.
     
  **ulReserved2**
   
-> Serve deve ser zero.
+> Reservado; deve ser zero.
     
 ## <a name="remarks"></a>Comentários
 
-A restrição exist é usada para garantir resultados significativos para outros tipos de restrições que envolvem Propriedades, como restrições de propriedade e de conteúdo. Quando uma restrição que envolve uma propriedade é passada para [IMAPITable:: Restrict](imapitable-restrict.md) ou IMAPITable [:: FindRow](imapitable-findrow.md) e a propriedade não existir, os resultados da restrição são indefinidos. Ao criar uma restrição **e** que ingresse na restrição de propriedade com uma restrição exist, um chamador pode ter resultados precisos garantidos. 
+A restrição existente é usada para garantir resultados significativos para outros tipos de restrições que envolvem propriedades, como restrições de propriedade e conteúdo. Quando uma restrição que envolve uma propriedade é passada para [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow](imapitable-findrow.md) e a propriedade não existe, os resultados da restrição são indefinido. Ao criar uma **restrição AND** que une a restrição de propriedade com uma restrição existente, um chamador pode ter resultados precisos garantidos. 
   
-As restrições existem não podem ser usadas com propriedades de subobjeto que tenham o tipo PT_OBJECT. 
+Restrições existentes não podem ser usadas com propriedades de subpro object que tenham o tipo PT_OBJECT. 
   
-Para obter mais informações sobre a estrutura **SExistRestriction** , consulte [about Restrictions](about-restrictions.md). 
+Para obter mais informações sobre a **estrutura SExistRestriction,** consulte [Sobre restrições](about-restrictions.md). 
   
 ## <a name="see-also"></a>Confira também
 

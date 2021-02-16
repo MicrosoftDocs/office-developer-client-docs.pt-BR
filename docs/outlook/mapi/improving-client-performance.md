@@ -19,6 +19,6 @@ ms.locfileid: "33405958"
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os tópicos desta seção contêm dicas que ajudam você a criar um aplicativo cliente com o melhor desempenho possível.
+Os tópicos desta seção contêm dicas que ajudam a criar um aplicativo cliente com o melhor desempenho possível.
   
 

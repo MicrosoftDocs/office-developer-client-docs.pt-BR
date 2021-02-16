@@ -21,17 +21,17 @@ ms.locfileid: "33404299"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os provedores de transporte de recursos opcionais podem ser implementados:
+Os provedores de transporte de recursos opcionais podem implementar:
   
-- Registro de opções de mensagens e destinatários específicas para o provedor de transporte.
+- Registrar opções de mensagem e destinatário específicas para o provedor de transporte.
     
 - Manter um perfil, se necessário, para armazenar informações de configuração e credenciais no sistema de mensagens.
     
-- Executar qualquer verificação de credenciais necessárias para o sistema de mensagens.
+- Executar qualquer verificação das credenciais exigidas pelo sistema de mensagens.
     
-- Suporte à notificação de eventos para aplicativos clientes interessados com o método [IMAPISupport:: Notify](imapisupport-notify.md) . 
+- Suporte à notificação de evento para aplicativos cliente interessados com o [método IMAPISupport::Notify.](imapisupport-notify.md) 
     
-- Exibir folhas de propriedades de configuração e caixas de diálogo do assistente para permitir que os usuários definam as configurações do provedor de transporte.
+- Exibir folhas de propriedades de configuração e caixas de diálogo do assistente para permitir que os usuários configurem as configurações do provedor de transporte.
     
 - Fornecimento de relatórios de entrega de mensagens para aplicativos cliente.
     

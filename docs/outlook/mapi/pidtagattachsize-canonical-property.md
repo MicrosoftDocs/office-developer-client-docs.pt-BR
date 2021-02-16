@@ -25,7 +25,7 @@ ms.locfileid: "32361086"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a soma, em bytes, dos tamanhos de todas as propriedades de um anexo. 
+Contém a soma, em bytes, dos tamanhos de todas as propriedades em um anexo. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contém a soma, em bytes, dos tamanhos de todas as propriedades de um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-É recomendável que os subobjetos de anexo exponham a propriedade **PR_ATTACH_SIZE** . A soma contida no **PR_ATTACH_SIZE** inclui o tamanho da propriedade **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Da mesma forma, **PR_ATTACH_SIZE** geralmente é maior do que o conteúdo do anexo. 
+É recomendável que os subobjetos de anexo exponham **a PR_ATTACH_SIZE** propriedade. A soma contida **no PR_ATTACH_SIZE** inclui o tamanho da propriedade **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Da mesma forma, **PR_ATTACH_SIZE** geralmente é maior do que o conteúdo do anexo sozinho. 
   
-Essa propriedade pode ser usada para verificar o tamanho aproximado do anexo antes de executar uma transferência remota por modem e para exibir os indicadores de progresso ao salvar o anexo no disco. É particularmente útil com objetos OLE anexados. 
+Essa propriedade pode ser usada para verificar o tamanho aproximado do anexo antes de executar uma transferência remota pelo modem e para exibir indicadores de progresso ao salvar o anexo no disco. Ele é particularmente útil com objetos OLE anexados. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Manipula objetos Message e Attachment.
+> Lida com objetos de mensagem e anexo.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-mapitags. h
+mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -69,7 +69,7 @@ mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

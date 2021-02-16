@@ -1,5 +1,5 @@
 ---
-title: Exemplos de provedor de serviços MAPI
+title: Exemplos de provedores de serviços MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420294"
 ---
-# <a name="mapi-service-provider-samples"></a>Exemplos de provedor de serviços MAPI
+# <a name="mapi-service-provider-samples"></a>Exemplos de provedores de serviços MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção contém exemplos de código de três provedores de serviço MAPI:
+Esta seção contém exemplos de código de três provedores de serviços MAPI:
   
-- [Baixar exemplos de MAPI do Outlook](downloading-the-outlook-mapi-samples.md)
+- [Baixando os exemplos de MAPI do Outlook](downloading-the-outlook-mapi-samples.md)
     
     Este tópico descreve como baixar os exemplos.
     
-- [Exemplo de provedor de catálogo de endereços](address-book-provider-sample.md)
+- [Exemplo de provedor de agenda de endereços](address-book-provider-sample.md)
     
-    Este exemplo suporta um único contêiner somente leitura para nomes de exibição e endereços de email, que são lidos de um arquivo binário simples.
+    Este exemplo dá suporte a um único contêiner somente leitura para exibir nomes e endereços de email, que são lidos de um arquivo binário simples.
     
-- [Exemplo de provedor de repositório de mensagens](message-store-provider-sample.md)
+- [Exemplo de provedor de armazenamento de mensagens](message-store-provider-sample.md)
     
-    Este exemplo usa diretórios como pastas e arquivos de documento OLE 2,0 como mensagens. O exemplo suporta todos os recursos necessários para um repositório de mensagens padrão.
+    Este exemplo usa diretórios como pastas e arquivos de documento OLE 2.0 como mensagens. O exemplo dá suporte a todos os recursos necessários para um armazenamento de mensagens padrão.
     
 - [Exemplo de provedor de transporte](transport-provider-sample.md)
     

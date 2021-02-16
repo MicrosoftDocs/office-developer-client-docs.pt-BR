@@ -25,7 +25,7 @@ ms.locfileid: "33434071"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Essa propriedade contém uma matriz binária de métodos de entrega (provedores de serviço), na ordem de preferência de um remetente de mensagem.
+Essa propriedade contém uma matriz binária de métodos de entrega (provedores de serviços), na ordem de preferência de um remetente de mensagem.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Essa propriedade contém uma matriz binária de métodos de entrega (provedores 
    
 ## <a name="remarks"></a>Comentários
 
-A matriz contida na propriedade é composta por identificadores ASN. 1 para cada um dos provedores de serviços.
+A matriz contida nessa propriedade consiste em identificadores ASN.1 para cada um dos provedores de serviços.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

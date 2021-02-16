@@ -25,22 +25,22 @@ ms.locfileid: "33405588"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece um mecanismo para sincronizar email, em vez de usar a API de transporte. Essa interface é exposta em um objeto Store. Usando esta interface e [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), um provedor de transporte pode fornecer melhores mensagens de progresso e de erro do que aqueles que aparecem na caixa de diálogo enviar/receber no Microsoft Outlook.
+Fornece um mecanismo para sincronizar emails em vez de usar a API de Transporte. Essa interface é exposta em um objeto store. Usando essa interface e [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), um provedor de transporte pode fornecer mensagens de erro e progresso melhores do que aquelas que aparecem na caixa de diálogo Enviar/Receber no Microsoft Outlook.
   
-A saída ainda está no repositório padrão. O Outlook continuará a usar as APIs de transporte para enviar emails, pois a mensagem de saída não pode estar no repositório externo.
+A caixa de saída ainda está no armazenamento padrão. O Outlook continuará a usar as APIs de Transporte para enviar emails porque a mensagem de saída não pode estar no armazenamento externo.
   
 |||
 |:-----|:-----|
-|Exposto por:  <br/> |Provedores de armazenamento e transporte  <br/> |
+|Exposto por:  <br/> |Provedores de transporte e loja  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
-|Chamado por:  <br/> |Provedores de armazenamento e transporte  <br/> |
+|Chamado por:  <br/> |Provedores de Transporte e Loja  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISync  <br/> |
    
 ## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado por provedores de repositório de mensagens. Este método é chamado pelo Outlook 2010 e pelo Outlook 2013 para iniciar a sincronização.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado pelos provedores de armazenamento de mensagens. Esse método é chamado pelo Outlook 2010 e pelo Outlook 2013 para iniciar a sincronização.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -26,7 +26,7 @@ Determina o nível de transparência para uma camada de cor.
    
 ## <a name="remarks"></a>Comentários
 
-Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma camada com cor completamente transparente tenha a mesma aparência de uma camada sem cor na página de desenho, ela interage com os outros objetos da página da mesma forma que se a transparência fosse 0%. Também é possível definir esse valor usando o controle deslizante na caixa de diálogo **Propriedades da Camada** (na guia **Página Inicial **, do grupo **Edição**, clique em **Camadas** e em **Propriedades da Camada**).
+Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma camada com cor completamente transparente tenha a mesma aparência de uma camada sem cor na página de desenho, ela interage com os outros objetos da página da mesma forma que se a transparência fosse 0%. Também é possível definir esse valor usando o controle deslizante na caixa de diálogo **Propriedades da Camada** (na guia **Página Inicial**, do grupo **Edição**, clique em **Camadas** e em **Propriedades da Camada**).
   
 Para obter uma referência para a célula Transparency pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   

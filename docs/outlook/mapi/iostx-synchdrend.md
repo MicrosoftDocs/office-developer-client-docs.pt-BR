@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Última modificação: 03 de julho de 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "33432769"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Termina a sincronização de um cabeçalho de mensagem.
+Encerra a sincronização para um header de mensagem.
   
 ```cpp
 HRESULT SyncHdrEnd( 
@@ -35,15 +35,15 @@ HRESULT SyncHdrEnd(
 
 ## <a name="parameters"></a>Parâmetros
 
- _pprog_
+ _pp que_
   
-> no **[Método imapiprogress](imapiprogressiunknown.md)** interface para sincronização de mensagens movidas ou copiadas. Consulte mapidefs. h para a definição de tipo de **LPMAPIPROGRESS**. 
+> [in] **[Interface IMAPIProgress](imapiprogressiunknown.md)** para sincronização de mensagens movidas ou copiadas. Consulte mapidefs.h para a definição de tipo de **LPMAPIPROGRESS**. 
     
 ## <a name="remarks"></a>Comentários
 
-Após o **[IOSTX:: SyncBeg](iostx-syncbeg.md)**, o repositório local entra no [status do cabeçalho da mensagem de download](download-message-header-state.md). O cliente baixa um item de mensagem completo (como *pmsgFull* no **[HDRSYNC](hdrsync.md)** ). Se isso for bem-sucedido, o cliente também definirá *parâmetroulflags* no **HDRSYNC** como **HSF_OK**. Após o **IOSTX:: SyncHdrEnd**, o Outlook verifica o resultado em **HDRSYNC** e usa *Pprog* e as informações em **HDRSYNC** para atualizar o cabeçalho da mensagem local. 
+Após **[IOSTX::SyncBeg](iostx-syncbeg.md)**, o armazenamento local entra no estado do [header da](download-message-header-state.md)mensagem de download. O cliente baixa um item de mensagem completo (como  *pmsgFull*  em **[HDRSYNC](hdrsync.md)** ). Se isso for bem-sucedido, o cliente também define  *ulFlags*  em **HDRSYNC** **como HSF_OK**. Depois **de IOSTX::SyncHdrEnd**, o Outlook verifica o resultado em **HDRSYNC** e usa  *pp as informações*  em **HDRSYNC** para atualizar o header de mensagem local. 
   
-O repositório local retorna ao estado em que estava antes da IOSTX anterior **[:: SyncHdrBeg](iostx-synchdrbeg.md)**. 
+O armazenamento local retorna ao estado em que estava antes do **[IOSTX anterior::SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -16,7 +16,7 @@ ms.locfileid: "33405181"
 ---
 # <a name="sheetref-function"></a>Função SHEETREF
 
-Retorna uma referência à planilha (forma) especificada no _sheetref_ou, se não houver nenhum qualificador _sheetref_ , à planilha atual. 
+Retorna uma referência à planilha (forma) especificada em  _sheetref_ ou, se não houver um qualificador  _sheetref,_ à planilha atual. 
   
 ## <a name="version-information"></a>Informações sobre a versão
 
@@ -25,7 +25,7 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
- *\<sheetref\>!*  SHEETREF () 
+ *\<sheetref \> !*  SHEETREF() 
   
 ### <a name="return-value"></a>Valor de retorno
 

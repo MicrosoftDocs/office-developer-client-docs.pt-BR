@@ -25,11 +25,11 @@ ms.locfileid: "33405524"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes que devem ser alocados para uma nova [](entryid.md) estrutura ENTRYID de um tamanho especificado. 
+Calcula o número de bytes que devem ser alocados para uma nova [estrutura ENTRYID](entryid.md) de um tamanho especificado. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>Parâmetros
 
- __CB_
+ _ _cb_
   
-> Contagem de bytes no identificador de entrada a ser armazenado na nova estrutura **EntryID** . 
+> Contagem de bytes no identificador de entrada a serem armazenados na nova **estrutura ENTRYID.** 
     
 ## <a name="see-also"></a>Confira também
 

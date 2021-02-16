@@ -22,10 +22,10 @@ Determina quando um conector é redirecionado.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|,0  <br/> |Redirecionar livremente  <br/> |**visSLOConFixedRerouteFreely** <br/> |
-|1  <br/> |Redirecionar conforme necessário (redirecionamento manual)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
-|duas  <br/> |Nunca redirecionar  <br/> |**visSLOConFixedRerouteNever** <br/> |
-|3D  <br/> |Redirecionar ao cruzar  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
+|0  <br/> |Redirecionar livremente  <br/> |**visSLOConFixedRerouteFreely** <br/> |
+|1   <br/> |Redirecionar conforme necessário (redirecionamento manual)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
+|2   <br/> |Nunca redirecionar  <br/> |**visSLOConFixedRerouteNever** <br/> |
+|3   <br/> |Redirecionar ao cruzar  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
 |4   <br/> |Apenas para uso interno  <br/> |**visSLOConFixedByAlgFrom** <br/> |
 |5   <br/> |Apenas para uso interno  <br/> |**visSLOConFixedByAlgTo** <br/> |
 |6   <br/> |Apenas para uso interno  <br/> |**visSLOConFixedByAlgFromTo** <br/> |

@@ -22,7 +22,7 @@ Retorna o cosseno de um ângulo.
   
 ## <a name="syntax"></a>Sintaxe
 
-COS ( *ângulo*) 
+COS( *angle*) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -32,7 +32,7 @@ COS ( *ângulo*)
    
 ## <a name="remarks"></a>Comentários
 
-A função COS usa radianos, a menos que você especifique uma unidade de medida diferente em *Angle* . 
+A função COS usa radianos, a menos que você especifique uma unidade de medida diferente em *ângulo.* 
   
 ## <a name="example"></a>Exemplo
 

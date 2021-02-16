@@ -25,7 +25,7 @@ ms.locfileid: "33426853"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Inicia uma sincronização. Este método é chamado pelo Microsoft Outlook 2010 e pelo Microsoft Outlook 2013 e implementado por provedores de repositório de mensagens. 
+ Inicia uma sincronização. Esse método é chamado pelo Microsoft Outlook 2010 e pelo Microsoft Outlook 2013 e implementado pelos provedores de armazenamento de mensagens. 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -37,13 +37,13 @@ HRESULT SynchronizeInBackground (
 
  _psibpb_
   
-> Informa ao provedor sobre o que será sincronizado e fornece acesso a interfaces que podem ser usadas durante a sincronização. É uma estrutura [MAPISIB](mapisib.md) . 
+> Informa o provedor sobre o que será sincronizado e dá acesso a interfaces que podem ser usadas durante a sincronização. É uma estrutura [MAPISIB.](mapisib.md) 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="see-also"></a>Confira também
 

@@ -25,7 +25,7 @@ ms.locfileid: "33404411"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por meio da interface IOSTX.
+Essa interface fornece funcionalidade auxiliar ao executar a replicação por meio da interface IOSTX.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Esta interface fornece a funcionalidade de ajuda ao realizar a replicação por 
 
 |||
 |:-----|:-----|
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-|**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Desconecta o repositório local.  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
-| *Membro PlaceHolder*  <br/> | *Não suportado ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+|**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Desconecta o armazenamento local.  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
+| *Membro placeholder*  <br/> | *Sem suporte ou documentado.*  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

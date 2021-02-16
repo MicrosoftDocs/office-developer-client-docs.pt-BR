@@ -21,9 +21,9 @@ ms.locfileid: "33424242"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-As pastas ocultas são pastas genéricas criadas pelos clientes na pasta raiz do repositório de mensagens, e não na pasta raiz de uma subárvore de mensagem interpessoal (IPM). Como essas pastas não são colocadas em uma sub-árvore IPM, elas geralmente ficam ocultas da exibição do usuário pelo provedor de armazenamento de mensagens. As pastas ocultas normalmente contêm informações relevantes para o repositório de mensagens, mas irrelevante para o usuário. Os clientes criam pastas ocultas para armazenar, por exemplo, informações adicionais a serem salvas com o restante da hierarquia de pastas.
+Pastas ocultas são pastas genéricas que os clientes criam na pasta raiz do armazenamento de mensagens, em vez de na pasta raiz de uma subárvore de mensagem interpersonal (IPM). Como essas pastas não são colocadas em uma subárvore IPM, elas geralmente ficam ocultas do modo de exibição do usuário pelo provedor de armazenamento de mensagens. Pastas ocultas normalmente contêm informações que são relevantes para o armazenamento de mensagens, mas irrelevantes para o usuário. Os clientes criam pastas ocultas para armazenar, por exemplo, informações adicionais a serem salvas com o restante da hierarquia de pastas.
   
-O MAPI espera que todos os clientes possam exibir, criar, modificar e excluir pastas em uma sub-árvore IPM. O suporte para trabalhar com pastas em outras árvores é considerado opcional. No enTanto, todos os repositórios de mensagens que podem ser usados como o repositório padrão e que podem enviar e receber mensagens devem suportar totalmente as pastas ocultas.
+A MAPI espera que todos os clientes sejam capazes de exibir, criar, modificar e excluir pastas em uma subárvore IPM. O suporte para trabalhar com pastas em outras árvores é considerado opcional. No entanto, todos os armazenamentos de mensagens que podem ser usados como o armazenamento padrão e que podem enviar e receber mensagens devem dar suporte completo a pastas ocultas.
   
 ## <a name="see-also"></a>Confira também
 

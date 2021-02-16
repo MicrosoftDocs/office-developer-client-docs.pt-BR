@@ -22,7 +22,7 @@ Restringe o valor de uma célula a um intervalo ou série de intervalos.
   
 ## <a name="syntax"></a>Sintaxe
 
-BOUND (* * *Value* * *, * * *Type* * *, * * *ignore* * *, * * *value1* * *, * * *value2* * * * * * [, ignorar (n), value1 (n), value2 (n),...] * * *) 
+BOUND (** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* ** ** * [,ignore(n), value1(n), value2(n),...] * ** ) 
   
 ### <a name="parameters"></a>Parâmetros
 
@@ -30,25 +30,25 @@ BOUND (* * *Value* * *, * * *Type* * *, * * *ignore* * *, * * *value1* * *, * * 
 |:-----|:-----|:-----|:-----|
 | _value_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O valor que está sendo restringido no momento.  <br/> |
 | _type_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |Se a restrição é inclusive (0), exclusive (1) ou desativada (2).  <br/> |
-| _ignora_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | TRUE para ignorar o intervalo; FALSE para restringir o valor da célula ao intervalo.  <br/> |
-| _valor1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro valor de um intervalo.  <br/> |
+| _ignorar_ <br/> |Obrigatório  <br/> |**Boolean** <br/> | TRUE para ignorar o intervalo; FALSE para restringir o valor da célula ao intervalo.  <br/> |
+| _value1_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O primeiro valor de um intervalo.  <br/> |
 | _value2_ <br/> |Obrigatório  <br/> |**Numérica** <br/> |O segundo valor de um intervalo.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use a função BOUND para restringir o valor de uma célula a um limite superior ou inferior; por exemplo, para controlar objetos que não devem ser estendidos acima ou abaixo de uma altura mínima ou máxima. A restrição pode incluir ou excluir o intervalo ou intervalos. Se o valor atual não deve ser restrito, defina o parâmetro _Type_ como 2 (Disabled). 
+Use a função BOUND para restringir o valor de uma célula a um limite superior ou inferior; por exemplo, para controlar objetos que não devem ser estendidos acima ou abaixo de uma altura mínima ou máxima. A restrição pode incluir ou excluir o intervalo ou intervalos. Se o valor atual não deve ser restringido, de definir o parâmetro  _de_ tipo como 2 (desabilitado). 
   
-Você pode definir vários intervalos fornecendo várias ocorrências dos parâmetros _ignore_, _value1_e _value2_ . Use o parâmetro _ignore_ para desabilitar as restrições por um intervalo específico. 
+Você pode definir vários intervalos fornecendo várias ocorrências dos parâmetros _ignore_, _value1_ e _value2._ Use o  _parâmetro ignore_ para desabilitar restrições por um intervalo específico. 
   
-A fórmula contendo a função BOUND não é substituída quando seu valor é alterado; em vez disso, a fórmula é preservada e o novo valor é colocado no parâmetro _Value_ . 
+A fórmula que contém a função BOUND não é substituída quando seu valor é muda; em vez disso, a fórmula é preservada e o novo valor é colocado no parâmetro _value._ 
   
 ## <a name="example-1"></a>Exemplo 1
 
 Este exemplo utiliza a função BOUND para forçar uma alça de controle a ficar dentro da caixa de limite de uma forma. 
   
-Controls. X1 = BOUND (largura\*0,5, 0, falso, largura\*0, largura\*1)
+Controls.X1 = BOUND(Width \* 0.5, 0, FALSE, Width \* 0, Width \* 1)
   
-Controls. Y1 = BOUND (altura\*0,5, 0, falso, altura\*0, altura\*1)
+Controls.Y1 = BOUND(Height \* 0.5, 0, FALSE, Height \* 0, Height \* 1)
   
 ## <a name="example-2"></a>Exemplo 2
 

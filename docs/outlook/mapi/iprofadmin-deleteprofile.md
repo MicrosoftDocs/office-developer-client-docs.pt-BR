@@ -38,11 +38,11 @@ HRESULT DeleteProfile(
 
  _lpszProfileName_
   
-> no Um ponteiro para o nome do perfil a ser excluído.
+> [in] Um ponteiro para o nome do perfil a ser excluído.
     
  _ulFlags_
   
-> no Sempre nulo. 
+> [in] Sempre NULO. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -56,9 +56,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentários
 
-O método **IProfAdmin::D eleteprofile** exclui um perfil. Se o perfil a ser excluído estiver em uso quando **DeleteProfile** for chamado, **DeleteProfile** retornará S_OK, mas não excluirá o perfil imediatamente. Em vez disso, o **DeleteProfile** marca o perfil para exclusão e o exclui depois que ele não está mais sendo usado, quando todas as sessões ativas terminam. 
+O **método IProfAdmin::D eleteProfile** exclui um perfil. Se o perfil a ser excluído estiver em uso quando **DeleteProfile** for chamado, **DeleteProfile** retornará S_OK mas não excluirá o perfil imediatamente. Em vez **disso, DeleteProfile** marca o perfil para exclusão e o exclui depois que ele não está mais sendo usado, quando todas as suas sessões ativas terminam. 
   
-A função de ponto de entrada para cada serviço de mensagens no perfil é chamada com o valor MSG_SERVICE_DELETE definido no parâmetro _ulContext_ . Primeiro, a função exclui o serviço e, em seguida, exclui a seção de perfil do serviço. A função de ponto de entrada do serviço de mensagem não é chamada novamente depois que o serviço é excluído. 
+A função de ponto de entrada para cada serviço de mensagem no perfil é chamada com o valor MSG_SERVICE_DELETE definido no _parâmetro ulContext._ Primeiro, a função exclui o serviço e, em seguida, exclui a seção de perfil do serviço. A função de ponto de entrada do serviço de mensagens não é chamada novamente depois que o serviço é excluído. 
   
 Nenhuma senha é necessária para excluir um perfil.
   
@@ -68,7 +68,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI usa o método **IProfAdmin::D eleteprofile** para excluir o perfil selecionado.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI usa o **método IProfAdmin::D eleteProfile** para excluir o perfil selecionado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

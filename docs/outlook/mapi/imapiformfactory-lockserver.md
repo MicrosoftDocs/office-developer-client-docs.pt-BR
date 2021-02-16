@@ -38,25 +38,25 @@ HRESULT LockServer(
 
  _ulFlags_
   
-> no Serve deve ser zero.
+> [in] Reservado; deve ser zero.
     
  _fLockServer_
   
-> no **true** para incrementar a contagem de bloqueios; caso contrário, **false**.
+> [in] **true** para incrementar a contagem de bloqueio; caso contrário, **false**.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados.
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados.
     
 ## <a name="remarks"></a>Comentários
 
-Os visualizadores de formulários chamam o método **IMAPIFormFactory:: LockServer** para manter um aplicativo de servidor de formulário aberto na memória. Manter o servidor de formulário na memória melhora o desempenho quando os formulários são criados e liberados com frequência. 
+Visualizadores de formulário chamam o **método IMAPIFormFactory::LockServer** para manter um aplicativo de servidor de formulário aberto na memória. Manter o servidor de formulários na memória melhora seu desempenho quando os formulários são criados e liberados com frequência. 
   
 ## <a name="notes-to-implementers"></a>Observações para implementadores
 
-O método **IMAPIFormFactory:: LockServer** é muito semelhante ao método [IClassFactory:: LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) . Essencialmente, o método **IMAPIFormFactory:: LockServer** mantém uma contagem de quantas vezes foi chamado; Contanto que essa contagem seja maior que 0, o método impede que o servidor de formulário seja descarregado da memória. Você pode usar a função [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementar isso. 
+O **método IMAPIFormFactory::LockServer** é muito semelhante ao [método IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) Essencialmente, o **método IMAPIFormFactory::LockServer** mantém uma contagem de quantas vezes ele foi chamado; desde que essa contagem seja maior que 0, o método impede que o servidor de formulário seja descarregado da memória. Você pode usar a [função CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementar isso. 
   
 ## <a name="see-also"></a>Confira também
 

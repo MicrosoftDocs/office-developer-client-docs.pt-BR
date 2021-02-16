@@ -31,14 +31,14 @@ Para obter uma referência para a célula Invisible pelo nome a partir de outra 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hiperlink. *nome* . Invisível onde Hyperlink *. Name* é o nome da linha  <br/> |
+|Nome da célula:  <br/> |Hiperlink. *nome*  . Invisível onde Hyperlink  *.name é*  o nome da linha  <br/> |
    
 Para obter uma referência para a célula Invisible pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
-|Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
-|Índice da célula:  <br/> |**visHLinkInvisible** <br/> |
+|Índice de linha:  <br/> |**visRow1stHyperlink**  +   *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice de célula:  <br/> |**visHLinkInvisible** <br/> |
    
 

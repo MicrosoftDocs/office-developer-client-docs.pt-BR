@@ -1,5 +1,5 @@
 ---
-title: Célula YGridOrigin (seção &amp; Ruler Grid)
+title: Célula YGridOrigin (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404488"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Célula YGridOrigin (seção &amp; Ruler Grid)
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Célula YGridOrigin (Seção Ruler &amp; Grid)
 
 Especifica a origem vertical da grade.
   
 ## <a name="remarks"></a>Comentários
 
-Esta célula corresponde à opção **origem da grade** vertical da caixa de diálogo **grade da &amp; régua** (na guia **Exibir** , clique na seta **Mostrar** ). 
+Essa célula corresponde à opção de origem **de** grade  vertical na caixa de diálogo Grade de Régua (na guia Exibir, clique na **seta** Mostrar). **&amp;** 
   
 Para obter uma referência para a célula YGridOrigin pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
@@ -36,6 +36,6 @@ Para obter uma referência para a célula YGridOrigin pelo índice, a partir de 
 |:-----|:-----|
 |Índice da seção:  <br/> |**visSectionObject** <br/> |
 |Índice de linha:  <br/> |**visRowRulerGrid** <br/> |
-|Índice da célula:  <br/> |**visYGridOrigin** <br/> |
+|Índice de célula:  <br/> |**visYGridOrigin** <br/> |
    
 

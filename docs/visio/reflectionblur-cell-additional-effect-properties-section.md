@@ -1,5 +1,5 @@
 ---
-title: Célula ReflectionBlur (seção Additional Effect Properties)
+title: Célula ReflectionBlur (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408009"
 ---
-# <a name="reflectionblur-cell-additional-effect-properties-section"></a>Célula ReflectionBlur (seção Additional Effect Properties)
+# <a name="reflectionblur-cell-additional-effect-properties-section"></a>Célula ReflectionBlur (Seção Additional Effect Properties)
 
-Determina a quantidade de desfoque para um reflexo em uma forma, em pontos entre 0,0 e 100,0.
+Determina a quantidade de desfoque para uma reflexão em uma forma, em pontos entre 0,0 e 100,0.
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula **ReflectionBlur** pelo nome, a partir de outra fórmula, por valor do atributo **N** de um elemento **Cell** ou de um programa que usa a propriedade **Cells** , utilize: 
+Para fazer referência à célula **ReflectionBlur** pelo nome, a partir de outra fórmula, pelo valor do atributo **N** de um elemento **Cell** ou por um programa que usa a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ReflectionBlur  <br/> |
    
-Para obter uma referência para a célula **ReflectionBlur** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula **ReflectionBlur** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Índice da célula:  <br/> |**visReflectionBlur** <br/> |
+| Índice de célula:  <br/> |**visReflectionBlur** <br/> |
    
 

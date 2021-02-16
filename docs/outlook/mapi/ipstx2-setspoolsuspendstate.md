@@ -37,7 +37,7 @@ void SetSpoolSuspendState(
 
  _ulState_
   
-> no O estado para o qual definir o spooler. Deve ser um dos seguintes valores:
+> [in] O estado para definir o spooler. Deve ser um dos seguintes valores:
     
  **SS_ACTIVE**
   

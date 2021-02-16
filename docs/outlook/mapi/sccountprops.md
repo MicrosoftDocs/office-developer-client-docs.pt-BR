@@ -25,11 +25,11 @@ ms.locfileid: "33404971"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina o tamanho, em bytes, de uma matriz de valor de propriedade e valida a memória associada à matriz. 
+Determina o tamanho, em bytes, de uma matriz de valores de propriedade e valida a memória associada à matriz. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -43,33 +43,33 @@ SCODE ScCountProps(
 
 ## <a name="parameters"></a>Parâmetros
 
- _cProp_
+ _cprop_
   
-> no Contagem de propriedades na matriz indicada pelo parâmetro _rgprop_ . 
+> [in] Contagem de propriedades na matriz indicada pelo _parâmetro rgprop._ 
     
  _rgprop_
   
-> no Ponteiro para um intervalo em uma matriz de estruturas [SPropValue](spropvalue.md) que define as propriedades cujo tamanho deve ser determinado. Esse intervalo não começa necessariamente no início da matriz. 
+> [in] Ponteiro para um intervalo em uma matriz [de estruturas SPropValue](spropvalue.md) que define as propriedades cujo tamanho deve ser determinado. Esse intervalo não começa necessariamente no início da matriz. 
     
- _PCB_
+ _pcb_
   
-> bota Ponteiro opcional para o tamanho, em bytes, da matriz de propriedade.
+> [out] Ponteiro opcional para o tamanho, em bytes, da matriz de propriedades.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada teve êxito e retornou o valor ou valores esperados. 
+> A chamada foi bem-sucedida e retornou o valor ou os valores esperados. 
     
 MAPI_E_INVALID_PARAMETER 
   
-> Pelo menos uma propriedade na matriz de valor de propriedade tem um identificador de PROP_ID_NULL ou PROP_ID_INVALID, ou a matriz de propriedade contém uma propriedade com vários valores sem valores de propriedade.
+> Pelo menos uma propriedade na matriz de valores de propriedade tem um identificador de PROP_ID_NULL ou PROP_ID_INVALID, ou a matriz de propriedades contém uma propriedade de múltiplos valores sem valores de propriedade.
     
 ## <a name="remarks"></a>Comentários
 
-Se NULL for passado no parâmetro _PCB_ , a função **ScCountProps** validará a matriz de notificações, mas nenhuma contagem será feita. Se um valor não nulo for passado em _PCB_, a função **ScCountNotifications** determinará o tamanho da matriz e armazenará a _PCB_de causa. O parâmetro _PCB_ deve ser grande o suficiente para conter toda a matriz. 
+Se NULL for passado no parâmetro  _pcb,_ a função **ScCountProps** validará a matriz de notificações, mas nenhuma contagem será feita. Se um valor não nulo for passado em  _pcb_, a função **ScCountNotifications** determinará o tamanho da matriz e armazenará a causa  _pcb_. O  _parâmetro pcb_ deve ser grande o suficiente para conter toda a matriz. 
   
-Conforme a contagem, **ScCountProps** valida a memória associada à matriz. **ScCountProps** funciona apenas com as propriedades sobre as quais o MAPI tem informações. 
+Enquanto está contando, **ScCountProps** valida a memória associada à matriz. **ScCountProps** só funciona com propriedades sobre as quais MAPI tem informações. 
   
 ## <a name="see-also"></a>Confira também
 

@@ -23,11 +23,11 @@ ms.locfileid: "33429345"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria uma estrutura nomeada [SPropTagArray](sproptagarray.md) que inclui um número especificado de marcas de propriedade. 
+Cria uma estrutura [SPropTagArray](sproptagarray.md) nomeada que inclui um número especificado de marcas de propriedade. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
@@ -36,19 +36,19 @@ SizedSPropTagArray (_ctag, _name)
 
 ## <a name="parameters"></a>Parâmetros
 
-__CTAG_
+_ _ctag_
   
 > Contagem de marcas de propriedade a serem incluídas na nova estrutura.
     
-__nome_
+_ _name_
   
 > Nome da nova estrutura.
     
 ## <a name="remarks"></a>Comentários
 
-Use a macro **SizedSPropTagArray** para criar uma matriz de marca de propriedade com os limites explícitos. 
+Use a macro **SizedSPropTagArray** para criar uma matriz de marca de propriedade com limites explícitos. 
   
-Para usar a nova estrutura que resulta da macro **SizedSPropTagArray** como um ponteiro para uma estrutura **SPropTagArray** , execute a seguinte conversão: 
+Para usar a nova estrutura que resulta da macro **SizedSPropTagArray** como um ponteiro para uma **estrutura SPropTagArray,** execute a seguinte projeção: 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

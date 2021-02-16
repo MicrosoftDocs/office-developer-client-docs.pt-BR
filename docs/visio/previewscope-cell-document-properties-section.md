@@ -22,13 +22,13 @@ Determina se o desenho conterá uma visualização. Se o seu desenho contiver um
   
 |**Valor**|**Escopo de visualização**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Primeira página  <br/> |**visDocPreviewScope1stPage** <br/> |
-| 1  <br/> | Nenhum  <br/> |**visDocPreviewScopeNone** <br/> |
-| duas  <br/> | Todas as páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| 0  <br/> | Primeira página  <br/> |**visDocPreviewScope1stPage** <br/> |
+| 1   <br/> | Nenhum  <br/> |**visDocPreviewScopeNone** <br/> |
+| 2   <br/> | Todas as páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na guia **Resumo** da caixa de diálogo **Propriedades** (clique no botão **Office** , clique na guia **informações** , em **Propriedades do documento**e em **Propriedades avançadas**).
+Você também pode definir  esse valor na guia Resumo da caixa de diálogo Propriedades (clique no botão **Office,** clique na guia Informações, em Propriedades do Documento e em **Propriedades Avançadas).**  
   
 Para obter uma referência para a célula PreviewScope pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -42,6 +42,6 @@ Para obter uma referência para a célula PreviewScope pelo índice a partir de 
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionObject** <br/> |
 | Índice de linha:  <br/> |**visRowDoc** <br/> |
-| Índice da célula:  <br/> |**visDocPreviewScope** <br/> |
+| Índice de célula:  <br/> |**visDocPreviewScope** <br/> |
    
 

@@ -25,7 +25,7 @@ Você pode adicionar, mostrar, ocultar e excluir seções no ShapeSheet.
   
 ### <a name="to-add-a-section"></a>Para adicionar uma seção
 
-1. Clique na janela ShapeSheet para torná-la ativa.
+1. Clique na janela ShapeSheet para ativá-la.
     
 2. Siga um destes procedimentos:
     

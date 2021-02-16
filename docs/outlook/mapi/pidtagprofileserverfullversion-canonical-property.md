@@ -21,7 +21,7 @@ ms.locfileid: "32341598"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica a versão completa e informações de compilação sobre o servidor do Microsoft Exchange para o qual as contas de um perfil estão conectadas.
+Especifica informações completas de versão e build sobre o Microsoft Exchange Server às quais as contas em um perfil estão conectadas.
   
 ## 
 
@@ -34,31 +34,31 @@ Especifica a versão completa e informações de compilação sobre o servidor d
    
 ## <a name="remarks"></a>Comentários
 
-Um perfil pode especificar uma ou mais contas que se conectam a um servidor do Exchange, mas devem estar conectadas ao mesmo servidor Exchange.
+Um perfil pode especificar uma ou mais contas que se conectam a um Exchange Server, mas devem estar conectadas ao mesmo Exchange Server.
   
-As versões do Outlook anteriores ao Microsoft Office Outlook 2007 não oferecem suporte a essa propriedade. Para essas versões do Outlook, verifique a existência de **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** no perfil. 
+As versões do Outlook anteriores ao Microsoft Office Outlook 2007 não são suportadas por essa propriedade. Para essas versões do Outlook, verifique a existência **[de PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** no perfil. 
   
-Geralmente, se a caixa de correio ativa estiver conectada a um servidor Exchange, o Outlook 2007 armazenará informações completas de versão do Exchange Server na propriedade **PR_PROFILE_SERVER_FULL_VERSION** no perfil ativo. O Outlook armazena as informações em uma estrutura do **EXCHANGE_STORE_VERSION_NUM** que contém os números de versão principal e secundária e os números de compilação principal e secundário. Por exemplo, para armazenar o identificador de versão do Exchange Server do **8.0.685.24**, o número da versão principal é 8 e o número da versão secundária é 0 e o número da compilação principal é 685 e o número de compilação secundário é 24.
+Geralmente, se **a** caixa de correio ativa estiver conectada a um Exchange Server, o Outlook 2007 armazenará informações completas da versão do Exchange Server na PR_PROFILE_SERVER_FULL_VERSION no perfil ativo. Outlook stores the information in an **EXCHANGE_STORE_VERSION_NUM** structure that contains the major and minor version numbers and the major and minor build numbers. Por exemplo, para armazenar o identificador de versão do Exchange Server de **8.0.685.24**, o número da versão principal é 8 e o número da versão secundária é 0, e o número de com build principal é 685 e o número de com build secundário é 24.
   
-Somente um de **PR_PROFILE_SERVER_VERSION** ou **PR_PROFILE_SERVER_FULL_VERSION** provavelmente existirá em um perfil, mas não há garantia de que o sempre exista em um perfil. O Outlook não grava em nenhuma propriedade até que tenha se conectado com êxito ao servidor Exchange. 
+Apenas um dos **PR_PROFILE_SERVER_VERSION** **ou PR_PROFILE_SERVER_FULL_VERSION** provavelmente existirá em um perfil, mas não há garantia de que sempre exista em um perfil. O Outlook não gravará em nenhuma das propriedades até que tenha se conectado com êxito ao Exchange Server. 
   
-No modelo de objeto do Outlook, você pode usar a propriedade **ExchangeMailboxServerVersion** do objeto **namespace** para localizar a versão do Exchange Server em que a caixa de correio ativa está hospedada. 
+No modelo de objeto do Outlook, você pode usar a propriedade **ExchangeMailboxServerVersion** do objeto **NameSpace** para encontrar a versão do Exchange Server na qual a caixa de correio ativa está hospedada. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece definições de conjunto de propriedades.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

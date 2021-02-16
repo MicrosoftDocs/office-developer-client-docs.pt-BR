@@ -25,7 +25,7 @@ ms.locfileid: "32358097"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Indica a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) da reunião que deve ser gerada a partir da solicitação de reunião.
+Indica a **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) da reunião que deve ser gerada a partir da solicitação de reunião.
   
 |||
 |:-----|:-----|
@@ -33,27 +33,27 @@ Indica a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessagecla
 |Conjunto de propriedades:  <br/> |PSETID_Meeting  <br/> |
 |Long ID (LID):  <br/> |0x00000024  <br/> |
 |Tipo de dados:  <br/> |PT_TSTRING  <br/> |
-|Área:  <br/> |Meetings  <br/> |
+|Área:  <br/> |Reuniões  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O valor dessa propriedade deve ser "IPM. Compromisso "ou ser prefixado com" IPM. Compromisso. ". Esta propriedade não é obrigatória.
+O valor dessa propriedade deve ser "IPM. Appointment" ou ser prefixado com "IPM. Appointment.". Essa propriedade não é necessária.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações do protocolo
+### <a name="protocol-specifications"></a>Especificações de protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
+> Fornece definições de conjunto de propriedades e referências a especificações de protocolo relacionadas do Exchange Server.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica as propriedades e as operações de compromisso, solicitação de reunião e mensagens de resposta.
+> Especifica as propriedades e operações para mensagens de compromisso, solicitação de reunião e resposta.
     
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -29,7 +29,7 @@ Copia um único valor de propriedade de um local de origem para um local de dest
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
@@ -46,36 +46,36 @@ SCODE PropCopyMore(
 
  _lpSPropValueDest_
   
-> bota Ponteiro para o local para o qual essa função grava uma estrutura [SPropValue](spropvalue.md) que define o valor da propriedade copiada. 
+> [out] Ponteiro para o local no qual essa função grava uma [estrutura SPropValue](spropvalue.md) definindo o valor da propriedade copiada. 
     
  _lpSPropValueSrc_
   
-> no Ponteiro para a estrutura [SPropValue](spropvalue.md) que contém o valor da propriedade a ser copiado. 
+> [in] Ponteiro para a [estrutura SPropValue](spropvalue.md) que contém o valor da propriedade a ser copiada. 
     
  _lpfAllocMore_
   
-> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) a ser usada para alocar memória adicional se o local de destino não for grande o suficiente para manter a propriedade a ser copiada. 
+> [in] Ponteiro para a [função MAPIAllocateMore](mapiallocatemore.md) a ser usada para alocar memória adicional se o local de destino não for grande o suficiente para manter a propriedade a ser copiada. 
     
  _lpvObject_
   
-> no Ponteiro para um objeto para o qual **MAPIAllocateMore** alocará espaço, se necessário. 
+> [in] Ponteiro para um objeto para o qual **MAPIAllocateMore** alocará espaço, se necessário. 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
-> O valor da propriedade single foi copiado com êxito.
+> O valor da propriedade única foi copiado com êxito.
     
 MAPI_E_NO_SUPPORT
   
-> Um tipo de propriedade desconhecida foi encontrado.
+> Um tipo de propriedade desconhecido foi encontrado.
     
 ## <a name="remarks"></a>Comentários
 
 Um aplicativo cliente ou provedor de serviços pode usar a função **PropCopyMore** para copiar uma propriedade de uma tabela que está prestes a ser liberada para usá-la em outro lugar. 
   
- **PropCopyMore** não precisa alocar memória, a menos que o valor da propriedade seja copiado seja de um tipo, como PT_STRING8, que não cabe em uma estrutura [SPropValue](spropvalue.md) . Para essas grandes propriedades, a função aloca memória usando a função [MAPIAllocateMore](mapiallocatemore.md) para a qual um ponteiro é passado no parâmetro _lpfAllocMore_ . 
+ **PropCopyMore** não precisa alocar memória, a menos que o valor da propriedade copiada seja de um tipo, como PT_STRING8, que não se encaixe em uma [estrutura SPropValue.](spropvalue.md) Para essas propriedades grandes, a função aloca memória usando a função [MAPIAllocateMore](mapiallocatemore.md) para a qual um ponteiro é passado no parâmetro _lpfAllocMore._ 
   
-Uso incriterioso da memória de fragmentos do **PropCopyMore** ; em vez disso, considere usar a função [ScCopyProps](sccopyprops.md) . 
+Uso incondicioso da memória de fragmentos **propCopyMore;** considere usar a [função ScCopyProps.](sccopyprops.md) 
   
 

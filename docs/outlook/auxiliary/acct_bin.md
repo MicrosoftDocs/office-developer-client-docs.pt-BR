@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408121"
 ---
-# <a name="acctbin"></a>ACCT_BIN
+# <a name="acct_bin"></a>ACCT_BIN
 
 Uma variável desse tipo de dados contém um valor binário.
   
@@ -32,7 +32,7 @@ typedef struct {
 
 _cb_
   
-> Número de bytes aos quais _PB_ aponta. 
+> Número de bytes que  _pb_ aponta para. 
     
 _pb_
   

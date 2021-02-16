@@ -21,9 +21,9 @@ ms.locfileid: "33419300"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes MAPI podem vincular as DLLs MAPI implicitamente ou explicitamente usando as funções do Windows **LoadLibrary** e **GetProcAddress**. Para obter informações sobre como vincular DLLs MAPI explicitamente, consulte [link to MAPI Functions](how-to-link-to-mapi-functions.md).
+Clientes MAPI podem vincular as DLLs MAPI implicitamente ou explicitamente usando as funções Windows **LoadLibrary** e **GetProcAddress**. Para obter informações sobre como vincular explicitamente DLLs MAPI, consulte [Link para funções MAPI](how-to-link-to-mapi-functions.md).
   
-MAPI fornece instruções de definição de tipo no MAPIX. Arquivo de cabeçalho H para cada uma das seguintes funções:
+MAPI provides type definition statements in the MAPIX. Arquivo de header H para cada uma das seguintes funções:
   
 [MAPILogonEx](mapilogonex.md)
   
@@ -41,6 +41,6 @@ MAPI fornece instruções de definição de tipo no MAPIX. Arquivo de cabeçalho
   
 Use essas definições de tipo para chamar corretamente os pontos de entrada correspondentes se você vincular explicitamente às DLLs MAPI.
   
-Os provedores de serviços podem conter funcionalidade não MAPI, recursos que não são completamente relacionados ao MAPI — em sua DLL. Se você precisar usar esses recursos, chame **LoadLibrary** antes de usar a dll e o **FreeLibrary** para remover a DLL da memória após o uso. Como o MAPI não está ciente de usos não MAPI de uma DLL de provedor de serviços, não há garantia de que a DLL estará disponível quando necessário. O MAPI libera uma DLL de provedor de serviços quando não há mais clientes com sessões ativas que exigem seus serviços. 
+Os provedores de serviços podem conter funcionalidades não MAPI — recursos completamente não relacionados ao MAPI — em sua DLL. Se você precisar usar esses recursos, chame **LoadLibrary** antes de usar a DLL e **o FreeLibrary** para remover a DLL da memória após seu uso. Como o MAPI não está ciente de usos não MAPI de um provedor de serviços DLL, não há garantia de que a DLL estará disponível quando necessário. A MAPI libera uma DLL de provedor de serviços quando não há mais clientes com sessões ativas que exigem seus serviços. 
   
 

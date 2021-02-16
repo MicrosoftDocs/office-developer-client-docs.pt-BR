@@ -17,7 +17,7 @@ ms.locfileid: "33404334"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 
-Obtém uma cadeia de caracteres que representa uma coleção de atividades de cada um dos usuários especificados pelo parâmetro _hashedAddresses_ . 
+Obtém uma cadeia de caracteres que representa uma coleção de atividades de cada um dos usuários especificados pelo _parâmetro hashedAddresses._ 
   
 ```cpp
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
@@ -27,29 +27,29 @@ HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE
 
 _hashedAddresses_
   
-> no Uma estrutura que especifica uma matriz de endereços SMTP com hash para um conjunto de usuários.
+> [in] Uma estrutura que especifica uma matriz de endereços SMTP com hashed para um conjunto de usuários.
     
 _startTime_
   
-> no O tempo após o qual as atividades criadas seriam retornadas.
+> [in] O tempo após o qual as atividades criadas seriam retornadas.
     
-_atividades_
+_activities_
   
-> bota Uma sequência de caracteres XML que representa o conjunto de atividades dos usuários especificado por _hashedAddresses_ na rede social desde o _início_.
+> [out] Uma cadeia de caracteres XML que representa o conjunto de atividades dos usuários especificados por _hashedAddresses_ na rede social desde _o início._
     
 ## <a name="remarks"></a>Comentários
 
-O OSC chama **GetActivitiesEx** se o provedor OSC oferecer suporte à sincronização sob demanda de atividades. O OSC armazena as informações retornadas nas _atividades_ na memória. Para obter mais informações sobre como o OSC usa e atualiza essas informações na memória, consulte [sincronizaNdo amigos e atividades](synchronizing-friends-and-activities.md).
+O OSC **chamará GetActivitiesEx** se o provedor OSC suportar a sincronização sob demanda de atividades. O OSC armazena as informações retornadas em  _atividades_ na memória. Para obter mais informações sobre como o OSC usa e atualiza essas informações na memória, consulte [Sincronizando amigos e atividades.](synchronizing-friends-and-activities.md)
   
-A partir do Outlook Social Connector 2013, o OSC oferece suporte apenas à sincronização sob demanda de atividades e chama apenas o **GetActivitiesEx** para obter atividades. Para dar suporte à pesquisa de atividades sob demanda, defina **cacheActivities** como **false**e getactivities **e DYNAMICACTIVITIESLOOKUPEX** como **verdadeiro**e o OSC chamará o **GetActivitiesEx**. ****
+A partir do Outlook Social Connector 2013, o OSC suporta apenas a sincronização sob demanda de atividades e chama **somente GetActivitiesEx** para obter atividades. Para dar suporte à pesquisa de atividades sob demanda, de definir **cacheActivities** como **falso** e **getActivities** e **dynamicActivitiesLookupEx** como **verdadeiro,** e o OSC chamará **GetActivitiesEx**.
   
-A cadeia de caracteres XML retornada deve estar em conformidade com a definição de esquema para **ofeed**, conforme definido no esquema para a extensibilidade do provedor do OSC.
+A cadeia de caracteres XML retornada deve estar em conformidade com a definição de esquema para **activityFeed**, conforme definido no esquema para extensibilidade do provedor OSC.
   
-O sring _hashedAddresses_ representa um conjunto de endereços hash para cada usuário exibido no painel de pessoas. Os endereços SMTP de hash são criptografados usando a função de hash especificada pelo elemento **hashFunction** no XML de **recursos** do provedor. O usuário não precisa ser um amigo do usuário conectado representado pela propriedade [ISocialSession:: LoggedOnUserName](isocialsession-loggedonusername.md) . 
+O  _sring hashedAddresses_ representa um conjunto de endereços com hashed para cada usuário exibido no Painel de Pessoas. Os endereços SMTP com hash são criptografados usando a função de hash especificada pelo elemento **hashFunction** no XML de **recursos do** provedor. O usuário não precisa ser um amigo do usuário conectado representado pela propriedade [ISocialSession::LoggedOnUserName.](isocialsession-loggedonusername.md) 
   
-O __ parâmetro StartTime é um valor de **Data** no tempo universal coordenado (UTC). Os valores de hora local devem ser convertidos em valores de **Data** UTC. 
+O  _parâmetro startTime_ é um **valor Date** no Tempo Universal Coordenado (UTC). Os valores de hora local devem ser convertidos em valores **de Data** UTC. 
   
-As atividades que o método **GetActivitiesEx** retorna devem ter um valor de tempo de criação maior __ que StartTime e menor ou igual a **agora**. Se nenhuma alteração tiver ocorrido entre **StartTime** e **Now**, o provedor deverá retornar um erro OSC_E_NO_CHANGES.
+As atividades que **o método GetActivitiesEx** retorna devem ter um valor de hora de criação maior que  _startTime_ e menor ou igual a **Now**. Se nenhuma alteração tiver ocorrido entre **startTime** e **Now**, o provedor deverá retornar um OSC_E_NO_CHANGES erro.
   
 ## <a name="see-also"></a>Confira também
 

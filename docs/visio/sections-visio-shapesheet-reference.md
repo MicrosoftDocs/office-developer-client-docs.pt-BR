@@ -1,5 +1,5 @@
 ---
-title: Seções (referência da ShapeSheet do Visio)
+title: Seções (Referência do Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419223"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>Seções (referência da ShapeSheet do Visio)
+# <a name="sections-visio-shapesheet-reference"></a>Seções (Referência do Visio ShapeSheet)
 
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -31,9 +31,9 @@ ms.locfileid: "33419223"
     
 - [Seção Annotation](annotation-section.md)
     
-- [Seção de propriedades de bisel](bevel-properties-section.md)
+- [Seção Bevel Properties](bevel-properties-section.md)
     
-- [Seção alterar comportamento da forma](change-shape-behavior-section.md)
+- [Seção Change Shape Behavior](change-shape-behavior-section.md)
     
 - [Seção Character](character-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "33419223"
     
 - [Seção Glue Info](glue-info-section.md)
     
-- [Seção Propriedades de gradiente](gradient-properties-section.md)
+- [Seção Gradient Properties](gradient-properties-section.md)
     
 - [Seção Group Properties](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "33419223"
     
 - [Seção Line Format](line-format-section.md)
     
-- [Seção line Gradient](line-gradient-section.md)
+- [Seção Line Gradient](line-gradient-section.md)
     
 - [Seção Miscellaneous](miscellaneous-section.md)
     
@@ -83,11 +83,11 @@ ms.locfileid: "33419223"
     
 - [Seção Protection](protection-section.md)
     
-- [Seção Style rápido](quick-style-section.md)
+- [Seção Quick Style](quick-style-section.md)
     
 - [Seção Reviewer](reviewer-section.md)
     
-- [Seção &amp; Ruler Grid](rulergrid-section.md)
+- [Seção Ruler &amp; Grid](rulergrid-section.md)
     
 - [Seção Scratch](scratch-section.md)
     

@@ -25,11 +25,11 @@ ms.locfileid: "33434596"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve um botão de opção que fará parte de um grupo de botões de opção. O grupo de botões de opção será usado em uma caixa de diálogo criada a partir de uma tabela de exibição.
+Descreve um botão de rádio que fará parte de um grupo de botões de rádio. O grupo de botões de rádio será usado em uma caixa de diálogo criada a partir de uma tabela de exibição.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLRADIOBUTTON
@@ -47,23 +47,23 @@ typedef struct _DTBLRADIOBUTTON
 
  **ulbLpszLabel**
   
-> Posição na memória do rótulo de cadeia de caracteres do botão de opção.
+> Posição na memória do rótulo de cadeia de caracteres do botão de rádio.
     
  **ulFlags**
   
-> Bitmask dos sinalizadores usados para designar o formato do rótulo apontado pelo membro **ulbLpszLabel** . O seguinte sinalizador pode ser definido: 
+> Bitmask de sinalizadores usados para designar o formato do rótulo apontado pelo **membro ulbLpszLabel.** O sinalizador a seguir pode ser definido: 
     
 MAPI_UNICODE 
   
-> O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo estará no formato ANSI.
+> O rótulo está no formato Unicode. Se o MAPI_UNICODE sinalizador não estiver definido, o rótulo está no formato ANSI.
     
  **ulcButtons**
   
-> Contagem de botões no grupo de botões de opção. As estruturas **DTBLRADIOBUTTON** para os outros botões no grupo devem estar contidas em linhas sucessivas da tabela de exibição. Cada uma dessas linhas deve conter o mesmo valor para o membro **ulcButtons** . 
+> Contagem de botões no grupo de botões de rádio. As **estruturas DTBLRADIOBUTTON** dos outros botões no grupo devem estar contidas em linhas sucessivas da tabela de exibição. Cada uma dessas linhas deve conter o mesmo valor para o **membro ulcButtons.** 
     
  **ulPropTag**
   
-> Marca de propriedade de uma propriedade do tipo PT_LONG. A seleção inicial no grupo de botões de opção é baseada no valor inicial dessa propriedade. Cada botão no grupo deve ter **ulPropTag** definido para a mesma propriedade. 
+> Marca de propriedade de uma propriedade do tipo PT_LONG. A seleção inicial no grupo de botões de rádio baseia-se no valor inicial dessa propriedade. Cada botão no grupo deve ter **ulPropTag** definido como a mesma propriedade. 
     
  **lReturnValue**
   
@@ -71,11 +71,11 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLRADIOBUTTON** descreve um botão de opção um controle de botão que é associado a um grupo de botões. Somente um botão no grupo pode ser verificado; definir um botão faz com que os outros botões do grupo sejam desdefinidos. 
+Uma **estrutura DTBLRADIOBUTTON** descreve um botão de botão de rádio que está associado a um grupo de botões. Somente um botão no grupo pode ser verificado; definir um botão faz com que os outros botões no grupo sejam desa definir. 
   
-A contagem de botões é o número de botões de opção no grupo. As estruturas dos outros botões de opção no grupo devem estar nas linhas subsequentes na tabela de exibição. Cada uma dessas estruturas deve ter o mesmo valor para a contagem de botão.
+A contagem de botões é o número de botões de rádio no grupo. As estruturas dos outros botões de rádio no grupo devem estar em linhas subsequentes na tabela de exibição. Cada uma dessas estruturas deve ter o mesmo valor para sua contagem de botões.
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
+Para uma visão geral das tabelas de exibição, consulte [Tabelas de Exibição.](display-tables.md) Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela de exibição.](display-table-implementation.md)
   
 ## <a name="see-also"></a>Confira também
 

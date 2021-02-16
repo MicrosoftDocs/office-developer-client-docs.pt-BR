@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251485
 localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
-description: Retorna um número de ponto flutuante aleatório de 0,0 a 1,0. Ele retorna um número diferente cada vez que a função é avaliada, que é uma vez por minuto de acordo com o relógio do sistema.
+description: Retorna um número de ponto flutuante aleatório de 0,0 a 1,0. Ele retorna um número diferente sempre que a função é avaliada, que é uma vez por minuto de acordo com o relógio do sistema.
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33424522"
 ---
 # <a name="rand-function"></a>Função RAND
 
-Retorna um número de ponto flutuante aleatório de 0,0 a 1,0. Ele retorna um número diferente cada vez que a função é avaliada, que é uma vez por minuto de acordo com o relógio do sistema. 
+Retorna um número de ponto flutuante aleatório de 0,0 a 1,0. Ele retorna um número diferente sempre que a função é avaliada, que é uma vez por minuto de acordo com o relógio do sistema. 
   
 ## <a name="syntax"></a>Sintaxe
 

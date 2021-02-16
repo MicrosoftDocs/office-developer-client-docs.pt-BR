@@ -25,7 +25,7 @@ ms.locfileid: "33426349"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada da pasta itens excluídos padrão de mensagem interpessoa (IPM). 
+Contém o identificador de entrada da pasta Itens Excluídos da mensagem interpersonal padrão (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contém o identificador de entrada da pasta itens excluídos padrão de mensagem
    
 ## <a name="remarks"></a>Comentários
 
-Um aplicativo cliente deve mover mensagens interpessoas excluídas para a pasta itens excluídos. Se a mensagem já estiver nesta pasta ou se essa propriedade não for suportada, o cliente deverá excluir a mensagem. 
+Um aplicativo cliente deve mover mensagens interpersonals excluídas para a pasta Itens Excluídos. Se a mensagem já estiver nessa pasta ou se essa propriedade não for suportada, o cliente deverá excluir a mensagem. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como nomes alternativos.
     
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

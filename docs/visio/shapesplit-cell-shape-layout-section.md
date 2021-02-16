@@ -22,8 +22,8 @@ Indica se esta forma pode dividir formas que sejam divisíveis.
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| ,0  <br/> | Não permitir que esta forma divida outras formas.  <br/> |**visSLOSplitNone** <br/> |
-| 1  <br/> | Permitir que esta forma divida outras formas.  <br/> |**visSLOSplitAllow** <br/> |
+| 0  <br/> | Não permitir que esta forma divida outras formas.  <br/> |**visSLOSplitNone** <br/> |
+| 1   <br/> | Permitir que esta forma divida outras formas.  <br/> |**visSLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -31,13 +31,13 @@ Uma forma que divide outras formas deve ser uma forma 2D ou uma forma de coloca�
   
 A divisão automática de formas é habilitada e desabilitada em três níveis diferentes: aplicativo, página e forma. Por padrão, a divisão é habilitada no nível do aplicativo e da página; nas formas, ela varia por tipo de desenho. 
   
-Para habilitar ou desabilitar a divisão no nível do aplicativo, use a **configuração Habilitar divisão de conector** na guia **avançado** da caixa de diálogo **Opções do Visio** (clique na guia **arquivo** , em **Opções**e em ** Avançado**). 
+Para habilitar ou desabilitar a  divisão no nível do aplicativo, use a configuração  de divisão do conector Habilitar na guia Avançado da caixa de diálogo Opções do **Visio** (clique na guia Arquivo, clique em Opções e em  **Avançado).** 
   
 Para habilitar ou desabilitar a divisão em uma página, consulte a célula PageShapeSplit. 
   
 Para fazer com que uma forma 1D possa ser dividida, consulte a célula ShapeSplittable.
   
-Para obter uma referência para a célula ShapeSplit pelo nome, a partir de outra fórmula ou programa que use a **** propriedade Cells, utilize: 
+Para fazer referência à célula ShapeSplit pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU,** utilize: 
   
 |||
 |:-----|:-----|

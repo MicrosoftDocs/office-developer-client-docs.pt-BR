@@ -19,11 +19,11 @@ ms.locfileid: "33405552"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A API do repositório fornece funcionalidade de repositório diversos para armazenar provedores. Ele fornece os seguintes defintions, tipos de dados, propriedades e interfaces.
+A API da Loja fornece diversas funcionalidades de armazenamento para armazenar provedores. Ele fornece as seguintes definições, tipos de dados, propriedades e interfaces.
   
 Definições:
   
-- [Constantes para a API de repositório](mapi-constants.md)
+- [Constantes para a API da Loja](mapi-constants.md)
     
 Tipos de dados:
   
@@ -39,14 +39,14 @@ Propriedades nomeadas:
     
 - **[Exibir tamanhos de pasta do servidor](display-server-folder-sizes-property.md)**
     
-- **[Ocultar opção de atualização de reunião](hide-meeting-update-option-property.md)**
+- **[Ocultar Opção de Atualização de Reunião](hide-meeting-update-option-property.md)**
     
-- **[Tornar o tipo de repositório privado](make-store-type-private-property.md)**
+- **[Tornar Tipo de Loja Particular](make-store-type-private-property.md)**
     
 - **[NoFolderScan](nofolderscan.md)**
     
 > [!NOTE]
-> Os provedores de repositórios que não exigem nenhuma das funcionalidades oferecidas por essas propriedades nomeadas podem simplesmente ignorá-los e não implementar o suporte na interface **IMAPIProp** . Como essas propriedades são fornecidas a partir do Microsoft Outlook 2003 Service Pack 1, adicioná-las a um repositório em uma versão anterior do Microsoft Outlook não tem efeito. Eles serão ignorados se não existirem ou se o valor for **false**. 
+> Os provedores da Loja que não exigem nenhuma das funcionalidades oferecidas por essas propriedades nomeadas podem simplesmente ignorá-las e não implementar o suporte na interface **IMAPIProp.** Como essas propriedades são fornecidas a partir do Microsoft Outlook 2003 Service Pack 1, adiá-las a um armazenamento em uma versão anterior do Microsoft Outlook não tem efeito. Eles serão ignorados se não existirem ou se o valor for **falso.** 
   
 Propriedades:
   
@@ -66,12 +66,12 @@ Interfaces:
     
 - **[IProxyStoreObject](iproxystoreobject.md)**
     
-## <a name="registering-stores-for-indexing"></a>Registrar repositórios para indexação
+## <a name="registering-stores-for-indexing"></a>Registrando lojas para indexação
 
-O manipulador de protocolo MAPI verifica o registro do Windows em busca de armazenamentos que ele deve indexar para fins de pesquisa. Os provedores de repositórios que desejam ser indexados devem ser registrados no registro do Windows. Para obter mais informações sobre como registrar provedores de repositório para indexação no Outlook 2013 ou no Outlook 2010, consulte [sobre o registro de repositórios para indexação](about-registering-stores-for-indexing.md).
+O Manipulador de Protocolo MAPI verifica o Registro do Windows em busca de armazenamentos que ele deve indexar para fins de pesquisa. Os provedores da Loja que querem ser indexados devem ser registrados no Registro do Windows. For more information about registering store providers for indexing in Outlook 2013 or Outlook 2010, see [About Registering Stores for Indexing](about-registering-stores-for-indexing.md).
   
-## <a name="indexing-stores"></a>Indexação de repositórios
+## <a name="indexing-stores"></a>Indexando lojas
 
-Os provedores de repositório MAPI podem optar por permitir que o manipulador de protocolo MAPI rastreie e indexe mensagens no repositório ou envie notificações ao indexador somente quando houver mensagens a serem indexadas. Para obter mais informações sobre indexação baseada em notificações, consulte [about Notification-based Store Indexing](about-notification-based-store-indexing.md).
+Os provedores de armazenamento MAPI podem optar por permitir que o Manipulador de Protocolo MAPI rastrear e indexar mensagens no armazenamento ou enviar notificações ao indexador somente quando houver mensagens a serem indexadas. Para obter mais informações sobre indexação baseada em notificações, consulte [Sobre Notification-Based Indexação da Loja.](about-notification-based-store-indexing.md)
   
 

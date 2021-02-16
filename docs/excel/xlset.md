@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSet
 keywords:
-- função xlSet [Excel 2007]
+- função xlset [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33404600"
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Coloca valores constantes em células ou intervalos muito rapidamente. Para obter mais informações, consulte "xlSet e pastas de trabalho com fórmulas de matriz" em [problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md).
+Coloca valores constantes em células ou intervalos muito rapidamente. For more information, see "xlSet and Workbooks with Array Formulas" in [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
@@ -32,35 +32,35 @@ Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 
 _pxReference_ (**xltypeRef** ou **xltypeSRef**)
   
-Uma referência retangular que descreve a célula ou células de destino. A referência deve descrever as células adjacentes, de forma que em um **xltypeRef** `val.mref.lpmref->count` deve ser definido como 1. 
+Uma referência retangular que descreve a célula ou células de destino. A referência deve descrever células adjacentes, para que em **um xltypeRef** `val.mref.lpmref->count` seja definido como 1. 
   
 _pxValue_
   
-O valor ou valores a serem colocados na célula ou nas células. Para obter mais informações, consulte a seção "Comentários".
+O valor ou valores a serem colocados na célula ou células. Para obter mais informações, consulte a seção "Comentários".
   
 ## <a name="remarks"></a>Comentários
 
-### <a name="pxvalue-argument"></a>argumento pxValue
+### <a name="pxvalue-argument"></a>Argumento pxValue
 
-_pxValue_ pode ser um valor ou uma matriz. Se for um valor, todo o intervalo de destino será preenchido com esse valor. Se for uma matriz (**xltypeMulti**), os elementos da matriz são colocados nos locais correspondentes no retângulo.
+_pxValue_ pode ser um valor ou uma matriz. Se for um valor, todo o intervalo de destino será preenchido com esse valor. Se for uma matriz (**xltypeMulti**), os elementos da matriz serão colocados nos locais correspondentes no retângulo.
   
-Se você usar uma matriz horizontal para o segundo argumento, ela será duplicada para baixo para preencher todo o retângulo. Se você usar uma matriz vertical, ela será duplicada à direita para preencher o retângulo inteiro. Se você usar uma matriz retangular e for muito pequena para o intervalo retangular em que você deseja colocá-la, esse intervalo será preenchido com **#N/a**s.
+Se você usar uma matriz horizontal para o segundo argumento, ela será duplicada para baixo para preencher todo o retângulo. Se você usar uma matriz vertical, ela será duplicada à direita para preencher todo o retângulo. Se você usar uma matriz retangular e ela for muito pequena para o intervalo retangular em que você deseja colocá-la, esse intervalo será **#N/A** s.
   
-Se o intervalo de destino for menor do que a matriz de origem, os valores serão copiados até os limites do intervalo de destino e os dados adicionais serão ignorados.
+Se o intervalo de destino for menor que a matriz de origem, os valores serão copiados até os limites do intervalo de destino e os dados extras serão ignorados.
   
-Para limpar um elemento do retângulo de destino, use um elemento de matriz de tipo **xltypeNil** na matriz de origem. Para limpar todo o retângulo de destino, omita o segundo argumento. 
+Para limpar um elemento do retângulo de destino, use um elemento de matriz do tipo **xltypeNil** na matriz de origem. Para limpar todo o retângulo de destino, omita o segundo argumento. 
   
-### <a name="restrictions"></a>Restriction
+### <a name="restrictions"></a>Restrições
 
-**xlSet** não pode ser desfeito. Além disso, ele destrói qualquer informação de desfazer que possa estar disponível antes. 
+**xlSet** não pode ser desfeita. Além disso, ele destrói todas as informações de desfazer que possam ter sido disponibilizadas antes. 
   
-**xlSet** pode colocar apenas constantes, não fórmulas, em células. 
+**xlSet** pode colocar somente constantes, não fórmulas, nas células. 
   
-**xlSet** se comporta como uma função de comando equivalente à classe 3; ou seja, ele está disponível somente dentro de uma DLL quando a DLL é chamada a partir de um objeto, macro, menu, barra de ferramentas, tecla de atalho ou botão **executar** da caixa de diálogo **macro** (acessado da guia **Exibir** na faixa de opções, começando no Excel 2007 e as **ferramentas **menu em versões anteriores). 
+**xlSet** se comporta como uma função equivalente a comando de Classe 3; ou seja, ela só estará disponível dentro de uma DLL quando a DLL for chamada de  um objeto, macro, menu, barra de ferramentas, tecla de atalho ou o botão Executar na caixa de diálogo **Macro** (acessada na guia Exibir na faixa de opções a partir do Excel 2007 e do **menu** Ferramentas em versões anteriores).  
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir preenche B205: B206 com o valor que foi passado de uma macro. Este exemplo de função de comando requer um argumento e, portanto, só funcionará se for chamado a partir de uma planilha de macro XLM ou de um módulo do VBA usando o método **Application. Run** . 
+O exemplo a seguir preenche B205:B206 com o valor passado de uma macro. Este exemplo de função de comando requer um argumento e, portanto, só funcionará se for chamado de uma folha de macro XLM ou de um módulo VBA usando o **método Application.Run.** 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

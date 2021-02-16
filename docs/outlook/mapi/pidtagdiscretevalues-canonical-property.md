@@ -25,32 +25,32 @@ ms.locfileid: "33404838"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém TRUE se um relatório de não entrega só se aplica a membros discretos de uma lista de distribuição, e não à lista inteira. 
+Contém TRUE se um relatório não entregue se aplica somente a membros discretos de uma lista de distribuição em vez de toda a lista. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Identificador:  <br/> |0x0E0E  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |MAPI não-transmittable  <br/> |
+|Área:  <br/> |MAPI não transmitível  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é usada em um relatório de não entrega quando a mensagem não pôde ser entregue a um ou mais membros de uma lista de distribuição. Sua finalidade é limitar as tentativas de retransmissão a apenas os membros individuais e não à lista de distribuição como um todo. 
+Essa propriedade é usada em um relatório sem entrega quando a mensagem não pôde ser entregue a um ou mais membros de uma lista de distribuição. Seu objetivo é limitar as tentativas de retransmissão apenas para os membros individuais e não para a lista de distribuição como um todo. 
   
-A tabela de destinatários de um relatório de não entrega contém entradas para todos os destinatários aos quais a mensagem não pôde ser entregue e também para as listas de distribuição, se houver, às quais pertencem. O provedor de transporte deve definir essa propriedade como TRUE para cada entrada de lista de distribuição e deve copiar o **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e **PR_SEARCH_KEY** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) da lista de distribuição para o **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) e **PR_ORIGINAL_SEARCH_KEY** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) para cada membro dessa lista de distribuição. 
+A tabela de destinatários de um relatório sem entrega contém entradas para todos os destinatários aos quais a mensagem não pôde ser entregue e também para as listas de distribuição, se alguma delas, às quais pertencem. O provedor de transporte deve definir essa propriedade como TRUE para cada entrada da lista de distribuição, e deve copiar PR_DISPLAY_NAME ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) da lista de **distribuição** para **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) e **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) para cada membro dessa lista de distribuição. 
   
- **PR_DISCRETE_VALUES** não deve ser definido para qualquer entrada de destinatário de relatório de não entrega que não seja uma lista de distribuição. 
+ **PR_DISCRETE_VALUES** deve ser definida para qualquer entrada de destinatário de relatório não entregue que não seja uma lista de distribuição. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="header-files"></a>Arquivos de cabeçalho
+### <a name="header-files"></a>Arquivos de header
 
-Mapidefs. h
+Mapidefs.h
   
 > Fornece definições de tipo de dados.
     
-Mapitags. h
+Mapitags.h
   
 > Contém definições de propriedades listadas como propriedades associadas.
     
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapeando nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapeando nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

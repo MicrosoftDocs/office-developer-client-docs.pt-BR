@@ -8,7 +8,7 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- função tempbool [Excel 2007], função TempBool12 [Excel 2007]
+- função tempbool [excel 2007],função TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33433714"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Função da biblioteca da estrutura que cria **um XLOPER de XLOPER**/ **** temporário contendo **booliano** **true** ou **false**.
+Função de biblioteca de estrutura que cria um **XLOPER** /  **XLOPER12 temporário** contendo **booleano** **VERDADEIRO** ou **FALSO**.
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -34,15 +34,15 @@ LPXLOPER12 TempBool12(int b);
 
  _b_ (**int**)
   
-Use 0 para retornar **false**; Use qualquer outro valor para retornar **true**.
+Use 0 para retornar **FALSO**; use qualquer outro valor para retornar **TRUE**.
   
 ## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
-Retorna um **** **Boolean** xltypeBool contendo o valor lógico passado. 
+Retorna um **Boolean** **xltypeBool** contendo o valor lógico passado. 
   
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir usa a função **TempBool12** para limpar a barra de status. A memória temporária é liberada quando a função [Excel/Excel12f](excel-excel12f.md) é chamada. 
+O exemplo a seguir usa **a função TempBool12** para limpar a barra de status. A memória temporária é liberada quando a [função Excel/Excel12f](excel-excel12f.md) é chamada. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
