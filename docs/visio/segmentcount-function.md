@@ -14,26 +14,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424494"
 ---
-# <a name="segmentcount-function"></a><span data-ttu-id="fe441-103">Função SEGMENTCOUNT</span><span class="sxs-lookup"><span data-stu-id="fe441-103">SEGMENTCOUNT Function</span></span>
+# <a name="segmentcount-function"></a><span data-ttu-id="6e802-103">Função SEGMENTCOUNT</span><span class="sxs-lookup"><span data-stu-id="6e802-103">SEGMENTCOUNT Function</span></span>
 
-<span data-ttu-id="fe441-104">Retorna o número de segmentos de linha que formam o caminho.</span><span class="sxs-lookup"><span data-stu-id="fe441-104">Returns the number of line segments that make up the path.</span></span>
+<span data-ttu-id="6e802-104">Retorna o número de segmentos de linha que formam o caminho.</span><span class="sxs-lookup"><span data-stu-id="6e802-104">Returns the number of line segments that make up the path.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="fe441-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fe441-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6e802-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="6e802-105">Syntax</span></span>
 
-<span data-ttu-id="fe441-106">SEGMENTCOUNT (\* \* *pathRef* \* \*)</span><span class="sxs-lookup"><span data-stu-id="fe441-106">SEGMENTCOUNT(\*\* *pathRef* \*\* )</span></span> 
+<span data-ttu-id="6e802-106">SEGMENTCOUNT(\*\* *pathRef* \*\* )</span><span class="sxs-lookup"><span data-stu-id="6e802-106">SEGMENTCOUNT(\*\* *pathRef* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="fe441-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="fe441-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="6e802-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="6e802-107">Parameters</span></span>
 
-|<span data-ttu-id="fe441-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="fe441-108">**Name**</span></span>|<span data-ttu-id="fe441-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="fe441-109">**Required/Optional**</span></span>|<span data-ttu-id="fe441-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="fe441-110">**Data Type**</span></span>|<span data-ttu-id="fe441-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fe441-111">**Description**</span></span>|
+|<span data-ttu-id="6e802-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="6e802-108">**Name**</span></span>|<span data-ttu-id="6e802-109">**Obrigatório/opcional**</span><span class="sxs-lookup"><span data-stu-id="6e802-109">**Required/Optional**</span></span>|<span data-ttu-id="6e802-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="6e802-110">**Data Type**</span></span>|<span data-ttu-id="6e802-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6e802-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="fe441-112">_pathRef_</span><span class="sxs-lookup"><span data-stu-id="fe441-112">_pathRef_</span></span> <br/> |<span data-ttu-id="fe441-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="fe441-113">Required</span></span>  <br/> |<span data-ttu-id="fe441-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="fe441-114">**Integer**</span></span> <br/> |<span data-ttu-id="fe441-115">A seção Geometry que representa o caminho, especificada por uma referência à célula Path (por exemplo, Geometry1.Path).</span><span class="sxs-lookup"><span data-stu-id="fe441-115">The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path).</span></span>  <br/> |
+| <span data-ttu-id="6e802-112">_pathRef_</span><span class="sxs-lookup"><span data-stu-id="6e802-112">_pathRef_</span></span> <br/> |<span data-ttu-id="6e802-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="6e802-113">Required</span></span>  <br/> |<span data-ttu-id="6e802-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="6e802-114">**Integer**</span></span> <br/> |<span data-ttu-id="6e802-115">A seção Geometry que representa o caminho, especificada por uma referência à célula Path (por exemplo, Geometry1.Path).</span><span class="sxs-lookup"><span data-stu-id="6e802-115">The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path).</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="fe441-116">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="fe441-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="6e802-116">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="6e802-116">Return value</span></span>
 
-<span data-ttu-id="fe441-117">Inteiro</span><span class="sxs-lookup"><span data-stu-id="fe441-117">Integer</span></span>
+<span data-ttu-id="6e802-117">Inteiro</span><span class="sxs-lookup"><span data-stu-id="6e802-117">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fe441-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="fe441-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e802-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="6e802-118">Remarks</span></span>
 
-<span data-ttu-id="fe441-119">Saltos de linha não são incluídos no número total de segmentos retornados.</span><span class="sxs-lookup"><span data-stu-id="fe441-119">Line jumps are not included in the total number of segments returned.</span></span>
+<span data-ttu-id="6e802-119">Saltos de linha não são incluídos no número total de segmentos retornados.</span><span class="sxs-lookup"><span data-stu-id="6e802-119">Line jumps are not included in the total number of segments returned.</span></span>
   
 

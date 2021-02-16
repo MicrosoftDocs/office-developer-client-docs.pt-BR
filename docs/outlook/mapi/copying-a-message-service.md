@@ -1,5 +1,5 @@
 ---
-title: Copiar um serviço de mensagens
+title: Copiando um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425390"
 ---
-# <a name="copying-a-message-service"></a><span data-ttu-id="38d97-103">Copiar um serviço de mensagens</span><span class="sxs-lookup"><span data-stu-id="38d97-103">Copying a Message Service</span></span>
+# <a name="copying-a-message-service"></a><span data-ttu-id="a4897-103">Copiando um serviço de mensagens</span><span class="sxs-lookup"><span data-stu-id="a4897-103">Copying a Message Service</span></span>
 
   
   
-<span data-ttu-id="38d97-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="38d97-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a4897-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a4897-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="38d97-105">**Para copiar um serviço de mensagens para um perfil**</span><span class="sxs-lookup"><span data-stu-id="38d97-105">**To copy a message service to a profile**</span></span>
+ <span data-ttu-id="a4897-105">**Para copiar um serviço de mensagens para um perfil**</span><span class="sxs-lookup"><span data-stu-id="a4897-105">**To copy a message service to a profile**</span></span>
   
-- <span data-ttu-id="38d97-106">Chamar [IMsgServiceAdmin:: CopyMsgService](imsgserviceadmin-copymsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="38d97-106">Call [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).</span></span>
+- <span data-ttu-id="a4897-106">Chame [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="a4897-106">Call [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).</span></span>
     
-<span data-ttu-id="38d97-107">Quando um serviço de mensagens é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original.</span><span class="sxs-lookup"><span data-stu-id="38d97-107">When a message service is copied, the new instance of the service is configured in exactly the same way as the original.</span></span> <span data-ttu-id="38d97-108">Às vezes **CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED.</span><span class="sxs-lookup"><span data-stu-id="38d97-108">Sometimes **CopyMsgService** returns the error MAPI_E_ACCESS_DENIED.</span></span> <span data-ttu-id="38d97-109">A causa mais comum desse retorno de erro é um serviço de mensagens que não permite que ele próprio seja duplicado.</span><span class="sxs-lookup"><span data-stu-id="38d97-109">The most common cause of this error return is a message service that does not allow itself to be duplicated.</span></span> 
+<span data-ttu-id="a4897-107">Quando um serviço de mensagens é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original.</span><span class="sxs-lookup"><span data-stu-id="a4897-107">When a message service is copied, the new instance of the service is configured in exactly the same way as the original.</span></span> <span data-ttu-id="a4897-108">Às **vezes, CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED.</span><span class="sxs-lookup"><span data-stu-id="a4897-108">Sometimes **CopyMsgService** returns the error MAPI_E_ACCESS_DENIED.</span></span> <span data-ttu-id="a4897-109">A causa mais comum desse retorno de erro é um serviço de mensagens que não se permite ser duplicado.</span><span class="sxs-lookup"><span data-stu-id="a4897-109">The most common cause of this error return is a message service that does not allow itself to be duplicated.</span></span> 
   
 

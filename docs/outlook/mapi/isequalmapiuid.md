@@ -19,45 +19,45 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426930"
 ---
-# <a name="isequalmapiuid"></a><span data-ttu-id="afcbc-103">IsEqualMAPIUID</span><span class="sxs-lookup"><span data-stu-id="afcbc-103">IsEqualMAPIUID</span></span>
+# <a name="isequalmapiuid"></a><span data-ttu-id="7a751-103">IsEqualMAPIUID</span><span class="sxs-lookup"><span data-stu-id="7a751-103">IsEqualMAPIUID</span></span>
 
   
   
-<span data-ttu-id="afcbc-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="afcbc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7a751-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7a751-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="afcbc-105">Testa duas estruturas [MAPIUID](mapiuid.md) para determinar se elas contêm o mesmo identificador.</span><span class="sxs-lookup"><span data-stu-id="afcbc-105">Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the same identifier.</span></span> 
+<span data-ttu-id="7a751-105">Testa duas [estruturas MAPIUID](mapiuid.md) para determinar se elas contêm o mesmo identificador.</span><span class="sxs-lookup"><span data-stu-id="7a751-105">Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the same identifier.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="afcbc-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="afcbc-106">Header file:</span></span>  <br/> |<span data-ttu-id="afcbc-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="afcbc-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="afcbc-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="afcbc-108">Related structure:</span></span>  <br/> |<span data-ttu-id="afcbc-109">**MAPIUID**</span><span class="sxs-lookup"><span data-stu-id="afcbc-109">**MAPIUID**</span></span> <br/> |
+|<span data-ttu-id="7a751-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="7a751-106">Header file:</span></span>  <br/> |<span data-ttu-id="7a751-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7a751-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="7a751-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="7a751-108">Related structure:</span></span>  <br/> |<span data-ttu-id="7a751-109">**MAPIUID**</span><span class="sxs-lookup"><span data-stu-id="7a751-109">**MAPIUID**</span></span> <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="afcbc-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="afcbc-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7a751-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="7a751-110">Parameters</span></span>
 
- <span data-ttu-id="afcbc-111">_lpuid1_</span><span class="sxs-lookup"><span data-stu-id="afcbc-111">_lpuid1_</span></span>
+ <span data-ttu-id="7a751-111">_lpuid1_</span><span class="sxs-lookup"><span data-stu-id="7a751-111">_lpuid1_</span></span>
   
-> <span data-ttu-id="afcbc-112">Ponteiro para a primeira estrutura **MAPIUID** a ser testada.</span><span class="sxs-lookup"><span data-stu-id="afcbc-112">Pointer to the first **MAPIUID** structure to be tested.</span></span> 
+> <span data-ttu-id="7a751-112">Ponteiro para a primeira **estrutura MAPIUID** a ser testada.</span><span class="sxs-lookup"><span data-stu-id="7a751-112">Pointer to the first **MAPIUID** structure to be tested.</span></span> 
     
- <span data-ttu-id="afcbc-113">_lpuid2_</span><span class="sxs-lookup"><span data-stu-id="afcbc-113">_lpuid2_</span></span>
+ <span data-ttu-id="7a751-113">_lpuid2_</span><span class="sxs-lookup"><span data-stu-id="7a751-113">_lpuid2_</span></span>
   
-> <span data-ttu-id="afcbc-114">Ponteiro para a segunda estrutura **MAPIUID** a ser testado.</span><span class="sxs-lookup"><span data-stu-id="afcbc-114">Pointer to the second **MAPIUID** structure to be tested.</span></span> 
+> <span data-ttu-id="7a751-114">Ponteiro para a segunda **estrutura MAPIUID** a ser testada.</span><span class="sxs-lookup"><span data-stu-id="7a751-114">Pointer to the second **MAPIUID** structure to be tested.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="afcbc-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="afcbc-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7a751-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="7a751-115">Remarks</span></span>
 
-<span data-ttu-id="afcbc-116">A macro **IsEqualMAPIUID** retorna true se as duas estruturas **MAPIUID** contêm o mesmo identificador e false se não.</span><span class="sxs-lookup"><span data-stu-id="afcbc-116">The **IsEqualMAPIUID** macro returns TRUE if the two **MAPIUID** structures contain the same identifier and FALSE if they do not.</span></span> 
+<span data-ttu-id="7a751-116">A macro **IsEqualMAPIUID** retornará TRUE se as duas estruturas **MAPIUID** contêm o mesmo identificador e FALSE se não contêm.</span><span class="sxs-lookup"><span data-stu-id="7a751-116">The **IsEqualMAPIUID** macro returns TRUE if the two **MAPIUID** structures contain the same identifier and FALSE if they do not.</span></span> 
   
-<span data-ttu-id="afcbc-117">A macro **IsEqualMAPIUID** requer que o arquivo de cabeçalho Memory. h seja incluído.</span><span class="sxs-lookup"><span data-stu-id="afcbc-117">The **IsEqualMAPIUID** macro requires that the header file Memory.h be included.</span></span> 
+<span data-ttu-id="7a751-117">A macro **IsEqualMAPIUID** requer que o arquivo de título Memory.h seja incluído.</span><span class="sxs-lookup"><span data-stu-id="7a751-117">The **IsEqualMAPIUID** macro requires that the header file Memory.h be included.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="afcbc-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="afcbc-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a751-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="7a751-118">See also</span></span>
 
 
 
-[<span data-ttu-id="afcbc-119">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="afcbc-119">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="7a751-119">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="7a751-119">MAPIUID</span></span>](mapiuid.md)
 
 
-[<span data-ttu-id="afcbc-120">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="afcbc-120">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="7a751-120">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="7a751-120">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

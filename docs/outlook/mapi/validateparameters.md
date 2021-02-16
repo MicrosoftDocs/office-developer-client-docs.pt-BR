@@ -19,19 +19,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425196"
 ---
-# <a name="validateparameters"></a><span data-ttu-id="6c2a2-103">ValidateParameters</span><span class="sxs-lookup"><span data-stu-id="6c2a2-103">ValidateParameters</span></span>
+# <a name="validateparameters"></a><span data-ttu-id="04dba-103">ValidateParameters</span><span class="sxs-lookup"><span data-stu-id="04dba-103">ValidateParameters</span></span>
 
   
   
-<span data-ttu-id="6c2a2-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6c2a2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="04dba-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="04dba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6c2a2-105">Chama uma função interna para verificar os parâmetros que os aplicativos clientes passaram para os provedores de serviço.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-105">Calls an internal function to check the parameters client applications have passed to service providers.</span></span> 
+<span data-ttu-id="04dba-105">Chama uma função interna para verificar os parâmetros que os aplicativos cliente passaram para provedores de serviços.</span><span class="sxs-lookup"><span data-stu-id="04dba-105">Calls an internal function to check the parameters client applications have passed to service providers.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6c2a2-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="6c2a2-106">Header file:</span></span>  <br/> |<span data-ttu-id="6c2a2-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="6c2a2-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="6c2a2-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="6c2a2-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="6c2a2-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="6c2a2-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="6c2a2-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="6c2a2-110">Called by:</span></span>  <br/> |<span data-ttu-id="6c2a2-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="6c2a2-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="04dba-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="04dba-106">Header file:</span></span>  <br/> |<span data-ttu-id="04dba-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="04dba-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="04dba-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="04dba-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="04dba-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="04dba-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="04dba-110">Chamado por:</span><span class="sxs-lookup"><span data-stu-id="04dba-110">Called by:</span></span>  <br/> |<span data-ttu-id="04dba-111">Provedores de serviços</span><span class="sxs-lookup"><span data-stu-id="04dba-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT ValidateParameters(
@@ -40,28 +40,28 @@ HRESULT ValidateParameters(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6c2a2-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="6c2a2-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="04dba-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="04dba-112">Parameters</span></span>
 
- <span data-ttu-id="6c2a2-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="6c2a2-113">_eMethod_</span></span>
+ <span data-ttu-id="04dba-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="04dba-113">_eMethod_</span></span>
   
-> <span data-ttu-id="6c2a2-114">no Especifica, por enumeração, o método a ser validado.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="04dba-114">[in] Especifica, por enumeração, o método a ser validado.</span><span class="sxs-lookup"><span data-stu-id="04dba-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="6c2a2-115">_Primeira_</span><span class="sxs-lookup"><span data-stu-id="6c2a2-115">_First_</span></span>
+ <span data-ttu-id="04dba-115">_Primeira_</span><span class="sxs-lookup"><span data-stu-id="04dba-115">_First_</span></span>
   
-> <span data-ttu-id="6c2a2-116">no Ponteiro para o primeiro argumento na pilha.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="04dba-116">[in] Ponteiro para o primeiro argumento na pilha.</span><span class="sxs-lookup"><span data-stu-id="04dba-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6c2a2-117">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="6c2a2-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="04dba-117">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="04dba-117">Return value</span></span>
 
-<span data-ttu-id="6c2a2-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="6c2a2-118">S_OK</span></span> 
+<span data-ttu-id="04dba-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="04dba-118">S_OK</span></span> 
   
-> <span data-ttu-id="6c2a2-119">Todos os parâmetros são válidos.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-119">All of the parameters are valid.</span></span> 
+> <span data-ttu-id="04dba-119">Todos os parâmetros são válidos.</span><span class="sxs-lookup"><span data-stu-id="04dba-119">All of the parameters are valid.</span></span> 
     
-<span data-ttu-id="6c2a2-120">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="6c2a2-120">MAPI_E_CALL_FAILED</span></span> 
+<span data-ttu-id="04dba-120">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="04dba-120">MAPI_E_CALL_FAILED</span></span> 
   
-> <span data-ttu-id="6c2a2-121">Um ou mais parâmetros não são válidos.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-121">One or more of the parameters are not valid.</span></span>
+> <span data-ttu-id="04dba-121">Um ou mais dos parâmetros não são válidos.</span><span class="sxs-lookup"><span data-stu-id="04dba-121">One or more of the parameters are not valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="6c2a2-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="6c2a2-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="04dba-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="04dba-122">Remarks</span></span>
 
-<span data-ttu-id="6c2a2-123">A \*\*\*\* macro ValidateParameters foi substituída pela macro [ValidateParms](validateparms.md) .</span><span class="sxs-lookup"><span data-stu-id="6c2a2-123">The **ValidateParameters** macro has been superseded by the [ValidateParms](validateparms.md) macro.</span></span> <span data-ttu-id="6c2a2-124">**ValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-124">**ValidateParameters** does not work correctly on RISC platforms and is now prevented from compiling on them.</span></span> <span data-ttu-id="6c2a2-125">Ele ainda é compilado e funciona corretamente nas plataformas Intel, mas o **ValidateParms** é recomendado em todas as plataformas.</span><span class="sxs-lookup"><span data-stu-id="6c2a2-125">It still compiles and works correctly on Intel platforms, but **ValidateParms** is recommended on all platforms.</span></span> 
+<span data-ttu-id="04dba-123">A macro **ValidateParameters** foi sobressalvada pela macro [ValidateParms.](validateparms.md)</span><span class="sxs-lookup"><span data-stu-id="04dba-123">The **ValidateParameters** macro has been superseded by the [ValidateParms](validateparms.md) macro.</span></span> <span data-ttu-id="04dba-124">**ValidateParameters** não funciona corretamente em plataformas RISC e agora é impedido de compilá-las.</span><span class="sxs-lookup"><span data-stu-id="04dba-124">**ValidateParameters** does not work correctly on RISC platforms and is now prevented from compiling on them.</span></span> <span data-ttu-id="04dba-125">Ele ainda compila e funciona corretamente em plataformas Intel, mas **ValidateParms** é recomendado em todas as plataformas.</span><span class="sxs-lookup"><span data-stu-id="04dba-125">It still compiles and works correctly on Intel platforms, but **ValidateParms** is recommended on all platforms.</span></span> 
   
 

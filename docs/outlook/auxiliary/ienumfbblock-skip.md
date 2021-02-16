@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425719"
 ---
-# <a name="ienumfbblockskip"></a><span data-ttu-id="88d44-103">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="88d44-103">IEnumFBBlock::Skip</span></span>
+# <a name="ienumfbblockskip"></a><span data-ttu-id="ae802-103">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="ae802-103">IEnumFBBlock::Skip</span></span>
 
-<span data-ttu-id="88d44-104">Pula um número específico de blocos de disponibilidade de dados.</span><span class="sxs-lookup"><span data-stu-id="88d44-104">Skips a specified number of blocks of free/busy data.</span></span>
+<span data-ttu-id="ae802-104">Pula um número específico de blocos de disponibilidade de dados.</span><span class="sxs-lookup"><span data-stu-id="ae802-104">Skips a specified number of blocks of free/busy data.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="88d44-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="88d44-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="ae802-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="ae802-105">Quick info</span></span>
 
-<span data-ttu-id="88d44-106">Consulte [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="88d44-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="ae802-106">Consulte [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="ae802-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Skip(  
@@ -28,20 +28,20 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="88d44-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="88d44-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ae802-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="ae802-107">Parameters</span></span>
 
-<span data-ttu-id="88d44-108">_celt_</span><span class="sxs-lookup"><span data-stu-id="88d44-108">_celt_</span></span>
+<span data-ttu-id="ae802-108">_celt_</span><span class="sxs-lookup"><span data-stu-id="ae802-108">_celt_</span></span>
   
->  <span data-ttu-id="88d44-109">no O número de blocos de disponibilidade a ser ignorado.</span><span class="sxs-lookup"><span data-stu-id="88d44-109">[in] The number of free/busy blocks to skip.</span></span> 
+>  <span data-ttu-id="ae802-109">[in] O número de blocos de ocupado/livre a ignorar.</span><span class="sxs-lookup"><span data-stu-id="ae802-109">[in] The number of free/busy blocks to skip.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="88d44-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="88d44-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ae802-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ae802-110">Return values</span></span>
 
-<span data-ttu-id="88d44-111">S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="88d44-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="ae802-111">S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="ae802-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="88d44-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="88d44-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae802-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="ae802-112">See also</span></span>
 
-- [<span data-ttu-id="88d44-113">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="88d44-113">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
-- [<span data-ttu-id="88d44-114">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="88d44-114">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="88d44-115">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="88d44-115">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
-- [<span data-ttu-id="88d44-116">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="88d44-116">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)
+- [<span data-ttu-id="ae802-113">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="ae802-113">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
+- [<span data-ttu-id="ae802-114">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="ae802-114">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="ae802-115">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="ae802-115">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
+- [<span data-ttu-id="ae802-116">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="ae802-116">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)
 

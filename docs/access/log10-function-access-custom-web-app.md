@@ -1,5 +1,5 @@
 ---
-title: Função log10 (aplicativo Web personalizado do Access)
+title: Função Log10 (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,25 +14,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424865"
 ---
-# <a name="log10-function-access-custom-web-app"></a><span data-ttu-id="0c5cc-103">Função log10 (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="0c5cc-103">Log10 Function (Access custom web app)</span></span>
+# <a name="log10-function-access-custom-web-app"></a><span data-ttu-id="36a3e-103">Função Log10 (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="36a3e-103">Log10 Function (Access custom web app)</span></span>
 
-<span data-ttu-id="0c5cc-104">Retorna o logaritmo de base 10 de um número.</span><span class="sxs-lookup"><span data-stu-id="0c5cc-104">Returns the base-10 logarithm of a number.</span></span>
+<span data-ttu-id="36a3e-104">Retorna o logaritmo de base 10 de um número.</span><span class="sxs-lookup"><span data-stu-id="36a3e-104">Returns the base-10 logarithm of a number.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="0c5cc-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="0c5cc-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="36a3e-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="36a3e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="0c5cc-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0c5cc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="36a3e-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="36a3e-107">Syntax</span></span>
 
- <span data-ttu-id="0c5cc-108">**Log10** (*Numericé*)</span><span class="sxs-lookup"><span data-stu-id="0c5cc-108">**Log10** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="36a3e-108">**Log10** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="36a3e-108">**Log10** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="0c5cc-109">A função **log10** contém o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="0c5cc-109">The **Log10** function contains the following argument.</span></span> 
+<span data-ttu-id="36a3e-109">A **função Log10** contém o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="36a3e-109">The **Log10** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="0c5cc-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="0c5cc-110">**Argument name**</span></span>|<span data-ttu-id="0c5cc-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0c5cc-111">**Description**</span></span>|
+|<span data-ttu-id="36a3e-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="36a3e-110">**Argument name**</span></span>|<span data-ttu-id="36a3e-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="36a3e-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="0c5cc-112">*Numericé*</span><span class="sxs-lookup"><span data-stu-id="0c5cc-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="0c5cc-113">O número positivo cujo logaritmo de base 10 você deseja obter.</span><span class="sxs-lookup"><span data-stu-id="0c5cc-113">The positive number for which you want the base-10 logarithm.</span></span>  <br/> |
+| <span data-ttu-id="36a3e-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="36a3e-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="36a3e-113">O número positivo para o qual você deseja o logaritmo de base 10.</span><span class="sxs-lookup"><span data-stu-id="36a3e-113">The positive number for which you want the base-10 logarithm.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0c5cc-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="0c5cc-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="36a3e-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="36a3e-114">Remarks</span></span>
 
-<span data-ttu-id="0c5cc-115">A função **log** permite que você altere a base do logaritmo, em vez de usar a base 10.</span><span class="sxs-lookup"><span data-stu-id="0c5cc-115">The **Log** function lets you change the base of the logarithm, instead of using the base 10.</span></span> 
+<span data-ttu-id="36a3e-115">A **função Log** permite alterar a base do logaritmo, em vez de usar a base 10.</span><span class="sxs-lookup"><span data-stu-id="36a3e-115">The **Log** function lets you change the base of the logarithm, instead of using the base 10.</span></span> 
   
 

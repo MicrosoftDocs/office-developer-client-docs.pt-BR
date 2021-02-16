@@ -19,35 +19,35 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428099"
 ---
-# <a name="cbnewmtsid"></a><span data-ttu-id="7ee31-103">CbNewMTSID</span><span class="sxs-lookup"><span data-stu-id="7ee31-103">CbNewMTSID</span></span>
+# <a name="cbnewmtsid"></a><span data-ttu-id="b19f7-103">CbNewMTSID</span><span class="sxs-lookup"><span data-stu-id="b19f7-103">CbNewMTSID</span></span>
 
   
   
-<span data-ttu-id="7ee31-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ee31-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b19f7-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b19f7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7ee31-105">Calcula o número de bytes que devem ser alocados para uma nova estrutura do [MTSID](mtsid.md) com um identificador de agente de transferência de mensagem de um tamanho especificado.</span><span class="sxs-lookup"><span data-stu-id="7ee31-105">Computes the number of bytes that should be allocated for a new [MTSID](mtsid.md) structure with a message transfer agent identifier of a specified size.</span></span> 
+<span data-ttu-id="b19f7-105">Calcula o número de bytes que devem ser alocados para uma nova estrutura [MTSID](mtsid.md) com um identificador de agente de transferência de mensagens de um tamanho especificado.</span><span class="sxs-lookup"><span data-stu-id="b19f7-105">Computes the number of bytes that should be allocated for a new [MTSID](mtsid.md) structure with a message transfer agent identifier of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7ee31-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="7ee31-106">Header file:</span></span>  <br/> |<span data-ttu-id="7ee31-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="7ee31-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="7ee31-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="7ee31-108">Related structure:</span></span>  <br/> |<span data-ttu-id="7ee31-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="7ee31-109">**MTSID**</span></span> <br/> |
+|<span data-ttu-id="b19f7-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="b19f7-106">Header file:</span></span>  <br/> |<span data-ttu-id="b19f7-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b19f7-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="b19f7-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="b19f7-108">Related structure:</span></span>  <br/> |<span data-ttu-id="b19f7-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="b19f7-109">**MTSID**</span></span> <br/> |
    
 ```cpp
 CbNewMTSID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7ee31-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="7ee31-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b19f7-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b19f7-110">Parameters</span></span>
 
- <span data-ttu-id="7ee31-111">__CB_</span><span class="sxs-lookup"><span data-stu-id="7ee31-111">__cb_</span></span>
+ <span data-ttu-id="b19f7-111">_ _cb_</span><span class="sxs-lookup"><span data-stu-id="b19f7-111">_ _cb_</span></span>
   
-> <span data-ttu-id="7ee31-112">Contagem de bytes para o identificador de agente de transferência de mensagem a ser incluído na nova estrutura **MTSID** .</span><span class="sxs-lookup"><span data-stu-id="7ee31-112">Count of bytes for the message transfer agent identifier to be included in the new **MTSID** structure.</span></span> 
+> <span data-ttu-id="b19f7-112">Contagem de bytes para o identificador do agente de transferência de mensagens a ser incluído na nova **estrutura MTSID.**</span><span class="sxs-lookup"><span data-stu-id="b19f7-112">Count of bytes for the message transfer agent identifier to be included in the new **MTSID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="7ee31-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="7ee31-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b19f7-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="b19f7-113">See also</span></span>
 
 
 
-[<span data-ttu-id="7ee31-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="7ee31-114">MTSID</span></span>](mtsid.md)
+[<span data-ttu-id="b19f7-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="b19f7-114">MTSID</span></span>](mtsid.md)
 
 
-[<span data-ttu-id="7ee31-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="7ee31-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="b19f7-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="b19f7-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

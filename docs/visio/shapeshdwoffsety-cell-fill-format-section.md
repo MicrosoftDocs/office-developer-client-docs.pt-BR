@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426818"
 ---
-# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="01fcf-103">Célula ShapeShdwOffsetY (Seção Fill Format)</span><span class="sxs-lookup"><span data-stu-id="01fcf-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
+# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="fb8c2-103">Célula ShapeShdwOffsetY (Seção Fill Format)</span><span class="sxs-lookup"><span data-stu-id="fb8c2-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
 
-<span data-ttu-id="01fcf-104">Determina a distância em unidades de página pela qual a sombra de uma forma está deslocada verticalmente da forma.</span><span class="sxs-lookup"><span data-stu-id="01fcf-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
+<span data-ttu-id="fb8c2-104">Determina a distância em unidades de página pela qual a sombra de uma forma está deslocada verticalmente da forma.</span><span class="sxs-lookup"><span data-stu-id="fb8c2-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="01fcf-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="01fcf-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb8c2-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="fb8c2-105">Remarks</span></span>
 
-<span data-ttu-id="01fcf-106">Esse valor corresponde ao valor existente na configuração **Deslocamento de Y** na caixa de diálogo **Sombra** (na guia **Página Inicial**, do grupo **Forma**, clique em **Sombra** e em **Opções de sombra**).</span><span class="sxs-lookup"><span data-stu-id="01fcf-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
+<span data-ttu-id="fb8c2-106">Esse valor corresponde ao valor existente na configuração **Deslocamento de Y** na caixa de diálogo **Sombra** (na guia **Página Inicial**, do grupo **Forma**, clique em **Sombra** e em **Opções de sombra**).</span><span class="sxs-lookup"><span data-stu-id="fb8c2-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
   
-<span data-ttu-id="01fcf-107">Para obter uma referência para a célula ShapeShdwOffsetY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="01fcf-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="fb8c2-107">Para obter uma referência para a célula ShapeShdwOffsetY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="01fcf-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="01fcf-108">Cell name:</span></span>  <br/> | <span data-ttu-id="01fcf-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="01fcf-109">ShapeShdwOffsetY</span></span>  <br/> |
+| <span data-ttu-id="fb8c2-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-108">Cell name:</span></span>  <br/> | <span data-ttu-id="fb8c2-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="fb8c2-109">ShapeShdwOffsetY</span></span>  <br/> |
    
-<span data-ttu-id="01fcf-110">Para obter uma referência para a célula ShapeShdwOffsetY pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="01fcf-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="fb8c2-110">Para obter uma referência para a célula ShapeShdwOffsetY pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="01fcf-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="01fcf-111">Section index:</span></span>  <br/> |<span data-ttu-id="01fcf-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="01fcf-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="01fcf-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="01fcf-113">Row index:</span></span>  <br/> |<span data-ttu-id="01fcf-114">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="01fcf-114">**visRowFill**</span></span> <br/> |
-| <span data-ttu-id="01fcf-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="01fcf-115">Cell index:</span></span>  <br/> |<span data-ttu-id="01fcf-116">**visFillShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="01fcf-116">**visFillShdwOffsetY**</span></span> <br/> |
+| <span data-ttu-id="fb8c2-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-111">Section index:</span></span>  <br/> |<span data-ttu-id="fb8c2-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fb8c2-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="fb8c2-113">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-113">Row index:</span></span>  <br/> |<span data-ttu-id="fb8c2-114">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="fb8c2-114">**visRowFill**</span></span> <br/> |
+| <span data-ttu-id="fb8c2-115">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="fb8c2-115">Cell index:</span></span>  <br/> |<span data-ttu-id="fb8c2-116">**visFillShdwOffsetY**</span><span class="sxs-lookup"><span data-stu-id="fb8c2-116">**visFillShdwOffsetY**</span></span> <br/> |
    
 

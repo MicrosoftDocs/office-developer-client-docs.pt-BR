@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423346"
 ---
-# <a name="indexsearchpusherprocess"></a><span data-ttu-id="3df05-103">INDEX_SEARCH_PUSHER_PROCESS</span><span class="sxs-lookup"><span data-stu-id="3df05-103">INDEX_SEARCH_PUSHER_PROCESS</span></span>
+# <a name="index_search_pusher_process"></a><span data-ttu-id="69f0c-103">INDEX_SEARCH_PUSHER_PROCESS</span><span class="sxs-lookup"><span data-stu-id="69f0c-103">INDEX_SEARCH_PUSHER_PROCESS</span></span>
 
   
   
-<span data-ttu-id="3df05-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3df05-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="69f0c-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="69f0c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3df05-105">Especifica o processo que está enviando uma notificação para o manipulador de protocolo MAPI de que um objeto no repositório está pronto para indexação.</span><span class="sxs-lookup"><span data-stu-id="3df05-105">Specifies the process that is sending a notification to the MAPI Protocol Handler that an object in that store is ready for indexing.</span></span>
+<span data-ttu-id="69f0c-105">Especifica o processo que está enviando uma notificação para o Manipulador de Protocolo MAPI de que um objeto nesse armazenamento está pronto para indexação.</span><span class="sxs-lookup"><span data-stu-id="69f0c-105">Specifies the process that is sending a notification to the MAPI Protocol Handler that an object in that store is ready for indexing.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="3df05-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="3df05-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="69f0c-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="69f0c-106">Quick info</span></span>
 
 ```cpp
 typedef struct _INDEX_SEARCH_PUSHER_PROCESS {  
@@ -31,10 +31,10 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 } INDEX_SEARCH_PUSHER_PROCESS; 
 ```
 
-## <a name="members"></a><span data-ttu-id="3df05-107">Membros</span><span class="sxs-lookup"><span data-stu-id="3df05-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="69f0c-107">Membros</span><span class="sxs-lookup"><span data-stu-id="69f0c-107">Members</span></span>
 
- <span data-ttu-id="3df05-108">*dwPID*</span><span class="sxs-lookup"><span data-stu-id="3df05-108">*dwPID*</span></span> 
+ <span data-ttu-id="69f0c-108">*dwPID*</span><span class="sxs-lookup"><span data-stu-id="69f0c-108">*dwPID*</span></span> 
   
->  <span data-ttu-id="3df05-109">ID do processo que está enviando uma notificação de indexação para o indexador do manipulador de protocolo MAPI.</span><span class="sxs-lookup"><span data-stu-id="3df05-109">Process ID for the process that is sending an indexing notification to the indexer of the MAPI Protocol Handler.</span></span> 
+>  <span data-ttu-id="69f0c-109">ID do processo para o processo que está enviando uma notificação de indexação para o indexador do Manipulador de Protocolo MAPI.</span><span class="sxs-lookup"><span data-stu-id="69f0c-109">Process ID for the process that is sending an indexing notification to the indexer of the MAPI Protocol Handler.</span></span> 
     
 
