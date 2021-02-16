@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538918"
 ---
-# <a name="publishsettingstype-complextype-visio-xml"></a><span data-ttu-id="0adf4-102">PublishSettings_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="0adf4-102">PublishSettings_Type complexType (Visio XML)</span></span>
+# <a name="publishsettings_type-complextype-visio-xml"></a><span data-ttu-id="98ba5-102">PublishSettings_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="98ba5-102">PublishSettings_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="0adf4-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="0adf4-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="98ba5-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="98ba5-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0adf4-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="0adf4-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="0adf4-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="0adf4-105">**Schema file**</span></span> <br/> |<span data-ttu-id="0adf4-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="0adf4-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="0adf4-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="0adf4-107">**Extension base**</span></span> <br/> |<span data-ttu-id="0adf4-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="0adf4-108">None</span></span>  <br/> |
+|<span data-ttu-id="98ba5-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="98ba5-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="98ba5-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="98ba5-105">**Schema file**</span></span> <br/> |<span data-ttu-id="98ba5-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="98ba5-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="98ba5-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="98ba5-107">**Extension base**</span></span> <br/> |<span data-ttu-id="98ba5-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="98ba5-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="0adf4-109">Definição</span><span class="sxs-lookup"><span data-stu-id="0adf4-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="98ba5-109">Definição</span><span class="sxs-lookup"><span data-stu-id="98ba5-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="PublishSettings_Type">
@@ -46,19 +46,19 @@ ms.locfileid: "34538918"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="0adf4-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="0adf4-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="98ba5-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="98ba5-110">Elements and attributes</span></span>
 
-<span data-ttu-id="0adf4-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="0adf4-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="98ba5-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="98ba5-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="0adf4-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="0adf4-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="98ba5-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="98ba5-112">Child elements</span></span>
 
-|<span data-ttu-id="0adf4-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="0adf4-113">**Element**</span></span>|<span data-ttu-id="0adf4-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="0adf4-114">**Type**</span></span>|<span data-ttu-id="0adf4-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0adf4-115">**Description**</span></span>|
+|<span data-ttu-id="98ba5-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="98ba5-113">**Element**</span></span>|<span data-ttu-id="98ba5-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="98ba5-114">**Type**</span></span>|<span data-ttu-id="98ba5-115">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="98ba5-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="0adf4-116">PublishedPage</span><span class="sxs-lookup"><span data-stu-id="0adf4-116">PublishedPage</span></span>](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="0adf4-117">PublishedPage_Type</span><span class="sxs-lookup"><span data-stu-id="0adf4-117">PublishedPage_Type</span></span>](publishedpage_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="0adf4-118">RefreshableData</span><span class="sxs-lookup"><span data-stu-id="0adf4-118">RefreshableData</span></span>](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="0adf4-119">RefreshableData_Type</span><span class="sxs-lookup"><span data-stu-id="0adf4-119">RefreshableData_Type</span></span>](refreshabledata_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="98ba5-116">PublishedPage</span><span class="sxs-lookup"><span data-stu-id="98ba5-116">PublishedPage</span></span>](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="98ba5-117">PublishedPage_Type</span><span class="sxs-lookup"><span data-stu-id="98ba5-117">PublishedPage_Type</span></span>](publishedpage_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="98ba5-118">RefreshableData</span><span class="sxs-lookup"><span data-stu-id="98ba5-118">RefreshableData</span></span>](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="98ba5-119">RefreshableData_Type</span><span class="sxs-lookup"><span data-stu-id="98ba5-119">RefreshableData_Type</span></span>](refreshabledata_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="0adf4-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="0adf4-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="98ba5-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="98ba5-120">Attributes</span></span>
 
-<span data-ttu-id="0adf4-121">Nenhum</span><span class="sxs-lookup"><span data-stu-id="0adf4-121">None.</span></span>
+<span data-ttu-id="98ba5-121">Nenhum</span><span class="sxs-lookup"><span data-stu-id="98ba5-121">None.</span></span>
   
 

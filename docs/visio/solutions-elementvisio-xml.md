@@ -14,41 +14,41 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540221"
 ---
-# <a name="solutions-element-visio-xml"></a><span data-ttu-id="b4b97-103">Elemento Solutions (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="b4b97-103">Solutions element (Visio XML)</span></span>
+# <a name="solutions-element-visio-xml"></a><span data-ttu-id="ec47d-103">Elemento Solutions (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="ec47d-103">Solutions element (Visio XML)</span></span>
 
-<span data-ttu-id="b4b97-104">Especifica as propriedades das soluções armazenadas no documento.</span><span class="sxs-lookup"><span data-stu-id="b4b97-104">Specifies the properties of the solutions stored in the document.</span></span>
+<span data-ttu-id="ec47d-104">Especifica as propriedades das soluções armazenadas no documento.</span><span class="sxs-lookup"><span data-stu-id="ec47d-104">Specifies the properties of the solutions stored in the document.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="b4b97-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="b4b97-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ec47d-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="ec47d-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b4b97-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="b4b97-106">**Element type**</span></span> <br/> |[<span data-ttu-id="b4b97-107">Solutions_Type</span><span class="sxs-lookup"><span data-stu-id="b4b97-107">Solutions_Type</span></span>](solutions_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="b4b97-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="b4b97-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="b4b97-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="b4b97-109">**Schema file**</span></span> <br/> |<span data-ttu-id="b4b97-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="b4b97-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="b4b97-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="b4b97-111">**Document parts**</span></span> <br/> |<span data-ttu-id="b4b97-112">Solutions. xml</span><span class="sxs-lookup"><span data-stu-id="b4b97-112">solutions.xml</span></span>  <br/> |
+|<span data-ttu-id="ec47d-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="ec47d-106">**Element type**</span></span> <br/> |[<span data-ttu-id="ec47d-107">Solutions_Type</span><span class="sxs-lookup"><span data-stu-id="ec47d-107">Solutions_Type</span></span>](solutions_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="ec47d-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="ec47d-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="ec47d-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="ec47d-109">**Schema file**</span></span> <br/> |<span data-ttu-id="ec47d-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="ec47d-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="ec47d-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="ec47d-111">**Document parts**</span></span> <br/> |<span data-ttu-id="ec47d-112">solutions.xml</span><span class="sxs-lookup"><span data-stu-id="ec47d-112">solutions.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="b4b97-113">Definição</span><span class="sxs-lookup"><span data-stu-id="b4b97-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="ec47d-113">Definição</span><span class="sxs-lookup"><span data-stu-id="ec47d-113">Definition</span></span>
 
 ```XML
 < xs:element name="Solutions" type="Solutions_Type" ></xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="b4b97-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="b4b97-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="ec47d-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="ec47d-114">Elements and attributes</span></span>
 
-<span data-ttu-id="b4b97-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="b4b97-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="ec47d-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="ec47d-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="b4b97-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="b4b97-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ec47d-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="ec47d-116">Parent elements</span></span>
 
-<span data-ttu-id="b4b97-117">Nenhum</span><span class="sxs-lookup"><span data-stu-id="b4b97-117">None.</span></span>
+<span data-ttu-id="ec47d-117">Nenhum</span><span class="sxs-lookup"><span data-stu-id="ec47d-117">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="b4b97-118">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b4b97-118">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ec47d-118">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="ec47d-118">Child elements</span></span>
 
-|<span data-ttu-id="b4b97-119">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b4b97-119">**Element**</span></span>|<span data-ttu-id="b4b97-120">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="b4b97-120">**Type**</span></span>|<span data-ttu-id="b4b97-121">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="b4b97-121">**Description**</span></span>|
+|<span data-ttu-id="ec47d-119">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ec47d-119">**Element**</span></span>|<span data-ttu-id="ec47d-120">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="ec47d-120">**Type**</span></span>|<span data-ttu-id="ec47d-121">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="ec47d-121">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="b4b97-122">Solution</span><span class="sxs-lookup"><span data-stu-id="b4b97-122">Solution</span></span>](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="b4b97-123">Solution_Type</span><span class="sxs-lookup"><span data-stu-id="b4b97-123">Solution_Type</span></span>](solution_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="b4b97-124">Especifica uma instância do XML da solução armazenada no desenho.</span><span class="sxs-lookup"><span data-stu-id="b4b97-124">Specifies one instance of solution XML stored in the drawing.</span></span>  <br/> |
+|[<span data-ttu-id="ec47d-122">Solution</span><span class="sxs-lookup"><span data-stu-id="ec47d-122">Solution</span></span>](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="ec47d-123">Solution_Type</span><span class="sxs-lookup"><span data-stu-id="ec47d-123">Solution_Type</span></span>](solution_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="ec47d-124">Especifica uma instância de SOLUÇÃO XML armazenada no desenho.</span><span class="sxs-lookup"><span data-stu-id="ec47d-124">Specifies one instance of solution XML stored in the drawing.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="b4b97-125">Atributos</span><span class="sxs-lookup"><span data-stu-id="b4b97-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ec47d-125">Atributos</span><span class="sxs-lookup"><span data-stu-id="ec47d-125">Attributes</span></span>
 
-<span data-ttu-id="b4b97-126">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b4b97-126">None.</span></span>
+<span data-ttu-id="ec47d-126">Nenhum</span><span class="sxs-lookup"><span data-stu-id="ec47d-126">None.</span></span>
   
 

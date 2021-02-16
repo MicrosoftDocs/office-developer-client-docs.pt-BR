@@ -14,44 +14,44 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539710"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a><span data-ttu-id="fbb2f-103">Elemento FaceNames (VisioDocument_Type complexType) (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="fbb2f-103">FaceNames element (VisioDocument_Type complexType) (Visio XML)</span></span>
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a><span data-ttu-id="3fad7-103">Elemento FaceNames (VisioDocument_Type complexType) (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="3fad7-103">FaceNames element (VisioDocument_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="fbb2f-104">Contém uma coleção de elementos **FaceName**.</span><span class="sxs-lookup"><span data-stu-id="fbb2f-104">Contains a collection of **FaceName** elements.</span></span> 
+<span data-ttu-id="3fad7-104">Contém uma coleção de elementos **FaceName**.</span><span class="sxs-lookup"><span data-stu-id="3fad7-104">Contains a collection of **FaceName** elements.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="fbb2f-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="fbb2f-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3fad7-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="3fad7-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="fbb2f-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-106">**Element type**</span></span> <br/> |[<span data-ttu-id="fbb2f-107">FaceNames_Type</span><span class="sxs-lookup"><span data-stu-id="fbb2f-107">FaceNames_Type</span></span>](facenames_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="fbb2f-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="fbb2f-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-109">**Schema file**</span></span> <br/> |<span data-ttu-id="fbb2f-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="fbb2f-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="fbb2f-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-111">**Document parts**</span></span> <br/> |<span data-ttu-id="fbb2f-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="fbb2f-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="3fad7-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="3fad7-106">**Element type**</span></span> <br/> |[<span data-ttu-id="3fad7-107">FaceNames_Type</span><span class="sxs-lookup"><span data-stu-id="3fad7-107">FaceNames_Type</span></span>](facenames_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="3fad7-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="3fad7-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="3fad7-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="3fad7-109">**Schema file**</span></span> <br/> |<span data-ttu-id="3fad7-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="3fad7-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="3fad7-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="3fad7-111">**Document parts**</span></span> <br/> |<span data-ttu-id="3fad7-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="3fad7-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="fbb2f-113">Definição</span><span class="sxs-lookup"><span data-stu-id="fbb2f-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="3fad7-113">Definição</span><span class="sxs-lookup"><span data-stu-id="3fad7-113">Definition</span></span>
 
 ```XML
 < xs:element name="FaceNames" type="FaceNames_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="fbb2f-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="fbb2f-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="3fad7-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="3fad7-114">Elements and attributes</span></span>
 
-<span data-ttu-id="fbb2f-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="fbb2f-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="3fad7-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="3fad7-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="fbb2f-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="fbb2f-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3fad7-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="3fad7-116">Parent elements</span></span>
 
-|<span data-ttu-id="fbb2f-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-117">**Element**</span></span>|<span data-ttu-id="fbb2f-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-118">**Type**</span></span>|<span data-ttu-id="fbb2f-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-119">**Description**</span></span>|
+|<span data-ttu-id="3fad7-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="3fad7-117">**Element**</span></span>|<span data-ttu-id="3fad7-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="3fad7-118">**Type**</span></span>|<span data-ttu-id="3fad7-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="3fad7-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="fbb2f-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="fbb2f-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="fbb2f-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="fbb2f-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="fbb2f-122">O elemento raiz de um documento do Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="fbb2f-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
+|[<span data-ttu-id="3fad7-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="3fad7-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="3fad7-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="3fad7-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="3fad7-122">O elemento raiz de um documento do Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="3fad7-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="fbb2f-123">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="fbb2f-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3fad7-123">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="3fad7-123">Child elements</span></span>
 
-|<span data-ttu-id="fbb2f-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-124">**Element**</span></span>|<span data-ttu-id="fbb2f-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-125">**Type**</span></span>|<span data-ttu-id="fbb2f-126">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fbb2f-126">**Description**</span></span>|
+|<span data-ttu-id="3fad7-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="3fad7-124">**Element**</span></span>|<span data-ttu-id="3fad7-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="3fad7-125">**Type**</span></span>|<span data-ttu-id="3fad7-126">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="3fad7-126">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="fbb2f-127">FaceName</span><span class="sxs-lookup"><span data-stu-id="fbb2f-127">FaceName</span></span>](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="fbb2f-128">FaceName_Type</span><span class="sxs-lookup"><span data-stu-id="fbb2f-128">FaceName_Type</span></span>](facename_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="fbb2f-129">Contém informações sobre uma fonte.</span><span class="sxs-lookup"><span data-stu-id="fbb2f-129">Contains information about a font.</span></span>  <br/> |
+|[<span data-ttu-id="3fad7-127">FaceName</span><span class="sxs-lookup"><span data-stu-id="3fad7-127">FaceName</span></span>](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="3fad7-128">FaceName_Type</span><span class="sxs-lookup"><span data-stu-id="3fad7-128">FaceName_Type</span></span>](facename_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="3fad7-129">Contém informações sobre uma fonte.</span><span class="sxs-lookup"><span data-stu-id="3fad7-129">Contains information about a font.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="fbb2f-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="fbb2f-130">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3fad7-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="3fad7-130">Attributes</span></span>
 
-<span data-ttu-id="fbb2f-131">Nenhum</span><span class="sxs-lookup"><span data-stu-id="fbb2f-131">None.</span></span>
+<span data-ttu-id="3fad7-131">Nenhum</span><span class="sxs-lookup"><span data-stu-id="3fad7-131">None.</span></span>
   
 

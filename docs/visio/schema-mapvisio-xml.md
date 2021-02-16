@@ -14,9 +14,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539079"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="88c8c-103">Mapa de esquema (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="88c8c-103">Schema map (Visio XML)</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="59acc-103">Mapa de esquema (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="59acc-103">Schema map (Visio XML)</span></span>
 
-<span data-ttu-id="88c8c-104">Este tópico mostra a definição de esquema XML para o formato de arquivo do Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="88c8c-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="59acc-104">Este tópico mostra a definição de esquema XML para o formato de arquivo do Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="59acc-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

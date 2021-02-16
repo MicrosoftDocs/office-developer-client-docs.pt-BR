@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538596"
 ---
-# <a name="tptype-complextype-visio-xml"></a><span data-ttu-id="db7dc-102">tp_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="db7dc-102">tp_Type complexType (Visio XML)</span></span>
+# <a name="tp_type-complextype-visio-xml"></a><span data-ttu-id="fecdc-102">tp_Type complexType (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="fecdc-102">tp_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="db7dc-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="db7dc-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="fecdc-103">Informação de tipo</span><span class="sxs-lookup"><span data-stu-id="fecdc-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="db7dc-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="db7dc-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="db7dc-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="db7dc-105">**Schema file**</span></span> <br/> |<span data-ttu-id="db7dc-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="db7dc-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="db7dc-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="db7dc-107">**Extension base**</span></span> <br/> |<span data-ttu-id="db7dc-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="db7dc-108">None</span></span>  <br/> |
+|<span data-ttu-id="fecdc-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="fecdc-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="fecdc-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="fecdc-105">**Schema file**</span></span> <br/> |<span data-ttu-id="fecdc-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="fecdc-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="fecdc-107">**Base da extensão**</span><span class="sxs-lookup"><span data-stu-id="fecdc-107">**Extension base**</span></span> <br/> |<span data-ttu-id="fecdc-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="fecdc-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="db7dc-109">Definição</span><span class="sxs-lookup"><span data-stu-id="db7dc-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="fecdc-109">Definição</span><span class="sxs-lookup"><span data-stu-id="fecdc-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="tp_Type">
@@ -35,18 +35,18 @@ ms.locfileid: "34538596"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="db7dc-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="db7dc-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="fecdc-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="fecdc-110">Elements and attributes</span></span>
 
-<span data-ttu-id="db7dc-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="db7dc-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="fecdc-111">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="fecdc-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="db7dc-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="db7dc-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fecdc-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="fecdc-112">Child elements</span></span>
 
-<span data-ttu-id="db7dc-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="db7dc-113">None.</span></span>
+<span data-ttu-id="fecdc-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="fecdc-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="db7dc-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="db7dc-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fecdc-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="fecdc-114">Attributes</span></span>
 
-|<span data-ttu-id="db7dc-115">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="db7dc-115">**Attribute**</span></span>|<span data-ttu-id="db7dc-116">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="db7dc-116">**Type**</span></span>|<span data-ttu-id="db7dc-117">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="db7dc-117">**Required**</span></span>|<span data-ttu-id="db7dc-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="db7dc-118">**Description**</span></span>|<span data-ttu-id="db7dc-119">**Valores possíveis**</span><span class="sxs-lookup"><span data-stu-id="db7dc-119">**Possible values**</span></span>|
+|<span data-ttu-id="fecdc-115">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="fecdc-115">**Attribute**</span></span>|<span data-ttu-id="fecdc-116">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="fecdc-116">**Type**</span></span>|<span data-ttu-id="fecdc-117">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="fecdc-117">**Required**</span></span>|<span data-ttu-id="fecdc-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="fecdc-118">**Description**</span></span>|<span data-ttu-id="fecdc-119">**Valores possíveis**</span><span class="sxs-lookup"><span data-stu-id="fecdc-119">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="db7dc-120">IX</span><span class="sxs-lookup"><span data-stu-id="db7dc-120">IX</span></span>  <br/> |<span data-ttu-id="db7dc-121">xsd:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="db7dc-121">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="db7dc-122">obrigatório</span><span class="sxs-lookup"><span data-stu-id="db7dc-122">required</span></span>  <br/> ||<span data-ttu-id="db7dc-123">Valores do tipo xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="db7dc-123">Values of the xsd:unsignedInt type.</span></span>  <br/> |
+|<span data-ttu-id="fecdc-120">IX</span><span class="sxs-lookup"><span data-stu-id="fecdc-120">IX</span></span>  <br/> |<span data-ttu-id="fecdc-121">xsd:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="fecdc-121">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="fecdc-122">obrigatório</span><span class="sxs-lookup"><span data-stu-id="fecdc-122">required</span></span>  <br/> ||<span data-ttu-id="fecdc-123">Valores do tipo xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="fecdc-123">Values of the xsd:unsignedInt type.</span></span>  <br/> |
    
 

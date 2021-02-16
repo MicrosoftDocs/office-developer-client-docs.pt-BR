@@ -17,48 +17,48 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439930"
 ---
-# <a name="pidtagpstpasswordszold-canonical-property"></a><span data-ttu-id="a9b6b-103">Propriedade canônica PidTagPstPasswordSzOld</span><span class="sxs-lookup"><span data-stu-id="a9b6b-103">PidTagPstPasswordSzOld Canonical Property</span></span>
+# <a name="pidtagpstpasswordszold-canonical-property"></a><span data-ttu-id="6fbe5-103">Propriedade canônica PidTagPstPasswordSzOld</span><span class="sxs-lookup"><span data-stu-id="6fbe5-103">PidTagPstPasswordSzOld Canonical Property</span></span>
 
   
   
-<span data-ttu-id="a9b6b-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a9b6b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6fbe5-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6fbe5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a9b6b-105">Contém a senha da tabela de armazenamento pessoal (arquivo. pst) que está sendo configurada.</span><span class="sxs-lookup"><span data-stu-id="a9b6b-105">Contains the password of the personal storage table (.pst file) being configured.</span></span>
+<span data-ttu-id="6fbe5-105">Contém a senha da tabela de armazenamento pessoal (arquivo .pst) que está sendo configurada.</span><span class="sxs-lookup"><span data-stu-id="6fbe5-105">Contains the password of the personal storage table (.pst file) being configured.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a9b6b-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="a9b6b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a9b6b-107">PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W</span><span class="sxs-lookup"><span data-stu-id="a9b6b-107">PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W</span></span>  <br/> |
-|<span data-ttu-id="a9b6b-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="a9b6b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a9b6b-109">0x6703</span><span class="sxs-lookup"><span data-stu-id="a9b6b-109">0x6703</span></span>  <br/> |
-|<span data-ttu-id="a9b6b-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="a9b6b-110">Data type:</span></span>  <br/> |<span data-ttu-id="a9b6b-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a9b6b-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="a9b6b-112">Área:</span><span class="sxs-lookup"><span data-stu-id="a9b6b-112">Area:</span></span>  <br/> |<span data-ttu-id="a9b6b-113">Tabela de armazenamento pessoal (. pst) interna</span><span class="sxs-lookup"><span data-stu-id="a9b6b-113">Personal storage table (.pst) internal</span></span>  <br/> |
+|<span data-ttu-id="6fbe5-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="6fbe5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6fbe5-107">PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W</span><span class="sxs-lookup"><span data-stu-id="6fbe5-107">PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W</span></span>  <br/> |
+|<span data-ttu-id="6fbe5-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="6fbe5-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6fbe5-109">0x6703</span><span class="sxs-lookup"><span data-stu-id="6fbe5-109">0x6703</span></span>  <br/> |
+|<span data-ttu-id="6fbe5-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="6fbe5-110">Data type:</span></span>  <br/> |<span data-ttu-id="6fbe5-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="6fbe5-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="6fbe5-112">Área:</span><span class="sxs-lookup"><span data-stu-id="6fbe5-112">Area:</span></span>  <br/> |<span data-ttu-id="6fbe5-113">Tabela de armazenamento pessoal (.pst) interna</span><span class="sxs-lookup"><span data-stu-id="6fbe5-113">Personal storage table (.pst) internal</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="a9b6b-114">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="a9b6b-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6fbe5-114">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="6fbe5-114">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="a9b6b-115">Especificações do protocolo</span><span class="sxs-lookup"><span data-stu-id="a9b6b-115">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="6fbe5-115">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="6fbe5-115">Protocol specifications</span></span>
 
-<span data-ttu-id="a9b6b-116">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="a9b6b-116">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="6fbe5-116">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="6fbe5-116">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="a9b6b-117">Fornece referências às especificações relacionadas do protocolo do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="a9b6b-117">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="6fbe5-117">Fornece referências a especificações de protocolo relacionadas do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="6fbe5-117">Provides references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="a9b6b-118">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="a9b6b-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6fbe5-118">Arquivos de header</span><span class="sxs-lookup"><span data-stu-id="6fbe5-118">Header files</span></span>
 
-<span data-ttu-id="a9b6b-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="a9b6b-119">Mapidefs.h</span></span>
+<span data-ttu-id="6fbe5-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6fbe5-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="a9b6b-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="a9b6b-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="6fbe5-120">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="6fbe5-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="a9b6b-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="a9b6b-121">Mapitags.h</span></span>
+<span data-ttu-id="6fbe5-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="6fbe5-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="a9b6b-122">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="a9b6b-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="6fbe5-122">Contém definições de propriedades listadas como propriedades associadas.</span><span class="sxs-lookup"><span data-stu-id="6fbe5-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a9b6b-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="a9b6b-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6fbe5-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="6fbe5-123">See also</span></span>
 
 
 
-[<span data-ttu-id="a9b6b-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="a9b6b-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6fbe5-124">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="6fbe5-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="a9b6b-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="a9b6b-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6fbe5-125">Propriedades canônicas MAPI</span><span class="sxs-lookup"><span data-stu-id="6fbe5-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="a9b6b-126">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="a9b6b-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6fbe5-126">Mapeando nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="6fbe5-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="a9b6b-127">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="a9b6b-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6fbe5-127">Mapeando nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="6fbe5-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

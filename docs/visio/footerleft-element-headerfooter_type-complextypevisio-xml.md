@@ -14,42 +14,42 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539555"
 ---
-# <a name="footerleft-element-headerfootertype-complextype-visio-xml"></a><span data-ttu-id="62159-103">Elemento FooterLeft (HeaderFooter_Type complexType) (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="62159-103">FooterLeft element (HeaderFooter_Type complexType) (Visio XML)</span></span>
+# <a name="footerleft-element-headerfooter_type-complextype-visio-xml"></a><span data-ttu-id="d7cbe-103">Elemento FooterLeft (HeaderFooter_Type complexType) (XML do Visio)</span><span class="sxs-lookup"><span data-stu-id="d7cbe-103">FooterLeft element (HeaderFooter_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="62159-104">Contém a cadeia de caracteres de texto que aparece na parte esquerda do rodapé de um documento.</span><span class="sxs-lookup"><span data-stu-id="62159-104">Contains the text string that appears in the left portion of a document's footer.</span></span>
+<span data-ttu-id="d7cbe-104">Contém a cadeia de caracteres de texto que aparece na parte esquerda do rodapé de um documento.</span><span class="sxs-lookup"><span data-stu-id="d7cbe-104">Contains the text string that appears in the left portion of a document's footer.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="62159-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="62159-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d7cbe-105">Informações de elemento</span><span class="sxs-lookup"><span data-stu-id="d7cbe-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="62159-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="62159-106">**Element type**</span></span> <br/> |[<span data-ttu-id="62159-107">FooterLeft_Type</span><span class="sxs-lookup"><span data-stu-id="62159-107">FooterLeft_Type</span></span>](footerleft_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="62159-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="62159-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="62159-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="62159-109">**Schema file**</span></span> <br/> |<span data-ttu-id="62159-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="62159-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="62159-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="62159-111">**Document parts**</span></span> <br/> |<span data-ttu-id="62159-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="62159-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="d7cbe-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-106">**Element type**</span></span> <br/> |[<span data-ttu-id="d7cbe-107">FooterLeft_Type</span><span class="sxs-lookup"><span data-stu-id="d7cbe-107">FooterLeft_Type</span></span>](footerleft_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="d7cbe-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="d7cbe-109">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-109">**Schema file**</span></span> <br/> |<span data-ttu-id="d7cbe-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="d7cbe-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="d7cbe-111">**Partes do documento**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-111">**Document parts**</span></span> <br/> |<span data-ttu-id="d7cbe-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="d7cbe-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="62159-113">Definição</span><span class="sxs-lookup"><span data-stu-id="62159-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="d7cbe-113">Definição</span><span class="sxs-lookup"><span data-stu-id="d7cbe-113">Definition</span></span>
 
 ```XML
 < xs:element name="FooterLeft" type="FooterLeft_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="62159-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="62159-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="d7cbe-114">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="d7cbe-114">Elements and attributes</span></span>
 
-<span data-ttu-id="62159-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="62159-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="d7cbe-115">Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="d7cbe-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="62159-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="62159-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d7cbe-116">Elementos pai</span><span class="sxs-lookup"><span data-stu-id="d7cbe-116">Parent elements</span></span>
 
-|<span data-ttu-id="62159-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="62159-117">**Element**</span></span>|<span data-ttu-id="62159-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="62159-118">**Type**</span></span>|<span data-ttu-id="62159-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="62159-119">**Description**</span></span>|
+|<span data-ttu-id="d7cbe-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-117">**Element**</span></span>|<span data-ttu-id="d7cbe-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-118">**Type**</span></span>|<span data-ttu-id="d7cbe-119">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d7cbe-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="62159-120">HeaderFooter</span><span class="sxs-lookup"><span data-stu-id="62159-120">HeaderFooter</span></span>](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="62159-121">HeaderFooter_Type</span><span class="sxs-lookup"><span data-stu-id="62159-121">HeaderFooter_Type</span></span>](headerfooter_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="62159-122">Contém elementos do cabeçalho e rodapé de um documento.</span><span class="sxs-lookup"><span data-stu-id="62159-122">Contains elements for a document's header and footer.</span></span>  <br/> |
+|[<span data-ttu-id="d7cbe-120">HeaderFooter</span><span class="sxs-lookup"><span data-stu-id="d7cbe-120">HeaderFooter</span></span>](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="d7cbe-121">HeaderFooter_Type</span><span class="sxs-lookup"><span data-stu-id="d7cbe-121">HeaderFooter_Type</span></span>](headerfooter_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="d7cbe-122">Contém elementos para o rodapé e o rodapé de um documento.</span><span class="sxs-lookup"><span data-stu-id="d7cbe-122">Contains elements for a document's header and footer.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="62159-123">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="62159-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d7cbe-123">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="d7cbe-123">Child elements</span></span>
 
-<span data-ttu-id="62159-124">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="62159-124">None.</span></span>
+<span data-ttu-id="d7cbe-124">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="d7cbe-124">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="62159-125">Atributos</span><span class="sxs-lookup"><span data-stu-id="62159-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d7cbe-125">Atributos</span><span class="sxs-lookup"><span data-stu-id="d7cbe-125">Attributes</span></span>
 
-<span data-ttu-id="62159-126">Nenhum</span><span class="sxs-lookup"><span data-stu-id="62159-126">None.</span></span>
+<span data-ttu-id="d7cbe-126">Nenhum</span><span class="sxs-lookup"><span data-stu-id="d7cbe-126">None.</span></span>
   
 
